@@ -1,22 +1,28 @@
 Personas:
-Ben, 22, college student. He wants to cook more but is often too busy to have time to plan out what she is cooking. 
+Ben, 22, college student. He wants to cook more but is often too busy to have time to plan out what he is cooking. 
 Alex, 16, high school student. She makes the same meal every day and wants to branch out her culinary experience.
 Emily, 25, accountant. She has never cooked for herself before and is wanting to figure it out how to start cooking.
 Josh, 19, college student. He allows his food to go bad and doesn't cook it fast enough.
+Arnold, 79, body builder. He wants to track his macros for weight gain.
 
 User stories:
-As Ben, 
- (at least 2) — describe the people who will use your app. Each persona has a name, background, and goals.
-Example: Maya, 22, college student. She wants to track the books she has read and get recommendations from friends.
-User stories (at least 4) — written in this format: "As a [persona], I want to [action] so that [benefit]."
-Example: "As Maya, I want to see a list of books my friends have rated so that I can decide what to read next."
-Acceptance criteria for each user story — 2–3 conditions that must be true for the story to be considered done.
-Example: Given I am logged in, when I visit the Friends page, then I see a list of books rated by my friends in the last 30 days.
-Use cases (at least 2) — describe a specific interaction between a user and the system step by step.
-Example use case — Add a book to reading list:
-Actor: Maya
-Steps: 1. Maya searches for a book by title. 2. System shows results. 3. Maya clicks "Add to my list." 4. System confirms the book was added.
-MVP definition — your app will grow every sprint. The MVP (Minimum Viable Product) is the smallest useful version of your app for this semester. Write two lists:
-In scope: user login, add/view/edit/delete books, view friends' ratings.
-Out of scope: mobile app, social sharing, external book API.
-This is not the final product. It is what you commit to building over the semester.
+As Josh, a forgetful college student, I want to track the expiration date of my ingredients.
+As Josh, I want to prioritize cooking with food closer to its expiration date.
+As Arnold, a health-focused user, I want to track the calories of each ingredient I cook with from the internet or by scanning the barcode.
+As Arnold, I'm training for my bodybuilding competition and want to use calorie data of ingredients to plan meals to hit my macro/weight goals.
+As Ben, I want a simple to use app that will give me delicious and easy to make recipes every week
+
+Use Cases: 
+Case- Store Planning
+Actor: Emily
+Steps: 1. Maya searches for recipes by nationality. 2. System displays list of recommendations 3. Maya clicks add to my grocery list on 3 recipes. 4. System queries grocery stores for ingredients 5. System returns list of results
+
+Case- Pantry management
+Actor: Josh
+Steps: 1. Josh queries recipes searches for dinner recipes 2. System displays list of recommendations 3. Josh filters by expiring soon. 4. System displays recipes list. 5. Josh selects recipes
+
+MVP:
+
+In scope: User login, makes weeks list of unique recipes and ingredients, user prefences. 
+Out of Scope: Mobile app, external api to check local ingridents.
+
