@@ -26,4 +26,3 @@ MVP:
 In scope: User login, makes weeks list of unique recipes and ingredients, user prefences. 
 Out of Scope: Mobile app, external api to check local ingridents.
 
-
