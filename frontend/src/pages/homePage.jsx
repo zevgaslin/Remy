@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react';
-import recipies from '../components/recipes';
-import { getAllBooks } from '../services/recipeServices';
+import RecipeCard from '../components/recipes';
+import { getAllRecipes } from '../services/recipeServices';
 
 function HomePage() {
-  const [books, setBooks]     = useState([]);
+  const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError]     = useState(null);
 
   useEffect(() => {
-    getAllBooks()
+    getAllRecipes()
       .then(data => {
-        setBooks(data);
+        setRecipes(data);
         setLoading(false);
       })
       .catch(err => {
@@ -24,9 +24,9 @@ function HomePage() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>My Book Club</h1>
-      {books.map(book => (
-        <BookCard key={book.id} title={book.title} author={book.author} />
+      <h1>My Recipes</h1>
+      {recipes.map(recipe => (
+        <RecipeCard key={recipe.id} name={recipe.name} instructions={recipe.instructions} />
       ))}
     </div>
   );
