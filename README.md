@@ -22,4 +22,7 @@ npm install
 npm run dev
 ```
 Runs on http://localhost:5173 and calls the backend's `/api/health` endpoint on load to confirm the two are connected.
+
+cd frontend 
+npm run dev
 `
