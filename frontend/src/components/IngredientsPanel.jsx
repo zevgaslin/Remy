@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { getAllIngredients } from '../services/ingredientServices';
+import { getMyIngredients } from '../services/ingredientServices';
+import AddIngredientModal from './AddIngredientModal';
 
 function daysUntil(dateStr) {
   const today = new Date();
@@ -20,13 +21,15 @@ function urgencyClass(daysLeft) {
   return '';
 }
 
-function IngredientsPanel() {
+function IngredientsPanel({ currentUser }) {
   const [ingredients, setIngredients] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
-    getAllIngredients()
+    if (!currentUser) return;
+    getMyIngredients(currentUser.token)
       .then((data) => {
         setIngredients(data);
         setLoading(false);
@@ -35,16 +38,26 @@ function IngredientsPanel() {
         setError('Could not load ingredients. Is the backend running?');
         setLoading(false);
       });
-  }, []);
+  }, [currentUser]);
+
+  function handleAdded(newIngredient) {
+    setIngredients((prev) => [...prev, newIngredient]);
+    setModalOpen(false);
+  }
+
+  const sortedIngredients = [...ingredients].sort(
+    (a, b) => daysUntil(a.expirationDate) - daysUntil(b.expirationDate),
+  );
 
   return (
     <section className="ingredients-panel">
       <h2>Expiring Soon</h2>
-      {loading && <p>Loading ingredients...</p>}
-      {error && <p className="error-text">{error}</p>}
-      {!loading && !error && (
+      {!currentUser && <p>Log in to track your ingredients.</p>}
+      {currentUser && loading && <p>Loading ingredients...</p>}
+      {currentUser && error && <p className="error-text">{error}</p>}
+      {currentUser && !loading && !error && (
         <ul className="ingredients-list">
-          {ingredients.map((item) => {
+          {sortedIngredients.map((item) => {
             const daysLeft = daysUntil(item.expirationDate);
             return (
               <li key={item.id} className={urgencyClass(daysLeft)}>
@@ -55,7 +68,21 @@ function IngredientsPanel() {
           })}
         </ul>
       )}
-      <button type="button" className="add-ingredient-button">+ Add Ingredient</button>
+      <button
+        type="button"
+        className="add-ingredient-button"
+        disabled={!currentUser}
+        onClick={() => setModalOpen(true)}
+      >
+        + Add Ingredient
+      </button>
+      {modalOpen && (
+        <AddIngredientModal
+          token={currentUser.token}
+          onClose={() => setModalOpen(false)}
+          onAdded={handleAdded}
+        />
+      )}
     </section>
   );
 }
