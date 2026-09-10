@@ -1,11 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { getAllIngredients } from '../services/ingredientServices';
 
-const MOCK_EXPIRING = [
-  { id: 1, name: 'Spinach', daysLeft: -1 },
-  { id: 2, name: 'Chicken Breast', daysLeft: 0 },
-  { id: 3, name: 'Greek Yogurt', daysLeft: 2 },
-  { id: 4, name: 'Bell Peppers', daysLeft: 3 },
-];
+function daysUntil(dateStr) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const target = new Date(`${dateStr}T00:00:00`);
+  return Math.round((target - today) / (1000 * 60 * 60 * 24));
+}
 
 function statusLabel(daysLeft) {
   if (daysLeft < 0) return 'Expired';
@@ -20,19 +21,40 @@ function urgencyClass(daysLeft) {
 }
 
 function IngredientsPanel() {
-  const [ingredients] = useState(MOCK_EXPIRING);
+  const [ingredients, setIngredients] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    getAllIngredients()
+      .then((data) => {
+        setIngredients(data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setError('Could not load ingredients. Is the backend running?');
+        setLoading(false);
+      });
+  }, []);
 
   return (
     <section className="ingredients-panel">
       <h2>Expiring Soon</h2>
-      <ul className="ingredients-list">
-        {ingredients.map((item) => (
-          <li key={item.id} className={urgencyClass(item.daysLeft)}>
-            <span>{item.name}</span>
-            <span className="ingredient-status">{statusLabel(item.daysLeft)}</span>
-          </li>
-        ))}
-      </ul>
+      {loading && <p>Loading ingredients...</p>}
+      {error && <p className="error-text">{error}</p>}
+      {!loading && !error && (
+        <ul className="ingredients-list">
+          {ingredients.map((item) => {
+            const daysLeft = daysUntil(item.expirationDate);
+            return (
+              <li key={item.id} className={urgencyClass(daysLeft)}>
+                <span>{item.name}</span>
+                <span className="ingredient-status">{statusLabel(daysLeft)}</span>
+              </li>
+            );
+          })}
+        </ul>
+      )}
       <button type="button" className="add-ingredient-button">+ Add Ingredient</button>
     </section>
   );
