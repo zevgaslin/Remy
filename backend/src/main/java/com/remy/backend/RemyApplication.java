@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * package under com.remy.backend is picked up automatically via component
  * scanning from this class's package.
  */
-@SpringBootApplication(scanBasePackages = "com.library")
+@SpringBootApplication
 public class RemyApplication {
 
     public static void main(String[] args) {
