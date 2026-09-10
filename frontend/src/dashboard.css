@@ -129,6 +129,157 @@
   opacity: 0.35;
 }
 
+.meal-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--recipe-accent);
+}
+
+.meal-calendar-wrapper {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.meal-calendar {
+  display: grid;
+  grid-template-columns: 110px repeat(7, minmax(90px, 1fr));
+  gap: 6px;
+  min-width: 640px;
+}
+
+.meal-calendar-corner {
+  display: flex;
+  align-items: center;
+}
+
+.add-meal-slot {
+  border: 1px dashed var(--border);
+  background: transparent;
+  color: var(--text);
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-meal-slot:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.meal-day-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 4px;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.meal-day-header.today {
+  background: var(--accent-bg);
+}
+
+.meal-day-header.today .calendar-day-number {
+  color: var(--accent);
+}
+
+.meal-slot-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  padding: 0 6px;
+}
+
+.remove-meal-slot {
+  border: none;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px 4px;
+}
+
+.remove-meal-slot:hover {
+  color: var(--urgent);
+}
+
+.meal-cell {
+  min-height: 48px;
+  border-radius: 8px;
+  background: var(--code-bg);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 4px;
+}
+
+.meal-add-button {
+  width: 100%;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.meal-add-button:hover {
+  border-color: var(--recipe-accent-border);
+  color: var(--recipe-accent);
+  background: var(--recipe-accent-bg);
+}
+
+.meal-chip {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: var(--recipe-accent-bg);
+  border: 1px solid var(--recipe-accent-border);
+  color: var(--text-h);
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  align-self: center;
+  cursor: pointer;
+}
+
+.recipe-hover-popover {
+  position: fixed;
+  z-index: 50;
+  width: 300px;
+  max-width: calc(100vw - 24px);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+  pointer-events: none;
+}
+
+.recipe-hover-popover h4 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: var(--text-h);
+}
+
+.recipe-hover-popover p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
 .calendar-day-number {
   font-size: 16px;
   font-weight: 600;

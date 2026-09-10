@@ -1,4 +1,6 @@
-import { useEffect, useMemo, useState } from 'react';
+import { Fragment, useEffect, useMemo, useState } from 'react';
+import { useRecipeHover } from '../hooks/useRecipeHover';
+import RecipeHoverPopover from './RecipeHoverPopover';
 
 const VIEWS = [
   { id: 'week', label: 'This Week' },
@@ -7,6 +9,13 @@ const VIEWS = [
 ];
 
 const WEEKDAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+const DEFAULT_MEAL_SLOTS = [
+  { id: 'breakfast', label: 'Breakfast' },
+  { id: 'lunch', label: 'Lunch' },
+  { id: 'dinner', label: 'Dinner' },
+  { id: 'snack', label: 'Snack' },
+];
 
 function startOfWeek(date) {
   const d = new Date(date);
@@ -41,6 +50,37 @@ function isSameDay(a, b) {
   return a.toDateString() === b.toDateString();
 }
 
+function dateKey(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+}
+
+function MealCell({ recipe, slotLabel, day }) {
+  const { visible, coords, triggerProps } = useRecipeHover();
+
+  if (!recipe) {
+    return (
+      <div className="meal-cell">
+        <button
+          type="button"
+          className="meal-add-button"
+          aria-label={`Add ${slotLabel} for ${day.toDateString()}`}
+        >
+          +
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="meal-cell">
+      <span className="meal-chip" {...triggerProps}>
+        {recipe.name}
+      </span>
+      {visible && <RecipeHoverPopover recipe={recipe} coords={coords} />}
+    </div>
+  );
+}
+
 function useToday() {
   const [today, setToday] = useState(() => new Date());
 
@@ -63,6 +103,7 @@ function useToday() {
 
 function CalendarPanel() {
   const [view, setView] = useState('week');
+  const [mealSlots, setMealSlots] = useState(DEFAULT_MEAL_SLOTS);
   const today = useToday();
 
   const days = useMemo(() => {
@@ -71,7 +112,37 @@ function CalendarPanel() {
     return buildMonthDays(today);
   }, [view, today]);
 
+  const mockMeals = useMemo(
+    () => ({
+      [`${dateKey(today)}-dinner`]: {
+        name: 'Garlic Butter Pasta',
+        instructions: 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.',
+      },
+      [`${dateKey(addDays(today, 1))}-lunch`]: {
+        name: 'Veggie Stir Fry',
+        instructions: 'Chop leftover vegetables. Stir fry in oil with soy sauce and ginger over high heat for 5-7 minutes.',
+      },
+    }),
+    [today],
+  );
+
+  const plannedDateKeys = useMemo(
+    () => new Set(Object.keys(mockMeals).map((key) => key.slice(0, key.lastIndexOf('-')))),
+    [mockMeals],
+  );
+
   const monthLabel = today.toLocaleDateString(undefined, { month: 'long', year: 'numeric' });
+
+  function addMealSlot() {
+    setMealSlots((prev) => [
+      ...prev,
+      { id: `custom-${Date.now()}`, label: `Meal ${prev.length + 1}` },
+    ]);
+  }
+
+  function removeMealSlot(id) {
+    setMealSlots((prev) => (prev.length > 1 ? prev.filter((slot) => slot.id !== id) : prev));
+  }
 
   return (
     <section className="calendar-panel">
@@ -90,29 +161,74 @@ function CalendarPanel() {
           ))}
         </div>
       </div>
-      <div className={`calendar-grid${view === 'month' ? ' month' : ''}`}>
-        {view === 'month' &&
-          WEEKDAY_LABELS.map((label) => (
+
+      {view === 'month' ? (
+        <div className="calendar-grid month">
+          {WEEKDAY_LABELS.map((label) => (
             <div key={label} className="calendar-weekday">{label}</div>
           ))}
-        {days.map((day) => (
-          <div
-            key={day.toISOString()}
-            className={
-              'calendar-day' +
-              (isSameDay(day, today) ? ' today' : '') +
-              (view === 'month' && day.getMonth() !== today.getMonth() ? ' outside' : '')
-            }
-          >
-            <span className="calendar-day-number">{day.getDate()}</span>
-            {view !== 'month' && (
-              <span className="calendar-day-name">
-                {day.toLocaleDateString(undefined, { weekday: 'short' })}
-              </span>
-            )}
+          {days.map((day) => (
+            <div
+              key={dateKey(day)}
+              className={
+                'calendar-day' +
+                (isSameDay(day, today) ? ' today' : '') +
+                (day.getMonth() !== today.getMonth() ? ' outside' : '')
+              }
+            >
+              <span className="calendar-day-number">{day.getDate()}</span>
+              {plannedDateKeys.has(dateKey(day)) && <span className="meal-dot" />}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="meal-calendar-wrapper">
+          <div className="meal-calendar">
+            <div className="meal-calendar-corner">
+              <button type="button" className="add-meal-slot" onClick={addMealSlot}>
+                + Meal
+              </button>
+            </div>
+            {days.map((day) => (
+              <div
+                key={dateKey(day)}
+                className={`meal-day-header${isSameDay(day, today) ? ' today' : ''}`}
+              >
+                <span className="calendar-day-number">{day.getDate()}</span>
+                <span className="calendar-day-name">
+                  {day.toLocaleDateString(undefined, { weekday: 'short' })}
+                </span>
+              </div>
+            ))}
+
+            {mealSlots.map((slot) => (
+              <Fragment key={slot.id}>
+                <div className="meal-slot-label">
+                  <span>{slot.label}</span>
+                  {mealSlots.length > 1 && (
+                    <button
+                      type="button"
+                      className="remove-meal-slot"
+                      aria-label={`Remove ${slot.label}`}
+                      onClick={() => removeMealSlot(slot.id)}
+                    >
+                      ×
+                    </button>
+                  )}
+                </div>
+                {days.map((day) => (
+                  <MealCell
+                    key={`${slot.id}-${dateKey(day)}`}
+                    recipe={mockMeals[`${dateKey(day)}-${slot.id}`]}
+                    slotLabel={slot.label}
+                    day={day}
+                  />
+                ))}
+              </Fragment>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
     </section>
   );
 }
