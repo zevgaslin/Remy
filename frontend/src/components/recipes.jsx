@@ -1,8 +1,28 @@
-function RecipeCard({ name, instructions }) {
+function RecipeCard({ name, instructions, feedback, onFavorite, onDislike }) {
   return (
-    <div style={{ border: "1px solid #ccc", padding: "12px", margin: "8px", borderRadius: "4px" }}>
-      <h3 style={{ margin: "0 0 4px 0" }}>{name}</h3>
-      <p style={{ margin: 0, color: "#666" }}>{instructions}</p>
+    <div className={`recipe-card${feedback === 'favorite' ? ' favorited' : ''}`}>
+      <div className="recipe-card-info">
+        <h3>{name}</h3>
+        <p>{instructions}</p>
+      </div>
+      <div className="recipe-card-actions">
+        <button
+          type="button"
+          aria-label="Favorite recipe"
+          className={feedback === 'favorite' ? 'active' : ''}
+          onClick={onFavorite}
+        >
+          ♥
+        </button>
+        <button
+          type="button"
+          aria-label="Dislike recipe"
+          className={feedback === 'dislike' ? 'active' : ''}
+          onClick={onDislike}
+        >
+          ✕
+        </button>
+      </div>
     </div>
   );
 }

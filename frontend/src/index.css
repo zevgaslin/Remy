@@ -2,6 +2,7 @@
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
+  --page-bg: #f3efe9;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -11,6 +12,14 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
+  --urgent: #c8402f;
+  --urgent-bg: rgba(200, 64, 47, 0.12);
+  --warning: #b3701a;
+  --warning-bg: rgba(179, 112, 26, 0.14);
+  --recipe-accent: #dd6a35;
+  --recipe-accent-bg: rgba(221, 106, 53, 0.12);
+  --recipe-accent-border: rgba(221, 106, 53, 0.5);
+
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
@@ -19,7 +28,7 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: var(--bg);
+  background: var(--page-bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -35,6 +44,7 @@
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
+    --page-bg: #0d0e12;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
@@ -43,6 +53,14 @@
     --social-bg: rgba(47, 48, 58, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+
+    --urgent: #ff7a68;
+    --urgent-bg: rgba(255, 122, 104, 0.16);
+    --warning: #e3a854;
+    --warning-bg: rgba(227, 168, 84, 0.16);
+    --recipe-accent: #ff9466;
+    --recipe-accent-bg: rgba(255, 148, 102, 0.16);
+    --recipe-accent-border: rgba(255, 148, 102, 0.5);
   }
 
   #social .button-icon {
@@ -52,14 +70,10 @@
 
 body {
   margin: 0;
+  background: var(--page-bg);
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
