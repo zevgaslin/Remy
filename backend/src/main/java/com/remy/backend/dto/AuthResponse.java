@@ -1,15 +1,17 @@
 package com.remy.backend.dto;
 
-public class UserResponse {
+public class AuthResponse {
 
     private final Long id;
     private final String username;
     private final String email;
+    private final String token;
 
-    public UserResponse(Long id, String username, String email) {
+    public AuthResponse(Long id, String username, String email, String token) {
         this.id = id;
         this.username = username;
         this.email = email;
+        this.token = token;
     }
 
     public Long getId() {
@@ -22,5 +24,9 @@ public class UserResponse {
 
     public String getEmail() {
         return email;
+    }
+
+    public String getToken() {
+        return token;
     }
 }

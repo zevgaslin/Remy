@@ -44,6 +44,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <!-- Lets TestRestTemplate use Apache HttpClient instead of the JDK's
+                 HttpURLConnection, which mishandles a 401 response to a POST
+                 with a body ("cannot retry due to server authentication"). -->
+            <groupId>org.apache.httpcomponents.client5</groupId>
+            <artifactId>httpclient5</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

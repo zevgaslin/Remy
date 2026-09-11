@@ -1,10 +1,11 @@
 package com.remy.backend.controller;
 
+import com.remy.backend.dto.AuthResponse;
 import com.remy.backend.dto.LoginRequest;
 import com.remy.backend.dto.RegisterRequest;
-import com.remy.backend.dto.UserResponse;
 import com.remy.backend.model.User;
 import com.remy.backend.repository.UserRepository;
+import com.remy.backend.service.TokenService;
 import java.util.Map;
 import java.util.Optional;
 import org.springframework.http.HttpStatus;
@@ -21,10 +22,12 @@ public class AuthController {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
+    private final TokenService tokenService;
 
-    public AuthController(UserRepository userRepository, PasswordEncoder passwordEncoder) {
+    public AuthController(UserRepository userRepository, PasswordEncoder passwordEncoder, TokenService tokenService) {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
+        this.tokenService = tokenService;
     }
 
     @PostMapping("/register")
@@ -57,8 +60,9 @@ public class AuthController {
         return ResponseEntity.ok(toResponse(match.get()));
     }
 
-    private UserResponse toResponse(User user) {
-        return new UserResponse(user.getId(), user.getUsername(), user.getEmail());
+    private AuthResponse toResponse(User user) {
+        String token = tokenService.issueToken(user.getId());
+        return new AuthResponse(user.getId(), user.getUsername(), user.getEmail(), token);
     }
 
     private boolean isBlank(String value) {

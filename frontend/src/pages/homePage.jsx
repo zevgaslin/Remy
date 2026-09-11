@@ -17,7 +17,7 @@ function HomePage() {
       />
       <CalendarPanel />
       <div className="dashboard-bottom">
-        <IngredientsPanel />
+        <IngredientsPanel key={currentUser?.id ?? 'guest'} currentUser={currentUser} />
         <RecipesPanel />
       </div>
     </div>
