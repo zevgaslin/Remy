@@ -15,5 +15,4 @@ public class HealthController {
     public Map<String, String> health() {
         return Map.of("status", "ok", "service", "remy-backend");
     }
-
 }
