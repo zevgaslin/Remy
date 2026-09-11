@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:8080/api';
+import { API_BASE } from './apiBase.js';
 
 async function parseResponse(response) {
   const data = await response.json().catch(() => ({}));
