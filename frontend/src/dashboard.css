@@ -590,7 +590,73 @@
 .error-text {
   color: var(--urgent);
 }
+.day-timeline-scroll-area {
+  position: relative; 
+  overflow-y: auto; 
+  height: 600px; 
+}
 
+.current-time-indicator {
+  position: absolute; 
+  left: 60px; 
+  right: 0; 
+  z-index: 10; 
+  pointer-events: none;
+}
+
+.current-time-line {
+  border-top: 2px solid #ea4335;
+  width: 100%;
+}
+
+.current-time-dot {
+  width: 12px; 
+  height: 12px; 
+  background-color: #ea4335; 
+  border-radius: 50%; 
+  position: absolute; 
+  top: -5px; 
+  left: -6px;
+}
+
+.timeline-hour-row {
+  display: flex; 
+  min-height: 60px; 
+}
+
+.timeline-axis-label {
+  width: 60px; 
+  text-align: right; 
+  padding-right: 12px; 
+  color: #9aa0a6; 
+  font-size: 0.75rem; 
+  transform: translateY(-50%); 
+}
+
+.timeline-grid-cell {
+  flex: 1; 
+  border-top: 1px solid #3c4043; 
+  position: relative;
+  padding: 2px;
+}
+
+.calendar-event-block {
+  background-color: #2c2d30; 
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.day-timeline-wrapper {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+}
+
+.day-timeline-scroll-area {
+  width: 100%;
+}
 @media (max-width: 900px) {
   .dashboard {
     grid-template-rows: auto auto auto;

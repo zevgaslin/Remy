@@ -3,6 +3,7 @@ import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
 
 const VIEWS = [
+  { id: 'day', label: 'Today' },
   { id: 'week', label: 'This Week' },
   { id: 'next7', label: 'Next 7 Days' },
   { id: 'month', label: 'Month' },
@@ -13,9 +14,22 @@ const WEEKDAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 const DEFAULT_MEAL_SLOTS = [
   { id: 'breakfast', label: 'Breakfast' },
   { id: 'lunch', label: 'Lunch' },
-  { id: 'dinner', label: 'Dinner' },
   { id: 'snack', label: 'Snack' },
+  { id: 'dinner', label: 'Dinner' },
 ];
+
+const SLOT_TO_HOUR = {
+  breakfast: 8,
+  lunch: 12,
+  snack: 15,
+  dinner: 18,
+};
+
+function formatHour(h) {
+  if (h === 0) return ''; // Usually 12 AM is left blank or replaced with date header
+  if (h === 12) return '12 PM';
+  return h < 12 ? `${h} AM` : `${h - 12} PM`;
+}
 
 function startOfWeek(date) {
   const d = new Date(date);
@@ -59,23 +73,25 @@ function MealCell({ recipe, slotLabel, day }) {
 
   if (!recipe) {
     return (
-      <div className="meal-cell">
+      <div className="meal-cell empty">
         <button
           type="button"
           className="meal-add-button"
           aria-label={`Add ${slotLabel} for ${day.toDateString()}`}
         >
-          +
+          <span className="event-label">{slotLabel}</span>
+          <span className="add-icon">+</span>
         </button>
       </div>
     );
   }
 
   return (
-    <div className="meal-cell">
-      <span className="meal-chip" {...triggerProps}>
-        {recipe.name}
-      </span>
+    <div className="meal-cell filled">
+      <div className="meal-chip" {...triggerProps}>
+        <div className="event-label">{slotLabel}</div>
+        <div className="event-title">{recipe.name}</div>
+      </div>
       {visible && <RecipeHoverPopover recipe={recipe} coords={coords} />}
     </div>
   );
@@ -101,12 +117,33 @@ function useToday() {
   return today;
 }
 
+function useCurrentTimeProgress() {
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    const updateProgress = () => {
+      const now = new Date();
+      // Calculate percentage of the day elapsed
+      const percent = ((now.getHours() * 60 + now.getMinutes()) / (24 * 60)) * 100;
+      setProgress(percent);
+    };
+
+    updateProgress();
+    const interval = setInterval(updateProgress, 60000); // Update every minute
+    return () => clearInterval(interval);
+  }, []);
+
+  return progress;
+}
+
 function CalendarPanel() {
-  const [view, setView] = useState('week');
+  const [view, setView] = useState('day');
   const [mealSlots, setMealSlots] = useState(DEFAULT_MEAL_SLOTS);
   const today = useToday();
+  const timeProgress = useCurrentTimeProgress();
 
   const days = useMemo(() => {
+    if (view === 'day') return [today];
     if (view === 'week') return buildWeekDays(today);
     if (view === 'next7') return buildNext7Days(today);
     return buildMonthDays(today);
@@ -181,8 +218,62 @@ function CalendarPanel() {
             </div>
           ))}
         </div>
+      ) : view === 'day' ? (
+        <div className="calendar-grid day-timeline-wrapper">
+          <div className="day-timeline-header">
+            <div className="time-spacer" />
+            <div className="day-header-content today">
+              <span className="calendar-day-name">
+                {today.toLocaleDateString(undefined, { weekday: 'short' }).toUpperCase()}
+              </span>
+              <span className="calendar-day-number">{today.getDate()}</span>
+            </div>
+          </div>
+          
+          <div className="day-timeline-scroll-area">
+            {isSameDay(today, new Date()) && (
+              <div 
+                className="current-time-indicator" 
+                style={{ top: `${timeProgress}%` }}
+              >
+                <div className="current-time-dot" />
+                <div className="current-time-line" />
+              </div>
+            )}
+            
+            <div className="day-timeline-grid">
+              {Array.from({ length: 24 }).map((_, hour) => {
+                const mealsThisHour = mealSlots.filter(
+                  (slot, index) => 
+                    SLOT_TO_HOUR[slot.id] === hour || 
+                    (!SLOT_TO_HOUR[slot.id] && hour === Math.min(20 + index, 23))
+                );
+
+                return (
+                  <div key={hour} className="timeline-hour-row">
+                    <div className="timeline-axis-label">
+                      <span>{formatHour(hour)}</span>
+                    </div>
+                    <div className="timeline-grid-cell">
+                      {mealsThisHour.map((slot) => (
+                        <div key={slot.id} className="calendar-event-block">
+                          <MealCell
+                            recipe={mockMeals[`${dateKey(today)}-${slot.id}`]}
+                            slotLabel={slot.label}
+                            day={today}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
       ) : (
         <div className="meal-calendar-wrapper">
+          {/* Week / Next 7 Views remain unchanged */}
           <div className="meal-calendar">
             <div className="meal-calendar-corner">
               <button type="button" className="add-meal-slot" onClick={addMealSlot}>
