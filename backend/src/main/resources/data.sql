@@ -6,6 +6,10 @@ INSERT INTO users (username, email, password_hash)
 SELECT 'remy', 'remy@example.com', '$2a$10$fgTiVsP5u75/qAikGV7zC.kzaVQxlMdvRuI2JKm7ERLCDrFTT3Ooa'
 WHERE NOT EXISTS (SELECT 1 FROM users WHERE username = 'remy');
 
+INSERT INTO users (username, email, password_hash)
+SELECT 'admin', 'admin@example.com', '$2a$10$fgTiVsP5u75/qAikGV7zC.kzaVQxlMdvRuI2JKm7ERLCDrFTT3Ooa'
+WHERE NOT EXISTS (SELECT 1 FROM users WHERE username = 'admin');
+
 INSERT INTO recipe (name, instructions)
 SELECT 'Garlic Butter Pasta', 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.'
 WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Garlic Butter Pasta');
