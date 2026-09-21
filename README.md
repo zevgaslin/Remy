@@ -1,4 +1,7 @@
 # Remy
+
+[![Backend CI](https://github.com/zevgaslin/Remy/actions/workflows/backend-ci.yml/badge.svg)](https://github.com/zevgaslin/Remy/actions/workflows/backend-ci.yml)
+
 Software Studio Project
 
 A website that recommends what to cook for the week based on the ingredients you have on hand and their expiration dates. See [docs/requirements.md](docs/requirements.md) for personas, user stories, and MVP scope.
@@ -8,6 +11,12 @@ A website that recommends what to cook for the week based on the ingredients you
 - `backend/` — Spring Boot (Java) API. Entry point: `src/main/java/com/remy/backend/RemyApplication.java`. Controllers in `controller/`, JPA entities in `model/`, data access in `repository/`, request/response shapes in `dto/`.
 - `frontend/` — React (Vite) app. Entry point: `src/App.jsx`, which renders the dashboard at `src/pages/homePage.jsx`.
 - `DataBase/remy_schema.sql` — reference schema only; not wired into the app. The actual schema comes from the JPA entities via Hibernate.
+- `docs/architecture/` — design docs and generated class diagram assets.
+
+## Architecture
+
+- Class diagram (editable): [docs/architecture/Remy-Class-Diagram.drawio](docs/architecture/Remy-Class-Diagram.drawio)
+- Class diagram (PNG): [docs/architecture/Remy-Class-Diagram.png](docs/architecture/Remy-Class-Diagram.png)
 
 ## What's built so far
 

@@ -60,6 +60,20 @@ class AuthControllerTest {
     }
 
     @Test
+    void loginSucceedsWithHardcodedTestingCredentials() {
+        LoginRequest login = new LoginRequest();
+        login.setUsername("remy");
+        login.setPassword("remy");
+
+        ResponseEntity<Map> response = restTemplate.postForEntity("/api/auth/login", login, Map.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(response.getBody()).containsEntry("username", "remy");
+        assertThat(response.getBody()).containsKey("token");
+        assertThat(response.getBody()).containsEntry("email", "remy@example.com");
+    }
+
+    @Test
     void loginSucceedsWithCorrectCredentials() {
         restTemplate.postForEntity(
                 "/api/auth/register",
