@@ -26,3 +26,31 @@ export async function createIngredient(token, { name, quantity, unit, expiration
   }
   return data;
 }
+
+export async function updateIngredient(token, id, { name, quantity, unit, expirationDate }) {
+  const response = await fetch(`${API_BASE}/ingredients/${id}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify({ name, quantity, unit, expirationDate }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not update ingredient.');
+  }
+  return data;
+}
+
+export async function deleteIngredient(token, id) {
+  const response = await fetch(`${API_BASE}/ingredients/${id}`, {
+    method: 'DELETE',
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not delete ingredient.');
+  }
+  return data;
+}
