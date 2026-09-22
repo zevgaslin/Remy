@@ -74,6 +74,22 @@ class CrudApiControllerTest {
     }
 
     @Test
+    void ingredientCreateRejectsMissingRequiredFields() {
+        String token = registerAndGetToken("crud_validation_user", "crud-validation@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        ResponseEntity<Map> response = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(Map.of("name", "", "quantity", 1.0, "unit", "pieces"), headers),
+                Map.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
+        assertThat(response.getBody()).containsEntry("error", "Name, unit, and expiration date are required.");
+    }
+
+    @Test
     void recipeCrudFlowWorks() {
         HttpHeaders headers = new HttpHeaders();
 
@@ -105,6 +121,75 @@ class CrudApiControllerTest {
 
         assertThat(deleteResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(deleteResponse.getBody()).containsEntry("deleted", true);
+    }
+
+    @Test
+    void recipeCreateRejectsMissingInstructions() {
+        HttpHeaders headers = new HttpHeaders();
+
+        ResponseEntity<Map> response = restTemplate.exchange(
+                "/api/recipes",
+                HttpMethod.POST,
+                new HttpEntity<>(Map.of("name", "Pasta"), headers),
+                Map.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
+        assertThat(response.getBody()).containsEntry("error", "Name and instructions are required.");
+    }
+
+    @Test
+    void ingredientUpdateRequiresOwnership() {
+        String ownerToken = registerAndGetToken("owner_user", "owner@example.com", "password123");
+        String otherToken = registerAndGetToken("other_user", "other@example.com", "password123");
+
+        HttpHeaders ownerHeaders = new HttpHeaders();
+        ownerHeaders.set("Authorization", "Bearer " + ownerToken);
+
+        CreateIngredientRequest create = new CreateIngredientRequest();
+        create.setName("Banana");
+        create.setQuantity(2.0);
+        create.setUnit("pieces");
+        create.setExpirationDate(java.time.LocalDate.now().plusDays(2));
+
+        ResponseEntity<Map> createResponse = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(create, ownerHeaders),
+                Map.class);
+
+        Long ingredientId = ((Number) createResponse.getBody().get("id")).longValue();
+
+        HttpHeaders otherHeaders = new HttpHeaders();
+        otherHeaders.set("Authorization", "Bearer " + otherToken);
+
+        ResponseEntity<Map> forbiddenResponse = restTemplate.exchange(
+                "/api/ingredients/{id}",
+                HttpMethod.PUT,
+                new HttpEntity<>(Map.of(
+                        "name", "Not Mine",
+                        "quantity", 99.0,
+                        "unit", "pieces",
+                        "expirationDate", java.time.LocalDate.now().plusDays(1)),
+                        otherHeaders),
+                Map.class,
+                ingredientId);
+
+        assertThat(forbiddenResponse.getStatusCode()).isEqualTo(HttpStatus.FORBIDDEN);
+        assertThat(forbiddenResponse.getBody()).containsEntry("error", "You can only update your own ingredients.");
+    }
+
+    @Test
+    void ingredientDeleteRequiresAuthentication() {
+        HttpHeaders headers = new HttpHeaders();
+
+        ResponseEntity<Map> response = restTemplate.exchange(
+                "/api/ingredients/99999",
+                HttpMethod.DELETE,
+                new HttpEntity<>(headers),
+                Map.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
+        assertThat(response.getBody()).containsEntry("error", "Log in to delete ingredients.");
     }
 
     private String registerAndGetToken(String username, String email, String password) {
