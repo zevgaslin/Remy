@@ -192,6 +192,111 @@ class CrudApiControllerTest {
         assertThat(response.getBody()).containsEntry("error", "Log in to delete ingredients.");
     }
 
+    @Test
+    void recipeFeedTracksUserPreferenceAndSkipsReviewedItems() {
+        String token = registerAndGetToken("feed_user", "feed@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        Long firstRecipeId = createRecipe("Crispy Tofu Bowl");
+        Long secondRecipeId = createRecipe("Spicy Ramen");
+        Long thirdRecipeId = createRecipe("Lemon Chicken");
+
+        ResponseEntity<Map> likeResponse = restTemplate.exchange(
+                "/api/recipes/{id}/like",
+                HttpMethod.POST,
+                new HttpEntity<>(headers),
+                Map.class,
+                firstRecipeId);
+
+        assertThat(likeResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(likeResponse.getBody()).containsEntry("preference", "LIKE");
+
+        ResponseEntity<Map> dislikeResponse = restTemplate.exchange(
+                "/api/recipes/{id}/dislike",
+                HttpMethod.POST,
+                new HttpEntity<>(headers),
+                Map.class,
+                secondRecipeId);
+
+        assertThat(dislikeResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(dislikeResponse.getBody()).containsEntry("preference", "DISLIKE");
+
+        ResponseEntity<Map[]> feedResponse = restTemplate.exchange(
+                "/api/recipes/feed?limit=10",
+                HttpMethod.GET,
+                new HttpEntity<>(headers),
+                Map[].class);
+
+        assertThat(feedResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(feedResponse.getBody()).extracting(item -> ((Number) item.get("id")).longValue())
+                .doesNotContain(firstRecipeId, secondRecipeId)
+                .contains(thirdRecipeId);
+
+        ResponseEntity<Map> preferenceResponse = restTemplate.exchange(
+                "/api/recipes/{id}/preference",
+                HttpMethod.GET,
+                new HttpEntity<>(headers),
+                Map.class,
+                firstRecipeId);
+
+        assertThat(preferenceResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(preferenceResponse.getBody()).containsEntry("preference", "LIKE");
+    }
+
+    @Test
+    void notificationsTrackExpiredFoodAndCanBeMarkedRead() {
+        String token = registerAndGetToken("notify_user", "notify@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        CreateIngredientRequest create = new CreateIngredientRequest();
+        create.setName("Milk");
+        create.setQuantity(1.0);
+        create.setUnit("bottle");
+        create.setExpirationDate(java.time.LocalDate.now().minusDays(1));
+
+        ResponseEntity<Map> createResponse = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(create, headers),
+                Map.class);
+
+        assertThat(createResponse.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+
+        ResponseEntity<Map[]> notificationResponse = restTemplate.exchange(
+                "/api/notifications",
+                HttpMethod.GET,
+                new HttpEntity<>(headers),
+                Map[].class);
+
+        assertThat(notificationResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(notificationResponse.getBody()).isNotEmpty();
+        assertThat(notificationResponse.getBody()[0].get("message")).asString().contains("Milk");
+
+        Long notificationId = ((Number) notificationResponse.getBody()[0].get("id")).longValue();
+
+        ResponseEntity<Map> markReadResponse = restTemplate.exchange(
+                "/api/notifications/{id}/read",
+                HttpMethod.POST,
+                new HttpEntity<>(headers),
+                Map.class,
+                notificationId);
+
+        assertThat(markReadResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(markReadResponse.getBody()).containsEntry("read", true);
+    }
+
+    private Long createRecipe(String name) {
+        ResponseEntity<Map> response = restTemplate.exchange(
+                "/api/recipes",
+                HttpMethod.POST,
+                new HttpEntity<>(Map.of("name", name, "instructions", "Cook it well.")),
+                Map.class);
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        return ((Number) response.getBody().get("id")).longValue();
+    }
+
     private String registerAndGetToken(String username, String email, String password) {
         Map<String, Object> body = Map.of(
                 "username", username,
