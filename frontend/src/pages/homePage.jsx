@@ -3,16 +3,20 @@ import TopBar from '../components/TopBar';
 import CalendarPanel from '../components/CalendarPanel';
 import IngredientsPanel from '../components/IngredientsPanel';
 import RecipesPanel from '../components/RecipesPanel';
+import { readStoredUser, saveStoredUser, clearStoredUser } from '../services/authStorage';
 import { getNotifications, markNotificationRead } from '../services/notificationServices';
 import '../dashboard.css';
 
 function HomePage() {
-  const [currentUser, setCurrentUser] = useState(null);
+  const [currentUser, setCurrentUser] = useState(() => readStoredUser());
   const [notifications, setNotifications] = useState([]);
   const [notificationError, setNotificationError] = useState('');
 
   useEffect(() => {
-    if (!currentUser) {
+    if (currentUser) {
+      saveStoredUser(currentUser);
+    } else {
+      clearStoredUser();
       setNotifications([]);
       setNotificationError('');
       return;
