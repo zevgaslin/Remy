@@ -244,6 +244,49 @@ class CrudApiControllerTest {
         assertThat(preferenceResponse.getBody()).containsEntry("preference", "LIKE");
     }
 
+    @Test
+    void notificationsTrackExpiredFoodAndCanBeMarkedRead() {
+        String token = registerAndGetToken("notify_user", "notify@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        CreateIngredientRequest create = new CreateIngredientRequest();
+        create.setName("Milk");
+        create.setQuantity(1.0);
+        create.setUnit("bottle");
+        create.setExpirationDate(java.time.LocalDate.now().minusDays(1));
+
+        ResponseEntity<Map> createResponse = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(create, headers),
+                Map.class);
+
+        assertThat(createResponse.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+
+        ResponseEntity<Map[]> notificationResponse = restTemplate.exchange(
+                "/api/notifications",
+                HttpMethod.GET,
+                new HttpEntity<>(headers),
+                Map[].class);
+
+        assertThat(notificationResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(notificationResponse.getBody()).isNotEmpty();
+        assertThat(notificationResponse.getBody()[0].get("message")).asString().contains("Milk");
+
+        Long notificationId = ((Number) notificationResponse.getBody()[0].get("id")).longValue();
+
+        ResponseEntity<Map> markReadResponse = restTemplate.exchange(
+                "/api/notifications/{id}/read",
+                HttpMethod.POST,
+                new HttpEntity<>(headers),
+                Map.class,
+                notificationId);
+
+        assertThat(markReadResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(markReadResponse.getBody()).containsEntry("read", true);
+    }
+
     private Long createRecipe(String name) {
         ResponseEntity<Map> response = restTemplate.exchange(
                 "/api/recipes",

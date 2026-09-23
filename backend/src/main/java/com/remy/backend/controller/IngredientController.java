@@ -4,6 +4,7 @@ import com.remy.backend.dto.CreateIngredientRequest;
 import com.remy.backend.model.Ingredient;
 import com.remy.backend.repository.IngredientRepository;
 import com.remy.backend.repository.UserRepository;
+import com.remy.backend.service.NotificationService;
 import com.remy.backend.service.TokenService;
 import java.util.List;
 import java.util.Map;
@@ -27,14 +28,17 @@ public class IngredientController {
     private final IngredientRepository ingredientRepository;
     private final UserRepository userRepository;
     private final TokenService tokenService;
+    private final NotificationService notificationService;
 
     public IngredientController(
             IngredientRepository ingredientRepository,
             UserRepository userRepository,
-            TokenService tokenService) {
+            TokenService tokenService,
+            NotificationService notificationService) {
         this.ingredientRepository = ingredientRepository;
         this.userRepository = userRepository;
         this.tokenService = tokenService;
+        this.notificationService = notificationService;
     }
 
     @GetMapping
@@ -67,6 +71,7 @@ public class IngredientController {
         ingredient.setOwner(userRepository.findById(userId.get()).orElseThrow());
 
         Ingredient saved = ingredientRepository.save(ingredient);
+        notificationService.maybeCreateExpiryNotification(saved);
         return ResponseEntity.status(HttpStatus.CREATED).body(saved);
     }
 
@@ -96,7 +101,9 @@ public class IngredientController {
         ingredient.setUnit(request.getUnit());
         ingredient.setExpirationDate(request.getExpirationDate());
 
-        return ResponseEntity.ok(ingredientRepository.save(ingredient));
+        Ingredient saved = ingredientRepository.save(ingredient);
+        notificationService.maybeCreateExpiryNotification(saved);
+        return ResponseEntity.ok(saved);
     }
 
     @DeleteMapping("/{id}")
