@@ -10,12 +10,12 @@ INSERT INTO users (username, email, password_hash)
 SELECT 'admin', 'admin@example.com', '$2a$10$fgTiVsP5u75/qAikGV7zC.kzaVQxlMdvRuI2JKm7ERLCDrFTT3Ooa'
 WHERE NOT EXISTS (SELECT 1 FROM users WHERE username = 'admin');
 
-INSERT INTO recipe (name, instructions)
-SELECT 'Garlic Butter Pasta', 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.'
+INSERT INTO recipe (name, instructions, likes, dislikes)
+SELECT 'Garlic Butter Pasta', 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.', 0, 0
 WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Garlic Butter Pasta');
 
-INSERT INTO recipe (name, instructions)
-SELECT 'Veggie Stir Fry', 'Chop leftover vegetables. Stir fry in oil with soy sauce and ginger over high heat for 5-7 minutes.'
+INSERT INTO recipe (name, instructions, likes, dislikes)
+SELECT 'Veggie Stir Fry', 'Chop leftover vegetables. Stir fry in oil with soy sauce and ginger over high heat for 5-7 minutes.', 0, 0
 WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Veggie Stir Fry');
 
 INSERT INTO ingredient (name, quantity, unit, expiration_date)
