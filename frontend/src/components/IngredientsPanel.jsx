@@ -51,7 +51,7 @@ function IngredientsPanel({ currentUser }) {
 
   return (
     <section className="ingredients-panel">
-      <h2>Expiring Soon</h2>
+      <h2>Ingredients</h2>
       {!currentUser && <p>Log in to track your ingredients.</p>}
       {currentUser && loading && <p>Loading ingredients...</p>}
       {currentUser && error && <p className="error-text">{error}</p>}
