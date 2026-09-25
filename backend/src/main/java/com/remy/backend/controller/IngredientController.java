@@ -62,12 +62,17 @@ public class IngredientController {
             return ResponseEntity.badRequest()
                     .body(Map.of("error", "Name, unit, and expiration date are required."));
         }
+        if (hasNegativeNutrition(request)) {
+            return ResponseEntity.badRequest()
+                    .body(Map.of("error", "Calories, protein, carbs, and fat cannot be negative."));
+        }
 
         Ingredient ingredient = new Ingredient();
         ingredient.setName(request.getName());
         ingredient.setQuantity(request.getQuantity() != null ? request.getQuantity() : 1);
         ingredient.setUnit(request.getUnit());
         ingredient.setExpirationDate(request.getExpirationDate());
+        applyNutrition(ingredient, request);
         ingredient.setOwner(userRepository.findById(userId.get()).orElseThrow());
 
         Ingredient saved = ingredientRepository.save(ingredient);
@@ -88,6 +93,10 @@ public class IngredientController {
             return ResponseEntity.badRequest()
                     .body(Map.of("error", "Name, unit, and expiration date are required."));
         }
+        if (hasNegativeNutrition(request)) {
+            return ResponseEntity.badRequest()
+                    .body(Map.of("error", "Calories, protein, carbs, and fat cannot be negative."));
+        }
 
         Ingredient ingredient = ingredientRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Ingredient not found."));
@@ -100,6 +109,7 @@ public class IngredientController {
         ingredient.setQuantity(request.getQuantity() != null ? request.getQuantity() : 1);
         ingredient.setUnit(request.getUnit());
         ingredient.setExpirationDate(request.getExpirationDate());
+        applyNutrition(ingredient, request);
 
         Ingredient saved = ingredientRepository.save(ingredient);
         notificationService.maybeCreateExpiryNotification(saved);
@@ -124,6 +134,24 @@ public class IngredientController {
 
         ingredientRepository.delete(ingredient);
         return ResponseEntity.ok(Map.of("deleted", true, "id", id));
+    }
+
+    private boolean hasNegativeNutrition(CreateIngredientRequest request) {
+        return isNegative(request.getCalories())
+                || isNegative(request.getProtein())
+                || isNegative(request.getCarbs())
+                || isNegative(request.getFat());
+    }
+
+    private boolean isNegative(Double value) {
+        return value != null && value < 0;
+    }
+
+    private void applyNutrition(Ingredient ingredient, CreateIngredientRequest request) {
+        ingredient.setCalories(request.getCalories());
+        ingredient.setProtein(request.getProtein());
+        ingredient.setCarbs(request.getCarbs());
+        ingredient.setFat(request.getFat());
     }
 
     private boolean isBlank(String value) {

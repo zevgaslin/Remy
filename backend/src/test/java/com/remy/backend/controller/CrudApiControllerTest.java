@@ -90,6 +90,91 @@ class CrudApiControllerTest {
     }
 
     @Test
+    void ingredientStoresNutritionWhenProvided() {
+        String token = registerAndGetToken("macro_user", "macro@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        CreateIngredientRequest create = new CreateIngredientRequest();
+        create.setName("Chicken Breast");
+        create.setQuantity(2.0);
+        create.setUnit("lb");
+        create.setExpirationDate(java.time.LocalDate.now().plusDays(4));
+        create.setCalories(750.0);
+        create.setProtein(140.0);
+        create.setCarbs(0.0);
+        create.setFat(16.0);
+
+        ResponseEntity<Map> createResponse = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(create, headers),
+                Map.class);
+
+        assertThat(createResponse.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+
+        ResponseEntity<Map[]> listResponse = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.GET,
+                new HttpEntity<>(headers),
+                Map[].class);
+
+        assertThat(listResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        Map saved = listResponse.getBody()[0];
+        assertThat(saved).containsEntry("calories", 750.0);
+        assertThat(saved).containsEntry("protein", 140.0);
+        assertThat(saved).containsEntry("carbs", 0.0);
+        assertThat(saved).containsEntry("fat", 16.0);
+    }
+
+    @Test
+    void ingredientWithoutNutritionStillSaves() {
+        String token = registerAndGetToken("no_macro_user", "no-macro@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        CreateIngredientRequest create = new CreateIngredientRequest();
+        create.setName("Rice");
+        create.setQuantity(1.0);
+        create.setUnit("bag");
+        create.setExpirationDate(java.time.LocalDate.now().plusDays(30));
+
+        ResponseEntity<Map> createResponse = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(create, headers),
+                Map.class);
+
+        assertThat(createResponse.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        assertThat(createResponse.getBody().get("calories")).isNull();
+        assertThat(createResponse.getBody().get("protein")).isNull();
+    }
+
+    @Test
+    void ingredientRejectsNegativeNutrition() {
+        String token = registerAndGetToken("negative_macro_user", "negative-macro@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        CreateIngredientRequest create = new CreateIngredientRequest();
+        create.setName("Butter");
+        create.setQuantity(1.0);
+        create.setUnit("stick");
+        create.setExpirationDate(java.time.LocalDate.now().plusDays(14));
+        create.setFat(-5.0);
+
+        ResponseEntity<Map> response = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(create, headers),
+                Map.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
+        assertThat(response.getBody())
+                .containsEntry("error", "Calories, protein, carbs, and fat cannot be negative.");
+    }
+
+    @Test
     void recipeCrudFlowWorks() {
         HttpHeaders headers = new HttpHeaders();
 

@@ -8,6 +8,10 @@ public class CreateIngredientRequest {
     private Double quantity;
     private String unit;
     private LocalDate expirationDate;
+    private Double calories;
+    private Double protein;
+    private Double carbs;
+    private Double fat;
 
     public String getName() {
         return name;
@@ -39,5 +43,37 @@ public class CreateIngredientRequest {
 
     public void setExpirationDate(LocalDate expirationDate) {
         this.expirationDate = expirationDate;
+    }
+
+    public Double getCalories() {
+        return calories;
+    }
+
+    public void setCalories(Double calories) {
+        this.calories = calories;
+    }
+
+    public Double getProtein() {
+        return protein;
+    }
+
+    public void setProtein(Double protein) {
+        this.protein = protein;
+    }
+
+    public Double getCarbs() {
+        return carbs;
+    }
+
+    public void setCarbs(Double carbs) {
+        this.carbs = carbs;
+    }
+
+    public Double getFat() {
+        return fat;
+    }
+
+    public void setFat(Double fat) {
+        this.fat = fat;
     }
 }

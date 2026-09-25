@@ -11,14 +11,14 @@ export async function getMyIngredients(token) {
   return data;
 }
 
-export async function createIngredient(token, { name, quantity, unit, expirationDate }) {
+export async function createIngredient(token, { name, quantity, unit, expirationDate, calories, protein, carbs, fat }) {
   const response = await fetch(`${API_BASE}/ingredients`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({ name, quantity, unit, expirationDate }),
+    body: JSON.stringify({ name, quantity, unit, expirationDate, calories, protein, carbs, fat }),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -27,14 +27,14 @@ export async function createIngredient(token, { name, quantity, unit, expiration
   return data;
 }
 
-export async function updateIngredient(token, id, { name, quantity, unit, expirationDate }) {
+export async function updateIngredient(token, id, { name, quantity, unit, expirationDate, calories, protein, carbs, fat }) {
   const response = await fetch(`${API_BASE}/ingredients/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({ name, quantity, unit, expirationDate }),
+    body: JSON.stringify({ name, quantity, unit, expirationDate, calories, protein, carbs, fat }),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {

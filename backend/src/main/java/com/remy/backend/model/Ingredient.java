@@ -19,6 +19,12 @@ public class Ingredient {
     private String unit;
     private LocalDate expirationDate;
 
+    // Nutrition per unit (e.g. per lb or per bag); null when not provided.
+    private Double calories;
+    private Double protein;
+    private Double carbs;
+    private Double fat;
+
     @ManyToOne
     private User owner;
 
@@ -59,6 +65,38 @@ public class Ingredient {
 
     public void setExpirationDate(LocalDate expirationDate) {
         this.expirationDate = expirationDate;
+    }
+
+    public Double getCalories() {
+        return calories;
+    }
+
+    public void setCalories(Double calories) {
+        this.calories = calories;
+    }
+
+    public Double getProtein() {
+        return protein;
+    }
+
+    public void setProtein(Double protein) {
+        this.protein = protein;
+    }
+
+    public Double getCarbs() {
+        return carbs;
+    }
+
+    public void setCarbs(Double carbs) {
+        this.carbs = carbs;
+    }
+
+    public Double getFat() {
+        return fat;
+    }
+
+    public void setFat(Double fat) {
+        this.fat = fat;
     }
 
     public User getOwner() {

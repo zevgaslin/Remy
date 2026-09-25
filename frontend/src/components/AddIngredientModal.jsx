@@ -1,11 +1,24 @@
 import { useState } from 'react';
 import { createIngredient } from '../services/ingredientServices';
 
+const NUTRITION_FIELDS = [
+  { key: 'calories', label: 'Calories' },
+  { key: 'protein', label: 'Protein (g)' },
+  { key: 'carbs', label: 'Carbs (g)' },
+  { key: 'fat', label: 'Fat (g)' },
+];
+
+// Blank inputs mean "not provided", so send null rather than 0.
+function toOptionalNumber(value) {
+  return value === '' ? null : Number(value);
+}
+
 function AddIngredientModal({ token, onClose, onAdded }) {
   const [name, setName] = useState('');
   const [quantity, setQuantity] = useState('1');
   const [unit, setUnit] = useState('');
   const [expirationDate, setExpirationDate] = useState('');
+  const [nutrition, setNutrition] = useState({ calories: '', protein: '', carbs: '', fat: '' });
   const [error, setError] = useState(null);
   const [submitting, setSubmitting] = useState(false);
 
@@ -19,6 +32,10 @@ function AddIngredientModal({ token, onClose, onAdded }) {
         quantity: Number(quantity),
         unit,
         expirationDate,
+        calories: toOptionalNumber(nutrition.calories),
+        protein: toOptionalNumber(nutrition.protein),
+        carbs: toOptionalNumber(nutrition.carbs),
+        fat: toOptionalNumber(nutrition.fat),
       });
       onAdded(saved);
     } catch (err) {
@@ -72,6 +89,21 @@ function AddIngredientModal({ token, onClose, onAdded }) {
               required
             />
           </label>
+          <fieldset className="nutrition-fields">
+            <legend>Nutrition per {unit || 'unit'} (optional)</legend>
+            {NUTRITION_FIELDS.map(({ key, label }) => (
+              <label key={key}>
+                {label}
+                <input
+                  type="number"
+                  min="0"
+                  step="any"
+                  value={nutrition[key]}
+                  onChange={(event) => setNutrition((prev) => ({ ...prev, [key]: event.target.value }))}
+                />
+              </label>
+            ))}
+          </fieldset>
           {error && <p className="auth-error">{error}</p>}
           <button type="submit" className="auth-submit" disabled={submitting}>
             {submitting ? 'Adding...' : 'Add Ingredient'}
