@@ -24,6 +24,36 @@ A website that recommends what to cook for the week based on the ingredients you
 - **Accounts**: register/login (`POST /api/auth/register`, `POST /api/auth/login`), passwords hashed with BCrypt, a session token issued on login.
 - **Ingredients**: each logged-in user has their own pantry list (`/api/ingredients`, scoped by owner) — add an ingredient with a name/quantity/unit/expiration date, and the "Expiring Soon" panel sorts by urgency.
 - **Recipes**: shared recipe list (`/api/recipes`) with favorite/dislike, and a hover preview that shows the full recipe on both recipe cards and calendar meal chips.
+- **Recipe matching**: recipes carry ingredient requirements and preference tags. `GET /api/recipes/matches` ranks recipes against the logged-in user's pantry and saved preferences, while `POST /api/recipes/search` accepts ingredient and preference values directly.
+
+## Recipe matching API
+
+Preference names and values match the tags in `DataBase/Recipies.sql`, including `diet=vegetarian`, `diet=high-protein`, `meal_type=breakfast`, `cuisine=italian`, and `difficulty=easy`. Matching ignores capitalization and surrounding spaces.
+
+Save all preferences for the logged-in user with `PUT /api/recipes/preferences`:
+
+```json
+[
+  { "name": "diet", "value": "vegetarian" },
+  { "name": "meal_type", "value": "breakfast" }
+]
+```
+
+Search directly with `POST /api/recipes/search`:
+
+```json
+{
+  "ingredients": ["spinach", "egg", "tortilla", "cheddar"],
+  "preferences": [
+    { "name": "diet", "value": "vegetarian" },
+    { "name": "meal_type", "value": "breakfast" }
+  ],
+  "requireAllIngredients": false,
+  "limit": 20
+}
+```
+
+Each result contains the recipe, a `matchScore`, the matched pantry ingredients, and the missing required ingredients. Setting `requireAllIngredients` to `true` removes recipes that need anything not supplied in the search.
 
 Not built yet: assigning a recipe to a specific meal slot on the calendar, per-user recipe favorites persisting server-side, and staying logged in across a page refresh (auth currently lives in memory only, not a cookie/localStorage).
 
@@ -43,4 +73,3 @@ npm run dev
 Runs on http://localhost:5173 and talks to the backend over `http://localhost:8080/api/*`.
 
 Run both at once, in two terminals, to use the app.
-

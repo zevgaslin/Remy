@@ -6,6 +6,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
+import jakarta.persistence.OneToMany;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 @Entity
 public class Recipe {
@@ -18,6 +21,20 @@ public class Recipe {
 
     @Lob
     private String instructions;
+
+    private String description;
+    private String cuisine;
+    private String mealType;
+    private String difficulty;
+    private Integer prepMinutes;
+    private Integer cookMinutes;
+    private Integer servings;
+
+    @OneToMany(mappedBy = "recipe", cascade = jakarta.persistence.CascadeType.ALL, orphanRemoval = true)
+    private Set<RecipeIngredient> ingredients = new LinkedHashSet<>();
+
+    @OneToMany(mappedBy = "recipe", cascade = jakarta.persistence.CascadeType.ALL, orphanRemoval = true)
+    private Set<RecipePreferenceTag> preferenceTags = new LinkedHashSet<>();
 
     @Column(nullable = false)
     private int likes = 0;
@@ -46,6 +63,70 @@ public class Recipe {
 
     public void setInstructions(String instructions) {
         this.instructions = instructions;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getCuisine() {
+        return cuisine;
+    }
+
+    public void setCuisine(String cuisine) {
+        this.cuisine = cuisine;
+    }
+
+    public String getMealType() {
+        return mealType;
+    }
+
+    public void setMealType(String mealType) {
+        this.mealType = mealType;
+    }
+
+    public String getDifficulty() {
+        return difficulty;
+    }
+
+    public void setDifficulty(String difficulty) {
+        this.difficulty = difficulty;
+    }
+
+    public Integer getPrepMinutes() {
+        return prepMinutes;
+    }
+
+    public void setPrepMinutes(Integer prepMinutes) {
+        this.prepMinutes = prepMinutes;
+    }
+
+    public Integer getCookMinutes() {
+        return cookMinutes;
+    }
+
+    public void setCookMinutes(Integer cookMinutes) {
+        this.cookMinutes = cookMinutes;
+    }
+
+    public Integer getServings() {
+        return servings;
+    }
+
+    public void setServings(Integer servings) {
+        this.servings = servings;
+    }
+
+    public Set<RecipeIngredient> getIngredients() {
+        return ingredients;
+    }
+
+    public Set<RecipePreferenceTag> getPreferenceTags() {
+        return preferenceTags;
     }
 
     public int getLikes() {
