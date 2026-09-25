@@ -3,6 +3,11 @@ package com.remy.backend.controller;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.remy.backend.dto.CreateIngredientRequest;
+import com.remy.backend.model.Recipe;
+import com.remy.backend.model.RecipeIngredient;
+import com.remy.backend.model.RecipePreferenceTag;
+import com.remy.backend.repository.RecipeRepository;
+import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +29,9 @@ class CrudApiControllerTest {
 
     @Autowired
     private TestRestTemplate restTemplate;
+
+    @Autowired
+    private RecipeRepository recipeRepository;
 
     @Test
     void ingredientCrudFlowWorks() {
@@ -330,6 +338,72 @@ class CrudApiControllerTest {
     }
 
     @Test
+    void recipeSearchMatchesPantryAndDietaryPreferences() {
+        String token = registerAndGetToken("match_user", "match@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+
+        addIngredient(headers, "Spinach");
+        addIngredient(headers, "Egg");
+        addIngredient(headers, "Tortilla");
+        addIngredient(headers, "Cheddar");
+
+        Recipe breakfastWrap = new Recipe();
+        breakfastWrap.setName("Test Breakfast Wrap");
+        breakfastWrap.setInstructions("Cook and wrap.");
+        addRecipeIngredient(breakfastWrap, "Spinach", false);
+        addRecipeIngredient(breakfastWrap, "Egg", false);
+        addRecipeIngredient(breakfastWrap, "Tortilla", false);
+        addRecipeIngredient(breakfastWrap, "Cheddar", false);
+        addRecipeTag(breakfastWrap, "diet", "vegetarian");
+        addRecipeTag(breakfastWrap, "meal_type", "breakfast");
+        recipeRepository.save(breakfastWrap);
+
+        Recipe unrelatedRecipe = new Recipe();
+        unrelatedRecipe.setName("Test Vegetarian Pasta");
+        unrelatedRecipe.setInstructions("Boil pasta.");
+        addRecipeIngredient(unrelatedRecipe, "Pasta", false);
+        addRecipeTag(unrelatedRecipe, "diet", "vegetarian");
+        recipeRepository.save(unrelatedRecipe);
+
+        ResponseEntity<List> savePreferencesResponse = restTemplate.exchange(
+                "/api/recipes/preferences",
+                HttpMethod.PUT,
+                new HttpEntity<>(List.of(
+                        Map.of("name", "diet", "value", "vegetarian"),
+                        Map.of("name", "meal_type", "value", "breakfast")), headers),
+                List.class);
+        assertThat(savePreferencesResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+
+        ResponseEntity<List> matchResponse = restTemplate.exchange(
+                "/api/recipes/matches",
+                HttpMethod.GET,
+                new HttpEntity<>(headers),
+                List.class);
+
+        assertThat(matchResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(matchResponse.getBody()).isNotEmpty();
+        Map firstMatch = (Map) matchResponse.getBody().get(0);
+        Map firstRecipe = (Map) firstMatch.get("recipe");
+        assertThat(firstRecipe).containsEntry("name", "Test Breakfast Wrap");
+        assertThat(((Number) firstMatch.get("matchScore")).doubleValue()).isEqualTo(100.0);
+        assertThat((List<?>) firstMatch.get("missingIngredients")).isEmpty();
+
+        ResponseEntity<List> directSearchResponse = restTemplate.postForEntity(
+                "/api/recipes/search",
+                Map.of(
+                        "ingredients", List.of("spinach", "egg", "tortilla", "cheddar"),
+                        "preferences", List.of(Map.of("name", "diet", "value", "vegetarian")),
+                        "requireAllIngredients", true),
+                List.class);
+
+        assertThat(directSearchResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(directSearchResponse.getBody()).hasSize(1);
+        Map directMatch = (Map) directSearchResponse.getBody().get(0);
+        assertThat((Map) directMatch.get("recipe")).containsEntry("name", "Test Breakfast Wrap");
+    }
+
+    @Test
     void notificationsTrackExpiredFoodAndCanBeMarkedRead() {
         String token = registerAndGetToken("notify_user", "notify@example.com", "password123");
         HttpHeaders headers = new HttpHeaders();
@@ -380,6 +454,38 @@ class CrudApiControllerTest {
                 Map.class);
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
         return ((Number) response.getBody().get("id")).longValue();
+    }
+
+    private void addIngredient(HttpHeaders headers, String name) {
+        CreateIngredientRequest request = new CreateIngredientRequest();
+        request.setName(name);
+        request.setQuantity(1.0);
+        request.setUnit("item");
+        request.setExpirationDate(java.time.LocalDate.now().plusDays(5));
+        ResponseEntity<Map> response = restTemplate.exchange(
+                "/api/ingredients",
+                HttpMethod.POST,
+                new HttpEntity<>(request, headers),
+                Map.class);
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+    }
+
+    private void addRecipeIngredient(Recipe recipe, String name, boolean optional) {
+        RecipeIngredient ingredient = new RecipeIngredient();
+        ingredient.setRecipe(recipe);
+        ingredient.setIngredientName(name);
+        ingredient.setQuantity(1.0);
+        ingredient.setUnit("item");
+        ingredient.setOptional(optional);
+        recipe.getIngredients().add(ingredient);
+    }
+
+    private void addRecipeTag(Recipe recipe, String name, String value) {
+        RecipePreferenceTag tag = new RecipePreferenceTag();
+        tag.setRecipe(recipe);
+        tag.setPreferenceName(name);
+        tag.setPreferenceValue(value);
+        recipe.getPreferenceTags().add(tag);
     }
 
     private String registerAndGetToken(String username, String email, String password) {

@@ -1,7 +1,16 @@
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
 
-function RecipeCard({ name, instructions, feedback, onFavorite, onDislike }) {
+function RecipeCard({
+  name,
+  instructions,
+  matchScore,
+  matchedIngredients = [],
+  missingIngredients = [],
+  feedback,
+  onFavorite,
+  onDislike,
+}) {
   const { visible, coords, triggerProps } = useRecipeHover();
 
   return (
@@ -10,8 +19,23 @@ function RecipeCard({ name, instructions, feedback, onFavorite, onDislike }) {
       {...triggerProps}
     >
       <div className="recipe-card-info">
-        <h3>{name}</h3>
+        <div className="recipe-card-title-row">
+          <h3>{name}</h3>
+          {matchScore !== undefined && (
+            <span className="recipe-match-score">{Math.round(matchScore)}% match</span>
+          )}
+        </div>
         <p>{instructions}</p>
+        {matchedIngredients.length > 0 && (
+          <p className="recipe-match-detail">
+            Have: {matchedIngredients.join(', ')}
+          </p>
+        )}
+        {missingIngredients.length > 0 && (
+          <p className="recipe-missing-detail">
+            Need: {missingIngredients.join(', ')}
+          </p>
+        )}
       </div>
       <div className="recipe-card-actions">
         <button
