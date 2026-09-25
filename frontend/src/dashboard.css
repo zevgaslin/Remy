@@ -205,6 +205,22 @@
   border-color: var(--accent-border);
 }
 
+.nutrition-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  margin: 0;
+  padding: 10px 12px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.nutrition-fields legend {
+  padding: 0 4px;
+  font-size: 13px;
+  color: var(--text);
+}
+
 .auth-error {
   margin: 0;
   font-size: 13px;
@@ -561,6 +577,29 @@
 .ingredients-list li.urgent {
   border-left-color: var(--urgent);
   background: var(--urgent-bg);
+}
+
+.ingredient-calories {
+  margin-left: auto;
+  margin-right: 8px;
+  font-size: 12px;
+  color: var(--text);
+  cursor: default;
+}
+
+.pantry-macros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--accent-bg);
+  font-size: 13px;
+  color: var(--text);
+}
+
+.pantry-macros strong {
+  color: var(--text-h);
 }
 
 .ingredient-status {
