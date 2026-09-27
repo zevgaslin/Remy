@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useMemo, useState } from 'react';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
+import { getAllRecipes } from '../services/recipeServices'; // NEW IMPORT
 
 const VIEWS = [
   { id: 'day', label: 'Today' },
@@ -25,7 +26,6 @@ const SLOT_TO_HOUR = {
   dinner: 18,
 };
 
-// NEW CODE: Daily nutritional targets for an average person (based on 2000 calorie diet)
 const DAILY_TARGETS = {
   calories: 2000, // kcal
   protein: 50,    // grams
@@ -76,7 +76,6 @@ function dateKey(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
-// NEW CODE: Helper to calculate total nutrition for a specific day across all planned meal slots
 export function getDailyNutritionTotal(date, meals, mealSlots) {
   const totals = { calories: 0, protein: 0, carbs: 0, fat: 0 };
   const dKey = dateKey(date);
@@ -93,7 +92,6 @@ export function getDailyNutritionTotal(date, meals, mealSlots) {
   return totals;
 }
 
-// NEW CODE: Component to display the daily nutrition summary
 export function DailyNutritionSummary({ totals }) {
   const calcPercent = (val, target) => Math.min(100, Math.round((val / target) * 100));
 
@@ -122,7 +120,75 @@ export function DailyNutritionSummary({ totals }) {
   );
 }
 
-function MealCell({ recipe, slotLabel, day }) {
+// NEW COMPONENT: Recipe Picker Popup
+function RecipePickerPopup({ x, y, onClose, onSelect }) {
+  const [recipes, setRecipes] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    getAllRecipes()
+      .then(data => {
+        setRecipes(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error("Failed to load recipes for popup", err);
+        setLoading(false);
+      });
+  }, []);
+
+  return (
+    <>
+      <div 
+        style={{ position: 'fixed', inset: 0, zIndex: 999 }} 
+        onClick={onClose} 
+      />
+      <div 
+        className="recipe-picker-popup"
+        style={{ 
+          position: 'fixed', 
+          top: Math.min(y, window.innerHeight - 300), 
+          left: Math.min(x, window.innerWidth - 250), 
+          background: 'white', 
+          border: '1px solid #ccc', 
+          zIndex: 1000, 
+          padding: '12px', 
+          borderRadius: '8px', 
+          width: '250px',
+          maxHeight: '300px', 
+          overflowY: 'auto', 
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)' 
+        }}
+      >
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px', fontWeight: 'bold' }}>
+          <span>Select a Recipe</span>
+          <button onClick={onClose} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>✕</button>
+        </div>
+        
+        {loading ? (
+          <p style={{ fontSize: '0.9rem', color: 'gray' }}>Loading recipes...</p>
+        ) : (
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            {recipes.map(r => (
+              <li 
+                key={r.id} 
+                style={{ padding: '8px', borderBottom: '1px solid #eee', cursor: 'pointer', fontSize: '0.9rem' }} 
+                onClick={() => onSelect(r)}
+                onMouseEnter={(e) => e.target.style.background = '#f5f5f5'}
+                onMouseLeave={(e) => e.target.style.background = 'transparent'}
+              >
+                {r.name}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </>
+  );
+}
+
+// MODIFIED COMPONENT: Added slotId and onAddClick props
+function MealCell({ recipe, slotLabel, day, slotId, onAddClick }) {
   const { visible, coords, triggerProps } = useRecipeHover();
 
   if (!recipe) {
@@ -132,6 +198,7 @@ function MealCell({ recipe, slotLabel, day }) {
           type="button"
           className="meal-add-button"
           aria-label={`Add ${slotLabel} for ${day.toDateString()}`}
+          onClick={(e) => onAddClick(e, day, slotId)}
         >
           <span className="event-label">{slotLabel}</span>
           <span className="add-icon">+</span>
@@ -195,6 +262,23 @@ function CalendarPanel() {
   const today = useToday();
   const timeProgress = useCurrentTimeProgress();
 
+  // MODIFIED: State replaces useMemo mockMeals
+  const [plannedMeals, setPlannedMeals] = useState({
+    [`${dateKey(today)}-dinner`]: {
+      name: 'Garlic Butter Pasta',
+      instructions: 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.',
+      nutrition: { calories: 650, protein: 18, carbs: 85, fat: 25 },
+    },
+    [`${dateKey(addDays(today, 1))}-lunch`]: {
+      name: 'Veggie Stir Fry',
+      instructions: 'Chop leftover vegetables. Stir fry in oil with soy sauce and ginger over high heat for 5-7 minutes.',
+      nutrition: { calories: 350, protein: 12, carbs: 45, fat: 15 },
+    },
+  });
+
+  // NEW: Popup State
+  const [activePopup, setActivePopup] = useState(null);
+
   const days = useMemo(() => {
     if (view === 'day') return [today];
     if (view === 'week') return buildWeekDays(today);
@@ -202,27 +286,9 @@ function CalendarPanel() {
     return buildMonthDays(today);
   }, [view, today]);
 
-  const mockMeals = useMemo(
-    () => ({
-      [`${dateKey(today)}-dinner`]: {
-        name: 'Garlic Butter Pasta',
-        instructions: 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.',
-        // NEW CODE: Added mock nutrition data to existing mock recipe
-        nutrition: { calories: 650, protein: 18, carbs: 85, fat: 25 },
-      },
-      [`${dateKey(addDays(today, 1))}-lunch`]: {
-        name: 'Veggie Stir Fry',
-        instructions: 'Chop leftover vegetables. Stir fry in oil with soy sauce and ginger over high heat for 5-7 minutes.',
-        // NEW CODE: Added mock nutrition data to existing mock recipe
-        nutrition: { calories: 350, protein: 12, carbs: 45, fat: 15 },
-      },
-    }),
-    [today],
-  );
-
   const plannedDateKeys = useMemo(
-    () => new Set(Object.keys(mockMeals).map((key) => key.slice(0, key.lastIndexOf('-')))),
-    [mockMeals],
+    () => new Set(Object.keys(plannedMeals).map((key) => key.slice(0, key.lastIndexOf('-')))),
+    [plannedMeals],
   );
 
   const monthLabel = today.toLocaleDateString(undefined, { month: 'long', year: 'numeric' });
@@ -236,6 +302,28 @@ function CalendarPanel() {
 
   function removeMealSlot(id) {
     setMealSlots((prev) => (prev.length > 1 ? prev.filter((slot) => slot.id !== id) : prev));
+  }
+
+  // NEW: Popup Handlers
+  function handleOpenPopup(e, day, slotId) {
+    setActivePopup({
+      x: e.clientX,
+      y: e.clientY,
+      day,
+      slotId,
+    });
+  }
+
+  function handleSelectRecipe(recipe) {
+    if (!activePopup) return;
+    
+    const key = `${dateKey(activePopup.day)}-${activePopup.slotId}`;
+    setPlannedMeals((prev) => ({
+      ...prev,
+      [key]: recipe,
+    }));
+    
+    setActivePopup(null);
   }
 
   return (
@@ -315,9 +403,11 @@ function CalendarPanel() {
                       {mealsThisHour.map((slot) => (
                         <div key={slot.id} className="calendar-event-block">
                           <MealCell
-                            recipe={mockMeals[`${dateKey(today)}-${slot.id}`]}
+                            recipe={plannedMeals[`${dateKey(today)}-${slot.id}`]}
                             slotLabel={slot.label}
                             day={today}
+                            slotId={slot.id}
+                            onAddClick={handleOpenPopup}
                           />
                         </div>
                       ))}
@@ -328,9 +418,8 @@ function CalendarPanel() {
             </div>
           </div>
 
-          {/* NEW CODE: Nutrition summary pinned at the bottom of the Day View */}
           <div className="day-nutrition-footer" style={{ borderTop: '1px solid #eee', padding: '12px' }}>
-            <DailyNutritionSummary totals={getDailyNutritionTotal(today, mockMeals, mealSlots)} />
+            <DailyNutritionSummary totals={getDailyNutritionTotal(today, plannedMeals, mealSlots)} />
           </div>
         </div>
       ) : (
@@ -371,26 +460,37 @@ function CalendarPanel() {
                 {days.map((day) => (
                   <MealCell
                     key={`${slot.id}-${dateKey(day)}`}
-                    recipe={mockMeals[`${dateKey(day)}-${slot.id}`]}
+                    recipe={plannedMeals[`${dateKey(day)}-${slot.id}`]}
                     slotLabel={slot.label}
                     day={day}
+                    slotId={slot.id}
+                    onAddClick={handleOpenPopup}
                   />
                 ))}
               </Fragment>
             ))}
 
-            {/* NEW CODE: Added a final row in the calendar grid for Week/Next 7 Days view for nutrition */}
             <div className="meal-slot-label nutrition-row-label" style={{ borderTop: '2px solid #ddd' }}>
               <span>Nutrition Total</span>
             </div>
             {days.map((day) => (
               <div key={`nutrition-${dateKey(day)}`} className="meal-cell nutrition-cell" style={{ borderTop: '2px solid #ddd', padding: '4px' }}>
-                <DailyNutritionSummary totals={getDailyNutritionTotal(day, mockMeals, mealSlots)} />
+                <DailyNutritionSummary totals={getDailyNutritionTotal(day, plannedMeals, mealSlots)} />
               </div>
             ))}
             
           </div>
         </div>
+      )}
+
+      {/* NEW: Render Popup globally within panel */}
+      {activePopup && (
+        <RecipePickerPopup 
+          x={activePopup.x} 
+          y={activePopup.y} 
+          onClose={() => setActivePopup(null)} 
+          onSelect={handleSelectRecipe} 
+        />
       )}
     </section>
   );

@@ -1,10 +1,16 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { getDailyNutritionTotal, DailyNutritionSummary } from './CalendarPanel';
+import CalendarPanel, { getDailyNutritionTotal, DailyNutritionSummary } from './CalendarPanel';
+import { getAllRecipes } from '../services/recipeServices';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
+
+// Mock the recipe service API call using Vitest's vi
+vi.mock('../services/recipeServices', () => ({
+  getAllRecipes: vi.fn(),
+}));
 
 describe('getDailyNutritionTotal', () => {
-  
   it('returns combined nutrition totals for all planned meal slots on a specific date', () => {
     // Arrange
     const fixedDate = new Date('2026-10-15T12:00:00Z'); // dateKey: '2026-10-15'
@@ -53,7 +59,6 @@ describe('getDailyNutritionTotal', () => {
 });
 
 describe('DailyNutritionSummary Component', () => {
-
   it('renders accurate daily totals and calculates percentage of daily value', () => {
     // Arrange
     const mockTotals = { calories: 1000, protein: 25, carbs: 137.5, fat: 39 };
@@ -85,5 +90,76 @@ describe('DailyNutritionSummary Component', () => {
     // Even though 5000 calories is 250% of 2000, the UI should cap at 100%
     const cappedPercentageElements = screen.getAllByText('100% DV');
     expect(cappedPercentageElements).toHaveLength(4);
+  });
+});
+
+describe('CalendarPanel Recipe Popup Integration', () => {
+  beforeEach(() => {
+    vi.clearAllMocks(); // Using vi here instead of jest
+  });
+
+  it('opens the recipe selection popup and fetches data when an empty meal slot is clicked', async () => {
+    getAllRecipes.mockResolvedValueOnce([{ id: 'r1', name: 'Avocado Toast' }]);
+    
+    render(<CalendarPanel />);
+
+    // Find all empty slot buttons (labeled via aria-label)
+    const addButtons = screen.getAllByRole('button', { name: /Add .* for/i });
+    
+    // Click the first empty slot
+    fireEvent.click(addButtons[0]);
+
+    // Assert popup opens and shows loading state
+    expect(screen.getByText('Select a Recipe')).toBeInTheDocument();
+    expect(screen.getByText('Loading recipes...')).toBeInTheDocument();
+
+    // Wait for the mock API call to resolve and the recipe to appear
+    const recipeItem = await screen.findByText('Avocado Toast');
+    expect(recipeItem).toBeInTheDocument();
+    expect(getAllRecipes).toHaveBeenCalledTimes(1);
+  });
+
+  it('adds a recipe to the calendar and closes the popup when a recipe is selected', async () => {
+    const mockRecipe = {
+      id: 'r2',
+      name: 'Spicy Tacos',
+      nutrition: { calories: 450, protein: 20, carbs: 50, fat: 18 },
+    };
+    getAllRecipes.mockResolvedValueOnce([mockRecipe]);
+    
+    render(<CalendarPanel />);
+
+    // Open popup
+    const addButtons = screen.getAllByRole('button', { name: /Add .* for/i });
+    fireEvent.click(addButtons[0]);
+
+    // Wait for recipe to load and click it
+    const recipeItem = await screen.findByText('Spicy Tacos');
+    fireEvent.click(recipeItem);
+
+    // Verify popup closes
+    expect(screen.queryByText('Select a Recipe')).not.toBeInTheDocument();
+
+    // Verify the newly selected recipe is now rendered in the calendar view
+    expect(screen.getByText('Spicy Tacos')).toBeInTheDocument();
+  });
+
+  it('closes the popup without making changes when the close button is clicked', async () => {
+    getAllRecipes.mockResolvedValueOnce([]);
+    
+    render(<CalendarPanel />);
+
+    const addButtons = screen.getAllByRole('button', { name: /Add .* for/i });
+    fireEvent.click(addButtons[0]);
+
+    // Verify popup opened
+    expect(screen.getByText('Select a Recipe')).toBeInTheDocument();
+
+    // Click the close '✕' button
+    const closeButton = screen.getByText('✕');
+    fireEvent.click(closeButton);
+
+    // Verify popup closed
+    expect(screen.queryByText('Select a Recipe')).not.toBeInTheDocument();
   });
 });
