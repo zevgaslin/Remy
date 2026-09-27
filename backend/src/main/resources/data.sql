@@ -42,6 +42,26 @@ INSERT INTO recipe (name, description, cuisine, meal_type, difficulty, prep_minu
 SELECT 'Broccoli Cheddar Rice Skillet', 'A simple comfort-food skillet with rice, broccoli, cheddar, and onion.', 'American', 'Dinner', 'Easy', 10, 20, 3, 'Saute onion, add broccoli and cooked rice, then fold in cheddar until melted.', 0, 0
 WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Broccoli Cheddar Rice Skillet');
 
+INSERT INTO recipe (name, description, cuisine, meal_type, difficulty, prep_minutes, cook_minutes, servings, instructions, likes, dislikes)
+SELECT 'Classic Pancakes', 'Fluffy griddle pancakes made with eggs, milk, butter, flour, and baking powder.', 'American', 'Breakfast', 'Easy', 10, 20, 6, 'Whisk eggs, milk, and melted butter. Fold in flour, baking powder, and sugar, rest the batter, then cook portions on a greased griddle until browned on both sides.', 0, 0
+WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Classic Pancakes');
+
+INSERT INTO recipe (name, description, cuisine, meal_type, difficulty, prep_minutes, cook_minutes, servings, instructions, likes, dislikes)
+SELECT 'Homemade Chicken Noodle Soup', 'A comforting soup with chicken, egg noodles, vegetables, broth, and herbs.', 'American', 'Dinner', 'Medium', 15, 90, 8, 'Saute onion, carrot, and celery in olive oil. Add garlic, herbs, chicken, and broth; simmer until the chicken is tender. Shred the chicken, cook the noodles in the broth, then return the chicken to the pot.', 0, 0
+WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Homemade Chicken Noodle Soup');
+
+INSERT INTO recipe (name, description, cuisine, meal_type, difficulty, prep_minutes, cook_minutes, servings, instructions, likes, dislikes)
+SELECT 'Classic Beef Chili', 'A hearty ground-beef chili with tomato sauce, kidney beans, pinto beans, and warm spices.', 'American', 'Dinner', 'Easy', 30, 70, 8, 'Brown the beef with garlic, then add tomato sauce and spices. Simmer slowly, stir in a masa harina slurry and both beans, and cook until thickened.', 0, 0
+WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Classic Beef Chili');
+
+INSERT INTO recipe (name, description, cuisine, meal_type, difficulty, prep_minutes, cook_minutes, servings, instructions, likes, dislikes)
+SELECT 'Easy Mac and Cheese', 'Baked macaroni in a creamy cheddar sauce with a parmesan breadcrumb topping.', 'American', 'Dinner', 'Easy', 15, 30, 4, 'Infuse warm milk with onion, garlic, and bay leaf, then strain. Cook the macaroni. Make a butter-and-flour roux, whisk in the milk, melt in cheddar and mustard, combine with the pasta, and bake with parmesan and breadcrumbs.', 0, 0
+WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Easy Mac and Cheese');
+
+INSERT INTO recipe (name, description, cuisine, meal_type, difficulty, prep_minutes, cook_minutes, servings, instructions, likes, dislikes)
+SELECT 'Chocolate Chunk Cookies', 'Soft-centered cookies packed with semi-sweet chocolate chunks.', 'American', 'Dessert', 'Easy', 15, 10, 20, 'Mix flour and baking soda. Beat nearly melted butter with the sugars, vanilla, and egg, then combine with the dry ingredients and chocolate chunks. Scoop onto baking sheets and bake until the edges are lightly browned.', 0, 0
+WHERE NOT EXISTS (SELECT 1 FROM recipe WHERE name = 'Chocolate Chunk Cookies');
+
 INSERT INTO ingredient (name, quantity, unit, expiration_date)
 SELECT 'Spinach', 1, 'bag', DATEADD('DAY', -1, CURRENT_DATE)
 WHERE NOT EXISTS (SELECT 1 FROM ingredient WHERE name = 'Spinach');
@@ -103,7 +123,60 @@ JOIN (VALUES
     ('Broccoli Cheddar Rice Skillet', 'Rice', 1.0, 'cup', FALSE),
     ('Broccoli Cheddar Rice Skillet', 'Broccoli', 2.0, 'cups', FALSE),
     ('Broccoli Cheddar Rice Skillet', 'Cheddar', 1.0, 'cup', FALSE),
-    ('Broccoli Cheddar Rice Skillet', 'Onion', 0.5, 'each', TRUE)
+    ('Broccoli Cheddar Rice Skillet', 'Onion', 0.5, 'each', TRUE),
+    ('Classic Pancakes', 'Egg', 2.0, 'each', FALSE),
+    ('Classic Pancakes', 'Milk', 1.25, 'cups', FALSE),
+    ('Classic Pancakes', 'Butter', 3.0, 'tbsp', FALSE),
+    ('Classic Pancakes', 'All-Purpose Flour', 1.5, 'cups', FALSE),
+    ('Classic Pancakes', 'Baking Powder', 2.0, 'tsp', FALSE),
+    ('Classic Pancakes', 'Sugar', 2.0, 'tbsp', FALSE),
+    ('Classic Pancakes', 'Blueberries', 1.0, 'cup', TRUE),
+    ('Homemade Chicken Noodle Soup', 'Onion', 1.0, 'each', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Garlic', 3.0, 'cloves', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Carrot', 4.0, 'each', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Celery', 2.0, 'ribs', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Parsley', 1.0, 'tbsp', TRUE),
+    ('Homemade Chicken Noodle Soup', 'Olive Oil', 2.0, 'tbsp', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Basil', 1.0, 'tsp', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Thyme', 0.5, 'tsp', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Bay Leaf', 1.0, 'each', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Black Pepper', 0.25, 'tsp', TRUE),
+    ('Homemade Chicken Noodle Soup', 'Chicken Breast', 2.0, 'each', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Chicken Broth', 8.0, 'cups', FALSE),
+    ('Homemade Chicken Noodle Soup', 'Egg Noodles', 6.0, 'oz', FALSE),
+    ('Classic Beef Chili', 'Ground Beef', 2.0, 'lb', FALSE),
+    ('Classic Beef Chili', 'Garlic', 2.0, 'cloves', FALSE),
+    ('Classic Beef Chili', 'Tomato Sauce', 8.0, 'oz', FALSE),
+    ('Classic Beef Chili', 'Chili Powder', 2.0, 'tbsp', FALSE),
+    ('Classic Beef Chili', 'Cumin', 1.0, 'tsp', FALSE),
+    ('Classic Beef Chili', 'Oregano', 1.0, 'tsp', FALSE),
+    ('Classic Beef Chili', 'Cayenne Pepper', 0.25, 'tsp', TRUE),
+    ('Classic Beef Chili', 'Masa Harina', 0.25, 'cup', FALSE),
+    ('Classic Beef Chili', 'Kidney Beans', 1.0, 'can', FALSE),
+    ('Classic Beef Chili', 'Pinto Beans', 1.0, 'can', FALSE),
+    ('Classic Beef Chili', 'Cheddar', 0.5, 'cup', TRUE),
+    ('Classic Beef Chili', 'Onion', 0.5, 'each', TRUE),
+    ('Classic Beef Chili', 'Lime', 1.0, 'each', TRUE),
+    ('Easy Mac and Cheese', 'Milk', 3.0, 'cups', FALSE),
+    ('Easy Mac and Cheese', 'Onion', 1.0, 'each', FALSE),
+    ('Easy Mac and Cheese', 'Garlic', 1.0, 'clove', FALSE),
+    ('Easy Mac and Cheese', 'Bay Leaf', 1.0, 'each', FALSE),
+    ('Easy Mac and Cheese', 'Macaroni', 12.0, 'oz', FALSE),
+    ('Easy Mac and Cheese', 'Butter', 3.5, 'tbsp', FALSE),
+    ('Easy Mac and Cheese', 'All-Purpose Flour', 0.4, 'cup', FALSE),
+    ('Easy Mac and Cheese', 'Cheddar', 1.5, 'cups', FALSE),
+    ('Easy Mac and Cheese', 'Mustard', 1.0, 'tsp', FALSE),
+    ('Easy Mac and Cheese', 'Parmesan', 0.5, 'cup', FALSE),
+    ('Easy Mac and Cheese', 'Breadcrumbs', 0.5, 'cup', FALSE),
+    ('Chocolate Chunk Cookies', 'All-Purpose Flour', 1.67, 'cups', FALSE),
+    ('Chocolate Chunk Cookies', 'Baking Soda', 0.5, 'tsp', FALSE),
+    ('Chocolate Chunk Cookies', 'Butter', 0.5, 'cup', FALSE),
+    ('Chocolate Chunk Cookies', 'Sugar', 0.5, 'cup', FALSE),
+    ('Chocolate Chunk Cookies', 'Brown Sugar', 0.33, 'cup', FALSE),
+    ('Chocolate Chunk Cookies', 'Powdered Sugar', 2.0, 'tbsp', FALSE),
+    ('Chocolate Chunk Cookies', 'Vanilla Extract', 1.5, 'tsp', FALSE),
+    ('Chocolate Chunk Cookies', 'Egg', 1.0, 'each', FALSE),
+    ('Chocolate Chunk Cookies', 'Chocolate Chunks', 11.5, 'oz', FALSE)
 ) x(recipe_name, ingredient_name, quantity, unit, optional)
     ON r.name = x.recipe_name
 WHERE NOT EXISTS (
@@ -145,7 +218,29 @@ JOIN (VALUES
     ('Salmon Quinoa Bowl', 'difficulty', 'medium'),
     ('Broccoli Cheddar Rice Skillet', 'meal_type', 'dinner'),
     ('Broccoli Cheddar Rice Skillet', 'diet', 'vegetarian'),
-    ('Broccoli Cheddar Rice Skillet', 'difficulty', 'easy')
+    ('Broccoli Cheddar Rice Skillet', 'difficulty', 'easy'),
+    ('Classic Pancakes', 'meal_type', 'breakfast'),
+    ('Classic Pancakes', 'diet', 'vegetarian'),
+    ('Classic Pancakes', 'cuisine', 'american'),
+    ('Classic Pancakes', 'difficulty', 'easy'),
+    ('Homemade Chicken Noodle Soup', 'meal_type', 'dinner'),
+    ('Homemade Chicken Noodle Soup', 'diet', 'high-protein'),
+    ('Homemade Chicken Noodle Soup', 'cuisine', 'american'),
+    ('Homemade Chicken Noodle Soup', 'difficulty', 'medium'),
+    ('Classic Beef Chili', 'meal_type', 'dinner'),
+    ('Classic Beef Chili', 'diet', 'high-protein'),
+    ('Classic Beef Chili', 'diet', 'high-fiber'),
+    ('Classic Beef Chili', 'diet', 'dairy-free'),
+    ('Classic Beef Chili', 'cuisine', 'american'),
+    ('Classic Beef Chili', 'difficulty', 'easy'),
+    ('Easy Mac and Cheese', 'meal_type', 'dinner'),
+    ('Easy Mac and Cheese', 'diet', 'vegetarian'),
+    ('Easy Mac and Cheese', 'cuisine', 'american'),
+    ('Easy Mac and Cheese', 'difficulty', 'easy'),
+    ('Chocolate Chunk Cookies', 'meal_type', 'dessert'),
+    ('Chocolate Chunk Cookies', 'diet', 'vegetarian'),
+    ('Chocolate Chunk Cookies', 'cuisine', 'american'),
+    ('Chocolate Chunk Cookies', 'difficulty', 'easy')
 ) x(recipe_name, preference_name, preference_value)
     ON r.name = x.recipe_name
 WHERE NOT EXISTS (

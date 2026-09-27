@@ -83,7 +83,34 @@ INSERT INTO ingredients (name, category) VALUES
     ('Banana', 'Produce'),
     ('Peanut Butter', 'Pantry'),
     ('Salmon', 'Seafood'),
-    ('Quinoa', 'Grain')
+    ('Quinoa', 'Grain'),
+    ('All-Purpose Flour', 'Grain'),
+    ('Baking Powder', 'Pantry'),
+    ('Sugar', 'Pantry'),
+    ('Blueberries', 'Produce'),
+    ('Celery', 'Produce'),
+    ('Parsley', 'Produce'),
+    ('Basil', 'Spice'),
+    ('Thyme', 'Spice'),
+    ('Bay Leaf', 'Spice'),
+    ('Chicken Broth', 'Pantry'),
+    ('Egg Noodles', 'Grain'),
+    ('Ground Beef', 'Meat'),
+    ('Tomato Sauce', 'Pantry'),
+    ('Oregano', 'Spice'),
+    ('Cayenne Pepper', 'Spice'),
+    ('Masa Harina', 'Grain'),
+    ('Kidney Beans', 'Legume'),
+    ('Pinto Beans', 'Legume'),
+    ('Lime', 'Produce'),
+    ('Macaroni', 'Grain'),
+    ('Mustard', 'Condiment'),
+    ('Breadcrumbs', 'Grain'),
+    ('Baking Soda', 'Pantry'),
+    ('Brown Sugar', 'Pantry'),
+    ('Powdered Sugar', 'Pantry'),
+    ('Vanilla Extract', 'Pantry'),
+    ('Chocolate Chunks', 'Pantry')
 ON DUPLICATE KEY UPDATE category = VALUES(category);
 
 INSERT INTO recipes (
@@ -184,6 +211,61 @@ INSERT INTO recipes (
         20,
         3,
         'Saute onion, add broccoli and cooked rice, then fold in cheddar until melted.'
+    ),
+    (
+        'Classic Pancakes',
+        'Fluffy griddle pancakes made with eggs, milk, butter, flour, and baking powder.',
+        'American',
+        'Breakfast',
+        'Easy',
+        10,
+        20,
+        6,
+        'Whisk eggs, milk, and melted butter. Fold in flour, baking powder, and sugar, rest the batter, then cook portions on a greased griddle until browned on both sides.'
+    ),
+    (
+        'Homemade Chicken Noodle Soup',
+        'A comforting soup with chicken, egg noodles, vegetables, broth, and herbs.',
+        'American',
+        'Dinner',
+        'Medium',
+        15,
+        90,
+        8,
+        'Saute onion, carrot, and celery in olive oil. Add garlic, herbs, chicken, and broth; simmer until the chicken is tender. Shred the chicken, cook the noodles in the broth, then return the chicken to the pot.'
+    ),
+    (
+        'Classic Beef Chili',
+        'A hearty ground-beef chili with tomato sauce, kidney beans, pinto beans, and warm spices.',
+        'American',
+        'Dinner',
+        'Easy',
+        30,
+        70,
+        8,
+        'Brown the beef with garlic, then add tomato sauce and spices. Simmer slowly, stir in a masa harina slurry and both beans, and cook until thickened.'
+    ),
+    (
+        'Easy Mac and Cheese',
+        'Baked macaroni in a creamy cheddar sauce with a parmesan breadcrumb topping.',
+        'American',
+        'Dinner',
+        'Easy',
+        15,
+        30,
+        4,
+        'Infuse warm milk with onion, garlic, and bay leaf, then strain. Cook the macaroni. Make a butter-and-flour roux, whisk in the milk, melt in cheddar and mustard, combine with the pasta, and bake with parmesan and breadcrumbs.'
+    ),
+    (
+        'Chocolate Chunk Cookies',
+        'Soft-centered cookies packed with semi-sweet chocolate chunks.',
+        'American',
+        'Dessert',
+        'Easy',
+        15,
+        10,
+        20,
+        'Mix flour and baking soda. Beat nearly melted butter with the sugars, vanilla, and egg, then combine with the dry ingredients and chocolate chunks. Scoop onto baking sheets and bake until the edges are lightly browned.'
     )
 ON DUPLICATE KEY UPDATE
     description = VALUES(description),
@@ -247,6 +329,64 @@ FROM (
     UNION ALL SELECT 'Broccoli Cheddar Rice Skillet', 'Broccoli', 2.00, 'cups', FALSE
     UNION ALL SELECT 'Broccoli Cheddar Rice Skillet', 'Cheddar', 1.00, 'cup', FALSE
     UNION ALL SELECT 'Broccoli Cheddar Rice Skillet', 'Onion', 0.50, 'each', TRUE
+
+    UNION ALL SELECT 'Classic Pancakes', 'Egg', 2.00, 'each', FALSE
+    UNION ALL SELECT 'Classic Pancakes', 'Milk', 1.25, 'cups', FALSE
+    UNION ALL SELECT 'Classic Pancakes', 'Butter', 3.00, 'tbsp', FALSE
+    UNION ALL SELECT 'Classic Pancakes', 'All-Purpose Flour', 1.50, 'cups', FALSE
+    UNION ALL SELECT 'Classic Pancakes', 'Baking Powder', 2.00, 'tsp', FALSE
+    UNION ALL SELECT 'Classic Pancakes', 'Sugar', 2.00, 'tbsp', FALSE
+    UNION ALL SELECT 'Classic Pancakes', 'Blueberries', 1.00, 'cup', TRUE
+
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Onion', 1.00, 'each', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Garlic', 3.00, 'cloves', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Carrot', 4.00, 'each', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Celery', 2.00, 'ribs', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Parsley', 1.00, 'tbsp', TRUE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Olive Oil', 2.00, 'tbsp', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Basil', 1.00, 'tsp', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Thyme', 0.50, 'tsp', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Bay Leaf', 1.00, 'each', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Black Pepper', 0.25, 'tsp', TRUE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Chicken Breast', 2.00, 'each', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Chicken Broth', 8.00, 'cups', FALSE
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'Egg Noodles', 6.00, 'oz', FALSE
+
+    UNION ALL SELECT 'Classic Beef Chili', 'Ground Beef', 2.00, 'lb', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Garlic', 2.00, 'cloves', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Tomato Sauce', 8.00, 'oz', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Chili Powder', 2.00, 'tbsp', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Cumin', 1.00, 'tsp', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Oregano', 1.00, 'tsp', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Cayenne Pepper', 0.25, 'tsp', TRUE
+    UNION ALL SELECT 'Classic Beef Chili', 'Masa Harina', 0.25, 'cup', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Kidney Beans', 1.00, 'can', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Pinto Beans', 1.00, 'can', FALSE
+    UNION ALL SELECT 'Classic Beef Chili', 'Cheddar', 0.50, 'cup', TRUE
+    UNION ALL SELECT 'Classic Beef Chili', 'Onion', 0.50, 'each', TRUE
+    UNION ALL SELECT 'Classic Beef Chili', 'Lime', 1.00, 'each', TRUE
+
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Milk', 3.00, 'cups', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Onion', 1.00, 'each', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Garlic', 1.00, 'clove', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Bay Leaf', 1.00, 'each', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Macaroni', 12.00, 'oz', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Butter', 3.50, 'tbsp', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'All-Purpose Flour', 0.40, 'cup', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Cheddar', 1.50, 'cups', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Mustard', 1.00, 'tsp', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Parmesan', 0.50, 'cup', FALSE
+    UNION ALL SELECT 'Easy Mac and Cheese', 'Breadcrumbs', 0.50, 'cup', FALSE
+
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'All-Purpose Flour', 1.67, 'cups', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Baking Soda', 0.50, 'tsp', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Butter', 0.50, 'cup', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Sugar', 0.50, 'cup', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Brown Sugar', 0.33, 'cup', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Powdered Sugar', 2.00, 'tbsp', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Vanilla Extract', 1.50, 'tsp', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Egg', 1.00, 'each', FALSE
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'Chocolate Chunks', 11.50, 'oz', FALSE
 ) AS x
 JOIN recipes r ON r.name = x.recipe_name
 JOIN ingredients i ON i.name = x.ingredient_name
@@ -296,6 +436,33 @@ FROM (
     UNION ALL SELECT 'Broccoli Cheddar Rice Skillet', 'meal_type', 'dinner'
     UNION ALL SELECT 'Broccoli Cheddar Rice Skillet', 'diet', 'vegetarian'
     UNION ALL SELECT 'Broccoli Cheddar Rice Skillet', 'difficulty', 'easy'
+
+    UNION ALL SELECT 'Classic Pancakes', 'meal_type', 'breakfast'
+    UNION ALL SELECT 'Classic Pancakes', 'diet', 'vegetarian'
+    UNION ALL SELECT 'Classic Pancakes', 'cuisine', 'american'
+    UNION ALL SELECT 'Classic Pancakes', 'difficulty', 'easy'
+
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'meal_type', 'dinner'
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'diet', 'high-protein'
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'cuisine', 'american'
+    UNION ALL SELECT 'Homemade Chicken Noodle Soup', 'difficulty', 'medium'
+
+    UNION ALL SELECT 'Classic Beef Chili', 'meal_type', 'dinner'
+    UNION ALL SELECT 'Classic Beef Chili', 'diet', 'high-protein'
+    UNION ALL SELECT 'Classic Beef Chili', 'diet', 'high-fiber'
+    UNION ALL SELECT 'Classic Beef Chili', 'diet', 'dairy-free'
+    UNION ALL SELECT 'Classic Beef Chili', 'cuisine', 'american'
+    UNION ALL SELECT 'Classic Beef Chili', 'difficulty', 'easy'
+
+    UNION ALL SELECT 'Easy Mac and Cheese', 'meal_type', 'dinner'
+    UNION ALL SELECT 'Easy Mac and Cheese', 'diet', 'vegetarian'
+    UNION ALL SELECT 'Easy Mac and Cheese', 'cuisine', 'american'
+    UNION ALL SELECT 'Easy Mac and Cheese', 'difficulty', 'easy'
+
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'meal_type', 'dessert'
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'diet', 'vegetarian'
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'cuisine', 'american'
+    UNION ALL SELECT 'Chocolate Chunk Cookies', 'difficulty', 'easy'
 ) AS x
 JOIN recipes r ON r.name = x.recipe_name
 ON DUPLICATE KEY UPDATE
