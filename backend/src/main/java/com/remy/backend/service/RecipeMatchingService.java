@@ -62,7 +62,7 @@ public class RecipeMatchingService {
         Set<String> availableIngredients = new HashSet<>();
         request.getIngredients().stream()
                 .filter(value -> value != null && !value.isBlank())
-                .map(this::normalize)
+                .map(IngredientNameNormalizer::canonicalize)
                 .forEach(availableIngredients::add);
 
         List<PreferenceCriterion> requestedPreferences = request.getPreferences().stream()
@@ -75,7 +75,8 @@ public class RecipeMatchingService {
                 .filter(recipe -> matchesPreferences(recipe, requestedPreferences))
                 .filter(recipe -> availableIngredients.isEmpty()
                         || recipe.getIngredients().stream().anyMatch(ingredient ->
-                                availableIngredients.contains(normalize(ingredient.getIngredientName()))))
+                                availableIngredients.contains(
+                                        IngredientNameNormalizer.canonicalize(ingredient.getIngredientName()))))
                 .map(recipe -> score(recipe, availableIngredients, requestedPreferences))
                 .filter(match -> !request.isRequireAllIngredients() || match.getMissingIngredients().isEmpty())
                 .sorted(Comparator.comparingDouble(RecipeMatchResponse::getMatchScore).reversed()
@@ -135,7 +136,8 @@ public class RecipeMatchingService {
         int matchedRequiredCount = 0;
 
         for (RecipeIngredient ingredient : recipe.getIngredients()) {
-            boolean available = availableIngredients.contains(normalize(ingredient.getIngredientName()));
+            boolean available = availableIngredients.contains(
+                    IngredientNameNormalizer.canonicalize(ingredient.getIngredientName()));
             if (available) {
                 matched.add(ingredient.getIngredientName());
             }

@@ -53,7 +53,7 @@ function pantryTotals(ingredients) {
   return { totals, trackedCount: tracked.length };
 }
 
-function IngredientsPanel({ currentUser }) {
+function IngredientsPanel({ currentUser, onIngredientsChanged }) {
   const [ingredients, setIngredients] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -74,6 +74,7 @@ function IngredientsPanel({ currentUser }) {
 
   function handleAdded(newIngredient) {
     setIngredients((prev) => [...prev, newIngredient]);
+    onIngredientsChanged?.();
     setModalOpen(false);
   }
 

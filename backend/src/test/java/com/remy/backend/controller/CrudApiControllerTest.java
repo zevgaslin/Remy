@@ -344,9 +344,10 @@ class CrudApiControllerTest {
         headers.set("Authorization", "Bearer " + token);
 
         addIngredient(headers, "Spinach");
-        addIngredient(headers, "Egg");
+        addIngredient(headers, "Eggs");
         addIngredient(headers, "Tortilla");
         addIngredient(headers, "Cheddar");
+        addIngredient(headers, "Scallions");
 
         Recipe breakfastWrap = new Recipe();
         breakfastWrap.setName("Test Breakfast Wrap");
@@ -355,6 +356,7 @@ class CrudApiControllerTest {
         addRecipeIngredient(breakfastWrap, "Egg", false);
         addRecipeIngredient(breakfastWrap, "Tortilla", false);
         addRecipeIngredient(breakfastWrap, "Cheddar", false);
+        addRecipeIngredient(breakfastWrap, "Green Onion", false);
         addRecipeTag(breakfastWrap, "diet", "vegetarian");
         addRecipeTag(breakfastWrap, "meal_type", "breakfast");
         recipeRepository.save(breakfastWrap);
@@ -392,7 +394,7 @@ class CrudApiControllerTest {
         ResponseEntity<List> directSearchResponse = restTemplate.postForEntity(
                 "/api/recipes/search",
                 Map.of(
-                        "ingredients", List.of("spinach", "egg", "tortilla", "cheddar"),
+                        "ingredients", List.of("spinach", "egg", "tortilla", "cheddar", "scallion"),
                         "preferences", List.of(Map.of("name", "diet", "value", "vegetarian")),
                         "requireAllIngredients", true),
                 List.class);
