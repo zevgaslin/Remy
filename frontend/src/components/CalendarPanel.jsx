@@ -25,8 +25,16 @@ const SLOT_TO_HOUR = {
   dinner: 18,
 };
 
+// NEW CODE: Daily nutritional targets for an average person (based on 2000 calorie diet)
+const DAILY_TARGETS = {
+  calories: 2000, // kcal
+  protein: 50,    // grams
+  carbs: 275,     // grams
+  fat: 78,        // grams
+};
+
 function formatHour(h) {
-  if (h === 0) return ''; // Usually 12 AM is left blank or replaced with date header
+  if (h === 0) return ''; 
   if (h === 12) return '12 PM';
   return h < 12 ? `${h} AM` : `${h - 12} PM`;
 }
@@ -66,6 +74,52 @@ function isSameDay(a, b) {
 
 function dateKey(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+}
+
+// NEW CODE: Helper to calculate total nutrition for a specific day across all planned meal slots
+export function getDailyNutritionTotal(date, meals, mealSlots) {
+  const totals = { calories: 0, protein: 0, carbs: 0, fat: 0 };
+  const dKey = dateKey(date);
+  
+  mealSlots.forEach(slot => {
+    const recipe = meals[`${dKey}-${slot.id}`];
+    if (recipe && recipe.nutrition) {
+      totals.calories += recipe.nutrition.calories || 0;
+      totals.protein += recipe.nutrition.protein || 0;
+      totals.carbs += recipe.nutrition.carbs || 0;
+      totals.fat += recipe.nutrition.fat || 0;
+    }
+  });
+  return totals;
+}
+
+// NEW CODE: Component to display the daily nutrition summary
+export function DailyNutritionSummary({ totals }) {
+  const calcPercent = (val, target) => Math.min(100, Math.round((val / target) * 100));
+
+  return (
+    <div className="daily-nutrition-summary" style={{ padding: '8px', fontSize: '0.85rem', background: 'rgba(0,0,0,0.03)', borderRadius: '6px' }}>
+      <div style={{ fontWeight: 'bold', marginBottom: '4px', textAlign: 'center' }}>Daily Nutrition</div>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4px' }}>
+        <div>
+          <span>Cal: {totals.calories}</span>
+          <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.calories, DAILY_TARGETS.calories)}% DV</div>
+        </div>
+        <div>
+          <span>Pro: {totals.protein}g</span>
+          <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.protein, DAILY_TARGETS.protein)}% DV</div>
+        </div>
+        <div>
+          <span>Carb: {totals.carbs}g</span>
+          <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.carbs, DAILY_TARGETS.carbs)}% DV</div>
+        </div>
+        <div>
+          <span>Fat: {totals.fat}g</span>
+          <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.fat, DAILY_TARGETS.fat)}% DV</div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function MealCell({ recipe, slotLabel, day }) {
@@ -123,13 +177,12 @@ function useCurrentTimeProgress() {
   useEffect(() => {
     const updateProgress = () => {
       const now = new Date();
-      // Calculate percentage of the day elapsed
       const percent = ((now.getHours() * 60 + now.getMinutes()) / (24 * 60)) * 100;
       setProgress(percent);
     };
 
     updateProgress();
-    const interval = setInterval(updateProgress, 60000); // Update every minute
+    const interval = setInterval(updateProgress, 60000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -154,10 +207,14 @@ function CalendarPanel() {
       [`${dateKey(today)}-dinner`]: {
         name: 'Garlic Butter Pasta',
         instructions: 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.',
+        // NEW CODE: Added mock nutrition data to existing mock recipe
+        nutrition: { calories: 650, protein: 18, carbs: 85, fat: 25 },
       },
       [`${dateKey(addDays(today, 1))}-lunch`]: {
         name: 'Veggie Stir Fry',
         instructions: 'Chop leftover vegetables. Stir fry in oil with soy sauce and ginger over high heat for 5-7 minutes.',
+        // NEW CODE: Added mock nutrition data to existing mock recipe
+        nutrition: { calories: 350, protein: 12, carbs: 45, fat: 15 },
       },
     }),
     [today],
@@ -219,7 +276,7 @@ function CalendarPanel() {
           ))}
         </div>
       ) : view === 'day' ? (
-        <div className="calendar-grid day-timeline-wrapper">
+        <div className="calendar-grid day-timeline-wrapper" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
           <div className="day-timeline-header">
             <div className="time-spacer" />
             <div className="day-header-content today">
@@ -230,7 +287,7 @@ function CalendarPanel() {
             </div>
           </div>
           
-          <div className="day-timeline-scroll-area">
+          <div className="day-timeline-scroll-area" style={{ flex: 1, overflowY: 'auto' }}>
             {isSameDay(today, new Date()) && (
               <div 
                 className="current-time-indicator" 
@@ -270,10 +327,14 @@ function CalendarPanel() {
               })}
             </div>
           </div>
+
+          {/* NEW CODE: Nutrition summary pinned at the bottom of the Day View */}
+          <div className="day-nutrition-footer" style={{ borderTop: '1px solid #eee', padding: '12px' }}>
+            <DailyNutritionSummary totals={getDailyNutritionTotal(today, mockMeals, mealSlots)} />
+          </div>
         </div>
       ) : (
         <div className="meal-calendar-wrapper">
-          {/* Week / Next 7 Views remain unchanged */}
           <div className="meal-calendar">
             <div className="meal-calendar-corner">
               <button type="button" className="add-meal-slot" onClick={addMealSlot}>
@@ -317,6 +378,17 @@ function CalendarPanel() {
                 ))}
               </Fragment>
             ))}
+
+            {/* NEW CODE: Added a final row in the calendar grid for Week/Next 7 Days view for nutrition */}
+            <div className="meal-slot-label nutrition-row-label" style={{ borderTop: '2px solid #ddd' }}>
+              <span>Nutrition Total</span>
+            </div>
+            {days.map((day) => (
+              <div key={`nutrition-${dateKey(day)}`} className="meal-cell nutrition-cell" style={{ borderTop: '2px solid #ddd', padding: '4px' }}>
+                <DailyNutritionSummary totals={getDailyNutritionTotal(day, mockMeals, mealSlots)} />
+              </div>
+            ))}
+            
           </div>
         </div>
       )}
