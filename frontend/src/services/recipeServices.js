@@ -20,6 +20,62 @@ export async function getRecipeFeed(token, { limit = 10, offset = 0 } = {}) {
   return data;
 }
 
+export async function getRecipeMatches(token, { limit = 20 } = {}) {
+  const response = await fetch(`${API_BASE}/recipes/matches?limit=${limit}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await response.json().catch(() => []);
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not match recipes to your pantry.');
+  }
+  return data;
+}
+
+export async function searchRecipes({
+  ingredients = [],
+  preferences = [],
+  requireAllIngredients = false,
+  limit = 20,
+} = {}) {
+  const response = await fetch(`${API_BASE}/recipes/search`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ingredients, preferences, requireAllIngredients, limit }),
+  });
+  const data = await response.json().catch(() => []);
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not search recipes.');
+  }
+  return data;
+}
+
+export async function getDietaryPreferences(token) {
+  const response = await fetch(`${API_BASE}/recipes/preferences`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await response.json().catch(() => []);
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not load dietary preferences.');
+  }
+  return data;
+}
+
+export async function saveDietaryPreferences(token, preferences) {
+  const response = await fetch(`${API_BASE}/recipes/preferences`, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(preferences),
+  });
+  const data = await response.json().catch(() => []);
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not save dietary preferences.');
+  }
+  return data;
+}
+
 export async function likeRecipe(token, recipeId) {
   const response = await fetch(`${API_BASE}/recipes/${recipeId}/like`, {
     method: 'POST',
