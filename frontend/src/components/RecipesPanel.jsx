@@ -7,6 +7,7 @@ import {
   likeRecipe,
   searchRecipes,
 } from '../services/recipeServices';
+import { getMyIngredients } from '../services/ingredientServices';
 
 const DIET_OPTIONS = [
   { value: '', label: 'Any diet' },
@@ -16,13 +17,16 @@ const DIET_OPTIONS = [
   { value: 'high-fiber', label: 'High fiber' },
 ];
 
-function RecipesPanel({ currentUser }) {
+function RecipesPanel({ currentUser, pantryVersion }) {
   const [recipes, setRecipes] = useState([]);
   const [feedback, setFeedback] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [ingredientQuery, setIngredientQuery] = useState('');
   const [diet, setDiet] = useState('');
+  const [currentIngredients, setCurrentIngredients] = useState([]);
+  const [onlyCurrentIngredients, setOnlyCurrentIngredients] = useState(false);
+  const [onlyMakeNow, setOnlyMakeNow] = useState(false);
   const [searchActive, setSearchActive] = useState(false);
 
   const loadFeed = useCallback(
@@ -49,16 +53,45 @@ function RecipesPanel({ currentUser }) {
     setFeedback({});
     setIngredientQuery('');
     setDiet('');
+    setOnlyCurrentIngredients(false);
+    setOnlyMakeNow(false);
     setSearchActive(false);
     loadFeed(0, true);
   }, [currentUser, loadFeed]);
 
+  useEffect(() => {
+    if (!currentUser) {
+      setCurrentIngredients([]);
+      return;
+    }
+
+    getMyIngredients(currentUser.token)
+      .then((data) => {
+        setCurrentIngredients(data.map((item) => item.name).filter(Boolean));
+      })
+      .catch(() => {
+        setCurrentIngredients([]);
+      });
+  }, [currentUser, pantryVersion]);
+
   async function handleSearch(event) {
     event.preventDefault();
-    const ingredients = ingredientQuery
+    const typedIngredients = ingredientQuery
       .split(',')
       .map((value) => value.trim())
       .filter(Boolean);
+    const useCurrentIngredients = onlyCurrentIngredients || onlyMakeNow;
+    const ingredients = useCurrentIngredients ? currentIngredients : typedIngredients;
+
+    if (useCurrentIngredients && !currentUser) {
+      setError('Log in to filter recipes by your current ingredients.');
+      return;
+    }
+
+    if (useCurrentIngredients && currentIngredients.length === 0) {
+      setError('Add at least one current ingredient before using that filter.');
+      return;
+    }
 
     if (ingredients.length === 0 && !diet) {
       setError('Enter at least one ingredient or choose a diet.');
@@ -72,6 +105,7 @@ function RecipesPanel({ currentUser }) {
       const matches = await searchRecipes({
         ingredients,
         preferences: diet ? [{ name: 'diet', value: diet }] : [],
+        requireAllIngredients: onlyMakeNow,
         limit: 50,
       });
       setRecipes(
@@ -93,6 +127,8 @@ function RecipesPanel({ currentUser }) {
   async function clearSearch() {
     setIngredientQuery('');
     setDiet('');
+    setOnlyCurrentIngredients(false);
+    setOnlyMakeNow(false);
     setSearchActive(false);
     await loadFeed(0, true);
   }
@@ -123,6 +159,8 @@ function RecipesPanel({ currentUser }) {
   async function refreshFeed() {
     setIngredientQuery('');
     setDiet('');
+    setOnlyCurrentIngredients(false);
+    setOnlyMakeNow(false);
     setSearchActive(false);
     await loadFeed(0, true);
   }
@@ -162,6 +200,30 @@ function RecipesPanel({ currentUser }) {
             ))}
           </select>
         </label>
+        <div className="recipe-search-options">
+          <label className="recipe-search-check">
+            <input
+              type="checkbox"
+              checked={onlyCurrentIngredients}
+              onChange={(event) => setOnlyCurrentIngredients(event.target.checked)}
+              disabled={onlyMakeNow}
+            />
+            <span>Only show recipes with some current ingredients</span>
+          </label>
+          <label className="recipe-search-check">
+            <input
+              type="checkbox"
+              checked={onlyMakeNow}
+              onChange={(event) => {
+                setOnlyMakeNow(event.target.checked);
+                if (event.target.checked) {
+                  setOnlyCurrentIngredients(false);
+                }
+              }}
+            />
+            <span>Only show recipes I can make right now</span>
+          </label>
+        </div>
         <button type="submit" className="recipe-search-submit" disabled={loading}>
           Search
         </button>
