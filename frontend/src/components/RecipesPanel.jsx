@@ -22,6 +22,7 @@ function RecipesPanel({ currentUser, pantryVersion }) {
   const [feedback, setFeedback] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [recipeQuery, setRecipeQuery] = useState('');
   const [ingredientQuery, setIngredientQuery] = useState('');
   const [diet, setDiet] = useState('');
   const [currentIngredients, setCurrentIngredients] = useState([]);
@@ -51,6 +52,7 @@ function RecipesPanel({ currentUser, pantryVersion }) {
 
   useEffect(() => {
     setFeedback({});
+    setRecipeQuery('');
     setIngredientQuery('');
     setDiet('');
     setOnlyCurrentIngredients(false);
@@ -93,8 +95,8 @@ function RecipesPanel({ currentUser, pantryVersion }) {
       return;
     }
 
-    if (ingredients.length === 0 && !diet) {
-      setError('Enter at least one ingredient or choose a diet.');
+    if (ingredients.length === 0 && !diet && !recipeQuery) {
+      setError('Enter a search term, an ingredient, or choose a diet.');
       return;
     }
 
@@ -103,18 +105,25 @@ function RecipesPanel({ currentUser, pantryVersion }) {
 
     try {
       const matches = await searchRecipes({
+        query: recipeQuery,
         ingredients,
         preferences: diet ? [{ name: 'diet', value: diet }] : [],
         requireAllIngredients: onlyMakeNow,
         limit: 50,
       });
+      
       setRecipes(
-        matches.map((match) => ({
-          ...match.recipe,
-          matchScore: match.matchScore,
-          matchedIngredients: ingredients.length > 0 ? match.matchedIngredients : [],
-          missingIngredients: ingredients.length > 0 ? match.missingIngredients : [],
-        })),
+        matches.map((match) => {
+          // Fix: Handles both ingredient-match wrappers and direct recipe objects
+          const recipeData = match.recipe || match; 
+          
+          return {
+            ...recipeData,
+            matchScore: match.matchScore || null,
+            matchedIngredients: match.matchedIngredients || [],
+            missingIngredients: match.missingIngredients || [],
+          };
+        }),
       );
       setSearchActive(true);
     } catch (err) {
@@ -125,6 +134,7 @@ function RecipesPanel({ currentUser, pantryVersion }) {
   }
 
   async function clearSearch() {
+    setRecipeQuery('');
     setIngredientQuery('');
     setDiet('');
     setOnlyCurrentIngredients(false);
@@ -157,6 +167,7 @@ function RecipesPanel({ currentUser, pantryVersion }) {
   }
 
   async function refreshFeed() {
+    setRecipeQuery('');
     setIngredientQuery('');
     setDiet('');
     setOnlyCurrentIngredients(false);
@@ -180,27 +191,67 @@ function RecipesPanel({ currentUser, pantryVersion }) {
           Refresh feed
         </button>
       </div>
-      <form className="recipe-search" onSubmit={handleSearch}>
-        <label className="recipe-search-field">
-          <span>Ingredients</span>
-          <input
-            type="search"
-            value={ingredientQuery}
-            onChange={(event) => setIngredientQuery(event.target.value)}
-            placeholder="spinach, egg, rice"
-          />
-        </label>
-        <label className="recipe-search-field recipe-diet-field">
-          <span>Diet</span>
-          <select value={diet} onChange={(event) => setDiet(event.target.value)}>
-            {DIET_OPTIONS.map((option) => (
-              <option key={option.value || 'any'} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
-        </label>
-        <div className="recipe-search-options">
+
+      <form 
+        className="recipe-search" 
+        onSubmit={handleSearch} 
+        style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}
+      >
+        <div style={{ display: 'flex', width: '100%' }}>
+          <label className="recipe-search-field" style={{ flex: 1, width: '100%', margin: 0 }}>
+            <span>Search Recipes</span>
+            <input
+              type="search"
+              value={recipeQuery}
+              onChange={(event) => setRecipeQuery(event.target.value)}
+              placeholder="e.g. Chicken Alfredo, Tacos..."
+            />
+          </label>
+        </div>
+
+        <div style={{ display: 'flex', gap: '1rem', width: '100%', alignItems: 'flex-end' }}>
+          <label className="recipe-search-field" style={{ flex: 1, margin: 0 }}>
+            <span>Ingredients</span>
+            <input
+              type="search"
+              value={ingredientQuery}
+              onChange={(event) => setIngredientQuery(event.target.value)}
+              placeholder="spinach, egg, rice"
+            />
+          </label>
+
+          <label className="recipe-search-field recipe-diet-field" style={{ minWidth: '150px', margin: 0 }}>
+            <span>Diet</span>
+            <select value={diet} onChange={(event) => setDiet(event.target.value)}>
+              {DIET_OPTIONS.map((option) => (
+                <option key={option.value || 'any'} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button type="submit" className="recipe-search-submit" disabled={loading} style={{ margin: 0, height: '100%' }}>
+              Search
+            </button>
+            {searchActive && (
+              <button
+                type="button"
+                className="recipe-search-clear"
+                aria-label="Clear recipe search"
+                title="Clear search"
+                onClick={clearSearch}
+                disabled={loading}
+                style={{ margin: 0, height: '100%' }}
+              >
+                ×
+              </button>
+            )}
+          </div>
+        </div>
+
+        <div className="recipe-search-options" style={{ margin: 0 }}>
           <label className="recipe-search-check">
             <input
               type="checkbox"
@@ -224,22 +275,8 @@ function RecipesPanel({ currentUser, pantryVersion }) {
             <span>Only show recipes I can make right now</span>
           </label>
         </div>
-        <button type="submit" className="recipe-search-submit" disabled={loading}>
-          Search
-        </button>
-        {searchActive && (
-          <button
-            type="button"
-            className="recipe-search-clear"
-            aria-label="Clear recipe search"
-            title="Clear search"
-            onClick={clearSearch}
-            disabled={loading}
-          >
-            ×
-          </button>
-        )}
       </form>
+
       {loading && <p>Loading recipes...</p>}
       {error && <p className="error-text">{error}</p>}
       {!loading && !error && (
@@ -247,7 +284,7 @@ function RecipesPanel({ currentUser, pantryVersion }) {
           {recipes.length === 0 ? (
             <p>
               {searchActive
-                ? 'No recipes match those ingredients and dietary choices.'
+                ? 'No recipes match your search criteria.'
                 : 'No more recipes right now. Refresh to load another batch.'}
             </p>
           ) : (
