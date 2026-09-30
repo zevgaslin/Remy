@@ -26,3 +26,9 @@ MVP:
 In scope: User login, makes weeks list of unique recipes and ingredients, user prefences. 
 Out of Scope: Mobile app, external api to check local ingridents.
 
+
+Sprint Planning 3 User Story 1:
+  As a developer, I want to resolve the Dependency Inversion Principle violation occurring between RecipesPanel.jsx and CalendarPanel.jsx by getting both of these to refer to a shared React hook abstraction, so our code is easier to change safely going forward.
+  
+Sprint Planning 3 User Story 2:
+  As a developer, I want to apply the Container/Presentational design pattern by extracting the data logic out of RecipesPanel.jsx and CalendarPanel.jsx into a shared React hook for any front end component dependent upon the recipies algortih, so a real problem is solved with the standard, recognizable fix rather than an ad hoc one.
