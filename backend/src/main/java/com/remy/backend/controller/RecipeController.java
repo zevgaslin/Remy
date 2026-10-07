@@ -1,16 +1,15 @@
 package com.remy.backend.controller;
 
+import com.remy.backend.dto.RatingResult;
 import com.remy.backend.model.PreferenceType;
 import com.remy.backend.dto.PreferenceCriterion;
 import com.remy.backend.dto.RecipeSearchRequest;
 import com.remy.backend.model.Recipe;
-import com.remy.backend.model.RecipePreference;
-import com.remy.backend.model.User;
 import com.remy.backend.repository.RecipePreferenceRepository;
 import com.remy.backend.repository.RecipeRepository;
-import com.remy.backend.repository.UserRepository;
-import com.remy.backend.service.TokenService;
 import com.remy.backend.service.RecipeMatchingService;
+import com.remy.backend.service.RecipePreferenceService;
+import com.remy.backend.service.SessionTokenService;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -36,19 +35,19 @@ public class RecipeController {
 
     private final RecipeRepository recipeRepository;
     private final RecipePreferenceRepository recipePreferenceRepository;
-    private final UserRepository userRepository;
-    private final TokenService tokenService;
+    private final RecipePreferenceService recipePreferenceService;
+    private final SessionTokenService tokenService;
     private final RecipeMatchingService recipeMatchingService;
 
     public RecipeController(
             RecipeRepository recipeRepository,
             RecipePreferenceRepository recipePreferenceRepository,
-            UserRepository userRepository,
-            TokenService tokenService,
+            RecipePreferenceService recipePreferenceService,
+            SessionTokenService tokenService,
             RecipeMatchingService recipeMatchingService) {
         this.recipeRepository = recipeRepository;
         this.recipePreferenceRepository = recipePreferenceRepository;
-        this.userRepository = userRepository;
+        this.recipePreferenceService = recipePreferenceService;
         this.tokenService = tokenService;
         this.recipeMatchingService = recipeMatchingService;
     }
@@ -215,39 +214,12 @@ public class RecipeController {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to rate recipes."));
         }
 
-        User user = userRepository.findById(userId.get()).orElseThrow();
-        Recipe recipe = recipeRepository.findById(recipeId)
-                .orElseThrow(() -> new IllegalArgumentException("Recipe not found."));
-
-        RecipePreference existingPreference = recipePreferenceRepository.findByUserIdAndRecipeId(userId.get(), recipeId)
-                .orElse(null);
-
-        PreferenceType previousPreference = existingPreference == null ? null : existingPreference.getPreference();
-        if (existingPreference == null) {
-            existingPreference = new RecipePreference();
-            existingPreference.setUser(user);
-            existingPreference.setRecipe(recipe);
-        }
-
-        if (previousPreference != null && previousPreference != preference) {
-            recipe.applyPreferenceChange(previousPreference, preference);
-        } else if (previousPreference == null) {
-            if (preference == PreferenceType.LIKE) {
-                recipe.setLikes(recipe.getLikes() + 1);
-            } else {
-                recipe.setDislikes(recipe.getDislikes() + 1);
-            }
-        }
-
-        existingPreference.setPreference(preference);
-        recipePreferenceRepository.save(existingPreference);
-        recipeRepository.save(recipe);
-
+        RatingResult result = recipePreferenceService.rate(userId.get(), recipeId, preference);
         return ResponseEntity.ok(Map.of(
-                "recipeId", recipeId,
-                "preference", preference.name(),
-                "likes", recipe.getLikes(),
-                "dislikes", recipe.getDislikes()));
+                "recipeId", result.recipeId(),
+                "preference", result.preference().name(),
+                "likes", result.likes(),
+                "dislikes", result.dislikes()));
     }
 
     private boolean isBlank(String value) {

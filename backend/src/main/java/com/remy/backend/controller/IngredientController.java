@@ -5,7 +5,7 @@ import com.remy.backend.model.Ingredient;
 import com.remy.backend.repository.IngredientRepository;
 import com.remy.backend.repository.UserRepository;
 import com.remy.backend.service.NotificationService;
-import com.remy.backend.service.TokenService;
+import com.remy.backend.service.SessionTokenService;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -27,13 +27,13 @@ public class IngredientController {
 
     private final IngredientRepository ingredientRepository;
     private final UserRepository userRepository;
-    private final TokenService tokenService;
+    private final SessionTokenService tokenService;
     private final NotificationService notificationService;
 
     public IngredientController(
             IngredientRepository ingredientRepository,
             UserRepository userRepository,
-            TokenService tokenService,
+            SessionTokenService tokenService,
             NotificationService notificationService) {
         this.ingredientRepository = ingredientRepository;
         this.userRepository = userRepository;
