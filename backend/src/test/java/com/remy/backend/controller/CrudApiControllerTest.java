@@ -330,6 +330,26 @@ class CrudApiControllerTest {
     }
 
     @Test
+    void changingAVoteMovesTheCountInsteadOfAddingOne() {
+        String token = registerAndGetToken("vote_user", "vote@example.com", "password123");
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+        Long recipeId = createRecipe("Mushroom Risotto");
+
+        ResponseEntity<Map> likeResponse = restTemplate.exchange(
+                "/api/recipes/{id}/like", HttpMethod.POST, new HttpEntity<>(headers), Map.class, recipeId);
+        assertThat(likeResponse.getBody()).containsEntry("likes", 1).containsEntry("dislikes", 0);
+
+        ResponseEntity<Map> repeatResponse = restTemplate.exchange(
+                "/api/recipes/{id}/like", HttpMethod.POST, new HttpEntity<>(headers), Map.class, recipeId);
+        assertThat(repeatResponse.getBody()).containsEntry("likes", 1).containsEntry("dislikes", 0);
+
+        ResponseEntity<Map> dislikeResponse = restTemplate.exchange(
+                "/api/recipes/{id}/dislike", HttpMethod.POST, new HttpEntity<>(headers), Map.class, recipeId);
+        assertThat(dislikeResponse.getBody()).containsEntry("likes", 0).containsEntry("dislikes", 1);
+    }
+
+    @Test
     void notificationsTrackExpiredFoodAndCanBeMarkedRead() {
         String token = registerAndGetToken("notify_user", "notify@example.com", "password123");
         HttpHeaders headers = new HttpHeaders();

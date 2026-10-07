@@ -5,7 +5,7 @@ import com.remy.backend.dto.LoginRequest;
 import com.remy.backend.dto.RegisterRequest;
 import com.remy.backend.model.User;
 import com.remy.backend.repository.UserRepository;
-import com.remy.backend.service.TokenService;
+import com.remy.backend.service.SessionTokenService;
 import java.util.Map;
 import java.util.Optional;
 import org.springframework.http.HttpStatus;
@@ -26,9 +26,9 @@ public class AuthController {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
-    private final TokenService tokenService;
+    private final SessionTokenService tokenService;
 
-    public AuthController(UserRepository userRepository, PasswordEncoder passwordEncoder, TokenService tokenService) {
+    public AuthController(UserRepository userRepository, PasswordEncoder passwordEncoder, SessionTokenService tokenService) {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
         this.tokenService = tokenService;

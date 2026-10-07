@@ -2,7 +2,7 @@ package com.remy.backend.controller;
 
 import com.remy.backend.model.UserNotification;
 import com.remy.backend.repository.UserNotificationRepository;
-import com.remy.backend.service.TokenService;
+import com.remy.backend.service.SessionTokenService;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class NotificationController {
 
     private final UserNotificationRepository userNotificationRepository;
-    private final TokenService tokenService;
+    private final SessionTokenService tokenService;
 
-    public NotificationController(UserNotificationRepository userNotificationRepository, TokenService tokenService) {
+    public NotificationController(UserNotificationRepository userNotificationRepository, SessionTokenService tokenService) {
         this.userNotificationRepository = userNotificationRepository;
         this.tokenService = tokenService;
     }

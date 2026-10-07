@@ -11,16 +11,18 @@ import org.springframework.stereotype.Service;
  * the way the rest of the data does - that's normal session behavior.
  */
 @Service
-public class TokenService {
+public class InMemoryTokenService implements SessionTokenService {
 
     private final Map<String, Long> tokenToUserId = new ConcurrentHashMap<>();
 
+    @Override
     public String issueToken(Long userId) {
         String token = UUID.randomUUID().toString();
         tokenToUserId.put(token, userId);
         return token;
     }
 
+    @Override
     public Optional<Long> resolveUserId(String authorizationHeader) {
         if (authorizationHeader == null || !authorizationHeader.startsWith("Bearer ")) {
             return Optional.empty();
