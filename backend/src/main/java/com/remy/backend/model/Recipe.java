@@ -9,6 +9,7 @@ import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import org.hibernate.annotations.ColumnDefault;
 
 @Entity
 public class Recipe {
@@ -36,9 +37,11 @@ public class Recipe {
     @OneToMany(mappedBy = "recipe", cascade = jakarta.persistence.CascadeType.ALL, orphanRemoval = true)
     private Set<RecipePreferenceTag> preferenceTags = new LinkedHashSet<>();
 
+    @ColumnDefault("0")
     @Column(nullable = false)
     private int likes = 0;
 
+    @ColumnDefault("0")
     @Column(nullable = false)
     private int dislikes = 0;
 
