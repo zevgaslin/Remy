@@ -2,9 +2,12 @@ package com.remy.backend.controller;
 
 import com.remy.backend.dto.RatingResult;
 import com.remy.backend.model.PreferenceType;
+import com.remy.backend.dto.PreferenceCriterion;
+import com.remy.backend.dto.RecipeSearchRequest;
 import com.remy.backend.model.Recipe;
 import com.remy.backend.repository.RecipePreferenceRepository;
 import com.remy.backend.repository.RecipeRepository;
+import com.remy.backend.service.RecipeMatchingService;
 import com.remy.backend.service.RecipePreferenceService;
 import com.remy.backend.service.SessionTokenService;
 import java.util.HashSet;
@@ -34,16 +37,19 @@ public class RecipeController {
     private final RecipePreferenceRepository recipePreferenceRepository;
     private final RecipePreferenceService recipePreferenceService;
     private final SessionTokenService tokenService;
+    private final RecipeMatchingService recipeMatchingService;
 
     public RecipeController(
             RecipeRepository recipeRepository,
             RecipePreferenceRepository recipePreferenceRepository,
             RecipePreferenceService recipePreferenceService,
-            SessionTokenService tokenService) {
+            SessionTokenService tokenService,
+            RecipeMatchingService recipeMatchingService) {
         this.recipeRepository = recipeRepository;
         this.recipePreferenceRepository = recipePreferenceRepository;
         this.recipePreferenceService = recipePreferenceService;
         this.tokenService = tokenService;
+        this.recipeMatchingService = recipeMatchingService;
     }
 
     @GetMapping
@@ -78,6 +84,51 @@ public class RecipeController {
                 .toList();
 
         return ResponseEntity.ok(feed);
+    }
+
+    @GetMapping("/matches")
+    public ResponseEntity<?> getRecipeMatches(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @RequestParam(defaultValue = "20") int limit) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+                    .body(Map.of("error", "Log in to match recipes to your pantry and preferences."));
+        }
+        int safeLimit = Math.max(1, Math.min(limit, 100));
+        return ResponseEntity.ok(recipeMatchingService.findMatchesForUser(userId.get(), safeLimit));
+    }
+
+    @PostMapping("/search")
+    public ResponseEntity<?> searchRecipes(@RequestBody RecipeSearchRequest request) {
+        if (request == null) {
+            return ResponseEntity.badRequest().body(Map.of("error", "Search values are required."));
+        }
+        return ResponseEntity.ok(recipeMatchingService.search(request));
+    }
+
+    @GetMapping("/preferences")
+    public ResponseEntity<?> getUserPreferences(
+            @RequestHeader(value = "Authorization", required = false) String authHeader) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+                    .body(Map.of("error", "Log in to view dietary preferences."));
+        }
+        return ResponseEntity.ok(recipeMatchingService.getUserPreferences(userId.get()));
+    }
+
+    @PutMapping("/preferences")
+    public ResponseEntity<?> replaceUserPreferences(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @RequestBody List<PreferenceCriterion> preferences) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+                    .body(Map.of("error", "Log in to save dietary preferences."));
+        }
+        return ResponseEntity.ok(recipeMatchingService.replaceUserPreferences(
+                userId.get(), preferences == null ? List.of() : preferences));
     }
 
     @GetMapping("/{id}/preference")

@@ -1,12 +1,17 @@
 package com.remy.backend.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -24,6 +29,10 @@ public class User {
     @Column(nullable = false)
     private String passwordHash;
 
+    // Added relationship for preferences/allergies
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private List<UserPreference> preferences = new ArrayList<>();
+
     public User() {
     }
 
@@ -31,7 +40,6 @@ public class User {
         return id;
     }
     
-
     public String getUsername() {
         return username;
     }
@@ -55,5 +63,25 @@ public class User {
 
     public void setPasswordHash(String passwordHash) {
         this.passwordHash = passwordHash;
+    }
+
+    // Getters and Setters for preferences
+    public List<UserPreference> getPreferences() {
+        return preferences;
+    }
+
+    public void setPreferences(List<UserPreference> preferences) {
+        this.preferences = preferences;
+    }
+
+    // Helper methods to keep bidirectional association in sync
+    public void addPreference(UserPreference preference) {
+        preferences.add(preference);
+        preference.setUser(this);
+    }
+
+    public void removePreference(UserPreference preference) {
+        preferences.remove(preference);
+        preference.setUser(null);
     }
 }

@@ -11,6 +11,7 @@ function HomePage() {
   const [currentUser, setCurrentUser] = useState(() => readStoredUser());
   const [notifications, setNotifications] = useState([]);
   const [notificationError, setNotificationError] = useState('');
+  const [pantryVersion, setPantryVersion] = useState(0);
 
   useEffect(() => {
     if (currentUser) {
@@ -94,8 +95,12 @@ function HomePage() {
         </section>
       )}
       <div className="dashboard-bottom">
-        <IngredientsPanel key={currentUser?.id ?? 'guest'} currentUser={currentUser} />
-        <RecipesPanel currentUser={currentUser} />
+        <IngredientsPanel
+          key={currentUser?.id ?? 'guest'}
+          currentUser={currentUser}
+          onIngredientsChanged={() => setPantryVersion((version) => version + 1)}
+        />
+        <RecipesPanel currentUser={currentUser} pantryVersion={pantryVersion} />
       </div>
     </div>
   );
