@@ -17,7 +17,7 @@ const DIET_OPTIONS = [
   { value: 'high-fiber', label: 'High fiber' },
 ];
 
-function RecipesPanel({ currentUser, pantryVersion }) {
+function RecipesPanel({ currentUser }) {
   const [recipes, setRecipes] = useState([]);
   const [feedback, setFeedback] = useState({});
   const [loading, setLoading] = useState(true);
@@ -74,7 +74,7 @@ function RecipesPanel({ currentUser, pantryVersion }) {
       .catch(() => {
         setCurrentIngredients([]);
       });
-  }, [currentUser, pantryVersion]);
+  }, [currentUser]);
 
   async function handleSearch(event) {
     event.preventDefault();

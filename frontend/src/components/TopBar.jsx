@@ -1,21 +1,42 @@
 import { useState } from 'react';
+import { Link, NavLink } from 'react-router';
 import AuthModal from './AuthModal';
+import { useAuth } from '../context/useAuth';
 
-function TopBar({ currentUser, onLogin, onLogout }) {
+const NAV_LINKS = [
+  { to: '/', label: 'Meal Planner', end: true },
+  { to: '/pantry', label: 'Pantry' },
+  { to: '/recipes', label: 'Recipes' },
+];
+
+function TopBar() {
+  const { currentUser, login, logout } = useAuth();
   const [modalOpen, setModalOpen] = useState(false);
 
   function handleAuthSuccess(user) {
-    onLogin(user);
+    login(user);
     setModalOpen(false);
   }
 
   return (
     <header className="top-bar">
-      <span className="brand">Remy</span>
+      <Link to="/" className="brand">Remy</Link>
+      <nav className="main-nav" aria-label="Main">
+        {NAV_LINKS.map(({ to, label, end }) => (
+          <NavLink
+            key={to}
+            to={to}
+            end={end}
+            className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}
+          >
+            {label}
+          </NavLink>
+        ))}
+      </nav>
       {currentUser ? (
         <div className="account-menu">
           <span className="account-greeting">Hi, {currentUser.username}</span>
-          <button type="button" className="auth-button" onClick={onLogout}>
+          <button type="button" className="auth-button" onClick={logout}>
             Log Out
           </button>
         </div>
