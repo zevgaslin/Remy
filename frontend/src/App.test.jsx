@@ -5,6 +5,7 @@ import { MemoryRouter } from 'react-router';
 import { AppRoutes } from './App';
 import { AuthProvider } from './context/AuthProvider';
 import * as notificationServices from './services/notificationServices';
+import * as goalServices from './services/goalServices';
 
 // Stub the panels so these tests only cover routing and layout
 vi.mock('./components/IngredientsPanel', () => ({
@@ -16,7 +17,11 @@ vi.mock('./components/RecipesPanel', () => ({
   default: () => <div data-testid="recipes-panel" />,
 }));
 vi.mock('./components/CalendarPanel', () => ({
-  default: () => <div data-testid="calendar-panel" />,
+  default: ({ goals }) => <div data-testid="calendar-panel">{goals.calories} kcal goal</div>,
+}));
+vi.mock('./services/goalServices', () => ({
+  getNutritionGoals: vi.fn(),
+  saveNutritionGoals: vi.fn(),
 }));
 vi.mock('./services/notificationServices', () => ({
   getNotifications: vi.fn(),
@@ -38,6 +43,27 @@ describe('App routing', () => {
     vi.clearAllMocks();
     localStorage.clear();
     notificationServices.getNotifications.mockResolvedValue([]);
+    goalServices.getNutritionGoals.mockResolvedValue({ calories: 3200, protein: 180, carbs: 350, fat: 90 });
+  });
+
+  it('plans against the default goals for guests', () => {
+    renderAt('/');
+
+    expect(screen.getByTestId('calendar-panel')).toHaveTextContent('2000 kcal goal');
+    expect(screen.getByText('Log in to set your own goals.')).toBeInTheDocument();
+    expect(goalServices.getNutritionGoals).not.toHaveBeenCalled();
+  });
+
+  it('loads a logged-in user\'s saved goals into the planner', async () => {
+    localStorage.setItem(
+      'remy-current-user',
+      JSON.stringify({ id: 3, username: 'jordan', token: 'abc' }),
+    );
+    renderAt('/');
+
+    expect(await screen.findByText('3200 kcal goal')).toBeInTheDocument();
+    expect(goalServices.getNutritionGoals).toHaveBeenCalledWith('abc');
+    expect(screen.getByRole('button', { name: 'Edit goals' })).toBeInTheDocument();
   });
 
   it('shows the meal planner on the home page', () => {

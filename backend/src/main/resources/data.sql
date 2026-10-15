@@ -249,3 +249,19 @@ WHERE NOT EXISTS (
       AND LOWER(rpt.preference_name) = LOWER(x.preference_name)
       AND LOWER(rpt.preference_value) = LOWER(x.preference_value)
 );
+
+-- Estimated nutrition per serving for the seeded recipes (calories in kcal,
+-- macros in grams). Only fills in recipes that don't have nutrition yet.
+UPDATE recipe SET calories = 620, protein = 18, carbs = 80, fat = 26 WHERE name = 'Garlic Butter Pasta' AND calories IS NULL;
+UPDATE recipe SET calories = 450, protein = 10, carbs = 75, fat = 12 WHERE name = 'Veggie Stir Fry Rice Bowl' AND calories IS NULL;
+UPDATE recipe SET calories = 280, protein = 42, carbs = 6, fat = 9 WHERE name = 'Lemon Yogurt Chicken' AND calories IS NULL;
+UPDATE recipe SET calories = 430, protein = 24, carbs = 30, fat = 23 WHERE name = 'Spinach Egg Breakfast Wrap' AND calories IS NULL;
+UPDATE recipe SET calories = 410, protein = 13, carbs = 68, fat = 10 WHERE name = 'Black Bean Sweet Potato Tacos' AND calories IS NULL;
+UPDATE recipe SET calories = 520, protein = 18, carbs = 74, fat = 18 WHERE name = 'Banana Peanut Butter Oats' AND calories IS NULL;
+UPDATE recipe SET calories = 560, protein = 36, carbs = 40, fat = 27 WHERE name = 'Salmon Quinoa Bowl' AND calories IS NULL;
+UPDATE recipe SET calories = 430, protein = 16, carbs = 52, fat = 17 WHERE name = 'Broccoli Cheddar Rice Skillet' AND calories IS NULL;
+UPDATE recipe SET calories = 230, protein = 7, carbs = 30, fat = 9 WHERE name = 'Classic Pancakes' AND calories IS NULL;
+UPDATE recipe SET calories = 220, protein = 18, carbs = 22, fat = 6 WHERE name = 'Homemade Chicken Noodle Soup' AND calories IS NULL;
+UPDATE recipe SET calories = 360, protein = 26, carbs = 30, fat = 15 WHERE name = 'Classic Beef Chili' AND calories IS NULL;
+UPDATE recipe SET calories = 560, protein = 23, carbs = 55, fat = 27 WHERE name = 'Easy Mac and Cheese' AND calories IS NULL;
+UPDATE recipe SET calories = 180, protein = 2, carbs = 24, fat = 9 WHERE name = 'Chocolate Chunk Cookies' AND calories IS NULL;

@@ -3,6 +3,7 @@ package com.remy.backend.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
@@ -33,6 +34,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<UserPreference> preferences = new ArrayList<>();
 
+    @Embedded
+    private NutritionGoals nutritionGoals;
+
     public User() {
     }
 
@@ -54,6 +58,15 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @JsonIgnore
+    public NutritionGoals getNutritionGoals() {
+        return nutritionGoals;
+    }
+
+    public void setNutritionGoals(NutritionGoals nutritionGoals) {
+        this.nutritionGoals = nutritionGoals;
     }
 
     @JsonIgnore

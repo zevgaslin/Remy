@@ -53,4 +53,18 @@ class SeedDataIntegrationTest {
         assertThat(pancakes.getPreferenceTags()).extracting("preferenceValue")
                 .contains("breakfast", "vegetarian", "american", "easy");
     }
+
+    @Test
+    void everySeededRecipeHasNutritionPerServing() {
+        assertThat(recipeRepository.findAll()).allSatisfy(recipe -> {
+            assertThat(recipe.getNutrition()).as(recipe.getName()).isNotNull();
+            assertThat(recipe.getNutrition().getCalories()).as(recipe.getName()).isPositive();
+        });
+
+        Recipe chicken = recipeRepository.findAll().stream()
+                .filter(recipe -> recipe.getName().equals("Lemon Yogurt Chicken"))
+                .findFirst()
+                .orElseThrow();
+        assertThat(chicken.getNutrition().getProtein()).isEqualTo(42);
+    }
 }

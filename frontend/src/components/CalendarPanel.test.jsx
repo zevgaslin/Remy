@@ -70,7 +70,7 @@ describe('getDailyNutritionTotal', () => {
 
 
 describe('DailyNutritionSummary Component', () => {
- it('renders accurate daily totals and calculates percentage of daily value', () => {
+ it('renders accurate daily totals and the percentage of each default goal', () => {
    // Arrange
    const mockTotals = { calories: 1000, protein: 25, carbs: 137.5, fat: 39 };
 
@@ -80,7 +80,7 @@ describe('DailyNutritionSummary Component', () => {
 
 
    // Assert
-   // Based on DAILY_TARGETS: Cal: 2000, Pro: 50g, Carb: 275g, Fat: 78g
+   // Default goals: Cal: 2000, Pro: 50g, Carb: 275g, Fat: 78g
    // The provided totals are exactly 50% of the daily targets.
    expect(screen.getByText('Cal: 1000')).toBeInTheDocument();
    expect(screen.getByText('Pro: 25g')).toBeInTheDocument();
@@ -88,12 +88,14 @@ describe('DailyNutritionSummary Component', () => {
    expect(screen.getByText('Fat: 39g')).toBeInTheDocument();
   
    // Verify percentages are calculated correctly (50%)
-   const percentageElements = screen.getAllByText('50% DV');
+   const percentageElements = screen.getAllByText('50%');
    expect(percentageElements).toHaveLength(4);
+   expect(screen.getAllByRole('progressbar').map((bar) => bar.getAttribute('aria-valuenow')))
+     .toEqual(['50', '50', '50', '50']);
  });
 
 
- it('caps the daily value percentage at 100% when targets are exceeded', () => {
+ it('flags goals that are exceeded and caps the progress bar at 100%', () => {
    // Arrange
    const massiveTotals = { calories: 5000, protein: 200, carbs: 500, fat: 150 };
 
@@ -103,9 +105,22 @@ describe('DailyNutritionSummary Component', () => {
 
 
    // Assert
-   // Even though 5000 calories is 250% of 2000, the UI should cap at 100%
-   const cappedPercentageElements = screen.getAllByText('100% DV');
-   expect(cappedPercentageElements).toHaveLength(4);
+   // 5000 calories is 250% of 2000: show the real percentage, but keep the bar full
+   expect(screen.getByText('250% · over')).toBeInTheDocument();
+   expect(screen.getByText('400% · over')).toBeInTheDocument();
+   expect(screen.getAllByRole('progressbar').map((bar) => bar.getAttribute('aria-valuenow')))
+     .toEqual(['100', '100', '100', '100']);
+ });
+
+ it('compares totals against the goals it is given', () => {
+   const totals = { calories: 1500, protein: 90, carbs: 100, fat: 40 };
+   const goals = { calories: 3000, protein: 180, carbs: 400, fat: 80 };
+
+   render(<DailyNutritionSummary totals={totals} goals={goals} />);
+
+   expect(screen.getAllByText('50%')).toHaveLength(3);
+   expect(screen.getByText('25%')).toBeInTheDocument();
+   expect(screen.getByRole('progressbar', { name: 'Protein: 90 of 180 g' })).toBeInTheDocument();
  });
 });
 

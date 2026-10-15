@@ -2,6 +2,7 @@ import { Fragment, useEffect, useMemo, useState } from 'react';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
 import { getAllRecipes } from '../services/recipeServices'; // NEW IMPORT
+import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
 
 
 const VIEWS = [
@@ -31,12 +32,6 @@ const SLOT_TO_HOUR = {
 };
 
 
-const DAILY_TARGETS = {
- calories: 2000, // kcal
- protein: 50,    // grams
- carbs: 275,     // grams
- fat: 78,        // grams
-};
 
 
 function formatHour(h) {
@@ -106,31 +101,38 @@ export function getDailyNutritionTotal(date, meals, mealSlots) {
 }
 
 
-export function DailyNutritionSummary({ totals }) {
- const calcPercent = (val, target) => Math.min(100, Math.round((val / target) * 100));
-
-
+export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS }) {
  return (
-   <div className="daily-nutrition-summary" style={{ padding: '8px', fontSize: '0.85rem', background: 'rgba(0,0,0,0.03)', borderRadius: '6px' }}>
-     <div style={{ fontWeight: 'bold', marginBottom: '4px', textAlign: 'center' }}>Daily Nutrition</div>
-     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4px' }}>
-       <div>
-         <span>Cal: {totals.calories}</span>
-         <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.calories, DAILY_TARGETS.calories)}% DV</div>
-       </div>
-       <div>
-         <span>Pro: {totals.protein}g</span>
-         <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.protein, DAILY_TARGETS.protein)}% DV</div>
-       </div>
-       <div>
-         <span>Carb: {totals.carbs}g</span>
-         <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.carbs, DAILY_TARGETS.carbs)}% DV</div>
-       </div>
-       <div>
-         <span>Fat: {totals.fat}g</span>
-         <div style={{ fontSize: '0.7rem', color: 'gray' }}>{calcPercent(totals.fat, DAILY_TARGETS.fat)}% DV</div>
-       </div>
-     </div>
+   <div className="daily-nutrition-summary">
+     <div className="daily-nutrition-title">Planned vs goal</div>
+     {NUTRIENTS.map(({ key, label, short, unit, suffix }) => {
+       const value = totals[key];
+       const goal = goals[key];
+       const percent = goal > 0 ? Math.round((value / goal) * 100) : 0;
+       const over = value > goal;
+       return (
+         <div
+           key={key}
+           className={`nutrient-row${over ? ' nutrient-row--over' : ''}`}
+           title={`${value} of ${goal} ${unit} ${label.toLowerCase()} goal`}
+         >
+           <div className="nutrient-row-text">
+             <span>{short}: {value}{suffix}</span>
+             <span className="nutrient-percent">{percent}%{over ? ' · over' : ''}</span>
+           </div>
+           <div
+             className="nutrient-bar"
+             role="progressbar"
+             aria-label={`${label}: ${value} of ${goal} ${unit}`}
+             aria-valuemin={0}
+             aria-valuemax={100}
+             aria-valuenow={Math.min(percent, 100)}
+           >
+             <div className="nutrient-bar-fill" style={{ width: `${Math.min(percent, 100)}%` }} />
+           </div>
+         </div>
+       );
+     })}
    </div>
  );
 }
@@ -192,10 +194,13 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
                key={r.id}
                style={{ padding: '8px', borderBottom: '1px solid #eee', cursor: 'pointer', fontSize: '0.9rem' }}
                onClick={() => onSelect(r)}
-               onMouseEnter={(e) => e.target.style.background = '#f5f5f5'}
-               onMouseLeave={(e) => e.target.style.background = 'transparent'}
+               onMouseEnter={(e) => e.currentTarget.style.background = '#f5f5f5'}
+               onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
              >
                {r.name}
+               {r.nutrition?.calories != null && (
+                 <span className="recipe-picker-calories"> · {r.nutrition.calories} kcal</span>
+               )}
              </li>
            ))}
          </ul>
@@ -286,7 +291,7 @@ function useCurrentTimeProgress() {
 }
 
 
-function CalendarPanel() {
+function CalendarPanel({ goals = DEFAULT_GOALS }) {
  const [view, setView] = useState('day');
  const [mealSlots, setMealSlots] = useState(DEFAULT_MEAL_SLOTS);
  const today = useToday();
@@ -462,7 +467,7 @@ function CalendarPanel() {
 
 
          <div className="day-nutrition-footer" style={{ borderTop: '1px solid #eee', padding: '12px' }}>
-           <DailyNutritionSummary totals={getDailyNutritionTotal(today, plannedMeals, mealSlots)} />
+           <DailyNutritionSummary totals={getDailyNutritionTotal(today, plannedMeals, mealSlots)} goals={goals} />
          </div>
        </div>
      ) : (
@@ -520,7 +525,7 @@ function CalendarPanel() {
            </div>
            {days.map((day) => (
              <div key={`nutrition-${dateKey(day)}`} className="meal-cell nutrition-cell" style={{ borderTop: '2px solid #ddd', padding: '4px' }}>
-               <DailyNutritionSummary totals={getDailyNutritionTotal(day, plannedMeals, mealSlots)} />
+               <DailyNutritionSummary totals={getDailyNutritionTotal(day, plannedMeals, mealSlots)} goals={goals} />
              </div>
            ))}
           
