@@ -78,14 +78,14 @@ describe('App routing', () => {
     expect(screen.getByRole('heading', { name: 'Page not found' })).toBeInTheDocument();
   });
 
-  it('shows notifications above the planner and keeps the user across pages', async () => {
+  it('shows the notification bell for a logged-in user and keeps the user across pages', async () => {
     localStorage.setItem(
       'remy-current-user',
       JSON.stringify({ id: 3, username: 'jordan', token: 'abc' }),
     );
     renderAt('/');
 
-    expect(screen.getByRole('heading', { name: 'Notifications' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Notifications' })).toBeInTheDocument();
     await waitFor(() => expect(notificationServices.getNotifications).toHaveBeenCalledWith('abc'));
 
     fireEvent.click(screen.getByRole('link', { name: 'Pantry' }));

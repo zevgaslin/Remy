@@ -1,20 +1,6 @@
 // Trash can sounds, synthesized with the Web Audio API so no audio files are needed.
 // Every function fails silently: sound is a nice-to-have, never a reason to break deleting.
-
-let audioContext = null;
-
-function getAudioContext() {
-  if (typeof window === 'undefined') return null;
-  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-  if (!AudioContextClass) return null;
-  if (!audioContext) {
-    audioContext = new AudioContextClass();
-  }
-  if (audioContext.state === 'suspended') {
-    audioContext.resume();
-  }
-  return audioContext;
-}
+import { getAudioContext } from './audioContext';
 
 function noiseBuffer(ctx, seconds) {
   const buffer = ctx.createBuffer(1, Math.floor(ctx.sampleRate * seconds), ctx.sampleRate);
