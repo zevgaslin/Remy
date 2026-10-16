@@ -1,6 +1,7 @@
 package com.remy.backend.model;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -44,6 +45,9 @@ public class Recipe {
     @ColumnDefault("0")
     @Column(nullable = false)
     private int dislikes = 0;
+
+    @Embedded
+    private RecipeNutrition nutrition;
 
     public Recipe() {
     }
@@ -142,6 +146,14 @@ public class Recipe {
 
     public int getLikeCount() {
         return likes;
+    }
+
+    public RecipeNutrition getNutrition() {
+        return nutrition;
+    }
+
+    public void setNutrition(RecipeNutrition nutrition) {
+        this.nutrition = nutrition;
     }
 
     public int getDislikes() {
