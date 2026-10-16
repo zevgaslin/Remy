@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router';
 import AuthModal from './AuthModal';
+import NotificationBell from './NotificationBell';
 import { useAuth } from '../context/useAuth';
 
 const NAV_LINKS = [
@@ -35,6 +36,7 @@ function TopBar() {
       </nav>
       {currentUser ? (
         <div className="account-menu">
+          <NotificationBell key={currentUser.id} currentUser={currentUser} />
           <span className="account-greeting">Hi, {currentUser.username}</span>
           <button type="button" className="auth-button" onClick={logout}>
             Log Out
