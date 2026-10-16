@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useMemo, useState } from 'react';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
-import { getAllRecipes } from '../services/recipeServices'; // NEW IMPORT
+import { useRecipes } from '../hooks/useRecipes';
 import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
 
 
@@ -140,22 +140,7 @@ export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS }) {
 
 // NEW COMPONENT: Recipe Picker Popup
 function RecipePickerPopup({ x, y, onClose, onSelect }) {
- const [recipes, setRecipes] = useState([]);
- const [loading, setLoading] = useState(true);
-
-
- useEffect(() => {
-   getAllRecipes()
-     .then(data => {
-       setRecipes(data);
-       setLoading(false);
-     })
-     .catch(err => {
-       console.error("Failed to load recipes for popup", err);
-       setLoading(false);
-     });
- }, []);
-
+ const { recipes, loading, error, refresh } = useRecipes(undefined, { mode: 'catalog' });
 
  return (
    <>
@@ -187,6 +172,13 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
       
        {loading ? (
          <p style={{ fontSize: '0.9rem', color: 'gray' }}>Loading recipes...</p>
+       ) : error ? (
+         <div role="alert">
+           <p>{error}</p>
+           <button type="button" onClick={refresh}>Retry loading recipes</button>
+         </div>
+       ) : recipes.length === 0 ? (
+         <p>No recipes are available yet.</p>
        ) : (
          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
            {recipes.map(r => (
@@ -299,18 +291,7 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
 
 
  // MODIFIED: State replaces useMemo mockMeals
- const [plannedMeals, setPlannedMeals] = useState({
-   [`${dateKey(today)}-dinner`]: {
-     name: 'Garlic Butter Pasta',
-     instructions: 'Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper.',
-     nutrition: { calories: 650, protein: 18, carbs: 85, fat: 25 },
-   },
-   [`${dateKey(addDays(today, 1))}-lunch`]: {
-     name: 'Veggie Stir Fry',
-     instructions: 'Chop leftover vegetables. Stir fry in oil with soy sauce and ginger over high heat for 5-7 minutes.',
-     nutrition: { calories: 350, protein: 12, carbs: 45, fat: 15 },
-   },
- });
+ const [plannedMeals, setPlannedMeals] = useState({});
 
 
  // NEW: Popup State

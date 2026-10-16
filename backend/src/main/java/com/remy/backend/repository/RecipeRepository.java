@@ -8,6 +8,12 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RecipeRepository extends JpaRepository<Recipe, Long> {
 
+    java.util.Optional<Recipe> findByCatalogId(String catalogId);
+    List<Recipe> findByNameAndCatalogIdIsNull(String name);
+
+    @EntityGraph(attributePaths = {"ingredients", "preferenceTags"})
+    List<Recipe> findByIdIn(java.util.Collection<Long> ids);
+
     @Override
     @EntityGraph(attributePaths = {"ingredients", "preferenceTags"})
     List<Recipe> findAll();

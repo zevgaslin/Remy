@@ -1,0 +1,15 @@
+spring:
+  config:
+    import: optional:classpath:application-secrets.properties
+  datasource:
+    url: ${SUPABASE_DATABASE_URL:jdbc:postgresql://db.ysrdmzjscrfdvzlaklwz.supabase.co:5432/postgres?sslmode=require}
+    username: ${SUPABASE_DATABASE_USERNAME:postgres}
+    password: ${SUPABASE_DATABASE_PASSWORD:YOUR-DATABASE-PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  sql:
+    init:
+      # Enable seeding after the existing H2 seed script is migrated to PostgreSQL.
+      mode: never

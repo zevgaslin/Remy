@@ -186,6 +186,17 @@ describe('CalendarPanel Recipe Popup Integration', () => {
  });
 
 
+ it('shows a failed load and lets the user retry successfully', async () => {
+   getAllRecipes.mockRejectedValueOnce(new Error('Could not reach the backend.'));
+   getAllRecipes.mockResolvedValueOnce([{ id: 'retry-recipe', name: 'Retry Pasta' }]);
+   render(<CalendarPanel />);
+   fireEvent.click(screen.getAllByRole('button', { name: /Add .* for/i })[0]);
+   expect(await screen.findByRole('alert')).toHaveTextContent('Could not reach the backend.');
+   fireEvent.click(screen.getByRole('button', { name: 'Retry loading recipes' }));
+   expect(await screen.findByText('Retry Pasta')).toBeInTheDocument();
+   expect(screen.queryByText('Loading recipes...')).not.toBeInTheDocument();
+ });
+
  it('closes the popup without making changes when the close button is clicked', async () => {
    getAllRecipes.mockResolvedValueOnce([]);
   

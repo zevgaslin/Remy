@@ -1601,3 +1601,11 @@ body.is-dragging-ingredient * {
   color: var(--text-h);
   font-size: 13px;
 }
+
+.recipe-expand { margin-top: 10px; }
+.recipe-expand summary { cursor: pointer; color: var(--recipe-accent); font-weight: 600; }
+.recipe-details { margin-top: 12px; line-height: 1.6; }
+.recipe-details h4 { margin: 14px 0 6px; }
+.recipe-details li { margin-bottom: 10px; }
+.recipe-card-info .recipe-details p { display: block; overflow: visible; }
+.recipe-instructions { white-space: pre-wrap; }

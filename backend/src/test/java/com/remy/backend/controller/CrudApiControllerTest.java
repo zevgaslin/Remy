@@ -21,11 +21,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@TestPropertySource(properties = {
-        "spring.datasource.url=jdbc:h2:mem:remy-crud-test;DB_CLOSE_DELAY=-1",
-        "spring.sql.init.mode=never"
-})
+
 class CrudApiControllerTest {
+    @org.springframework.test.context.DynamicPropertySource
+    static void database(org.springframework.test.context.DynamicPropertyRegistry registry) {
+        com.remy.backend.support.PostgresTestDatabase.configure(registry, "crud_test");
+    }
+
 
     @Autowired
     private TestRestTemplate restTemplate;
@@ -335,6 +337,13 @@ class CrudApiControllerTest {
 
         assertThat(preferenceResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(preferenceResponse.getBody()).containsEntry("preference", "LIKE");
+
+        // Deleting a reviewed recipe must remove its reaction foreign keys too.
+        var deleted = restTemplate.exchange("/api/recipes/{id}", HttpMethod.DELETE,
+                new HttpEntity<>(headers), Map.class, firstRecipeId);
+        assertThat(deleted.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(restTemplate.getForEntity("/api/recipes/{id}", Map.class, firstRecipeId)
+                .getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
     }
 
     @Test

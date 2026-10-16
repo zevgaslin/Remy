@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "6b4da39a-68bc-4e50-a8ae-bf28b5a4d479",
+  "name": "Garlic Butter Pasta",
+  "description": "A fast pantry pasta with garlic, butter, parmesan, and black pepper.",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 2,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Pasta",
+      "originalText": null,
+      "quantity": 8,
+      "quantityText": null,
+      "unit": "oz",
+      "preparation": "dried pasta; use the package cooking time",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": null,
+      "quantity": 3,
+      "quantityText": null,
+      "unit": "cloves",
+      "preparation": "peeled and finely chopped into pieces about 2 mm wide",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": null,
+      "quantity": 2,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "finely grated",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Black Pepper",
+      "originalText": null,
+      "quantity": 0.25,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": "ground",
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a large pot that holds at least 4 quarts, a large frying pan, a colander, a heatproof measuring cup, a cutting board, a knife, and a spoon or tongs. Place the colander in the sink.",
+      "section": "Prepare the equipment"
+    },
+    {
+      "text": "Pour 2 quarts (8 cups) of water into the pot. Put the pot on the stove over high heat and bring it to a rolling boil: large bubbles should continuously break across the surface.",
+      "section": "Boil the water"
+    },
+    {
+      "text": "While the water heats, separate 3 garlic cloves and remove their papery skins. On the cutting board, carefully cut the cloves into small pieces about 2 mm wide. Measure 2 tablespoons butter, 1/2 cup finely grated Parmesan, and, if using it, 1/4 teaspoon ground black pepper.",
+      "section": "Prepare the garlic and cheese"
+    },
+    {
+      "text": "Carefully add 8 ounces dried pasta to the boiling water. Stir immediately to separate the pieces. Keep the water bubbling, lowering the heat slightly if foam approaches the rim. Set a timer for the shortest cooking time printed on the package; for example, if it says 8\u201310 minutes, start with 8 minutes. Stir every 1\u20132 minutes.",
+      "section": "Cook the pasta"
+    },
+    {
+      "text": "At the timer, lift out one piece with a spoon or tongs, let it cool enough to taste, and bite it. It should be tender with a little firmness in the center and no hard, chalky core. If it is still hard, cook for 1 more minute and check again. Repeat until ready.",
+      "section": "Check the pasta"
+    },
+    {
+      "text": "Before draining, carefully scoop 1 cup of the hot pasta water into the heatproof measuring cup and set it aside. Turn off the burner. Using oven mitts to hold the pot handles, slowly pour the pasta and remaining water into the colander, keeping your face and hands away from the steam. Do not rinse the pasta.",
+      "section": "Reserve water and drain"
+    },
+    {
+      "text": "Put the frying pan over medium heat and add the 2 tablespoons butter. Let it melt for about 30\u201360 seconds, swirling the pan or stirring so it coats the bottom. If it begins to brown or smoke, lower the heat immediately.",
+      "section": "Melt the butter"
+    },
+    {
+      "text": "Add all the chopped garlic to the melted butter. Stir constantly for 30\u201360 seconds, until the garlic smells fragrant and is lightly sizzling. It should remain pale or only lightly golden. Lower the heat if it darkens quickly; dark brown garlic will taste bitter.",
+      "section": "Cook the garlic"
+    },
+    {
+      "text": "Add the drained pasta and 1/4 cup of the reserved pasta water to the pan. Keep the pan over medium-low heat and use tongs or a spoon to gently turn the pasta through the garlic butter for about 1 minute, until the pasta is hot and coated.",
+      "section": "Coat the pasta"
+    },
+    {
+      "text": "Turn off the heat and move the pan off the hot burner. Sprinkle in the 1/2 cup finely grated Parmesan in 3 additions, tossing after each addition. Add the optional 1/4 teaspoon black pepper. If the pasta looks dry or the cheese clumps, add reserved pasta water 1 tablespoon at a time and keep tossing until a glossy sauce lightly coats the pasta. You may not need all the water.",
+      "section": "Add cheese and pepper"
+    },
+    {
+      "text": "Divide the pasta between 2 bowls, spoon any remaining garlic butter sauce over it, and serve immediately while warm. Enjoy!",
+      "section": "Serve"
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 620,
+    "protein": 18,
+    "carbs": 80,
+    "fat": 26
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Boil pasta. Saute garlic in butter. Toss together with parmesan and black pepper."
+  }
+}

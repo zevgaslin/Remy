@@ -5,6 +5,11 @@ import java.util.List;
 
 public class RecipeSearchRequest {
 
+    private String query = "";
+
+    public String getQuery() { return query; }
+    public void setQuery(String query) { this.query = query == null ? "" : query.trim(); }
+
     private List<String> ingredients = new ArrayList<>();
     private List<PreferenceCriterion> preferences = new ArrayList<>();
     private boolean requireAllIngredients;

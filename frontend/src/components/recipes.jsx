@@ -1,9 +1,11 @@
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
+import RecipeDetails from './RecipeDetails';
 
 function RecipeCard({
   name,
   instructions,
+  recipe = {},
   matchScore,
   matchedIngredients = [],
   missingIngredients = [],
@@ -21,11 +23,15 @@ function RecipeCard({
       <div className="recipe-card-info">
         <div className="recipe-card-title-row">
           <h3>{name}</h3>
-          {matchScore !== undefined && (
+          {matchScore != null && (
             <span className="recipe-match-score">{Math.round(matchScore)}% match</span>
           )}
         </div>
-        <p>{instructions}</p>
+        <p>{recipe.description || recipe.document?.description || instructions}</p>
+        <details className="recipe-expand">
+          <summary>View recipe</summary>
+          <RecipeDetails recipe={{ ...recipe, name, instructions }} />
+        </details>
         {matchedIngredients.length > 0 && (
           <p className="recipe-match-detail">
             Have: {matchedIngredients.join(', ')}
@@ -61,7 +67,7 @@ function RecipeCard({
           ✕
         </button>
       </div>
-      {visible && <RecipeHoverPopover recipe={{ name, instructions }} coords={coords} />}
+      {visible && <RecipeHoverPopover recipe={{ ...recipe, name, instructions }} coords={coords} />}
     </div>
   );
 }

@@ -1,19 +1,33 @@
 package com.remy.backend.model;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import org.hibernate.annotations.ColumnDefault;
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
 
 @Entity
 public class Recipe {
+
+    @Column(unique = true)
+    private String catalogId;
+
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(columnDefinition = "jsonb")
+    private JsonNode document;
+
+    public String getCatalogId() { return catalogId; }
+    public void setCatalogId(String catalogId) { this.catalogId = catalogId; }
+    public JsonNode getDocument() { return document; }
+    public void setDocument(JsonNode document) { this.document = document; }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +35,7 @@ public class Recipe {
 
     private String name;
 
-    @Lob
+    @Column(name = "instruction_text", columnDefinition = "text")
     private String instructions;
 
     private String description;

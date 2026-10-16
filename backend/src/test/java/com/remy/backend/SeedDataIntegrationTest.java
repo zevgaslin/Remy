@@ -12,14 +12,24 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-@TestPropertySource(properties = {
-        "spring.datasource.url=jdbc:h2:mem:remy-seed-test;DB_CLOSE_DELAY=-1",
-        "spring.sql.init.mode=always"
-})
+
 class SeedDataIntegrationTest {
+    @org.springframework.test.context.DynamicPropertySource
+    static void database(org.springframework.test.context.DynamicPropertyRegistry registry) {
+        com.remy.backend.support.PostgresTestDatabase.configure(registry, "seed_test");
+    }
+
 
     @Autowired
     private RecipeRepository recipeRepository;
+
+    @Autowired
+    private com.remy.backend.service.RecipeCatalogService catalogService;
+
+    @org.junit.jupiter.api.BeforeEach
+    void loadJsonCatalog() throws Exception {
+        catalogService.importFolder(java.nio.file.Path.of("recipes"));
+    }
 
     @Test
     void recipeSeedDataIncludesIngredientsAndPreferenceTags() {

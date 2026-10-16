@@ -1,11 +1,20 @@
 import { API_BASE } from './apiBase.js';
 
-export async function getAllRecipes() {
-  const response = await fetch(`${API_BASE}/recipes`);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch recipes: ${response.status}`);
+export async function getAllRecipes({ signal } = {}) {
+  const timeout = AbortSignal.timeout(15000);
+  try {
+    const response = await fetch(`${API_BASE}/recipes`, {
+      signal: signal ? AbortSignal.any([signal, timeout]) : timeout,
+    });
+    if (!response.ok) throw new Error(`Could not load recipes (${response.status}). Please retry.`);
+    const recipes = await response.json();
+    if (!Array.isArray(recipes)) throw new Error('The server returned an invalid recipe list.');
+    return recipes;
+  } catch (error) {
+    if (timeout.aborted) throw new Error('Loading recipes took too long. Check the backend connection and retry.');
+    if (error.name === 'TypeError') throw new Error('Could not reach the backend. Check that it is running and retry.');
+    throw error;
   }
-  return response.json();
 }
 
 export async function getRecipeFeed(token, { limit = 10, offset = 0 } = {}) {
@@ -31,9 +40,8 @@ export async function getRecipeMatches(token, { limit = 20 } = {}) {
   return data;
 }
 
-// UPDATED function to include the `query` parameter
 export async function searchRecipes({
-  query = '', // <-- Added query here
+  query = '',
   ingredients = [],
   preferences = [],
   requireAllIngredients = false,
@@ -42,7 +50,6 @@ export async function searchRecipes({
   const response = await fetch(`${API_BASE}/recipes/search`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    // <-- Added query to the JSON body below
     body: JSON.stringify({ query, ingredients, preferences, requireAllIngredients, limit }),
   });
   const data = await response.json().catch(() => []);

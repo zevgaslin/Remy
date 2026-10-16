@@ -29,6 +29,10 @@ public class RecipeIngredient {
     @Column(name = "ingredient_name", nullable = false)
     private String ingredientName;
 
+    @JsonIgnore
+    @Column(name = "normalized_name")
+    private String normalizedName;
+
     private Double quantity;
     private String unit;
 
@@ -53,6 +57,8 @@ public class RecipeIngredient {
 
     public void setIngredientName(String ingredientName) {
         this.ingredientName = ingredientName;
+        this.normalizedName = ingredientName == null ? null
+                : com.remy.backend.service.IngredientNameNormalizer.canonicalize(ingredientName);
     }
 
     public Double getQuantity() {
