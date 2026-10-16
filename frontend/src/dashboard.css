@@ -1,6 +1,6 @@
-.dashboard {
-  display: grid;
-  grid-template-rows: auto minmax(0, 1.3fr) minmax(0, 1fr);
+.app-layout {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   padding: 24px;
   min-height: 100vh;
@@ -8,16 +8,61 @@
   text-align: left;
 }
 
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 0;
+}
+
 .top-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
 }
 
 .top-bar .brand {
   font-size: 22px;
   font-weight: 700;
   color: var(--accent);
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-right: auto;
+}
+
+.nav-link {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+.nav-link.active {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+.home-intro h1 {
+  margin: 0 0 4px;
+  font-size: 28px;
+}
+
+.home-intro p {
+  margin: 0;
 }
 
 .auth-button {
@@ -519,13 +564,6 @@
   color: var(--text);
 }
 
-.dashboard-bottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  min-height: 0;
-}
-
 .ingredients-panel,
 .recipes-panel {
   border: 1px solid var(--border);
@@ -941,13 +979,6 @@
   width: 100%;
 }
 @media (max-width: 900px) {
-  .dashboard {
-    grid-template-rows: auto auto auto;
-  }
-  .dashboard-bottom {
-    grid-template-columns: 1fr;
-  }
-
   .recipe-search {
     grid-template-columns: minmax(0, 1fr) minmax(120px, 0.65fr) auto auto;
   }
