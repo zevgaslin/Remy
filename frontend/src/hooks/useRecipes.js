@@ -19,7 +19,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     feedAbort.current?.abort();
   }, []);
 
-  const loadFeed = useCallback(async (offset = 0, replace = true) => {
+  const loadFeed = useCallback(async (offset = 0, replace = true, force = false) => {
     const version = ++requestVersion.current;
     feedAbort.current?.abort();
     const controller = new AbortController();
@@ -28,7 +28,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     setError(null);
     try {
       const data = token && mode === 'feed'
-        ? await getRecipeFeed(token, { limit: 10, offset }) : await getAllRecipes({ signal: controller.signal });
+        ? await getRecipeFeed(token, { limit: 10, offset }) : await getAllRecipes({ signal: controller.signal, force });
       if (version === requestVersion.current) {
         setRecipes(previous => replace ? data : [...previous, ...data]);
       }
@@ -113,7 +113,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
 
   function refresh() {
     setSearchActive(false);
-    return loadFeed();
+    return loadFeed(0, true, true);
   }
 
   return { recipes, feedback, loading, error, searchActive, search, refresh, setRecipeFeedback };

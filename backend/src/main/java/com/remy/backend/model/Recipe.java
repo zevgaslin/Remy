@@ -66,6 +66,9 @@ public class Recipe {
     public Recipe() {
     }
 
+    /** Used for detached, read-only API projections. */
+    public Recipe(Long id) { this.id = id; }
+
     public Long getId() {
         return id;
     }
