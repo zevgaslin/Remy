@@ -17,6 +17,9 @@ import jakarta.persistence.UniqueConstraint;
         uniqueConstraints = @UniqueConstraint(columnNames = {"recipe_id", "preference_name", "preference_value"}))
 public class RecipePreferenceTag {
 
+    public RecipePreferenceTag() {}
+    public RecipePreferenceTag(Long id) { this.id = id; }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

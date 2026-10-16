@@ -169,6 +169,7 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
          <span>Select a Recipe</span>
          <button onClick={onClose} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>✕</button>
        </div>
+       {!error && <button type="button" onClick={refresh} disabled={loading}>Refresh recipes</button>}
       
        {loading ? (
          <p style={{ fontSize: '0.9rem', color: 'gray' }}>Loading recipes...</p>

@@ -9,7 +9,7 @@ import com.remy.backend.model.RecipeIngredient;
 import com.remy.backend.model.User;
 import com.remy.backend.model.UserPreference;
 import com.remy.backend.repository.IngredientRepository;
-import com.remy.backend.repository.RecipeRepository;
+import com.remy.backend.repository.RecipeReadRepository;
 import com.remy.backend.repository.RecipeQueryRepository;
 import com.remy.backend.repository.UserPreferenceRepository;
 import com.remy.backend.repository.UserRepository;
@@ -24,19 +24,19 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class RecipeMatchingService {
 
-    private final RecipeRepository recipeRepository;
+    private final RecipeReadRepository recipeReads;
     private final RecipeQueryRepository recipeQueryRepository;
     private final IngredientRepository ingredientRepository;
     private final UserPreferenceRepository userPreferenceRepository;
     private final UserRepository userRepository;
 
     public RecipeMatchingService(
-            RecipeRepository recipeRepository,
+            RecipeReadRepository recipeReads,
             RecipeQueryRepository recipeQueryRepository,
             IngredientRepository ingredientRepository,
             UserPreferenceRepository userPreferenceRepository,
             UserRepository userRepository) {
-        this.recipeRepository = recipeRepository;
+        this.recipeReads = recipeReads;
         this.recipeQueryRepository = recipeQueryRepository;
         this.ingredientRepository = ingredientRepository;
         this.userPreferenceRepository = userPreferenceRepository;
@@ -119,10 +119,7 @@ public class RecipeMatchingService {
     }
 
     private List<Recipe> loadInOrder(List<Long> ids) {
-        if (ids.isEmpty()) return List.of();
-        var byId = recipeRepository.findByIdIn(ids).stream()
-                .collect(java.util.stream.Collectors.toMap(Recipe::getId, recipe -> recipe));
-        return ids.stream().map(byId::get).filter(java.util.Objects::nonNull).toList();
+        return recipeReads.findInOrder(ids);
     }
 
     private RecipeMatchResponse score(

@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.remy.backend.model.Recipe;
 import com.remy.backend.repository.*;
 import java.util.*;
-import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,14 +12,19 @@ import org.springframework.web.server.ResponseStatusException;
 @Service
 public class RecipeManagementService {
     private final RecipeRepository recipes;
+    private final RecipeReadRepository reads;
     private final RecipePreferenceRepository preferences;
-    public RecipeManagementService(RecipeRepository recipes, RecipePreferenceRepository preferences) {
-        this.recipes=recipes; this.preferences=preferences;
+    public RecipeManagementService(RecipeRepository recipes, RecipePreferenceRepository preferences, RecipeReadRepository reads) {
+        this.recipes=recipes; this.preferences=preferences; this.reads=reads;
     }
     @Transactional(readOnly=true)
-    public List<Recipe> list() { return recipes.findAll(Sort.by(Sort.Direction.DESC,"id")); }
+    public List<Recipe> list() { return reads.list(); }
     @Transactional(readOnly=true)
     public Recipe get(Long id) {
+        return reads.findInOrder(List.of(id)).stream().findFirst()
+                .orElseThrow(()->new ResponseStatusException(HttpStatus.NOT_FOUND,"Recipe not found."));
+    }
+    private Recipe getForUpdate(Long id) {
         return recipes.findByIdIn(List.of(id)).stream().findFirst()
                 .orElseThrow(()->new ResponseStatusException(HttpStatus.NOT_FOUND,"Recipe not found."));
     }
@@ -31,7 +35,7 @@ public class RecipeManagementService {
     }
     @Transactional
     public Recipe update(Long id,String name,String instructions) {
-        Recipe recipe=get(id);
+        Recipe recipe=getForUpdate(id);
         recipe.setName(name.trim()); recipe.setInstructions(instructions.trim());
         if (recipe.getDocument() instanceof ObjectNode existing) {
             // API edits must not leave the structured document displaying stale content.
@@ -53,7 +57,7 @@ public class RecipeManagementService {
     }
     @Transactional
     public void delete(Long id) {
-        Recipe recipe=get(id);
+        Recipe recipe=getForUpdate(id);
         preferences.deleteForRecipe(id);
         recipes.delete(recipe);
     }

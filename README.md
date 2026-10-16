@@ -88,6 +88,8 @@ Frontend requests go to Spring Boot, which queries Supabase using server-side cr
 
 Instructions use the plain PostgreSQL `instruction_text` column. At startup, `RecipeTextMigration` copies missing values from the old `instructions` column, including PostgreSQL large objects, while retaining the original data. This avoids per-recipe large-object reads when loading the calendar picker. Recipe-list requests time out after 15 seconds, and the picker shows errors with a retry button.
 
+Recipe read queries aggregate ingredients and tags separately, returning the full document once per recipe rather than repeating it for every joined ingredient/tag combination. JSON responses are compressed. The public catalog is cached in browser memory for 30 seconds and concurrent requests are shared; refresh bypasses the cache, and successful recipe edits, deletions, creations, and reactions invalidate it. Personalized feeds and searches are not cached. Files imported outside the browser appear on refresh or after cache expiry.
+
 Edits through the existing recipe API update both compatibility text and the stored JSON when present. Local JSON files remain the catalog source of truth: the next import overwrites those database content edits. Recipe deletion also removes its user reaction records so foreign keys remain valid. The next import can restore a deleted file-backed recipe.
 
 ## Verification

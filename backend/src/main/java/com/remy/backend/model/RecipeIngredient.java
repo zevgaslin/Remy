@@ -17,6 +17,9 @@ import jakarta.persistence.UniqueConstraint;
         uniqueConstraints = @UniqueConstraint(columnNames = {"recipe_id", "ingredient_name"}))
 public class RecipeIngredient {
 
+    public RecipeIngredient() {}
+    public RecipeIngredient(Long id) { this.id = id; }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
