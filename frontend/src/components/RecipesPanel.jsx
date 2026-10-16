@@ -1,13 +1,6 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import RecipeCard from './recipes';
-import {
-  dislikeRecipe,
-  getAllRecipes,
-  getRecipeFeed,
-  likeRecipe,
-  searchRecipes,
-} from '../services/recipeServices';
-import { getMyIngredients } from '../services/ingredientServices';
+import { useRecipes } from '../hooks/useRecipes';
 
 const DIET_OPTIONS = [
   { value: '', label: 'Any diet' },
@@ -18,162 +11,37 @@ const DIET_OPTIONS = [
 ];
 
 function RecipesPanel({ currentUser }) {
-  const [recipes, setRecipes] = useState([]);
-  const [feedback, setFeedback] = useState({});
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const { recipes, feedback, loading, error, searchActive, search, refresh, setRecipeFeedback } = useRecipes(currentUser);
   const [recipeQuery, setRecipeQuery] = useState('');
   const [ingredientQuery, setIngredientQuery] = useState('');
   const [diet, setDiet] = useState('');
-  const [currentIngredients, setCurrentIngredients] = useState([]);
   const [onlyCurrentIngredients, setOnlyCurrentIngredients] = useState(false);
   const [onlyMakeNow, setOnlyMakeNow] = useState(false);
-  const [searchActive, setSearchActive] = useState(false);
 
-  const loadFeed = useCallback(
-    async (nextOffset = 0, replace = true) => {
-      setLoading(true);
-      setError(null);
-
-      try {
-        const data = currentUser
-          ? await getRecipeFeed(currentUser.token, { limit: 10, offset: nextOffset })
-          : await getAllRecipes();
-
-        setRecipes((prev) => (replace ? data : [...prev, ...data]));
-      } catch (err) {
-        setError(err.message || 'Could not load recipes. Is the backend running?');
-      } finally {
-        setLoading(false);
-      }
-    },
-    [currentUser],
-  );
-
-  useEffect(() => {
-    setFeedback({});
+  function resetFilters() {
     setRecipeQuery('');
     setIngredientQuery('');
     setDiet('');
     setOnlyCurrentIngredients(false);
     setOnlyMakeNow(false);
-    setSearchActive(false);
-    loadFeed(0, true);
-  }, [currentUser, loadFeed]);
+  }
 
-  useEffect(() => {
-    if (!currentUser) {
-      setCurrentIngredients([]);
-      return;
-    }
+  useEffect(() => { resetFilters(); }, [currentUser?.token]);
 
-    getMyIngredients(currentUser.token)
-      .then((data) => {
-        setCurrentIngredients(data.map((item) => item.name).filter(Boolean));
-      })
-      .catch(() => {
-        setCurrentIngredients([]);
-      });
-  }, [currentUser]);
-
-  async function handleSearch(event) {
+  function handleSearch(event) {
     event.preventDefault();
-    const typedIngredients = ingredientQuery
-      .split(',')
-      .map((value) => value.trim())
-      .filter(Boolean);
-    const useCurrentIngredients = onlyCurrentIngredients || onlyMakeNow;
-    const ingredients = useCurrentIngredients ? currentIngredients : typedIngredients;
-
-    if (useCurrentIngredients && !currentUser) {
-      setError('Log in to filter recipes by your current ingredients.');
-      return;
-    }
-
-    if (useCurrentIngredients && currentIngredients.length === 0) {
-      setError('Add at least one current ingredient before using that filter.');
-      return;
-    }
-
-    if (ingredients.length === 0 && !diet && !recipeQuery) {
-      setError('Enter a search term, an ingredient, or choose a diet.');
-      return;
-    }
-
-    setLoading(true);
-    setError(null);
-
-    try {
-      const matches = await searchRecipes({
-        query: recipeQuery,
-        ingredients,
-        preferences: diet ? [{ name: 'diet', value: diet }] : [],
-        requireAllIngredients: onlyMakeNow,
-        limit: 50,
-      });
-      
-      setRecipes(
-        matches.map((match) => {
-          // Fix: Handles both ingredient-match wrappers and direct recipe objects
-          const recipeData = match.recipe || match; 
-          
-          return {
-            ...recipeData,
-            matchScore: match.matchScore || null,
-            matchedIngredients: match.matchedIngredients || [],
-            missingIngredients: match.missingIngredients || [],
-          };
-        }),
-      );
-      setSearchActive(true);
-    } catch (err) {
-      setError(err.message || 'Could not search recipes.');
-    } finally {
-      setLoading(false);
-    }
+    search({
+      query: recipeQuery,
+      ingredients: ingredientQuery.split(',').map(value => value.trim()).filter(Boolean),
+      preferences: diet ? [{ name: 'diet', value: diet }] : [],
+      requireAllIngredients: onlyMakeNow,
+      useCurrentIngredients: onlyCurrentIngredients,
+    });
   }
 
-  async function clearSearch() {
-    setRecipeQuery('');
-    setIngredientQuery('');
-    setDiet('');
-    setOnlyCurrentIngredients(false);
-    setOnlyMakeNow(false);
-    setSearchActive(false);
-    await loadFeed(0, true);
-  }
-
-  async function setRecipeFeedback(id, value) {
-    if (!currentUser) {
-      setError('Please log in to like or dislike recipes.');
-      return;
-    }
-
-    try {
-      if (value === 'favorite') {
-        await likeRecipe(currentUser.token, id);
-      } else {
-        await dislikeRecipe(currentUser.token, id);
-      }
-
-      setFeedback((prev) => ({
-        ...prev,
-        [id]: prev[id] === value ? null : value,
-      }));
-      setRecipes((prev) => prev.filter((recipe) => recipe.id !== id));
-    } catch (err) {
-      setError(err.message || 'Could not save your recipe reaction.');
-    }
-  }
-
-  async function refreshFeed() {
-    setRecipeQuery('');
-    setIngredientQuery('');
-    setDiet('');
-    setOnlyCurrentIngredients(false);
-    setOnlyMakeNow(false);
-    setSearchActive(false);
-    await loadFeed(0, true);
+  function refreshFeed() {
+    resetFilters();
+    return refresh();
   }
 
   return (
@@ -241,7 +109,7 @@ function RecipesPanel({ currentUser }) {
                 className="recipe-search-clear"
                 aria-label="Clear recipe search"
                 title="Clear search"
-                onClick={clearSearch}
+                onClick={refreshFeed}
                 disabled={loading}
                 style={{ margin: 0, height: '100%' }}
               >
@@ -291,6 +159,7 @@ function RecipesPanel({ currentUser }) {
             recipes.map((recipe) => (
               <RecipeCard
                 key={recipe.id}
+                recipe={recipe}
                 name={recipe.name}
                 instructions={recipe.instructions}
                 matchScore={recipe.matchScore}

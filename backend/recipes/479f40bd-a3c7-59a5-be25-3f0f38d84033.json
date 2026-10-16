@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "479f40bd-a3c7-59a5-be25-3f0f38d84033",
+  "name": "Spinach Egg Breakfast Wrap",
+  "description": "A quick breakfast wrap with eggs, spinach, cheddar, and tomato.",
+  "cuisine": "American",
+  "mealType": "Breakfast",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 1,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Egg",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Spinach",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tortilla",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar",
+      "originalText": null,
+      "quantity": 0.25,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "grated",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a bowl, fork, nonstick frying pan, flexible spatula, and plate. Wash 1 cup spinach and pat it dry. If using the optional 1/2 tomato, wash it and cut it into pieces about 1/4 inch across. Grate enough cheddar to measure 1/4 cup.",
+      "section": null
+    },
+    {
+      "text": "Crack 2 eggs into the bowl and beat with a fork for 30 seconds until the yolks and whites are fully mixed. Wash your hands after handling raw eggs.",
+      "section": null
+    },
+    {
+      "text": "Place 1 large tortilla in the dry pan over medium heat. Warm for 15\u201330 seconds on each side until soft and flexible, then transfer to the plate.",
+      "section": null
+    },
+    {
+      "text": "Reduce the pan to medium-low heat. Add the spinach and 1 tablespoon water. Stir for 1\u20132 minutes until the leaves wilt and most of the water evaporates.",
+      "section": null
+    },
+    {
+      "text": "Pour in the beaten eggs. Gently push the setting egg from the edges toward the center with the spatula every few seconds. Cook for about 2\u20133 minutes until set with no runny liquid; the egg mixture should reach 160\u00b0F (71\u00b0C) on a food thermometer.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle the 1/4 cup cheddar over the eggs and fold gently for about 30 seconds until melted. Turn off the heat.",
+      "section": null
+    },
+    {
+      "text": "Spoon the egg mixture across the middle of the tortilla, leaving about 2 inches clear at each end. Add the optional chopped tomato. Fold the sides over the ends of the filling, then roll from the bottom into a closed wrap. Serve immediately.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "breakfast"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 430,
+    "protein": 24,
+    "carbs": 30,
+    "fat": 23
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Scramble eggs with spinach. Add cheddar and tomato, then wrap everything in a warm tortilla."
+  }
+}

@@ -9,6 +9,14 @@ import org.springframework.data.repository.query.Param;
 
 public interface RecipePreferenceRepository extends JpaRepository<RecipePreference, Long> {
 
+    @Query("select rp.preference from RecipePreference rp where rp.user.id = :userId and rp.recipe.id = :recipeId")
+    Optional<com.remy.backend.model.PreferenceType> findPreferenceValue(
+            @Param("userId") Long userId, @Param("recipeId") Long recipeId);
+
+    @org.springframework.data.jpa.repository.Modifying
+    @Query("delete from RecipePreference rp where rp.recipe.id = :recipeId")
+    void deleteForRecipe(@Param("recipeId") Long recipeId);
+
     Optional<RecipePreference> findByUserIdAndRecipeId(Long userId, Long recipeId);
 
     @Query("select rp.recipe.id from RecipePreference rp where rp.user.id = :userId")

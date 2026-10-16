@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "5cece44a-3292-5df3-90e0-0bdb8e927ce6",
+  "name": "Easy Mac and Cheese",
+  "description": "Baked macaroni in a creamy cheddar sauce with a parmesan breadcrumb topping.",
+  "cuisine": "American",
+  "mealType": "Dinner",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 4,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Milk",
+      "originalText": null,
+      "quantity": 3.0,
+      "quantityText": null,
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "clove",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bay Leaf",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Macaroni",
+      "originalText": null,
+      "quantity": 12.0,
+      "quantityText": null,
+      "unit": "oz",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": null,
+      "quantity": 3.5,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "All-Purpose Flour",
+      "originalText": null,
+      "quantity": 0.4,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar",
+      "originalText": null,
+      "quantity": 1.5,
+      "quantityText": null,
+      "unit": "cups",
+      "preparation": "grated",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mustard",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": "prepared mustard",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "finely grated",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Breadcrumbs",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a large pasta pot, a saucepan, a sieve, a whisk, and a 2-quart baking dish. Preheat the oven to 375\u00b0F (190\u00b0C). Peel and quarter 1 onion. Peel and lightly crush 1 garlic clove with the flat side of a knife. Grate 1 1/2 cups cheddar and 1/2 cup Parmesan.",
+      "section": null
+    },
+    {
+      "text": "Pour 3 cups milk into the saucepan. Add the onion, garlic, and 1 bay leaf. Heat over medium-low heat for 8\u201310 minutes, stirring occasionally, until steaming with small bubbles at the edges; do not boil. Turn off the heat and strain into a heatproof bowl or jug. Discard the onion, garlic, and bay leaf.",
+      "section": null
+    },
+    {
+      "text": "Bring 3 quarts (12 cups) water to a rolling boil in the pasta pot over high heat. Add 12 ounces dry macaroni, stir, and cook for 2 minutes less than the package time so it finishes in the oven. Stir every 1\u20132 minutes. Drain carefully through the colander or sieve; do not rinse.",
+      "section": null
+    },
+    {
+      "text": "Melt 3 1/2 tablespoons butter in the empty saucepan over medium-low heat. Add 0.4 cup all-purpose flour (6 tablespoons plus 1 teaspoon, approximately) and stir constantly for 1\u20132 minutes until it forms a smooth pale paste. This paste is called a roux; keep it pale rather than browned.",
+      "section": null
+    },
+    {
+      "text": "Whisk in about 1/2 cup warm milk until the paste loosens and becomes smooth. Add the remaining warm milk gradually while whisking. Cook over medium-low heat for 5\u20138 minutes, stirring and scraping the bottom, until the sauce lightly coats the back of a spoon. Lower the heat if it bubbles vigorously.",
+      "section": null
+    },
+    {
+      "text": "Turn off the heat. Stir in the 1 1/2 cups cheddar in 3 additions until melted, then stir in 1 teaspoon prepared mustard. Add the drained macaroni and stir until every piece is coated.",
+      "section": null
+    },
+    {
+      "text": "Spoon into the baking dish. Mix 1/2 cup breadcrumbs with the 1/2 cup grated Parmesan and scatter evenly over the top.",
+      "section": null
+    },
+    {
+      "text": "Bake on the center rack for 20\u201325 minutes until bubbling at the edges and lightly golden on top. Remove with oven mitts and rest for 5 minutes before dividing into 4 servings.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 560,
+    "protein": 23,
+    "carbs": 55,
+    "fat": 27
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Infuse warm milk with onion, garlic, and bay leaf, then strain. Cook the macaroni. Make a butter-and-flour roux, whisk in the milk, melt in cheddar and mustard, combine with the pasta, and bake with parmesan and breadcrumbs."
+  }
+}

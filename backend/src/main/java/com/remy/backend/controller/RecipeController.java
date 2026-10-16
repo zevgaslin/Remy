@@ -6,16 +6,12 @@ import com.remy.backend.dto.PreferenceCriterion;
 import com.remy.backend.dto.RecipeSearchRequest;
 import com.remy.backend.model.Recipe;
 import com.remy.backend.repository.RecipePreferenceRepository;
-import com.remy.backend.repository.RecipeRepository;
 import com.remy.backend.service.RecipeMatchingService;
 import com.remy.backend.service.RecipePreferenceService;
 import com.remy.backend.service.SessionTokenService;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Set;
-import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -33,19 +29,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/recipes")
 public class RecipeController {
 
-    private final RecipeRepository recipeRepository;
+    private final com.remy.backend.service.RecipeManagementService recipeManagementService;
     private final RecipePreferenceRepository recipePreferenceRepository;
     private final RecipePreferenceService recipePreferenceService;
     private final SessionTokenService tokenService;
     private final RecipeMatchingService recipeMatchingService;
 
     public RecipeController(
-            RecipeRepository recipeRepository,
+            com.remy.backend.service.RecipeManagementService recipeManagementService,
             RecipePreferenceRepository recipePreferenceRepository,
             RecipePreferenceService recipePreferenceService,
             SessionTokenService tokenService,
             RecipeMatchingService recipeMatchingService) {
-        this.recipeRepository = recipeRepository;
+        this.recipeManagementService = recipeManagementService;
         this.recipePreferenceRepository = recipePreferenceRepository;
         this.recipePreferenceService = recipePreferenceService;
         this.tokenService = tokenService;
@@ -54,7 +50,12 @@ public class RecipeController {
 
     @GetMapping
     public List<Recipe> getAllRecipes() {
-        return recipeRepository.findAll(Sort.by(Sort.Direction.DESC, "id"));
+        return recipeManagementService.list();
+    }
+
+    @GetMapping("/{id}")
+    public Recipe getRecipe(@PathVariable Long id) {
+        return recipeManagementService.get(id);
     }
 
     @GetMapping("/feed")
@@ -62,28 +63,14 @@ public class RecipeController {
             @RequestHeader(value = "Authorization", required = false) String authHeader,
             @RequestParam(defaultValue = "10") int limit,
             @RequestParam(defaultValue = "0") int offset) {
-        int safeLimit = Math.max(1, limit);
-        int safeOffset = Math.max(0, offset);
-
-        List<Recipe> allRecipes = recipeRepository.findAll(Sort.by(Sort.Direction.DESC, "id"));
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
-            return ResponseEntity.ok(allRecipes.stream().skip(safeOffset).limit(safeLimit).toList());
+            return ResponseEntity.ok(recipeMatchingService.feed(null, limit, offset));
         }
-
         Optional<Long> userId = tokenService.resolveUserId(authHeader);
         if (userId.isEmpty()) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to see recipe suggestions."));
         }
-
-        Set<Long> reviewedIds = new HashSet<>(recipePreferenceRepository.findRecipeIdsByUserId(userId.get()));
-
-        List<Recipe> feed = allRecipes.stream()
-                .filter(recipe -> !reviewedIds.contains(recipe.getId()))
-                .skip(safeOffset)
-                .limit(safeLimit)
-                .toList();
-
-        return ResponseEntity.ok(feed);
+        return ResponseEntity.ok(recipeMatchingService.feed(userId.get(), limit, offset));
     }
 
     @GetMapping("/matches")
@@ -144,8 +131,8 @@ public class RecipeController {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to view recipe preferences."));
         }
 
-        String preference = recipePreferenceRepository.findByUserIdAndRecipeId(userId.get(), id)
-                .map(recipePreference -> recipePreference.getPreference().name())
+        String preference = recipePreferenceRepository.findPreferenceValue(userId.get(), id)
+                .map(Enum::name)
                 .orElse("NONE");
 
         return ResponseEntity.ok(Map.of("recipeId", id, "preference", preference));
@@ -160,11 +147,7 @@ public class RecipeController {
             return ResponseEntity.badRequest().body(Map.of("error", "Name and instructions are required."));
         }
 
-        Recipe recipe = new Recipe();
-        recipe.setName(name);
-        recipe.setInstructions(instructions);
-
-        return ResponseEntity.status(HttpStatus.CREATED).body(recipeRepository.save(recipe));
+        return ResponseEntity.status(HttpStatus.CREATED).body(recipeManagementService.create(name, instructions));
     }
 
     @PostMapping("/{id}/like")
@@ -183,9 +166,6 @@ public class RecipeController {
 
     @PutMapping("/{id}")
     public ResponseEntity<?> updateRecipe(@PathVariable Long id, @RequestBody Map<String, String> request) {
-        Recipe recipe = recipeRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("Recipe not found."));
-
         String name = request.get("name");
         String instructions = request.get("instructions");
 
@@ -193,18 +173,12 @@ public class RecipeController {
             return ResponseEntity.badRequest().body(Map.of("error", "Name and instructions are required."));
         }
 
-        recipe.setName(name);
-        recipe.setInstructions(instructions);
-
-        return ResponseEntity.ok(recipeRepository.save(recipe));
+        return ResponseEntity.ok(recipeManagementService.update(id, name, instructions));
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteRecipe(@PathVariable Long id) {
-        Recipe recipe = recipeRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("Recipe not found."));
-
-        recipeRepository.delete(recipe);
+        recipeManagementService.delete(id);
         return ResponseEntity.ok(Map.of("deleted", true, "id", id));
     }
 

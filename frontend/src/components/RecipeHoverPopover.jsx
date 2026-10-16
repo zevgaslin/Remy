@@ -6,7 +6,7 @@ function RecipeHoverPopover({ recipe, coords }) {
       role="tooltip"
     >
       <h4>{recipe.name}</h4>
-      <p>{recipe.instructions}</p>
+      <p className="recipe-instructions">{recipe.instructions}</p>
     </div>
   );
 }

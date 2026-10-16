@@ -6,15 +6,14 @@ import com.remy.backend.dto.RecipeSearchRequest;
 import com.remy.backend.model.Ingredient;
 import com.remy.backend.model.Recipe;
 import com.remy.backend.model.RecipeIngredient;
-import com.remy.backend.model.RecipePreferenceTag;
 import com.remy.backend.model.User;
 import com.remy.backend.model.UserPreference;
 import com.remy.backend.repository.IngredientRepository;
 import com.remy.backend.repository.RecipeRepository;
+import com.remy.backend.repository.RecipeQueryRepository;
 import com.remy.backend.repository.UserPreferenceRepository;
 import com.remy.backend.repository.UserRepository;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
@@ -26,16 +25,19 @@ import org.springframework.transaction.annotation.Transactional;
 public class RecipeMatchingService {
 
     private final RecipeRepository recipeRepository;
+    private final RecipeQueryRepository recipeQueryRepository;
     private final IngredientRepository ingredientRepository;
     private final UserPreferenceRepository userPreferenceRepository;
     private final UserRepository userRepository;
 
     public RecipeMatchingService(
             RecipeRepository recipeRepository,
+            RecipeQueryRepository recipeQueryRepository,
             IngredientRepository ingredientRepository,
             UserPreferenceRepository userPreferenceRepository,
             UserRepository userRepository) {
         this.recipeRepository = recipeRepository;
+        this.recipeQueryRepository = recipeQueryRepository;
         this.ingredientRepository = ingredientRepository;
         this.userPreferenceRepository = userPreferenceRepository;
         this.userRepository = userRepository;
@@ -71,17 +73,10 @@ public class RecipeMatchingService {
 
         int limit = request.getLimit() == null ? 20 : Math.max(1, Math.min(request.getLimit(), 100));
 
-        return recipeRepository.findAll().stream()
-                .filter(recipe -> matchesPreferences(recipe, requestedPreferences))
-                .filter(recipe -> availableIngredients.isEmpty()
-                        || recipe.getIngredients().stream().anyMatch(ingredient ->
-                                availableIngredients.contains(
-                                        IngredientNameNormalizer.canonicalize(ingredient.getIngredientName()))))
+        var ids = recipeQueryRepository.search(request.getQuery(), availableIngredients, requestedPreferences,
+                request.isRequireAllIngredients(), limit);
+        return loadInOrder(ids).stream()
                 .map(recipe -> score(recipe, availableIngredients, requestedPreferences))
-                .filter(match -> !request.isRequireAllIngredients() || match.getMissingIngredients().isEmpty())
-                .sorted(Comparator.comparingDouble(RecipeMatchResponse::getMatchScore).reversed()
-                        .thenComparing(match -> match.getRecipe().getName()))
-                .limit(limit)
                 .toList();
     }
 
@@ -118,12 +113,16 @@ public class RecipeMatchingService {
         return getUserPreferences(userId);
     }
 
-    private boolean matchesPreferences(Recipe recipe, List<PreferenceCriterion> preferences) {
-        Set<String> tags = recipe.getPreferenceTags().stream()
-                .map(this::tagKey)
-                .collect(java.util.stream.Collectors.toSet());
-        return preferences.stream()
-                .allMatch(preference -> tags.contains(tagKey(preference.getName(), preference.getValue())));
+    @Transactional(readOnly = true)
+    public List<Recipe> feed(Long userId, int limit, int offset) {
+        return loadInOrder(recipeQueryRepository.feed(userId, Math.max(1, Math.min(limit, 100)), Math.max(0, offset)));
+    }
+
+    private List<Recipe> loadInOrder(List<Long> ids) {
+        if (ids.isEmpty()) return List.of();
+        var byId = recipeRepository.findByIdIn(ids).stream()
+                .collect(java.util.stream.Collectors.toMap(Recipe::getId, recipe -> recipe));
+        return ids.stream().map(byId::get).filter(java.util.Objects::nonNull).toList();
     }
 
     private RecipeMatchResponse score(
@@ -164,14 +163,6 @@ public class RecipeMatchingService {
                 matched.stream().sorted().toList(),
                 missing.stream().sorted().toList(),
                 requestedPreferences);
-    }
-
-    private String tagKey(RecipePreferenceTag tag) {
-        return tagKey(tag.getPreferenceName(), tag.getPreferenceValue());
-    }
-
-    private String tagKey(String name, String value) {
-        return normalize(name) + "\u0000" + normalize(value);
     }
 
     private String normalize(String value) {

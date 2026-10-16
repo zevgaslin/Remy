@@ -32,3 +32,5 @@ Sprint Planning 3 User Story 1:
   
 Sprint Planning 3 User Story 2:
   As a developer, I want to apply the Container/Presentational design pattern by extracting the data logic out of RecipesPanel.jsx and CalendarPanel.jsx into a shared React hook for any front end component dependent upon the recipies algortih, so a real problem is solved with the standard, recognizable fix rather than an ad hoc one.
+
+Implemented: `frontend/src/hooks/useRecipes.js` is the shared recipe-data abstraction used by `RecipesPanel.jsx` and the recipe picker in `CalendarPanel.jsx`. It accesses the backend API backed by Supabase, owns loading/error/retry state, and supports recipe search, pantry filters, and reactions. Components retain presentation and local form/calendar state. The calendar requests catalog mode; the recipe panel requests the personalized feed when signed in. This resolves the shared-hook dependency above.

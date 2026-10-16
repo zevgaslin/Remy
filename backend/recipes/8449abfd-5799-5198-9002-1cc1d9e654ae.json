@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "8449abfd-5799-5198-9002-1cc1d9e654ae",
+  "name": "Banana Peanut Butter Oats",
+  "description": "A filling no-fuss breakfast using oats, milk, banana, and peanut butter.",
+  "cuisine": "American",
+  "mealType": "Breakfast",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 1,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Oats",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "old-fashioned rolled oats",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Banana",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peanut Butter",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a small saucepan, spoon, measuring cup, and serving bowl. Use 1/2 cup old-fashioned rolled oats; instant or steel-cut oats require their package timing instead.",
+      "section": null
+    },
+    {
+      "text": "Pour 1 cup milk into the saucepan and heat over medium heat for about 2\u20133 minutes, stirring frequently, until steam rises and small bubbles appear around the edge. Do not let it boil over.",
+      "section": null
+    },
+    {
+      "text": "Stir in the 1/2 cup oats and reduce heat to medium-low. Cook uncovered for about 5 minutes, stirring every 30 seconds and scraping the bottom so the milk does not scorch.",
+      "section": null
+    },
+    {
+      "text": "The oats are ready when soft and the mixture is thick but spoonable. If they are still firm, cook another 1\u20132 minutes, stirring. If too thick, add water 1 tablespoon at a time. Turn off the heat.",
+      "section": null
+    },
+    {
+      "text": "Peel 1 banana and cut it into slices about 1/4 inch thick. Spoon the oats into the bowl, top with the banana and 2 tablespoons peanut butter, and stir the peanut butter into the hot oats if desired. Let cool for 1\u20132 minutes before eating.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "breakfast"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 520,
+    "protein": 18,
+    "carbs": 74,
+    "fat": 18
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Cook oats with milk. Top with sliced banana and peanut butter."
+  }
+}

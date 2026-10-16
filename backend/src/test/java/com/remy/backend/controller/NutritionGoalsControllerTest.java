@@ -16,11 +16,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@TestPropertySource(properties = {
-        "spring.datasource.url=jdbc:h2:mem:remy-goals-test;DB_CLOSE_DELAY=-1",
-        "spring.sql.init.mode=never"
-})
+
 class NutritionGoalsControllerTest {
+    @org.springframework.test.context.DynamicPropertySource
+    static void database(org.springframework.test.context.DynamicPropertyRegistry registry) {
+        com.remy.backend.support.PostgresTestDatabase.configure(registry, "goals_test");
+    }
+
 
     @Autowired
     private TestRestTemplate restTemplate;

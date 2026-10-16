@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "c9f43121-de9d-526d-99c1-1ba856fd91ce",
+  "name": "Homemade Chicken Noodle Soup",
+  "description": "A comforting soup with chicken, egg noodles, vegetables, broth, and herbs.",
+  "cuisine": "American",
+  "mealType": "Dinner",
+  "difficulty": "Medium",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 8,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Onion",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": null,
+      "quantity": 3.0,
+      "quantityText": null,
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrot",
+      "originalText": null,
+      "quantity": 4.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Celery",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "ribs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Basil",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thyme",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bay Leaf",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Black Pepper",
+      "originalText": null,
+      "quantity": 0.25,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Chicken Breast",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": "boneless and skinless",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Broth",
+      "originalText": null,
+      "quantity": 8.0,
+      "quantityText": null,
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg Noodles",
+      "originalText": null,
+      "quantity": 6.0,
+      "quantityText": null,
+      "unit": "oz",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a large soup pot of at least 5 quarts, a knife, cutting board, tongs, and a food thermometer. Use 2 boneless, skinless chicken breasts about 8 ounces each. Do not rinse raw chicken; wash hands and surfaces after handling it.",
+      "section": null
+    },
+    {
+      "text": "Peel and dice 1 onion into 1/4-inch pieces. Peel and finely chop 3 garlic cloves. Wash and peel 4 carrots and cut into 1/4-inch slices. Wash 2 celery ribs and cut into 1/4-inch slices. If using parsley, wash and chop enough for 1 tablespoon.",
+      "section": null
+    },
+    {
+      "text": "Heat 2 tablespoons olive oil in the pot over medium heat for 30 seconds. Add the onion, carrots, and celery. Cook for 6\u20138 minutes, stirring every minute, until the onion is softened. Add the garlic and stir for 30 seconds until fragrant without browning.",
+      "section": null
+    },
+    {
+      "text": "Add 8 cups chicken broth, 1 teaspoon dried basil, 1/2 teaspoon dried thyme, 1 bay leaf, and optional 1/4 teaspoon black pepper. Carefully lower in the chicken breasts. Increase heat to medium-high until the broth begins bubbling, then reduce to low so small bubbles rise gently rather than boiling hard.",
+      "section": null
+    },
+    {
+      "text": "Partially cover and simmer for 20\u201330 minutes. Use tongs to hold each breast while checking the thickest center with the thermometer. Both must reach 165\u00b0F (74\u00b0C); if not, simmer another 3\u20135 minutes and check again.",
+      "section": null
+    },
+    {
+      "text": "Transfer the cooked chicken to a clean plate. Keep the soup at a gentle simmer for another 10\u201315 minutes if the carrots are still firm; they should be easily pierced with a fork. Remove and discard the bay leaf.",
+      "section": null
+    },
+    {
+      "text": "When the chicken is cool enough to handle, use 2 forks to pull it into bite-size shreds. Keep the cooked chicken on its clean plate while the noodles cook.",
+      "section": null
+    },
+    {
+      "text": "Bring the soup to a gentle boil over medium-high heat and add 6 ounces dry egg noodles. Stir, then cook uncovered for the package time, usually 6\u20138 minutes, stirring every 2 minutes. Taste a cooled noodle; if still firm in the center, cook another minute and check.",
+      "section": null
+    },
+    {
+      "text": "Return the shredded chicken and optional 1 tablespoon parsley to the soup. Stir and heat for 2\u20133 minutes until the soup and chicken are steaming throughout and reach 165\u00b0F (74\u00b0C). Turn off the heat, divide into 8 portions, and serve.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "high-protein"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "difficulty",
+      "value": "medium"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 220,
+    "protein": 18,
+    "carbs": 22,
+    "fat": 6
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Saute onion, carrot, and celery in olive oil. Add garlic, herbs, chicken, and broth; simmer until the chicken is tender. Shred the chicken, cook the noodles in the broth, then return the chicken to the pot."
+  }
+}

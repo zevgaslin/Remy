@@ -18,11 +18,13 @@ import org.springframework.test.context.TestPropertySource;
  * in-memory) database - not just that the endpoints exist.
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@TestPropertySource(properties = {
-        "spring.datasource.url=jdbc:h2:mem:remy-auth-test;DB_CLOSE_DELAY=-1",
-        "spring.sql.init.mode=never"
-})
+
 class AuthControllerTest {
+    @org.springframework.test.context.DynamicPropertySource
+    static void database(org.springframework.test.context.DynamicPropertyRegistry registry) {
+        com.remy.backend.support.PostgresTestDatabase.configure(registry, "auth_test");
+    }
+
 
     @Autowired
     private TestRestTemplate restTemplate;

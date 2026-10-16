@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-final class IngredientNameNormalizer {
+public final class IngredientNameNormalizer {
 
     private static final Map<String, String> ALIASES = Map.ofEntries(
             Map.entry("clove of garlic", "garlic"),
@@ -37,7 +37,7 @@ final class IngredientNameNormalizer {
     private IngredientNameNormalizer() {
     }
 
-    static String canonicalize(String value) {
+    public static String canonicalize(String value) {
         String normalized = value.trim()
                 .toLowerCase(Locale.ROOT)
                 .replaceAll("['\u2019]", "")

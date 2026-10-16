@@ -4,6 +4,7 @@ backend/target/
 
 # Backend (H2 database file - contains real local data, never commit)
 backend/data/
+backend/src/main/resources/application-secrets.properties
 
 # Frontend (Node)
 frontend/node_modules/
