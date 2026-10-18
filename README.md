@@ -68,7 +68,7 @@ Runs on http://localhost:8080. Check http://localhost:8080/api/health. All appli
 Password is RemyDatabas
 
 **Frontend** (from `frontend/`):
-```
+``` 
 npm install
 npm run dev
 ```
