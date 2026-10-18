@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "4d29a2c9-9b95-5ddf-b696-28264d76870c",
+  "name": "Fajitas",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Lime Juice",
+      "originalText": "1/4 cup + 1/2 tsp Lime Juice, divided",
+      "quantity": null,
+      "quantityText": "1/4 cup + 1/2 tsp",
+      "unit": null,
+      "preparation": "divided",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": "3 Tbsp Olive Oil, divided",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "Tbsp",
+      "preparation": "divided",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic, crushed",
+      "originalText": "4 cloves Garlic, crushed",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Soy Sauce",
+      "originalText": "3 tsp Soy Sauce, divided",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tsp",
+      "preparation": "divided",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "1 tsp Salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Liquid Smoke",
+      "originalText": "1/2 tsp Liquid Smoke",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cayenne Pepper",
+      "originalText": "1/2 tsp Cayenne Pepper",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Black Pepper",
+      "originalText": "1/4 tsp Black Pepper",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Breasts or Skirt Steak, bones/skin removed",
+      "originalText": "1 lb Chicken Breasts or Skirt Steak, bones/skin removed",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "2 Tbsp Water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Spanish Onion",
+      "originalText": "1 large Spanish Onion, thinly sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large; thinly sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Each Green, Red, and Yellow Bell Pepper",
+      "originalText": "1/2 each Green, Red, and Yellow Bell Pepper, thinly sliced",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": "thinly sliced",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1/4 cup + 1/2 tsp Lime Juice, divided; 3 Tbsp Olive Oil, divided; 4 cloves Garlic, crushed; 3 tsp Soy Sauce, divided; 1 tsp Salt; 1/2 tsp Liquid Smoke; 1/2 tsp Cayenne Pepper; 1/4 tsp Black Pepper; 1 lb Chicken Breasts or Skirt Steak, bones/skin removed; 2 Tbsp Water; 1 large Spanish Onion, thinly sliced; 1/2 each Green, Red, and Yellow Bell Pepper, thinly sliced. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Spanish Onion: large; thinly sliced; Each Green, Red, and Yellow Bell Pepper: thinly sliced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Combine 1/4 cup lime juice, 2 Tbsp of the oil, garlic, 2 tsp soy sauce, the salt, liquid smoke, cayenne pepper, and black pepper in a resealable container, add chicken/steak, cover, and refrigerate for at least 2 hours or overnight.",
+      "section": null
+    },
+    {
+      "text": "Combine water, remaining soy sauce and lime juice, and a dash of salt and pepper - set aside.",
+      "section": null
+    },
+    {
+      "text": "Grill meat over a medium-high flame for 4-5 minutes per side, or until cooked through.",
+      "section": null
+    },
+    {
+      "text": "Cut meat into thin strips - set aside and keep warm.",
+      "section": null
+    },
+    {
+      "text": "In a large skillet over medium-high heat, cook onion and peppers in remaining oil until brown - remove from heat and pour reserved liquid mixture over onions and peppers.",
+      "section": null
+    },
+    {
+      "text": "Toss together meat, onions, and peppers.",
+      "section": null
+    },
+    {
+      "text": "Can serve with warm tortillas, pico de gallo, cheese, sour cream, and guacamole.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the thickest meat with a food thermometer: chicken must reach 165°F (74°C); beef steak must reach 145°F (63°C) and rest for 3 minutes. Continue cooking if needed, and use clean utensils for cooked meat."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "beef"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    }
+  ],
+  "keywords": [
+    "beef",
+    "chicken",
+    "fajitas"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/fajitas/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Combine 1/4 cup lime juice, 2 Tbsp of the oil, garlic, 2 tsp soy sauce, the salt, liquid smoke, cayenne pepper, and black pepper in a resealable container, add chicken/steak, cover, and refrigerate for at least 2 hours or overnight.\n2. Combine water, remaining soy sauce and lime juice, and a dash of salt and pepper - set aside.\n3. Grill meat over a medium-high flame for 4-5 minutes per side, or until cooked through.\n4. Cut meat into thin strips - set aside and keep warm.\n5. In a large skillet over medium-high heat, cook onion and peppers in remaining oil until brown - remove from heat and pour reserved liquid mixture over onions and peppers.\n6. Toss together meat, onions, and peppers.\n7. Can serve with warm tortillas, pico de gallo, cheese, sour cream, and guacamole.",
+    "originalIngredients": [
+      "1/4 cup + 1/2 tsp Lime Juice, divided",
+      "3 Tbsp Olive Oil, divided",
+      "4 cloves Garlic, crushed",
+      "3 tsp Soy Sauce, divided",
+      "1 tsp Salt",
+      "1/2 tsp Liquid Smoke",
+      "1/2 tsp Cayenne Pepper",
+      "1/4 tsp Black Pepper",
+      "1 lb Chicken Breasts or Skirt Steak, bones/skin removed",
+      "2 Tbsp Water",
+      "1 large Spanish Onion, thinly sliced",
+      "1/2 each Green, Red, and Yellow Bell Pepper, thinly sliced"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

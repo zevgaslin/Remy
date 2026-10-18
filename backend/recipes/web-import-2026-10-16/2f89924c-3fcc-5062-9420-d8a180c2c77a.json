@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "2f89924c-3fcc-5062-9420-d8a180c2c77a",
+  "name": "Frittata",
+  "description": "Very filling egg dish that’s easy, fast, and can be eaten at any meal. Any other types of vegetables can be added, this is just what I use the most",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "4-6 servings",
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "originalText": "4-6 Eggs",
+      "quantity": null,
+      "quantityText": "4-6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1/2 Onion",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bell Pepper",
+      "originalText": "1 Bell Pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Heavy Cream",
+      "originalText": "2 Tbsp Heavy Cream",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thinly sliced meat",
+      "originalText": "Thinly sliced meat (prosciutto, shaved chicken, sandwich steak, etc.) (Optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": "prosciutto, shaved chicken, sandwich steak, etc.",
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Cheese of choice",
+      "originalText": "Shredded cheese of choice (Optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": "Shredded",
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 4-6 Eggs; 1/2 Onion; 1 Bell Pepper; 2 Tbsp Heavy Cream; Thinly sliced meat (prosciutto, shaved chicken, sandwich steak, etc.) (Optional); Shredded cheese of choice (Optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Cheese of choice: Shredded. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Dice peppers and onions and saute in an oven safe pan at medium heat. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Add in meat to the pan and set oven to low broil.",
+      "section": null
+    },
+    {
+      "text": "Beat eggs, cream, salt, and pepper together in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Add in egg mixture to the pan and mix together until even.",
+      "section": null
+    },
+    {
+      "text": "Cook egg and vegetable mixture in pan until eggs begin to firm up and edges begin to pull away.",
+      "section": null
+    },
+    {
+      "text": "Place into oven",
+      "section": null
+    },
+    {
+      "text": "Keep in Oven until completely firm.",
+      "section": null
+    },
+    {
+      "text": "At this point you can add shredded cheese on top and put back into the oven until melted (about 2 more minutes)",
+      "section": null
+    },
+    {
+      "text": "Flip out of pan and cool to room temperature to ensure settling.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "eggs"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    }
+  ],
+  "keywords": [
+    "cheesefare",
+    "eggs",
+    "italian",
+    "frittata"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/frittata/",
+    "siteName": "Public Domain Recipes",
+    "author": "AJ",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Dice peppers and onions and saute in an oven safe pan at medium heat.\n2. Add in meat to the pan and set oven to low broil.\n3. Beat eggs, cream, salt, and pepper together in a bowl.\n4. Add in egg mixture to the pan and mix together until even.\n5. Cook egg and vegetable mixture in pan until eggs begin to firm up and edges begin to pull away. Place into oven\n6. Keep in Oven until completely firm. At this point you can add shredded cheese on top and put back into the oven until melted (about 2 more minutes)\n7. Flip out of pan and cool to room temperature to ensure settling.",
+    "originalIngredients": [
+      "4-6 Eggs",
+      "1/2 Onion",
+      "1 Bell Pepper",
+      "2 Tbsp Heavy Cream",
+      "Thinly sliced meat (prosciutto, shaved chicken, sandwich steak, etc.) (Optional)",
+      "Shredded cheese of choice (Optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

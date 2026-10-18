@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "e3fa2239-27df-55cc-80e8-00db5205d99f",
+  "name": "Greek Salad",
+  "description": null,
+  "cuisine": "Greek",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "4-6 servings",
+  "ingredients": [
+    {
+      "name": "Assorted Lettuce",
+      "originalText": "2 cup assorted Lettuce, chopped or torn",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cup",
+      "preparation": "chopped or torn",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes, wedged or sliced",
+      "originalText": "4 whole Tomatoes, wedged or sliced",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": "whole",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cucumber, seeded and sliced",
+      "originalText": "1 whole Cucumber, seeded and sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "whole",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bell Pepper, seeded and sliced",
+      "originalText": "1 Bell Pepper, seeded and sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 small Onion, sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "small; sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pitted Black Olives",
+      "originalText": "1/2 cup pitted Black Olives (preferably brine-cured), coarsely chopped",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "coarsely chopped; preferably brine-cured",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Feta Cheese, crumbled",
+      "originalText": "3/5 cup Feta Cheese, crumbled",
+      "quantity": 0.6,
+      "quantityText": "3/5",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": "6 Tbsp Olive Oil",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red Wine Vinegar",
+      "originalText": "1 tsp Red Wine Vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "1/2 tsp Fresh Garlic, chopped",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": "Fresh; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oregano",
+      "originalText": "1/2 tsp Oregano",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Dill weed",
+      "originalText": "1/2 tsp dill weed",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "1/4 cup Parsley, chopped",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and freshly ground Black Pepper",
+      "originalText": "Salt and freshly ground Black Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon juice, fresh",
+      "originalText": "2 Tbsp Lemon juice, fresh",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": null,
+      "text": "Set out a large salad bowl, small dressing bowl, whisk, cutting board, and knife. Wash the lettuce, 4 tomatoes, 1 cucumber, 1 bell pepper, 1 small onion, parsley, and any fresh herbs before cutting."
+    },
+    {
+      "section": null,
+      "text": "Chop or tear enough lettuce for 2 cups. Cut the tomatoes into wedges. Remove the cucumber seeds if desired and slice it. Remove the pepper stem and seeds and cut into strips. Peel and thinly slice the onion."
+    },
+    {
+      "section": null,
+      "text": "Coarsely chop 1/2 cup pitted black olives, chop enough parsley for 1/4 cup, and finely chop enough garlic for 1/2 teaspoon. Crumble 3/5 cup feta cheese. Put the lettuce, tomatoes, cucumber, pepper, onion, and olives in the large bowl."
+    },
+    {
+      "section": null,
+      "text": "In the small bowl, whisk 6 tablespoons olive oil, 1 teaspoon red wine vinegar, and 2 tablespoons fresh lemon juice. Add the chopped garlic and parsley, 1/2 teaspoon oregano, and 1/2 teaspoon dill weed. The source allows salt and black pepper to taste."
+    },
+    {
+      "section": null,
+      "text": "Whisk until the dressing looks evenly mixed, then drizzle it over the vegetables. Use two large spoons to gently lift and turn the salad until lightly coated without crushing the tomatoes."
+    },
+    {
+      "section": null,
+      "text": "Sprinkle the crumbled feta over the top and serve. The source gives a yield of 4–6 servings; keep that range rather than assuming one exact serving count."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "greek"
+    },
+    {
+      "name": "category",
+      "value": "greek"
+    },
+    {
+      "name": "category",
+      "value": "mediterranean"
+    },
+    {
+      "name": "category",
+      "value": "salad"
+    },
+    {
+      "name": "category",
+      "value": "tomato"
+    }
+  ],
+  "keywords": [
+    "greek",
+    "mediterranean",
+    "salad",
+    "tomato",
+    "greek salad"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/greek-salad/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Combine the lettuce, tomatoes, cucumber, onion, bell pepper, olives in a bowl.\n2. In the small bowl, whisk together oil, vinegar, herbs, spices, and the lemon juice.\n3. Drizzle dressing over the salad.\n4. Sprinkle cheese over and serve.",
+    "originalIngredients": [
+      "2 cup assorted Lettuce, chopped or torn",
+      "4 whole Tomatoes, wedged or sliced",
+      "1 whole Cucumber, seeded and sliced",
+      "1 Bell Pepper, seeded and sliced",
+      "1 small Onion, sliced",
+      "1/2 cup pitted Black Olives (preferably brine-cured), coarsely chopped",
+      "3/5 cup Feta Cheese, crumbled",
+      "6 Tbsp Olive Oil",
+      "1 tsp Red Wine Vinegar",
+      "1/2 tsp Fresh Garlic, chopped",
+      "1/2 tsp Oregano",
+      "1/2 tsp dill weed",
+      "1/4 cup Parsley, chopped",
+      "Salt and freshly ground Black Pepper",
+      "2 Tbsp Lemon juice, fresh"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested. The method was rewritten in reviewed, explicit beginner steps using the source quantities."
+  }
+}

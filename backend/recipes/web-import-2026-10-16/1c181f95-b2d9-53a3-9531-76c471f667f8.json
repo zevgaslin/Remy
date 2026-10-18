@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "1c181f95-b2d9-53a3-9531-76c471f667f8",
+  "name": "Stracciatella soup",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 1.0,
+  "yieldText": "1 servings",
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Broth",
+      "originalText": "500 ml broth",
+      "quantity": 500.0,
+      "quantityText": "500",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "Olive oil (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 eggs; 500 ml broth; Olive oil (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Beat the eggs in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Heat broth to boiling.",
+      "section": null
+    },
+    {
+      "text": "Pour the eggs in the broth without removing from the stovetop.",
+      "section": null
+    },
+    {
+      "text": "Stir with a whip until eggs coagulate.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the cooked egg mixture with a food thermometer: it must reach 160°F (71°C), with no runny raw egg. For a casserole containing reheated cooked meat, use 165°F (74°C). Continue cooking if needed."
+    },
+    {
+      "text": "Serve broth and eggs together.",
+      "section": null
+    },
+    {
+      "text": "If you want, you may season the dish with some olive oil.",
+      "section": null
+    },
+    {
+      "text": "This dish is best accompanied with toasted bread. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "eggs"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    }
+  ],
+  "keywords": [
+    "eggs",
+    "soup",
+    "stracciatella soup"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/stracciatella-soup.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/stracciatella-soup/",
+    "siteName": "Public Domain Recipes",
+    "author": "Pestanzùl",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Beat the eggs in a bowl.\n2. Heat broth to boiling.\n3. Pour the eggs in the broth without removing from the stovetop.\n4. Stir with a whip until eggs coagulate.\n5. Serve broth and eggs together.\n6. If you want, you may season the dish with some olive oil.\n7. This dish is best accompanied with toasted bread.",
+    "originalIngredients": [
+      "2 eggs",
+      "500 ml broth",
+      "Olive oil (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

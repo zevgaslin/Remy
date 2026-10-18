@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "4d09909e-6780-5255-bf33-ee9fc243a7ff",
+  "name": "French Toast",
+  "description": "This recipe results in five slices of easy to make french toast.",
+  "cuisine": "French",
+  "mealType": "Breakfast",
+  "difficulty": null,
+  "prepMinutes": 5,
+  "cookMinutes": 25,
+  "totalMinutes": null,
+  "servings": 1.0,
+  "yieldText": "1 servings",
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "originalText": "2 Eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1/2 Cup of milk (1/4 for a more solid consistency)",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "Cup",
+      "preparation": "1/4 for a more solid consistency",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bread",
+      "originalText": "5 Slices of bread",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "Slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Maple Syrup",
+      "originalText": "Maple Syrup (Optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Butter",
+      "originalText": "Butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 Eggs; 1/2 Cup of milk (1/4 for a more solid consistency); 5 Slices of bread; Maple Syrup (Optional); Butter. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Butter up a frying pan and set it on the burner with low-medium heat.(May need to add more butter in-between slices)",
+      "section": null
+    },
+    {
+      "text": "Take your two eggs and crack them into a bowl together.",
+      "section": null
+    },
+    {
+      "text": "Pour milk in the bowl with the eggs.",
+      "section": null
+    },
+    {
+      "text": "Break the yolks and stir the eggs and milk well with a beater until it’s a smooth, yellow liquid.",
+      "section": null
+    },
+    {
+      "text": "Dip one side of bread into the bowl, making sure the liquid gets into all of the surface area of that side.",
+      "section": null
+    },
+    {
+      "text": "Immediately bring the side back up and scrape off any access liquid on the side with a butter knife.",
+      "section": null
+    },
+    {
+      "text": "Repeat steps 5-6, but for the other side of the bread.",
+      "section": null
+    },
+    {
+      "text": "Drop into the hot pan.",
+      "section": null
+    },
+    {
+      "text": "Cook both sides until golden brown, then plop onto a plate.",
+      "section": null
+    },
+    {
+      "text": "Repeat steps 5 to 9 until you have cooked all of your bread.",
+      "section": null
+    },
+    {
+      "text": "Drench french toast stack in Maple syrup (Optional)",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "breakfast"
+    },
+    {
+      "name": "cuisine",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "french"
+    }
+  ],
+  "keywords": [
+    "breakfast",
+    "french",
+    "french toast"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/french-toast.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/french-toast/",
+    "siteName": "Public Domain Recipes",
+    "author": "Ryan Wilson",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Butter up a frying pan and set it on the burner with low-medium heat.(May need to add more butter in-between slices)\n2. Take your two eggs and crack them into a bowl together.\n3. Pour milk in the bowl with the eggs.\n4. Break the yolks and stir the eggs and milk well with a beater until it’s a smooth, yellow liquid.\n5. Dip one side of bread into the bowl, making sure the liquid gets into all of the surface area of that side.\n6. Immediately bring the side back up and scrape off any access liquid on the side with a butter knife.\n7. Repeat steps 5-6, but for the other side of the bread.\n8. Drop into the hot pan.\n9. Cook both sides until golden brown, then plop onto a plate.\n10. Repeat steps 5 to 9 until you have cooked all of your bread.\n11. Drench french toast stack in Maple syrup (Optional)",
+    "originalIngredients": [
+      "2 Eggs",
+      "1/2 Cup of milk (1/4 for a more solid consistency)",
+      "5 Slices of bread",
+      "Maple Syrup (Optional)",
+      "Butter"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

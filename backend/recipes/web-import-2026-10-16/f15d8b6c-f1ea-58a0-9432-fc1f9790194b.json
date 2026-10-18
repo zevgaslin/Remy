@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "f15d8b6c-f1ea-58a0-9432-fc1f9790194b",
+  "name": "Honey Garlic Chicken with Broccoli and Brown Rice",
+  "description": "Very easy, high protein.",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 2.0,
+  "yieldText": "2 servings",
+  "ingredients": [
+    {
+      "name": "Brown rice",
+      "originalText": "1/2 cup ( 100g ) brown rice",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": " 100g ",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Frozen peas",
+      "originalText": "1/2 cup ( 70g ) frozen peas",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": " 70g ",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Broccoli",
+      "originalText": "1 head broccoli (you can use really any amount of broccoli)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "head",
+      "preparation": "you can use really any amount of broccoli",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken breasts",
+      "originalText": "2 chicken breasts",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Honey",
+      "originalText": "1 tbsp honey",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Low-sodium soy sauce",
+      "originalText": "1 tbsp low-sodium soy sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "1 tbsp minced garlic",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1/2 cup ( 100g ) brown rice; 1/2 cup ( 70g ) frozen peas; 1 head broccoli (you can use really any amount of broccoli); 2 chicken breasts; 1 tbsp honey; 1 tbsp low-sodium soy sauce; 1 tbsp minced garlic. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Garlic: minced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Cook rice in a pot.",
+      "section": null
+    },
+    {
+      "text": "Instructions are on the bag it comes in.",
+      "section": null
+    },
+    {
+      "text": "While rice is cooking, cut chicken breasts into cube.",
+      "section": null
+    },
+    {
+      "text": "Season with olive oil, black pepper, and\npaprika.",
+      "section": null
+    },
+    {
+      "text": "Cut broccoli into pieces and place into steamer basket over pot 1/2 filled with water, do\nnot start it yet.",
+      "section": null
+    },
+    {
+      "text": "Put chicken cubes into a hot pan and cook for ~3 minutes. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "After 3 minutes add honey, soy sauce,\nand garlic.",
+      "section": null
+    },
+    {
+      "text": "Cook for another 5 minutes.",
+      "section": null
+    },
+    {
+      "text": "Begin boiling broccoli water.",
+      "section": null
+    },
+    {
+      "text": "Add frozen peas to rice and stir, they will heat up quickly.",
+      "section": null
+    },
+    {
+      "text": "Add rice and peas to chicken and stir.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "broccoli"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    },
+    {
+      "name": "category",
+      "value": "rice"
+    }
+  ],
+  "keywords": [
+    "broccoli",
+    "chicken",
+    "quick",
+    "rice",
+    "honey garlic chicken with broccoli and brown rice"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/honey-garlic-chicken/",
+    "siteName": "Public Domain Recipes",
+    "author": "Connor McLean",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Cook rice in a pot. Instructions are on the bag it comes in.\n2. While rice is cooking, cut chicken breasts into cube. Season with olive oil, black pepper, and\npaprika. Cut broccoli into pieces and place into steamer basket over pot 1/2 filled with water, do\nnot start it yet.\n3. Put chicken cubes into a hot pan and cook for ~3 minutes. After 3 minutes add honey, soy sauce,\nand garlic. Cook for another 5 minutes. Begin boiling broccoli water.\n4. Add frozen peas to rice and stir, they will heat up quickly.\n5. Add rice and peas to chicken and stir.",
+    "originalIngredients": [
+      "1/2 cup ( 100g ) brown rice",
+      "1/2 cup ( 70g ) frozen peas",
+      "1 head broccoli (you can use really any amount of broccoli)",
+      "2 chicken breasts",
+      "1 tbsp honey",
+      "1 tbsp low-sodium soy sauce",
+      "1 tbsp minced garlic"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

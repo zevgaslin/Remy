@@ -28,6 +28,9 @@ function RecipeDetails({ recipe }) {
         ))}</ul>
       </>}
       <h4>Instructions</h4>
+      {data.source?.instructionsOrigin === 'adapted' && <p>
+        Instructions adapted for Remy. See the source recipe for the original method.
+      </p>}
       {steps ? <ol>{steps.map((step, index) => <li key={index}>{step.text}</li>)}</ol>
         : <p className="recipe-instructions">{recipe.instructions}</p>}
       {safeSourceUrl && <p><a href={safeSourceUrl} target="_blank" rel="noreferrer">

@@ -23,7 +23,7 @@ class RecipeReadRepositoryTest {
     @Autowired RecipeCatalogService catalog;
 
     @Test void optimizedRowsPreserveTheExistingApiDataAndOrdering() throws Exception {
-        catalog.importFolder(Path.of("recipes"));
+        catalog.importFolder(Path.of("src/test/resources/recipes"));
         var actual=reads.list();
         assertThat(actual).hasSize(13);
         var byId=new HashMap<Long,Recipe>();

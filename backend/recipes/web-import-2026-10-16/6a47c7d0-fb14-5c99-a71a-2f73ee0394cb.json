@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "6a47c7d0-fb14-5c99-a71a-2f73ee0394cb",
+  "name": "Challah Bread",
+  "description": "A kind of braided bread preparation. NOTE: Prep time does not account for the 3-4 hours the dough must be left to rise and cool (see directions 5, 10, & 12).",
+  "cuisine": null,
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "2-4 servings",
+  "ingredients": [
+    {
+      "name": "Water",
+      "originalText": "600ml ( 1 Pint ) warm water",
+      "quantity": 600.0,
+      "quantityText": "600",
+      "unit": "ml",
+      "preparation": " 1 Pint ; warm",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Active baking yeast",
+      "originalText": "1 tablespoon dry active baking yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": "dry",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Honey",
+      "originalText": "7 tablespoons honey",
+      "quantity": 7.0,
+      "quantityText": "7",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "1.5kg flour",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "kg",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Poppy seeds",
+      "originalText": "1 tablespoon poppy seeds",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "4 tablespoons olive oil",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 600ml ( 1 Pint ) warm water; 1 tablespoon dry active baking yeast; 7 tablespoons honey; 1.5kg flour; 3 eggs; 1 tablespoon salt; 1 tablespoon poppy seeds; 4 tablespoons olive oil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Fill a large bowl with the water, and sprinkle with the yeast.",
+      "section": null
+    },
+    {
+      "text": "Whisk together: honey, oil, 2 eggs, and salt.",
+      "section": null
+    },
+    {
+      "text": "Add to bowl.",
+      "section": null
+    },
+    {
+      "text": "Add flour to bowl in small amounts, beating/whisking after each addition.",
+      "section": null
+    },
+    {
+      "text": "Once the mixtures becomes a viscous dough, begin kneading until smooth and elastic, and no longer sticky. To knead, push the dough away with the heel of your hand, fold it back, and turn it; repeat for the stated time or until it has the described texture.",
+      "section": null
+    },
+    {
+      "text": "Cover bowl with a damp cloth and let rise for 1-2 hours, or until dough has doubled in size.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle flour onto a chopping board, place the dough onto it and divide in half.",
+      "section": null
+    },
+    {
+      "text": "Knead each half, adding flour as needed to keep the dough non-sticky. To knead, push the dough away with the heel of your hand, fold it back, and turn it; repeat for the stated time or until it has the described texture.",
+      "section": null
+    },
+    {
+      "text": "Divide each half into thirds and roll into a long snake about 4cm (1.5in) in girth.",
+      "section": null
+    },
+    {
+      "text": "Pinch the ends of the each three snakes together firmly and plait them together, making two items of braided dough.",
+      "section": null
+    },
+    {
+      "text": "Grease two baking trays or use baking paper, cover with dry cloth and let rise for one hour.",
+      "section": null
+    },
+    {
+      "text": "Preheat oven to 190°C / Gas mark 5.",
+      "section": null
+    },
+    {
+      "text": "Whisk an egg and brush onto each plait, sprinkle with seeds.",
+      "section": null
+    },
+    {
+      "text": "Bake until bread has a hollow sound when tapped, cool on a rack for an hour before slicing.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "category",
+      "value": "bread"
+    },
+    {
+      "name": "category",
+      "value": "israeli"
+    }
+  ],
+  "keywords": [
+    "bread",
+    "israeli",
+    "challah bread"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/challah-bread/",
+    "siteName": "Public Domain Recipes",
+    "author": "Jacob Siggins",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Fill a large bowl with the water, and sprinkle with the yeast.\n2. Whisk together: honey, oil, 2 eggs, and salt. Add to bowl.\n3. Add flour to bowl in small amounts, beating/whisking after each addition.\n4. Once the mixtures becomes a viscous dough, begin kneading until smooth and elastic, and no longer sticky.\n5. Cover bowl with a damp cloth and let rise for 1-2 hours, or until dough has doubled in size.\n6. Sprinkle flour onto a chopping board, place the dough onto it and divide in half.\n7. Knead each half, adding flour as needed to keep the dough non-sticky.\n8. Divide each half into thirds and roll into a long snake about 4cm (1.5in) in girth.\n9. Pinch the ends of the each three snakes together firmly and plait them together, making two items of braided dough.\n10. Grease two baking trays or use baking paper, cover with dry cloth and let rise for one hour. Preheat oven to 190°C / Gas mark 5.\n11. Whisk an egg and brush onto each plait, sprinkle with seeds.\n12. Bake until bread has a hollow sound when tapped, cool on a rack for an hour before slicing.",
+    "originalIngredients": [
+      "600ml ( 1 Pint ) warm water",
+      "1 tablespoon dry active baking yeast",
+      "7 tablespoons honey",
+      "1.5kg flour",
+      "3 eggs",
+      "1 tablespoon salt",
+      "1 tablespoon poppy seeds",
+      "4 tablespoons olive oil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

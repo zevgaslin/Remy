@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "f22b632f-f2fe-5da8-ad41-96900dbda6f7",
+  "name": "Pavlova",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 55,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "6-8 servings",
+  "ingredients": [
+    {
+      "name": "Egg whites",
+      "originalText": "2 egg whites",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Caster sugar",
+      "originalText": "1 1/2 cups caster sugar",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "1/2 tsp salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White vinegar",
+      "originalText": "1 tsp white vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cornflour",
+      "originalText": "1 tsp cornflour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Boiling water",
+      "originalText": "4 Tbsp boiling water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whipped cream, fresh fruit such as kiwifruit, passionfruit, and strawberries",
+      "originalText": "(optional) Whipped cream, fresh fruit such as kiwifruit, passionfruit, and strawberries",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 egg whites; 1 1/2 cups caster sugar; 1/2 tsp salt; 1 tsp white vinegar; 1 tsp cornflour; 4 Tbsp boiling water; (optional) Whipped cream, fresh fruit such as kiwifruit, passionfruit, and strawberries. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Beat all ingredients until smooth, stiff and shines.",
+      "section": null
+    },
+    {
+      "text": "Continue beating mixture until soft peak forms when lifting beater (approx 12 minutes).",
+      "section": null
+    },
+    {
+      "text": "Place on baking paper on tray.",
+      "section": null
+    },
+    {
+      "text": "Bake in middle of oven at 180˚C (350-360˚F) for 10 minutes.",
+      "section": null
+    },
+    {
+      "text": "Drop temperature down to 150˚C (300˚F) for 45 minutes.",
+      "section": null
+    },
+    {
+      "text": "Turn off oven and leave to cool in oven.",
+      "section": null
+    },
+    {
+      "text": "(Optional) Serve with fruit salad and ice cream.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "australian"
+    },
+    {
+      "name": "category",
+      "value": "baking"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "meringue"
+    },
+    {
+      "name": "category",
+      "value": "new zealand"
+    }
+  ],
+  "keywords": [
+    "australian",
+    "baking",
+    "dessert",
+    "meringue",
+    "new zealand",
+    "pavlova"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/pavlova.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/pavlova/",
+    "siteName": "Public Domain Recipes",
+    "author": "u/Idzuna",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Beat all ingredients until smooth, stiff and shines.\n2. Continue beating mixture until soft peak forms when lifting beater (approx 12 minutes).\n3. Place on baking paper on tray.\n4. Bake in middle of oven at 180˚C (350-360˚F) for 10 minutes.\n5. Drop temperature down to 150˚C (300˚F) for 45 minutes.\n6. Turn off oven and leave to cool in oven.\n7. (Optional) Serve with fruit salad and ice cream.",
+    "originalIngredients": [
+      "2 egg whites",
+      "1 1/2 cups caster sugar",
+      "1/2 tsp salt",
+      "1 tsp white vinegar",
+      "1 tsp cornflour",
+      "4 Tbsp boiling water",
+      "(optional) Whipped cream, fresh fruit such as kiwifruit, passionfruit, and strawberries"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

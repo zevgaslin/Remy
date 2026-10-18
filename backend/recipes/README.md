@@ -1,6 +1,6 @@
 # Prepared recipe catalog
 
-The 13 UUID-named JSON files in this folder rewrite the existing sample recipes using the [version 1 format](../../docs/recipes/README.md). Run the loader explicitly after adding or changing files; files are not watched automatically.
+The 13 JSON files at this folder's root rewrite the existing sample recipes using the [version 1 format](../../docs/recipes/README.md). The `web-import-2026-10-16/` subfolder contains 100 additional website-sourced recipes; see the [source catalog](../../docs/recipes/website-batch-2026-10-16.md). Run the loader explicitly after adding or changing files; files are not watched automatically.
 
 ## Importing into Supabase
 
@@ -12,7 +12,7 @@ From `backend`, run:
 ./scripts/import-recipes.sh /absolute/path/to/recipes
 ```
 
-The command uses the backend's configured database credentials, starts without an HTTP server, validates every JSON file against the bundled schema, and imports the folder in one transaction. It prints created, updated, and unchanged counts after commit, then verifies the stored documents in a separate read transaction. A failure exits nonzero. The import does not run during ordinary app startup, and deleting a local file does not delete a database recipe.
+The command uses the backend's configured database credentials, starts without an HTTP server, recursively validates every JSON file (including subfolders) against the bundled schema, and imports the folder in one transaction. It prints created, updated, and unchanged counts after commit, then verifies the stored documents in a separate read transaction. A failure exits nonzero. The import does not run during ordinary app startup, and deleting a local file does not delete a database recipe.
 
 The `recipe` table stores the full file in its JSONB `document` column, with a unique `catalog_id` for repeatable updates. Existing API columns, ingredients, and preference tags are populated for compatibility. The API still returns numbered instruction text; the full structured content is available in `document`. Reimporting identical content makes no writes. An unambiguous existing recipe with the same name and no catalog ID is adopted, preserving its numeric ID and reactions; ambiguous matches fail rather than selecting arbitrarily. Likes/dislikes are never imported from files.
 
@@ -20,7 +20,7 @@ The old compatibility ingredient table supports one entry per ingredient name. F
 
 The runtime schema is `src/main/resources/recipe.schema.json`; the documentation copy must remain identical. The focused checks run with `./mvnw -Dtest=RecipeCatalogServiceTest test`. The full integration suite now uses isolated PostgreSQL schemas and the JSON catalog; it does not connect to Supabase.
 
-Each file retains the original ingredient quantities, optional flags, preference tags, estimated nutrition, and original instruction text. Expanded instructions are authored guidance, not recipes scraped from or tested by a cooking website. No website attribution has been invented. These methods have not been kitchen-tested.
+The 13 legacy files described below retain the original ingredient quantities, optional flags, preference tags, estimated nutrition, and original instruction text. Expanded instructions are authored guidance, not recipes scraped from or tested by a cooking website. No website attribution has been invented. These methods have not been kitchen-tested.
 
 The expanded methods specify preparation, equipment, heat, cooking ranges, completion checks, and serving. They clarify previously ambiguous choices such as dry long-grain white rice, rolled oats, canned-bean size, and boneless chicken. Water is specified directly in steps. The chicken method uses only its listed ingredients, rather than adding the black pepper mentioned in the old text but absent from its ingredient list. Methods that have no cooking oil listed use a nonstick pan and water instead of introducing an unlisted fat.
 

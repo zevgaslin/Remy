@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "id": "b4bb352b-0660-5c84-99ed-fcd5d6ed2e5a",
+  "name": "Panang-Style Beef Curry",
+  "description": null,
+  "cuisine": "Thai",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 315,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Ground Beef",
+      "originalText": "1/2 lb Ground Beef",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Coconut Milk",
+      "originalText": "1 can (400mL) Coconut Milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "400mL",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red Chili Pepper",
+      "originalText": "1 Red Chili Pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red Curry Paste",
+      "originalText": "1/2 cup Red Curry Paste",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peanut Butter",
+      "originalText": "4 tsp Peanut Butter",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Jasmine Rice",
+      "originalText": "3/4 cup Jasmine Rice",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cilantro",
+      "originalText": "2 Tbsp Cilantro",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet Bell Pepper",
+      "originalText": "1 Sweet Bell Pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1/2 Onion (2 oz), chopped",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": "chopped; 2 oz",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic Puree",
+      "originalText": "1 Tbsp Garlic Puree",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peanuts",
+      "originalText": "1 oz Peanuts, chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz",
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Soy Sauce",
+      "originalText": "1/2 Tbsp Soy Sauce",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mild Curry Paste",
+      "originalText": "2 Tbsp Mild Curry Paste",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1/2 lb Ground Beef; 1 can (400mL) Coconut Milk; 1 Red Chili Pepper; 1/2 cup Red Curry Paste; 4 tsp Peanut Butter; 3/4 cup Jasmine Rice; 2 Tbsp Cilantro; 1 Sweet Bell Pepper; 1/2 Onion (2 oz), chopped; 1 Tbsp Garlic Puree; 1 oz Peanuts, chopped; 1/2 Tbsp Soy Sauce; 2 Tbsp Mild Curry Paste. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onion: chopped; 2 oz; Peanuts: chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Start rice.",
+      "section": null
+    },
+    {
+      "text": "While water comes to a boil, core and cut pepper into 1/2 inch pieces.",
+      "section": null
+    },
+    {
+      "text": "Roughly chop cilantro.",
+      "section": null
+    },
+    {
+      "text": "Finely chop the chili pepper - remove seeds for less heat.",
+      "section": null
+    },
+    {
+      "text": "Add rice to boiling water.",
+      "section": null
+    },
+    {
+      "text": "Reduce heat to low, cover and cook until rice is tender and absorbed, about 12-14 minutes.",
+      "section": null
+    },
+    {
+      "text": "Remove from heat and keep covered.",
+      "section": null
+    },
+    {
+      "text": "While rice cooks, heat a large non-stick pan over medium-high heat.",
+      "section": null
+    },
+    {
+      "text": "Once hot, add a tablespoon of oil, then the beef and garlic puree.",
+      "section": null
+    },
+    {
+      "text": "Cook, breaking up beef into smaller pieces, until no pink remains (4-5 mins).",
+      "section": null
+    },
+    {
+      "text": "Add peppers and onions to the pan with beef.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring occasionally until softened (2-3 mins).",
+      "section": null
+    },
+    {
+      "text": "Add mild curry paste, red curry base, soy sauce, peanut butter, and the minced chili pepper. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring often, until fragrant (1 min).",
+      "section": null
+    },
+    {
+      "text": "Add coconut milk to the pan.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring often, until curry thickens slightly (2-3 mins).",
+      "section": null
+    },
+    {
+      "text": "Fluff rice with a fork.",
+      "section": null
+    },
+    {
+      "text": "Add half the cilantro and season, then stir to combine.",
+      "section": null
+    },
+    {
+      "text": "Divide rice between plates and top with beef curry.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle peanuts and remaining cilantro over top.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the meat with a food thermometer. Ground beef, pork, and lamb must reach 160°F (71°C); use 165°F (74°C) for any poultry sausage. Continue cooking if needed, and wash hands and utensils after touching raw meat."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "thai"
+    },
+    {
+      "name": "category",
+      "value": "beef"
+    },
+    {
+      "name": "category",
+      "value": "curry"
+    },
+    {
+      "name": "category",
+      "value": "thai"
+    }
+  ],
+  "keywords": [
+    "beef",
+    "curry",
+    "thai",
+    "panang-style beef curry"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/panang-style-beef-curry/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Start rice. While water comes to a boil, core and cut pepper into 1/2 inch pieces. Roughly chop cilantro. Finely chop the chili pepper - remove seeds for less heat.\n2. Add rice to boiling water. Reduce heat to low, cover and cook until rice is tender and absorbed, about 12-14 minutes. Remove from heat and keep covered.\n3. While rice cooks, heat a large non-stick pan over medium-high heat. Once hot, add a tablespoon of oil, then the beef and garlic puree. Cook, breaking up beef into smaller pieces, until no pink remains (4-5 mins).\n4. Add peppers and onions to the pan with beef. Cook, stirring occasionally until softened (2-3 mins). Add mild curry paste, red curry base, soy sauce, peanut butter, and the minced chili pepper. Cook, stirring often, until fragrant (1 min).\n5. Add coconut milk to the pan. Cook, stirring often, until curry thickens slightly (2-3 mins).\n6. Fluff rice with a fork. Add half the cilantro and season, then stir to combine. Divide rice between plates and top with beef curry. Sprinkle peanuts and remaining cilantro over top.",
+    "originalIngredients": [
+      "1/2 lb Ground Beef",
+      "1 can (400mL) Coconut Milk",
+      "1 Red Chili Pepper",
+      "1/2 cup Red Curry Paste",
+      "4 tsp Peanut Butter",
+      "3/4 cup Jasmine Rice",
+      "2 Tbsp Cilantro",
+      "1 Sweet Bell Pepper",
+      "1/2 Onion (2 oz), chopped",
+      "1 Tbsp Garlic Puree",
+      "1 oz Peanuts, chopped",
+      "1/2 Tbsp Soy Sauce",
+      "2 Tbsp Mild Curry Paste"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

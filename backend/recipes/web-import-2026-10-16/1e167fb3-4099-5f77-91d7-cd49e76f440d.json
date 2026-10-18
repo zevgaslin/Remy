@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "1e167fb3-4099-5f77-91d7-cd49e76f440d",
+  "name": "Mushroom Stroganov",
+  "description": "Prep time: 10 Minutes\nCook time: 20 Minutes\nServings: 2",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Pasta",
+      "originalText": "8 oz uncooked pasta (spaghetti or any other long noodle will work. Stroganov can also be served over rice.)",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": "oz",
+      "preparation": "uncooked; spaghetti or any other long noodle will work. Stroganov can also be served over rice.",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mushrooms",
+      "originalText": "12 oz mushrooms (I reccommend shitake, but white, portabello, or maitake will also work.)",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": "oz",
+      "preparation": "I reccommend shitake, but white, portabello, or maitake will also work.",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 cloves of garlic, minced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yellow onion",
+      "originalText": "1 small yellow onion, minced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "small; minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "2 Tbsp butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "General purpose flour",
+      "originalText": "1 Tbsp general purpose flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vegetable broth",
+      "originalText": "1 Cup vegetable broth",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Dijon mustard",
+      "originalText": "1 Tsp dijon mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Smoked paprika",
+      "originalText": "1 Tsp Smoked paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Creme fraiche",
+      "originalText": "4 Tbsp creme fraiche (can be made by mixing equal parts heavy and sour cream)",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "Tbsp",
+      "preparation": "can be made by mixing equal parts heavy and sour cream",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsely",
+      "originalText": "2 Tbsp parsely",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 8 oz uncooked pasta (spaghetti or any other long noodle will work. Stroganov can also be served over rice.); 12 oz mushrooms (I reccommend shitake, but white, portabello, or maitake will also work.); 2 cloves of garlic, minced; 1 small yellow onion, minced; 2 Tbsp butter; 1 Tbsp general purpose flour; 1 Cup vegetable broth; 1 Tsp dijon mustard; 1 Tsp Smoked paprika; 4 Tbsp creme fraiche (can be made by mixing equal parts heavy and sour cream); 2 Tbsp parsely. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Garlic: minced; Yellow onion: small; minced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Bring a large pot of salted water to a boil and cook pasta al dente Use the package cooking-time range, stir to separate the pasta, and taste a cooled piece near the end; it should be tender without a hard center.",
+      "section": null
+    },
+    {
+      "text": "In a cup, combine flour, mustard, smoked paprika, salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Add broth and whisk until no lumps remain.",
+      "section": null
+    },
+    {
+      "text": "While pasta is cooking, melt butter in a medium skillet and over medium heat.",
+      "section": null
+    },
+    {
+      "text": "When the butter is melted, add onions and cook until softened.",
+      "section": null
+    },
+    {
+      "text": "Add mushrooms and cook until all water evaporates and mushrooms are slightly browned, about 7 minutes.",
+      "section": null
+    },
+    {
+      "text": "Add garlic and cook for another 30 seconds.",
+      "section": null
+    },
+    {
+      "text": "Pour the flour and broth mixture into the mushrooms and cook until thickens, about 2 minutes.",
+      "section": null
+    },
+    {
+      "text": "Stir in Creme Fraiche.",
+      "section": null
+    },
+    {
+      "text": "Add the strained pasta to the mushroom sauce and stir to coat the pasta completely.",
+      "section": null
+    },
+    {
+      "text": "Serve immediately.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "mushrooms"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    },
+    {
+      "name": "category",
+      "value": "russian"
+    }
+  ],
+  "keywords": [
+    "mushrooms",
+    "pasta",
+    "russian",
+    "mushroom stroganov"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/mushroom-stragonov/",
+    "siteName": "Public Domain Recipes",
+    "author": "Aayla Semyonova",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Bring a large pot of salted water to a boil and cook pasta al dente\n2. In a cup, combine flour, mustard, smoked paprika, salt and pepper. Add broth and whisk until no lumps remain.\n3. While pasta is cooking, melt butter in a medium skillet and over medium heat.\n4. When the butter is melted, add onions and cook until softened.\n5. Add mushrooms and cook until all water evaporates and mushrooms are slightly browned, about 7 minutes.\n6. Add garlic and cook for another 30 seconds.\n7. Pour the flour and broth mixture into the mushrooms and cook until thickens, about 2 minutes.\n8. Stir in Creme Fraiche.\n9. Add the strained pasta to the mushroom sauce and stir to coat the pasta completely.\n10. Serve immediately.",
+    "originalIngredients": [
+      "8 oz uncooked pasta (spaghetti or any other long noodle will work. Stroganov can also be served over rice.)",
+      "12 oz mushrooms (I reccommend shitake, but white, portabello, or maitake will also work.)",
+      "2 cloves of garlic, minced",
+      "1 small yellow onion, minced",
+      "2 Tbsp butter",
+      "1 Tbsp general purpose flour",
+      "1 Cup vegetable broth",
+      "1 Tsp dijon mustard",
+      "1 Tsp Smoked paprika",
+      "4 Tbsp creme fraiche (can be made by mixing equal parts heavy and sour cream)",
+      "2 Tbsp parsely"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

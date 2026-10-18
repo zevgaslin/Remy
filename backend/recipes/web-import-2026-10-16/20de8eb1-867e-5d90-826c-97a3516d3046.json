@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "20de8eb1-867e-5d90-826c-97a3516d3046",
+  "name": "Egg Roll in a Bowl",
+  "description": "Egg rolls, but, you know, in a bowl.",
+  "cuisine": "Asian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "totalMinutes": null,
+  "servings": 2.0,
+  "yieldText": "2 servings",
+  "ingredients": [
+    {
+      "name": "Ground turkey",
+      "originalText": "1 pound ground turkey",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bag coleslaw mix",
+      "originalText": "1 bag coleslaw mix",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 small onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "small",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2-3 cloves of garlic",
+      "quantity": null,
+      "quantityText": "2-3",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ginger",
+      "originalText": "1 tbsp fresh ginger",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": "fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Hoisin sauce",
+      "originalText": "1/4 cup Hoisin sauce",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Soy sauce",
+      "originalText": "soy sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sesame oil",
+      "originalText": "sesame oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 pound ground turkey; 1 bag coleslaw mix; 1 small onion; 2-3 cloves of garlic; 1 tbsp fresh ginger; 1/4 cup Hoisin sauce; soy sauce; sesame oil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Grate or mince ginger finely. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Process with the garlic cloves by grinding with salt under the edge of a knife.",
+      "section": null
+    },
+    {
+      "text": "Finely mince the onion. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Optional Marinade the ground turkey in 2 Tbsp of soy sauce and 1 tsp baking soda for 15 minutes to improve browning.",
+      "section": null
+    },
+    {
+      "text": "In a hot wok or skillet add a few tablespoons of cooking oil, preferably peanut, and a tsp of sesame oil. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Add the ground turkey and cook until no longer raw seasoning with soy sauce.",
+      "section": null
+    },
+    {
+      "text": "Add the onion and cook until translucent and the meat is nicely browned.",
+      "section": null
+    },
+    {
+      "text": "Add in the garlic and ginger mixture and cook for approximately 1 minute or until fragrant ensuring not to burn the garlic.",
+      "section": null
+    },
+    {
+      "text": "Add in the coleslaw mix and season with more soy sauce.",
+      "section": null
+    },
+    {
+      "text": "Cook until the cabbage is just softened.",
+      "section": null
+    },
+    {
+      "text": "Add 1/4 cup of hoisin sauce and stir to combine.",
+      "section": null
+    },
+    {
+      "text": "Check seasoning and add salt to taste.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Serve in a bowl with sweet chili sauce and green onions.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "asian"
+    },
+    {
+      "name": "category",
+      "value": "asian"
+    },
+    {
+      "name": "category",
+      "value": "cabbage"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    }
+  ],
+  "keywords": [
+    "asian",
+    "cabbage",
+    "quick",
+    "egg roll in a bowl"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/eggroll-in-a-bowl/",
+    "siteName": "Public Domain Recipes",
+    "author": "the-birchmen",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Grate or mince ginger finely. Process with the garlic cloves by grinding with salt under the edge of a knife. Finely mince the onion. Optional Marinade the ground turkey in 2 Tbsp of soy sauce and 1 tsp baking soda for 15 minutes to improve browning.\n2. In a hot wok or skillet add a few tablespoons of cooking oil, preferably peanut, and a tsp of sesame oil. Add the ground turkey and cook until no longer raw seasoning with soy sauce.\n3. Add the onion and cook until translucent and the meat is nicely browned. Add in the garlic and ginger mixture and cook for approximately 1 minute or until fragrant ensuring not to burn the garlic.\n4. Add in the coleslaw mix and season with more soy sauce. Cook until the cabbage is just softened. Add 1/4 cup of hoisin sauce and stir to combine. Check seasoning and add salt to taste. Serve in a bowl with sweet chili sauce and green onions.",
+    "originalIngredients": [
+      "1 pound ground turkey",
+      "1 bag coleslaw mix",
+      "1 small onion",
+      "2-3 cloves of garlic",
+      "1 tbsp fresh ginger",
+      "1/4 cup Hoisin sauce",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

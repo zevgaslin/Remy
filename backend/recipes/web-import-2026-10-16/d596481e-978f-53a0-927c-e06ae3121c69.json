@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "d596481e-978f-53a0-927c-e06ae3121c69",
+  "name": "Newfoundland Cod Chowder",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 8.0,
+  "yieldText": "8 servings",
+  "ingredients": [
+    {
+      "name": "Bacon",
+      "originalText": "4 Slices Bacon",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "Slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onions",
+      "originalText": "2 Onions, sliced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Savoury",
+      "originalText": "1 tsp Savoury",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Potatoes",
+      "originalText": "6 Potatoes, peeled and cubed",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": "peeled and cubed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrots",
+      "originalText": "3 Carrots, sliced",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": "sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cod Fillets",
+      "originalText": "1 1/2 lbs Cod Fillets",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Evaporated Milk",
+      "originalText": "1 can Evaporated Milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley or Chives",
+      "originalText": "2 Tbsp Fresh Parsley or Chives, chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": "Fresh; chopped",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 4 Slices Bacon; 2 Onions, sliced; 1 tsp Savoury; 6 Potatoes, peeled and cubed; 3 Carrots, sliced; 1 1/2 lbs Cod Fillets; 1 can Evaporated Milk; 2 Tbsp Fresh Parsley or Chives, chopped. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onions: sliced; Potatoes: peeled and cubed; Carrots: sliced; Parsley or Chives: Fresh; chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp.",
+      "section": null
+    },
+    {
+      "text": "Chop coarsely and set aside.",
+      "section": null
+    },
+    {
+      "text": "Drain off all but 1 tbsp. fat from saucepan.",
+      "section": null
+    },
+    {
+      "text": "Add onions and savoury.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring occasionally for 5 minutes or until softened.",
+      "section": null
+    },
+    {
+      "text": "Add potatoes, carrots, water and salt.",
+      "section": null
+    },
+    {
+      "text": "Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Cut cod into 1-inch chunks.",
+      "section": null
+    },
+    {
+      "text": "Add to vegetables and simmer for about 5 minutes or until fish flakes easily A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Add milk and white pepper, heat through.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check uncooked fish or shrimp with a food thermometer: it must reach 145°F (63°C). Fish should separate easily into flakes; shrimp should be opaque and firm. Continue cooking and recheck if needed."
+    },
+    {
+      "text": "Garnish with bacon and parsley.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    },
+    {
+      "name": "category",
+      "value": "seafood"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    }
+  ],
+  "keywords": [
+    "fish",
+    "seafood",
+    "soup",
+    "newfoundland cod chowder"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/newfoundland-cod-chowder/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp. Chop coarsely and set aside.\n2. Drain off all but 1 tbsp. fat from saucepan. Add onions and savoury. Cook, stirring occasionally for 5 minutes or until softened.\n3. Add potatoes, carrots, water and salt. Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender\n4. Cut cod into 1-inch chunks. Add to vegetables and simmer for about 5 minutes or until fish flakes easily\n5. Add milk and white pepper, heat through. Garnish with bacon and parsley.",
+    "originalIngredients": [
+      "4 Slices Bacon",
+      "2 Onions, sliced",
+      "1 tsp Savoury",
+      "6 Potatoes, peeled and cubed",
+      "3 Carrots, sliced",
+      "1 1/2 lbs Cod Fillets",
+      "1 can Evaporated Milk",
+      "2 Tbsp Fresh Parsley or Chives, chopped"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

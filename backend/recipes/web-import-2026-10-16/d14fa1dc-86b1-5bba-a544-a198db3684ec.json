@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "id": "d14fa1dc-86b1-5bba-a544-a198db3684ec",
+  "name": "Winter Risotto",
+  "description": null,
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Arborio Rice",
+      "originalText": "3/4 cup Arborio Rice",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baby Spinach",
+      "originalText": "1 cup Baby Spinach",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 Garlic Cloves",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vegetable Broth",
+      "originalText": "4 1/2 cup Vegetable Broth",
+      "quantity": 4.5,
+      "quantityText": "4 1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan Cheese",
+      "originalText": "1/4 cup Parmesan Cheese, shredded",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "shredded",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baby Tomatoes",
+      "originalText": "1/2 lb Baby Tomatoes",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Wine Vinegar",
+      "originalText": "1 Tbsp White Wine Vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Walnuts",
+      "originalText": "1/4 cup Walnuts, chopped",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Leek",
+      "originalText": "1/2 cup Leek, sliced",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mushrooms",
+      "originalText": "1 cup Mushrooms",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Unsalted Butter",
+      "originalText": "3 Tbsp Unsalted Butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 3/4 cup Arborio Rice; 1 cup Baby Spinach; 2 Garlic Cloves; 4 1/2 cup Vegetable Broth; 1/4 cup Parmesan Cheese, shredded; 1/2 lb Baby Tomatoes; 1 Tbsp White Wine Vinegar; 1/4 cup Walnuts, chopped; 1/2 cup Leek, sliced; 1 cup Mushrooms; 3 Tbsp Unsalted Butter. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Parmesan Cheese: shredded; Walnuts: chopped; Leek: sliced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Combine vegetable broth in a medium pot.",
+      "section": null
+    },
+    {
+      "text": "Cover and bring to a gentle boil over medium heat.",
+      "section": null
+    },
+    {
+      "text": "While broth comes to a boil, peel and mince/grate the garlic. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Roughly chop the spinach.",
+      "section": null
+    },
+    {
+      "text": "Thinly slice mushrooms.",
+      "section": null
+    },
+    {
+      "text": "Heat a large non-stick pan over medium heat.",
+      "section": null
+    },
+    {
+      "text": "When hot, add the butter, onions, leeks, and mushrooms.",
+      "section": null
+    },
+    {
+      "text": "Season with salt.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring occasionally, until softened (2-3 mins).",
+      "section": null
+    },
+    {
+      "text": "Add rice, garlic, and vinegar.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring constantly until fragrant (1-2 min).",
+      "section": null
+    },
+    {
+      "text": "Add 1 cup broth from the medium pot to the pan with rice.",
+      "section": null
+    },
+    {
+      "text": "Stir until broth has been absorbed by rice.",
+      "section": null
+    },
+    {
+      "text": "Continue adding broth 1 cup at a time, stirring regularly, until liquid is absorbed, the texture is creamy and the rice is tender (28-30 mins).",
+      "section": null
+    },
+    {
+      "text": "While risotto cooks, add tomatoes and a tablespoon of oil to a parchment-lined baking sheet.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper, then toss to coat.",
+      "section": null
+    },
+    {
+      "text": "Roast on the middle rack of the oven until tomatoes start to burst (10-11 mins).",
+      "section": null
+    },
+    {
+      "text": "When the last cup of broth has been absorbed and rice is tender and creamy, add Parmesan and spinach to risotto.",
+      "section": null
+    },
+    {
+      "text": "Stir until spinach wilts (3-4 mins).",
+      "section": null
+    },
+    {
+      "text": "Stir in roasted tomatoes.",
+      "section": null
+    },
+    {
+      "text": "Divide risotto between bowls.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle walnuts over top.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "mushrooms"
+    },
+    {
+      "name": "category",
+      "value": "rice"
+    }
+  ],
+  "keywords": [
+    "italian",
+    "mushrooms",
+    "rice",
+    "winter risotto"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/winter-risotto/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Combine vegetable broth in a medium pot. Cover and bring to a gentle boil over medium heat. While broth comes to a boil, peel and mince/grate the garlic. Roughly chop the spinach. Thinly slice mushrooms.\n2. Heat a large non-stick pan over medium heat. When hot, add the butter, onions, leeks, and mushrooms. Season with salt. Cook, stirring occasionally, until softened (2-3 mins). Add rice, garlic, and vinegar. Cook, stirring constantly until fragrant (1-2 min).\n3. Add 1 cup broth from the medium pot to the pan with rice. Stir until broth has been absorbed by rice. Continue adding broth 1 cup at a time, stirring regularly, until liquid is absorbed, the texture is creamy and the rice is tender (28-30 mins).\n4. While risotto cooks, add tomatoes and a tablespoon of oil to a parchment-lined baking sheet. Season with salt and pepper, then toss to coat. Roast on the middle rack of the oven until tomatoes start to burst (10-11 mins).\n5. When the last cup of broth has been absorbed and rice is tender and creamy, add Parmesan and spinach to risotto. Stir until spinach wilts (3-4 mins). Stir in roasted tomatoes. Divide risotto between bowls. Sprinkle walnuts over top.",
+    "originalIngredients": [
+      "3/4 cup Arborio Rice",
+      "1 cup Baby Spinach",
+      "2 Garlic Cloves",
+      "4 1/2 cup Vegetable Broth",
+      "1/4 cup Parmesan Cheese, shredded",
+      "1/2 lb Baby Tomatoes",
+      "1 Tbsp White Wine Vinegar",
+      "1/4 cup Walnuts, chopped",
+      "1/2 cup Leek, sliced",
+      "1 cup Mushrooms",
+      "3 Tbsp Unsalted Butter"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

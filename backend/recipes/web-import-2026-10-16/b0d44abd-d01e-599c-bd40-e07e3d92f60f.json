@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "b0d44abd-d01e-599c-bd40-e07e3d92f60f",
+  "name": "Lemon and oregano chicken traybake",
+  "description": null,
+  "cuisine": "Mediterranean",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Chicken thighs",
+      "originalText": "8 chicken thighs (skin on)",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": "skin on",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "New potato",
+      "originalText": "500g new potato",
+      "quantity": 500.0,
+      "quantityText": "500",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bacon lardon",
+      "originalText": "100g bacon lardon",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Shallots",
+      "originalText": "8 shallots",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oregano sprigs / heavy sprinkle of oregano leaves",
+      "originalText": "5 oregano sprigs / heavy sprinkle of oregano leaves",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "2 tbsp olive oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemons",
+      "originalText": "2 lemons",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken stock",
+      "originalText": "200ml chicken stock",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White wine",
+      "originalText": "100ml white wine",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 8 chicken thighs (skin on); 500g new potato; 100g bacon lardon; 8 shallots; 5 oregano sprigs / heavy sprinkle of oregano leaves; 2 tbsp olive oil; 2 lemons; 200ml chicken stock; 100ml white wine. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Heat oven to 220C/200C with fan/gas 7.",
+      "section": null
+    },
+    {
+      "text": "While oven is heating up cut the new potatoes into 0.5cm - 1cm slices and tip them into a roasting tray.",
+      "section": null
+    },
+    {
+      "text": "Drizzle 1tbsp of olive oil on the sliced potatoes, season well and toss to ensure a good coating.",
+      "section": null
+    },
+    {
+      "text": "Then put the roasting tray into the oven for 20 minutes, or however long until the potatoes start to crisp.",
+      "section": null
+    },
+    {
+      "text": "In a separate, temporary, tray place the chicken thighs and season them.",
+      "section": null
+    },
+    {
+      "text": "Cut up the shallots into 1/8 parts, then the lemons into 1/4 wedges.",
+      "section": null
+    },
+    {
+      "text": "Once this is done, take out the roasting tray and transfer the chicken, challots, lemon wedges and bacon lardons into it, with a final drizzle of 1tbsp of olive oil over the tray’s items.",
+      "section": null
+    },
+    {
+      "text": "Cook for another 20 minutes.",
+      "section": null
+    },
+    {
+      "text": "Prepare the chicken stock and wine to take out the roasting tray for the last time before serving.",
+      "section": null
+    },
+    {
+      "text": "Pour 200ml of chicken stock and 100ml of white wine over the tray’s contents and return it to the oven for a final 20 minutes of cooking.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "mediterranean"
+    },
+    {
+      "name": "category",
+      "value": "baking"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "mediterranean"
+    }
+  ],
+  "keywords": [
+    "baking",
+    "chicken",
+    "mediterranean",
+    "lemon and oregano chicken traybake"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/lemon-and-oregano-chicken-traybake.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/lemon-and-oregano-chicken-traybake/",
+    "siteName": "Public Domain Recipes",
+    "author": "Isaac Hill",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Heat oven to 220C/200C with fan/gas 7. While oven is heating up cut the new potatoes into 0.5cm - 1cm slices and tip them into a roasting tray. Drizzle 1tbsp of olive oil on the sliced potatoes, season well and toss to ensure a good coating. Then put the roasting tray into the oven for 20 minutes, or however long until the potatoes start to crisp.\n2. In a separate, temporary, tray place the chicken thighs and season them. Cut up the shallots into 1/8 parts, then the lemons into 1/4 wedges. Once this is done, take out the roasting tray and transfer the chicken, challots, lemon wedges and bacon lardons into it, with a final drizzle of 1tbsp of olive oil over the tray’s items. Cook for another 20 minutes.\n3. Prepare the chicken stock and wine to take out the roasting tray for the last time before serving. Pour 200ml of chicken stock and 100ml of white wine over the tray’s contents and return it to the oven for a final 20 minutes of cooking.",
+    "originalIngredients": [
+      "8 chicken thighs (skin on)",
+      "500g new potato",
+      "100g bacon lardon",
+      "8 shallots",
+      "5 oregano sprigs / heavy sprinkle of oregano leaves",
+      "2 tbsp olive oil",
+      "2 lemons",
+      "200ml chicken stock",
+      "100ml white wine"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "dca3bc09-803c-5d2b-845c-6937df040ea8",
+  "name": "Chocolate Chunk Cookies",
+  "description": "Soft-centered cookies packed with semi-sweet chocolate chunks.",
+  "cuisine": "American",
+  "mealType": "Dessert",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 20,
+  "yieldText": "20 cookies; 1 per serving",
+  "ingredients": [
+    {
+      "name": "All-Purpose Flour",
+      "originalText": null,
+      "quantity": 1.67,
+      "quantityText": null,
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking Soda",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Brown Sugar",
+      "originalText": null,
+      "quantity": 0.33,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Powdered Sugar",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla Extract",
+      "originalText": null,
+      "quantity": 1.5,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chocolate Chunks",
+      "originalText": null,
+      "quantity": 11.5,
+      "quantityText": null,
+      "unit": "oz",
+      "preparation": "semi-sweet",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out 2 bowls, an electric mixer or sturdy spoon, measuring spoons, and 2 baking sheets lined with parchment. Preheat the oven to 350\u00b0F (175\u00b0C). Measure flour by spooning into the cup and leveling it rather than packing it.",
+      "section": null
+    },
+    {
+      "text": "Measure 1.67 cups all-purpose flour as approximately 1 2/3 cups. Whisk it with 1/2 teaspoon baking soda in the first bowl for 20 seconds.",
+      "section": null
+    },
+    {
+      "text": "Warm 1/2 cup butter in a microwave-safe bowl in 10-second bursts until very soft and partly melted. Let it cool for 3\u20135 minutes until warm rather than hot so it will not cook the egg.",
+      "section": null
+    },
+    {
+      "text": "In the second bowl, beat the butter with 1/2 cup granulated sugar, 0.33 cup brown sugar (approximately 1/3 cup, packed), and 2 tablespoons powdered sugar for 1\u20132 minutes until evenly blended. Add 1 1/2 teaspoons vanilla extract and 1 egg; beat for about 30 seconds until smooth. Wash your hands after handling the raw egg.",
+      "section": null
+    },
+    {
+      "text": "Add the flour mixture and stir just until no dry flour remains. Fold in 11 1/2 ounces semi-sweet chocolate chunks. Do not taste raw dough. If the dough is too soft to hold a mound, refrigerate for 20\u201330 minutes until scoopable.",
+      "section": null
+    },
+    {
+      "text": "Divide into 20 equal mounds, about 2 tablespoons each. Place them on the prepared sheets at least 2 inches apart; bake additional batches if needed rather than crowding the sheets.",
+      "section": null
+    },
+    {
+      "text": "Bake one sheet at a time on the center rack for 10\u201312 minutes until the edges are lightly browned and the centers look set rather than wet. If still shiny and liquid-looking in the center, bake 1\u20132 more minutes and check again.",
+      "section": null
+    },
+    {
+      "text": "Remove the sheet with oven mitts. Leave the cookies on it for 5 minutes to firm up, then use a spatula to move them to a wire rack or a cool plate. Cool for another 10 minutes before serving. Repeat with the remaining dough; makes 20 cookies.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 180,
+    "protein": 2,
+    "carbs": 24,
+    "fat": 9
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Mix flour and baking soda. Beat nearly melted butter with the sugars, vanilla, and egg, then combine with the dry ingredients and chocolate chunks. Scoop onto baking sheets and bake until the edges are lightly browned."
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "id": "1d51735b-75b1-5a21-9c2c-6ab51e3c8c02",
+  "name": "Lenten Chili",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Onion",
+      "originalText": "1 large onion, chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "3 cloves garlic, minced",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Kidney beans",
+      "originalText": "4 15oz cans of kidney beans (or 6 cups cooked beans)",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cans",
+      "preparation": "15 oz source package size; or 6 cups cooked beans",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato sauce",
+      "originalText": "1 29oz large can tomato sauce (or 4 cups fresh tomato sauce)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "29 oz source package size; or 4 cups fresh tomato sauce",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "1 15oz can diced tomatoes (or 1 large diced tomato with skin removed)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "15 oz source package size; diced; or 1 large diced tomato with skin removed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet corn",
+      "originalText": "1/2 can of sweet corn",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cooked white or brown rice",
+      "originalText": "1 cup cooked white or brown rice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cumin",
+      "originalText": "1 tsp cumin",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Smoked paprika",
+      "originalText": "1 tsp smoked paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic powder",
+      "originalText": "1 tsp garlic powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion powder",
+      "originalText": "1 tsp onion powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chili powder",
+      "originalText": "1 tbsp chili powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Crushed red pepper",
+      "originalText": "1 tbsp crushed red pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "2-3 tbsp olive oil",
+      "quantity": null,
+      "quantityText": "2-3",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 large onion, chopped; 3 cloves garlic, minced; 4 15oz cans of kidney beans (or 6 cups cooked beans); 1 29oz large can tomato sauce (or 4 cups fresh tomato sauce); 1 15oz can diced tomatoes (or 1 large diced tomato with skin removed); 1/2 can of sweet corn; 1 cup cooked white or brown rice; 1 tsp cumin; 1 tsp smoked paprika; 1 tsp garlic powder; 1 tsp onion powder; 1 tbsp chili powder; 1 tbsp crushed red pepper; 2-3 tbsp olive oil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onion: large; chopped; Garlic: minced; Tomatoes: 15 oz source package size; diced; or 1 large diced tomato with skin removed. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Chop the large onion and mince the garlic cloves. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "On medium-low heat in a large tall pot add 2-3 tbsp olive oil.",
+      "section": null
+    },
+    {
+      "text": "Add the chopped onions into the pot with oil and constantly stir for 5-10 minutes until they begin to brown.",
+      "section": null
+    },
+    {
+      "text": "Just before onions are done add the minced garlic to the pot and let cook for 1-2 minutes. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add the tomato sauce, diced tomatoes, sweet corn, beans, and rice. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Turn up the heat to medium.",
+      "section": null
+    },
+    {
+      "text": "Add each of the spices, taste the chili, and adjust flavoring accordingly.",
+      "section": null
+    },
+    {
+      "text": "Let cook for 20-30 minutes, stirring occasionally.",
+      "section": null
+    },
+    {
+      "text": "Let cool for a few minutes and then serve in bowls.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "fasting"
+    }
+  ],
+  "keywords": [
+    "fasting",
+    "lenten chili"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/lenten-chili.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/lenten-chili/",
+    "siteName": "Public Domain Recipes",
+    "author": "Yorge Z",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Chop the large onion and mince the garlic cloves.\n2. On medium-low heat in a large tall pot add 2-3 tbsp olive oil.\n3. Add the chopped onions into the pot with oil and constantly stir for 5-10 minutes until they begin to brown.\n4. Just before onions are done add the minced garlic to the pot and let cook for 1-2 minutes.\n5. Add the tomato sauce, diced tomatoes, sweet corn, beans, and rice.\n6. Turn up the heat to medium.\n7. Add each of the spices, taste the chili, and adjust flavoring accordingly.\n8. Let cook for 20-30 minutes, stirring occasionally.\n9. Let cool for a few minutes and then serve in bowls.",
+    "originalIngredients": [
+      "1 large onion, chopped",
+      "3 cloves garlic, minced",
+      "4 15oz cans of kidney beans (or 6 cups cooked beans)",
+      "1 29oz large can tomato sauce (or 4 cups fresh tomato sauce)",
+      "1 15oz can diced tomatoes (or 1 large diced tomato with skin removed)",
+      "1/2 can of sweet corn",
+      "1 cup cooked white or brown rice",
+      "1 tsp cumin",
+      "1 tsp smoked paprika",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
+      "1 tbsp chili powder",
+      "1 tbsp crushed red pepper",
+      "2-3 tbsp olive oil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

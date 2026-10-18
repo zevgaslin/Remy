@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "id": "64c7f7d4-6ef0-5ca2-a0c8-f8fbb568d978",
+  "name": "Brown Butter Cinnamon Sugar Biscuits",
+  "description": "Flaky, tender biscuits infused with nutty brown butter and layered with cinnamon sugar, finished with a glossy cinnamon butter glaze.",
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "9-10 biscuits",
+  "ingredients": [
+    {
+      "name": "Unsalted butter",
+      "originalText": "1 stick (½ cup / 113g) unsalted butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "stick",
+      "preparation": " 1/2 cup / 113g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "All-purpose flour",
+      "originalText": "2 cups (250g) all-purpose flour, plus extra for dusting",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": "250g; plus extra for dusting",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Granulated sugar",
+      "originalText": "2 tablespoons (25g) granulated sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": "25g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking powder",
+      "originalText": "2½ teaspoons (12g) baking powder",
+      "quantity": 2.5,
+      "quantityText": "2 1/2",
+      "unit": "teaspoons",
+      "preparation": "12g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Fine sea salt",
+      "originalText": "1 teaspoon (6g) fine sea salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": "6g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground cinnamon",
+      "originalText": "½ tablespoon (4g) ground cinnamon",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tablespoon",
+      "preparation": "4g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "½ cup + 2 tablespoons (150ml) cold whole milk",
+      "quantity": null,
+      "quantityText": "1/2 cup + 2 tablespoons",
+      "unit": null,
+      "preparation": "150ml; cold whole",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Unsalted butter",
+      "originalText": "4 tablespoons (½ stick / 57g) unsalted butter (for glaze)",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": " 1/2 stick / 57g; for glaze",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Granulated sugar",
+      "originalText": "¼ cup (50g) granulated sugar (for glaze)",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "50g; for glaze",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground cinnamon",
+      "originalText": "1 teaspoon (3g) ground cinnamon (for glaze)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": "3g; for glaze",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 stick (½ cup / 113g) unsalted butter; 2 cups (250g) all-purpose flour, plus extra for dusting; 2 tablespoons (25g) granulated sugar; 2½ teaspoons (12g) baking powder; 1 teaspoon (6g) fine sea salt; ½ tablespoon (4g) ground cinnamon; ½ cup + 2 tablespoons (150ml) cold whole milk; 4 tablespoons (½ stick / 57g) unsalted butter (for glaze); ¼ cup (50g) granulated sugar (for glaze); 1 teaspoon (3g) ground cinnamon (for glaze). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "In a saucepan, melt 1 stick of butter over medium heat.",
+      "section": null
+    },
+    {
+      "text": "Swirl until it foams, turns golden brown, and smells nutty.",
+      "section": null
+    },
+    {
+      "text": "Pour into a bowl and refrigerate until solid and cold (30-45 minutes).",
+      "section": null
+    },
+    {
+      "text": "In a large bowl, whisk together the flour, 2 tablespoons sugar, baking powder, salt, and ½ tablespoon cinnamon.",
+      "section": null
+    },
+    {
+      "text": "Cut the cold browned butter into cubes.",
+      "section": null
+    },
+    {
+      "text": "Using a pastry cutter or your fingers, work it into the flour mixture until it resembles coarse crumbs.",
+      "section": null
+    },
+    {
+      "text": "Make a well in the center and pour in the cold milk.",
+      "section": null
+    },
+    {
+      "text": "Gently stir with a fork until a shaggy dough forms.",
+      "section": null
+    },
+    {
+      "text": "Turn dough onto a floured surface.",
+      "section": null
+    },
+    {
+      "text": "Gently knead 4-5 times, then press into a rectangle. To knead, push the dough away with the heel of your hand, fold it back, and turn it; repeat for the stated time or until it has the described texture.",
+      "section": null
+    },
+    {
+      "text": "Fold the dough into thirds like a letter.",
+      "section": null
+    },
+    {
+      "text": "Rotate 90 degrees, press out, and repeat the folding process 3 more times.",
+      "section": null
+    },
+    {
+      "text": "After the final fold, shape dough into a 1-inch thick square.",
+      "section": null
+    },
+    {
+      "text": "Trim off the edges with a floured knife, then cut into 9 equal squares.",
+      "section": null
+    },
+    {
+      "text": "Gather scraps and shape into 1-2 more biscuits.",
+      "section": null
+    },
+    {
+      "text": "Preheat oven to 425°F (218°C).",
+      "section": null
+    },
+    {
+      "text": "Place biscuits close together in a buttered skillet or on a parchment-lined sheet.",
+      "section": null
+    },
+    {
+      "text": "Bake for 18-22 minutes, until tops are golden brown.",
+      "section": null
+    },
+    {
+      "text": "While biscuits bake, melt the 4 tablespoons of butter for the glaze.",
+      "section": null
+    },
+    {
+      "text": "Mix ¼ cup sugar with 1 teaspoon cinnamon in a small bowl.",
+      "section": null
+    },
+    {
+      "text": "As soon as biscuits come out of the oven, brush tops liberally with melted butter, then immediately sprinkle or dip in the cinnamon sugar mixture.",
+      "section": null
+    },
+    {
+      "text": "Serve warm.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "biscuit"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "pastry"
+    }
+  ],
+  "keywords": [
+    "biscuit",
+    "breakfast",
+    "dessert",
+    "pastry",
+    "brown butter cinnamon sugar biscuits"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/cinnamon-biscuits/",
+    "siteName": "Public Domain Recipes",
+    "author": "WalkTheEarth",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. In a saucepan, melt 1 stick of butter over medium heat. Swirl until it foams, turns golden brown, and smells nutty. Pour into a bowl and refrigerate until solid and cold (30-45 minutes).\n2. In a large bowl, whisk together the flour, 2 tablespoons sugar, baking powder, salt, and ½ tablespoon cinnamon.\n3. Cut the cold browned butter into cubes. Using a pastry cutter or your fingers, work it into the flour mixture until it resembles coarse crumbs.\n4. Make a well in the center and pour in the cold milk. Gently stir with a fork until a shaggy dough forms.\n5. Turn dough onto a floured surface. Gently knead 4-5 times, then press into a rectangle. Fold the dough into thirds like a letter. Rotate 90 degrees, press out, and repeat the folding process 3 more times.\n6. After the final fold, shape dough into a 1-inch thick square. Trim off the edges with a floured knife, then cut into 9 equal squares. Gather scraps and shape into 1-2 more biscuits.\n7. Preheat oven to 425°F (218°C). Place biscuits close together in a buttered skillet or on a parchment-lined sheet.\n8. Bake for 18-22 minutes, until tops are golden brown.\n9. While biscuits bake, melt the 4 tablespoons of butter for the glaze. Mix ¼ cup sugar with 1 teaspoon cinnamon in a small bowl.\n10. As soon as biscuits come out of the oven, brush tops liberally with melted butter, then immediately sprinkle or dip in the cinnamon sugar mixture. Serve warm.",
+    "originalIngredients": [
+      "1 stick (½ cup / 113g) unsalted butter",
+      "2 cups (250g) all-purpose flour, plus extra for dusting",
+      "2 tablespoons (25g) granulated sugar",
+      "2½ teaspoons (12g) baking powder",
+      "1 teaspoon (6g) fine sea salt",
+      "½ tablespoon (4g) ground cinnamon",
+      "½ cup + 2 tablespoons (150ml) cold whole milk",
+      "4 tablespoons (½ stick / 57g) unsalted butter (for glaze)",
+      "¼ cup (50g) granulated sugar (for glaze)",
+      "1 teaspoon (3g) ground cinnamon (for glaze)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

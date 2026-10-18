@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "fb052050-0ebc-52d4-91f5-35360caea6fc",
+  "name": "Perfect Potato Salad",
+  "description": null,
+  "cuisine": "American",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "totalMinutes": null,
+  "servings": 8.0,
+  "yieldText": "8 servings",
+  "ingredients": [
+    {
+      "name": "Potatoes",
+      "originalText": "5 Potatoes, peeled and cut into bite-size chunks (about 2 lbs)",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": "peeled and cut into bite-size chunks (about 2 lbs)",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Plain Yogurt",
+      "originalText": "1 cup Plain Yogurt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mayonnaise",
+      "originalText": "1/2 cup Mayonnaise",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Prepared Horseradish",
+      "originalText": "1 Tbsp Prepared Horseradish",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Radishes",
+      "originalText": "4 Radishes, thinly sliced",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": "thinly sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Celery",
+      "originalText": "2 stalks Celery, diced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "stalks",
+      "preparation": "diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green Onions",
+      "originalText": "2 large Green Onions, thinly sliced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "large; thinly sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "1/4 cup Fresh Parsley, chopped",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "Fresh; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Dill",
+      "originalText": "1/4 cup Fresh Dill, chopped",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "Fresh; chopped",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": null,
+      "text": "Set out a pot, colander, mixing bowl, knife, and cutting board. Wash and peel 5 potatoes, about 2 pounds total, and cut into similarly sized bite-size chunks."
+    },
+    {
+      "section": null,
+      "text": "Put the potatoes in the pot and add enough water to just cover them. Partially cover with a lid and bring to a boil over high heat. Reduce the heat to maintain a gentle simmer."
+    },
+    {
+      "section": null,
+      "text": "Begin checking the potatoes after the source’s 5 minutes of simmering. Pierce a chunk with a fork: it should be tender all the way through without falling apart. Continue simmering and checking if still hard; larger chunks can take longer. Drain carefully and let excess water drip away."
+    },
+    {
+      "section": null,
+      "text": "While the potatoes cook, wash and thinly slice 4 radishes, dice 2 celery stalks, and thinly slice 2 large green onions. Chop enough fresh parsley for 1/4 cup and fresh dill for 1/4 cup."
+    },
+    {
+      "section": null,
+      "text": "In the large bowl, stir 1 cup plain yogurt, 1/2 cup mayonnaise, and 1 tablespoon prepared horseradish until smooth. Add the radishes, celery, green onions, parsley, and dill; the source allows salt and pepper to taste."
+    },
+    {
+      "section": null,
+      "text": "Add the warm drained potatoes and fold gently to coat without crushing them. Cover and refrigerate for at least 1 hour before serving. Keep at 40°F (4°C) or colder and divide into 8 servings."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "potato"
+    },
+    {
+      "name": "category",
+      "value": "salad"
+    }
+  ],
+  "keywords": [
+    "american",
+    "potato",
+    "salad",
+    "perfect potato salad"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/perfect-potato-salad/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Place potatoes in a pot and just cover with water. Partially lid and bring to a boil. Reduce heat and simmer partially covered just until potatoes are tender (5 mins). Don’t overcook. Drain well.\n2. Meanwhile in a large bowl, stir yogurt with mayonnaise, horseradish, salt, and pepper. Stir in radishes, celery, green onions, parsley, and dill until mixed.\n3. Add warm potatoes and stir to combine. Refrigerate at least 1 hour before serving. Taste and adjust seasonings if desired.",
+    "originalIngredients": [
+      "5 Potatoes, peeled and cut into bite-size chunks (about 2 lbs)",
+      "1 cup Plain Yogurt",
+      "1/2 cup Mayonnaise",
+      "1 Tbsp Prepared Horseradish",
+      "4 Radishes, thinly sliced",
+      "2 stalks Celery, diced",
+      "2 large Green Onions, thinly sliced",
+      "1/4 cup Fresh Parsley, chopped",
+      "1/4 cup Fresh Dill, chopped"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested. The method was rewritten in reviewed, explicit beginner steps using the source quantities."
+  }
+}

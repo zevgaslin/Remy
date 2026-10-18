@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "26b3e42b-4c94-5fd1-af1a-5b27699c0596",
+  "name": "Cheesy Potato Bake",
+  "description": "Potatoes baked in a dish smothered with cheese, what’s not to love? You will need a deep dish that is oven safe",
+  "cuisine": "American",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 30,
+  "cookMinutes": 45,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "G+ Butter",
+      "originalText": "30g+ Butter",
+      "quantity": 30.0,
+      "quantityText": "30",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar Cheese",
+      "originalText": "250g Cheddar Cheese",
+      "quantity": 250.0,
+      "quantityText": "250",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "275ml Milk",
+      "quantity": 275.0,
+      "quantityText": "275",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "16g Flour",
+      "quantity": 16.0,
+      "quantityText": "16",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Potatoes",
+      "originalText": "600g Potatoes",
+      "quantity": 600.0,
+      "quantityText": "600",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "As much bacon as you want to garnish",
+      "originalText": "As much bacon as you want to garnish",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": null,
+      "text": "Set out a deep baking dish, saucepan, whisk, knife, cutting board, and grater. Preheat the oven to 180°C (356°F). Rub a thin coating of the listed 30 grams or more butter over the inside of the baking dish, reserving the rest for the sauce."
+    },
+    {
+      "section": null,
+      "text": "Wash and peel 600 grams potatoes, then cut into thin, similarly sized slices about 3 mm thick. Grate 250 grams cheddar. Measure 275 ml milk and 16 grams flour. If using the source’s bacon garnish, cook it until crisp, then chop it; its amount is left to preference in the source."
+    },
+    {
+      "section": null,
+      "text": "Melt the remaining butter in the saucepan over medium-low heat. Add the 16 grams flour a little at a time while stirring. Keep stirring for about 2 minutes until the mixture is bubbly and forms a smooth pale paste; do not let it turn dark brown."
+    },
+    {
+      "section": null,
+      "text": "Remove the pan from the burner. Gradually pour in the 275 ml milk while whisking to prevent lumps. Stir in three quarters of the grated cheddar, about 187.5 grams, until melted. The source allows salt and pepper to taste; add only if desired."
+    },
+    {
+      "section": null,
+      "text": "Arrange a thin layer of potato slices in the baking dish, spoon over some cheese sauce, and add some cooked bacon if using it. Repeat until all the potatoes and sauce are used, spreading the layers evenly."
+    },
+    {
+      "section": null,
+      "text": "Scatter the remaining quarter of the cheddar, about 62.5 grams, over the top. Bake on the center rack for about 45 minutes. If the cheese browns before the potatoes soften, loosely cover the dish with foil."
+    },
+    {
+      "section": null,
+      "text": "Insert a small knife or fork into the center: it should slide easily through the potatoes. If they are still firm, continue baking and check again. Remove the hot dish with oven mitts, allow the bubbling sauce to settle, and divide into 4 portions."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "cheese"
+    },
+    {
+      "name": "category",
+      "value": "potato"
+    }
+  ],
+  "keywords": [
+    "american",
+    "cheese",
+    "potato",
+    "cheesy potato bake"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/cheesy-potatoe-bake/",
+    "siteName": "Public Domain Recipes",
+    "author": "Kyle Johnson and Sabina Mortensen",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preparation: Preheat to 180C Butter deep baking dish Peal and thinly slice potatoes Grate Cheese\n2. Sauce: Melt Butter in Pot Slowly add flour and stir constantly After 2 min or bubbly remove from heat Add milk slowly, stirring constantly Add 3/4 of the cheese Salt and Pepper to taste\n3. Assembly: Add a thin layer of potatoes to the dish Add a layer of cheese sauce Add bacon Repeat steps 1-3 of assembly until there are no more potatoes/sauce Add the remaining 1/4 cheese to the top Put in oven for 45 min. If it starts to brown too much cover with tinfoil",
+    "originalIngredients": [
+      "30g+ Butter",
+      "250g Cheddar Cheese",
+      "275ml Milk",
+      "16g Flour",
+      "600g Potatoes",
+      "As much bacon as you want to garnish"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested. The method was rewritten in reviewed, explicit beginner steps using the source quantities."
+  }
+}

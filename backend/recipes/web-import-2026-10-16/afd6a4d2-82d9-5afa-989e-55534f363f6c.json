@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "id": "afd6a4d2-82d9-5afa-989e-55534f363f6c",
+  "name": "Spicy Kung Pao-Style Chicken",
+  "description": null,
+  "cuisine": "Asian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": 2.0,
+  "yieldText": "2 servings",
+  "ingredients": [
+    {
+      "name": "Chicken Thighs",
+      "originalText": "4 Chicken Thighs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Basmati Rice",
+      "originalText": "3/4 cup Basmati Rice",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "All-Purpose Flour",
+      "originalText": "4 Tbsp All-Purpose Flour",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet Peppers",
+      "originalText": "2 small Sweet Peppers, chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "small; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Celery",
+      "originalText": "3 ribs Celery",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "ribs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 cloves Garlic",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ginger",
+      "originalText": "1 Tbsp Ginger, minced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green Onions",
+      "originalText": "2 whole Green Onions, thinly sliced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "whole; thinly sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chili Garlic Sauce",
+      "originalText": "2 Tbsp Chili Garlic Sauce, divided",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": "divided",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Soy Sauce",
+      "originalText": "2 Tbsp Soy Sauce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet Chili Sauce",
+      "originalText": "2 Tbsp Sweet Chili Sauce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peanuts",
+      "originalText": "1/4 cup Peanuts, chopped",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oil",
+      "originalText": "Oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 4 Chicken Thighs; 3/4 cup Basmati Rice; 4 Tbsp All-Purpose Flour; 2 small Sweet Peppers, chopped; 3 ribs Celery; 2 cloves Garlic; 1 Tbsp Ginger, minced; 2 whole Green Onions, thinly sliced; 2 Tbsp Chili Garlic Sauce, divided; 2 Tbsp Soy Sauce; 2 Tbsp Sweet Chili Sauce; 1/4 cup Peanuts, chopped; Oil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Sweet Peppers: small; chopped; Ginger: minced; Green Onions: whole; thinly sliced; Peanuts: chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Heat a medium pot over medium heat.",
+      "section": null
+    },
+    {
+      "text": "Add 1/2 Tbsp oil, ginger and rice.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring often, until fragrant (1 min).",
+      "section": null
+    },
+    {
+      "text": "Add 1 1/4 cups water and bring to a boil over high heat.",
+      "section": null
+    },
+    {
+      "text": "Reduce heat and cover until rice is tender and liquid is absorbed (12-14 mins).",
+      "section": null
+    },
+    {
+      "text": "Remove the pot from heat, leave covered.",
+      "section": null
+    },
+    {
+      "text": "While rice cooks, cut celery crosswise into 1/4\" slices.",
+      "section": null
+    },
+    {
+      "text": "Whisk together soy sauce, sweet chili sauce, 1/3 cup water, and half the chili garlic sauce in a medium bowl.",
+      "section": null
+    },
+    {
+      "text": "Combine flour and 1/4 tsp each of salt and pepper in another medium bowl.",
+      "section": null
+    },
+    {
+      "text": "Heat a large non-stick pan over medium heat.",
+      "section": null
+    },
+    {
+      "text": "Add peanuts to the dry pan.",
+      "section": null
+    },
+    {
+      "text": "Toast, stirring often, until golden brown (4-5 mins).",
+      "section": null
+    },
+    {
+      "text": "Transfer to a plate and heat the same pan over medium-high.",
+      "section": null
+    },
+    {
+      "text": "Add 1/2 Tbsp oil, peppers, and celery.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring often until fragrant (1 min).",
+      "section": null
+    },
+    {
+      "text": "Transfer veggies to another plate.",
+      "section": null
+    },
+    {
+      "text": "Pat chicken dry and cut into 1\" pieces.",
+      "section": null
+    },
+    {
+      "text": "Add chicken to flour mixture, then toss to coat.",
+      "section": null
+    },
+    {
+      "text": "Press flour mixture into chicken to coat completely.",
+      "section": null
+    },
+    {
+      "text": "Heat the same non-stick pan over medium and add oil, then chicken.",
+      "section": null
+    },
+    {
+      "text": "Cook, turning pieces occasionally, until golden brown and cooked through (6-8 mins).",
+      "section": null
+    },
+    {
+      "text": "Add veggies and sauce mixture to the pan with chicken.",
+      "section": null
+    },
+    {
+      "text": "Cook, stirring occasionally, until sauce thickens slightly (2-3 mins).",
+      "section": null
+    },
+    {
+      "text": "Fluff rice with fork.",
+      "section": null
+    },
+    {
+      "text": "Stir in half the green onions and season with salt.",
+      "section": null
+    },
+    {
+      "text": "Divide rice between plates.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Top with chicken, veggies, and sauce.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle peanuts and remaining green onions over top.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "asian"
+    },
+    {
+      "name": "category",
+      "value": "asian"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "rice"
+    }
+  ],
+  "keywords": [
+    "asian",
+    "chicken",
+    "rice",
+    "spicy kung pao-style chicken"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spicy-kung-pao-style-chicken/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Heat a medium pot over medium heat. Add 1/2 Tbsp oil, ginger and rice. Cook, stirring often, until fragrant (1 min). Add 1 1/4 cups water and bring to a boil over high heat. Reduce heat and cover until rice is tender and liquid is absorbed (12-14 mins). Remove the pot from heat, leave covered.\n2. While rice cooks, cut celery crosswise into 1/4\" slices. Whisk together soy sauce, sweet chili sauce, 1/3 cup water, and half the chili garlic sauce in a medium bowl. Combine flour and 1/4 tsp each of salt and pepper in another medium bowl.\n3. Heat a large non-stick pan over medium heat. Add peanuts to the dry pan. Toast, stirring often, until golden brown (4-5 mins). Transfer to a plate and heat the same pan over medium-high. Add 1/2 Tbsp oil, peppers, and celery. Cook, stirring often until fragrant (1 min). Transfer veggies to another plate.\n4. Pat chicken dry and cut into 1\" pieces. Add chicken to flour mixture, then toss to coat. Press flour mixture into chicken to coat completely. Heat the same non-stick pan over medium and add oil, then chicken. Cook, turning pieces occasionally, until golden brown and cooked through (6-8 mins).\n5. Add veggies and sauce mixture to the pan with chicken. Cook, stirring occasionally, until sauce thickens slightly (2-3 mins).\n6. Fluff rice with fork. Stir in half the green onions and season with salt. Divide rice between plates. Top with chicken, veggies, and sauce. Sprinkle peanuts and remaining green onions over top.",
+    "originalIngredients": [
+      "4 Chicken Thighs",
+      "3/4 cup Basmati Rice",
+      "4 Tbsp All-Purpose Flour",
+      "2 small Sweet Peppers, chopped",
+      "3 ribs Celery",
+      "2 cloves Garlic",
+      "1 Tbsp Ginger, minced",
+      "2 whole Green Onions, thinly sliced",
+      "2 Tbsp Chili Garlic Sauce, divided",
+      "2 Tbsp Soy Sauce",
+      "2 Tbsp Sweet Chili Sauce",
+      "1/4 cup Peanuts, chopped",
+      "Oil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

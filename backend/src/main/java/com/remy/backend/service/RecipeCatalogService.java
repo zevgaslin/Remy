@@ -32,8 +32,9 @@ public class RecipeCatalogService {
     public List<JsonNode> validateFolder(Path folder) throws IOException {
         if (!Files.isDirectory(folder)) throw new IllegalArgumentException("Recipe folder not found: " + folder);
         List<Path> files;
-        try (var stream = Files.list(folder)) {
-            files = stream.filter(p -> p.getFileName().toString().endsWith(".json")).sorted().toList();
+        try (var stream = Files.walk(folder)) {
+            files = stream.filter(Files::isRegularFile)
+                    .filter(p -> p.getFileName().toString().endsWith(".json")).sorted().toList();
         }
         if (files.isEmpty()) throw new IllegalArgumentException("No recipe JSON files in " + folder);
         List<JsonNode> documents = new ArrayList<>();

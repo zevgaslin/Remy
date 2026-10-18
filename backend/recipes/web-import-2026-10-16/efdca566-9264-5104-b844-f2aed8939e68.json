@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "efdca566-9264-5104-b844-f2aed8939e68",
+  "name": "Spanish Tortilla",
+  "description": null,
+  "cuisine": "Spanish",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 5,
+  "cookMinutes": 35,
+  "totalMinutes": null,
+  "servings": 6.0,
+  "yieldText": "6 servings",
+  "ingredients": [
+    {
+      "name": "Free-range eggs",
+      "originalText": "8 free-range eggs",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Potatoes",
+      "originalText": "1 kg of potatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "kg",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White onion",
+      "originalText": "1 white onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Extra virgin olive oil",
+      "originalText": "Extra virgin olive oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 8 free-range eggs; 1 kg of potatoes; 1 white onion; Extra virgin olive oil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Peel, rinse and dry the potatoes.",
+      "section": null
+    },
+    {
+      "text": "Cut the potatoes into thin slices.",
+      "section": null
+    },
+    {
+      "text": "Put in a bowl, add salt to taste and stir.",
+      "section": null
+    },
+    {
+      "text": "Put a nonstick frying pan on the fire and add enough olive oil to fry all the potato slices.",
+      "section": null
+    },
+    {
+      "text": "Add the potato slices already salted and let them cook for approximately 20 minutes over low heat.",
+      "section": null
+    },
+    {
+      "text": "While the potatoes are frying, beat the eggs in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Peel and cut the onion as finely as possible.",
+      "section": null
+    },
+    {
+      "text": "Add olive oil in another frying pan and slowly fry the onion until it gets a slightly golden color.",
+      "section": null
+    },
+    {
+      "text": "Drain the onion and add it to the bowl with the beaten egg.",
+      "section": null
+    },
+    {
+      "text": "Remove the potatoes from the pan with a slotted spoon, draining the oil away as much as possible, and add them to the bowl with the onion and egg.",
+      "section": null
+    },
+    {
+      "text": "Let the mixture rest for at least 5 minutes so all the flavors come together.",
+      "section": null
+    },
+    {
+      "text": "Give it a very gentle stir from time to time.",
+      "section": null
+    },
+    {
+      "text": "Remove the oil from the pan you used to fry the potatoes.",
+      "section": null
+    },
+    {
+      "text": "Use the pan to cook the mixture over medium-high fire for about 5 minutes.",
+      "section": null
+    },
+    {
+      "text": "Flip it over with the help of a big plate and cook the other side for another 5 minutes.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the cooked egg mixture with a food thermometer: it must reach 160°F (71°C), with no runny raw egg. For a casserole containing reheated cooked meat, use 165°F (74°C). Continue cooking if needed."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "spanish"
+    },
+    {
+      "name": "category",
+      "value": "eggs"
+    },
+    {
+      "name": "category",
+      "value": "potato"
+    },
+    {
+      "name": "category",
+      "value": "spanish"
+    }
+  ],
+  "keywords": [
+    "eggs",
+    "potato",
+    "spanish",
+    "spanish tortilla"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/spanish-tortilla.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spanish-tortilla/",
+    "siteName": "Public Domain Recipes",
+    "author": "OctopusOnFire",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Peel, rinse and dry the potatoes.\n2. Cut the potatoes into thin slices. Put in a bowl, add salt to taste and stir.\n3. Put a nonstick frying pan on the fire and add enough olive oil to fry all the potato slices.\n4. Add the potato slices already salted and let them cook for approximately 20 minutes over low heat.\n5. While the potatoes are frying, beat the eggs in a bowl. Peel and cut the onion as finely as possible.\n6. Add olive oil in another frying pan and slowly fry the onion until it gets a slightly golden color.\n7. Drain the onion and add it to the bowl with the beaten egg.\n8. Remove the potatoes from the pan with a slotted spoon, draining the oil away as much as possible, and add them to the bowl with the onion and egg.\n9. Let the mixture rest for at least 5 minutes so all the flavors come together. Give it a very gentle stir from time to time.\n10. Remove the oil from the pan you used to fry the potatoes. Use the pan to cook the mixture over medium-high fire for about 5 minutes.\n11. Flip it over with the help of a big plate and cook the other side for another 5 minutes.",
+    "originalIngredients": [
+      "8 free-range eggs",
+      "1 kg of potatoes",
+      "1 white onion",
+      "Extra virgin olive oil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

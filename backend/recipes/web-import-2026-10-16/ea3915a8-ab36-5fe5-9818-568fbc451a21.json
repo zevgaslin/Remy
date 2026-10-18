@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "ea3915a8-ab36-5fe5-9818-568fbc451a21",
+  "name": "Cheddar-Crusted Chicken",
+  "description": "Suggested sides: Roasted green beans as well as sweet potatoes mashed with sour cream and butter",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": 2.0,
+  "yieldText": "2 servings",
+  "ingredients": [
+    {
+      "name": "Chicken Breasts",
+      "originalText": "2 Chicken Breasts",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mayonnaise",
+      "originalText": "2 Tbsp Mayonnaise",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Panko Breadcrumbs",
+      "originalText": "1/4 cup Panko Breadcrumbs",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar Cheese",
+      "originalText": "1/4 cup Cheddar Cheese, shredded",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "shredded",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Smoked Paprika-Garlic Blend",
+      "originalText": "1 Tbsp Smoked Paprika-Garlic Blend",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 Chicken Breasts; 2 Tbsp Mayonnaise; 1/4 cup Panko Breadcrumbs; 1/4 cup Cheddar Cheese, shredded; 1 Tbsp Smoked Paprika-Garlic Blend. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Cheddar Cheese: shredded. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Combine panko, cheese, and smoked paprika-garlic blend in a shallow dish.",
+      "section": null
+    },
+    {
+      "text": "Preheat oven to 425F.",
+      "section": null
+    },
+    {
+      "text": "Pat chicken dry with paper towel.",
+      "section": null
+    },
+    {
+      "text": "Carefully slice into the centre of each chicken breast lengthwise and parallel to the cutting board - leaving 1/2 inch intact on the other end.",
+      "section": null
+    },
+    {
+      "text": "Open up chicken like a book, and season both sides with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Coat one side of each chicken breast with mayo.",
+      "section": null
+    },
+    {
+      "text": "Firmly press mayo-coated side into panko mixture to adhere, one at a time.",
+      "section": null
+    },
+    {
+      "text": "Transfer chicken to a parchment-lined baking sheet, coated-side up.",
+      "section": null
+    },
+    {
+      "text": "Bake chicken on the middle oven rack until cooked through (18-20 mins).",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    }
+  ],
+  "keywords": [
+    "chicken",
+    "cheddar-crusted chicken"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/cheddar-crusted-chicken/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Combine panko, cheese, and smoked paprika-garlic blend in a shallow dish. Preheat oven to 425F.\n2. Pat chicken dry with paper towel. Carefully slice into the centre of each chicken breast lengthwise and parallel to the cutting board - leaving 1/2 inch intact on the other end. Open up chicken like a book, and season both sides with salt and pepper.\n3. Coat one side of each chicken breast with mayo. Firmly press mayo-coated side into panko mixture to adhere, one at a time.\n4. Transfer chicken to a parchment-lined baking sheet, coated-side up. Bake chicken on the middle oven rack until cooked through (18-20 mins).",
+    "originalIngredients": [
+      "2 Chicken Breasts",
+      "2 Tbsp Mayonnaise",
+      "1/4 cup Panko Breadcrumbs",
+      "1/4 cup Cheddar Cheese, shredded",
+      "1 Tbsp Smoked Paprika-Garlic Blend"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

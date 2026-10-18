@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "bbe0ed3d-78c1-5fd8-bc81-895f178d0484",
+  "name": "Kettle Corn",
+  "description": "Recipe can be expanded or contracted to your needs. I personally divide the recipe in half to fit my 2 quart saucepan (recipe calls for a 3 quart). I recommend using Orville Redenbacher’s popcorn kernels, as they are specifically...",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 2,
+  "cookMinutes": 5,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Vegetable oil, or oil of your choice",
+      "originalText": "2 tablespoons vegetable oil, or oil of your choice",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Popcorn kernels",
+      "originalText": "1/4 cup of popcorn kernels",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "2 tablespoons of sugar (brown sugar works too)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": "brown sugar works too",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "salt to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 tablespoons vegetable oil, or oil of your choice; 1/4 cup of popcorn kernels; 2 tablespoons of sugar (brown sugar works too); salt to taste. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Add oil into your saucepan and 3 popcorn kernels.",
+      "section": null
+    },
+    {
+      "text": "Cover with lid and set stove to medium-high heat.",
+      "section": null
+    },
+    {
+      "text": "Once all 3 kernels pop, add in the rest of your kernels and shake to coat in oil.",
+      "section": null
+    },
+    {
+      "text": "Pour sugar directly onto the kernels.",
+      "section": null
+    },
+    {
+      "text": "Shake the pot for 3 seconds, rest for 3 seconds, and repeat till the kernels start to pop steadily.",
+      "section": null
+    },
+    {
+      "text": "Depending on your stove, you may need to lift the pot to shake.",
+      "section": null
+    },
+    {
+      "text": "Once kernels start popping, shake pot every 1-2 seconds.",
+      "section": null
+    },
+    {
+      "text": "Important .",
+      "section": null
+    },
+    {
+      "text": "Once you no longer hear pops for about 3 seconds, immediately transfer into a bowl to avoid burning.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    },
+    {
+      "name": "category",
+      "value": "snack"
+    },
+    {
+      "name": "category",
+      "value": "sweet"
+    }
+  ],
+  "keywords": [
+    "quick",
+    "snack",
+    "sweet",
+    "kettle corn"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/kettlecorn.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/kettlecorn/",
+    "siteName": "Public Domain Recipes",
+    "author": "MMOOBB",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Add oil into your saucepan and 3 popcorn kernels.\n2. Cover with lid and set stove to medium-high heat.\n3. Once all 3 kernels pop, add in the rest of your kernels and shake to coat in oil. Pour sugar directly onto the kernels.\n4. Shake the pot for 3 seconds, rest for 3 seconds, and repeat till the kernels start to pop steadily. Depending on your stove, you may need to lift the pot to shake.\n5. Once kernels start popping, shake pot every 1-2 seconds.\n6. Important . Once you no longer hear pops for about 3 seconds, immediately transfer into a bowl to avoid burning.",
+    "originalIngredients": [
+      "2 tablespoons vegetable oil, or oil of your choice",
+      "1/4 cup of popcorn kernels",
+      "2 tablespoons of sugar (brown sugar works too)",
+      "salt to taste"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

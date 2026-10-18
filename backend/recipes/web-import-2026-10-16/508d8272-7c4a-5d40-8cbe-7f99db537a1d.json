@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "508d8272-7c4a-5d40-8cbe-7f99db537a1d",
+  "name": "Chocolate Chip Cookies",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Melted butter",
+      "originalText": "230 g melted butter (2 sticks)",
+      "quantity": 230.0,
+      "quantityText": "230",
+      "unit": "g",
+      "preparation": "2 sticks",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bread flour",
+      "originalText": "330 g bread flour",
+      "quantity": 330.0,
+      "quantityText": "330",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "5 g salt",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking soda",
+      "originalText": "5 g baking soda",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White sugar",
+      "originalText": "100-200 g white sugar",
+      "quantity": null,
+      "quantityText": "100-200",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Brown sugar",
+      "originalText": "100-200 g brown sugar",
+      "quantity": null,
+      "quantityText": "100-200",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "15 g milk",
+      "quantity": 15.0,
+      "quantityText": "15",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla",
+      "originalText": "5 g vanilla",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Dark chocolate chips or semi-sweet milk chocolate chips",
+      "originalText": "225 g 50-70% dark chocolate chips or semi-sweet milk chocolate chips",
+      "quantity": 225.0,
+      "quantityText": "225",
+      "unit": "g",
+      "preparation": "50-70% chocolate content",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 230 g melted butter (2 sticks); 330 g bread flour; 5 g salt; 5 g baking soda; 100-200 g white sugar; 100-200 g brown sugar; 1 egg; 15 g milk; 5 g vanilla; 225 g 50-70% dark chocolate chips or semi-sweet milk chocolate chips. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Preheat oven to 375°F",
+      "section": null
+    },
+    {
+      "text": "Mix the flour, baking soda, and salt in a bowl",
+      "section": null
+    },
+    {
+      "text": "Using a mixer or whisk, beat the butter, sugar, eggs, vanilla and milk in a separate bowl for a few mins",
+      "section": null
+    },
+    {
+      "text": "Combine and stir in the dry ingredients, then the chocolate chips",
+      "section": null
+    },
+    {
+      "text": "Use an ice cream scooper or spoon to make uniform balls of cookie dough to the size you like and evenly space them out on a parchment paper lined baking sheet (you may need more than one sheet depending on the size of the cookies)",
+      "section": null
+    },
+    {
+      "text": "Bake in the oven one baking sheet at a time for around 8-10 minutes, taking them out when they start to brown",
+      "section": null
+    },
+    {
+      "text": "Cool for a few minutes then put them on a cooling rack",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "chocolate"
+    },
+    {
+      "name": "category",
+      "value": "cookies"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "sweet"
+    }
+  ],
+  "keywords": [
+    "chocolate",
+    "cookies",
+    "dessert",
+    "sweet",
+    "chocolate chip cookies"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/chocolate-chip-cookies.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/chocolate-chip-cookies/",
+    "siteName": "Public Domain Recipes",
+    "author": "mfed3",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat oven to 375°F\n2. Mix the flour, baking soda, and salt in a bowl\n3. Using a mixer or whisk, beat the butter, sugar, eggs, vanilla and milk in a separate bowl for a few mins\n4. Combine and stir in the dry ingredients, then the chocolate chips\n5. Use an ice cream scooper or spoon to make uniform balls of cookie dough to the size you like and evenly space them out on a parchment paper lined baking sheet (you may need more than one sheet depending on the size of the cookies)\n6. Bake in the oven one baking sheet at a time for around 8-10 minutes, taking them out when they start to brown\n7. Cool for a few minutes then put them on a cooling rack",
+    "originalIngredients": [
+      "230 g melted butter (2 sticks)",
+      "330 g bread flour",
+      "5 g salt",
+      "5 g baking soda",
+      "100-200 g white sugar",
+      "100-200 g brown sugar",
+      "1 egg",
+      "15 g milk",
+      "5 g vanilla",
+      "225 g 50-70% dark chocolate chips or semi-sweet milk chocolate chips"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

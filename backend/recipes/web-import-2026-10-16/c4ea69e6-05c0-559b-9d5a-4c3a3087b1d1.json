@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "c4ea69e6-05c0-559b-9d5a-4c3a3087b1d1",
+  "name": "Spiced Apple Pancakes",
+  "description": null,
+  "cuisine": "German",
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "8 pancakes",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Apple",
+      "originalText": "1 large apple, peeled",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large; peeled",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "1 tbsp sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cinnamon",
+      "originalText": "1 tbsp cinnamon (or more to taste)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": "or more to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking powder",
+      "originalText": "1/2 tsp baking powder",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla extract",
+      "originalText": "1 tsp vanilla extract",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "2/3 cup milk",
+      "quantity": 0.6666666666666666,
+      "quantityText": "2/3",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 cup flour; 1 large apple, peeled; 1 tbsp sugar; 1 tbsp cinnamon (or more to taste); 1/2 tsp baking powder; 1 tsp vanilla extract; 2/3 cup milk; 1 egg. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Apple: large; peeled. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "In a medium bowl, combine flour, sugar, cinnamon, baking powder, and 1 pinch of salt.",
+      "section": null
+    },
+    {
+      "text": "Separate the egg yolk and egg white.",
+      "section": null
+    },
+    {
+      "text": "Add the egg yolk to the dry ingredients.",
+      "section": null
+    },
+    {
+      "text": "Whisk the egg white until foamy.",
+      "section": null
+    },
+    {
+      "text": "Slice the peeled apple into thin strips.",
+      "section": null
+    },
+    {
+      "text": "Alternatively, grate the apple.",
+      "section": null
+    },
+    {
+      "text": "Combine dry ingredients, apple, vanilla extract, egg white, and milk into a homogenous batter.",
+      "section": null
+    },
+    {
+      "text": "To a large pan, add 1 tbsp butter.",
+      "section": null
+    },
+    {
+      "text": "Add the batter (about 3 tbsp per pancake) and cook for 2 min per side on medium-high heat.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "cuisine",
+      "value": "german"
+    },
+    {
+      "name": "category",
+      "value": "apple"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "german"
+    },
+    {
+      "name": "category",
+      "value": "pancake"
+    }
+  ],
+  "keywords": [
+    "apple",
+    "breakfast",
+    "german",
+    "pancake",
+    "spiced apple pancakes"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spiced-apple-pancakes/",
+    "siteName": "Public Domain Recipes",
+    "author": "Elsie Bee",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. In a medium bowl, combine flour, sugar, cinnamon, baking powder, and 1 pinch of salt.\n2. Separate the egg yolk and egg white. Add the egg yolk to the dry ingredients.\n3. Whisk the egg white until foamy.\n4. Slice the peeled apple into thin strips. Alternatively, grate the apple.\n5. Combine dry ingredients, apple, vanilla extract, egg white, and milk into a homogenous batter.\n6. To a large pan, add 1 tbsp butter. Add the batter (about 3 tbsp per pancake) and cook for 2 min per side on medium-high heat.",
+    "originalIngredients": [
+      "1 cup flour",
+      "1 large apple, peeled",
+      "1 tbsp sugar",
+      "1 tbsp cinnamon (or more to taste)",
+      "1/2 tsp baking powder",
+      "1 tsp vanilla extract",
+      "2/3 cup milk",
+      "1 egg"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

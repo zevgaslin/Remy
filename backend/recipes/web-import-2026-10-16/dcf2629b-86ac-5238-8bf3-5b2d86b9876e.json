@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "dcf2629b-86ac-5238-8bf3-5b2d86b9876e",
+  "name": "Shrimp and Grits",
+  "description": "This recipe is derived from Smokin’ & Grillin’ wit AB .",
+  "cuisine": "American",
+  "mealType": "Breakfast",
+  "difficulty": null,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "2-3 servings",
+  "ingredients": [
+    {
+      "name": "Large/Jumbo Shrimp",
+      "originalText": "2 lbs Large/Jumbo Shrimp",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bacon",
+      "originalText": "6 Slices of Bacon",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "Slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Grits",
+      "originalText": "1 cup Un-Cooked Grits",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": "Un-Cooked",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Broth",
+      "originalText": "3 cups Chicken Broth",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar Cheese",
+      "originalText": "2 cups Shredded Cheddar Cheese",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": "Shredded",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "3 tbsp Butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "3 tbsp Chopped Fresh Parsley",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tbsp",
+      "preparation": "Chopped Fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Creole / Cajun seasoning",
+      "originalText": "1 tbsp Creole / Cajun seasoning",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 Cloves of Garlic, minced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Cloves",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "originalText": "2 tsp Worcestershire Sauce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon Juice",
+      "originalText": "1 tbsp Lemon Juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 lbs Large/Jumbo Shrimp; 6 Slices of Bacon; 1 cup Un-Cooked Grits; 3 cups Chicken Broth; 2 cups Shredded Cheddar Cheese; 3 tbsp Butter; 3 tbsp Chopped Fresh Parsley; 1 tbsp Creole / Cajun seasoning; 2 Cloves of Garlic, minced; 2 tsp Worcestershire Sauce; 1 tbsp Lemon Juice. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Cheddar Cheese: Shredded; Parsley: Chopped Fresh; Garlic: minced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Add bacon to hot pan.",
+      "section": null
+    },
+    {
+      "text": "Meanwhile, in separate pot , bring chicken broth to a boil.",
+      "section": null
+    },
+    {
+      "text": "Add grits to chicken broth and stir.",
+      "section": null
+    },
+    {
+      "text": "Cover and simmer per instructions on box. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Once grits are done, add butter plus salt and pepper to taste.",
+      "section": null
+    },
+    {
+      "text": "Stir until combined.",
+      "section": null
+    },
+    {
+      "text": "Add cheese.",
+      "section": null
+    },
+    {
+      "text": "Stir until combined.",
+      "section": null
+    },
+    {
+      "text": "Once bacon is done, keep bacon fat in the pan.",
+      "section": null
+    },
+    {
+      "text": "Add shrimp and fry on medium-high heat",
+      "section": null
+    },
+    {
+      "text": "Add Creole seasoning, lemon juice, Worcestershire Sauce, garlic and toss.",
+      "section": null
+    },
+    {
+      "text": "Fry until shrimp turns white on each side which is about 5-7 minutes total.",
+      "section": null
+    },
+    {
+      "text": "In a bowl, serve shrimp and bacon over grits.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Top with parsley.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "breakfast"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    }
+  ],
+  "keywords": [
+    "american",
+    "breakfast",
+    "fish",
+    "shrimp and grits"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/shrimp-and-grits/",
+    "siteName": "Public Domain Recipes",
+    "author": "Carl Zimmerman",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Add bacon to hot pan. Meanwhile, in separate pot , bring chicken broth to a boil.\n2. Add grits to chicken broth and stir. Cover and simmer per instructions on box.\n3. Once grits are done, add butter plus salt and pepper to taste. Stir until combined.\n4. Add cheese. Stir until combined.\n5. Once bacon is done, keep bacon fat in the pan. Add shrimp and fry on medium-high heat\n6. Add Creole seasoning, lemon juice, Worcestershire Sauce, garlic and toss.\n7. Fry until shrimp turns white on each side which is about 5-7 minutes total.\n8. In a bowl, serve shrimp and bacon over grits. Top with parsley.",
+    "originalIngredients": [
+      "2 lbs Large/Jumbo Shrimp",
+      "6 Slices of Bacon",
+      "1 cup Un-Cooked Grits",
+      "3 cups Chicken Broth",
+      "2 cups Shredded Cheddar Cheese",
+      "3 tbsp Butter",
+      "3 tbsp Chopped Fresh Parsley",
+      "1 tbsp Creole / Cajun seasoning",
+      "2 Cloves of Garlic, minced",
+      "2 tsp Worcestershire Sauce",
+      "1 tbsp Lemon Juice"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

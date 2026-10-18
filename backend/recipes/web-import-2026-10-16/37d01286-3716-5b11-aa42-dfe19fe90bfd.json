@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "37d01286-3716-5b11-aa42-dfe19fe90bfd",
+  "name": "Valencian Paella",
+  "description": "Valencian Paella is one of the most iconic dishes of Spanish cuisine, originating from the Valencia region. It is characterized by a combination of rice, meats, and vegetables, cooked in a paella pan over an open fire.",
+  "cuisine": "Spanish",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Bomba rice",
+      "originalText": "500 g of bomba rice",
+      "quantity": 500.0,
+      "quantityText": "500",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Free-range chicken",
+      "originalText": "1 free-range chicken, cut into pieces",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "cut into pieces",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rabbit",
+      "originalText": "500 g of rabbit, cut into pieces",
+      "quantity": 500.0,
+      "quantityText": "500",
+      "unit": "g",
+      "preparation": "cut into pieces",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flat green beans",
+      "originalText": "150 g of flat green beans ( bajoqueta )",
+      "quantity": 150.0,
+      "quantityText": "150",
+      "unit": "g",
+      "preparation": " bajoqueta ",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White beans",
+      "originalText": "150 g of large white beans ( garrofó )",
+      "quantity": 150.0,
+      "quantityText": "150",
+      "unit": "g",
+      "preparation": "large;  garrofó ",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "2 ripe tomatoes, grated",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "ripe; grated",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet paprika",
+      "originalText": "1 tablespoon of sweet paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Few saffron threads",
+      "originalText": "A few saffron threads",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Extra virgin olive oil",
+      "originalText": "5 tablespoons of extra virgin olive oil",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "1.5 liters of water",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "liters",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Artichokes",
+      "originalText": "(Optional) 6 artichokes, chopped",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": "chopped",
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Cleaned snails",
+      "originalText": "(Optional) 500 g of cleaned snails",
+      "quantity": 500.0,
+      "quantityText": "500",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 500 g of bomba rice; 1 free-range chicken, cut into pieces; 500 g of rabbit, cut into pieces; 150 g of flat green beans ( bajoqueta ); 150 g of large white beans ( garrofó ); 2 ripe tomatoes, grated; 1 tablespoon of sweet paprika; A few saffron threads; 5 tablespoons of extra virgin olive oil; Salt to taste; 1.5 liters of water; (Optional) 6 artichokes, chopped; (Optional) 500 g of cleaned snails. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Free-range chicken: cut into pieces; Rabbit: cut into pieces; Tomatoes: ripe; grated; Artichokes: chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Heat the olive oil in a paella pan over medium-high heat.",
+      "section": null
+    },
+    {
+      "text": "Add the chicken and rabbit pieces and fry them until golden brown on all sides.",
+      "section": null
+    },
+    {
+      "text": "Add the green beans and garrofó to the pan.",
+      "section": null
+    },
+    {
+      "text": "Sauté the vegetables with the meats for a few minutes so they absorb the flavors. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Stir in the grated tomato and cook until it reduces and the oil separates, indicating it is ready.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle the sweet paprika over the mixture and stir well, being careful not to burn it to avoid bitterness.",
+      "section": null
+    },
+    {
+      "text": "Pour the hot water into the pan and bring it to a boil.",
+      "section": null
+    },
+    {
+      "text": "Cook over medium heat for about 20 minutes to let the flavors blend and create a rich broth.",
+      "section": null
+    },
+    {
+      "text": "Evenly distribute the rice across the paella pan.",
+      "section": null
+    },
+    {
+      "text": "Add the saffron threads and adjust the salt if needed.",
+      "section": null
+    },
+    {
+      "text": "Cook over high heat for 10 minutes without stirring the rice.",
+      "section": null
+    },
+    {
+      "text": "Then, lower to medium-low heat and continue cooking for another 8-10 minutes, until the rice absorbs all the broth and is perfectly cooked.",
+      "section": null
+    },
+    {
+      "text": "If desired, place a few sprigs of fresh rosemary on top of the rice during the last few minutes of cooking for extra aroma.",
+      "section": null
+    },
+    {
+      "text": "Once the rice is cooked, remove the pan from the heat and let the paella rest, covered with a clean cloth, for 5 minutes before serving.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "spanish"
+    },
+    {
+      "name": "category",
+      "value": "rice"
+    },
+    {
+      "name": "category",
+      "value": "spanish"
+    }
+  ],
+  "keywords": [
+    "rice",
+    "spanish",
+    "valencian paella"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/paella.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/paella/",
+    "siteName": "Public Domain Recipes",
+    "author": "David Uhden Collado",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Heat the olive oil in a paella pan over medium-high heat. Add the chicken and rabbit pieces and fry them until golden brown on all sides.\n2. Add the green beans and garrofó to the pan. Sauté the vegetables with the meats for a few minutes so they absorb the flavors.\n3. Stir in the grated tomato and cook until it reduces and the oil separates, indicating it is ready.\n4. Sprinkle the sweet paprika over the mixture and stir well, being careful not to burn it to avoid bitterness.\n5. Pour the hot water into the pan and bring it to a boil. Cook over medium heat for about 20 minutes to let the flavors blend and create a rich broth.\n6. Evenly distribute the rice across the paella pan. Add the saffron threads and adjust the salt if needed.\n7. Cook over high heat for 10 minutes without stirring the rice. Then, lower to medium-low heat and continue cooking for another 8-10 minutes, until the rice absorbs all the broth and is perfectly cooked.\n8. If desired, place a few sprigs of fresh rosemary on top of the rice during the last few minutes of cooking for extra aroma.\n9. Once the rice is cooked, remove the pan from the heat and let the paella rest, covered with a clean cloth, for 5 minutes before serving.",
+    "originalIngredients": [
+      "500 g of bomba rice",
+      "1 free-range chicken, cut into pieces",
+      "500 g of rabbit, cut into pieces",
+      "150 g of flat green beans ( bajoqueta )",
+      "150 g of large white beans ( garrofó )",
+      "2 ripe tomatoes, grated",
+      "1 tablespoon of sweet paprika",
+      "A few saffron threads",
+      "5 tablespoons of extra virgin olive oil",
+      "Salt to taste",
+      "1.5 liters of water",
+      "(Optional) 6 artichokes, chopped",
+      "(Optional) 500 g of cleaned snails"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

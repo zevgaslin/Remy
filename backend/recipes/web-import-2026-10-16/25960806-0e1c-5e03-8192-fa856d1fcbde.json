@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "25960806-0e1c-5e03-8192-fa856d1fcbde",
+  "name": "Chicken Pasta Casserole",
+  "description": "Easy to throw together and transport for the working fellow. High in protein!",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 5,
+  "cookMinutes": 35,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "4-6 servings",
+  "ingredients": [
+    {
+      "name": "Macaroni",
+      "originalText": "16oz (450g) macaroni (elbow, penne)",
+      "quantity": 16.0,
+      "quantityText": "16",
+      "unit": "oz",
+      "preparation": "450g; elbow, penne",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Raw chicken breast",
+      "originalText": "24oz (700g) raw chicken breast, diced",
+      "quantity": 24.0,
+      "quantityText": "24",
+      "unit": "oz",
+      "preparation": "700g; diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mozzarella cheese",
+      "originalText": "9oz (250g) mozzarella cheese, shredded",
+      "quantity": 9.0,
+      "quantityText": "9",
+      "unit": "oz",
+      "preparation": "250g; shredded",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan cheese",
+      "originalText": "1.5oz (40g) parmesan cheese, grated",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "oz",
+      "preparation": "40g; grated",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bread crumbs",
+      "originalText": "1.5oz (40g) bread crumbs",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "oz",
+      "preparation": "40g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "16oz (450g) diced tomatoes",
+      "quantity": 16.0,
+      "quantityText": "16",
+      "unit": "oz",
+      "preparation": "450g; diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oil and butter",
+      "originalText": "Some oil and butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "More mozzarella and parmesan for fans of cheese",
+      "originalText": "(Optional) More mozzarella and parmesan for fans of cheese.",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 16oz (450g) macaroni (elbow, penne); 24oz (700g) raw chicken breast, diced; 9oz (250g) mozzarella cheese, shredded; 1.5oz (40g) parmesan cheese, grated; 1.5oz (40g) bread crumbs; 16oz (450g) diced tomatoes; Some oil and butter; (Optional) More mozzarella and parmesan for fans of cheese.. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Raw chicken breast: 700g; diced; Mozzarella cheese: 250g; shredded; Parmesan cheese: 40g; grated; Tomatoes: 450g; diced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Preheat oven to 400F/200C.",
+      "section": null
+    },
+    {
+      "text": "Dice chicken and pan cook with oil until fully cooked. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Cook the pasta for a few minutes less than usual (about 7-8 minutes).",
+      "section": null
+    },
+    {
+      "text": "Add chicken and pasta into a casserole dish.",
+      "section": null
+    },
+    {
+      "text": "Mix together.",
+      "section": null
+    },
+    {
+      "text": "Add diced tomato and shredded mozzarella cheese and keep mixing. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Top with parmesan cheese and bread crumbs for an even coat.",
+      "section": null
+    },
+    {
+      "text": "Add about a spoonful of butter evenly on the top.",
+      "section": null
+    },
+    {
+      "text": "Cook in the oven for 22-25 minutes, until the top looks golden.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    }
+  ],
+  "keywords": [
+    "chicken",
+    "italian",
+    "pasta",
+    "chicken pasta casserole"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/chicken-pasta-casserole.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/chicken-pasta-casserole/",
+    "siteName": "Public Domain Recipes",
+    "author": "Miika Nissi",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat oven to 400F/200C.\n2. Dice chicken and pan cook with oil until fully cooked.\n3. Cook the pasta for a few minutes less than usual (about 7-8 minutes).\n4. Add chicken and pasta into a casserole dish. Mix together. Add diced tomato and shredded mozzarella cheese and keep mixing. Top with parmesan cheese and bread crumbs for an even coat. Add about a spoonful of butter evenly on the top.\n5. Cook in the oven for 22-25 minutes, until the top looks golden.",
+    "originalIngredients": [
+      "16oz (450g) macaroni (elbow, penne)",
+      "24oz (700g) raw chicken breast, diced",
+      "9oz (250g) mozzarella cheese, shredded",
+      "1.5oz (40g) parmesan cheese, grated",
+      "1.5oz (40g) bread crumbs",
+      "16oz (450g) diced tomatoes",
+      "Some oil and butter",
+      "(Optional) More mozzarella and parmesan for fans of cheese."
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

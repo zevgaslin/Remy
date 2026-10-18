@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "id": "7374b1c9-155c-592d-a747-d16bb268070c",
+  "name": "Simple Chicken Curry",
+  "description": "An easy chicken curry recipe which scales very well (double it, triple it, etc.).  Best served with rice. Servings: 3-4",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Coriander",
+      "originalText": "1 ½ tsp Coriander",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cumin",
+      "originalText": "1 tsp Cumin",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Turmeric",
+      "originalText": "½ tsp Turmeric",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground Fennel Seeds",
+      "originalText": "½ tsp Ground Fennel Seeds",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cinnamon",
+      "originalText": "½ tsp Cinnamon",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Black Pepper",
+      "originalText": "½ tsp Black Pepper",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ginger",
+      "originalText": "½ tsp Ginger",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mustard",
+      "originalText": "¼ tsp Mustard",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground Cloves",
+      "originalText": "¼ tsp Ground Cloves",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sriracha Sauce",
+      "originalText": "Sriracha Sauce (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Butter",
+      "originalText": "¼ cup (½ stick) Butter",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": " 1/2 stick",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 large Onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "4 cloves Garlic",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Broth",
+      "originalText": "2-3 cups Chicken Broth",
+      "quantity": null,
+      "quantityText": "2-3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Crushed or Pureed Tomatoes",
+      "originalText": "2-3 cups Crushed or Pureed Tomatoes",
+      "quantity": null,
+      "quantityText": "2-3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Boneless Skinless Chicken Breasts",
+      "originalText": "1 ½ lbs Boneless Skinless Chicken Breasts",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 ½ tsp Coriander; 1 tsp Cumin; ½ tsp Turmeric; ½ tsp Ground Fennel Seeds; ½ tsp Cinnamon; ½ tsp Black Pepper; ½ tsp Ginger; ¼ tsp Mustard; ¼ tsp Ground Cloves; Sriracha Sauce (optional); ¼ cup (½ stick) Butter; 1 large Onion; 4 cloves Garlic; 2-3 cups Chicken Broth; 2-3 cups Crushed or Pureed Tomatoes; 1 ½ lbs Boneless Skinless Chicken Breasts. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Mince the garlic and dice the onion. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Saute onion and garlic with the butter in a pot. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Once the onion is just beginning to brown, pour in the chicken broth and tomato and raise heat to high.",
+      "section": null
+    },
+    {
+      "text": "Cut the chicken breasts into bite-sized cubes.",
+      "section": null
+    },
+    {
+      "text": "Add the chicken and the spices.",
+      "section": null
+    },
+    {
+      "text": "Once the pot reaches a boil, reduce heat and let simmer for 30 minutes. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "curry"
+    },
+    {
+      "name": "category",
+      "value": "stew"
+    }
+  ],
+  "keywords": [
+    "chicken",
+    "curry",
+    "stew",
+    "simple chicken curry"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/simple-chicken-curry/",
+    "siteName": "Public Domain Recipes",
+    "author": "lsma",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Mince the garlic and dice the onion.\n2. Saute onion and garlic with the butter in a pot.\n3. Once the onion is just beginning to brown, pour in the chicken broth and tomato and raise heat to high.\n4. Cut the chicken breasts into bite-sized cubes.\n5. Add the chicken and the spices.\n6. Once the pot reaches a boil, reduce heat and let simmer for 30 minutes.",
+    "originalIngredients": [
+      "1 ½ tsp Coriander",
+      "1 tsp Cumin",
+      "½ tsp Turmeric",
+      "½ tsp Ground Fennel Seeds",
+      "½ tsp Cinnamon",
+      "½ tsp Black Pepper",
+      "½ tsp Ginger",
+      "¼ tsp Mustard",
+      "¼ tsp Ground Cloves",
+      "Sriracha Sauce (optional)",
+      "¼ cup (½ stick) Butter",
+      "1 large Onion",
+      "4 cloves Garlic",
+      "2-3 cups Chicken Broth",
+      "2-3 cups Crushed or Pureed Tomatoes",
+      "1 ½ lbs Boneless Skinless Chicken Breasts"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

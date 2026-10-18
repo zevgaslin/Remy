@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "7780b73e-7f25-5d6e-b244-75e66769f162",
+  "name": "Naan Bread",
+  "description": "A curry serves best with naan that is unleavened bread. Traditionally made in ‘Tandoor or clay oven’ but at home, we will be making it in the oven and/or on the stovetop. Naan is not eaten solely but acts as assortments with meat,...",
+  "cuisine": "Indian",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "All-purpose flour",
+      "originalText": "All-purpose flour 3 cups",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Active dry yeast",
+      "originalText": "Active dry yeast 1 tbsp",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "Sugar 2 tbsp",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "Warm Milk 1 cup",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": "Warm",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter melted",
+      "originalText": "Butter melted 2 tbsp",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oil - little to grease",
+      "originalText": "Oil - little to grease",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt - 1 1/2 teaspoons",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": null,
+      "text": "Set out a large mixing bowl, small bowl, measuring tools, rolling pin, brush, and baking tray. Measure 3 cups all-purpose flour, 1 tablespoon active dry yeast, 2 tablespoons sugar, 1 cup milk, 2 tablespoons melted butter, and 1 1/2 teaspoons salt. Keep a little oil available to grease the dough, as the source directs."
+    },
+    {
+      "section": null,
+      "text": "Warm the 1 cup milk until comfortably warm rather than hot; about 110°F (43°C) is a useful yeast-working target. Stir in the yeast and sugar in the small bowl and leave for 3–5 minutes. The surface should become foamy; if it does not, check that the yeast is active before continuing."
+    },
+    {
+      "section": null,
+      "text": "Whisk the flour and salt together in the large bowl. Pour in the milk-yeast mixture and mix with a spoon until a soft dough forms. Bring loose flour into the dough with your hands; add only a light dusting of flour if needed to stop it sticking."
+    },
+    {
+      "section": null,
+      "text": "Rub a thin layer of oil over the dough, cover the bowl with a clean cloth, and leave in a warm place for 2–3 hours, following the source method. The dough should become noticeably puffier."
+    },
+    {
+      "section": null,
+      "text": "Turn the dough onto a lightly floured surface. Knead until smooth by pushing it away with the heel of your hand, folding it back, and turning it. Divide into 4 equal pieces and roll each into a ball."
+    },
+    {
+      "section": null,
+      "text": "Preheat the oven to 180°C (356°F). Roll each ball into a flat oval about the size of a small tortilla. Place the ovals on the foil-lined baking tray with a little space between them."
+    },
+    {
+      "section": null,
+      "text": "Bake for the source’s 30–35-minute range, checking near the end: the bread should be cooked through and lightly golden. Remove with oven mitts if done sooner rather than letting it burn."
+    },
+    {
+      "section": null,
+      "text": "Brush the warm breads with the 2 tablespoons melted butter. Let cool enough to handle, then cut and serve. This is the source’s oven-baked naan variation, rather than a stovetop version."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "indian"
+    },
+    {
+      "name": "category",
+      "value": "bread"
+    },
+    {
+      "name": "category",
+      "value": "fasting"
+    },
+    {
+      "name": "category",
+      "value": "indian"
+    }
+  ],
+  "keywords": [
+    "bread",
+    "fasting",
+    "indian",
+    "naan bread"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/naan-bread.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/naan-bread/",
+    "siteName": "Public Domain Recipes",
+    "author": "Nihar Samantaray",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Put the yeast and sugar to warm milk in a large mixing bowl and stir well. Leave it for 3-5 minutes.\n2. Put the flour and salt into a large mixing bowl and whisk to combine.  Sprinkle additional flour as needed to keep the dough from sticking to the sides.\n3. Once the dough is soft and ready, apply oil on it and cover it with a soft cloth. Rest it for 2–3 hours.\n4. Knead the dough again, sprinkle all-purpose flour, and knead until smooth.\n5. Divide dough into 4 equal pieces. Form pieces into balls. Roll out dough balls to desired thickness (about the size of a small tortilla).\n6. Now transfer the naan to the foiled baking tray and bake in preheated at 180 C for 30-35 minutes.\n7. After baking, brush the top with butter and cut it into four pieces and serve. Enjoy!",
+    "originalIngredients": [
+      "All-purpose flour 3 cups",
+      "Active dry yeast 1 tbsp",
+      "Sugar 2 tbsp",
+      "Warm Milk 1 cup",
+      "Butter melted 2 tbsp",
+      "Oil - little to grease",
+      "Salt - 1 1/2 teaspoons"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested. The method was rewritten in reviewed, explicit beginner steps using the source quantities. The 90-minute source prep estimate was left unknown because the method specifies a 2–3-hour rise. The missing instruction to combine the milk mixture with the flour was made explicit."
+  }
+}

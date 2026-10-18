@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "7840e0b0-b049-5e61-99e0-99a27242f20d",
+  "name": "Spicy Sausage Pasta",
+  "description": "A delicious spicy pasta dish, super easy to make. I’m a student and it’s relatively cheap for how much food you get. I found it in a newspaper a while back and thought I’d share it with you guys because it’s my favourite meal. I also...",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 50,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Red onions",
+      "originalText": "2 red onions, chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "Olive oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Spicy Italian sausages",
+      "originalText": "6 spicy Italian sausages",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rosemary, needles finely chopped",
+      "originalText": "1 sprig rosemary, needles finely chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "sprig",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red chilli, deseeded and diced",
+      "originalText": "1 red chilli, deseeded and diced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Glass of red wine",
+      "originalText": "A large glass of red wine (approx. 250ml)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large; approx. 250ml",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Plum tomatoes",
+      "originalText": "2 x 400g tins chopped plum tomatoes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tins",
+      "preparation": "400 g per tin; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pasta, preferably penne",
+      "originalText": "300g pasta, preferably penne",
+      "quantity": 300.0,
+      "quantityText": "300",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan",
+      "originalText": "50g parmesan",
+      "quantity": 50.0,
+      "quantityText": "50",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Double cream",
+      "originalText": "300ml double cream",
+      "quantity": 300.0,
+      "quantityText": "300",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 red onions, chopped; Olive oil; 6 spicy Italian sausages; 1 sprig rosemary, needles finely chopped; 1 red chilli, deseeded and diced; A large glass of red wine (approx. 250ml); 2 x 400g tins chopped plum tomatoes; 300g pasta, preferably penne; 50g parmesan; 300ml double cream. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Red onions: chopped; Plum tomatoes: 400 g per tin; chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Fry red onions with a splash of oil in a deep frying pan. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Add the sausage meat (discarding the casings if need be).",
+      "section": null
+    },
+    {
+      "text": "Add the rosemary and chilli",
+      "section": null
+    },
+    {
+      "text": "Increase the heat and break up the sausage meat with a wooden spoon.",
+      "section": null
+    },
+    {
+      "text": "Once meat has browned, pour in red wine and reduce by half.",
+      "section": null
+    },
+    {
+      "text": "Add the chopped tomatoes and reduce the sauce, uncovered, for about 30 mins.",
+      "section": null
+    },
+    {
+      "text": "Cook the pasta according to packet instructions. Use the package cooking-time range, stir to separate the pasta, and taste a cooled piece near the end; it should be tender without a hard center.",
+      "section": null
+    },
+    {
+      "text": "Grate the parmesan into a bowl.",
+      "section": null
+    },
+    {
+      "text": "Drain the pasta and stir into the sauce with the parmesan, double cream and some seasoning.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the meat with a food thermometer. Ground beef, pork, and lamb must reach 160°F (71°C); use 165°F (74°C) for any poultry sausage. Continue cooking if needed, and wash hands and utensils after touching raw meat."
+    },
+    {
+      "text": "Serve :)",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "cream"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    },
+    {
+      "name": "category",
+      "value": "pork"
+    },
+    {
+      "name": "category",
+      "value": "sausage"
+    },
+    {
+      "name": "category",
+      "value": "spicy"
+    }
+  ],
+  "keywords": [
+    "cream",
+    "italian",
+    "pasta",
+    "pork",
+    "sausage",
+    "spicy",
+    "spicy sausage pasta"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/spicy-sausage-pasta.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spicy-sausage-pasta/",
+    "siteName": "Public Domain Recipes",
+    "author": "Thomas Cotter",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Fry red onions with a splash of oil in a deep frying pan. Add the sausage meat (discarding the casings if need be). Add the rosemary and chilli\n2. Increase the heat and break up the sausage meat with a wooden spoon. Once meat has browned, pour in red wine and reduce by half. Add the chopped tomatoes and reduce the sauce, uncovered, for about 30 mins. Cook the pasta according to packet instructions.\n3. Grate the parmesan into a bowl. Drain the pasta and stir into the sauce with the parmesan, double cream and some seasoning.\n4. Serve :)",
+    "originalIngredients": [
+      "2 red onions, chopped",
+      "Olive oil",
+      "6 spicy Italian sausages",
+      "1 sprig rosemary, needles finely chopped",
+      "1 red chilli, deseeded and diced",
+      "A large glass of red wine (approx. 250ml)",
+      "2 x 400g tins chopped plum tomatoes",
+      "300g pasta, preferably penne",
+      "50g parmesan",
+      "300ml double cream"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

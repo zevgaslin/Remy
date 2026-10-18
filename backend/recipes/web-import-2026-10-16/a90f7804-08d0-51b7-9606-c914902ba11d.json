@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "a90f7804-08d0-51b7-9606-c914902ba11d",
+  "name": "Pancake",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "totalMinutes": null,
+  "servings": 1.0,
+  "yieldText": "1 servings",
+  "ingredients": [
+    {
+      "name": "Wheat flour or 100g glutenfree flour",
+      "originalText": "200g wheat flour or 100g glutenfree flour",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "200 ml milk",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "2 tsp sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking soda",
+      "originalText": "1 tsp baking soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Little bit of salt",
+      "originalText": "a little bit of salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 200g wheat flour or 100g glutenfree flour; 200 ml milk; 2 eggs; 2 tsp sugar; 1 tsp baking soda; a little bit of salt. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Mix all ingredients in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Let the dough rest for ~15 mins.",
+      "section": null
+    },
+    {
+      "text": "Heat a pan with a bit butter or oil.",
+      "section": null
+    },
+    {
+      "text": "For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "pancake"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    },
+    {
+      "name": "category",
+      "value": "sweet"
+    }
+  ],
+  "keywords": [
+    "breakfast",
+    "cheesefare",
+    "pancake",
+    "quick",
+    "sweet"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/pancake.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/pancake/",
+    "siteName": "Public Domain Recipes",
+    "author": "BeFe",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Mix all ingredients in a bowl.\n2. Let the dough rest for ~15 mins.\n3. Heat a pan with a bit butter or oil.\n4. For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides.",
+    "originalIngredients": [
+      "200g wheat flour or 100g glutenfree flour",
+      "200 ml milk",
+      "2 eggs",
+      "2 tsp sugar",
+      "1 tsp baking soda",
+      "a little bit of salt"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

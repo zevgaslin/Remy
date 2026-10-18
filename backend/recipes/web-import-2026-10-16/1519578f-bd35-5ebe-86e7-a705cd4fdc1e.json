@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "id": "1519578f-bd35-5ebe-86e7-a705cd4fdc1e",
+  "name": "Pasta Alla Norma",
+  "description": "A delicious Sicilian pasta dish, with Aubergines in a tomato sauce topped with fresh basil.",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Aubergines",
+      "originalText": "3 aubergines (900g)",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": "900g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Spaghetti",
+      "originalText": "300g spaghetti",
+      "quantity": 300.0,
+      "quantityText": "300",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "100ml olive oil",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "5 garlic cloves, minced",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "cloves",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chilli",
+      "originalText": "1 chilli (or 1 tsp of dried chilli flakes)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "or 1 tsp of dried chilli flakes",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "X 400g tinned chopped tomatoes",
+      "originalText": "2 x 400g tinned chopped tomatoes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oregano",
+      "originalText": "1 teaspoon dried oregano",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Caster sugar",
+      "originalText": "1 teaspoon caster sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Basil",
+      "originalText": "Fresh basil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": "Fresh",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 3 aubergines (900g); 300g spaghetti; 100ml olive oil; 5 garlic cloves, minced; 1 chilli (or 1 tsp of dried chilli flakes); 2 x 400g tinned chopped tomatoes; 1 teaspoon dried oregano; 1 teaspoon caster sugar; Fresh basil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Garlic: minced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Preheat oven to 220c (fan), or gas mark 7.",
+      "section": null
+    },
+    {
+      "text": "Use a peeler to shave off alternating strips on your aubergines, so they looked striped, like zebras.",
+      "section": null
+    },
+    {
+      "text": "Then cut the aubergine widthways into 1cm thick slices.",
+      "section": null
+    },
+    {
+      "text": "Place into a bowl with 75ml of olive oil, a good pinch of salt and black pepper.",
+      "section": null
+    },
+    {
+      "text": "Coat the aubergines, then spread them onto two or three baking paper-lined trays.",
+      "section": null
+    },
+    {
+      "text": "Roast for 30-35 minutes until dark brown.",
+      "section": null
+    },
+    {
+      "text": "Whilst the aubergines are cooking, put two tablespoons of olive oil into a frying pan or pot on a medium-high heat.",
+      "section": null
+    },
+    {
+      "text": "Add garlic and chilies and fry for 1 minute (don’t burn them!).",
+      "section": null
+    },
+    {
+      "text": "Add tinned tomatoes, oregano, sugar and a pinch of salt and pepper to the pot.",
+      "section": null
+    },
+    {
+      "text": "Reduce heat to medium low and cook until the sauce has thickened.",
+      "section": null
+    },
+    {
+      "text": "Cook the pasta according to packet instructions, once al dente, drain and retain some of the pasta water. Use the package cooking-time range, stir to separate the pasta, and taste a cooled piece near the end; it should be tender without a hard center.",
+      "section": null
+    },
+    {
+      "text": "Once cooked, add the aubergine to the pasta sauce and mix well. Use the package cooking-time range, stir to separate the pasta, and taste a cooled piece near the end; it should be tender without a hard center.",
+      "section": null
+    },
+    {
+      "text": "Then add the spaghetti to the aubergine and sauce mixture, making sure everything is evenly coated.",
+      "section": null
+    },
+    {
+      "text": "Add some of the pasta water if required to loosen the sauce, then top with fresh basil.",
+      "section": null
+    },
+    {
+      "text": "Check for seasoning, then serve immediately.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "fasting"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    }
+  ],
+  "keywords": [
+    "fasting",
+    "italian",
+    "pasta",
+    "pasta alla norma"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/pasta-alla-norma/",
+    "siteName": "Public Domain Recipes",
+    "author": "James",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat oven to 220c (fan), or gas mark 7.\n2. Use a peeler to shave off alternating strips on your aubergines, so they looked striped, like zebras.\n3. Then cut the aubergine widthways into 1cm thick slices. Place into a bowl with 75ml of olive oil, a good pinch of salt and black pepper. Coat the aubergines, then spread them onto two or three baking paper-lined trays. Roast for 30-35 minutes until dark brown.\n4. Whilst the aubergines are cooking, put two tablespoons of olive oil into a frying pan or pot on a medium-high heat. Add garlic and chilies and fry for 1 minute (don’t burn them!). Add tinned tomatoes, oregano, sugar and a pinch of salt and pepper to the pot. Reduce heat to medium low and cook until the sauce has thickened.\n5. Cook the pasta according to packet instructions, once al dente, drain and retain some of the pasta water.\n6. Once cooked, add the aubergine to the pasta sauce and mix well. Then add the spaghetti to the aubergine and sauce mixture, making sure everything is evenly coated. Add some of the pasta water if required to loosen the sauce, then top with fresh basil.\n7. Check for seasoning, then serve immediately.",
+    "originalIngredients": [
+      "3 aubergines (900g)",
+      "300g spaghetti",
+      "100ml olive oil",
+      "5 garlic cloves, minced",
+      "1 chilli (or 1 tsp of dried chilli flakes)",
+      "2 x 400g tinned chopped tomatoes",
+      "1 teaspoon dried oregano",
+      "1 teaspoon caster sugar",
+      "Fresh basil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

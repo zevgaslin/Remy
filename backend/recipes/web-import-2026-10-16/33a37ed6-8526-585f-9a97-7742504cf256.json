@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "id": "33a37ed6-8526-585f-9a97-7742504cf256",
+  "name": "Rösti",
+  "description": "This swiss classic works great together with fried eggs and steamed peas or spinach.\nCan be useful to get rid of leftover potatoes from the day before.",
+  "cuisine": null,
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Potatoes",
+      "originalText": "~800g (~1.5lb) potatoes (firm/waxy)",
+      "quantity": null,
+      "quantityText": "~800",
+      "unit": "g",
+      "preparation": "~1.5lb; firm/waxy",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrots",
+      "originalText": "2 carrots",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peas or spinach",
+      "originalText": "500g (~1lb) peas or spinach",
+      "quantity": 500.0,
+      "quantityText": "500",
+      "unit": "g",
+      "preparation": "~1lb",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onions",
+      "originalText": "2 onions (medium size)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "medium size",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: ~800g (~1.5lb) potatoes (firm/waxy); 2 carrots; 500g (~1lb) peas or spinach; 4 eggs; 2 onions (medium size); butter. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Shred raw or cooked (but cool) potatoes with a grater.",
+      "section": null
+    },
+    {
+      "text": "The shreds should be\nquite large so don’t use your typical cheese shredder.",
+      "section": null
+    },
+    {
+      "text": "Dice the first onion and mix together with potatoes. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "You can also add diced\nbacon if you want to. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add your seasonings here.",
+      "section": null
+    },
+    {
+      "text": "Heat up some butter in a large pan.",
+      "section": null
+    },
+    {
+      "text": "Add your mix to the pan on high heat.",
+      "section": null
+    },
+    {
+      "text": "Let the mixture get warm for a few minutes under constant stirring.",
+      "section": null
+    },
+    {
+      "text": "Reduce heat to medium-high.",
+      "section": null
+    },
+    {
+      "text": "Form the Rösti into a round cack.",
+      "section": null
+    },
+    {
+      "text": "It should fill\nout the whole pan.",
+      "section": null
+    },
+    {
+      "text": "I recommend a thickness of around 1 - 1.5cm (~1/2\") for a\nsofter Rösti.",
+      "section": null
+    },
+    {
+      "text": "Add some more butter flakes around the inside of the pan to get it under the\nRösti.",
+      "section": null
+    },
+    {
+      "text": "It can take quite a while for a nice crust to form.",
+      "section": null
+    },
+    {
+      "text": "Check after roughly 5-10\nminutes for browning.",
+      "section": null
+    },
+    {
+      "text": "While the Rösti is cooking dice the other onion and the carrots. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Steam\neverything in a pan with a bit of water.",
+      "section": null
+    },
+    {
+      "text": "Use a lid to get the temperature\nup.",
+      "section": null
+    },
+    {
+      "text": "Alternatively you can use fresh or creamed spinach.",
+      "section": null
+    },
+    {
+      "text": "When you’re satisfied with the browning, flip the Rösti and set the heat to\nmedium-low.",
+      "section": null
+    },
+    {
+      "text": "A plate can be useful here, put it on top of the Rösti in the\npan and flip.",
+      "section": null
+    },
+    {
+      "text": "Then gently put the whole cake back in the pan.",
+      "section": null
+    },
+    {
+      "text": "When the Rösti crispness is to your liking, remove from pan and fry two\neggs.",
+      "section": null
+    },
+    {
+      "text": "A runny yolk adds quite a bit to the potatoes.",
+      "section": null
+    },
+    {
+      "text": "Top Rösti with eggs and serve with the peas or spinach.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "potato"
+    },
+    {
+      "name": "category",
+      "value": "side"
+    },
+    {
+      "name": "category",
+      "value": "swiss"
+    }
+  ],
+  "keywords": [
+    "cheesefare",
+    "potato",
+    "side",
+    "swiss",
+    "rösti"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/roesti.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/roesti/",
+    "siteName": "Public Domain Recipes",
+    "author": "Elias Pahls",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Shred raw or cooked (but cool) potatoes with a grater. The shreds should be\nquite large so don’t use your typical cheese shredder.\n2. Dice the first onion and mix together with potatoes. You can also add diced\nbacon if you want to. Add your seasonings here.\n3. Heat up some butter in a large pan. Add your mix to the pan on high heat.\nLet the mixture get warm for a few minutes under constant stirring.\n4. Reduce heat to medium-high. Form the Rösti into a round cack. It should fill\nout the whole pan. I recommend a thickness of around 1 - 1.5cm (~1/2\") for a\nsofter Rösti.\n5. Add some more butter flakes around the inside of the pan to get it under the\nRösti.\n6. It can take quite a while for a nice crust to form. Check after roughly 5-10\nminutes for browning.\n7. While the Rösti is cooking dice the other onion and the carrots. Steam\neverything in a pan with a bit of water. Use a lid to get the temperature\nup.\n8. Alternatively you can use fresh or creamed spinach.\n9. When you’re satisfied with the browning, flip the Rösti and set the heat to\nmedium-low. A plate can be useful here, put it on top of the Rösti in the\npan and flip. Then gently put the whole cake back in the pan.\n10. When the Rösti crispness is to your liking, remove from pan and fry two\neggs. A runny yolk adds quite a bit to the potatoes.\n11. Top Rösti with eggs and serve with the peas or spinach.",
+    "originalIngredients": [
+      "~800g (~1.5lb) potatoes (firm/waxy)",
+      "2 carrots",
+      "500g (~1lb) peas or spinach",
+      "4 eggs",
+      "2 onions (medium size)",
+      "butter"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

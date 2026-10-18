@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "7b9fcc57-6b6a-56f4-b426-aeb62d74e41a",
+  "name": "Omelet",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Breakfast",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "4 Omelets",
+  "ingredients": [
+    {
+      "name": "Quick-cooking tapioca",
+      "originalText": "2 tablespoon quick-cooking tapioca",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "1/8 teaspoon pepper",
+      "quantity": 0.125,
+      "quantityText": "1/8",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk, scalded",
+      "originalText": "3/4 cup milk, scalded",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter, or margarine",
+      "originalText": "1 tablespoon butter, or margarine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg yolks",
+      "originalText": "4 egg yolks, beaten until thick",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": "beaten until thick",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg whites",
+      "originalText": "4 egg whites, beaten stiff",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": "beaten stiff",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar Cheese",
+      "originalText": "Cheddar Cheese (optional for Cheese Omelet)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 tablespoon quick-cooking tapioca; 1/2 teaspoon salt; 1/8 teaspoon pepper; 3/4 cup milk, scalded; 1 tablespoon butter, or margarine; 4 egg yolks, beaten until thick; 4 egg whites, beaten stiff; Cheddar Cheese (optional for Cheese Omelet). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Egg yolks: beaten until thick; Egg whites: beaten stiff. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Add tapioca, salt and pepper to milk; cook in double boiler 15 minutes or until tapioca is clear and mixture thickened, stirring  frequently.",
+      "section": null
+    },
+    {
+      "text": "Add butter.",
+      "section": null
+    },
+    {
+      "text": "Allow it to cool; combine with egg yolks, stirring occasionally.",
+      "section": null
+    },
+    {
+      "text": "Fold in egg whites.",
+      "section": null
+    },
+    {
+      "text": "Set oven for moderate 350°F.",
+      "section": null
+    },
+    {
+      "text": "Pour egg mixture into hot buttered frying pan.",
+      "section": null
+    },
+    {
+      "text": "Cook over low heat 3 minutes.",
+      "section": null
+    },
+    {
+      "text": "Transfer to oven; bake 15 minutes.",
+      "section": null
+    },
+    {
+      "text": "Omelet is done when an inserted knife comes out clean.",
+      "section": null
+    },
+    {
+      "text": "Cut across at right angles to handle of pan, being careful not to cut all the way through.",
+      "section": null
+    },
+    {
+      "text": "Fold carefully from handle to opposite side and serve on hot platter.",
+      "section": null
+    },
+    {
+      "text": "Add 1/2 cup grated sharp Cheddar Cheese just before folding in egg whites.",
+      "section": "For Cheese Omelet"
+    },
+    {
+      "text": "Before putting omelet in oven, sprinkle top with an additional 1/2 cup of grated cheese.",
+      "section": "For Cheese Omelet"
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the cooked egg mixture with a food thermometer: it must reach 160°F (71°C), with no runny raw egg. For a casserole containing reheated cooked meat, use 165°F (74°C). Continue cooking if needed."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "eggs"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    }
+  ],
+  "keywords": [
+    "cheesefare",
+    "eggs",
+    "quick",
+    "omelet"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/omelet/",
+    "siteName": "Public Domain Recipes",
+    "author": null,
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Add tapioca, salt and pepper to milk; cook in double boiler 15 minutes or until tapioca is clear and mixture thickened, stirring  frequently.\n2. Add butter.\n3. Allow it to cool; combine with egg yolks, stirring occasionally.\n4. Fold in egg whites.\n5. Set oven for moderate 350°F.\n6. Pour egg mixture into hot buttered frying pan.\n7. Cook over low heat 3 minutes.\n8. Transfer to oven; bake 15 minutes.\n9. Omelet is done when an inserted knife comes out clean.\n10. Cut across at right angles to handle of pan, being careful not to cut all the way through.\n11. Fold carefully from handle to opposite side and serve on hot platter.\nFor Cheese Omelet: 12. Add 1/2 cup grated sharp Cheddar Cheese just before folding in egg whites.\nFor Cheese Omelet: 13. Before putting omelet in oven, sprinkle top with an additional 1/2 cup of grated cheese.",
+    "originalIngredients": [
+      "2 tablespoon quick-cooking tapioca",
+      "1/2 teaspoon salt",
+      "1/8 teaspoon pepper",
+      "3/4 cup milk, scalded",
+      "1 tablespoon butter, or margarine",
+      "4 egg yolks, beaten until thick",
+      "4 egg whites, beaten stiff",
+      "Cheddar Cheese (optional for Cheese Omelet)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

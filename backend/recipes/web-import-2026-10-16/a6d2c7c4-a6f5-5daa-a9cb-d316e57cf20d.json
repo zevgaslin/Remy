@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "id": "a6d2c7c4-a6f5-5daa-a9cb-d316e57cf20d",
+  "name": "French Onion Soup",
+  "description": null,
+  "cuisine": "French",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 30,
+  "cookMinutes": 180,
+  "totalMinutes": null,
+  "servings": 5.0,
+  "yieldText": "5 servings",
+  "ingredients": [
+    {
+      "name": "Onions",
+      "originalText": "6-7 Onions, cut into quarter moons",
+      "quantity": null,
+      "quantityText": "6-7",
+      "unit": null,
+      "preparation": "cut into quarter moons",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "1 stick of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "stick",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "1/2 cup Olive oil",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt, to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baguette Loaf",
+      "originalText": "1 Baguette Loaf, sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Broth",
+      "originalText": "1 Can of Chicken Broth",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "3 Garlic cloves, finely chopped",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cloves",
+      "preparation": "finely chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Brown sugar",
+      "originalText": "1/4 cup brown sugar",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Balsamic vinegar",
+      "originalText": "Balsamic vinegar, to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "originalText": "Worcestershire Sauce, to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Soy Sauce",
+      "originalText": "Soy Sauce, to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Beef Broth",
+      "originalText": "64oz Beef Broth",
+      "quantity": 64.0,
+      "quantityText": "64",
+      "unit": "oz",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bay Leaves",
+      "originalText": "2-3 Bay Leaves",
+      "quantity": null,
+      "quantityText": "2-3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Melty cheese, preferably guereye or swiss",
+      "originalText": "Melty cheese, preferably guereye or swiss",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 6-7 Onions, cut into quarter moons; 1 stick of butter; 1/2 cup Olive oil; Salt, to taste; 1 Baguette Loaf, sliced; 1 Can of Chicken Broth; 3 Garlic cloves, finely chopped; 1/4 cup brown sugar; Balsamic vinegar, to taste; Worcestershire Sauce, to taste; Soy Sauce, to taste; 64oz Beef Broth; 2-3 Bay Leaves; Melty cheese, preferably guereye or swiss. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onions: cut into quarter moons; Baguette Loaf: sliced; Garlic: finely chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Sweat the onions in a covered Dutch oven over med-low heat, salt them, with 1 whole stick of butter and some olive oil for about 2 hours stirring occasionally but increasing in frequency as the heat gets raised over time.",
+      "section": null
+    },
+    {
+      "text": "When the onions are soft and mostly shrunken down, and mostly covered by the butter, oil, and onion juice, strain and collect the juice in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Brush the onion juice over each side of slices of baguette bread.",
+      "section": null
+    },
+    {
+      "text": "Return the strained onions to med-high heat, uncovered, stirring and deglazing with chicken broth frequently but not so frequent that they turn to mush.",
+      "section": null
+    },
+    {
+      "text": "When the entire can of chicken broth has been added for deglazing, add 3 finely chopped garlic cloves, 1/4 cup brown sugar, balsamic vinegar, Worcestershire sauce, soy sauce.",
+      "section": null
+    },
+    {
+      "text": "Wait until the pot dries and a fond is formed in between adding each liquid ingredient slowly.",
+      "section": null
+    },
+    {
+      "text": "Keep slowly deglazing with the wooden spoon and caramelizing those onions.",
+      "section": null
+    },
+    {
+      "text": "After onions are thoroughly caramelized and there are no more liquid ingredients to add, pour in 64oz beef broth and 2-3 Bay leaves.",
+      "section": null
+    },
+    {
+      "text": "Cover on medium heat until it simmers. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "It is now ready to serve!",
+      "section": null
+    },
+    {
+      "text": "Put sliced (and onion-juice brushed) bread in 400F oven until toasted, then under the broiler covered in cheese until melted.",
+      "section": null
+    },
+    {
+      "text": "Soup can be served poured over the bread slices or the bread floating on top.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    }
+  ],
+  "keywords": [
+    "french",
+    "soup",
+    "french onion soup"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/btc.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/french-onion-soup/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joe Powerhouse",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Sweat the onions in a covered Dutch oven over med-low heat, salt them, with 1 whole stick of butter and some olive oil for about 2 hours stirring occasionally but increasing in frequency as the heat gets raised over time.\n2. When the onions are soft and mostly shrunken down, and mostly covered by the butter, oil, and onion juice, strain and collect the juice in a bowl. Brush the onion juice over each side of slices of baguette bread.\n3. Return the strained onions to med-high heat, uncovered, stirring and deglazing with chicken broth frequently but not so frequent that they turn to mush. When the entire can of chicken broth has been added for deglazing, add 3 finely chopped garlic cloves, 1/4 cup brown sugar, balsamic vinegar, Worcestershire sauce, soy sauce. Wait until the pot dries and a fond is formed in between adding each liquid ingredient slowly. Keep slowly deglazing with the wooden spoon and caramelizing those onions.\n4. After onions are thoroughly caramelized and there are no more liquid ingredients to add, pour in 64oz beef broth and 2-3 Bay leaves. Cover on medium heat until it simmers. It is now ready to serve!\n5. Put sliced (and onion-juice brushed) bread in 400F oven until toasted, then under the broiler covered in cheese until melted. Soup can be served poured over the bread slices or the bread floating on top.",
+    "originalIngredients": [
+      "6-7 Onions, cut into quarter moons",
+      "1 stick of butter",
+      "1/2 cup Olive oil",
+      "Salt, to taste",
+      "1 Baguette Loaf, sliced",
+      "1 Can of Chicken Broth",
+      "3 Garlic cloves, finely chopped",
+      "1/4 cup brown sugar",
+      "Balsamic vinegar, to taste",
+      "Worcestershire Sauce, to taste",
+      "Soy Sauce, to taste",
+      "64oz Beef Broth",
+      "2-3 Bay Leaves",
+      "Melty cheese, preferably guereye or swiss"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

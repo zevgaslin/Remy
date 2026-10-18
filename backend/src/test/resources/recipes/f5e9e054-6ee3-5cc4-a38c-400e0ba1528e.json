@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "f5e9e054-6ee3-5cc4-a38c-400e0ba1528e",
+  "name": "Classic Beef Chili",
+  "description": "A hearty ground-beef chili with tomato sauce, kidney beans, pinto beans, and warm spices.",
+  "cuisine": "American",
+  "mealType": "Dinner",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 8,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Ground Beef",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "lb",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato Sauce",
+      "originalText": null,
+      "quantity": 8.0,
+      "quantityText": null,
+      "unit": "oz",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chili Powder",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cumin",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oregano",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cayenne Pepper",
+      "originalText": null,
+      "quantity": 0.25,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Masa Harina",
+      "originalText": null,
+      "quantity": 0.25,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Kidney Beans",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "can",
+      "preparation": "15 oz can, drained and rinsed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pinto Beans",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "can",
+      "preparation": "15 oz can, drained and rinsed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "grated; optional topping must be omitted for dairy-free chili",
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Onion",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Lime",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a large heavy pot of at least 4 quarts, a spoon, sieve, small bowl, and food thermometer. Peel and finely chop 2 garlic cloves. Open one 15-ounce can kidney beans and one 15-ounce can pinto beans, then drain and rinse both.",
+      "section": null
+    },
+    {
+      "text": "Put 2 pounds ground beef in the pot over medium-high heat. Break it into small pieces with the spoon and cook for 8\u201310 minutes, stirring often. Check several thick clusters with a thermometer; the beef must reach 160\u00b0F (71\u00b0C). Add the chopped garlic and stir for 30 seconds. Carefully spoon excess fat into a heatproof container, leaving about 1 tablespoon in the pot; do not pour fat down the drain.",
+      "section": null
+    },
+    {
+      "text": "Add 8 ounces tomato sauce, 2 tablespoons chili powder, 1 teaspoon cumin, 1 teaspoon dried oregano, and optional 1/4 teaspoon cayenne pepper. Stir in 1 cup water until combined.",
+      "section": null
+    },
+    {
+      "text": "Bring to gentle bubbling, then reduce to low and partially cover. Simmer for 45 minutes, stirring every 10 minutes and scraping the bottom. If the mixture begins to stick or becomes dry, add water 1/4 cup at a time.",
+      "section": null
+    },
+    {
+      "text": "In the small bowl, stir 1/4 cup masa harina with 1/2 cup water until smooth with no dry lumps. Pour this mixture into the chili while stirring. Add all the drained kidney and pinto beans.",
+      "section": null
+    },
+    {
+      "text": "Simmer uncovered over low heat for 15\u201320 minutes, stirring every few minutes, until the beans are hot throughout and the chili thickens. It should mound slightly on a spoon but still flow; add water 2 tablespoons at a time if too thick.",
+      "section": null
+    },
+    {
+      "text": "If using toppings, grate 1/2 cup cheddar, peel and finely dice 1/2 onion, and wash and cut 1 lime into wedges. Turn off the heat and divide the chili into 8 portions. Add optional toppings at the table. Omit cheddar for the dairy-free variation.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "high-protein"
+    },
+    {
+      "name": "diet",
+      "value": "high-fiber"
+    },
+    {
+      "name": "diet",
+      "value": "dairy-free"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 360,
+    "protein": 26,
+    "carbs": 30,
+    "fat": 15
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Brown the beef with garlic, then add tomato sauce and spices. Simmer slowly, stir in a masa harina slurry and both beans, and cook until thickened."
+  }
+}

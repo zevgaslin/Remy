@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "d36c3de6-3bca-54fe-821a-ac71100482ae",
+  "name": "Blueberry Muffins",
+  "description": "⏲️ Prep time: 10 min\n🍳 Cook time: 30 min\n🍽️ Servings: 12",
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "All-purpose flour",
+      "originalText": "2 cups all-purpose flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking powder",
+      "originalText": "1 tablespoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Unsalted butter",
+      "originalText": "1/2 cup unsalted butter, melted",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "melted",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "2 large eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "large",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla extract",
+      "originalText": "1 teaspoon vanilla extract",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Blueberries",
+      "originalText": "1 1/2 cups fresh blueberries",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": "fresh",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 cups all-purpose flour; 1 cup granulated sugar; 1 tablespoon baking powder; 1/2 teaspoon salt; 1/2 cup unsalted butter, melted; 1 cup milk; 2 large eggs; 1 teaspoon vanilla extract; 1 1/2 cups fresh blueberries. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Unsalted butter: melted. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Preheat the oven to 375°F (190°C).",
+      "section": null
+    },
+    {
+      "text": "Line a muffin tin with paper liners or just grease the tin directly.",
+      "section": null
+    },
+    {
+      "text": "In a large mixing bowl, combine the dry ingredients: flour, sugar, baking powder, and salt.",
+      "section": null
+    },
+    {
+      "text": "In a separate bowl, whisk together the wet ingredients: melted butter, milk, eggs, and vanilla extract.",
+      "section": null
+    },
+    {
+      "text": "Pour the wet ingredients into the dry ingredients and stir until just combined.",
+      "section": null
+    },
+    {
+      "text": "Do not overmix.",
+      "section": null
+    },
+    {
+      "text": "Gently fold in the fresh blueberries.",
+      "section": null
+    },
+    {
+      "text": "Spoon the batter into the prepared muffin tin, filling each cup about three-quarters full.",
+      "section": null
+    },
+    {
+      "text": "Bake in the preheated oven for 20-25 minutes, or until a toothpick inserted into the center of a muffin comes out clean.",
+      "section": null
+    },
+    {
+      "text": "Remove the muffins from the oven and allow them to cool in the tin for a few minutes.",
+      "section": null
+    },
+    {
+      "text": "Transfer the muffins to a wire rack to cool completely before serving.",
+      "section": null
+    },
+    {
+      "text": "Enjoy your homemade blueberry muffins!",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "baking"
+    },
+    {
+      "name": "category",
+      "value": "berries"
+    },
+    {
+      "name": "category",
+      "value": "muffins"
+    }
+  ],
+  "keywords": [
+    "baking",
+    "berries",
+    "muffins",
+    "blueberry muffins"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/blueberry-muffins/",
+    "siteName": "Public Domain Recipes",
+    "author": "Marcus Howser",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat the oven to 375°F (190°C). Line a muffin tin with paper liners or just grease the tin directly.\n2. In a large mixing bowl, combine the dry ingredients: flour, sugar, baking powder, and salt.\n3. In a separate bowl, whisk together the wet ingredients: melted butter, milk, eggs, and vanilla extract.\n4. Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix.\n5. Gently fold in the fresh blueberries.\n6. Spoon the batter into the prepared muffin tin, filling each cup about three-quarters full.\n7. Bake in the preheated oven for 20-25 minutes, or until a toothpick inserted into the center of a muffin comes out clean.\n8. Remove the muffins from the oven and allow them to cool in the tin for a few minutes.\n9. Transfer the muffins to a wire rack to cool completely before serving.\n10. Enjoy your homemade blueberry muffins!",
+    "originalIngredients": [
+      "2 cups all-purpose flour",
+      "1 cup granulated sugar",
+      "1 tablespoon baking powder",
+      "1/2 teaspoon salt",
+      "1/2 cup unsalted butter, melted",
+      "1 cup milk",
+      "2 large eggs",
+      "1 teaspoon vanilla extract",
+      "1 1/2 cups fresh blueberries"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

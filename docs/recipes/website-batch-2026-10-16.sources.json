@@ -1,0 +1,675 @@
+[
+  {
+    "name": "Banana Bread",
+    "url": "https://publicdomainrecipes.com/banana-bread/",
+    "recipeId": "e6adcdbd-4f4e-584c-859e-90993a38118f",
+    "sourceSnapshotSha256": "4bf5f0206e744aa94016ec3d8b38db89fda11e1660a1f7542a715495359d99f1"
+  },
+  {
+    "name": "Banana Pancakes",
+    "url": "https://publicdomainrecipes.com/banana-pancakes/",
+    "recipeId": "9c32811b-f6e2-5fd1-af28-b1a51791bdd9",
+    "sourceSnapshotSha256": "735cd79c3165eac8758dd0e0725acdcdb3e59379761bcd042645b334907c9c1b"
+  },
+  {
+    "name": "Banana and oatmeal cookies",
+    "url": "https://publicdomainrecipes.com/banana-oatmeal-cookies/",
+    "recipeId": "7df04a8d-65a9-5efe-9a07-90122cace14f",
+    "sourceSnapshotSha256": "ee6ba61772f32f05ba5d0d7dbd23661a73811cce4a46fe58c05a1dc58e9a416a"
+  },
+  {
+    "name": "Basic Meatballs",
+    "url": "https://publicdomainrecipes.com/basic-meatballs/",
+    "recipeId": "01e947c7-b120-572f-bbbd-0433176dd65e",
+    "sourceSnapshotSha256": "bc310154d025ab4025a9c829816d6831aa7670d16766aa83d3b882add1d68787"
+  },
+  {
+    "name": "Basic Waffles",
+    "url": "https://publicdomainrecipes.com/basic-waffles/",
+    "recipeId": "2c8e02ee-e1e5-5bd2-903c-ea8ecb76e84a",
+    "sourceSnapshotSha256": "688fa20dfa092606f8e2d3add0c63f7c3b4d812488c92a0a590072c74a1dcd19"
+  },
+  {
+    "name": "Blueberry Muffins",
+    "url": "https://publicdomainrecipes.com/blueberry-muffins/",
+    "recipeId": "d36c3de6-3bca-54fe-821a-ac71100482ae",
+    "sourceSnapshotSha256": "4d595342af8422d65ff8f9508c745257be49fbb535a32bdac3426754dbd5b453"
+  },
+  {
+    "name": "Bolognese Sauce",
+    "url": "https://publicdomainrecipes.com/bolognese-sauce/",
+    "recipeId": "5307a27d-b507-5caa-b5a1-7af3ef5f71ca",
+    "sourceSnapshotSha256": "60d1085f3984cdb9f2f100b6e25e5b65ee95c6789207393c7ff86be7dae27013"
+  },
+  {
+    "name": "Bread",
+    "url": "https://publicdomainrecipes.com/bread/",
+    "recipeId": "87cac5e3-353b-5f81-9fce-a8cb085f3735",
+    "sourceSnapshotSha256": "e69093d2dadeaa84003d2688c89e647ed6e3cc2747d0700d4454c048794ec77a"
+  },
+  {
+    "name": "Brown Butter Cinnamon Sugar Biscuits",
+    "url": "https://publicdomainrecipes.com/cinnamon-biscuits/",
+    "recipeId": "64c7f7d4-6ef0-5ca2-a0c8-f8fbb568d978",
+    "sourceSnapshotSha256": "6f15827a26bee72006af0d987687da1b4fa6cea7f7e2b56206123103187fb7ac"
+  },
+  {
+    "name": "Butter Cake",
+    "url": "https://publicdomainrecipes.com/butter-cake/",
+    "recipeId": "2719d556-4a37-586f-afcf-59536229f2f2",
+    "sourceSnapshotSha256": "1111a8331ac04c0a882645df4031773f0a5e36b0aeecd2f6da04d99e127a1443"
+  },
+  {
+    "name": "Challah Bread",
+    "url": "https://publicdomainrecipes.com/challah-bread/",
+    "recipeId": "6a47c7d0-fb14-5c99-a71a-2f73ee0394cb",
+    "sourceSnapshotSha256": "de7eae519082412ca8f55f6d1bbf3cae8004e589310ed9d5501a27768f3ea61a"
+  },
+  {
+    "name": "Cheddar-Crusted Chicken",
+    "url": "https://publicdomainrecipes.com/cheddar-crusted-chicken/",
+    "recipeId": "ea3915a8-ab36-5fe5-9818-568fbc451a21",
+    "sourceSnapshotSha256": "86679b27f5fe60fd1f9ea81720e86e73322b99e910f0a3b7c4f00575d634d2d2"
+  },
+  {
+    "name": "Cheesy Potato Bake",
+    "url": "https://publicdomainrecipes.com/cheesy-potatoe-bake/",
+    "instructionsOverride": [
+      "Set out a deep baking dish, saucepan, whisk, knife, cutting board, and grater. Preheat the oven to 180°C (356°F). Rub a thin coating of the listed 30 grams or more butter over the inside of the baking dish, reserving the rest for the sauce.",
+      "Wash and peel 600 grams potatoes, then cut into thin, similarly sized slices about 3 mm thick. Grate 250 grams cheddar. Measure 275 ml milk and 16 grams flour. If using the source’s bacon garnish, cook it until crisp, then chop it; its amount is left to preference in the source.",
+      "Melt the remaining butter in the saucepan over medium-low heat. Add the 16 grams flour a little at a time while stirring. Keep stirring for about 2 minutes until the mixture is bubbly and forms a smooth pale paste; do not let it turn dark brown.",
+      "Remove the pan from the burner. Gradually pour in the 275 ml milk while whisking to prevent lumps. Stir in three quarters of the grated cheddar, about 187.5 grams, until melted. The source allows salt and pepper to taste; add only if desired.",
+      "Arrange a thin layer of potato slices in the baking dish, spoon over some cheese sauce, and add some cooked bacon if using it. Repeat until all the potatoes and sauce are used, spreading the layers evenly.",
+      "Scatter the remaining quarter of the cheddar, about 62.5 grams, over the top. Bake on the center rack for about 45 minutes. If the cheese browns before the potatoes soften, loosely cover the dish with foil.",
+      "Insert a small knife or fork into the center: it should slide easily through the potatoes. If they are still firm, continue baking and check again. Remove the hot dish with oven mitts, allow the bubbling sauce to settle, and divide into 4 portions."
+    ],
+    "recipeId": "26b3e42b-4c94-5fd1-af1a-5b27699c0596",
+    "sourceSnapshotSha256": "2eb7645d2913a4dd1571a6cd851542e05e163a31df075231b172951e41d49df2"
+  },
+  {
+    "name": "Chicken Biscuit Potpie Recipe",
+    "url": "https://publicdomainrecipes.com/chicken-biscuit-potpie/",
+    "recipeId": "0b2485a6-7aa9-5fb8-8777-642551f99cc7",
+    "sourceSnapshotSha256": "3c98482b02e744cd324ba8d59ea89a4b46456ebdf6838fdc019e96f84d71f097"
+  },
+  {
+    "name": "Chicken Paprikash",
+    "url": "https://publicdomainrecipes.com/chicken-paprikash/",
+    "recipeId": "b3610664-e4dd-5072-bb10-75d12d78aa07",
+    "sourceSnapshotSha256": "b8135f29614e99954d4746ccca1650e0e20f14d34fc029be79a9e0fb6da3eb5a"
+  },
+  {
+    "name": "Chicken Pasta Casserole",
+    "url": "https://publicdomainrecipes.com/chicken-pasta-casserole/",
+    "recipeId": "25960806-0e1c-5e03-8192-fa856d1fcbde",
+    "sourceSnapshotSha256": "8d69e809172fd954fa0d337240434d777bf47a3e9ed235ffbfce0c24707c9b05"
+  },
+  {
+    "name": "Chicken Satay with Peanut Sauce",
+    "url": "https://publicdomainrecipes.com/chicken-satay/",
+    "recipeId": "4ea29d5f-2f51-5295-9b60-4c3dc6b3a500",
+    "sourceSnapshotSha256": "3b42bff32e3b2f34b98a1a9121d1cc4f6818d164f1c6daa19fbbfd07ca1dc1ec"
+  },
+  {
+    "name": "Chicken Soup",
+    "url": "https://publicdomainrecipes.com/chicken-soup/",
+    "recipeId": "a2ce995c-7a69-53b3-8b9b-fec71b6d7e8a",
+    "sourceSnapshotSha256": "2de6d68ed43b3af769010dbf876bed53c0b4a49b713b7c5cd432e780c4586018"
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "url": "https://publicdomainrecipes.com/chicken-tikka-masala/",
+    "recipeId": "aadfbc6b-06c0-5411-a579-245dfa602104",
+    "sourceSnapshotSha256": "f213e947baa94d14c74314c2597e547508210a8647c5b6d9fbac92c00b942037"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "url": "https://publicdomainrecipes.com/chocolate-chip-cookies/",
+    "recipeId": "508d8272-7c4a-5d40-8cbe-7f99db537a1d",
+    "sourceSnapshotSha256": "488cf3dbb58b71e25827e75348eab37eba8b314c83cb6dd5105ab607d5fb0d62"
+  },
+  {
+    "name": "Coleslaw",
+    "url": "https://publicdomainrecipes.com/coleslaw/",
+    "recipeId": "4c1faf08-c899-56b1-98cc-1b7473e48015",
+    "sourceSnapshotSha256": "3f372a2b74b1d5be4038b69e44766ac7ab0e5f6d7d88fe89dd0ace745804b677"
+  },
+  {
+    "name": "Crème brûlée",
+    "url": "https://publicdomainrecipes.com/creme-brulee/",
+    "recipeId": "95bfedcd-d93c-5441-87e5-d8288b82776e",
+    "sourceSnapshotSha256": "e4f690f72143d9ac978760bef25d8822c28fc9c801673de1f06f4710adcf29b9"
+  },
+  {
+    "name": "Easy Chicken and Rice Casserole",
+    "url": "https://publicdomainrecipes.com/easy-chicken-and-rice-casserole/",
+    "instructionsOverride": [
+      "Set out a large frying pan, an 8-cup (2-quart) baking dish with a lid or foil, measuring tools, and a food thermometer. Preheat the oven to 350°F (177°C). Use cooked chicken, not raw chicken, for this source recipe.",
+      "Wash and chop enough onion for 1/2 cup and celery for 1/2 cup. Cut cooked chicken into small pieces to measure 2 cups. Measure 2/3 cup dry long-grain white rice and 1 3/4 cups hot water.",
+      "Melt 2 tablespoons butter or margarine in the frying pan over medium heat. Add the onion and celery and stir until softened, lowering the heat if they brown quickly.",
+      "Stir in the cooked chicken, rice, hot water, one 10-ounce can mushrooms with its liquid, 1 cup frozen peas and carrots, and 1 teaspoon dried thyme and rosemary as the source lists. Mix until the rice is distributed throughout the liquid.",
+      "Transfer to the baking dish and cover tightly. Bake for about 30 minutes, then check that the rice is tender and has absorbed the liquid. If still hard, re-cover and continue baking, checking again rather than serving crunchy rice.",
+      "Check the center with a food thermometer: this reheated chicken casserole must reach 165°F (74°C). Remove the hot dish with oven mitts, let the steam settle before uncovering, and divide into 4 servings."
+    ],
+    "recipeId": "fc746ec7-169e-531e-bc3f-ba6b97a472ba",
+    "sourceSnapshotSha256": "9e1c6b32462df85665b7f118ea451e4ac3aecbad7cdad1bc42943f57a2a7b8b6"
+  },
+  {
+    "name": "Egg Roll in a Bowl",
+    "url": "https://publicdomainrecipes.com/eggroll-in-a-bowl/",
+    "recipeId": "20de8eb1-867e-5d90-826c-97a3516d3046",
+    "sourceSnapshotSha256": "35c5b092ccd26cbc27c6648df5320267e67cb2addbd163a4f915ff4197611ebf"
+  },
+  {
+    "name": "Fajitas",
+    "url": "https://publicdomainrecipes.com/fajitas/",
+    "recipeId": "4d29a2c9-9b95-5ddf-b696-28264d76870c",
+    "sourceSnapshotSha256": "13d3c055ba672c0685835c53468c555eb8cb4ba6ad3246a5d60b0c74af65d9ef"
+  },
+  {
+    "name": "Fall Vegetable and Chickpea Curry",
+    "url": "https://publicdomainrecipes.com/fall-vegetable-and-chickpea-curry/",
+    "recipeId": "97ed41f8-0f13-5bc4-87a9-efe13d05ffb4",
+    "sourceSnapshotSha256": "2f4765b6c554cf5a38cf2a2327e48d31c20bb7471e5edfbe55b7db227c3e798d"
+  },
+  {
+    "name": "Fennel White Bean and Kale Soup",
+    "url": "https://publicdomainrecipes.com/fennel-beans-and-kale-soup/",
+    "recipeId": "80c1dcc3-e300-54f6-9904-dc8eea4ee605",
+    "sourceSnapshotSha256": "99bd8f619c53afd89cfb718a11d55e046363a61dd372c64b6937155ae500232c"
+  },
+  {
+    "name": "Finnish Salmon Soup",
+    "url": "https://publicdomainrecipes.com/finnish-salmon-soup/",
+    "recipeId": "35f8e9b7-01b2-5f17-b18f-70f1698a0058",
+    "sourceSnapshotSha256": "352f9793309c2be0b259f07166440222855988ab51d545709addf78c86c29fb6"
+  },
+  {
+    "name": "Fish Curry",
+    "url": "https://publicdomainrecipes.com/fish-curry/",
+    "recipeId": "9ca336aa-7d24-5ebd-8a35-0db28e5c2195",
+    "sourceSnapshotSha256": "a8b9b01dd067e06ad314a5fde2ca0b326c31c118f0a397d1a993b498619dbb90"
+  },
+  {
+    "name": "Fondue",
+    "url": "https://publicdomainrecipes.com/fondue/",
+    "recipeId": "0537a14f-c223-5f20-88e0-4078c6cf6c9b",
+    "sourceSnapshotSha256": "7a951c84068a6f5de7b535a5cf6ef1712c8813614277db4e590b7e1166aa3e2e"
+  },
+  {
+    "name": "French Crêpes",
+    "url": "https://publicdomainrecipes.com/french-crepes/",
+    "recipeId": "157c4c60-8534-500a-b383-f713fbed1845",
+    "sourceSnapshotSha256": "68f4e3c49e96caf33edf40158329cc881e14db6f86569565c388f74a4dfbd201"
+  },
+  {
+    "name": "French Onion Soup",
+    "url": "https://publicdomainrecipes.com/french-onion-soup/",
+    "recipeId": "a6d2c7c4-a6f5-5daa-a9cb-d316e57cf20d",
+    "sourceSnapshotSha256": "9b76c4c8edef7beed50331a106260331af09502d6d3ae034f96f0025666cc714"
+  },
+  {
+    "name": "French Toast",
+    "url": "https://publicdomainrecipes.com/french-toast/",
+    "recipeId": "4d09909e-6780-5255-bf33-ee9fc243a7ff",
+    "sourceSnapshotSha256": "3b119ec9e211286c92e8e92bcce408460164511190f9ade654f9c2cf6b4e93d1"
+  },
+  {
+    "name": "Fresh Guacamole",
+    "url": "https://publicdomainrecipes.com/guacamole/",
+    "recipeId": "b71d1dc5-462b-57e1-93f7-ca2e47610ed6",
+    "sourceSnapshotSha256": "8cb7922f71b0085df56297b989a1db5977ddce3cfc0a89aa23d0e65571496525"
+  },
+  {
+    "name": "Frittata",
+    "url": "https://publicdomainrecipes.com/frittata/",
+    "recipeId": "2f89924c-3fcc-5062-9420-d8a180c2c77a",
+    "sourceSnapshotSha256": "75f19faca18d9fb4ccd8ad0298e77d5670836713d4f388b0006d2dab38ab1d9a"
+  },
+  {
+    "name": "Granola",
+    "url": "https://publicdomainrecipes.com/granola/",
+    "recipeId": "abc05877-8d7a-5f23-a114-75149e514ab0",
+    "sourceSnapshotSha256": "f8b88ffccbb3959200fd6fc7cdc4af88054c99b97d8a29ea18a3bcb354da1ae7"
+  },
+  {
+    "name": "Greek Salad",
+    "url": "https://publicdomainrecipes.com/greek-salad/",
+    "instructionsOverride": [
+      "Set out a large salad bowl, small dressing bowl, whisk, cutting board, and knife. Wash the lettuce, 4 tomatoes, 1 cucumber, 1 bell pepper, 1 small onion, parsley, and any fresh herbs before cutting.",
+      "Chop or tear enough lettuce for 2 cups. Cut the tomatoes into wedges. Remove the cucumber seeds if desired and slice it. Remove the pepper stem and seeds and cut into strips. Peel and thinly slice the onion.",
+      "Coarsely chop 1/2 cup pitted black olives, chop enough parsley for 1/4 cup, and finely chop enough garlic for 1/2 teaspoon. Crumble 3/5 cup feta cheese. Put the lettuce, tomatoes, cucumber, pepper, onion, and olives in the large bowl.",
+      "In the small bowl, whisk 6 tablespoons olive oil, 1 teaspoon red wine vinegar, and 2 tablespoons fresh lemon juice. Add the chopped garlic and parsley, 1/2 teaspoon oregano, and 1/2 teaspoon dill weed. The source allows salt and black pepper to taste.",
+      "Whisk until the dressing looks evenly mixed, then drizzle it over the vegetables. Use two large spoons to gently lift and turn the salad until lightly coated without crushing the tomatoes.",
+      "Sprinkle the crumbled feta over the top and serve. The source gives a yield of 4–6 servings; keep that range rather than assuming one exact serving count."
+    ],
+    "recipeId": "e3fa2239-27df-55cc-80e8-00db5205d99f",
+    "sourceSnapshotSha256": "cda2baa4c87bb11c0c2b2bff1d258405bb8e50fb24d6e91191c576eb136fa76a"
+  },
+  {
+    "name": "Hoisin Tofu and Broccoli",
+    "url": "https://publicdomainrecipes.com/hoisin-tofu-and-broccoli/",
+    "recipeId": "dfda0e11-091b-50d6-9f11-e5357da8abda",
+    "sourceSnapshotSha256": "89739cb88a36ede5a7926511156bc10a7ddc7f9bfa793a0748baeafb50180707"
+  },
+  {
+    "name": "Honey Garlic Chicken with Broccoli and Brown Rice",
+    "url": "https://publicdomainrecipes.com/honey-garlic-chicken/",
+    "recipeId": "f15d8b6c-f1ea-58a0-9432-fc1f9790194b",
+    "sourceSnapshotSha256": "df939ceee414bee2fe14f146394039e6b37852a67081d2b148086b5d004b625e"
+  },
+  {
+    "name": "Honey Sriracha Chicken Thighs",
+    "url": "https://publicdomainrecipes.com/honey-sriracha-chicken-thighs/",
+    "recipeId": "405af776-d08d-5b6b-a012-48c7c8be979b",
+    "sourceSnapshotSha256": "8e13212d9c7d1967772bfd1351568858552099c5a62237984e7ccfc5dc38cb03"
+  },
+  {
+    "name": "Italian Bread",
+    "url": "https://publicdomainrecipes.com/italian-bread/",
+    "recipeId": "6011d493-88b6-566c-9ad2-041a557d331f",
+    "sourceSnapshotSha256": "596a86a06152761c418adcd275bda3e7378ef33deb5a484a9bd1594e0f0882f7"
+  },
+  {
+    "name": "Kettle Corn",
+    "url": "https://publicdomainrecipes.com/kettlecorn/",
+    "recipeId": "bbe0ed3d-78c1-5fd8-bc81-895f178d0484",
+    "sourceSnapshotSha256": "e2807950fd5ff29224b8e47751fb82d3d7bf8b0799ea55305eecc3779e30aaef"
+  },
+  {
+    "name": "Lebanese Lentil Soup",
+    "url": "https://publicdomainrecipes.com/lebanese-lentil-soup/",
+    "recipeId": "a72b55ae-a864-5836-9e2a-15b54a209ea1",
+    "sourceSnapshotSha256": "047ef77ee8bb9a6c23e1cdc8d1eb1b8871865ff3377b4a9310f2c454af0f46f9"
+  },
+  {
+    "name": "Lemon and oregano chicken traybake",
+    "url": "https://publicdomainrecipes.com/lemon-and-oregano-chicken-traybake/",
+    "recipeId": "b0d44abd-d01e-599c-bd40-e07e3d92f60f",
+    "sourceSnapshotSha256": "b11a39b8790ca6abfbffcadb26f87ce4c06e1073bffbbf14751ca4d78cde4f8b"
+  },
+  {
+    "name": "Lenten Chili",
+    "url": "https://publicdomainrecipes.com/lenten-chili/",
+    "recipeId": "1d51735b-75b1-5a21-9c2c-6ab51e3c8c02",
+    "sourceSnapshotSha256": "45599ac27058eb807383c060a397e39d453d17b23ece5d54a3501837c4b607fd"
+  },
+  {
+    "name": "Loaded Mexican Rice",
+    "url": "https://publicdomainrecipes.com/loaded-mexican-rice/",
+    "recipeId": "faa66548-c8e1-55f9-87c0-cc9e7b2aa5a5",
+    "sourceSnapshotSha256": "27da3de2d12177ce0a42fd501a446f62b7f2b0b3c116b0922ab70c45ed96a16f"
+  },
+  {
+    "name": "Mapo Tofu (麻婆豆腐)",
+    "url": "https://publicdomainrecipes.com/mapo-tofu/",
+    "recipeId": "05130fd0-6a6b-5dcb-abf2-caafb70b2260",
+    "sourceSnapshotSha256": "8e1d28b40ae1c8b5116c486a3abe293dc918156d4dcb93bcac0650c1a3919b86"
+  },
+  {
+    "name": "Mushroom Stroganov",
+    "url": "https://publicdomainrecipes.com/mushroom-stragonov/",
+    "recipeId": "1e167fb3-4099-5f77-91d7-cd49e76f440d",
+    "sourceSnapshotSha256": "511adfce9e784414944754092d95c358748cefec1dac8381935efa40d876e78a"
+  },
+  {
+    "name": "Naan Bread",
+    "url": "https://publicdomainrecipes.com/naan-bread/",
+    "instructionsOverride": [
+      "Set out a large mixing bowl, small bowl, measuring tools, rolling pin, brush, and baking tray. Measure 3 cups all-purpose flour, 1 tablespoon active dry yeast, 2 tablespoons sugar, 1 cup milk, 2 tablespoons melted butter, and 1 1/2 teaspoons salt. Keep a little oil available to grease the dough, as the source directs.",
+      "Warm the 1 cup milk until comfortably warm rather than hot; about 110°F (43°C) is a useful yeast-working target. Stir in the yeast and sugar in the small bowl and leave for 3–5 minutes. The surface should become foamy; if it does not, check that the yeast is active before continuing.",
+      "Whisk the flour and salt together in the large bowl. Pour in the milk-yeast mixture and mix with a spoon until a soft dough forms. Bring loose flour into the dough with your hands; add only a light dusting of flour if needed to stop it sticking.",
+      "Rub a thin layer of oil over the dough, cover the bowl with a clean cloth, and leave in a warm place for 2–3 hours, following the source method. The dough should become noticeably puffier.",
+      "Turn the dough onto a lightly floured surface. Knead until smooth by pushing it away with the heel of your hand, folding it back, and turning it. Divide into 4 equal pieces and roll each into a ball.",
+      "Preheat the oven to 180°C (356°F). Roll each ball into a flat oval about the size of a small tortilla. Place the ovals on the foil-lined baking tray with a little space between them.",
+      "Bake for the source’s 30–35-minute range, checking near the end: the bread should be cooked through and lightly golden. Remove with oven mitts if done sooner rather than letting it burn.",
+      "Brush the warm breads with the 2 tablespoons melted butter. Let cool enough to handle, then cut and serve. This is the source’s oven-baked naan variation, rather than a stovetop version."
+    ],
+    "metadataOverrides": {
+      "prepMinutes": null
+    },
+    "reviewNotes": "The 90-minute source prep estimate was left unknown because the method specifies a 2–3-hour rise. The missing instruction to combine the milk mixture with the flour was made explicit.",
+    "recipeId": "7780b73e-7f25-5d6e-b244-75e66769f162",
+    "sourceSnapshotSha256": "a0307379c0a591363cb1432bc5de7e5c07c345a2ca15e394b0d0de3a81338479"
+  },
+  {
+    "name": "Newfoundland Cod Chowder",
+    "url": "https://publicdomainrecipes.com/newfoundland-cod-chowder/",
+    "recipeId": "d596481e-978f-53a0-927c-e06ae3121c69",
+    "sourceSnapshotSha256": "cfa710bb0c405428c218fad559b51f5f676b1f4558735d8b35b62e86fb89bb75"
+  },
+  {
+    "name": "No-knead Bread",
+    "url": "https://publicdomainrecipes.com/no-knead-bread/",
+    "recipeId": "5f8e70cb-1e4c-55cd-8dc8-45833c6281c7",
+    "sourceSnapshotSha256": "567431209719b8a4686e851a446eab46ea6d547a0a13ef42e99ebfca8e1ee3c5"
+  },
+  {
+    "name": "Oatmeal Cookies",
+    "url": "https://publicdomainrecipes.com/oatmeal-cookies/",
+    "recipeId": "045b94d7-edec-5540-b690-5012055f0fb5",
+    "sourceSnapshotSha256": "29545e113d233d6a44c234fb3084b8e6b5887cc7dc0f84f49534f9656e8fc720"
+  },
+  {
+    "name": "Oatmeal Pancakes",
+    "url": "https://publicdomainrecipes.com/oatmeal-pancakes/",
+    "recipeId": "b65d5074-f44d-5a4b-8bdf-79b647bdf5c3",
+    "sourceSnapshotSha256": "b34263de91b011602c064aa763f15ee4fa93fbf19682eb65d4c59a03ab2690d6"
+  },
+  {
+    "name": "Omelet",
+    "url": "https://publicdomainrecipes.com/omelet/",
+    "recipeId": "7b9fcc57-6b6a-56f4-b426-aeb62d74e41a",
+    "sourceSnapshotSha256": "98ec86cd16843155f257ae15341fa7247a78f37482a33ca9cab4b4a2ab266920"
+  },
+  {
+    "name": "One-Pot Chicken Tetrazzini",
+    "url": "https://publicdomainrecipes.com/one-pot-chicken-tetrazzini/",
+    "recipeId": "805b4b4d-5823-5dfe-80f4-af8e0c91e306",
+    "sourceSnapshotSha256": "a7a83894faee5938e816a66b6384721a0c088291a3b37eeb2f1f038d2022fa1a"
+  },
+  {
+    "name": "Panang-Style Beef Curry",
+    "url": "https://publicdomainrecipes.com/panang-style-beef-curry/",
+    "recipeId": "b4bb352b-0660-5c84-99ed-fcd5d6ed2e5a",
+    "sourceSnapshotSha256": "0d22dc17d3dd626cf594b1cfd0cc2fb508451e2c15c1d2504c00df1ef77b4d99"
+  },
+  {
+    "name": "Pancake",
+    "url": "https://publicdomainrecipes.com/pancake/",
+    "recipeId": "a90f7804-08d0-51b7-9606-c914902ba11d",
+    "sourceSnapshotSha256": "d775fa4907a04aa12b41c28e2d34a2802654dce698aec541ccc66ea4ac3c5e3a"
+  },
+  {
+    "name": "Pasta Alla Norma",
+    "url": "https://publicdomainrecipes.com/pasta-alla-norma/",
+    "recipeId": "1519578f-bd35-5ebe-86e7-a705cd4fdc1e",
+    "sourceSnapshotSha256": "d4b872d0e9f52b7eb9a23a69ab6ffac61f001d132f35cec953ca3645a28b7e5c"
+  },
+  {
+    "name": "Pavlova",
+    "url": "https://publicdomainrecipes.com/pavlova/",
+    "recipeId": "f22b632f-f2fe-5da8-ad41-96900dbda6f7",
+    "sourceSnapshotSha256": "ff94b99f137e2f7d05b319315c19da4cef2a5de5c9835df17d2c97be0760e87f"
+  },
+  {
+    "name": "Perfect Potato Salad",
+    "url": "https://publicdomainrecipes.com/perfect-potato-salad/",
+    "instructionsOverride": [
+      "Set out a pot, colander, mixing bowl, knife, and cutting board. Wash and peel 5 potatoes, about 2 pounds total, and cut into similarly sized bite-size chunks.",
+      "Put the potatoes in the pot and add enough water to just cover them. Partially cover with a lid and bring to a boil over high heat. Reduce the heat to maintain a gentle simmer.",
+      "Begin checking the potatoes after the source’s 5 minutes of simmering. Pierce a chunk with a fork: it should be tender all the way through without falling apart. Continue simmering and checking if still hard; larger chunks can take longer. Drain carefully and let excess water drip away.",
+      "While the potatoes cook, wash and thinly slice 4 radishes, dice 2 celery stalks, and thinly slice 2 large green onions. Chop enough fresh parsley for 1/4 cup and fresh dill for 1/4 cup.",
+      "In the large bowl, stir 1 cup plain yogurt, 1/2 cup mayonnaise, and 1 tablespoon prepared horseradish until smooth. Add the radishes, celery, green onions, parsley, and dill; the source allows salt and pepper to taste.",
+      "Add the warm drained potatoes and fold gently to coat without crushing them. Cover and refrigerate for at least 1 hour before serving. Keep at 40°F (4°C) or colder and divide into 8 servings."
+    ],
+    "recipeId": "fb052050-0ebc-52d4-91f5-35360caea6fc",
+    "sourceSnapshotSha256": "9b0720bd4998f38e18e442b9ed5739492111310a316b862b805aa0ecc0f59181"
+  },
+  {
+    "name": "Potato Leek Soup",
+    "url": "https://publicdomainrecipes.com/potato-leek-soup/",
+    "recipeId": "213407c4-1b5f-5797-9e7c-f02172608987",
+    "sourceSnapshotSha256": "8058683d1080adefa7a51e6927d0db0f873089cab97377df113b6644f53e46a9"
+  },
+  {
+    "name": "Ratatouille",
+    "url": "https://publicdomainrecipes.com/ratatouille/",
+    "recipeId": "2bfc1ed1-e30a-55bf-b85f-9f29a1b101d8",
+    "sourceSnapshotSha256": "95b126291c5999257d4af43ebe7d98578181471cac4182cb144a60de56aa90f6"
+  },
+  {
+    "name": "Red Lentil Dahl",
+    "url": "https://publicdomainrecipes.com/red-lentil-dahl/",
+    "recipeId": "b3522a03-5138-57fb-87ba-204d4e48cffd",
+    "sourceSnapshotSha256": "d3960fbae7cbce7424fe405ebb4f9d46dd31ae643607343a4e125d45c67e371c"
+  },
+  {
+    "name": "Rösti",
+    "url": "https://publicdomainrecipes.com/roesti/",
+    "recipeId": "33a37ed6-8526-585f-9a97-7742504cf256",
+    "sourceSnapshotSha256": "824c4e6bf9ff57bd0884aa3d20ac15af6b833dc4cfbf762df8eaed30a08c91eb"
+  },
+  {
+    "name": "Salsa",
+    "url": "https://publicdomainrecipes.com/salsa/",
+    "instructionsOverride": [
+      "Set out a food processor, cutting board, knife, strainer, and a clean covered storage container. This recipe is blended without cooking.",
+      "Wash the 1 1/4 pounds fresh tomatoes, 1 green onion, 1 red onion, 1 jalapeño, and 1 handful fresh cilantro under running water. Remove tomato stem cores and the jalapeño stem. Peel the red onion and 1 garlic clove. Cut the tomatoes and onions into pieces small enough to fit the processor.",
+      "For a milder salsa, cut the jalapeño lengthwise and scrape out its seeds and pale inner ribs with a spoon. Avoid touching your eyes and wash your hands after handling the pepper. Leave the seeds in if you prefer more heat.",
+      "Put the prepared vegetables, cilantro, garlic, and one 14.5-ounce can of tomatoes into the food processor. If using the optional 1/2 lime, squeeze in its juice and remove any seeds; add the optional chili pepper and 1/4 teaspoon cumin only if wanted.",
+      "Fit the lid securely. Pulse in short bursts of about 1 second, checking after each few pulses, until the vegetables are chopped to your preferred chunkiness. Stop the motor before opening the lid or scraping the sides with a spatula.",
+      "Spoon into the clean container, cover, and refrigerate at 40°F (4°C) or colder until serving. Use a clean spoon to serve the chilled salsa.",
+      "Refrigerate promptly after serving rather than leaving it at room temperature for more than 2 hours. For this Remy adaptation, make a small batch and use it within 3–4 days; the source’s longer storage suggestion is not used."
+    ],
+    "reviewNotes": "The source’s one-week refrigerator suggestion was shortened to a conservative 3–4-day plan in this adaptation.",
+    "recipeId": "2c62b010-a9ea-59e0-82f3-50e9a27bbcc6",
+    "sourceSnapshotSha256": "6a7e1c9f79611b27556e313de052997f2358643f16186cb2aff3a5aaf7ad231a"
+  },
+  {
+    "name": "Salsa Verde",
+    "url": "https://publicdomainrecipes.com/salsa-verde/",
+    "recipeId": "9612e94d-4a3a-566f-9b99-4591115b1903",
+    "sourceSnapshotSha256": "c831da5d7edcb9bbc2c731ac20d165000087a2aa34fa805d5f769dc18b4bdc2d"
+  },
+  {
+    "name": "Schnitzel",
+    "url": "https://publicdomainrecipes.com/schnitzel/",
+    "recipeId": "baac276b-b922-5c88-93f5-a7d537954ac9",
+    "sourceSnapshotSha256": "bf2fbe65a19cdd6015bd12227c79b8e91e00184cfb14b9001e779d126d0d3ae5"
+  },
+  {
+    "name": "Shepherd's Pie",
+    "url": "https://publicdomainrecipes.com/shepherds-pie/",
+    "recipeId": "73648f16-d569-5c52-be2a-efad74135ba5",
+    "sourceSnapshotSha256": "a25bf5369b8545b2cac0343df3cd7ba0d33c48918373b1ebacab89f18c0b1d6f"
+  },
+  {
+    "name": "Shrimp Fettuccine Alfredo",
+    "url": "https://publicdomainrecipes.com/shrimp-fettuccine-alfredo/",
+    "recipeId": "e7a62606-9f43-54a5-bc02-7cf8e4cf3ced",
+    "sourceSnapshotSha256": "4a1ebaa2401f3b93a2a7f70a3d36dec0c4dceb67a243a52d12095db0eb5cf608"
+  },
+  {
+    "name": "Shrimp and Chicken Jambalaya",
+    "url": "https://publicdomainrecipes.com/shrimp-and-chicken-jambalaya/",
+    "recipeId": "09475265-0cee-5389-8b65-eb5277d18737",
+    "sourceSnapshotSha256": "1361989c792db9c7ee7f17986ab3efab19e45b6129b5809e42caf713d4f2eba1"
+  },
+  {
+    "name": "Shrimp and Grits",
+    "url": "https://publicdomainrecipes.com/shrimp-and-grits/",
+    "recipeId": "dcf2629b-86ac-5238-8bf3-5b2d86b9876e",
+    "sourceSnapshotSha256": "fdd620557e11b992b410e34629b1156a0e6a6cdfa8c97ea5613b1fde6e148c7f"
+  },
+  {
+    "name": "Shrimp and Sausage Gumbo",
+    "url": "https://publicdomainrecipes.com/gumbo-shrimp-and-sausage/",
+    "recipeId": "c4a149f1-cd23-541e-9260-422653d588e1",
+    "sourceSnapshotSha256": "bc99536bf7e01651cb6d611f9da6cdb20ebfdf8d7b6e6381243b8e2062779faf"
+  },
+  {
+    "name": "Simple Chicken Curry",
+    "url": "https://publicdomainrecipes.com/simple-chicken-curry/",
+    "recipeId": "7374b1c9-155c-592d-a747-d16bb268070c",
+    "sourceSnapshotSha256": "c4390d22d7f9f80f82ab058bb85742c9fbddb415cd521d2ddefda6760bbf92b7"
+  },
+  {
+    "name": "Simple Tuna Salad",
+    "url": "https://publicdomainrecipes.com/tuna-salad/",
+    "instructionsOverride": [
+      "Set out a medium mixing bowl, spoon, can opener, and strainer. Open one 7-ounce can white tuna, drain it well, and place the tuna in the bowl.",
+      "Use the spoon or a fork to break large tuna pieces into small flakes. Measure 6 tablespoons mayonnaise and 1 tablespoon sweet pickle relish.",
+      "Add the mayonnaise and relish to the tuna. Stir and fold until the flakes are evenly coated and no large pockets of mayonnaise remain.",
+      "If desired, stir in the source’s optional 2 tablespoons white vinegar or lemon juice, 1 cup shredded cheese, or 1 chopped hard-boiled egg. The egg must already be fully cooked and peeled before you chop it.",
+      "Add the optional pinch of garlic powder only if wanted. The source also allows salt and pepper to taste; taste a small spoonful before adding more seasoning.",
+      "Divide into 3 portions and serve chilled. If preparing ahead, cover and refrigerate at 40°F (4°C) or colder until serving; return unused portions to the refrigerator promptly."
+    ],
+    "recipeId": "e0fcd9c3-2712-5d4e-b1a8-0e631c285787",
+    "sourceSnapshotSha256": "2c2fbc52792f5b6bf807a7be5af555698e64ad5388ac287f06db1d8235b306a5"
+  },
+  {
+    "name": "Slow-cooked Pork Carnitas",
+    "url": "https://publicdomainrecipes.com/pork-carnitas/",
+    "recipeId": "360668b1-e2f3-56aa-b79d-6a778d01ba68",
+    "sourceSnapshotSha256": "343028d7a5b196cd3c7a252c878af1e08f1c0437b7e95422708d7a024e4bf17f"
+  },
+  {
+    "name": "Smoked Salmon Pasta Primavera",
+    "url": "https://publicdomainrecipes.com/smoked-salmon-pasta-primavera/",
+    "recipeId": "96c55253-3e09-5d29-b2ee-e5cc77d2f235",
+    "sourceSnapshotSha256": "e4dc8b92c6dd5369c338d6276fef8e3bce90748cc6f80c7fb8aa05b79adc66fc"
+  },
+  {
+    "name": "Smoked Salmon Quiche",
+    "url": "https://publicdomainrecipes.com/smoked-salmon-quiche/",
+    "recipeId": "8c94c3e9-67a5-5009-9fe6-9799ef8b583e",
+    "sourceSnapshotSha256": "0a0924fd566594e93fdaed1ab60de7d9c9b2cff57abd27ed62e729a8da855791"
+  },
+  {
+    "name": "Southern Biscuits",
+    "url": "https://publicdomainrecipes.com/southern-biscuits/",
+    "recipeId": "8436b356-66c5-581a-aa71-7f0b9a72b467",
+    "sourceSnapshotSha256": "ffbc35096982f2f1d7ad85e754f8ab220be3603f5e63a0bc930153139ed29aa9"
+  },
+  {
+    "name": "Spaghetti Sauce",
+    "url": "https://publicdomainrecipes.com/spaghetti-sauce/",
+    "recipeId": "5aeba34f-8f82-50ac-bea8-a18351f78d4c",
+    "sourceSnapshotSha256": "d8e7ac663a0d16b58d70acfe94a6ef8184e1156dee93a199d5e6765b06f87dca"
+  },
+  {
+    "name": "Spaghetti aglio e olio",
+    "url": "https://publicdomainrecipes.com/aglio-e-olio/",
+    "recipeId": "c9f1cffa-f38c-54e0-afd4-b3b165ef79c8",
+    "sourceSnapshotSha256": "bad4242f7bc4f766542d74c5403dd02adb27f27652e33815ea15e334d2c9f088"
+  },
+  {
+    "name": "Spaghetti alla puttanesca",
+    "url": "https://publicdomainrecipes.com/spaghetti-alla-puttanesca/",
+    "recipeId": "d327937d-9bf2-533d-80e8-bad979bd3160",
+    "sourceSnapshotSha256": "a6849dca758238f81b9972ccb4a3fe4c932b25becb0a646476e974ac17c4d857"
+  },
+  {
+    "name": "Spaghetti and Meatballs",
+    "url": "https://publicdomainrecipes.com/spaghetti-and-meatballs/",
+    "recipeId": "bf4bdc7f-7368-5810-af26-b9c6af6ab3f4",
+    "sourceSnapshotSha256": "3b62e732d8c664c03bb8b8f332603ed26796d774a91bfa68613a64647368f72f"
+  },
+  {
+    "name": "Spanish Tortilla",
+    "url": "https://publicdomainrecipes.com/spanish-tortilla/",
+    "recipeId": "efdca566-9264-5104-b844-f2aed8939e68",
+    "sourceSnapshotSha256": "cbf6bdcc90486fcc16ba97af7b2a879a572cb258438592794831714bfc8482a6"
+  },
+  {
+    "name": "Spatchcock Chicken",
+    "url": "https://publicdomainrecipes.com/spatchcock-chicken/",
+    "recipeId": "d89756e3-c4b7-59b1-bd71-d7cdc80b2a28",
+    "sourceSnapshotSha256": "2aa9deb12920d112aa3d63f225e78e8a26205e8f76940c4cfc135ef95961ab37"
+  },
+  {
+    "name": "Spiced Apple Pancakes",
+    "url": "https://publicdomainrecipes.com/spiced-apple-pancakes/",
+    "recipeId": "c4ea69e6-05c0-559b-9d5a-4c3a3087b1d1",
+    "sourceSnapshotSha256": "246101f38fc3c21809da0d8e01cca5a9212af7edb1814078834c363f0e7ba312"
+  },
+  {
+    "name": "Spicy Kung Pao-Style Chicken",
+    "url": "https://publicdomainrecipes.com/spicy-kung-pao-style-chicken/",
+    "recipeId": "afd6a4d2-82d9-5afa-989e-55534f363f6c",
+    "sourceSnapshotSha256": "e05545ce3c7a08ed8a52955499ea063e0d88ff14512e3837aa2832442e43fff1"
+  },
+  {
+    "name": "Spicy Sausage Pasta",
+    "url": "https://publicdomainrecipes.com/spicy-sausage-pasta/",
+    "recipeId": "7840e0b0-b049-5e61-99e0-99a27242f20d",
+    "sourceSnapshotSha256": "20e7a1121b69f0b26f2d4314a1aa47d2454855b8db8402c2c0d9ca9044025959"
+  },
+  {
+    "name": "Spinach-Rice Casserole",
+    "url": "https://publicdomainrecipes.com/spinach-rice-casserole/",
+    "recipeId": "af0574fa-95ae-5e52-9747-f61ce598605a",
+    "sourceSnapshotSha256": "e5c232d36c34907765edd23d6ebeee7ab7d93027e3f3a37416777d126fc572f9"
+  },
+  {
+    "name": "Stracciatella soup",
+    "url": "https://publicdomainrecipes.com/stracciatella-soup/",
+    "recipeId": "1c181f95-b2d9-53a3-9531-76c471f667f8",
+    "sourceSnapshotSha256": "159e0d76b2339fa64fa9a5c6d99daf51d70f21f07d893114bb08415e5cc2c5e0"
+  },
+  {
+    "name": "Swedish Pancakes",
+    "url": "https://publicdomainrecipes.com/swedish-pancakes/",
+    "recipeId": "244a94ea-95f7-5fb1-aa8a-9c112fa4a607",
+    "sourceSnapshotSha256": "49d0d427cf3a6e6e6ddcf71febce22b7e5f20eef2f14cfed747ba28b04ecc891"
+  },
+  {
+    "name": "Tabouleh",
+    "url": "https://publicdomainrecipes.com/tabouleh/",
+    "recipeId": "d3271306-d4ab-53bc-a4b6-ef2e58b32b05",
+    "sourceSnapshotSha256": "5c6a1bdddc87697bd1900332a57ce589be5a3d470759e5cdc38e54024df0698e"
+  },
+  {
+    "name": "Taco Meat",
+    "url": "https://publicdomainrecipes.com/taco-meat/",
+    "recipeId": "00c6ef50-ceb9-5e97-8a21-c44386a41a24",
+    "sourceSnapshotSha256": "ec725cf3a9b812efe5d1cd2124385807c83ebce7efb26923a54ed1bcd14be246"
+  },
+  {
+    "name": "Three Bean Salad",
+    "url": "https://publicdomainrecipes.com/bean-salad/",
+    "instructionsOverride": [
+      "Set out a large salad bowl, whisk, colander, knife, and cutting board. Measure the dressing ingredients before opening the beans.",
+      "Whisk 1/3 cup salad oil, 1/2 cup cider vinegar, 1 teaspoon salt, 1/2 teaspoon pepper, 1/4 cup sugar, and 1/2 teaspoon celery seed in the salad bowl until the sugar is mostly dissolved and the dressing is blended.",
+      "Open one can cut green beans, one can cut waxed beans, and one can red kidney beans. Empty them into the colander, rinse under cold water, and leave to drain well. Can sizes are not specified by the source.",
+      "Wash 1 carrot and 1 bell pepper. Peel the carrot and 1 small onion, thinly slice the carrot, chop the onion, and remove the pepper stem and seeds before chopping the pepper into small bite-size pieces.",
+      "Add the prepared vegetables and drained beans to the dressing. Fold gently with a large spoon until coated, taking care not to mash the kidney beans.",
+      "Cover and refrigerate for at least 1 hour before serving, stirring occasionally to redistribute the dressing. Keep the salad chilled at 40°F (4°C) or colder. Divide into 8 servings."
+    ],
+    "recipeId": "9f089a80-786b-5083-a8fd-56dc473d379f",
+    "sourceSnapshotSha256": "56e1b4f4de5a655b3fdd618a69e747176cedddbfcf7ed97bfd47fc55689a398d"
+  },
+  {
+    "name": "Tofu and Cashew Chow Mein",
+    "url": "https://publicdomainrecipes.com/tofu-and-cashew-chow-mein/",
+    "recipeId": "a5dfa362-08c5-5551-9975-9ff8528fed18",
+    "sourceSnapshotSha256": "ee497b2df35ce45f09400c0c670c92e698d48cf10993eabe89bcf8db6fe581eb"
+  },
+  {
+    "name": "Tomato and Grilled Bell Pepper soup",
+    "url": "https://publicdomainrecipes.com/tomato-and-grilled-paprika-soup/",
+    "recipeId": "db3be7ae-fef2-521c-a311-da48b5ed4991",
+    "sourceSnapshotSha256": "5fddd343bffb1b11cffb8bdfa9a8b1526bf69250d2a18428b639fceff5afe7f6"
+  },
+  {
+    "name": "Turkish Red Lentil Soup",
+    "url": "https://publicdomainrecipes.com/turkish-red-lentil-soup/",
+    "recipeId": "ed732198-aed7-5078-94db-cb5ed3da9349",
+    "sourceSnapshotSha256": "1373b7b91ebcb12f944814629814ca015eed8f8d92dbf904bcee3132539599ef"
+  },
+  {
+    "name": "Ukrainian Borscht",
+    "url": "https://publicdomainrecipes.com/ukrainian-borscht/",
+    "recipeId": "ec4492fe-a9bc-506c-8e72-d35251eb9f3d",
+    "sourceSnapshotSha256": "969008a10a86bec51828b83a6a213c4ca9bac558d72ca2dd3d8f2b4d3ee636b1"
+  },
+  {
+    "name": "Valencian Paella",
+    "url": "https://publicdomainrecipes.com/paella/",
+    "recipeId": "37d01286-3716-5b11-aa42-dfe19fe90bfd",
+    "sourceSnapshotSha256": "7d1c98c89d8dc64bad3931e3ca58951f4aa39a35917f2789dbceda8cf776761a"
+  },
+  {
+    "name": "Winter Risotto",
+    "url": "https://publicdomainrecipes.com/winter-risotto/",
+    "recipeId": "d14fa1dc-86b1-5bba-a544-a198db3684ec",
+    "sourceSnapshotSha256": "4c0ba08f1b7bf609d3140536f4394f095821fcd2f74d192ae9ac9bc1320645a5"
+  },
+  {
+    "name": "Yorkshire Puddings",
+    "url": "https://publicdomainrecipes.com/yorkshire-puddings/",
+    "recipeId": "20594c7f-bf51-5bb3-9100-a11545fe8d32",
+    "sourceSnapshotSha256": "b910d56066cbce8306e9051e347d89b8daa7b8381fc9ce24835d5f3410697e56"
+  }
+]

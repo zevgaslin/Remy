@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "35f8e9b7-01b2-5f17-b18f-70f1698a0058",
+  "name": "Finnish Salmon Soup",
+  "description": "This soup is also known as Lohikeitto.",
+  "cuisine": "Finnish",
+  "mealType": "Dinner",
+  "difficulty": "Easy",
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "6-8 servings",
+  "ingredients": [
+    {
+      "name": "Pcs salmon fillet",
+      "originalText": "2 pcs salmon fillet",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water or stock",
+      "originalText": "4 cups water or stock",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Leek",
+      "originalText": "1 leek",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "1/4 cup butter",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Potatoes",
+      "originalText": "5-7 potatoes",
+      "quantity": null,
+      "quantityText": "5-7",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrots",
+      "originalText": "1-2 carrots",
+      "quantity": null,
+      "quantityText": "1-2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Heavy cream",
+      "originalText": "1 cup heavy cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "salt and pepper to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Dill to garnish",
+      "originalText": "dill to garnish",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 pcs salmon fillet; 4 cups water or stock; 1 leek; 1/4 cup butter; 5-7 potatoes; 1-2 carrots; 1 cup heavy cream; salt and pepper to taste; dill to garnish. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Wash, clean, and dice all vegetables. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Remove scales from salmon fillet or remove skin entirely, up to you.",
+      "section": null
+    },
+    {
+      "text": "Dice. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "In a pot, melt butter.",
+      "section": null
+    },
+    {
+      "text": "Add diced leeks and cook on medium-high about 5 minutes until the leeks wilt a bit. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add water (or stock) and other vegetables.",
+      "section": null
+    },
+    {
+      "text": "Bring to a boil and cook on medium heat about 10-15 minutes until the potatoes are ready.",
+      "section": null
+    },
+    {
+      "text": "Add diced salmon fillet and heavy cream. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Cook for additional 5-10 minutes to cook the salmon.",
+      "section": null
+    },
+    {
+      "text": "Add salt and pepper to taste at the end.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check uncooked fish or shrimp with a food thermometer: it must reach 145°F (63°C). Fish should separate easily into flakes; shrimp should be opaque and firm. Continue cooking and recheck if needed."
+    },
+    {
+      "text": "Serve with dill as garnish.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "finnish"
+    },
+    {
+      "name": "category",
+      "value": "easy"
+    },
+    {
+      "name": "category",
+      "value": "finnish"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    },
+    {
+      "name": "category",
+      "value": "salmon"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    }
+  ],
+  "keywords": [
+    "easy",
+    "finnish",
+    "fish",
+    "salmon",
+    "soup",
+    "finnish salmon soup"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/finnish-salmon-soup/",
+    "siteName": "Public Domain Recipes",
+    "author": "Tara Brennan",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Wash, clean, and dice all vegetables.\n2. Remove scales from salmon fillet or remove skin entirely, up to you. Dice.\n3. In a pot, melt butter. Add diced leeks and cook on medium-high about 5 minutes until the leeks wilt a bit.\n4. Add water (or stock) and other vegetables. Bring to a boil and cook on medium heat about 10-15 minutes until the potatoes are ready.\n5. Add diced salmon fillet and heavy cream. Cook for additional 5-10 minutes to cook the salmon.\n6. Add salt and pepper to taste at the end. Serve with dill as garnish.",
+    "originalIngredients": [
+      "2 pcs salmon fillet",
+      "4 cups water or stock",
+      "1 leek",
+      "1/4 cup butter",
+      "5-7 potatoes",
+      "1-2 carrots",
+      "1 cup heavy cream",
+      "salt and pepper to taste",
+      "dill to garnish"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

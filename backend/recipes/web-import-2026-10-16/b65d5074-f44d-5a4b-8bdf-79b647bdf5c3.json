@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "b65d5074-f44d-5a4b-8bdf-79b647bdf5c3",
+  "name": "Oatmeal Pancakes",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "totalMinutes": null,
+  "servings": 8.0,
+  "yieldText": "8 servings",
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "40g sugar (3 tbsp)",
+      "quantity": 40.0,
+      "quantityText": "40",
+      "unit": "g",
+      "preparation": "3 tbsp",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Honey",
+      "originalText": "20g honey (1 tbsp)",
+      "quantity": 20.0,
+      "quantityText": "20",
+      "unit": "g",
+      "preparation": "1 tbsp",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "60ml milk (4 tbsp) (you can use water instead)",
+      "quantity": 60.0,
+      "quantityText": "60",
+      "unit": "ml",
+      "preparation": "4 tbsp; you can use water instead",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oat flour",
+      "originalText": "120g oat flour (1 cup)",
+      "quantity": 120.0,
+      "quantityText": "120",
+      "unit": "g",
+      "preparation": "1 cup",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking powder",
+      "originalText": "1 tsp baking powder (or baking soda + some acid to activate it)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": "or baking soda + some acid to activate it",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Raspberry jam",
+      "originalText": "Raspberry jam (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 eggs; 40g sugar (3 tbsp); 20g honey (1 tbsp); 60ml milk (4 tbsp) (you can use water instead); 120g oat flour (1 cup); 1 tsp baking powder (or baking soda + some acid to activate it); Raspberry jam (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Mix eggs, sugar, honey and milk.",
+      "section": null
+    },
+    {
+      "text": "In another bowl mix oat flour and baking powder.",
+      "section": null
+    },
+    {
+      "text": "Combine two mixtures and let the batter rest for about 15 minutes.",
+      "section": null
+    },
+    {
+      "text": "Preheat the pan for 5 minutes over low (~33%) heat, cook for about 1 - 1.5 minutes then flip when you see bubbles come out and cook for another 45s - 1 minute.",
+      "section": null
+    },
+    {
+      "text": "Eat them with raspberry (or any other) jam.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "pancake"
+    },
+    {
+      "name": "category",
+      "value": "sweet"
+    }
+  ],
+  "keywords": [
+    "breakfast",
+    "dessert",
+    "pancake",
+    "sweet",
+    "oatmeal pancakes"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/oatmeal-pancakes.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/oatmeal-pancakes/",
+    "siteName": "Public Domain Recipes",
+    "author": "wpnwbn",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Mix eggs, sugar, honey and milk.\n2. In another bowl mix oat flour and baking powder.\n3. Combine two mixtures and let the batter rest for about 15 minutes.\n4. Preheat the pan for 5 minutes over low (~33%) heat, cook for about 1 - 1.5 minutes then flip when you see bubbles come out and cook for another 45s - 1 minute.\n5. Eat them with raspberry (or any other) jam.",
+    "originalIngredients": [
+      "2 eggs",
+      "40g sugar (3 tbsp)",
+      "20g honey (1 tbsp)",
+      "60ml milk (4 tbsp) (you can use water instead)",
+      "120g oat flour (1 cup)",
+      "1 tsp baking powder (or baking soda + some acid to activate it)",
+      "Raspberry jam (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

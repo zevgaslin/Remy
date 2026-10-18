@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "73648f16-d569-5c52-be2a-efad74135ba5",
+  "name": "Shepherd's Pie",
+  "description": null,
+  "cuisine": "English",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 8.0,
+  "yieldText": "8 servings",
+  "ingredients": [
+    {
+      "name": "Mealy/floury potatoes",
+      "originalText": "600 grams (g) of mealy/floury potatoes",
+      "quantity": 600.0,
+      "quantityText": "600",
+      "unit": "grams",
+      "preparation": "g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onions",
+      "originalText": "2 onions",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrots",
+      "originalText": "2 carrots",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oil",
+      "originalText": "4 tablespoons (tbsp.) of oil",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": "tbsp.",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lamb",
+      "originalText": "800 g of minced lamb",
+      "quantity": 800.0,
+      "quantityText": "800",
+      "unit": "g",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Frozen peas",
+      "originalText": "100 g of frozen peas",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato paste/puree",
+      "originalText": "2 tbsp. of tomato paste/puree",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Beef stock",
+      "originalText": "300 milliliters (ml) beef stock",
+      "quantity": 300.0,
+      "quantityText": "300",
+      "unit": "milliliters",
+      "preparation": "ml",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet or smoked paprika",
+      "originalText": "1 tbsp. of sweet or smoked paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "30 g of butter",
+      "quantity": 30.0,
+      "quantityText": "30",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "200 ml of milk",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Nutmeg",
+      "originalText": "1 pinch of nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 600 grams (g) of mealy/floury potatoes; 2 onions; 2 carrots; 4 tablespoons (tbsp.) of oil; 800 g of minced lamb; 100 g of frozen peas; 2 tbsp. of tomato paste/puree; 300 milliliters (ml) beef stock; 1 tbsp. of sweet or smoked paprika; 30 g of butter; 200 ml of milk; 1 pinch of nutmeg. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Lamb: minced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Peel potatoes, cut into cubes and boil in saltwater for 20 minutes.",
+      "section": null
+    },
+    {
+      "text": "Peel the onions and carrots and cut into small cubes.",
+      "section": null
+    },
+    {
+      "text": "Heat the oil in a pan and fry the minced meat until crumbly. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add the onions, carrots and peas.",
+      "section": null
+    },
+    {
+      "text": "Add the tomato paste and beef stock.",
+      "section": null
+    },
+    {
+      "text": "Stir well and season with paprika, pepper and salt.",
+      "section": null
+    },
+    {
+      "text": "Drain potatoes and mash with butter.",
+      "section": null
+    },
+    {
+      "text": "Add milk, season with nutmeg and stir until creamy.",
+      "section": null
+    },
+    {
+      "text": "Preheat the oven to 200°C.",
+      "section": null
+    },
+    {
+      "text": "Grease a casserole dish with butter, put the minced meat in it and spread the mashed potatoes on it with a piping bag. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Put the dish in the oven for 30-40 minutes.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the meat with a food thermometer. Ground beef, pork, and lamb must reach 160°F (71°C); use 165°F (74°C) for any poultry sausage. Continue cooking if needed, and wash hands and utensils after touching raw meat."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "english"
+    },
+    {
+      "name": "category",
+      "value": "english"
+    },
+    {
+      "name": "category",
+      "value": "lamb"
+    },
+    {
+      "name": "category",
+      "value": "pie"
+    }
+  ],
+  "keywords": [
+    "english",
+    "lamb",
+    "pie",
+    "shepherd's pie"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/shepherds-pie/",
+    "siteName": "Public Domain Recipes",
+    "author": "Lázaro Blanc",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Peel potatoes, cut into cubes and boil in saltwater for 20 minutes. Peel the onions and carrots and cut into small cubes.\n2. Heat the oil in a pan and fry the minced meat until crumbly. Add the onions, carrots and peas. Add the tomato paste and beef stock. Stir well and season with paprika, pepper and salt.\n3. Drain potatoes and mash with butter. Add milk, season with nutmeg and stir until creamy.\n4. Preheat the oven to 200°C. Grease a casserole dish with butter, put the minced meat in it and spread the mashed potatoes on it with a piping bag. Put the dish in the oven for 30-40 minutes.",
+    "originalIngredients": [
+      "600 grams (g) of mealy/floury potatoes",
+      "2 onions",
+      "2 carrots",
+      "4 tablespoons (tbsp.) of oil",
+      "800 g of minced lamb",
+      "100 g of frozen peas",
+      "2 tbsp. of tomato paste/puree",
+      "300 milliliters (ml) beef stock",
+      "1 tbsp. of sweet or smoked paprika",
+      "30 g of butter",
+      "200 ml of milk",
+      "1 pinch of nutmeg"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

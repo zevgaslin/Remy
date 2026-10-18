@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "00c6ef50-ceb9-5e97-8a21-c44386a41a24",
+  "name": "Taco Meat",
+  "description": null,
+  "cuisine": "Mexican",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Ground beef or turkey",
+      "originalText": "1 pound (about 500 g) ground beef or turkey",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": "about 500 g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 medium onion, finely chopped (or 1 1/2 teaspoon onion powder)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "medium; finely chopped (or 1 1/2 teaspoon onion powder)",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato",
+      "originalText": "1 medium tomato, chopped (or 1 small can of tomato sauce)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "medium; chopped (or 1 small can of tomato sauce)",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chili powder",
+      "originalText": "1 teaspoon chili powder (or 1/3 teaspoon each oregano, cumin, garlic powder)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": "or 1/3 teaspoon each oregano, cumin, garlic powder",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oregano",
+      "originalText": "1 teaspoon oregano (ground or leaf)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": "ground or leaf",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cumin",
+      "originalText": "1/4 teaspoon cumin",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Dash of pepper",
+      "originalText": "dash of pepper (1/8 teaspoon or less)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": "1/8 teaspoon or less",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 pound (about 500 g) ground beef or turkey; 1 medium onion, finely chopped (or 1 1/2 teaspoon onion powder); 1 medium tomato, chopped (or 1 small can of tomato sauce); 1 teaspoon chili powder (or 1/3 teaspoon each oregano, cumin, garlic powder); 1 teaspoon oregano (ground or leaf); 1/4 teaspoon cumin; dash of pepper (1/8 teaspoon or less). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onion: medium; finely chopped (or 1 1/2 teaspoon onion powder); Tomato: medium; chopped (or 1 small can of tomato sauce). Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Brown beef and onion together.",
+      "section": null
+    },
+    {
+      "text": "Drain grease.",
+      "section": null
+    },
+    {
+      "text": "Add the rest of the ingredients to the browned meat.",
+      "section": null
+    },
+    {
+      "text": "Stir well.",
+      "section": null
+    },
+    {
+      "text": "Heat this mixture thoroughly.",
+      "section": null
+    },
+    {
+      "text": "Add more tomato sauce if the mixture is dry.",
+      "section": null
+    },
+    {
+      "text": "Cover and simmer for 20 minutes, or less if the mixture begins to dry out. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "beef"
+    },
+    {
+      "name": "category",
+      "value": "mexican"
+    }
+  ],
+  "keywords": [
+    "beef",
+    "mexican",
+    "taco meat"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/taco-meat/",
+    "siteName": "Public Domain Recipes",
+    "author": "Elias Howell",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Brown beef and onion together. Drain grease.\n2. Add the rest of the ingredients to the browned meat.\n3. Stir well.\n4. Heat this mixture thoroughly.\n5. Add more tomato sauce if the mixture is dry.\n6. Cover and simmer for 20 minutes, or less if the mixture begins to dry out.",
+    "originalIngredients": [
+      "1 pound (about 500 g) ground beef or turkey",
+      "1 medium onion, finely chopped (or 1 1/2 teaspoon onion powder)",
+      "1 medium tomato, chopped (or 1 small can of tomato sauce)",
+      "1 teaspoon chili powder (or 1/3 teaspoon each oregano, cumin, garlic powder)",
+      "1 teaspoon oregano (ground or leaf)",
+      "1/4 teaspoon cumin",
+      "dash of pepper (1/8 teaspoon or less)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

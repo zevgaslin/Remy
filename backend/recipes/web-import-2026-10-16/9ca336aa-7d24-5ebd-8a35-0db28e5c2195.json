@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "9ca336aa-7d24-5ebd-8a35-0db28e5c2195",
+  "name": "Fish Curry",
+  "description": "Best served with white rice",
+  "cuisine": "Thai",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 5.0,
+  "yieldText": "5 servings",
+  "ingredients": [
+    {
+      "name": "Neutral oil",
+      "originalText": "3T neutral oil",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red onion",
+      "originalText": "1 red onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 cloves of garlic",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ginger",
+      "originalText": "4cm ginger",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cm",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red pepper",
+      "originalText": "1 red pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Curry powder",
+      "originalText": "1t curry powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green beans",
+      "originalText": "250g green beans",
+      "quantity": 250.0,
+      "quantityText": "250",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "4 tomatoes",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Fish broth",
+      "originalText": "200ml fish broth",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Coconut milk",
+      "originalText": "200ml coconut milk",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Fish fillet",
+      "originalText": "400g fish fillet (white fish)",
+      "quantity": 400.0,
+      "quantityText": "400",
+      "unit": "g",
+      "preparation": "white fish",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 3T neutral oil; 1 onion; 1 red onion; 2 cloves of garlic; 4cm ginger; 1 red pepper; 1t curry powder; 250g green beans; 4 tomatoes; 200ml fish broth; 200ml coconut milk; 400g fish fillet (white fish). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Boil green beans for 10 minutes",
+      "section": null
+    },
+    {
+      "text": "Cut onions, tomato, garlic and fish.",
+      "section": null
+    },
+    {
+      "text": "Heat oil on a wok and sauté the onion and garlic Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Add beans, tomato, broth and spices and boil for 6 minutes",
+      "section": null
+    },
+    {
+      "text": "Add coconut milk, fish and pepper (whole) and boil for an additional 6 minutes.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check uncooked fish or shrimp with a food thermometer: it must reach 145°F (63°C). Fish should separate easily into flakes; shrimp should be opaque and firm. Continue cooking and recheck if needed."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "thai"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    },
+    {
+      "name": "category",
+      "value": "thai"
+    }
+  ],
+  "keywords": [
+    "fish",
+    "thai",
+    "fish curry"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/fish-curry/",
+    "siteName": "Public Domain Recipes",
+    "author": "Thijs Wester",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Boil green beans for 10 minutes\n2. Cut onions, tomato, garlic and fish.\n3. Heat oil on a wok and sauté the onion and garlic\n4. Add beans, tomato, broth and spices and boil for 6 minutes\n5. Add coconut milk, fish and pepper (whole) and boil for an additional 6 minutes.",
+    "originalIngredients": [
+      "3T neutral oil",
+      "1 onion",
+      "1 red onion",
+      "2 cloves of garlic",
+      "4cm ginger",
+      "1 red pepper",
+      "1t curry powder",
+      "250g green beans",
+      "4 tomatoes",
+      "200ml fish broth",
+      "200ml coconut milk",
+      "400g fish fillet (white fish)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

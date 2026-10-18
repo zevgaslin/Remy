@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "c62c0d7a-f232-52be-b354-e8025aca36f9",
+  "name": "Veggie Stir Fry Rice Bowl",
+  "description": "A flexible vegetable rice bowl for using up produce before it expires.",
+  "cuisine": "Asian-inspired",
+  "mealType": "Dinner",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 2,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Rice",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "dry long-grain white rice",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bell Pepper",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Broccoli",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrot",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Soy Sauce",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ginger",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a saucepan with a lid, a large nonstick frying pan, a cutting board, a knife, and a spoon. Use 1 cup dry long-grain white rice; brown rice requires different water and timing, so follow its package if substituting.",
+      "section": null
+    },
+    {
+      "text": "Rinse the 1 cup rice in a fine sieve. Put it in the saucepan with the water amount on its package, typically 2 cups. Bring to a boil over high heat, cover, reduce heat to low, and cook for the package time, typically 15\u201320 minutes. Do not lift the lid repeatedly. Turn off the heat and rest, covered, for 5 minutes. The grains should be tender; if still firm, add 2 tablespoons water and cook covered for 3\u20135 more minutes.",
+      "section": null
+    },
+    {
+      "text": "Wash 1 bell pepper and 1 cup broccoli. Remove the pepper stem and seeds and cut the pepper into thin strips. Cut broccoli into bite-size florets, about 1 inch across. If using the optional carrot, peel 1 carrot and cut it into thin half-moons about 1/8 inch thick. If using ginger, peel and finely chop enough for 1 teaspoon.",
+      "section": null
+    },
+    {
+      "text": "Heat the nonstick pan over medium-high heat for 1 minute. Add the broccoli and optional carrot with 3 tablespoons water. Cover for 3 minutes to steam, then remove the lid carefully, directing steam away from your face.",
+      "section": null
+    },
+    {
+      "text": "Add the pepper and optional 1 teaspoon ginger. Stir frequently for 3\u20135 minutes until the pepper softens and broccoli can be pierced with a fork but still has some bite. If vegetables stick, add water 1 tablespoon at a time and reduce the heat slightly.",
+      "section": null
+    },
+    {
+      "text": "Add 2 tablespoons soy sauce and stir for 30\u201360 seconds to coat the vegetables. Turn off the heat. Fluff the cooked rice by gently separating the grains with a fork.",
+      "section": null
+    },
+    {
+      "text": "Divide the rice between 2 bowls, spoon the vegetables and pan juices over it, and serve warm.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "diet",
+      "value": "dairy-free"
+    },
+    {
+      "name": "cuisine",
+      "value": "asian-inspired"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 450,
+    "protein": 10,
+    "carbs": 75,
+    "fat": 12
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Cook rice. Stir fry vegetables with ginger and soy sauce over high heat, then serve over rice."
+  }
+}

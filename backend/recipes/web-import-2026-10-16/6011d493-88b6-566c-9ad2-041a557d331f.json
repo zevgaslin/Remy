@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "6011d493-88b6-566c-9ad2-041a557d331f",
+  "name": "Italian Bread",
+  "description": null,
+  "cuisine": "Italian",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Or 5 cups bread flour",
+      "originalText": "600g or 5 cups bread flour (or all-purpose if not available)",
+      "quantity": 600.0,
+      "quantityText": "600",
+      "unit": "g",
+      "preparation": "or all-purpose if not available",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Active dry yeast",
+      "originalText": "1 packet (appr. 2 1/4 tsp or 7g) active dry yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "packet",
+      "preparation": "appr. 2 1/4 tsp or 7g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil for greasing",
+      "originalText": "olive oil for greasing",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 600g or 5 cups bread flour (or all-purpose if not available); 1 packet (appr. 2 1/4 tsp or 7g) active dry yeast; olive oil for greasing. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Follow directions on the packet to activate yeast in a bowl large enough for mixing the dough",
+      "section": null
+    },
+    {
+      "text": "Add enough water for a total of 400g or 1 3/4 cups (i.e. add 400g minus however much water was used to activate the yeast)",
+      "section": null
+    },
+    {
+      "text": "Optionally add 12g or 2 tsp salt (Unsalted bread is normal in Central Italy, but it’s an acquired taste)",
+      "section": null
+    },
+    {
+      "text": "Slowly mix in flour until it forms a dough that will be easy to work with and not overly sticky.",
+      "section": null
+    },
+    {
+      "text": "Make sure there are no wet or dry pockets in the dough.",
+      "section": null
+    },
+    {
+      "text": "Cover and let rest for 15 minutes.",
+      "section": null
+    },
+    {
+      "text": "Knead the dough and let it rise covered for 1 hour in a warm place until doubled in size. To knead, push the dough away with the heel of your hand, fold it back, and turn it; repeat for the stated time or until it has the described texture.",
+      "section": null
+    },
+    {
+      "text": "Split the dough in half and shape it into two loaves.",
+      "section": null
+    },
+    {
+      "text": "Make sure the seams are at the bottom.",
+      "section": null
+    },
+    {
+      "text": "Place the loaves on a lightly greased baking sheet and let it rise covered for 1 hour in a warm place until doubled in size.",
+      "section": null
+    },
+    {
+      "text": "Make sure the oven is preheated to 200°C (400°F) before the resting period is over.",
+      "section": null
+    },
+    {
+      "text": "Score the loaves and place the baking sheet in the oven.",
+      "section": null
+    },
+    {
+      "text": "Bake for 25-30 minutes.",
+      "section": null
+    },
+    {
+      "text": "Let cool for 15 minutes before serving.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "bread"
+    },
+    {
+      "name": "category",
+      "value": "fasting"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    }
+  ],
+  "keywords": [
+    "bread",
+    "fasting",
+    "italian",
+    "italian bread"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/italian-bread/",
+    "siteName": "Public Domain Recipes",
+    "author": "km3000",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Follow directions on the packet to activate yeast in a bowl large enough for mixing the dough\n2. Add enough water for a total of 400g or 1 3/4 cups (i.e. add 400g minus however much water was used to activate the yeast)\n3. Optionally add 12g or 2 tsp salt (Unsalted bread is normal in Central Italy, but it’s an acquired taste)\n4. Slowly mix in flour until it forms a dough that will be easy to work with and not overly sticky. Make sure there are no wet or dry pockets in the dough.\n5. Cover and let rest for 15 minutes.\n6. Knead the dough and let it rise covered for 1 hour in a warm place until doubled in size.\n7. Split the dough in half and shape it into two loaves. Make sure the seams are at the bottom.\n8. Place the loaves on a lightly greased baking sheet and let it rise covered for 1 hour in a warm place until doubled in size.\n9. Make sure the oven is preheated to 200°C (400°F) before the resting period is over.\n10. Score the loaves and place the baking sheet in the oven.\n11. Bake for 25-30 minutes.\n12. Let cool for 15 minutes before serving.",
+    "originalIngredients": [
+      "600g or 5 cups bread flour (or all-purpose if not available)",
+      "1 packet (appr. 2 1/4 tsp or 7g) active dry yeast",
+      "olive oil for greasing"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}
