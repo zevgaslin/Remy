@@ -1,7 +1,8 @@
-import '@testing-library/jest-dom';
-import { render, screen, fireEvent, act } from '@testing-library/react';
+// @vitest-environment jsdom
+import '@testing-library/jest-dom/vitest';
+import { render, screen, fireEvent, act, cleanup, within } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import IngredientsPanel from './IngredientsPanel';
+import IngredientsPanel, { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
 import * as ingredientServices from '../services/ingredientServices';
 import * as trashSounds from '../utils/trashSounds';
 
@@ -21,6 +22,17 @@ const ingredients = [
   { id: 10, name: 'Milk', quantity: 1, unit: 'bottle', expirationDate: '2099-01-01' },
   { id: 11, name: 'Eggs', quantity: 12, unit: 'pieces', expirationDate: '2099-01-02' },
 ];
+
+// Unmount anything rendered by the previous test
+afterEach(() => {
+  cleanup();
+});
+
+// The planned meals live in a shared module-level subject,
+// so reset them before every test to keep tests independent.
+beforeEach(() => {
+  setSharedPlannedMeals({});
+});
 
 async function renderPanel() {
   render(<IngredientsPanel currentUser={user} />);
@@ -133,5 +145,92 @@ describe('IngredientsPanel trash can', () => {
 
     expect(screen.getByText('Milk')).toBeInTheDocument();
     expect(screen.getByRole('status')).toHaveTextContent('Could not delete Milk');
+  });
+});
+
+describe('IngredientsPanel pantry quantities', () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+    ingredientServices.getMyIngredients.mockResolvedValue(ingredients);
+  });
+
+  it('shows the quantity and unit next to each ingredient name', async () => {
+    await renderPanel();
+
+    expect(screen.getByText('· 1 bottle')).toBeInTheDocument();
+    expect(screen.getByText('· 12 pieces')).toBeInTheDocument();
+  });
+});
+
+describe('IngredientsPanel shopping cart (Observer)', () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+    ingredientServices.getMyIngredients.mockResolvedValue(ingredients);
+  });
+
+  function getCart() {
+    return screen.getByRole('heading', { name: 'Shopping Cart' }).closest('section');
+  }
+
+  it('shows an empty message when no recipes are planned', async () => {
+    await renderPanel();
+
+    expect(within(getCart()).getByText(/Nothing to buy/i)).toBeInTheDocument();
+  });
+
+  it('lists ingredients that are not in the pantry, with the amount to buy', async () => {
+    await renderPanel();
+
+    await act(async () => {
+      setSharedPlannedMeals({
+        '2026-10-18::dinner': {
+          name: 'Cheese Omelet',
+          ingredients: [{ name: 'Cheddar', quantity: 2, unit: 'cup' }],
+        },
+      });
+    });
+
+    const cart = within(getCart());
+    expect(cart.getByText('Cheddar')).toBeInTheDocument();
+    expect(cart.getByText('2 cup')).toBeInTheDocument();
+    expect(cart.getByText('Cheese Omelet')).toBeInTheDocument();
+  });
+
+  it('only lists the amount still needed when the pantry has part of it', async () => {
+    await renderPanel();
+
+    await act(async () => {
+      setSharedPlannedMeals({
+        '2026-10-18::breakfast': {
+          name: 'Milk Pudding',
+          ingredients: [{ name: 'Milk', quantity: 3, unit: 'bottle' }],
+        },
+      });
+    });
+
+    // Pantry has 1 bottle, recipe needs 3, so 2 are still needed
+    const cart = within(getCart());
+    expect(cart.getByText('Milk')).toBeInTheDocument();
+    expect(cart.getByText('2 bottle')).toBeInTheDocument();
+  });
+
+  it('converts units, so 0.25 cup owned and 0.5 cup needed leaves 0.25 cup', async () => {
+    ingredientServices.getMyIngredients.mockResolvedValue([
+      { id: 20, name: 'Onion', quantity: 0.25, unit: 'cup', expirationDate: '2099-01-01' },
+    ]);
+    await renderPanel();
+
+    await act(async () => {
+      setSharedPlannedMeals({
+        '2026-10-18::lunch': {
+          name: 'Onion Soup',
+          ingredients: [{ name: 'Onion', quantity: 0.5, unit: 'cup' }],
+        },
+      });
+    });
+
+    const cart = within(getCart());
+    expect(cart.getByText('Onion')).toBeInTheDocument();
+    expect(cart.getByText('0.25 cup')).toBeInTheDocument();
   });
 });

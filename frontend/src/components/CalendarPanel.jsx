@@ -3,6 +3,8 @@ import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
 import { useRecipes } from '../hooks/useRecipes';
 import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
+// CHANGED: also import the shared subject so the calendar can start from its saved state
+import { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
 
 const WEEKDAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
@@ -909,13 +911,25 @@ const VIEWS = Object.values(VIEW_STRATEGIES);
 function CalendarPanel({ goals = DEFAULT_GOALS }) {
   const [view, setView] = useState('day');
   // Stores customized meal slot arrays keyed by YYYY-MM-DD
-  const [dailyMealSlots, setDailyMealSlots] = useState({});
+  // CHANGED: starts from the saved value so it survives switching tabs
+  const [dailyMealSlots, setDailyMealSlots] = useState(() => plannedMealsSubject.getDailyMealSlots());
   const today = useToday();
   const timeProgress = useCurrentTimeProgress();
 
-  const [plannedMeals, setPlannedMeals] = useState({});
+  // CHANGED: starts from the saved value so planned recipes survive switching tabs
+  const [plannedMeals, setPlannedMeals] = useState(() => plannedMealsSubject.getPlannedMeals());
   const [activePopup, setActivePopup] = useState(null);
   const [addMealModalDay, setAddMealModalDay] = useState(null);
+
+  // Tell the shared subject whenever the planned meals change (the shopping cart observes it)
+  useEffect(() => {
+    setSharedPlannedMeals(plannedMeals);
+  }, [plannedMeals]);
+
+  // CHANGED: remember custom meal slots in the subject too
+  useEffect(() => {
+    plannedMealsSubject.setDailyMealSlots(dailyMealSlots);
+  }, [dailyMealSlots]);
 
   // Resolve the active strategy (falls back to 'day' if an unknown key is passed)
   const activeStrategy = VIEW_STRATEGIES[view] || VIEW_STRATEGIES.day;

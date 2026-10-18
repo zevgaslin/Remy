@@ -1,18 +1,32 @@
+// @vitest-environment jsdom
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
-import '@testing-library/jest-dom';
+import { render, screen, fireEvent, cleanup } from '@testing-library/react';
+import '@testing-library/jest-dom/vitest';
 import CalendarPanel, {
   getDailyNutritionTotal,
   DailyNutritionSummary,
   VIEW_STRATEGIES,
 } from './CalendarPanel';
 import { getAllRecipes } from '../services/recipeServices';
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+import { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
 
 // Mock the recipe service API call using Vitest's vi
 vi.mock('../services/recipeServices', () => ({
   getAllRecipes: vi.fn(),
 }));
+
+// Unmount anything rendered by the previous test
+afterEach(() => {
+  cleanup();
+});
+
+// The planned meals and custom slots live in a shared module-level subject,
+// so reset them before every test to keep tests independent.
+beforeEach(() => {
+  setSharedPlannedMeals({});
+  plannedMealsSubject.setDailyMealSlots({});
+});
 
 describe('getDailyNutritionTotal', () => {
   it('returns combined nutrition totals for all planned meal slots on a specific date', () => {
@@ -190,6 +204,18 @@ describe('CalendarPanel Recipe Popup Integration', () => {
     fireEvent.click(closeButton);
 
     expect(screen.queryByText('Select a Recipe')).not.toBeInTheDocument();
+  });
+
+  it('keeps planned meals after the calendar is unmounted and remounted (tab switch)', async () => {
+    getAllRecipes.mockResolvedValueOnce([{ id: 'r9', name: 'Keeper Soup' }]);
+
+    const { unmount } = render(<CalendarPanel />);
+    fireEvent.click(screen.getAllByRole('button', { name: /Add Breakfast for/i })[0]);
+    fireEvent.click(await screen.findByText('Keeper Soup'));
+    unmount();
+
+    render(<CalendarPanel />);
+    expect(screen.getByText('Keeper Soup')).toBeInTheDocument();
   });
 });
 
