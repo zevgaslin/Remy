@@ -216,4 +216,21 @@ describe('IngredientsPanel shopping cart (Observer)', () => {
 
   it('converts units, so 0.25 cup owned and 0.5 cup needed leaves 0.25 cup', async () => {
     ingredientServices.getMyIngredients.mockResolvedValue([
-      { id: 20, name: 'Onion', quantity:
+      { id: 20, name: 'Onion', quantity: 0.25, unit: 'cup', expirationDate: '2099-01-01' },
+    ]);
+    await renderPanel();
+
+    await act(async () => {
+      setSharedPlannedMeals({
+        '2026-10-18::lunch': {
+          name: 'Onion Soup',
+          ingredients: [{ name: 'Onion', quantity: 0.5, unit: 'cup' }],
+        },
+      });
+    });
+
+    const cart = within(getCart());
+    expect(cart.getByText('Onion')).toBeInTheDocument();
+    expect(cart.getByText('0.25 cup')).toBeInTheDocument();
+  });
+});
