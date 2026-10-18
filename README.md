@@ -65,6 +65,7 @@ The calendar recipe picker loads recipes from the backend; selected meals curren
 ./mvnw spring-boot:run
 ```
 Runs on http://localhost:8080. Check http://localhost:8080/api/health. All application data is stored in Supabase PostgreSQL. Connection settings are in `backend/src/main/resources/application.yml`; set `SUPABASE_DATABASE_URL`, `SUPABASE_DATABASE_USERNAME`, and `SUPABASE_DATABASE_PASSWORD` to override them. Keep credentials in environment variables or the gitignored `application-secrets.properties`. Legacy `data.sql` initialization is disabled. Existing H2 files are not used or automatically migrated.
+Password is RemyDatabas
 
 **Frontend** (from `frontend/`):
 ```

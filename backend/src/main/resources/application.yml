@@ -4,7 +4,7 @@ spring:
   datasource:
     url: ${SUPABASE_DATABASE_URL:jdbc:postgresql://db.ysrdmzjscrfdvzlaklwz.supabase.co:5432/postgres?sslmode=require}
     username: ${SUPABASE_DATABASE_USERNAME:postgres}
-    password: ${SUPABASE_DATABASE_PASSWORD:YOUR-DATABASE-PASSWORD}
+    password: ${SUPABASE_DATABASE_PASSWORD:RemyDatabas}
   jpa:
     hibernate:
       ddl-auto: update
