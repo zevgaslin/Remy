@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "8e3d82cf-cf17-5bec-a965-9c31b9699c13",
+  "name": "Salmon Quinoa Bowl",
+  "description": "A protein-rich bowl with salmon, quinoa, cucumber, tomato, lemon, and olive oil.",
+  "cuisine": "Mediterranean",
+  "mealType": "Dinner",
+  "difficulty": "Medium",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 2,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Salmon",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "fillets",
+      "preparation": "boneless fillets, about 5\u20136 oz each",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Quinoa",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "dry quinoa, rinsed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cucumber",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a saucepan with a lid, fine sieve, baking sheet, cutting board, and instant-read thermometer. Use 2 boneless salmon fillets about 5\u20136 ounces each. Preheat the oven to 400\u00b0F (200\u00b0C).",
+      "section": null
+    },
+    {
+      "text": "Rinse 1 cup dry quinoa in the sieve under cold running water for 30 seconds. Put it in the saucepan with 2 cups water, or the water amount specified on its package. Bring to a boil over high heat, cover, reduce to low, and simmer for about 15 minutes until the water is absorbed. Turn off the heat and rest covered for 5 minutes. The grains should be tender with small curled sprouts.",
+      "section": null
+    },
+    {
+      "text": "While the quinoa cooks, line the baking sheet with parchment suitable for the oven temperature. Place the salmon skin-side down if it has skin. Rub the tops with 1 teaspoon of the 1 tablespoon olive oil. Wash hands after handling raw fish.",
+      "section": null
+    },
+    {
+      "text": "Bake for 12\u201318 minutes, depending on thickness. Insert the thermometer into the thickest center of each fillet; both must reach 145\u00b0F (63\u00b0C). If below that temperature, continue cooking and check every 2 minutes.",
+      "section": null
+    },
+    {
+      "text": "Wash 1 cucumber and 1 tomato. Trim the cucumber ends and cut the cucumber and tomato into bite-size pieces about 1/2 inch across. Wash 1 lemon, cut it in half, and squeeze the juice into a bowl, removing seeds.",
+      "section": null
+    },
+    {
+      "text": "Mix the lemon juice with the remaining 2 teaspoons olive oil. Fluff the quinoa with a fork and divide between 2 bowls. Add the chopped vegetables and drizzle over the dressing.",
+      "section": null
+    },
+    {
+      "text": "Place a cooked salmon fillet on each bowl, removing the skin if desired and checking for any remaining bones. Serve immediately.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "high-protein"
+    },
+    {
+      "name": "cuisine",
+      "value": "mediterranean"
+    },
+    {
+      "name": "difficulty",
+      "value": "medium"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 560,
+    "protein": 36,
+    "carbs": 40,
+    "fat": 27
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Cook quinoa. Season and cook salmon. Serve with cucumber, tomato, lemon, and olive oil."
+  }
+}

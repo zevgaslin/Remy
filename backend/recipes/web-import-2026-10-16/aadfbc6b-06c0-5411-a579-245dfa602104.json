@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "id": "aadfbc6b-06c0-5411-a579-245dfa602104",
+  "name": "Chicken Tikka Masala",
+  "description": null,
+  "cuisine": "Indian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 25,
+  "cookMinutes": 240,
+  "totalMinutes": null,
+  "servings": 8.0,
+  "yieldText": "8 servings",
+  "ingredients": [
+    {
+      "name": "Tomato puree",
+      "originalText": "1 can (29 ounces) tomato puree",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "29 ounces",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Plain yogurt",
+      "originalText": "1-1/2 cups plain yogurt",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1/2 large onion, finely chopped",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": "large; finely chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "2 tablespoons olive oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Gingerroot",
+      "originalText": "4-1/2 teaspoons minced fresh gingerroot",
+      "quantity": 4.5,
+      "quantityText": "4 1/2",
+      "unit": "teaspoons",
+      "preparation": "minced fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "4 garlic cloves, minced",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garam masala",
+      "originalText": "1 tablespoon garam masala",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "2-1/2 teaspoons salt",
+      "quantity": 2.5,
+      "quantityText": "2 1/2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground cumin",
+      "originalText": "1-1/2 teaspoons ground cumin",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Paprika",
+      "originalText": "1 teaspoon paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "3/4 teaspoon pepper",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cayenne pepper",
+      "originalText": "1/2 teaspoon cayenne pepper",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground cinnamon",
+      "originalText": "1/4 teaspoon ground cinnamon",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Boneless skinless chicken breasts",
+      "originalText": "2-1/2 pounds boneless skinless chicken breasts, cut into 1-1/2-inch cubes",
+      "quantity": 2.5,
+      "quantityText": "2 1/2",
+      "unit": "pounds",
+      "preparation": "cut into 1 1/2-inch cubes",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Jalapeno pepper, halved and seeded",
+      "originalText": "1 jalapeno pepper, halved and seeded",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bay leaf",
+      "originalText": "1 bay leaf",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cornstarch",
+      "originalText": "1 tablespoon cornstarch",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Heavy whipping cream",
+      "originalText": "1 cup heavy whipping cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cooked basmati rice",
+      "originalText": "Hot cooked basmati rice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cilantro, optional",
+      "originalText": "Chopped fresh cilantro, optional",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": "Chopped fresh",
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 can (29 ounces) tomato puree; 1-1/2 cups plain yogurt; 1/2 large onion, finely chopped; 2 tablespoons olive oil; 4-1/2 teaspoons minced fresh gingerroot; 4 garlic cloves, minced; 1 tablespoon garam masala; 2-1/2 teaspoons salt; 1-1/2 teaspoons ground cumin; 1 teaspoon paprika; 3/4 teaspoon pepper; 1/2 teaspoon cayenne pepper; 1/4 teaspoon ground cinnamon; 2-1/2 pounds boneless skinless chicken breasts, cut into 1-1/2-inch cubes; 1 jalapeno pepper, halved and seeded; 1 bay leaf; 1 tablespoon cornstarch; 1 cup heavy whipping cream; Hot cooked basmati rice; Chopped fresh cilantro, optional. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onion: large; finely chopped; Gingerroot: minced fresh; Garlic: minced; Boneless skinless chicken breasts: cut into 1 1/2-inch cubes; Cilantro, optional: Chopped fresh. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "In a 5-qt. slow cooker, combine the first 13 ingredients (Can blend these first for convenience).",
+      "section": null
+    },
+    {
+      "text": "Add chicken, jalapeno and bay leaf.",
+      "section": null
+    },
+    {
+      "text": "Cook, covered, on low 4 hours or until chicken is tender.",
+      "section": null
+    },
+    {
+      "text": "Remove jalapeno and bay leaf.",
+      "section": null
+    },
+    {
+      "text": "In a small bowl, mix cornstarch and cream until smooth; gradually stir into sauce.",
+      "section": null
+    },
+    {
+      "text": "Cook, covered, on high 15-20 minutes or until sauce is thickened.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Serve with rice.",
+      "section": null
+    },
+    {
+      "text": "If desired, sprinkle with cilantro.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "indian"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "indian"
+    },
+    {
+      "name": "category",
+      "value": "slowcooked"
+    }
+  ],
+  "keywords": [
+    "chicken",
+    "indian",
+    "slowcooked",
+    "chicken tikka masala"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/chicken-tikka-masala/",
+    "siteName": "Public Domain Recipes",
+    "author": null,
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. In a 5-qt. slow cooker, combine the first 13 ingredients (Can blend these first for convenience). Add chicken, jalapeno and bay leaf. Cook, covered, on low 4 hours or until chicken is tender. Remove jalapeno and bay leaf.\n2. In a small bowl, mix cornstarch and cream until smooth; gradually stir into sauce. Cook, covered, on high 15-20 minutes or until sauce is thickened. Serve with rice. If desired, sprinkle with cilantro.",
+    "originalIngredients": [
+      "1 can (29 ounces) tomato puree",
+      "1-1/2 cups plain yogurt",
+      "1/2 large onion, finely chopped",
+      "2 tablespoons olive oil",
+      "4-1/2 teaspoons minced fresh gingerroot",
+      "4 garlic cloves, minced",
+      "1 tablespoon garam masala",
+      "2-1/2 teaspoons salt",
+      "1-1/2 teaspoons ground cumin",
+      "1 teaspoon paprika",
+      "3/4 teaspoon pepper",
+      "1/2 teaspoon cayenne pepper",
+      "1/4 teaspoon ground cinnamon",
+      "2-1/2 pounds boneless skinless chicken breasts, cut into 1-1/2-inch cubes",
+      "1 jalapeno pepper, halved and seeded",
+      "1 bay leaf",
+      "1 tablespoon cornstarch",
+      "1 cup heavy whipping cream",
+      "Hot cooked basmati rice",
+      "Chopped fresh cilantro, optional"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

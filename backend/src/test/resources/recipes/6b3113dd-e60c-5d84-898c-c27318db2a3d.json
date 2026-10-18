@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "6b3113dd-e60c-5d84-898c-c27318db2a3d",
+  "name": "Broccoli Cheddar Rice Skillet",
+  "description": "A simple comfort-food skillet with rice, broccoli, cheddar, and onion.",
+  "cuisine": "American",
+  "mealType": "Dinner",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 3,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Rice",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "dry long-grain white rice",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Broccoli",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cheddar",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": "grated",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": null,
+      "quantity": 0.5,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a saucepan with a lid and a large nonstick skillet with a lid. Use 1 cup dry long-grain white rice. Cook it with the water amount and timing on the package, typically 2 cups water and 15\u201320 minutes on low heat after bringing to a boil. Rest covered off the heat for 5 minutes, then fluff with a fork.",
+      "section": null
+    },
+    {
+      "text": "Wash 2 cups broccoli and cut it into florets about 1 inch across. If using the optional 1/2 onion, peel it and chop into pieces about 1/4 inch across. Grate 1 cup cheddar.",
+      "section": null
+    },
+    {
+      "text": "If using onion, put it in the skillet with 2 tablespoons water over medium heat. Cook for 4\u20135 minutes, stirring, until softened. Add more water 1 tablespoon at a time if the pan dries before it softens.",
+      "section": null
+    },
+    {
+      "text": "Add the broccoli and 1/4 cup water. Cover and cook over medium heat for 4\u20136 minutes until a fork pierces the stems with slight resistance. Carefully lift the lid away from your face. If still hard, cover and cook another 1\u20132 minutes.",
+      "section": null
+    },
+    {
+      "text": "Add all the cooked rice and stir gently for 1\u20132 minutes until hot throughout. If the mixture sticks, reduce heat and add 1 tablespoon water.",
+      "section": null
+    },
+    {
+      "text": "Turn the heat to low. Sprinkle in the 1 cup cheddar in 3 additions, stirring after each until melted, about 1\u20132 minutes total. Turn off the heat. Divide among 3 bowls and serve warm.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 430,
+    "protein": 16,
+    "carbs": 52,
+    "fat": 17
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Saute onion, add broccoli and cooked rice, then fold in cheddar until melted."
+  }
+}

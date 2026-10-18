@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "4ea29d5f-2f51-5295-9b60-4c3dc6b3a500",
+  "name": "Chicken Satay with Peanut Sauce",
+  "description": null,
+  "cuisine": "Asian",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Boneless chicken breast or thigh",
+      "originalText": "2 lbs boneless chicken breast or thigh",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oyster sauce",
+      "originalText": "1.5 tbsp oyster sauce",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground tumeric",
+      "originalText": "1 tbsp ground tumeric",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "2 tbsp sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Coconut milk",
+      "originalText": "2 tbsp coconut milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peanut butter",
+      "originalText": "3 tbsp peanut butter (creamy)",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tbsp",
+      "preparation": "creamy",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Massaman curry paste",
+      "originalText": "1 tbsp massaman curry paste",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water to thin peanut sauce",
+      "originalText": "water to thin peanut sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 lbs boneless chicken breast or thigh; 1.5 tbsp oyster sauce; 1 tbsp ground tumeric; 2 tbsp sugar; 2 tbsp coconut milk; 3 tbsp peanut butter (creamy); 1 tbsp massaman curry paste; water to thin peanut sauce. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Cut the chicken into 1/2 inch thick strips.",
+      "section": null
+    },
+    {
+      "text": "Mix chicken with oyster sauce, tumeric, 1 tbsp sugar and coconut milk.",
+      "section": null
+    },
+    {
+      "text": "Allow chicken to marinade for at least an hour.",
+      "section": null
+    },
+    {
+      "text": "Optionally, you can skewer the meat with wooden skewers.",
+      "section": null
+    },
+    {
+      "text": "Grill chicken until cooked through.",
+      "section": null
+    },
+    {
+      "text": "Mix peanut butter, 1 tbsp sugar and curry paste together in a small saucepan.",
+      "section": null
+    },
+    {
+      "text": "Add enough water to thin to a thick sauce.",
+      "section": null
+    },
+    {
+      "text": "Cook for 1-2 min stirring frequently.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Serve chicken with peanut sauce for dipping.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "asian"
+    },
+    {
+      "name": "category",
+      "value": "asian"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "thai"
+    }
+  ],
+  "keywords": [
+    "asian",
+    "chicken",
+    "thai",
+    "chicken satay with peanut sauce"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/chicken-satay/",
+    "siteName": "Public Domain Recipes",
+    "author": "Eric Lindberg",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Cut the chicken into 1/2 inch thick strips.\n2. Mix chicken with oyster sauce, tumeric, 1 tbsp sugar and coconut milk.  Allow chicken to marinade for at least an hour.\n3. Optionally, you can skewer the meat with wooden skewers.\n4. Grill chicken until cooked through.\n5. Mix peanut butter, 1 tbsp sugar and curry paste together in a small saucepan.  Add enough water to thin to a thick sauce.\n6. Cook for 1-2 min stirring frequently.\n7. Serve chicken with peanut sauce for dipping.",
+    "originalIngredients": [
+      "2 lbs boneless chicken breast or thigh",
+      "1.5 tbsp oyster sauce",
+      "1 tbsp ground tumeric",
+      "2 tbsp sugar",
+      "2 tbsp coconut milk",
+      "3 tbsp peanut butter (creamy)",
+      "1 tbsp massaman curry paste",
+      "water to thin peanut sauce"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

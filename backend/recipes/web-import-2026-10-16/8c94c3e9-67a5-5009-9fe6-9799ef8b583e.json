@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "8c94c3e9-67a5-5009-9fe6-9799ef8b583e",
+  "name": "Smoked Salmon Quiche",
+  "description": null,
+  "cuisine": "French",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 60,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 6.0,
+  "yieldText": "6 servings",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "originalText": "1 3/4 cups Flour",
+      "quantity": 1.75,
+      "quantityText": "1 3/4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "1 cup + 2 1/2 Tbsp Butter, divided",
+      "quantity": null,
+      "quantityText": "1 cup + 2 1/2 Tbsp",
+      "unit": null,
+      "preparation": "divided",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water, chilled",
+      "originalText": "Up to 1/3 cup Water, chilled",
+      "quantity": null,
+      "quantityText": "up to 1/3",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1/2 cup Onion, finely chopped",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "finely chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Smoked Salmon",
+      "originalText": "14 ounces Smoked Salmon, chopped",
+      "quantity": 14.0,
+      "quantityText": "14",
+      "unit": "ounces",
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chives",
+      "originalText": "2 tsp Fresh Chives, chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tsp",
+      "preparation": "Fresh; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "1 clove Garlic, chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "clove",
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Basil",
+      "originalText": "2 tsp Fresh Basil, chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tsp",
+      "preparation": "Fresh; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "5 whole Eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": "whole",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1 cup Milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whipping Cream",
+      "originalText": "1 cup Whipping Cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 3/4 cups Flour; 1 cup + 2 1/2 Tbsp Butter, divided; Up to 1/3 cup Water, chilled; 1/2 cup Onion, finely chopped; 14 ounces Smoked Salmon, chopped; 2 tsp Fresh Chives, chopped; 1 clove Garlic, chopped; 2 tsp Fresh Basil, chopped; 5 whole Eggs; 1 cup Milk; 1 cup Whipping Cream. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onion: finely chopped; Smoked Salmon: chopped; Chives: Fresh; chopped; Garlic: chopped; Basil: Fresh; chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Combine all pastry ingredients in a food processor (mix flour and butter, then add water gradually while mixing).",
+      "section": null
+    },
+    {
+      "text": "Gather into a ball, cover with plastic wrap and chill 1 hour.",
+      "section": null
+    },
+    {
+      "text": "Saute onion until shiny in the butter. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Stir in salmon, chives, garlic, and basil.",
+      "section": null
+    },
+    {
+      "text": "Cool.",
+      "section": null
+    },
+    {
+      "text": "Preheat the oven to 400F.",
+      "section": null
+    },
+    {
+      "text": "Roll out the dough to fit a 10\" tart pan.",
+      "section": null
+    },
+    {
+      "text": "Prick with a fork.",
+      "section": null
+    },
+    {
+      "text": "Arrange the salmon mixture in the pre-baked tart shell.",
+      "section": null
+    },
+    {
+      "text": "Whisk eggs with milk and cream, season with pepper and pour in the tart shell.",
+      "section": null
+    },
+    {
+      "text": "Bake about 30 minutes at 325F, until puffed and golden.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the cooked egg mixture with a food thermometer: it must reach 160°F (71°C), with no runny raw egg. For a casserole containing reheated cooked meat, use 165°F (74°C). Continue cooking if needed."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "eggs"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    },
+    {
+      "name": "category",
+      "value": "french"
+    }
+  ],
+  "keywords": [
+    "eggs",
+    "fish",
+    "french",
+    "smoked salmon quiche"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/smoked-salmon-quiche/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Combine all pastry ingredients in a food processor (mix flour and butter, then add water gradually while mixing).\n2. Gather into a ball, cover with plastic wrap and chill 1 hour.\n3. Saute onion until shiny in the butter.\n4. Stir in salmon, chives, garlic, and basil. Cool.\n5. Preheat the oven to 400F.\n6. Roll out the dough to fit a 10\" tart pan. Prick with a fork.\n7. Arrange the salmon mixture in the pre-baked tart shell.\n8. Whisk eggs with milk and cream, season with pepper and pour in the tart shell.\n9. Bake about 30 minutes at 325F, until puffed and golden.",
+    "originalIngredients": [
+      "1 3/4 cups Flour",
+      "1 cup + 2 1/2 Tbsp Butter, divided",
+      "Up to 1/3 cup Water, chilled",
+      "1/2 cup Onion, finely chopped",
+      "14 ounces Smoked Salmon, chopped",
+      "2 tsp Fresh Chives, chopped",
+      "1 clove Garlic, chopped",
+      "2 tsp Fresh Basil, chopped",
+      "5 whole Eggs",
+      "1 cup Milk",
+      "1 cup Whipping Cream"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

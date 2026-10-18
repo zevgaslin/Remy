@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "95bfedcd-d93c-5441-87e5-d8288b82776e",
+  "name": "Crème brûlée",
+  "description": null,
+  "cuisine": "French",
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "High fat cream",
+      "originalText": "400 ml high fat cream",
+      "quantity": 400.0,
+      "quantityText": "400",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "140 ml whole milk",
+      "quantity": 140.0,
+      "quantityText": "140",
+      "unit": "ml",
+      "preparation": "whole",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "85 g sugar (preferred brown)",
+      "quantity": 85.0,
+      "quantityText": "85",
+      "unit": "g",
+      "preparation": "preferred brown",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg yolk",
+      "originalText": "5 egg yolk",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla bean",
+      "originalText": "1 vanilla bean (mark, optionally essence)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "mark, optionally essence",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon peel, rubbed",
+      "originalText": "Lemon peel, rubbed",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar for the top crust",
+      "originalText": "Sugar for the top crust",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 400 ml high fat cream; 140 ml whole milk; 85 g sugar (preferred brown); 5 egg yolk; 1 vanilla bean (mark, optionally essence); Lemon peel, rubbed; Sugar for the top crust. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Mix cream, milk and yolks.",
+      "section": null
+    },
+    {
+      "text": "Add sugar, vanilla and lemon.",
+      "section": null
+    },
+    {
+      "text": "Let rest for at least 30 min (optionally over night)",
+      "section": null
+    },
+    {
+      "text": "Pour into 4-6 fireproof ramekins.",
+      "section": null
+    },
+    {
+      "text": "Pre-heat oven to 150°C and put the grease pan on the middle rail.",
+      "section": null
+    },
+    {
+      "text": "Put the ramekins onto the grease pan and fill it with boiling water.",
+      "section": null
+    },
+    {
+      "text": "Let the crème cook for 55 min.",
+      "section": null
+    },
+    {
+      "text": "Let the ramekins cool down to room temperature and put them in the fridge for at least 2 hours.",
+      "section": null
+    },
+    {
+      "text": "Spread a teaspoon of sugar onto each ramekin.",
+      "section": null
+    },
+    {
+      "text": "Use a blowtorch to flambé the sugar.",
+      "section": null
+    },
+    {
+      "text": "Alternatively the grill of your oven may work too.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the cooked egg mixture with a food thermometer: it must reach 160°F (71°C), with no runny raw egg. For a casserole containing reheated cooked meat, use 165°F (74°C). Continue cooking if needed."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "cuisine",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "french"
+    }
+  ],
+  "keywords": [
+    "dessert",
+    "french",
+    "crème brûlée"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/creme-brulee/",
+    "siteName": "Public Domain Recipes",
+    "author": "Jan Kremer",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Mix cream, milk and yolks.\n2. Add sugar, vanilla and lemon.\n3. Let rest for at least 30 min (optionally over night)\n4. Pour into 4-6 fireproof ramekins.\n5. Pre-heat oven to 150°C and put the grease pan on the middle rail.\n6. Put the ramekins onto the grease pan and fill it with boiling water.\n7. Let the crème cook for 55 min.\n8. Let the ramekins cool down to room temperature and put them in the fridge for at least 2 hours.\n9. Spread a teaspoon of sugar onto each ramekin.\n10. Use a blowtorch to flambé the sugar. Alternatively the grill of your oven may work too.",
+    "originalIngredients": [
+      "400 ml high fat cream",
+      "140 ml whole milk",
+      "85 g sugar (preferred brown)",
+      "5 egg yolk",
+      "1 vanilla bean (mark, optionally essence)",
+      "Lemon peel, rubbed",
+      "Sugar for the top crust"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

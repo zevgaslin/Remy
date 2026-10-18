@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "faa66548-c8e1-55f9-87c0-cc9e7b2aa5a5",
+  "name": "Loaded Mexican Rice",
+  "description": "A tex-mex style mexican rice with beans and meat. Adding the beans and meat take it from a side\ndish to good good burrito filling.",
+  "cuisine": "American",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Long grain white rice",
+      "originalText": "1 Cup uncooked long grain white rice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Cup",
+      "preparation": "uncooked",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Frozen peas",
+      "originalText": "1/2 Cup frozen peas",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "Cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Frozen corn",
+      "originalText": "1/2 Cup frozen corn",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "Cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Caned adobo chilies chopped",
+      "originalText": "2 Caned adobo chilies chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato paste",
+      "originalText": "5 Tbsp tomato paste",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Black or pinto beans",
+      "originalText": "1 Can of black or pinto beans",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground meat",
+      "originalText": "1/2 Cup ground meat (optional)",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "Cup",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Onion diced",
+      "originalText": "1/4 Onion diced (optional)",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 Cup uncooked long grain white rice; 1/2 Cup frozen peas; 1/2 Cup frozen corn; 2 Caned adobo chilies chopped; 5 Tbsp tomato paste; 1 Can of black or pinto beans; 1/2 Cup ground meat (optional); 1/4 Onion diced (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Cook rice per manufactures instructions.",
+      "section": null
+    },
+    {
+      "text": "Pore enough neutral oil in a large pan to cover the bottom entirely, and turn on to medium heat.",
+      "section": null
+    },
+    {
+      "text": "Once pan is hot add rice, brake up the rice to ensue there are no clumps.",
+      "section": null
+    },
+    {
+      "text": "Add tomato paste and chilies to the pan, mix until rice is coated add water if needed.",
+      "section": null
+    },
+    {
+      "text": "Strain and add the beans, corn, and peas; if you are adding meat and or onion do so now.",
+      "section": null
+    },
+    {
+      "text": "Mix well, ensue peas and corn thaw.",
+      "section": null
+    },
+    {
+      "text": "Serve hot as either a burrito or bowl with your choice of fillings/toppings.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "rice"
+    }
+  ],
+  "keywords": [
+    "american",
+    "mexican",
+    "rice",
+    "loaded mexican rice"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/loaded-mexican-rice/",
+    "siteName": "Public Domain Recipes",
+    "author": "Mr. Mip",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Cook rice per manufactures instructions.\n2. Pore enough neutral oil in a large pan to cover the bottom entirely, and turn on to medium heat.\n3. Once pan is hot add rice, brake up the rice to ensue there are no clumps.\n4. Add tomato paste and chilies to the pan, mix until rice is coated add water if needed.\n5. Strain and add the beans, corn, and peas; if you are adding meat and or onion do so now.\n6. Mix well, ensue peas and corn thaw.\n7. Serve hot as either a burrito or bowl with your choice of fillings/toppings.",
+    "originalIngredients": [
+      "1 Cup uncooked long grain white rice",
+      "1/2 Cup frozen peas",
+      "1/2 Cup frozen corn",
+      "2 Caned adobo chilies chopped",
+      "5 Tbsp tomato paste",
+      "1 Can of black or pinto beans",
+      "1/2 Cup ground meat (optional)",
+      "1/4 Onion diced (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

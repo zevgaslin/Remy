@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "a2ce995c-7a69-53b3-8b9b-fec71b6d7e8a",
+  "name": "Chicken Soup",
+  "description": "Hearty soup that is adaptable to customizing to your desired vegetables or other additions",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 30,
+  "cookMinutes": 120,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Chicken breasts",
+      "originalText": "2 chicken breasts",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 Onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrots",
+      "originalText": "2 carrots",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Celery stalks",
+      "originalText": "2 celery stalks",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Stock or Broth",
+      "originalText": "32 oz / 950ml Chicken Stock or Broth",
+      "quantity": 32.0,
+      "quantityText": "32",
+      "unit": "oz",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pasta",
+      "originalText": "Pasta (Optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 chicken breasts; 1 Onion; 2 carrots; 2 celery stalks; 32 oz / 950ml Chicken Stock or Broth; Pasta (Optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Cook chicken breasts , shred, and set aside in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Cut up carrots and celery, place in pot and saute. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Add in chicken and stock or broth and mix together well.",
+      "section": null
+    },
+    {
+      "text": "Season with salt, pepper, hot sauce, whatever you desire",
+      "section": null
+    },
+    {
+      "text": "Allow it to simmer on low heat for 2 hours mixing every so often. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "If adding noodles, add in pasta and allow pasta to cook until al dente.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    }
+  ],
+  "keywords": [
+    "chicken",
+    "soup",
+    "chicken soup"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/chicken-soup/",
+    "siteName": "Public Domain Recipes",
+    "author": "AJ",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Cook chicken breasts , shred, and set aside in a bowl.\n2. Cut up carrots and celery, place in pot and saute.\n3. Add in chicken and stock or broth and mix together well. Season with salt, pepper, hot sauce, whatever you desire\n4. Allow it to simmer on low heat for 2 hours mixing every so often.\n5. If adding noodles, add in pasta and allow pasta to cook until al dente.",
+    "originalIngredients": [
+      "2 chicken breasts",
+      "1 Onion",
+      "2 carrots",
+      "2 celery stalks",
+      "32 oz / 950ml Chicken Stock or Broth",
+      "Pasta (Optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

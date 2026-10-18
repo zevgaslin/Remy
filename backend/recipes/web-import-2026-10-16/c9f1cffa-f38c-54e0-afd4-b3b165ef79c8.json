@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "c9f1cffa-f38c-54e0-afd4-b3b165ef79c8",
+  "name": "Spaghetti aglio e olio",
+  "description": "Aglio e olio, pasta with garlic and olive oil, is one of the simplest yet greatest pasta dishes of all time. It’s quick, easy, and uses a lot of basic pantry ingredients which makes this a convenient weeknight meal.",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": 15,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Spaghetti",
+      "originalText": "1 pound (500g) spaghetti (or similarly shaped pasta)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": "500g; or similarly shaped pasta",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Extra virgin olive oil",
+      "originalText": "1/2 cup (110g) extra virgin olive oil",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "110g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "5-6 cloves of garlic",
+      "quantity": null,
+      "quantityText": "5-6",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red pepper flakes",
+      "originalText": "1/4 tsp red pepper flakes",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "A bunch of fresh parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "bunch",
+      "preparation": "fresh",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 pound (500g) spaghetti (or similarly shaped pasta); 1/2 cup (110g) extra virgin olive oil; 5-6 cloves of garlic; 1/4 tsp red pepper flakes; A bunch of fresh parsley. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Heat a large skillet on medium-high heat, start cooking the pasta . Use the package cooking-time range, stir to separate the pasta, and taste a cooled piece near the end; it should be tender without a hard center.",
+      "section": null
+    },
+    {
+      "text": "Finely slice or mince the garlic and finely chop the parsley. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add the oil and garlic to the skillet and gently cook it until it’s lightly golden brown.",
+      "section": null
+    },
+    {
+      "text": "Add the red pepper flakes to the skillet and turn down the heat to let its flavor infuse the oil.",
+      "section": null
+    },
+    {
+      "text": "When the pasta has finished cooking, drain it, and reserve at least around a cup of the cooking water.",
+      "section": null
+    },
+    {
+      "text": "Now add the drained pasta with some of the cooking water to the skillet and toss vigorously.",
+      "section": null
+    },
+    {
+      "text": "The starch in the pasta water will help the sauce emulsify and get it to the right consistency.",
+      "section": null
+    },
+    {
+      "text": "At the very last second add the parsley, to preserve its freshness.",
+      "section": null
+    },
+    {
+      "text": "Adjust the seasoning to taste if necessary.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    }
+  ],
+  "keywords": [
+    "italian",
+    "pasta",
+    "spaghetti aglio e olio"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/aglio-e-olio/",
+    "siteName": "Public Domain Recipes",
+    "author": "Robert",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Heat a large skillet on medium-high heat, start cooking the pasta .\n2. Finely slice or mince the garlic and finely chop the parsley.\n3. Add the oil and garlic to the skillet and gently cook it until it’s lightly golden brown.\n4. Add the red pepper flakes to the skillet and turn down the heat to let its flavor infuse the oil.\n5. When the pasta has finished cooking, drain it, and reserve at least around a cup of the cooking water.\n6. Now add the drained pasta with some of the cooking water to the skillet and toss vigorously. The starch in the pasta water will help the sauce emulsify and get it to the right consistency.\n7. At the very last second add the parsley, to preserve its freshness. Adjust the seasoning to taste if necessary.",
+    "originalIngredients": [
+      "1 pound (500g) spaghetti (or similarly shaped pasta)",
+      "1/2 cup (110g) extra virgin olive oil",
+      "5-6 cloves of garlic",
+      "1/4 tsp red pepper flakes",
+      "A bunch of fresh parsley"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

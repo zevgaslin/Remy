@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "b71d1dc5-462b-57e1-93f7-ca2e47610ed6",
+  "name": "Fresh Guacamole",
+  "description": "A nice recipe that functions as a delicious and fresh appetizer, best eaten with\nsome totopos corn chips, especially in a hot summer day.",
+  "cuisine": "Mexican",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Hass avocados",
+      "originalText": "2 Hass avocados",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1/4 medium onion",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": null,
+      "preparation": "medium",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato",
+      "originalText": "1 small tomato",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "small",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cilantro",
+      "originalText": "Cilantro",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lime",
+      "originalText": "1 lime",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 Hass avocados; 1/4 medium onion; 1 small tomato; Cilantro; 1 lime. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Cut the avocados in half, open them and place the pulp in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Mash the avocados, add lime juice, mix and mash some more.",
+      "section": null
+    },
+    {
+      "text": "Mince the cilantro, tomato and onion and add them to the avocado mix. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add salt and black pepper to taste and mix thoroughly.",
+      "section": null
+    },
+    {
+      "text": "Enjoy fresh with some totopos!",
+      "section": null
+    },
+    {
+      "text": "This recipe is best consumed fresh, since the avocado oxidizes pretty fast and\nmight lose its appetizing color and texture in just some hours.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "fasting"
+    },
+    {
+      "name": "category",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "snack"
+    },
+    {
+      "name": "category",
+      "value": "spread"
+    }
+  ],
+  "keywords": [
+    "fasting",
+    "mexican",
+    "snack",
+    "spread",
+    "fresh guacamole"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/guacamole.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/guacamole/",
+    "siteName": "Public Domain Recipes",
+    "author": "Yaroslav de la Peña Smirnov",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Cut the avocados in half, open them and place the pulp in a bowl.\n2. Mash the avocados, add lime juice, mix and mash some more.\n3. Mince the cilantro, tomato and onion and add them to the avocado mix.\n4. Add salt and black pepper to taste and mix thoroughly.\n5. Enjoy fresh with some totopos!\n6. This recipe is best consumed fresh, since the avocado oxidizes pretty fast and\nmight lose its appetizing color and texture in just some hours.",
+    "originalIngredients": [
+      "2 Hass avocados",
+      "1/4 medium onion",
+      "1 small tomato",
+      "Cilantro",
+      "1 lime"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

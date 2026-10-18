@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "id": "bf4bdc7f-7368-5810-af26-b9c6af6ab3f4",
+  "name": "Spaghetti and Meatballs",
+  "description": null,
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "totalMinutes": null,
+  "servings": 6.0,
+  "yieldText": "6 servings",
+  "ingredients": [
+    {
+      "name": "Sweet yellow onion",
+      "originalText": "½ chopped sweet yellow onion",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": "chopped",
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "3 cloves chopped garlic",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Finely chopped carrots",
+      "originalText": "1 cup finely chopped carrots",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Cremini brown mushrooms",
+      "originalText": "1 cup chopped cremini brown mushrooms",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": "chopped",
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Italian plum tomatoes",
+      "originalText": "2 cans (28 oz.) Italian plum tomatoes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cans",
+      "preparation": "28 oz.",
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Italian parsley",
+      "originalText": "¼ cup chopped fresh Italian parsley",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "chopped fresh",
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Basil",
+      "originalText": "¼ cup chopped fresh basil",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "chopped fresh",
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Tomato paste",
+      "originalText": "3 tbsp. tomato paste",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Parmesan-Romano cheese blend",
+      "originalText": "¼ cup grated Parmesan-Romano cheese blend",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "grated",
+      "section": "For the sauce",
+      "optional": false
+    },
+    {
+      "name": "Red wine",
+      "originalText": "¼ cup red wine (optional)",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": "For the sauce",
+      "optional": true
+    },
+    {
+      "name": "Ground beef",
+      "originalText": "1 lb. ground beef",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb",
+      "preparation": null,
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Bulk Italian style pork sausage",
+      "originalText": "½ lb. fresh bulk Italian style pork sausage",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb",
+      "preparation": "fresh",
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Finely chopped basil",
+      "originalText": "2 tbsp. finely chopped basil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Finely chopped Italian parsley",
+      "originalText": "2 tbsp. finely chopped Italian parsley",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Finely chopped cremini brown mushrooms",
+      "originalText": "½ cup finely chopped cremini brown mushrooms",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "2 large eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "large",
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Unseasoned breadcrumbs",
+      "originalText": "¾ cup unseasoned breadcrumbs",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Parmesan-Romano cheese blend",
+      "originalText": "¼ cup grated Parmesan-Romano cheese blend",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "grated",
+      "section": "For the meatballs",
+      "optional": false
+    },
+    {
+      "name": "Red wine",
+      "originalText": "Red wine (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": "For the meatballs",
+      "optional": true
+    },
+    {
+      "name": "Spaghetti",
+      "originalText": "1 ½ lb. dry spaghetti",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "lb",
+      "preparation": "dry",
+      "section": "For the pasta",
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: ½ chopped sweet yellow onion; 3 cloves chopped garlic; 1 cup finely chopped carrots; 1 cup chopped cremini brown mushrooms; 2 cans (28 oz.) Italian plum tomatoes; ¼ cup chopped fresh Italian parsley; ¼ cup chopped fresh basil; 3 tbsp. tomato paste; ¼ cup grated Parmesan-Romano cheese blend; ¼ cup red wine (optional); 1 lb. ground beef; ½ lb. fresh bulk Italian style pork sausage; 2 tbsp. finely chopped basil; 2 tbsp. finely chopped Italian parsley; ½ cup finely chopped cremini brown mushrooms; 2 large eggs; ¾ cup unseasoned breadcrumbs; ¼ cup grated Parmesan-Romano cheese blend; Red wine (optional); 1 ½ lb. dry spaghetti. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Sweet yellow onion: chopped; Garlic: chopped; Cremini brown mushrooms: chopped; Italian parsley: chopped fresh; Basil: chopped fresh; Parmesan-Romano cheese blend: grated; Parmesan-Romano cheese blend: grated. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Heat olive oil in a 4 to 5 quart pot on medium-high heat.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "Add onions and cook for 2 minutes.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "Add garlic and cook for 30 seconds longer or until fragrant.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "Add the carrots and mushrooms, and cook for 2 minutes.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "Add the tomato paste, stir to blend, and cook for a minute longer.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "Add the canned tomatoes, basil, and parsley.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "Mash and stir the tomatoes with a potato masher until the sauce starts to thicken, about 5 minutes over medium-high heat.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "Reduce heat to low and simmer gently while preparing meatballs, stirring occasionally. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": "Prepare the sauce"
+    },
+    {
+      "text": "In a large bowl, mix by hand the beef, Italian sausage, basil, parsley, mushrooms, eggs, breadcrumbs, cheese, and 2 tablespoons of salt and pepper.",
+      "section": "Form the meatballs"
+    },
+    {
+      "text": "Do not overmix or the meatballs will be tough.",
+      "section": "Form the meatballs"
+    },
+    {
+      "text": "Use small melon baller (or teaspoon) to form 1-inch round meatballs.",
+      "section": "Form the meatballs"
+    },
+    {
+      "text": "Roll and compress into tight balls.",
+      "section": "Form the meatballs"
+    },
+    {
+      "text": "In a separate wide, shallow pan, heat olive oil on medium-high heat.",
+      "section": "Cook the meatballs"
+    },
+    {
+      "text": "Brown meatballs on all sides for about 2-3 minutes.",
+      "section": "Cook the meatballs"
+    },
+    {
+      "text": "Depending on the pan size, you may need to brown two batches of the meatballs.",
+      "section": "Cook the meatballs"
+    },
+    {
+      "text": "Cook them in a single layer; do not crowd the pan by stacking them.",
+      "section": "Cook the meatballs"
+    },
+    {
+      "text": "Do not overcook the meatballs; they will continue to cook in the sauce.",
+      "section": "Cook the meatballs"
+    },
+    {
+      "text": "Towards the end of browning the meatballs, add a little bit of red wine to deglaze the pan.",
+      "section": "Cook the meatballs"
+    },
+    {
+      "text": "Add the cheese and red wine to the sauce and stir it in.",
+      "section": "Finish and simmer the sauce"
+    },
+    {
+      "text": "Add 1 teaspoon of salt to taste.",
+      "section": "Finish and simmer the sauce"
+    },
+    {
+      "text": "Add meatballs and gently stir.",
+      "section": "Finish and simmer the sauce"
+    },
+    {
+      "text": "Simmer the sauce and meatballs for 30-45 minutes while cooking the spaghetti, stirring occasionally. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": "Finish and simmer the sauce"
+    },
+    {
+      "text": "Cook the pasta and optionally add 1/3 cup of pasta water to the sauce. Use the package cooking-time range, stir to separate the pasta, and taste a cooled piece near the end; it should be tender without a hard center.",
+      "section": "Cook the spaghetti"
+    },
+    {
+      "text": "Place a thin layer of sauce on a plate.",
+      "section": "Serve"
+    },
+    {
+      "text": "Add pasta, sauce and meatballs.",
+      "section": "Serve"
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the meat with a food thermometer. Ground beef, pork, and lamb must reach 160°F (71°C); use 165°F (74°C) for any poultry sausage. Continue cooking if needed, and wash hands and utensils after touching raw meat."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "beef"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    },
+    {
+      "name": "category",
+      "value": "pork"
+    }
+  ],
+  "keywords": [
+    "beef",
+    "cheesefare",
+    "italian",
+    "pasta",
+    "pork",
+    "spaghetti and meatballs"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spaghetti-and-meatballs/",
+    "siteName": "Public Domain Recipes",
+    "author": "ClosedGL",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "Prepare the sauce: 1. Heat olive oil in a 4 to 5 quart pot on medium-high heat.\nPrepare the sauce: 2. Add onions and cook for 2 minutes.\nPrepare the sauce: 3. Add garlic and cook for 30 seconds longer or until fragrant.\nPrepare the sauce: 4. Add the carrots and mushrooms, and cook for 2 minutes.\nPrepare the sauce: 5. Add the tomato paste, stir to blend, and cook for a minute longer.\nPrepare the sauce: 6. Add the canned tomatoes, basil, and parsley.\nPrepare the sauce: 7. Mash and stir the tomatoes with a potato masher until the sauce starts to thicken, about 5 minutes over medium-high heat.\nPrepare the sauce: 8. Reduce heat to low and simmer gently while preparing meatballs, stirring occasionally.\nForm the meatballs: 9. In a large bowl, mix by hand the beef, Italian sausage, basil, parsley, mushrooms, eggs, breadcrumbs, cheese, and 2 tablespoons of salt and pepper.\nForm the meatballs: 10. Do not overmix or the meatballs will be tough.\nForm the meatballs: 11. Use small melon baller (or teaspoon) to form 1-inch round meatballs.\nForm the meatballs: 12. Roll and compress into tight balls.\nCook the meatballs: 13. In a separate wide, shallow pan, heat olive oil on medium-high heat.\nCook the meatballs: 14. Brown meatballs on all sides for about 2-3 minutes.\nCook the meatballs: 15. Depending on the pan size, you may need to brown two batches of the meatballs. Cook them in a single layer; do not crowd the pan by stacking them.\nCook the meatballs: 16. Do not overcook the meatballs; they will continue to cook in the sauce.\nCook the meatballs: 17. Towards the end of browning the meatballs, add a little bit of red wine to deglaze the pan.\nFinish and simmer the sauce: 18. Add the cheese and red wine to the sauce and stir it in. Add 1 teaspoon of salt to taste.\nFinish and simmer the sauce: 19. Add meatballs and gently stir. Simmer the sauce and meatballs for 30-45 minutes while cooking the spaghetti, stirring occasionally.\nCook the spaghetti: 20. Cook the pasta and optionally add 1/3 cup of pasta water to the sauce.\nServe: 21. Place a thin layer of sauce on a plate. Add pasta, sauce and meatballs.",
+    "originalIngredients": [
+      "½ chopped sweet yellow onion",
+      "3 cloves chopped garlic",
+      "1 cup finely chopped carrots",
+      "1 cup chopped cremini brown mushrooms",
+      "2 cans (28 oz.) Italian plum tomatoes",
+      "¼ cup chopped fresh Italian parsley",
+      "¼ cup chopped fresh basil",
+      "3 tbsp. tomato paste",
+      "¼ cup grated Parmesan-Romano cheese blend",
+      "¼ cup red wine (optional)",
+      "1 lb. ground beef",
+      "½ lb. fresh bulk Italian style pork sausage",
+      "2 tbsp. finely chopped basil",
+      "2 tbsp. finely chopped Italian parsley",
+      "½ cup finely chopped cremini brown mushrooms",
+      "2 large eggs",
+      "¾ cup unseasoned breadcrumbs",
+      "¼ cup grated Parmesan-Romano cheese blend",
+      "Red wine (optional)",
+      "1 ½ lb. dry spaghetti"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

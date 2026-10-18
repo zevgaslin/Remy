@@ -28,7 +28,7 @@ class SeedDataIntegrationTest {
 
     @org.junit.jupiter.api.BeforeEach
     void loadJsonCatalog() throws Exception {
-        catalogService.importFolder(java.nio.file.Path.of("recipes"));
+        catalogService.importFolder(java.nio.file.Path.of("src/test/resources/recipes"));
     }
 
     @Test

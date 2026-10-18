@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "b32f6e89-e627-596f-bb19-335bd401ba7c",
+  "name": "Black Bean Sweet Potato Tacos",
+  "description": "Vegetarian tacos with roasted sweet potato, black beans, cumin, and chili powder.",
+  "cuisine": "Mexican-inspired",
+  "mealType": "Dinner",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 3,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Black Beans",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "can",
+      "preparation": "15 oz can, drained and rinsed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet Potato",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "large",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tortilla",
+      "originalText": null,
+      "quantity": 6.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cumin",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chili Powder",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a baking sheet, mixing bowl, small saucepan, knife, and spatula. Preheat the oven to 425\u00b0F (220\u00b0C) with a rack in the center.",
+      "section": null
+    },
+    {
+      "text": "Scrub and peel 1 large sweet potato. Cut it lengthwise into slices about 1/2 inch thick, cut the slices into strips, then into 1/2-inch cubes. Keep the pieces similar in size so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Put the cubes in the bowl with 1 tablespoon olive oil, 1 teaspoon cumin, and 1 teaspoon chili powder. Stir until coated. Spread on the baking sheet in a single layer with space between the pieces.",
+      "section": null
+    },
+    {
+      "text": "Roast for 20\u201330 minutes, turning the cubes with a spatula after 15 minutes. They are ready when the edges are lightly browned and a fork slides easily through the center. If firm, roast another 5 minutes and check again.",
+      "section": null
+    },
+    {
+      "text": "While the potato roasts, open one 15-ounce can black beans, drain in a sieve, and rinse. Put the beans in the saucepan with 2 tablespoons water. Heat over medium-low heat for 5\u20137 minutes, stirring occasionally, until steaming throughout. Add another tablespoon water if they begin to stick, then turn off the heat.",
+      "section": null
+    },
+    {
+      "text": "Warm 6 tortillas in a dry frying pan over medium heat for 20\u201330 seconds per side until pliable. Stack them on a plate and cover with a clean towel to keep warm.",
+      "section": null
+    },
+    {
+      "text": "Divide the beans and roasted sweet potato among the 6 tortillas. Serve 2 tacos per person, for 3 servings, while the filling is warm.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "diet",
+      "value": "high-fiber"
+    },
+    {
+      "name": "cuisine",
+      "value": "mexican-inspired"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 410,
+    "protein": 13,
+    "carbs": 68,
+    "fat": 10
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Roast diced sweet potato with olive oil, cumin, and chili powder. Warm black beans and tortillas, then assemble tacos."
+  }
+}

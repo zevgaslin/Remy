@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "2719d556-4a37-586f-afcf-59536229f2f2",
+  "name": "Butter Cake",
+  "description": "⏲️ Prep time: 10 min\n🍳 Cook time: 50 min\n🍽️ Servings: 8-10",
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Unsalted butter",
+      "originalText": "250g unsalted butter (warm to room temperature first)",
+      "quantity": 250.0,
+      "quantityText": "250",
+      "unit": "g",
+      "preparation": "warm to room temperature first",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Caster sugar",
+      "originalText": "130g caster sugar",
+      "quantity": 130.0,
+      "quantityText": "130",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla extract",
+      "originalText": "1tsp vanilla extract",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg yolks",
+      "originalText": "4 egg yolks",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sifted self-raising flour",
+      "originalText": "200g sifted self-raising flour (use as little as 180g for a moister texture)",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "g",
+      "preparation": "use as little as 180g for a moister texture",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "60mL milk",
+      "quantity": 60.0,
+      "quantityText": "60",
+      "unit": "mL",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cocoa powder",
+      "originalText": "(optional) 30g cocoa powder (for a marbled appearance)",
+      "quantity": 30.0,
+      "quantityText": "30",
+      "unit": "g",
+      "preparation": "for a marbled appearance",
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Caster sugar",
+      "originalText": "50g caster sugar",
+      "quantity": 50.0,
+      "quantityText": "50",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg whites",
+      "originalText": "Egg whites separated from the yolks above",
+      "quantity": 4,
+      "quantityText": "4",
+      "unit": "each",
+      "preparation": "use the whites from the same four eggs whose yolks are listed above",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 250g unsalted butter (warm to room temperature first); 130g caster sugar; 1tsp vanilla extract; 4 egg yolks; 200g sifted self-raising flour (use as little as 180g for a moister texture); 60mL milk; (optional) 30g cocoa powder (for a marbled appearance); 50g caster sugar; Egg whites separated from the yolks above. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Beat butter, sugar, and vanilla extract until incorporated.",
+      "section": null
+    },
+    {
+      "text": "Beat in egg yolks one at a time .",
+      "section": null
+    },
+    {
+      "text": "Beat in half of the sifted flour, then the milk.",
+      "section": null
+    },
+    {
+      "text": "Take care not to overwork the gluten after the flour is added.",
+      "section": null
+    },
+    {
+      "text": "You may well find that manually stirring in the flour yields better results.",
+      "section": null
+    },
+    {
+      "text": "Beat or stir in the remainder of the flour until just incorporated.",
+      "section": null
+    },
+    {
+      "text": "(optional) Separate approximately one-third of the batter and mix in with it cocoa powder.",
+      "section": null
+    },
+    {
+      "text": "To make the meringue, beat egg whites at high speed while gradually adding sugar until firm peaks form.",
+      "section": null
+    },
+    {
+      "text": "Fold the meringue into the batter.",
+      "section": null
+    },
+    {
+      "text": "If you have done the fifth optional step, then you’ll need to portion out approximately one-third of the meringue for the cocoa batter, and the remainder for the normal one.",
+      "section": null
+    },
+    {
+      "text": "Pour the batter(s) into a cake tin, and tap it on the countertop to get rid of any large air pockets.",
+      "section": null
+    },
+    {
+      "text": "(optional) For the marbled appearance, run a skewer or chopstick through the batter a few times.",
+      "section": null
+    },
+    {
+      "text": "Do not overdo this lest you end up with a homogenously light brown cake rather than a yellow cake with dark brown streaks.",
+      "section": null
+    },
+    {
+      "text": "Bake at 175°C/350°F (conventional non-fan-forced) for 40-60min depending on the resulting batter thickness in your specific cake tin.",
+      "section": null
+    },
+    {
+      "text": "Just keep an eye on it and you’ll be fine; test its doneness by inserting a skewer and seeing whether it comes out clean.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "snack"
+    },
+    {
+      "name": "category",
+      "value": "sweet"
+    }
+  ],
+  "keywords": [
+    "dessert",
+    "snack",
+    "sweet",
+    "butter cake"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/butter-cake/",
+    "siteName": "Public Domain Recipes",
+    "author": "Michael",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Beat butter, sugar, and vanilla extract until incorporated.\n2. Beat in egg yolks one at a time .\n3. Beat in half of the sifted flour, then the milk. Take care not to overwork the gluten after the flour is added. You may well find that manually stirring in the flour yields better results.\n4. Beat or stir in the remainder of the flour until just incorporated.\n5. (optional) Separate approximately one-third of the batter and mix in with it cocoa powder.\n6. To make the meringue, beat egg whites at high speed while gradually adding sugar until firm peaks form.\n7. Fold the meringue into the batter. If you have done the fifth optional step, then you’ll need to portion out approximately one-third of the meringue for the cocoa batter, and the remainder for the normal one.\n8. Pour the batter(s) into a cake tin, and tap it on the countertop to get rid of any large air pockets.\n9. (optional) For the marbled appearance, run a skewer or chopstick through the batter a few times. Do not overdo this lest you end up with a homogenously light brown cake rather than a yellow cake with dark brown streaks.\n10. Bake at 175°C/350°F (conventional non-fan-forced) for 40-60min depending on the resulting batter thickness in your specific cake tin. Just keep an eye on it and you’ll be fine; test its doneness by inserting a skewer and seeing whether it comes out clean.",
+    "originalIngredients": [
+      "250g unsalted butter (warm to room temperature first)",
+      "130g caster sugar",
+      "1tsp vanilla extract",
+      "4 egg yolks",
+      "200g sifted self-raising flour (use as little as 180g for a moister texture)",
+      "60mL milk",
+      "(optional) 30g cocoa powder (for a marbled appearance)",
+      "50g caster sugar",
+      "Egg whites separated from the yolks above"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

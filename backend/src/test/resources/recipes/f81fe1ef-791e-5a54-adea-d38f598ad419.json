@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "f81fe1ef-791e-5a54-adea-d38f598ad419",
+  "name": "Classic Pancakes",
+  "description": "Fluffy griddle pancakes made with eggs, milk, butter, flour, and baking powder.",
+  "cuisine": "American",
+  "mealType": "Breakfast",
+  "difficulty": "Easy",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 6,
+  "yieldText": "About 12 pancakes; 2 per serving",
+  "ingredients": [
+    {
+      "name": "Egg",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": null,
+      "quantity": 1.25,
+      "quantityText": null,
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": null,
+      "quantity": 3.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "All-Purpose Flour",
+      "originalText": null,
+      "quantity": 1.5,
+      "quantityText": null,
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking Powder",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Blueberries",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out 2 mixing bowls, a whisk, a spatula, a 1/4-cup measure, and a nonstick frying pan or griddle. Measure flour by spooning it into the cup and leveling it with a straight edge rather than packing it down.",
+      "section": null
+    },
+    {
+      "text": "Melt 3 tablespoons butter in a small saucepan over low heat or in a microwave-safe bowl in 10-second bursts. Let it cool for 3 minutes until warm rather than hot. Reserve 1 teaspoon of this butter for lightly coating the pan.",
+      "section": null
+    },
+    {
+      "text": "In the first bowl, whisk 1 1/2 cups all-purpose flour, 2 teaspoons baking powder, and 2 tablespoons sugar for about 20 seconds to distribute the baking powder.",
+      "section": null
+    },
+    {
+      "text": "In the second bowl, beat 2 eggs with 1 1/4 cups milk and the melted butter remaining after reserving 1 teaspoon. Pour into the flour mixture and fold with the spatula just until no large dry patches remain. Small lumps are fine; do not beat the batter smooth. Let stand 5 minutes.",
+      "section": null
+    },
+    {
+      "text": "Heat the pan over medium-low to medium heat for 2 minutes. Brush a very thin film of the reserved butter over the cooking surface. If the butter browns immediately, lower the heat.",
+      "section": null
+    },
+    {
+      "text": "Pour 1/4 cup batter into the pan for each pancake, leaving space to flip them. If using the optional 1 cup blueberries, wash and dry them, then distribute a few over each pancake, sharing them across the batches.",
+      "section": null
+    },
+    {
+      "text": "Cook the first side for 2\u20133 minutes until bubbles appear on top, the edges lose their wet shine, and the underside is golden. Slide the spatula fully underneath and flip once. Cook the second side for 1\u20132 minutes until golden and the center is set. If the outside browns before the center cooks, lower the heat for the next batch.",
+      "section": null
+    },
+    {
+      "text": "Transfer to a plate and repeat with the remaining batter, using the reserved butter sparingly as needed. Serve warm; the batch makes about 12 medium pancakes, or 2 per serving for 6 servings.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "breakfast"
+    },
+    {
+      "name": "diet",
+      "value": "vegetarian"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "difficulty",
+      "value": "easy"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 230,
+    "protein": 7,
+    "carbs": 30,
+    "fat": 9
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Whisk eggs, milk, and melted butter. Fold in flour, baking powder, and sugar, rest the batter, then cook portions on a greased griddle until browned on both sides."
+  }
+}

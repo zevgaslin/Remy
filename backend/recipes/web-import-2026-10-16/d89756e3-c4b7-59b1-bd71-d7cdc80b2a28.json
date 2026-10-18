@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "d89756e3-c4b7-59b1-bd71-d7cdc80b2a28",
+  "name": "Spatchcock Chicken",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Pound whole chickens, wingtips removed",
+      "originalText": "2 (3 1/2) pound whole chickens, wingtips removed",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "3 1/2",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "2 teaspoons salt",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tarragon",
+      "originalText": "1 teaspoon dried tarragon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Paprika",
+      "originalText": "1 teaspoon paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Black pepper",
+      "originalText": "1/4 teaspoon black pepper",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "4 teaspoons olive oil",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemons",
+      "originalText": "2 lemons, thinly sliced and seeded",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "thinly sliced and seeded",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 (3 1/2) pound whole chickens, wingtips removed; 2 teaspoons salt; 1 teaspoon dried tarragon; 1 teaspoon paprika; 1/4 teaspoon black pepper; 4 teaspoons olive oil; 2 lemons, thinly sliced and seeded. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Lemons: thinly sliced and seeded. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Preheat oven to 450 degrees F (230 degrees C).",
+      "section": null
+    },
+    {
+      "text": "Line a large rimmed baking sheet with foil.",
+      "section": null
+    },
+    {
+      "text": "Place chicken, breast side down, on a work surface.",
+      "section": null
+    },
+    {
+      "text": "Starting at the tail end, cut along both sides of backbone with kitchen shears.",
+      "section": null
+    },
+    {
+      "text": "Remove backbone.",
+      "section": null
+    },
+    {
+      "text": "Grabbing hold of both sides of the chicken, open it like a book.",
+      "section": null
+    },
+    {
+      "text": "Turn breast side up.",
+      "section": null
+    },
+    {
+      "text": "Push down on each side of breast with your hands until you hear it crack.",
+      "section": null
+    },
+    {
+      "text": "Flatten chicken and transfer to one short end of the prepared baking sheet.",
+      "section": null
+    },
+    {
+      "text": "Repeat with the second chicken.",
+      "section": null
+    },
+    {
+      "text": "Combine salt, tarragon, paprika, and pepper in a small bowl.",
+      "section": null
+    },
+    {
+      "text": "Stir in oil.",
+      "section": null
+    },
+    {
+      "text": "Run your fingers under chicken skin and rub tarragon paste under skin.",
+      "section": null
+    },
+    {
+      "text": "Slide lemon slices under skin, in a single layer.",
+      "section": null
+    },
+    {
+      "text": "Roast until skin is crisp and an instant-read thermometer inserted into thickest part of breast reads 165 degrees F, about 35 minutes.",
+      "section": null
+    },
+    {
+      "text": "Let stand 5 minutes before cutting each chicken into 8 pieces.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "basic"
+    },
+    {
+      "name": "category",
+      "value": "bread"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    }
+  ],
+  "keywords": [
+    "basic",
+    "bread",
+    "chicken",
+    "spatchcock chicken"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spatchcock-chicken/",
+    "siteName": "Public Domain Recipes",
+    "author": "Front3ndNinja",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat oven to 450 degrees F (230 degrees C). Line a large rimmed baking sheet with foil.\n2. Place chicken, breast side down, on a work surface. Starting at the tail end, cut along both sides of backbone with kitchen shears. Remove backbone. Grabbing hold of both sides of the chicken, open it like a book. Turn breast side up. Push down on each side of breast with your hands until you hear it crack. Flatten chicken and transfer to one short end of the prepared baking sheet. Repeat with the second chicken.\n3. Combine salt, tarragon, paprika, and pepper in a small bowl. Stir in oil. Run your fingers under chicken skin and rub tarragon paste under skin. Slide lemon slices under skin, in a single layer.\n4. Roast until skin is crisp and an instant-read thermometer inserted into thickest part of breast reads 165 degrees F, about 35 minutes. Let stand 5 minutes before cutting each chicken into 8 pieces.",
+    "originalIngredients": [
+      "2 (3 1/2) pound whole chickens, wingtips removed",
+      "2 teaspoons salt",
+      "1 teaspoon dried tarragon",
+      "1 teaspoon paprika",
+      "1/4 teaspoon black pepper",
+      "4 teaspoons olive oil",
+      "2 lemons, thinly sliced and seeded"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

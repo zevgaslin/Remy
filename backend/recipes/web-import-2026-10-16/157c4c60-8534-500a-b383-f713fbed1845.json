@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "157c4c60-8534-500a-b383-f713fbed1845",
+  "name": "French Crêpes",
+  "description": "Like pancakes, but very thin. 15 crêpes.",
+  "cuisine": "French",
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "White flour",
+      "originalText": "300g white flour",
+      "quantity": 300.0,
+      "quantityText": "300",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "60cl milk",
+      "quantity": 60.0,
+      "quantityText": "60",
+      "unit": "cl",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Beer",
+      "originalText": "20cl beer",
+      "quantity": 20.0,
+      "quantityText": "20",
+      "unit": "cl",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter or 3 tablespoons of oil",
+      "originalText": "30g butter or 3 tablespoons of oil",
+      "quantity": 30.0,
+      "quantityText": "30",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 300g white flour; 3 eggs; 60cl milk; 20cl beer; 30g butter or 3 tablespoons of oil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Mix flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour)",
+      "section": null
+    },
+    {
+      "text": "Slowly add milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid)",
+      "section": null
+    },
+    {
+      "text": "Let it rest one hour. (optional)",
+      "section": null
+    },
+    {
+      "text": "Cook the crêpe in a flat pan, one ladle at a time.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "cuisine",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "french"
+    }
+  ],
+  "keywords": [
+    "breakfast",
+    "cheesefare",
+    "dessert",
+    "french",
+    "french crêpes"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/french-crepes/",
+    "siteName": "Public Domain Recipes",
+    "author": "Aeredren",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Mix flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour)\n2. Slowly add milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid)\n3. Let it rest one hour. (optional)\n4. Cook the crêpe in a flat pan, one ladle at a time.",
+    "originalIngredients": [
+      "300g white flour",
+      "3 eggs",
+      "60cl milk",
+      "20cl beer",
+      "30g butter or 3 tablespoons of oil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

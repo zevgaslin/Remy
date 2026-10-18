@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "5aeba34f-8f82-50ac-bea8-a18351f78d4c",
+  "name": "Spaghetti Sauce",
+  "description": null,
+  "cuisine": "Italian",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "10+ servings",
+  "ingredients": [
+    {
+      "name": "Or diced tomatoes",
+      "originalText": "4 28 oz cans of whole or diced tomatoes",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cans",
+      "preparation": "28 oz source package size; whole",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato paste",
+      "originalText": "1 6 oz can of tomato paste",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "6 oz source package size",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "12 garlic gloves",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "3/4 cup of olive oil",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Basil",
+      "originalText": "basil (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Red pepper flakes",
+      "originalText": "red pepper flakes (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 4 28 oz cans of whole or diced tomatoes; 1 6 oz can of tomato paste; 12 garlic gloves; 3/4 cup of olive oil; basil (optional); red pepper flakes (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Peel and mince garlic. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Heat 1/2 a cup of olive oil in a large pot (high-low to low-medium heat), and heat the garlic until golden and fragrant.",
+      "section": null
+    },
+    {
+      "text": "Add the tomato paste and 4 cans of tomatos and bring to a simmer. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "If adding red pepper flakes add them now.",
+      "section": null
+    },
+    {
+      "text": "Cook uncovered for 45 minutes, stirring occasionally.",
+      "section": null
+    },
+    {
+      "text": "Add a pinch of salt, the remaining 1/4 cup of olive oil, and basil if you are adding that.",
+      "section": null
+    },
+    {
+      "text": "\\n",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "fasting"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    },
+    {
+      "name": "category",
+      "value": "sauce"
+    },
+    {
+      "name": "category",
+      "value": "tomato"
+    }
+  ],
+  "keywords": [
+    "fasting",
+    "italian",
+    "pasta",
+    "sauce",
+    "tomato",
+    "spaghetti sauce"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spaghetti-sauce/",
+    "siteName": "Public Domain Recipes",
+    "author": "Jimmy B",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Peel and mince garlic.\n2. Heat 1/2 a cup of olive oil in a large pot (high-low to low-medium heat), and heat the garlic until golden and fragrant.\n3. Add the tomato paste and 4 cans of tomatos and bring to a simmer. If adding red pepper flakes add them now.\n4. Cook uncovered for 45 minutes, stirring occasionally.\n5. Add a pinch of salt, the remaining 1/4 cup of olive oil, and basil if you are adding that.\n6. \\n",
+    "originalIngredients": [
+      "4 28 oz cans of whole or diced tomatoes",
+      "1 6 oz can of tomato paste",
+      "12 garlic gloves",
+      "3/4 cup of olive oil",
+      "basil (optional)",
+      "red pepper flakes (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "id": "5307a27d-b507-5caa-b5a1-7af3ef5f71ca",
+  "name": "Bolognese Sauce",
+  "description": "Basic bolognese sauce for lasagne or pasta dishes",
+  "cuisine": "Italian",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 45,
+  "cookMinutes": 240,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Extra virgin olive oil",
+      "originalText": "extra virgin olive oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrots",
+      "originalText": "2 carrots",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Celery sticks",
+      "originalText": "2 celery sticks",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 large onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 garlic cloves (optional, but not traditional)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Pancetta",
+      "originalText": "200 grams pancetta (optional)",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "grams",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Beef mince",
+      "originalText": "300 grams beef mince",
+      "quantity": 300.0,
+      "quantityText": "300",
+      "unit": "grams",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pork mince",
+      "originalText": "350 grams pork mince",
+      "quantity": 350.0,
+      "quantityText": "350",
+      "unit": "grams",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Veal mince",
+      "originalText": "350 grams veal mince (if you cant find veal replace with pork)",
+      "quantity": 350.0,
+      "quantityText": "350",
+      "unit": "grams",
+      "preparation": "if you cant find veal replace with pork",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Concentrated tomato paste",
+      "originalText": "140 grams concentrated tomato paste",
+      "quantity": 140.0,
+      "quantityText": "140",
+      "unit": "grams",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "690 grams diced tomatoes",
+      "quantity": 690.0,
+      "quantityText": "690",
+      "unit": "grams",
+      "preparation": "diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "1 can peeled tomatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "peeled",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Wine",
+      "originalText": "1-2 glasses wine (whatever you have open)",
+      "quantity": null,
+      "quantityText": "1-2",
+      "unit": "glasses",
+      "preparation": "whatever you have open",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1 glass of milk (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "glass",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Beef/vegetable stock",
+      "originalText": "1 glass of beef/vegetable stock (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "glass",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: extra virgin olive oil; 2 carrots; 2 celery sticks; 1 large onion; 2 garlic cloves (optional, but not traditional); 200 grams pancetta (optional); 300 grams beef mince; 350 grams pork mince; 350 grams veal mince (if you cant find veal replace with pork); 140 grams concentrated tomato paste; 690 grams diced tomatoes; water; 1 can peeled tomatoes; 1-2 glasses wine (whatever you have open); 1 glass of milk (optional); 1 glass of beef/vegetable stock (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Tomatoes: diced; Tomatoes: peeled. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Finely dice the carrots, celery, onion and pancetta, if your blender can handle it you can optionally blend all this to speed it up. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Heat up a large saucepan or dutch oven on medium low heat and put enough olive oil in to cover the bottom of the pan.",
+      "section": null
+    },
+    {
+      "text": "Put in your diced veggies and pancetta and let it slowly sauté for about 10 minutes until everything is fragrant and soft. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "If you are using garlic add it here and let it sweat for a minute",
+      "section": null
+    },
+    {
+      "text": "Add in your minced meat and break it up into small clumps about the size of a rice grain with a spoon, keep stiring until all your meat is lightly cooked. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Once all your meat is cooked and looks a bit grey add your wine, add enough to fully deglaze the pan (I usually add a little bit extra for the flavor)\nstir it through until it has completely evaporated. (If you are using it you can also add the stock at this point)",
+      "section": null
+    },
+    {
+      "text": "Once your pan is somewhat dry you can add the tomato paste to the beef, let it cook for a minute to remove the slight metallic taste.",
+      "section": null
+    },
+    {
+      "text": "Add your canned and peeled tomatoes and use your spoon to break them up, you don’t have to be too thorough since they will soften up while the sauce cooks.",
+      "section": null
+    },
+    {
+      "text": "add the diced tomatoes, fill the jar your tomatoes came in with water give it a shake and add that to the pot, do the same with your can of peeled tomatoes. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "lower your heat to the lowest setting and slightly cover the pan with your lid.",
+      "section": null
+    },
+    {
+      "text": "let it simmer for as long as you can wait, preferably at least 4 hours, if it starts getting a bit too dry you can add a bit more water to make sure the sauce doesn’t burn. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Once it’s done simmering for as long as you can muster and its nice and thick, the liquid should not come above your meat and should be pretty concentrated A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "You can add your glass of milk, let it simmer for 10 more minutes and serve. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the meat with a food thermometer. Ground beef, pork, and lamb must reach 160°F (71°C); use 165°F (74°C) for any poultry sausage. Continue cooking if needed, and wash hands and utensils after touching raw meat."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    },
+    {
+      "name": "category",
+      "value": "sauce"
+    }
+  ],
+  "keywords": [
+    "italian",
+    "pasta",
+    "sauce",
+    "bolognese sauce"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/bolognese-sauce.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/bolognese-sauce/",
+    "siteName": "Public Domain Recipes",
+    "author": "Tait",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Finely dice the carrots, celery, onion and pancetta, if your blender can handle it you can optionally blend all this to speed it up.\n2. Heat up a large saucepan or dutch oven on medium low heat and put enough olive oil in to cover the bottom of the pan.\n3. Put in your diced veggies and pancetta and let it slowly sauté for about 10 minutes until everything is fragrant and soft.\n4. If you are using garlic add it here and let it sweat for a minute\n5. Add in your minced meat and break it up into small clumps about the size of a rice grain with a spoon, keep stiring until all your meat is lightly cooked.\n6. Once all your meat is cooked and looks a bit grey add your wine, add enough to fully deglaze the pan (I usually add a little bit extra for the flavor)\nstir it through until it has completely evaporated. (If you are using it you can also add the stock at this point)\n7. Once your pan is somewhat dry you can add the tomato paste to the beef, let it cook for a minute to remove the slight metallic taste.\n8. Add your canned and peeled tomatoes and use your spoon to break them up, you don’t have to be too thorough since they will soften up while the sauce cooks.\n9. add the diced tomatoes, fill the jar your tomatoes came in with water give it a shake and add that to the pot, do the same with your can of peeled tomatoes.\n10. lower your heat to the lowest setting and slightly cover the pan with your lid.\n11. let it simmer for as long as you can wait, preferably at least 4 hours, if it starts getting a bit too dry you can add a bit more water to make sure the sauce doesn’t burn.\n12. Once it’s done simmering for as long as you can muster and its nice and thick, the liquid should not come above your meat and should be pretty concentrated\n13. You can add your glass of milk, let it simmer for 10 more minutes and serve.",
+    "originalIngredients": [
+      "extra virgin olive oil",
+      "2 carrots",
+      "2 celery sticks",
+      "1 large onion",
+      "2 garlic cloves (optional, but not traditional)",
+      "200 grams pancetta (optional)",
+      "300 grams beef mince",
+      "350 grams pork mince",
+      "350 grams veal mince (if you cant find veal replace with pork)",
+      "140 grams concentrated tomato paste",
+      "690 grams diced tomatoes",
+      "water",
+      "1 can peeled tomatoes",
+      "1-2 glasses wine (whatever you have open)",
+      "1 glass of milk (optional)",
+      "1 glass of beef/vegetable stock (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

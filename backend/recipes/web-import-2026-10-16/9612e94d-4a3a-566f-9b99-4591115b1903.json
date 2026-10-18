@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "9612e94d-4a3a-566f-9b99-4591115b1903",
+  "name": "Salsa Verde",
+  "description": null,
+  "cuisine": "Mexican",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Tomatillos, husks removed",
+      "originalText": "1 pound (450g) tomatillos, husks removed",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": "450g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "1 clove garlic",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "clove",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Jalapeño or serrano chilies",
+      "originalText": "2 jalapeño or serrano chilies",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1/2 cup (26g) chopped onion",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "26g; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oil",
+      "originalText": "3 Tbsp (40ml) oil",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "Tbsp",
+      "preparation": "40ml",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cilantro",
+      "originalText": "cilantro",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 pound (450g) tomatillos, husks removed; 1 clove garlic; 2 jalapeño or serrano chilies; 1/2 cup (26g) chopped onion; 3 Tbsp (40ml) oil; cilantro. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onion: 26g; chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Place tomatillos, garlic, and chilies in a medium saucepan and cover with water.",
+      "section": null
+    },
+    {
+      "text": "Simmer until tomatillos turn pale green, about 10 minutes. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Transfer tomatillos, garlic, and chilies into a blender or food processor.",
+      "section": null
+    },
+    {
+      "text": "Add the onion and cilantro.",
+      "section": null
+    },
+    {
+      "text": "Puree until smooth, then salt to taste, usually a teaspoon (6g) will suffice.",
+      "section": null
+    },
+    {
+      "text": "Heat oil in a medium saucepan until hot but not smoking.",
+      "section": null
+    },
+    {
+      "text": "Pour puree into the pan and cook, stirring occasionally, until thickened somewhat, about 6-8 minutes.",
+      "section": null
+    },
+    {
+      "text": "Makes about 2 cups (475mL).",
+      "section": null
+    },
+    {
+      "text": "Refrigerate leftovers",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "sauce"
+    }
+  ],
+  "keywords": [
+    "mexican",
+    "sauce",
+    "salsa verde"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/salsa-verde/",
+    "siteName": "Public Domain Recipes",
+    "author": "Nathan",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Place tomatillos, garlic, and chilies in a medium saucepan and cover with water. Simmer until tomatillos turn pale green, about 10 minutes.\n2. Transfer tomatillos, garlic, and chilies into a blender or food processor. Add the onion and cilantro. Puree until smooth, then salt to taste, usually a teaspoon (6g) will suffice.\n3. Heat oil in a medium saucepan until hot but not smoking. Pour puree into the pan and cook, stirring occasionally, until thickened somewhat, about 6-8 minutes.\n4. Makes about 2 cups (475mL). Refrigerate leftovers",
+    "originalIngredients": [
+      "1 pound (450g) tomatillos, husks removed",
+      "1 clove garlic",
+      "2 jalapeño or serrano chilies",
+      "1/2 cup (26g) chopped onion",
+      "3 Tbsp (40ml) oil",
+      "cilantro"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

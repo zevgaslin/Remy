@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "96c55253-3e09-5d29-b2ee-e5cc77d2f235",
+  "name": "Smoked Salmon Pasta Primavera",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Linguine",
+      "originalText": "12 oz Linguine",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": "oz",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Asparagus",
+      "originalText": "1/2 lb Asparagus, cut into 2\" pieces",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb",
+      "preparation": "cut into 2\" pieces",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green Beans, halved",
+      "originalText": "1/4 lb Green Beans, halved",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "lb",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar Snap Peas, trimmed",
+      "originalText": "1 cup Sugar Snap Peas, trimmed",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Frozen Edamame or Peas",
+      "originalText": "1/2 cup Frozen Edamame or Peas",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "1 Tbsp Butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 small Onion, minced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "small; minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 cloves Garlic, minced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "All-Purpose Flour",
+      "originalText": "3 Tbsp All-Purpose Flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "2 1/2 cup Milk",
+      "quantity": 2.5,
+      "quantityText": "2 1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Smoked Salmon",
+      "originalText": "1/3 lb Smoked Salmon, cut into wide strips",
+      "quantity": 0.3333333333333333,
+      "quantityText": "1/3",
+      "unit": "lb",
+      "preparation": "cut into wide strips",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mint",
+      "originalText": "1/2 cup Fresh Mint, coarsely chopped",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "Fresh; coarsely chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon",
+      "originalText": "1/2 Lemon",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 12 oz Linguine; 1/2 lb Asparagus, cut into 2\" pieces; 1/4 lb Green Beans, halved; 1 cup Sugar Snap Peas, trimmed; 1/2 cup Frozen Edamame or Peas; 1 Tbsp Butter; 1 small Onion, minced; 2 cloves Garlic, minced; 3 Tbsp All-Purpose Flour; 2 1/2 cup Milk; 1/3 lb Smoked Salmon, cut into wide strips; 1/2 cup Fresh Mint, coarsely chopped; 1/2 Lemon. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Asparagus: cut into 2\" pieces; Onion: small; minced; Garlic: minced; Smoked Salmon: cut into wide strips; Mint: Fresh; coarsely chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "In a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute.",
+      "section": null
+    },
+    {
+      "text": "Drain very well.",
+      "section": null
+    },
+    {
+      "text": "Meanwhile in large saucepan, melt butter over medium heat.",
+      "section": null
+    },
+    {
+      "text": "Add onion and garlic; cook, stirring 3 minutes.",
+      "section": null
+    },
+    {
+      "text": "Stir in flour.",
+      "section": null
+    },
+    {
+      "text": "Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened (5 mins).",
+      "section": null
+    },
+    {
+      "text": "Add pasta mixture, stirring until hot.",
+      "section": null
+    },
+    {
+      "text": "Stir in salmon and mint just until mixed.",
+      "section": null
+    },
+    {
+      "text": "Squeeze juice from lemon into pasta and stir.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    }
+  ],
+  "keywords": [
+    "fish",
+    "pasta",
+    "smoked salmon pasta primavera"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/smoked-salmon-pasta-primavera/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. In a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute. Drain very well.\n2. Meanwhile in large saucepan, melt butter over medium heat. Add onion and garlic; cook, stirring 3 minutes. Stir in flour. Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened (5 mins).\n3. Add pasta mixture, stirring until hot. Stir in salmon and mint just until mixed. Squeeze juice from lemon into pasta and stir.",
+    "originalIngredients": [
+      "12 oz Linguine",
+      "1/2 lb Asparagus, cut into 2\" pieces",
+      "1/4 lb Green Beans, halved",
+      "1 cup Sugar Snap Peas, trimmed",
+      "1/2 cup Frozen Edamame or Peas",
+      "1 Tbsp Butter",
+      "1 small Onion, minced",
+      "2 cloves Garlic, minced",
+      "3 Tbsp All-Purpose Flour",
+      "2 1/2 cup Milk",
+      "1/3 lb Smoked Salmon, cut into wide strips",
+      "1/2 cup Fresh Mint, coarsely chopped",
+      "1/2 Lemon"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

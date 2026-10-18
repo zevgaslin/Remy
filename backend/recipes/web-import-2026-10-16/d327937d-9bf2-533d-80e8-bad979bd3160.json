@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "d327937d-9bf2-533d-80e8-bad979bd3160",
+  "name": "Spaghetti alla puttanesca",
+  "description": "author: postbellum\nEasy and delicious italian dish. Spaghetti alla puttanesca entice you for the savory sauce that surrounds them: peeled tomatoes, capers, “Gaeta” olives,  and anchovy fillets give these spaghetti a unique taste.",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 18,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Pot of water",
+      "originalText": "Pot of water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Italian spaghetti",
+      "originalText": "320g italian spaghetti",
+      "quantity": 320.0,
+      "quantityText": "320",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 garlic cloves",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salted capers",
+      "originalText": "10g salted capers",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Anchovies in oil",
+      "originalText": "25g anchovies in oil",
+      "quantity": 25.0,
+      "quantityText": "25",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes “sugo”",
+      "originalText": "800g peeled tomatoes “sugo”",
+      "quantity": 800.0,
+      "quantityText": "800",
+      "unit": "g",
+      "preparation": "peeled",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "1 bunch of parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "bunch",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Gaeta olives",
+      "originalText": "100g Gaeta olives",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chillies",
+      "originalText": "2 chopped chillies",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "A pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: Pot of water; 320g italian spaghetti; 2 garlic cloves; 10g salted capers; 25g anchovies in oil; 800g peeled tomatoes “sugo”; 1 bunch of parsley; 100g Gaeta olives; 2 chopped chillies; A pinch of salt. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Tomatoes “sugo”: peeled; Chillies: chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Wash capers from salt, then cut them",
+      "section": null
+    },
+    {
+      "text": "Pit and crush Gaeta olives",
+      "section": null
+    },
+    {
+      "text": "Wash and chop the bunch of parsley",
+      "section": null
+    },
+    {
+      "text": "Start cooking the pasta until al dente. Use the package cooking-time range, stir to separate the pasta, and taste a cooled piece near the end; it should be tender without a hard center.",
+      "section": null
+    },
+    {
+      "text": "Pour the oil, the peeled garlic cloves and the chopped dry chilli peppers into a large pan",
+      "section": null
+    },
+    {
+      "text": "Add the anchovy fillets and capers",
+      "section": null
+    },
+    {
+      "text": "Brown over medium heat for 5 minutes, stirring often, so the anchovies will melt",
+      "section": null
+    },
+    {
+      "text": "Now add peeled tomatoes “sugo”; mix it with a spoon and cook for another 10 minutes over medium heat",
+      "section": null
+    },
+    {
+      "text": "When the sauce is ready, remove the garlic cloves",
+      "section": null
+    },
+    {
+      "text": "Add crushed olives and chopped parsley",
+      "section": null
+    },
+    {
+      "text": "Drain spaghetti directly in the pan and sauté it for half a minute Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "The dish is ready",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pasta"
+    }
+  ],
+  "keywords": [
+    "italian",
+    "pasta",
+    "spaghetti alla puttanesca"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/spaghetti-alla-puttanesca/",
+    "siteName": "Public Domain Recipes",
+    "author": null,
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Wash capers from salt, then cut them\n2. Pit and crush Gaeta olives\n3. Wash and chop the bunch of parsley\n4. Start cooking the pasta until al dente.\n5. Pour the oil, the peeled garlic cloves and the chopped dry chilli peppers into a large pan\n6. Add the anchovy fillets and capers\n7. Brown over medium heat for 5 minutes, stirring often, so the anchovies will melt\n8. Now add peeled tomatoes “sugo”; mix it with a spoon and cook for another 10 minutes over medium heat\n9. When the sauce is ready, remove the garlic cloves\n10. Add crushed olives and chopped parsley\n11. Drain spaghetti directly in the pan and sauté it for half a minute\n12. The dish is ready",
+    "originalIngredients": [
+      "Pot of water",
+      "320g italian spaghetti",
+      "2 garlic cloves",
+      "10g salted capers",
+      "25g anchovies in oil",
+      "800g peeled tomatoes “sugo”",
+      "1 bunch of parsley",
+      "100g Gaeta olives",
+      "2 chopped chillies",
+      "A pinch of salt"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

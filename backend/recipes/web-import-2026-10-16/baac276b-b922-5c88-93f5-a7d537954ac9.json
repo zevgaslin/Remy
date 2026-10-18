@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "baac276b-b922-5c88-93f5-a7d537954ac9",
+  "name": "Schnitzel",
+  "description": "Original Austrian breaded meat, pan-fried in butter.",
+  "cuisine": "Austrian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 6,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Veal cutlets",
+      "originalText": "4 veal cutlets (1 ~ 150g)",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": "1 ~ 150g",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon",
+      "originalText": "1 lemon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "100g flour",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bread crumbs",
+      "originalText": "150g bread crumbs",
+      "quantity": 150.0,
+      "quantityText": "150",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "100g butter (or even better clarified butter)",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "g",
+      "preparation": "or even better clarified butter",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 4 veal cutlets (1 ~ 150g); 2 eggs; 1 lemon; 100g flour; 150g bread crumbs; 100g butter (or even better clarified butter). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Prepare 3 bowls. (One with flour, one with beaten eggs, one with bread crumbs seasoned with salt and paprika)",
+      "section": null
+    },
+    {
+      "text": "Wash the veal and gently dry it with kitchen roll.",
+      "section": null
+    },
+    {
+      "text": "Put the veal on a board and beat it with a meat tenderizer (or a rolling pin) to a thickness of 0.5 cm. (Beating the veal makes it tender)",
+      "section": null
+    },
+    {
+      "text": "Season the veal with salt and pepper on both sides, dive it through the 3 bowls. (First flour, then eggs, finally bread crumbs)",
+      "section": null
+    },
+    {
+      "text": "Melt the butter in a deep pan. (Attention: not too hot. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Butter should not turn brown)",
+      "section": null
+    },
+    {
+      "text": "Fry the veal on each side until it is gold brown. (e.g. 3 min on each side)",
+      "section": null
+    },
+    {
+      "text": "Serve with a piece of lemon.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "austrian"
+    },
+    {
+      "name": "category",
+      "value": "austrian"
+    },
+    {
+      "name": "category",
+      "value": "beef"
+    }
+  ],
+  "keywords": [
+    "austrian",
+    "beef",
+    "schnitzel"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/schnitzel.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/schnitzel/",
+    "siteName": "Public Domain Recipes",
+    "author": "Tobias & Alexandra Grimm",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Prepare 3 bowls. (One with flour, one with beaten eggs, one with bread crumbs seasoned with salt and paprika)\n2. Wash the veal and gently dry it with kitchen roll.\n3. Put the veal on a board and beat it with a meat tenderizer (or a rolling pin) to a thickness of 0.5 cm. (Beating the veal makes it tender)\n4. Season the veal with salt and pepper on both sides, dive it through the 3 bowls. (First flour, then eggs, finally bread crumbs)\n5. Melt the butter in a deep pan. (Attention: not too hot. Butter should not turn brown)\n6. Fry the veal on each side until it is gold brown. (e.g. 3 min on each side)\n7. Serve with a piece of lemon.",
+    "originalIngredients": [
+      "4 veal cutlets (1 ~ 150g)",
+      "2 eggs",
+      "1 lemon",
+      "100g flour",
+      "150g bread crumbs",
+      "100g butter (or even better clarified butter)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

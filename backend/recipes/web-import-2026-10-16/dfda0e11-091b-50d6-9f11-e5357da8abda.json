@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "id": "dfda0e11-091b-50d6-9f11-e5357da8abda",
+  "name": "Hoisin Tofu and Broccoli",
+  "description": null,
+  "cuisine": "Chinese",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Block of firm tofu",
+      "originalText": "One block of firm tofu (400g, extra firm will work too)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "400g, extra firm will work too",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Broccoli",
+      "originalText": "1 head (300 grams stemless) of Broccoli",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "head",
+      "preparation": "300 grams stemless",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2-4 cloves of garlic, diced",
+      "quantity": null,
+      "quantityText": "2-4",
+      "unit": "cloves",
+      "preparation": "diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Light soy sauce",
+      "originalText": "1/2 cup light soy sauce",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Dark soy sauce",
+      "originalText": "1 cup dark soy sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "2 tablespoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rice vinegar",
+      "originalText": "2 tablespoons rice vinegar (or any non-balsamic vinegar)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": "or any non-balsamic vinegar",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vegetable stock",
+      "originalText": "1/4 cup vegetable stock (or water)",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "or water",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Shaoxing wine or dry cherry",
+      "originalText": "2 tablespoons Shaoxing wine or dry cherry (optional)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Hoisin sauce",
+      "originalText": "1 tablespoon Hoisin sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cornstarch",
+      "originalText": "1/2 tablespoon cornstarch",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sesame oil",
+      "originalText": "1/2 tablespoon sesame oil",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peanut oil",
+      "originalText": "2.5 tablespoon peanut oil (any oil will do)",
+      "quantity": 2.5,
+      "quantityText": "2.5",
+      "unit": "tablespoon",
+      "preparation": "any oil will do",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ginger",
+      "originalText": "50-100g ginger, diced (optional)",
+      "quantity": null,
+      "quantityText": "50-100",
+      "unit": "g",
+      "preparation": "diced",
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: One block of firm tofu (400g, extra firm will work too); 1 head (300 grams stemless) of Broccoli; 2-4 cloves of garlic, diced; 1/2 cup light soy sauce; 1 cup dark soy sauce; 2 tablespoons sugar; 2 tablespoons rice vinegar (or any non-balsamic vinegar); 1/4 cup vegetable stock (or water); 2 tablespoons Shaoxing wine or dry cherry (optional); 1 tablespoon Hoisin sauce; 1/2 tablespoon cornstarch; 1/2 tablespoon sesame oil; 2.5 tablespoon peanut oil (any oil will do); water; 50-100g ginger, diced (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Garlic: diced; Ginger: diced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Cut the tofu into 3/4” (2 cm) cubes and place it in a sealable ziplock bag.",
+      "section": null
+    },
+    {
+      "text": "Combine 1/4 cup soy sauce, 1/2 teaspoon dark soy sauce, sugar and rice vinegar ingredients in a bowl and stir to mix.",
+      "section": null
+    },
+    {
+      "text": "A food prep rectangular Tupperware could work very well, as you need less marinade to submerge the tofu.",
+      "section": null
+    },
+    {
+      "text": "Add tofu and refrigerate for half an hour.",
+      "section": null
+    },
+    {
+      "text": "Combine vegetable stock, remaining soy sauce, wine, sesame oil, cornstarch and hoisin sauce into a bowl and stir until the cornstarch is dissolved.",
+      "section": null
+    },
+    {
+      "text": "Cut the florets off the stalks of broccoli.",
+      "section": null
+    },
+    {
+      "text": "Cut into 1cm chunks.",
+      "section": null
+    },
+    {
+      "text": "Wash and drain if needed.",
+      "section": null
+    },
+    {
+      "text": "Heat 1/3 cup of water in a large pan over medium/high heat until boiling.",
+      "section": null
+    },
+    {
+      "text": "Add broccoli and cover with a lid.",
+      "section": null
+    },
+    {
+      "text": "Steam for 2-3 minutes depending on how hard you want it, then drain and rinse the remaining water off.",
+      "section": null
+    },
+    {
+      "text": "Put the broccoli aside.",
+      "section": null
+    },
+    {
+      "text": "Add 2 tbsp of oil on the same pan.",
+      "section": null
+    },
+    {
+      "text": "Cook tofu until the bottom is golden brown, flip and repeat.",
+      "section": null
+    },
+    {
+      "text": "Stir a few times, then move to the side of the pan.",
+      "section": null
+    },
+    {
+      "text": "Add more oil, garlic, ginger.",
+      "section": null
+    },
+    {
+      "text": "Stir until it releases fragrance - generally less than a minute, then stir to combine the two.",
+      "section": null
+    },
+    {
+      "text": "Cook together until sauce thickens, then add broccoli and stir to combine.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "chinese"
+    },
+    {
+      "name": "category",
+      "value": "chinese"
+    },
+    {
+      "name": "category",
+      "value": "tofu"
+    },
+    {
+      "name": "diet",
+      "value": "vegan"
+    }
+  ],
+  "keywords": [
+    "chinese",
+    "tofu",
+    "vegan",
+    "hoisin tofu and broccoli"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/hoisin-tofu-and-broccoli/",
+    "siteName": "Public Domain Recipes",
+    "author": "Mark Erickson",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Cut the tofu into 3/4” (2 cm) cubes and place it in a sealable ziplock bag.\n2. Combine 1/4 cup soy sauce, 1/2 teaspoon dark soy sauce, sugar and rice vinegar ingredients in a bowl and stir to mix.\n3. A food prep rectangular Tupperware could work very well, as you need less marinade to submerge the tofu. Add tofu and refrigerate for half an hour.\n4. Combine vegetable stock, remaining soy sauce, wine, sesame oil, cornstarch and hoisin sauce into a bowl and stir until the cornstarch is dissolved.\n5. Cut the florets off the stalks of broccoli. Cut into 1cm chunks. Wash and drain if needed.\n6. Heat 1/3 cup of water in a large pan over medium/high heat until boiling. Add broccoli and cover with a lid. Steam for 2-3 minutes depending on how hard you want it, then drain and rinse the remaining water off. Put the broccoli aside.\n7. Add 2 tbsp of oil on the same pan. Cook tofu until the bottom is golden brown, flip and repeat. Stir a few times, then move to the side of the pan.\n8. Add more oil, garlic, ginger. Stir until it releases fragrance - generally less than a minute, then stir to combine the two.\n9. Cook together until sauce thickens, then add broccoli and stir to combine.",
+    "originalIngredients": [
+      "One block of firm tofu (400g, extra firm will work too)",
+      "1 head (300 grams stemless) of Broccoli",
+      "2-4 cloves of garlic, diced",
+      "1/2 cup light soy sauce",
+      "1 cup dark soy sauce",
+      "2 tablespoons sugar",
+      "2 tablespoons rice vinegar (or any non-balsamic vinegar)",
+      "1/4 cup vegetable stock (or water)",
+      "2 tablespoons Shaoxing wine or dry cherry (optional)",
+      "1 tablespoon Hoisin sauce",
+      "1/2 tablespoon cornstarch",
+      "1/2 tablespoon sesame oil",
+      "2.5 tablespoon peanut oil (any oil will do)",
+      "water",
+      "50-100g ginger, diced (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

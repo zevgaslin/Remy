@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "7df04a8d-65a9-5efe-9a07-90122cace14f",
+  "name": "Banana and oatmeal cookies",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 3,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Bananas",
+      "originalText": "2 ripe bananas (250 g/9 oz peeled)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "ripe; 250 g/9 oz peeled",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oatmeal",
+      "originalText": "100g (3.5 oz) of oatmeal",
+      "quantity": 100.0,
+      "quantityText": "100",
+      "unit": "g",
+      "preparation": "3.5 oz",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cinnamon powder",
+      "originalText": "1 table spoon of cinnamon powder (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "table spoon",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Honey",
+      "originalText": "1 table spoon of honey (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "table spoon",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 ripe bananas (250 g/9 oz peeled); 100g (3.5 oz) of oatmeal; 1 table spoon of cinnamon powder (optional); 1 table spoon of honey (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Bananas: ripe; 250 g/9 oz peeled. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Pre-heat the oven to 180°C (350°F)",
+      "section": null
+    },
+    {
+      "text": "Peel the bananas and squash them not too finely in a bowl.",
+      "section": null
+    },
+    {
+      "text": "Incorporate the oatmeal.",
+      "section": null
+    },
+    {
+      "text": "Incorporate cinnamon powder and/or honey (optional).",
+      "section": null
+    },
+    {
+      "text": "On the oven tray, place parchment paper and form discs of the mix, each around 8 cm (3 in)",
+      "section": null
+    },
+    {
+      "text": "Cook with rotating heat for around 20 minutes, until outside becomes golden and slightly crispy.",
+      "section": null
+    },
+    {
+      "text": "Eat warm or cold.",
+      "section": null
+    },
+    {
+      "text": "Can be kept a couple of days in a sealed container.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "cookies"
+    },
+    {
+      "name": "category",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    },
+    {
+      "name": "category",
+      "value": "snack"
+    }
+  ],
+  "keywords": [
+    "cookies",
+    "dessert",
+    "quick",
+    "snack",
+    "banana and oatmeal cookies"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/banana-oatmeal-cookies.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/banana-oatmeal-cookies/",
+    "siteName": "Public Domain Recipes",
+    "author": "Éric G.",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Pre-heat the oven to 180°C (350°F)\n2. Peel the bananas and squash them not too finely in a bowl.\n3. Incorporate the oatmeal.\n4. Incorporate cinnamon powder and/or honey (optional).\n5. On the oven tray, place parchment paper and form discs of the mix, each around 8 cm (3 in)\n6. Cook with rotating heat for around 20 minutes, until outside becomes golden and slightly crispy.\n7. Eat warm or cold. Can be kept a couple of days in a sealed container.",
+    "originalIngredients": [
+      "2 ripe bananas (250 g/9 oz peeled)",
+      "100g (3.5 oz) of oatmeal",
+      "1 table spoon of cinnamon powder (optional)",
+      "1 table spoon of honey (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

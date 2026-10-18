@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "0b2485a6-7aa9-5fb8-8777-642551f99cc7",
+  "name": "Chicken Biscuit Potpie Recipe",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Frozen mixed vegetables, thawed",
+      "originalText": "1-2/3 cups frozen mixed vegetables, thawed",
+      "quantity": 1.6666666666666667,
+      "quantityText": "1 2/3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cubed cooked chicken",
+      "originalText": "1-1/2 cups cubed cooked chicken",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Condensed cream of chicken soup, undiluted",
+      "originalText": "1 can (10-3/4 ounces) condensed cream of chicken soup, undiluted",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "10 3/4 ounces",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thyme",
+      "originalText": "1/4 teaspoon dried thyme",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Biscuit/baking mix",
+      "originalText": "1 cup biscuit/baking mix",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1/2 cup whole milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "whole",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg",
+      "originalText": "1 large egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1-2/3 cups frozen mixed vegetables, thawed; 1-1/2 cups cubed cooked chicken; 1 can (10-3/4 ounces) condensed cream of chicken soup, undiluted; 1/4 teaspoon dried thyme; 1 cup biscuit/baking mix; 1/2 cup whole milk; 1 large egg. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Preheat oven to 400°F (200°C).",
+      "section": null
+    },
+    {
+      "text": "In a large bowl, combine the vegetables, chicken, soup and thyme.",
+      "section": null
+    },
+    {
+      "text": "Pour into an ungreased deep-dish 9-in. pie plate.",
+      "section": null
+    },
+    {
+      "text": "Combine the biscuit mix, milk and egg; spoon over chicken mixture.",
+      "section": null
+    },
+    {
+      "text": "Bake until topping is golden brown and toothpick inserted in the center comes out clean, 25-30 minutes.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    }
+  ],
+  "keywords": [
+    "chicken",
+    "chicken biscuit potpie recipe"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/chicken-biscuit-potpie/",
+    "siteName": "Public Domain Recipes",
+    "author": "Front3ndNinja",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat oven to 400°F (200°C). In a large bowl, combine the vegetables, chicken, soup and thyme. Pour into an ungreased deep-dish 9-in. pie plate. Combine the biscuit mix, milk and egg; spoon over chicken mixture.\n2. Bake until topping is golden brown and toothpick inserted in the center comes out clean, 25-30 minutes.",
+    "originalIngredients": [
+      "1-2/3 cups frozen mixed vegetables, thawed",
+      "1-1/2 cups cubed cooked chicken",
+      "1 can (10-3/4 ounces) condensed cream of chicken soup, undiluted",
+      "1/4 teaspoon dried thyme",
+      "1 cup biscuit/baking mix",
+      "1/2 cup whole milk",
+      "1 large egg"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "66508622-6765-5d2f-854f-8047c786a681",
+  "name": "Lemon Yogurt Chicken",
+  "description": "Chicken marinated in Greek yogurt and lemon, then cooked until tender.",
+  "cuisine": "Mediterranean",
+  "mealType": "Dinner",
+  "difficulty": "Medium",
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 4,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Chicken Breast",
+      "originalText": null,
+      "quantity": 1.5,
+      "quantityText": null,
+      "unit": "lb",
+      "preparation": "boneless and skinless",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Greek Yogurt",
+      "originalText": null,
+      "quantity": 0.75,
+      "quantityText": null,
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "each",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": null,
+      "quantity": 2.0,
+      "quantityText": null,
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": null,
+      "quantity": 1.0,
+      "quantityText": null,
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set out a mixing bowl, measuring spoons, a baking dish, tongs, and an instant-read food thermometer. Use 1 1/2 pounds boneless, skinless chicken breasts. Do not rinse raw chicken. Wash hands and utensils after touching it.",
+      "section": null
+    },
+    {
+      "text": "Peel and finely chop 2 garlic cloves. Wash 1 lemon, cut it in half, and squeeze its juice into the bowl, removing seeds. Add 3/4 cup plain Greek yogurt and 1 tablespoon olive oil. Stir in the garlic until the mixture is evenly combined.",
+      "section": null
+    },
+    {
+      "text": "Add the chicken and turn it with tongs until coated on all sides. Cover the bowl and refrigerate for 30 minutes. Keep it refrigerated during marinating; do not leave raw chicken on the counter.",
+      "section": null
+    },
+    {
+      "text": "Near the end of marinating, preheat the oven to 425\u00b0F (220\u00b0C) with a rack in the center. Arrange the chicken in a single layer in the baking dish with a small space between pieces. Discard marinade left in the mixing bowl and wash the bowl and tongs.",
+      "section": null
+    },
+    {
+      "text": "Bake for 18\u201325 minutes, then insert a clean thermometer sideways into the thickest center of each breast. Every piece must reach 165\u00b0F (74\u00b0C). Thick pieces may take longer; continue baking and check every 3\u20135 minutes until all are ready.",
+      "section": null
+    },
+    {
+      "text": "Remove the dish with oven mitts and let the chicken rest for 5 minutes. Use a clean knife and board to slice it across the grain into strips. Divide into 4 portions and spoon cooked juices from the baking dish over the chicken before serving.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "diet",
+      "value": "high-protein"
+    },
+    {
+      "name": "cuisine",
+      "value": "mediterranean"
+    },
+    {
+      "name": "difficulty",
+      "value": "medium"
+    }
+  ],
+  "keywords": [],
+  "nutrition": {
+    "basis": "per-serving",
+    "estimated": true,
+    "calories": 280,
+    "protein": 42,
+    "carbs": 6,
+    "fat": 9
+  },
+  "imageUrl": null,
+  "source": {
+    "kind": "legacy-seed",
+    "url": null,
+    "siteName": null,
+    "author": null,
+    "importedAt": null,
+    "originalInstructions": "Marinate chicken with Greek yogurt, lemon, garlic, olive oil, and black pepper. Cook until the chicken reaches 165 F."
+  }
+}

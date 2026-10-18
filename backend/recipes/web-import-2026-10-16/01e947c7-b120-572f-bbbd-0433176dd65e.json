@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "id": "01e947c7-b120-572f-bbbd-0433176dd65e",
+  "name": "Basic Meatballs",
+  "description": "Hybrid beef/pork meatballs perfect for spaghetti and meatballs or a meatball sub.",
+  "cuisine": "Italian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": 25,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Ground beef",
+      "originalText": "1 pound ground beef (preferably 90/10 or 93/7)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": "preferably 90/10 or 93/7",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ground pork",
+      "originalText": "1 pound ground pork",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Italian breadcrumbs",
+      "originalText": "1/2 cup italian breadcrumbs",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1/3 cup milk (I use 2% but doesn’t matter too much)",
+      "quantity": 0.3333333333333333,
+      "quantityText": "1/3",
+      "unit": "cup",
+      "preparation": "I use 2% but doesn’t matter too much",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yellow onion diced",
+      "originalText": "1/4 cup yellow onion diced (about 1/2 small yellow onion)",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": "about 1/2 small yellow onion",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan",
+      "originalText": "1/2 cup shredded parmesan",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "shredded",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "1/4-1/2 cup chopped parsley",
+      "quantity": null,
+      "quantityText": "1/4-1/2",
+      "unit": "cup",
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red pepper flakes",
+      "originalText": "2 tbsp red pepper flakes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oregano",
+      "originalText": "2 tbsp dried oregano",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rosemary",
+      "originalText": "1 tbsp rosemary",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Basil",
+      "originalText": "1 tbsp basil",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic powder",
+      "originalText": "1 tbsp garlic powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 pound ground beef (preferably 90/10 or 93/7); 1 pound ground pork; 1/2 cup italian breadcrumbs; 1/3 cup milk (I use 2% but doesn’t matter too much); 1/4 cup yellow onion diced (about 1/2 small yellow onion); 1 egg; 1/2 cup shredded parmesan; 1/4-1/2 cup chopped parsley; 2 tbsp red pepper flakes; 2 tbsp dried oregano; 1 tbsp rosemary; 1 tbsp basil; 1 tbsp garlic powder; Salt and pepper to taste. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Parmesan: shredded; Parsley: chopped. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Preheat oven to 200°C/400F",
+      "section": null
+    },
+    {
+      "text": "In a bowl, combine all ingredients",
+      "section": null
+    },
+    {
+      "text": "Hand form into balls by packing with your hands and then rolling.",
+      "section": null
+    },
+    {
+      "text": "Set aside on a baking sheet, preferably one with a cooling rack I prefer large meatballs (larger than a golf ball) and shoot for 16-20 for 2 lbs of meat, but if you prefer smaller meatballs you can opt for as many as 48",
+      "section": null
+    },
+    {
+      "text": "Either halfway through the packing process or after forming all meatballs, heat a large skillet to medium-high heat",
+      "section": null
+    },
+    {
+      "text": "Add 1-2 tbsp of oil to the skillet (enough to evenly coat the skillet), and bring to heat",
+      "section": null
+    },
+    {
+      "text": "Fill the skillet with meatballs, start by browning one face, flip once at after 2-3 minutes, and then remove to the baking sheet after another 2-3 minute.",
+      "section": null
+    },
+    {
+      "text": "Continue in batches until all meatballs have been browned It is OK and expected for the meatballs to lose some of their spherical shape at this point You can skip this step and go straight the oven if you want to cut corners",
+      "section": null
+    },
+    {
+      "text": "Transfer to the oven, and cook until the inside registers 71°C/160°F on an instant read thermometer.",
+      "section": null
+    },
+    {
+      "text": "This should be about 20 minutes for large meatballs (16 per batch), maybe 10 for small (48 per batch)",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, check the center of the meat with a food thermometer. Ground beef, pork, and lamb must reach 160°F (71°C); use 165°F (74°C) for any poultry sausage. Continue cooking if needed, and wash hands and utensils after touching raw meat."
+    },
+    {
+      "text": "Serve with pasta or on a meatball sub",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "basic"
+    },
+    {
+      "name": "category",
+      "value": "beef"
+    },
+    {
+      "name": "category",
+      "value": "italian"
+    },
+    {
+      "name": "category",
+      "value": "pork"
+    }
+  ],
+  "keywords": [
+    "basic",
+    "beef",
+    "italian",
+    "pork",
+    "basic meatballs"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/basic-meatballs/",
+    "siteName": "Public Domain Recipes",
+    "author": "John Hubberts",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat oven to 200°C/400F\n2. In a bowl, combine all ingredients\n3. Hand form into balls by packing with your hands and then rolling. Set aside on a baking sheet, preferably one with a cooling rack I prefer large meatballs (larger than a golf ball) and shoot for 16-20 for 2 lbs of meat, but if you prefer smaller meatballs you can opt for as many as 48\n4. Either halfway through the packing process or after forming all meatballs, heat a large skillet to medium-high heat\n5. Add 1-2 tbsp of oil to the skillet (enough to evenly coat the skillet), and bring to heat\n6. Fill the skillet with meatballs, start by browning one face, flip once at after 2-3 minutes, and then remove to the baking sheet after another 2-3 minute. Continue in batches until all meatballs have been browned It is OK and expected for the meatballs to lose some of their spherical shape at this point You can skip this step and go straight the oven if you want to cut corners\n7. Transfer to the oven, and cook until the inside registers 60°C/140F on an instant read thermometer. This should be about 20 minutes for large meatballs (16 per batch), maybe 10 for small (48 per batch)\n8. Serve with pasta or on a meatball sub",
+    "originalIngredients": [
+      "1 pound ground beef (preferably 90/10 or 93/7)",
+      "1 pound ground pork",
+      "1/2 cup italian breadcrumbs",
+      "1/3 cup milk (I use 2% but doesn’t matter too much)",
+      "1/4 cup yellow onion diced (about 1/2 small yellow onion)",
+      "1 egg",
+      "1/2 cup shredded parmesan",
+      "1/4-1/2 cup chopped parsley",
+      "2 tbsp red pepper flakes",
+      "2 tbsp dried oregano",
+      "1 tbsp rosemary",
+      "1 tbsp basil",
+      "1 tbsp garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested. Corrected the source’s 140°F ground-meat endpoint to the USDA minimum of 160°F; the unmodified original is retained below."
+  }
+}

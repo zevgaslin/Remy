@@ -24,7 +24,7 @@ class RecipeCatalogServiceTest {
         Files.writeString(folder.resolve(document.get("id").asText()+".json"),mapper.writeValueAsString(document));
     }
     @Test void validatesAllPreparedRecipesAndSchemaCopiesMatch() throws Exception {
-        assertThat(service.validateFolder(Path.of("recipes"))).hasSize(13);
+        assertThat(service.validateFolder(Path.of("src/test/resources/recipes"))).hasSize(13);
         assertThat(Files.readString(Path.of("src/main/resources/recipe.schema.json")))
                 .isEqualTo(Files.readString(Path.of("../docs/recipes/recipe.schema.json")));
     }

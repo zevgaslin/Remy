@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "db3be7ae-fef2-521c-a311-da48b5ed4991",
+  "name": "Tomato and Grilled Bell Pepper soup",
+  "description": "Can be prepared the night before and kept frozen for a week or two.",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 12.0,
+  "yieldText": "12 servings",
+  "ingredients": [
+    {
+      "name": "Tomatoes",
+      "originalText": "10 tomatoes",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red bell peppers",
+      "originalText": "2 red bell peppers",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onions",
+      "originalText": "2 onions",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "1 clove of garlic",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "clove",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Stock or broth",
+      "originalText": "1L stock or broth",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "L",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cayenne pepper",
+      "originalText": "¾t Cayenne pepper",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Paprika powder",
+      "originalText": "1t paprika powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bruschetta herbs",
+      "originalText": "3t bruschetta herbs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oregano",
+      "originalText": "1t oregano",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ginger syrup",
+      "originalText": "1t giner syrup",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "2T olive oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Heavy cream",
+      "originalText": "2T heavy cream",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 10 tomatoes; 2 red bell peppers; 2 onions; 1 clove of garlic; 1L stock or broth; ¾t Cayenne pepper; 1t paprika powder; 3t bruschetta herbs; 1t oregano; 1t giner syrup; 2T olive oil; 2T heavy cream. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Halve, deseed and grill the bell peppers in an oven or on a grill.",
+      "section": null
+    },
+    {
+      "text": "Remove skin after grilling.",
+      "section": null
+    },
+    {
+      "text": "Skin and quarter tomatoes.",
+      "section": null
+    },
+    {
+      "text": "Sauté onion and crushed garlic in a large soup pan with olive oil. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly. For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Add broth/stock, tomatoes, bell paper and purée with a stick blender.",
+      "section": null
+    },
+    {
+      "text": "Add spices, syrup and cream.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    }
+  ],
+  "keywords": [
+    "cheesefare",
+    "soup",
+    "tomato and grilled bell pepper soup"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/tomato-and-grilled-paprika-soup/",
+    "siteName": "Public Domain Recipes",
+    "author": "Thijs Wester",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Halve, deseed and grill the bell peppers in an oven or on a grill. Remove skin after grilling.\n2. Skin and quarter tomatoes.\n3. Sauté onion and crushed garlic in a large soup pan with olive oil.\n4. Add broth/stock, tomatoes, bell paper and purée with a stick blender.\n5. Add spices, syrup and cream.",
+    "originalIngredients": [
+      "10 tomatoes",
+      "2 red bell peppers",
+      "2 onions",
+      "1 clove of garlic",
+      "1L stock or broth",
+      "¾t Cayenne pepper",
+      "1t paprika powder",
+      "3t bruschetta herbs",
+      "1t oregano",
+      "1t giner syrup",
+      "2T olive oil",
+      "2T heavy cream"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

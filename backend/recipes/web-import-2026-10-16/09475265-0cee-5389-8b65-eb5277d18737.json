@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "id": "09475265-0cee-5389-8b65-eb5277d18737",
+  "name": "Shrimp and Chicken Jambalaya",
+  "description": "Warm up your stock with raw shrimp shells to infuse additional flavour, if desired. Serve dish with french bread and your favourite beer.",
+  "cuisine": "Cajun",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Cayenne",
+      "originalText": "1/4 tsp Cayenne",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Pepper",
+      "originalText": "3/4 tsp White Pepper",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Kosher Salt",
+      "originalText": "1 tsp Kosher Salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thyme",
+      "originalText": "1/4 tsp Thyme",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rubbed Sage",
+      "originalText": "1/2 tsp Rubbed Sage",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Basil",
+      "originalText": "1/4 tsp Dried Basil",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": "Dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Black Pepper",
+      "originalText": "1/2 tsp Black Pepper",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Unsalted Butter",
+      "originalText": "1 Tbsp Unsalted Butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Andouille",
+      "originalText": "1/2 cup Diced Andouille (or Chirozo sausage)",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "Diced; or Chirozo sausage",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1/2 cup Diced Onion",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "Diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bell Pepper",
+      "originalText": "1/2 cup Diced Bell Pepper",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "Diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Celery",
+      "originalText": "1/2 cup Diced Celery",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "Diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "1/2 cup Diced Fresh Tomatoes",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "Diced Fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato Sauce",
+      "originalText": "1/2 cup Tomato Sauce",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Enriched Long Grain Rice",
+      "originalText": "3/4 cup Enriched Long Grain Rice",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Stock",
+      "originalText": "1-1/4 cup Chicken Stock",
+      "quantity": 1.25,
+      "quantityText": "1 1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "originalText": "1 Tbsp Worcestershire Sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 Tbsp Minced Fresh Garlic",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "Tbsp",
+      "preparation": "Minced Fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken",
+      "originalText": "1/2 cup Diced Chicken (cooked or raw)",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "Diced; cooked or raw",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Shrimp",
+      "originalText": "1-1/2 cup Medium Shrimp",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cup",
+      "preparation": "Medium",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Finely Chopped Italian Parsley",
+      "originalText": "1 Tbsp Finely Chopped Italian Parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Finely Sliced Green Onions",
+      "originalText": "3 Tbsp Finely Sliced Green Onions",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1/4 tsp Cayenne; 3/4 tsp White Pepper; 1 tsp Kosher Salt; 1/4 tsp Thyme; 1/2 tsp Rubbed Sage; 1/4 tsp Dried Basil; 1/2 tsp Black Pepper; 1 Tbsp Unsalted Butter; 1/2 cup Diced Andouille (or Chirozo sausage); 1/2 cup Diced Onion; 1/2 cup Diced Bell Pepper; 1/2 cup Diced Celery; 1/2 cup Diced Fresh Tomatoes; 1/2 cup Tomato Sauce; 3/4 cup Enriched Long Grain Rice; 1-1/4 cup Chicken Stock; 1 Tbsp Worcestershire Sauce; 2 Tbsp Minced Fresh Garlic; 1/2 cup Diced Chicken (cooked or raw); 1-1/2 cup Medium Shrimp; 1 Tbsp Finely Chopped Italian Parsley; 3 Tbsp Finely Sliced Green Onions. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Andouille: Diced; or Chirozo sausage; Onion: Diced; Bell Pepper: Diced; Celery: Diced; Tomatoes: Diced Fresh; Garlic: Minced Fresh; Chicken: Diced; cooked or raw. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Preheat the oven to 350 degrees F.",
+      "section": null
+    },
+    {
+      "text": "Mix together the seasoning mix (herbs, salt, pepper).",
+      "section": null
+    },
+    {
+      "text": "Mix together the Holy Trinity (onion, celery, bell pepper).",
+      "section": null
+    },
+    {
+      "text": "In a Cast Iron Durch Oven, melt the butter over medium heat, add the Andouille and cook until it starts to brown.",
+      "section": null
+    },
+    {
+      "text": "Add 1/2 of the Holy Trinity, cook until the vegetables are tender.",
+      "section": null
+    },
+    {
+      "text": "Add the diced tomatoes and cook for one minute. Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add the tomato sauce and cook for another minute.",
+      "section": null
+    },
+    {
+      "text": "Add the rice and cook for 2 minutes, stirring constantly.",
+      "section": null
+    },
+    {
+      "text": "Add the stock, remaining Holy Trinity, seasoning mix, Worcestershire, and the garlic.",
+      "section": null
+    },
+    {
+      "text": "Taste the broth for seasoning, particularly salt.",
+      "section": null
+    },
+    {
+      "text": "Add the chicken, stir well and put the pot in the preheated oven.",
+      "section": null
+    },
+    {
+      "text": "Bake uncovered for 25 minutes.",
+      "section": null
+    },
+    {
+      "text": "Stir in the raw shrimp, parsley, and green onions - place back into oven for another 10 minutes (or until the shrimp is cooked through).",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "cajun"
+    },
+    {
+      "name": "category",
+      "value": "cajun"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "shrimp"
+    },
+    {
+      "name": "category",
+      "value": "tomato"
+    }
+  ],
+  "keywords": [
+    "cajun",
+    "chicken",
+    "shrimp",
+    "tomato",
+    "shrimp and chicken jambalaya"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/shrimp-and-chicken-jambalaya/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat the oven to 350 degrees F. Mix together the seasoning mix (herbs, salt, pepper).\n2. Mix together the Holy Trinity (onion, celery, bell pepper).\n3. In a Cast Iron Durch Oven, melt the butter over medium heat, add the Andouille and cook until it starts to brown.\n4. Add 1/2 of the Holy Trinity, cook until the vegetables are tender.\n5. Add the diced tomatoes and cook for one minute. Add the tomato sauce and cook for another minute.\n6. Add the rice and cook for 2 minutes, stirring constantly.\n7. Add the stock, remaining Holy Trinity, seasoning mix, Worcestershire, and the garlic.\n8. Taste the broth for seasoning, particularly salt.\n9. Add the chicken, stir well and put the pot in the preheated oven. Bake uncovered for 25 minutes.\n10. Stir in the raw shrimp, parsley, and green onions - place back into oven for another 10 minutes (or until the shrimp is cooked through).",
+    "originalIngredients": [
+      "1/4 tsp Cayenne",
+      "3/4 tsp White Pepper",
+      "1 tsp Kosher Salt",
+      "1/4 tsp Thyme",
+      "1/2 tsp Rubbed Sage",
+      "1/4 tsp Dried Basil",
+      "1/2 tsp Black Pepper",
+      "1 Tbsp Unsalted Butter",
+      "1/2 cup Diced Andouille (or Chirozo sausage)",
+      "1/2 cup Diced Onion",
+      "1/2 cup Diced Bell Pepper",
+      "1/2 cup Diced Celery",
+      "1/2 cup Diced Fresh Tomatoes",
+      "1/2 cup Tomato Sauce",
+      "3/4 cup Enriched Long Grain Rice",
+      "1-1/4 cup Chicken Stock",
+      "1 Tbsp Worcestershire Sauce",
+      "2 Tbsp Minced Fresh Garlic",
+      "1/2 cup Diced Chicken (cooked or raw)",
+      "1-1/2 cup Medium Shrimp",
+      "1 Tbsp Finely Chopped Italian Parsley",
+      "3 Tbsp Finely Sliced Green Onions"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

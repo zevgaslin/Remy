@@ -20,7 +20,7 @@ class PostgresRecipeSearchTest {
     @Autowired TestRestTemplate http;
     @Autowired RecipeCatalogService catalog;
     @Autowired JdbcTemplate jdbc;
-    @BeforeEach void loadRecipes() throws Exception { catalog.importFolder(Path.of("recipes")); }
+    @BeforeEach void loadRecipes() throws Exception { catalog.importFolder(Path.of("src/test/resources/recipes")); }
 
     private List<Map> search(Map<String,Object> request) {
         var response=http.postForEntity("/api/recipes/search",request,Map[].class);

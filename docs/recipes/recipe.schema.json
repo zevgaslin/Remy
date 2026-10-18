@@ -356,6 +356,42 @@
           ],
           "minLength": 1,
           "pattern": "\\S"
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "licenseUrl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "instructionsOrigin": {
+          "enum": [
+            "source",
+            "adapted",
+            "authored"
+          ]
+        },
+        "adaptationNotes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "originalIngredients": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       },
       "allOf": [

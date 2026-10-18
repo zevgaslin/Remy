@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "id": "c4a149f1-cd23-541e-9260-422653d588e1",
+  "name": "Shrimp and Sausage Gumbo",
+  "description": "This recipe is a simplified version of AB’s Seafood Gumbo .",
+  "cuisine": "American",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "4-6 servings",
+  "ingredients": [
+    {
+      "name": "Shrimp",
+      "originalText": "2-3 lbs Shrimp",
+      "quantity": null,
+      "quantityText": "2-3",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Andouille Sausage",
+      "originalText": "2 lbs Andouille Sausage",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken Broth",
+      "originalText": "2 (32 oz) Chicken Broth",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "32 oz",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "1 cup olive oil",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "All Purpose Flour",
+      "originalText": "1 cup All Purpose Flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Finely chopped Yellow Onion",
+      "originalText": "1 cup finely chopped Yellow Onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Finely chopped Green Pepper",
+      "originalText": "1 cup finely chopped Green Pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Finely chopped Celery",
+      "originalText": "1 cup finely chopped Celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2 tbsp minced Garlic",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "originalText": "1 tbsp Worcestershire Sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cajun or Creole Seasoning",
+      "originalText": "1 tbsp Cajun or Creole Seasoning (Creole Kick)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": "Creole Kick",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Beer",
+      "originalText": "1 12 oz. bottle of Beer",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "bottle",
+      "preparation": "12 oz. source package size",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thyme",
+      "originalText": "1 tsp dried Thyme",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "1 tsp dried Parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": "dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bay Leafs",
+      "originalText": "3 - 5 Bay Leafs",
+      "quantity": null,
+      "quantityText": "3 - 5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green Onions",
+      "originalText": "1/2 cup Green Onions",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Rice",
+      "originalText": "1-2 cups White Rice",
+      "quantity": null,
+      "quantityText": "1-2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Jalapeño Pepper",
+      "originalText": "(Optional) 1 Jalapeño Pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Instead of chicken broth, you can use your own shrimp stock",
+      "originalText": "(Optional) Instead of chicken broth, you can use your own shrimp stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2-3 lbs Shrimp; 2 lbs Andouille Sausage; 2 (32 oz) Chicken Broth; 1 cup olive oil; 1 cup All Purpose Flour; 1 cup finely chopped Yellow Onion; 1 cup finely chopped Green Pepper; 1 cup finely chopped Celery; 2 tbsp minced Garlic; 1 tbsp Worcestershire Sauce; 1 tbsp Cajun or Creole Seasoning (Creole Kick); 1 12 oz. bottle of Beer; 1 tsp dried Thyme; 1 tsp dried Parsley; 3 - 5 Bay Leafs; 1/2 cup Green Onions; 1-2 cups White Rice; (Optional) 1 Jalapeño Pepper; (Optional) Instead of chicken broth, you can use your own shrimp stock. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Garlic: minced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Prep the vegetables",
+      "section": null
+    },
+    {
+      "text": "Get the roux started: Mix oil and flour over heat until it turns into a dark chocolate color.",
+      "section": null
+    },
+    {
+      "text": "Low - medium heat for about 30 minutes or medium - high for 15 - 20 minutes if you’re feeling brave.",
+      "section": null
+    },
+    {
+      "text": "Ensure to stir frequently while adding the following ingredients.",
+      "section": null
+    },
+    {
+      "text": "Add onion.",
+      "section": null
+    },
+    {
+      "text": "Cook for 5 minutes.",
+      "section": null
+    },
+    {
+      "text": "Add celery and peppers.",
+      "section": null
+    },
+    {
+      "text": "Cook for 5 minutes.",
+      "section": null
+    },
+    {
+      "text": "Add garlic.",
+      "section": null
+    },
+    {
+      "text": "Cook for 1 minute.",
+      "section": null
+    },
+    {
+      "text": "Add beer.",
+      "section": null
+    },
+    {
+      "text": "Add broth.",
+      "section": null
+    },
+    {
+      "text": "Add seasonings and Worcestershire Sauce.",
+      "section": null
+    },
+    {
+      "text": "Add sausage and bring to a boil.",
+      "section": null
+    },
+    {
+      "text": "Lower heat, cover, simmer for 90 minutes. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Increase heat to medium.",
+      "section": null
+    },
+    {
+      "text": "Add shrimp and cook for 5-7 minutes.",
+      "section": null
+    },
+    {
+      "text": "Turn off the heat and serve over white rice.",
+      "section": null
+    },
+    {
+      "text": "(Optional) For leftovers, boil gumbo with dry white rice and turn it into a jambalaya.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "american"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    },
+    {
+      "name": "category",
+      "value": "rice"
+    }
+  ],
+  "keywords": [
+    "american",
+    "fish",
+    "rice",
+    "shrimp and sausage gumbo"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/gumbo-shrimp-and-sausage/",
+    "siteName": "Public Domain Recipes",
+    "author": "Carl Zimmerman",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Prep the vegetables\n2. Get the roux started: Mix oil and flour over heat until it turns into a dark chocolate color. Low - medium heat for about 30 minutes or medium - high for 15 - 20 minutes if you’re feeling brave.\n3. Ensure to stir frequently while adding the following ingredients.\n4. Add onion. Cook for 5 minutes.\n5. Add celery and peppers. Cook for 5 minutes.\n6. Add garlic. Cook for 1 minute.\n7. Add beer.\n8. Add broth.\n9. Add seasonings and Worcestershire Sauce.\n10. Add sausage and bring to a boil.\n11. Lower heat, cover, simmer for 90 minutes.\n12. Increase heat to medium. Add shrimp and cook for 5-7 minutes.\n13. Turn off the heat and serve over white rice.\n14. (Optional) For leftovers, boil gumbo with dry white rice and turn it into a jambalaya.",
+    "originalIngredients": [
+      "2-3 lbs Shrimp",
+      "2 lbs Andouille Sausage",
+      "2 (32 oz) Chicken Broth",
+      "1 cup olive oil",
+      "1 cup All Purpose Flour",
+      "1 cup finely chopped Yellow Onion",
+      "1 cup finely chopped Green Pepper",
+      "1 cup finely chopped Celery",
+      "2 tbsp minced Garlic",
+      "1 tbsp Worcestershire Sauce",
+      "1 tbsp Cajun or Creole Seasoning (Creole Kick)",
+      "1 12 oz. bottle of Beer",
+      "1 tsp dried Thyme",
+      "1 tsp dried Parsley",
+      "3 - 5 Bay Leafs",
+      "1/2 cup Green Onions",
+      "1-2 cups White Rice",
+      "(Optional) 1 Jalapeño Pepper",
+      "(Optional) Instead of chicken broth, you can use your own shrimp stock"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "20594c7f-bf51-5bb3-9100-a11545fe8d32",
+  "name": "Yorkshire Puddings",
+  "description": "Basically the northern England equivalent of the french pancake ( a means to make use of extra flour when you didn’t have enough for bread ). They go well with Sunday Roasts.\nPuddings may be preserved in freezer for up to a month.",
+  "cuisine": "English",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": 2.0,
+  "yieldText": "2 servings",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "originalText": "140g flour",
+      "quantity": 140.0,
+      "quantityText": "140",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "200ml milk",
+      "quantity": 200.0,
+      "quantityText": "200",
+      "unit": "ml",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sunflower oil",
+      "originalText": "sunflower oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 140g flour; 4 eggs; 200ml milk; sunflower oil. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Preheat oven to 230°C / gas mark 8.",
+      "section": null
+    },
+    {
+      "text": "Drizzle oil into 24 ‘cupcake tin’ slots. (The pans you make cupcakes in).",
+      "section": null
+    },
+    {
+      "text": "Heat in oven.",
+      "section": null
+    },
+    {
+      "text": "Pour flour into bowl.",
+      "section": null
+    },
+    {
+      "text": "Whisk eggs, add to bowl.",
+      "section": null
+    },
+    {
+      "text": "Add milk to bowl in small amounts, beating/whisking after each addition.",
+      "section": null
+    },
+    {
+      "text": "Until there are no lumps in the batter.",
+      "section": null
+    },
+    {
+      "text": "You may season with salt & pepper.",
+      "section": null
+    },
+    {
+      "text": "Tip batter into a jug so that you may pour into the cupcake pan slots evenly and carefully.",
+      "section": null
+    },
+    {
+      "text": "Bake undisturbed ( opening oven will impede the rising ), until the puddings have puffed up and browned.",
+      "section": null
+    },
+    {
+      "text": "Originally published on Good Food .",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "english"
+    },
+    {
+      "name": "category",
+      "value": "english"
+    },
+    {
+      "name": "category",
+      "value": "side"
+    }
+  ],
+  "keywords": [
+    "english",
+    "side",
+    "yorkshire puddings"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/yorkshire-puddings.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/yorkshire-puddings/",
+    "siteName": "Public Domain Recipes",
+    "author": "Jacob Siggins",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Preheat oven to 230°C / gas mark 8.\n2. Drizzle oil into 24 ‘cupcake tin’ slots. (The pans you make cupcakes in). Heat in oven.\n3. Pour flour into bowl.\n4. Whisk eggs, add to bowl.\n5. Add milk to bowl in small amounts, beating/whisking after each addition. Until there are no lumps in the batter. You may season with salt & pepper.\n6. Tip batter into a jug so that you may pour into the cupcake pan slots evenly and carefully.\n7. Bake undisturbed ( opening oven will impede the rising ), until the puddings have puffed up and browned.\n8. Originally published on Good Food .",
+    "originalIngredients": [
+      "140g flour",
+      "4 eggs",
+      "200ml milk",
+      "sunflower oil"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

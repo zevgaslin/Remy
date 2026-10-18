@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "9c32811b-f6e2-5fd1-af28-b1a51791bdd9",
+  "name": "Banana Pancakes",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 people",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "originalText": "1 cup flour (2.5 dl)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": "2.5 dl",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "1 tablespoon sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baking powder",
+      "originalText": "2 teaspoon baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1 cup milk (2.5 dl)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": "2.5 dl",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bananas",
+      "originalText": "2 very ripe bananas",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "very ripe",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 cup flour (2.5 dl); 1 tablespoon sugar; 2 teaspoon baking powder; 1 cup milk (2.5 dl); 1 egg; 2 very ripe bananas. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Combine flour, sugar, baking powder and a little bit of salt in a large mixing bowl.",
+      "section": null
+    },
+    {
+      "text": "Whisk milk and egg into the flour mixture until no clumps remain in the resulting batter.",
+      "section": null
+    },
+    {
+      "text": "Add mashed bananas and mix well.",
+      "section": null
+    },
+    {
+      "text": "Add some butter to a medium warm frying pan.",
+      "section": null
+    },
+    {
+      "text": "Make smaller or bigger pancakes, up to you.",
+      "section": null
+    },
+    {
+      "text": "Wait until tiny air bubbles form on top (2 to 5 minutes), turn and continue frying until the bottom is browned.",
+      "section": null
+    },
+    {
+      "text": "Repeat.",
+      "section": null
+    },
+    {
+      "text": "Either eat the pancakes as they get ready or put a plate in a preheated oven (low degree) to keep the ready pancakes warm.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "cheesefare"
+    },
+    {
+      "name": "category",
+      "value": "pancake"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    },
+    {
+      "name": "category",
+      "value": "sweet"
+    }
+  ],
+  "keywords": [
+    "breakfast",
+    "cheesefare",
+    "pancake",
+    "quick",
+    "sweet",
+    "banana pancakes"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/banana-pancakes/",
+    "siteName": "Public Domain Recipes",
+    "author": "Ricky Lindén",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Combine flour, sugar, baking powder and a little bit of salt in a large mixing bowl.\n2. Whisk milk and egg into the flour mixture until no clumps remain in the resulting batter.\n3. Add mashed bananas and mix well.\n4. Add some butter to a medium warm frying pan.\n5. Make smaller or bigger pancakes, up to you. Wait until tiny air bubbles form on top (2 to 5 minutes), turn and continue frying until the bottom is browned. Repeat.\n6. Either eat the pancakes as they get ready or put a plate in a preheated oven (low degree) to keep the ready pancakes warm.",
+    "originalIngredients": [
+      "1 cup flour (2.5 dl)",
+      "1 tablespoon sugar",
+      "2 teaspoon baking powder",
+      "1 cup milk (2.5 dl)",
+      "1 egg",
+      "2 very ripe bananas"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

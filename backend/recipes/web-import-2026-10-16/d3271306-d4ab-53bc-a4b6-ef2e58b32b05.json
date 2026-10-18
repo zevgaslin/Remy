@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "d3271306-d4ab-53bc-a4b6-ef2e58b32b05",
+  "name": "Tabouleh",
+  "description": null,
+  "cuisine": "Mediterranean",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 12.0,
+  "yieldText": "12 servings",
+  "ingredients": [
+    {
+      "name": "Cracked Wheat",
+      "originalText": "2 cups Cracked Wheat (bulghur)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": "bulghur",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Very Hot Water",
+      "originalText": "2 cups Very Hot Water (or as directed)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": "or as directed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cucumber",
+      "originalText": "1 Cucumber, chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "2 small Tomatoes, chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "small; chopped",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green Onions",
+      "originalText": "1 bunch Green Onions, sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "bunch",
+      "preparation": "sliced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mint",
+      "originalText": "1/2 cup Mint (fresh), chopped",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "chopped; fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "2 cup Parsley (fresh), chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cup",
+      "preparation": "chopped; fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "1 clove Garlic, minced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon Juice",
+      "originalText": "1/2 cup Lemon Juice (fresh)",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": "fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": "3/4 cup Olive Oil",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "1 Tbsp Pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "2 tsp Salt",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 2 cups Cracked Wheat (bulghur); 2 cups Very Hot Water (or as directed); 1 Cucumber, chopped; 2 small Tomatoes, chopped; 1 bunch Green Onions, sliced; 1/2 cup Mint (fresh), chopped; 2 cup Parsley (fresh), chopped; 1 clove Garlic, minced; 1/2 cup Lemon Juice (fresh); 3/4 cup Olive Oil; 1 Tbsp Pepper; 2 tsp Salt. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Cucumber: chopped; Tomatoes: small; chopped; Green Onions: sliced; Mint: chopped; fresh; Parsley: chopped; fresh; Garlic: minced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Soak the cracked wheat in the hot water until the water is absorbed, about 30 minutes.",
+      "section": null
+    },
+    {
+      "text": "Drain any excess water, if necessary, and squeeze dry.",
+      "section": null
+    },
+    {
+      "text": "Combine the salad ingredients (all but the oil, lemon juice, salt and pepper dressing ingredients) in a medium bowl.",
+      "section": null
+    },
+    {
+      "text": "Mix the dressing ingredients together and stir into the salad mix",
+      "section": null
+    },
+    {
+      "text": "Serve chilled or at room temperature.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "mediterranean"
+    },
+    {
+      "name": "category",
+      "value": "mediterranean"
+    },
+    {
+      "name": "category",
+      "value": "salad"
+    }
+  ],
+  "keywords": [
+    "mediterranean",
+    "salad",
+    "tabouleh"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/tabouleh/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Soak the cracked wheat in the hot water until the water is absorbed, about 30 minutes.\n2. Drain any excess water, if necessary, and squeeze dry.\n3. Combine the salad ingredients (all but the oil, lemon juice, salt and pepper dressing ingredients) in a medium bowl.\n4. Mix the dressing ingredients together and stir into the salad mix\n5. Serve chilled or at room temperature.",
+    "originalIngredients": [
+      "2 cups Cracked Wheat (bulghur)",
+      "2 cups Very Hot Water (or as directed)",
+      "1 Cucumber, chopped",
+      "2 small Tomatoes, chopped",
+      "1 bunch Green Onions, sliced",
+      "1/2 cup Mint (fresh), chopped",
+      "2 cup Parsley (fresh), chopped",
+      "1 clove Garlic, minced",
+      "1/2 cup Lemon Juice (fresh)",
+      "3/4 cup Olive Oil",
+      "1 Tbsp Pepper",
+      "2 tsp Salt"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

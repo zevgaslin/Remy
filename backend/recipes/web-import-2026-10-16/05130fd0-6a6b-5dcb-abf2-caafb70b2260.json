@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "05130fd0-6a6b-5dcb-abf2-caafb70b2260",
+  "name": "Mapo Tofu (麻婆豆腐)",
+  "description": null,
+  "cuisine": "Chinese",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Ground pork",
+      "originalText": "450 g (1 lb) ground pork",
+      "quantity": 450.0,
+      "quantityText": "450",
+      "unit": "g",
+      "preparation": "1 lb",
+      "section": "Marinated Pork",
+      "optional": false
+    },
+    {
+      "name": "Soy sauce",
+      "originalText": "1 tbsp soy sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": "Marinated Pork",
+      "optional": false
+    },
+    {
+      "name": "Shaoxing cooking wine",
+      "originalText": "1 tbsp Shaoxing cooking wine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": "Marinated Pork",
+      "optional": false
+    },
+    {
+      "name": "Cornstarch",
+      "originalText": "1 tsp cornstarch",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": "Marinated Pork",
+      "optional": false
+    },
+    {
+      "name": "White pepper powder",
+      "originalText": "1 tsp white pepper powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": "Marinated Pork",
+      "optional": false
+    },
+    {
+      "name": "Spicy doubanjiang",
+      "originalText": "2 tbsp spicy doubanjiang (la doubanjiang)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tbsp",
+      "preparation": "la doubanjiang",
+      "section": "Braise",
+      "optional": false
+    },
+    {
+      "name": "Dou-chi",
+      "originalText": "1 tsp dou-chi",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": "Braise",
+      "optional": false
+    },
+    {
+      "name": "Scallions white and green separated)",
+      "originalText": "2-3 chopped scallions white and green separated)",
+      "quantity": null,
+      "quantityText": "2-3",
+      "unit": null,
+      "preparation": "chopped",
+      "section": "Braise",
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "2-4 minced garlic cloves",
+      "quantity": null,
+      "quantityText": "2-4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "section": "Braise",
+      "optional": false
+    },
+    {
+      "name": "Ginger",
+      "originalText": "2 inch minced ginger (similar amount as garlic)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "inch",
+      "preparation": "minced; similar amount as garlic",
+      "section": "Braise",
+      "optional": false
+    },
+    {
+      "name": "Chicken broth or water",
+      "originalText": "400 ml chicken broth or water",
+      "quantity": 400.0,
+      "quantityText": "400",
+      "unit": "ml",
+      "preparation": null,
+      "section": "Braise",
+      "optional": false
+    },
+    {
+      "name": "Soft tofu cut into 1.5cm",
+      "originalText": "340 g (1 package) soft tofu cut into 1.5cm (1/2 inch cubes)",
+      "quantity": 340.0,
+      "quantityText": "340",
+      "unit": "g",
+      "preparation": "1 package; 1/2 inch cubes",
+      "section": "Braise",
+      "optional": false
+    },
+    {
+      "name": "Sichuan peppercorns crushed",
+      "originalText": "1 tbsp Sichuan peppercorns crushed",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": "Braise",
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 450 g (1 lb) ground pork; 1 tbsp soy sauce; 1 tbsp Shaoxing cooking wine; 1 tsp cornstarch; 1 tsp white pepper powder; 2 tbsp spicy doubanjiang (la doubanjiang); 1 tsp dou-chi; 2-3 chopped scallions white and green separated); 2-4 minced garlic cloves; 2 inch minced ginger (similar amount as garlic); 400 ml chicken broth or water; 340 g (1 package) soft tofu cut into 1.5cm (1/2 inch cubes); 1 tbsp Sichuan peppercorns crushed. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Scallions white and green separated): chopped; Garlic: minced; Ginger: minced; similar amount as garlic. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Marinade the pork in shaoxing cooking wine, a splash of cooking oil, the soy sauce,",
+      "section": null
+    },
+    {
+      "text": "Add cooking oil to a wok and sear the ground pork until browned, chopping it up as it cooks",
+      "section": null
+    },
+    {
+      "text": "Add the doubanjiang and let it simmer for about a minute A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Add the minced aromatics (ginger, garlic) scallion whites, and dou-chi and cook until fragrant Mince means chop very finely; dice means cut into small, similarly sized pieces so they cook evenly.",
+      "section": null
+    },
+    {
+      "text": "Add the stock and a splash of soy sauce, turn up the gas and bring to a boil",
+      "section": null
+    },
+    {
+      "text": "Add the tofu, lower the gas, and braise for around 15 mins",
+      "section": null
+    },
+    {
+      "text": "You’ll know it’s done when the tofu shows their trademark “pockmarks” and the seasoning sticks to them",
+      "section": null
+    },
+    {
+      "text": "Mix in the crushed Sichuan peppercorns and green parts of the scallions right before serving",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Serve over steamed rice",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "chinese"
+    },
+    {
+      "name": "category",
+      "value": "chinese"
+    },
+    {
+      "name": "category",
+      "value": "pork"
+    },
+    {
+      "name": "category",
+      "value": "tofu"
+    }
+  ],
+  "keywords": [
+    "chinese",
+    "pork",
+    "tofu",
+    "mapo tofu (麻婆豆腐)"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/mapo-tofu.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/mapo-tofu/",
+    "siteName": "Public Domain Recipes",
+    "author": "mfed3",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Marinade the pork in shaoxing cooking wine, a splash of cooking oil, the soy sauce,\n2. Add cooking oil to a wok and sear the ground pork until browned, chopping it up as it cooks\n3. Add the doubanjiang and let it simmer for about a minute\n4. Add the minced aromatics (ginger, garlic) scallion whites, and dou-chi and cook until fragrant\n5. Add the stock and a splash of soy sauce, turn up the gas and bring to a boil\n6. Add the tofu, lower the gas, and braise for around 15 mins\n7. You’ll know it’s done when the tofu shows their trademark “pockmarks” and the seasoning sticks to them\n8. Mix in the crushed Sichuan peppercorns and green parts of the scallions right before serving\n9. Serve over steamed rice",
+    "originalIngredients": [
+      "450 g (1 lb) ground pork",
+      "1 tbsp soy sauce",
+      "1 tbsp Shaoxing cooking wine",
+      "1 tsp cornstarch",
+      "1 tsp white pepper powder",
+      "2 tbsp spicy doubanjiang (la doubanjiang)",
+      "1 tsp dou-chi",
+      "2-3 chopped scallions white and green separated)",
+      "2-4 minced garlic cloves",
+      "2 inch minced ginger (similar amount as garlic)",
+      "400 ml chicken broth or water",
+      "340 g (1 package) soft tofu cut into 1.5cm (1/2 inch cubes)",
+      "1 tbsp Sichuan peppercorns crushed"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

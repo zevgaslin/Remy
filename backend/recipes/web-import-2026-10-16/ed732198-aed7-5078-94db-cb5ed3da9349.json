@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "id": "ed732198-aed7-5078-94db-cb5ed3da9349",
+  "name": "Turkish Red Lentil Soup",
+  "description": "Serve with a squeeze of lemon and alongside turmeric flatbread.",
+  "cuisine": "Turkish",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 6.0,
+  "yieldText": "6 servings",
+  "ingredients": [
+    {
+      "name": "Red Lentils",
+      "originalText": "1 cup Red Lentils",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": "5 Tbsp Olive Oil",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Paprika",
+      "originalText": "1 Tbsp Paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red Pepper Flakes",
+      "originalText": "1/2 Tbsp Red Paper Flakes",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 large Onion, finely diced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large; finely diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrot",
+      "originalText": "1 large Carrot, diced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "large; diced",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato Paste",
+      "originalText": "4 tsp Tomato Paste",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cumin",
+      "originalText": "2 tsp Cumin",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mint",
+      "originalText": "1/2 tsp Dried Mint",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": "Dried",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thyme or Oregano",
+      "originalText": "1/2 tsp Thyme or Oregano",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vegetable Broth",
+      "originalText": "4 cup Vegetable Broth",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "4 cup Water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 1 cup Red Lentils; 5 Tbsp Olive Oil; 1 Tbsp Paprika; 1/2 Tbsp Red Paper Flakes; 1 large Onion, finely diced; 1 large Carrot, diced; 4 tsp Tomato Paste; 2 tsp Cumin; 1/2 tsp Dried Mint; 1/2 tsp Thyme or Oregano; 4 cup Vegetable Broth; 4 cup Water. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Onion: large; finely diced; Carrot: large; diced. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "Reserve half the paprika and red pepper flakes, set aside.",
+      "section": null
+    },
+    {
+      "text": "Pick through lentils for any foreign debris, rinse two or three times, drain and set aside.",
+      "section": null
+    },
+    {
+      "text": "In a large pot over medium-high heat, saute 2 Tbsp of the olive oil and and onion with a pinch of salt for 3 minutes. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Add the carrots and saute for another 3 minutes. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Add the tomato paste and stir it around for 1 minute.",
+      "section": null
+    },
+    {
+      "text": "Add cumin, mint, thyme, and the paprika/pepper flakes not reserved - and saute for 10 seconds to bloom the spices. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Immediately add the lentils, water, broth, and salt.",
+      "section": null
+    },
+    {
+      "text": "Bring the soup to a boil.",
+      "section": null
+    },
+    {
+      "text": "Once boiling, reduce heat to a medium, cover the pot halfway, and cook for 15-20 minutes or until the lentils have fallen apart and the carrots are fully softened.",
+      "section": null
+    },
+    {
+      "text": "Meanwhile, heat the remaining olive oil in a small sauce pan over medium heat, and swirl in the reserved paprika and red pepper flakes.",
+      "section": null
+    },
+    {
+      "text": "The moment you see the paprika start to bubble, remove the pan from the heat.",
+      "section": null
+    },
+    {
+      "text": "Blend the soup to reach the desired consistency.",
+      "section": null
+    },
+    {
+      "text": "Taste for seasoning.",
+      "section": null
+    },
+    {
+      "text": "Divide soup into bowls and drizzle the paprika oil on top of each serving.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "turkish"
+    },
+    {
+      "name": "category",
+      "value": "lentil"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    },
+    {
+      "name": "category",
+      "value": "turkish"
+    }
+  ],
+  "keywords": [
+    "lentil",
+    "soup",
+    "turkish",
+    "turkish red lentil soup"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/turkish-red-lentil-soup/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Reserve half the paprika and red pepper flakes, set aside.\n2. Pick through lentils for any foreign debris, rinse two or three times, drain and set aside.\n3. In a large pot over medium-high heat, saute 2 Tbsp of the olive oil and and onion with a pinch of salt for 3 minutes. Add the carrots and saute for another 3 minutes.\n4. Add the tomato paste and stir it around for 1 minute. Add cumin, mint, thyme, and the paprika/pepper flakes not reserved - and saute for 10 seconds to bloom the spices. Immediately add the lentils, water, broth, and salt. Bring the soup to a boil.\n5. Once boiling, reduce heat to a medium, cover the pot halfway, and cook for 15-20 minutes or until the lentils have fallen apart and the carrots are fully softened.\n6. Meanwhile, heat the remaining olive oil in a small sauce pan over medium heat, and swirl in the reserved paprika and red pepper flakes. The moment you see the paprika start to bubble, remove the pan from the heat.\n7. Blend the soup to reach the desired consistency. Taste for seasoning.\n8. Divide soup into bowls and drizzle the paprika oil on top of each serving.",
+    "originalIngredients": [
+      "1 cup Red Lentils",
+      "5 Tbsp Olive Oil",
+      "1 Tbsp Paprika",
+      "1/2 Tbsp Red Paper Flakes",
+      "1 large Onion, finely diced",
+      "1 large Carrot, diced",
+      "4 tsp Tomato Paste",
+      "2 tsp Cumin",
+      "1/2 tsp Dried Mint",
+      "1/2 tsp Thyme or Oregano",
+      "4 cup Vegetable Broth",
+      "4 cup Water"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "5f8e70cb-1e4c-55cd-8dc8-45833c6281c7",
+  "name": "No-knead Bread",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 780,
+  "cookMinutes": 50,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "8-12 slices",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "originalText": "3 c flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "c",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "1 tsp salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Instant yeast or 1.25/4 tsp active dry yeast",
+      "originalText": "1/4 tsp instant yeast or 1.25/4 tsp active dry yeast",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "1 1/2 cups warm water",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": "warm",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 3 c flour; 1 tsp salt; 1/4 tsp instant yeast or 1.25/4 tsp active dry yeast; 1 1/2 cups warm water. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Mix the dry ingredients then add the hot water.",
+      "section": null
+    },
+    {
+      "text": "It should come out as a firm dough.",
+      "section": null
+    },
+    {
+      "text": "Leave the dough at room temperature for 12 hours.",
+      "section": null
+    },
+    {
+      "text": "You can then keep the dough in the fridge for up to 48 hours before cooking.",
+      "section": null
+    },
+    {
+      "text": "Preheat oven and pan to 450 F (230 C). For this stovetop step, start over medium heat and lower it if the food browns before the center cooks.",
+      "section": null
+    },
+    {
+      "text": "Bake for 30 minutes covered (e.g. aluminum foil), then 20 minutes uncovered.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "category",
+      "value": "bread"
+    },
+    {
+      "name": "category",
+      "value": "dough"
+    }
+  ],
+  "keywords": [
+    "bread",
+    "dough",
+    "no-knead bread"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/no-knead-bread.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/no-knead-bread/",
+    "siteName": "Public Domain Recipes",
+    "author": "enthdegree",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Mix the dry ingredients then add the hot water. It should come out as a firm dough.\n2. Leave the dough at room temperature for 12 hours. You can then keep the dough in the fridge for up to 48 hours before cooking.\n3. Preheat oven and pan to 450 F (230 C).\n4. Bake for 30 minutes covered (e.g. aluminum foil), then 20 minutes uncovered.",
+    "originalIngredients": [
+      "3 c flour",
+      "1 tsp salt",
+      "1/4 tsp instant yeast or 1.25/4 tsp active dry yeast",
+      "1 1/2 cups warm water",
+      "Oven-safe pan"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

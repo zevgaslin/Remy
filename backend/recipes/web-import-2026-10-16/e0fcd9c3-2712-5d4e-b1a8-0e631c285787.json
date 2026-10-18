@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "e0fcd9c3-2712-5d4e-b1a8-0e631c285787",
+  "name": "Simple Tuna Salad",
+  "description": null,
+  "cuisine": null,
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 5,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": 3.0,
+  "yieldText": "3 servings",
+  "ingredients": [
+    {
+      "name": "White tuna",
+      "originalText": "1 (7 oz) can white tuna, drained",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": "7 oz package size; drained",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mayonnaise",
+      "originalText": "6 tablespoons mayonnaise",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet pickle relish",
+      "originalText": "1 tablespoons sweet pickle relish",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic powder",
+      "originalText": "A pinch of garlic powder (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "White vinegar or lemon juice",
+      "originalText": "2 tablespoons white vinegar or lemon juice (optional)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Cheese",
+      "originalText": "1 cup shredded cheese (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": "shredded",
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Hard-boiled egg",
+      "originalText": "1 chopped hard-boiled egg (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": "chopped",
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": null,
+      "text": "Set out a medium mixing bowl, spoon, can opener, and strainer. Open one 7-ounce can white tuna, drain it well, and place the tuna in the bowl."
+    },
+    {
+      "section": null,
+      "text": "Use the spoon or a fork to break large tuna pieces into small flakes. Measure 6 tablespoons mayonnaise and 1 tablespoon sweet pickle relish."
+    },
+    {
+      "section": null,
+      "text": "Add the mayonnaise and relish to the tuna. Stir and fold until the flakes are evenly coated and no large pockets of mayonnaise remain."
+    },
+    {
+      "section": null,
+      "text": "If desired, stir in the source’s optional 2 tablespoons white vinegar or lemon juice, 1 cup shredded cheese, or 1 chopped hard-boiled egg. The egg must already be fully cooked and peeled before you chop it."
+    },
+    {
+      "section": null,
+      "text": "Add the optional pinch of garlic powder only if wanted. The source also allows salt and pepper to taste; taste a small spoonful before adding more seasoning."
+    },
+    {
+      "section": null,
+      "text": "Divide into 3 portions and serve chilled. If preparing ahead, cover and refrigerate at 40°F (4°C) or colder until serving; return unused portions to the refrigerator promptly."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "category",
+      "value": "basic"
+    },
+    {
+      "name": "category",
+      "value": "fish"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    },
+    {
+      "name": "category",
+      "value": "tuna"
+    }
+  ],
+  "keywords": [
+    "basic",
+    "fish",
+    "quick",
+    "tuna",
+    "simple tuna salad"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/tuna-salad.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/tuna-salad/",
+    "siteName": "Public Domain Recipes",
+    "author": "scary90",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. In a medium bowl, stir together tuna, mayonnaise, and relish.\n2. Add optional ingredients like vinegar, cheese or hard-boiled eggs if wanted.\n3. Season with garlic powder, salt, and pepper if wanted.",
+    "originalIngredients": [
+      "1 (7 oz) can white tuna, drained",
+      "6 tablespoons mayonnaise",
+      "1 tablespoons sweet pickle relish",
+      "A pinch of garlic powder (optional)",
+      "2 tablespoons white vinegar or lemon juice (optional)",
+      "1 cup shredded cheese (optional)",
+      "1 chopped hard-boiled egg (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested. The method was rewritten in reviewed, explicit beginner steps using the source quantities."
+  }
+}

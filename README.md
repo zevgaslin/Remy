@@ -98,3 +98,6 @@ Edits through the existing recipe API update both compatibility text and the sto
 From `backend/`, run `./mvnw verify`. Integration tests use temporary, isolated PostgreSQL instances via an embedded test runtime; they do not connect to Supabase or require Docker. The first run downloads the test binaries. H2 is not a test dependency.
 
 From `frontend/`, use Node 22.12+ (or Node 20.19+) and run `npm test` and `npm run build`.
+
+
+Supabase password: RemyDatabas

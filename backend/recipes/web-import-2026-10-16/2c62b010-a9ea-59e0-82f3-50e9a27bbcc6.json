@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "2c62b010-a9ea-59e0-82f3-50e9a27bbcc6",
+  "name": "Salsa",
+  "description": null,
+  "cuisine": "Mexican",
+  "mealType": "Side",
+  "difficulty": null,
+  "prepMinutes": 5,
+  "cookMinutes": 0,
+  "totalMinutes": null,
+  "servings": 14.0,
+  "yieldText": "14 servings",
+  "ingredients": [
+    {
+      "name": "Tomatoes",
+      "originalText": "1 1/4 lbs (600 grams) tomatoes",
+      "quantity": 1.25,
+      "quantityText": "1 1/4",
+      "unit": "lbs",
+      "preparation": "600 grams",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Canned tomatoes",
+      "originalText": "1 14.5 oz (400 grams) canned tomatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "package",
+      "preparation": "14.5 oz source package size; 400 grams",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green onion",
+      "originalText": "1 green onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red onion",
+      "originalText": "1 red onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Jalapeño pepper",
+      "originalText": "1 jalapeño pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Handfull fresh cilantro",
+      "originalText": "1 handfull fresh cilantro",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "1 clove garlic",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "clove",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lime, juice squeezed",
+      "originalText": "1/2 lime, juice squeezed (optional)",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Chili pepper",
+      "originalText": "1 chili pepper (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Ground cumin",
+      "originalText": "1/4 tsp ground cumin (optional)",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": null,
+      "text": "Set out a food processor, cutting board, knife, strainer, and a clean covered storage container. This recipe is blended without cooking."
+    },
+    {
+      "section": null,
+      "text": "Wash the 1 1/4 pounds fresh tomatoes, 1 green onion, 1 red onion, 1 jalapeño, and 1 handful fresh cilantro under running water. Remove tomato stem cores and the jalapeño stem. Peel the red onion and 1 garlic clove. Cut the tomatoes and onions into pieces small enough to fit the processor."
+    },
+    {
+      "section": null,
+      "text": "For a milder salsa, cut the jalapeño lengthwise and scrape out its seeds and pale inner ribs with a spoon. Avoid touching your eyes and wash your hands after handling the pepper. Leave the seeds in if you prefer more heat."
+    },
+    {
+      "section": null,
+      "text": "Put the prepared vegetables, cilantro, garlic, and one 14.5-ounce can of tomatoes into the food processor. If using the optional 1/2 lime, squeeze in its juice and remove any seeds; add the optional chili pepper and 1/4 teaspoon cumin only if wanted."
+    },
+    {
+      "section": null,
+      "text": "Fit the lid securely. Pulse in short bursts of about 1 second, checking after each few pulses, until the vegetables are chopped to your preferred chunkiness. Stop the motor before opening the lid or scraping the sides with a spatula."
+    },
+    {
+      "section": null,
+      "text": "Spoon into the clean container, cover, and refrigerate at 40°F (4°C) or colder until serving. Use a clean spoon to serve the chilled salsa."
+    },
+    {
+      "section": null,
+      "text": "Refrigerate promptly after serving rather than leaving it at room temperature for more than 2 hours. For this Remy adaptation, make a small batch and use it within 3–4 days; the source’s longer storage suggestion is not used."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "side"
+    },
+    {
+      "name": "cuisine",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "basic"
+    },
+    {
+      "name": "category",
+      "value": "mexican"
+    },
+    {
+      "name": "category",
+      "value": "quick"
+    },
+    {
+      "name": "category",
+      "value": "tomato"
+    }
+  ],
+  "keywords": [
+    "basic",
+    "mexican",
+    "quick",
+    "tomato",
+    "salsa"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/salsa/",
+    "siteName": "Public Domain Recipes",
+    "author": "Lars Henrik Bolstad",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Add all ingredients to a food processor and burst shortly for desired degree of chunkyness.\n2. Refrigerate until consumption. (max 1 week)",
+    "originalIngredients": [
+      "1 1/4 lbs (600 grams) tomatoes",
+      "1 14.5 oz (400 grams) canned tomatoes",
+      "1 green onion",
+      "1 red onion",
+      "1 jalapeño pepper",
+      "1 handfull fresh cilantro",
+      "1 clove garlic",
+      "1/2 lime, juice squeezed (optional)",
+      "1 chili pepper (optional)",
+      "1/4 tsp ground cumin (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested. The method was rewritten in reviewed, explicit beginner steps using the source quantities. The source’s one-week refrigerator suggestion was shortened to a conservative 3–4-day plan in this adaptation."
+  }
+}

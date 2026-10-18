@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "id": "ec4492fe-a9bc-506c-8e72-d35251eb9f3d",
+  "name": "Ukrainian Borscht",
+  "description": "Borscht is a beet soup that originates from Ukraine and is common in Eastern Europe and North Asia.\nDepending on the recipe, borscht may be purely vegetarian; it may be served either hot or cold; and it may range from a hearty one-pot...",
+  "cuisine": "Ukrainian",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 25,
+  "cookMinutes": 40,
+  "totalMinutes": null,
+  "servings": 10.0,
+  "yieldText": "10 servings",
+  "ingredients": [
+    {
+      "name": "Red beetroots",
+      "originalText": "3 red beetroots",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Extra virgin olive oil",
+      "originalText": "4 Tbsp extra virgin olive oil",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken broth + 2 cups water",
+      "originalText": "8 cups chicken broth + 2 cups water",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yukon potatoes",
+      "originalText": "3 yukon potatoes",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Carrots",
+      "originalText": "2 carrots",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Celery ribs",
+      "originalText": "2 celery ribs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion",
+      "originalText": "1 onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ketchup or 3 Tbsp tomato sauce",
+      "originalText": "4 Tbsp ketchup or 3 Tbsp tomato sauce",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "Tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red bell pepper",
+      "originalText": "1 red bell pepper (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "White cannelini beans with their juice",
+      "originalText": "1 can white cannelini beans with their juice (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Bay leaves",
+      "originalText": "2 bay leaves (optional)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Pressed garlic clove",
+      "originalText": "1 pressed garlic clove (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Sour cream",
+      "originalText": "1 cup sour cream (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Dill",
+      "originalText": "fresh dill to taste (optional)",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "fresh; to taste",
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 3 red beetroots; 4 Tbsp extra virgin olive oil; 8 cups chicken broth + 2 cups water; 3 yukon potatoes; 2 carrots; 2 celery ribs; 1 onion; 4 Tbsp ketchup or 3 Tbsp tomato sauce; 1 red bell pepper (optional); 1 can white cannelini beans with their juice (optional); 2 bay leaves (optional); 1 pressed garlic clove (optional); 1 cup sour cream (optional); fresh dill to taste (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Peel, grate and/or slice all vegetables (keeping sliced potatoes in cold water to prevent browning until ready to use then drain).",
+      "section": null
+    },
+    {
+      "text": "Heat a large soup pot (5 1/2 Qt or larger) over medium/high heat and add 2 Tbsp olive oil.",
+      "section": null
+    },
+    {
+      "text": "Add grated beets and sauté 10 minutes, stirring occasionally until beets are softened. Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Add 8 cups broth and 2 cups water.",
+      "section": null
+    },
+    {
+      "text": "Add sliced potatoes and sliced carrots then cook for 10-15 minutes or until easily pierced with a fork.",
+      "section": null
+    },
+    {
+      "text": "While potatoes are cooking, place a large skillet over medium/high heat and add 2 Tbsp oil.",
+      "section": null
+    },
+    {
+      "text": "Add chopped onion, celery and bell pepper.",
+      "section": null
+    },
+    {
+      "text": "Saute stirring occasionally until softened and lightly golden (7-8 minutes). Stir frequently so the ingredients soften evenly without sticking or burning; reduce the heat if they darken too quickly.",
+      "section": null
+    },
+    {
+      "text": "Add 4 Tbsp Ketchup and stir fry for 30 seconds then transfer to the soup pot to continue cooking with the potatoes.",
+      "section": null
+    },
+    {
+      "text": "When potatoes and carrots reach desired softness, add optional ingredients from the list.",
+      "section": null
+    },
+    {
+      "text": "Simmer for an additional 2-3 minutes and add more spices to taste. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Serve with a dollop of sour cream on top.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "ukrainian"
+    },
+    {
+      "name": "category",
+      "value": "beetroot"
+    },
+    {
+      "name": "category",
+      "value": "russian"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    },
+    {
+      "name": "category",
+      "value": "ukrainian"
+    }
+  ],
+  "keywords": [
+    "beetroot",
+    "russian",
+    "soup",
+    "ukrainian",
+    "ukrainian borscht"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/borscht.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/ukrainian-borscht/",
+    "siteName": "Public Domain Recipes",
+    "author": "Stanislav",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Peel, grate and/or slice all vegetables (keeping sliced potatoes in cold water to prevent browning until ready to use then drain).\n2. Heat a large soup pot (5 1/2 Qt or larger) over medium/high heat and add 2 Tbsp olive oil.\n3. Add grated beets and sauté 10 minutes, stirring occasionally until beets are softened.\n4. Add 8 cups broth and 2 cups water.\n5. Add sliced potatoes and sliced carrots then cook for 10-15 minutes or until easily pierced with a fork.\n6. While potatoes are cooking, place a large skillet over medium/high heat and add 2 Tbsp oil.\n7. Add chopped onion, celery and bell pepper. Saute stirring occasionally until softened and lightly golden (7-8 minutes).\n8. Add 4 Tbsp Ketchup and stir fry for 30 seconds then transfer to the soup pot to continue cooking with the potatoes.\n9. When potatoes and carrots reach desired softness, add optional ingredients from the list.\n10. Simmer for an additional 2-3 minutes and add more spices to taste.\n11. Serve with a dollop of sour cream on top.",
+    "originalIngredients": [
+      "3 red beetroots",
+      "4 Tbsp extra virgin olive oil",
+      "8 cups chicken broth + 2 cups water",
+      "3 yukon potatoes",
+      "2 carrots",
+      "2 celery ribs",
+      "1 onion",
+      "4 Tbsp ketchup or 3 Tbsp tomato sauce",
+      "1 red bell pepper (optional)",
+      "1 can white cannelini beans with their juice (optional)",
+      "2 bay leaves (optional)",
+      "1 pressed garlic clove (optional)",
+      "1 cup sour cream (optional)",
+      "fresh dill to taste (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

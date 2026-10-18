@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "id": "2bfc1ed1-e30a-55bf-b85f-9f29a1b101d8",
+  "name": "Ratatouille",
+  "description": null,
+  "cuisine": "French",
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 12,
+  "cookMinutes": 75,
+  "totalMinutes": null,
+  "servings": 12.0,
+  "yieldText": "12 servings",
+  "ingredients": [
+    {
+      "name": "Tomatoes",
+      "originalText": "3 1/2 lbs Tomatoes",
+      "quantity": 3.5,
+      "quantityText": "3 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Eggplant",
+      "originalText": "1 1/2 lbs Eggplant",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Zucchini",
+      "originalText": "1 lb Zucchini",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bell Peppers",
+      "originalText": "3 Bell Peppers",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onions",
+      "originalText": "2 lbs Onions",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "6 cloves Garlic",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "cloves",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Herbes de Provence",
+      "originalText": "Herbes de Provence (Basil, Thyme, Parsley)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": "Basil, Thyme, Parsley",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive Oil",
+      "originalText": "Olive Oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato Paste",
+      "originalText": "140g Tomato Paste (optional if tomatoes aren’t yummy)",
+      "quantity": 140.0,
+      "quantityText": "140",
+      "unit": "g",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 3 1/2 lbs Tomatoes; 1 1/2 lbs Eggplant; 1 lb Zucchini; 3 Bell Peppers; 2 lbs Onions; 6 cloves Garlic; Herbes de Provence (Basil, Thyme, Parsley); Olive Oil; Salt; Pepper; 140g Tomato Paste (optional if tomatoes aren’t yummy). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Peel and drain the tomatoes (don’t mind the seeds): cut out the stem cores; drop the whole tomatoes into boiling water for 2 minutes.",
+      "section": null
+    },
+    {
+      "text": "Remove into a colander.",
+      "section": null
+    },
+    {
+      "text": "The skin should split for easy removal; otherwise, make an X cut in the top, then peel off the skin.",
+      "section": null
+    },
+    {
+      "text": "Chop the onion and garlic.",
+      "section": null
+    },
+    {
+      "text": "Clean the bell pepper, cut into small strips.",
+      "section": null
+    },
+    {
+      "text": "In a large cooking pot with thick bottom, put in olive oil, onions, and chopped garlic.",
+      "section": null
+    },
+    {
+      "text": "Add in the bell pepper.",
+      "section": null
+    },
+    {
+      "text": "Cover to keep in the moisture.",
+      "section": null
+    },
+    {
+      "text": "Cook for 20 minutes, stirring frequently, and add olive oil as necessary to prevent burning.",
+      "section": null
+    },
+    {
+      "text": "Add the tomatoes and Herbes de Provence.",
+      "section": null
+    },
+    {
+      "text": "If you don’t have good garden tomatoes with flavour, add a small can of tomato paste.",
+      "section": null
+    },
+    {
+      "text": "Stir well and cook for another 15 minutes.",
+      "section": null
+    },
+    {
+      "text": "Cut the eggplant into disks.",
+      "section": null
+    },
+    {
+      "text": "Cut zucchini into disks.",
+      "section": null
+    },
+    {
+      "text": "Add the eggplant and zucchini to the pot.",
+      "section": null
+    },
+    {
+      "text": "Cook for about 30 minutes.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "cuisine",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "french"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    },
+    {
+      "name": "category",
+      "value": "tomato"
+    }
+  ],
+  "keywords": [
+    "french",
+    "soup",
+    "tomato",
+    "ratatouille"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/xmr.svg",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/ratatouille/",
+    "siteName": "Public Domain Recipes",
+    "author": "Joel Maxuel",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Peel and drain the tomatoes (don’t mind the seeds): cut out the stem cores; drop the whole tomatoes into boiling water for 2 minutes. Remove into a colander. The skin should split for easy removal; otherwise, make an X cut in the top, then peel off the skin.\n2. Chop the onion and garlic. Clean the bell pepper, cut into small strips.\n3. In a large cooking pot with thick bottom, put in olive oil, onions, and chopped garlic. Add in the bell pepper. Cover to keep in the moisture. Cook for 20 minutes, stirring frequently, and add olive oil as necessary to prevent burning.\n4. Add the tomatoes and Herbes de Provence. If you don’t have good garden tomatoes with flavour, add a small can of tomato paste. Stir well and cook for another 15 minutes.\n5. Cut the eggplant into disks. Cut zucchini into disks.\n6. Add the eggplant and zucchini to the pot.\n7. Cook for about 30 minutes.",
+    "originalIngredients": [
+      "3 1/2 lbs Tomatoes",
+      "1 1/2 lbs Eggplant",
+      "1 lb Zucchini",
+      "3 Bell Peppers",
+      "2 lbs Onions",
+      "6 cloves Garlic",
+      "Herbes de Provence (Basil, Thyme, Parsley)",
+      "Olive Oil",
+      "Salt",
+      "Pepper",
+      "140g Tomato Paste (optional if tomatoes aren’t yummy)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

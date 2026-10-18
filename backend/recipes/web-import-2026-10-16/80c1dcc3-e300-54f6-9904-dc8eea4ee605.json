@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "80c1dcc3-e300-54f6-9904-dc8eea4ee605",
+  "name": "Fennel White Bean and Kale Soup",
+  "description": "Hearty soup with lots of veggie and protein.",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": "6-8 bowls",
+  "ingredients": [
+    {
+      "name": "Olive oil",
+      "originalText": "½ cup olive oil",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Fennel bulbs, small-diced",
+      "originalText": "2 small fennel bulbs, small-diced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "small",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yellow onions, small-diced",
+      "originalText": "2 small yellow onions, small-diced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "small",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rosemary or thyme",
+      "originalText": "4 teaspoons minced fresh rosemary or thyme",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "teaspoons",
+      "preparation": "minced fresh",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Garlic",
+      "originalText": "10 cloves of garlic, minced or pressed",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": "cloves",
+      "preparation": "minced or pressed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Red-pepper flakes",
+      "originalText": "½-1 teaspoon red-pepper flakes.",
+      "quantity": null,
+      "quantityText": "1/2-1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Kale",
+      "originalText": "10-12 oz kale, (escarole, swiss chard, or spinach can also be used).",
+      "quantity": null,
+      "quantityText": "10-12",
+      "unit": "oz",
+      "preparation": "escarole, swiss chard, or spinach can also be used",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cannellini beans",
+      "originalText": "4 cans cannellini beans, rinsed",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cans",
+      "preparation": "rinsed",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken broth",
+      "originalText": "4 cups chicken broth.",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon juice",
+      "originalText": "2 tablespoons lemon juice",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan",
+      "originalText": "6 tablespoons grated parmesan, plus extra for serving if desired",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoons",
+      "preparation": "grated; plus extra for serving if desired",
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: ½ cup olive oil; 2 small fennel bulbs, small-diced; 2 small yellow onions, small-diced; 4 teaspoons minced fresh rosemary or thyme; 10 cloves of garlic, minced or pressed; ½-1 teaspoon red-pepper flakes.; 10-12 oz kale, (escarole, swiss chard, or spinach can also be used).; 4 cans cannellini beans, rinsed; 4 cups chicken broth.; 2 tablespoons lemon juice; 6 tablespoons grated parmesan, plus extra for serving if desired. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Rosemary or thyme: minced fresh; Garlic: minced or pressed; Cannellini beans: rinsed; Parmesan: grated; plus extra for serving if desired. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "In a large soup pot, heat olive oil over medium.",
+      "section": null
+    },
+    {
+      "text": "Add fennel, onion, rosemary and mix until tender (4-6 min).",
+      "section": null
+    },
+    {
+      "text": "Add garlic, red pepper flakes, cook until fragrant (1 min).",
+      "section": null
+    },
+    {
+      "text": "Add one handful of greens at a time, stirring until leaves wilt.",
+      "section": null
+    },
+    {
+      "text": "Add white beans, broth, and black pepper,",
+      "section": null
+    },
+    {
+      "text": "Bring to boil then bring to simmer while mashing some of the beans with a wooden spoon. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Simmer until liquid has reduced and simmered (6-8 mins) A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "Take off heat, stir in lemon juice and parmesan.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Serve with some toasted bread that is good at scooping up soup.",
+      "section": null
+    },
+    {
+      "text": "Enjoy!",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "beans"
+    },
+    {
+      "name": "category",
+      "value": "soup"
+    },
+    {
+      "name": "category",
+      "value": "vegetables"
+    }
+  ],
+  "keywords": [
+    "beans",
+    "soup",
+    "vegetables",
+    "fennel white bean and kale soup"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/fennel-bean-kale-soup.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/fennel-beans-and-kale-soup/",
+    "siteName": "Public Domain Recipes",
+    "author": "Zyansheep",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. In a large soup pot, heat olive oil over medium.\n2. Add fennel, onion, rosemary and mix until tender (4-6 min).\n3. Add garlic, red pepper flakes, cook until fragrant (1 min).\n4. Add one handful of greens at a time, stirring until leaves wilt.\n5. Add white beans, broth, and black pepper,\n6. Bring to boil then bring to simmer while mashing some of the beans with a wooden spoon. Simmer until liquid has reduced and simmered (6-8 mins)\n7. Take off heat, stir in lemon juice and parmesan. Serve with some toasted bread that is good at scooping up soup. Enjoy!",
+    "originalIngredients": [
+      "½ cup olive oil",
+      "2 small fennel bulbs, small-diced",
+      "2 small yellow onions, small-diced",
+      "4 teaspoons minced fresh rosemary or thyme",
+      "10 cloves of garlic, minced or pressed",
+      "½-1 teaspoon red-pepper flakes.",
+      "10-12 oz kale, (escarole, swiss chard, or spinach can also be used).",
+      "4 cans cannellini beans, rinsed",
+      "4 cups chicken broth.",
+      "2 tablespoons lemon juice",
+      "6 tablespoons grated parmesan, plus extra for serving if desired"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

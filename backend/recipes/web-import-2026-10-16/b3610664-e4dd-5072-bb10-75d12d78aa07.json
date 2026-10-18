@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "b3610664-e4dd-5072-bb10-75d12d78aa07",
+  "name": "Chicken Paprikash",
+  "description": "Chicken Paprikash is a delicious meal from Hungary, and I hope you are also Hungary! I make it all the time when I have guests.",
+  "cuisine": null,
+  "mealType": "Dinner",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 85,
+  "totalMinutes": null,
+  "servings": 8.0,
+  "yieldText": "8 servings",
+  "ingredients": [
+    {
+      "name": "Bone-in, skin-on chicken thighs",
+      "originalText": "8 bone-in, skin-on chicken thighs",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "salt to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "pepper to taste",
+      "quantity": null,
+      "quantityText": "to taste",
+      "unit": null,
+      "preparation": "to taste",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chicken or beef broth",
+      "originalText": "2 cups chicken or beef broth",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olive oil",
+      "originalText": "2 tablespoons olive oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sized onions",
+      "originalText": "2 medium sized onions",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": "medium",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Powdered garlic",
+      "originalText": "1 tablespoon powdered garlic",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomato paste",
+      "originalText": "3 tablespoons tomato paste",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Hungarian paprika or regular paprika",
+      "originalText": "1/4 cup Hungarian paprika or regular paprika",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cayenne pepper",
+      "originalText": "1 tablespoon cayenne pepper (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "Sour cream",
+      "originalText": "1 cup sour cream (optional)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 8 bone-in, skin-on chicken thighs; salt to taste; pepper to taste; 2 cups chicken or beef broth; 2 tablespoons olive oil; 2 medium sized onions; 1 tablespoon powdered garlic; 3 tablespoons tomato paste; 1/4 cup Hungarian paprika or regular paprika; 1 tablespoon cayenne pepper (optional); 1 cup sour cream (optional). Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Set out the bowls, pans, measuring tools, and any baking equipment named in the steps below. Wash any fresh produce before use. Keep raw eggs, meat, and their utensils separate from ready-to-eat food."
+    },
+    {
+      "text": "Pat raw chicken thighs with paper towels for crispier skin.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Heat up a heavy, deep-sided pan on high heat with a little olive oil.",
+      "section": null
+    },
+    {
+      "text": "Add the chicken thighs skin-side down.",
+      "section": null
+    },
+    {
+      "text": "Brown the thighs for five minutes on each side then remove each thigh and place them aside once browned.",
+      "section": null
+    },
+    {
+      "text": "Add chopped onions to the pan with the chicken fat and sauce until the onions are golden.",
+      "section": null
+    },
+    {
+      "text": "Add powdered garlic and tomato paste.",
+      "section": null
+    },
+    {
+      "text": "Stir this another 5 minutes to create a tomato-roux.",
+      "section": null
+    },
+    {
+      "text": "Add Hungarian paprika and stir another minute.",
+      "section": null
+    },
+    {
+      "text": "Add chicken or beef broth and bring it to a medium temperature.",
+      "section": null
+    },
+    {
+      "text": "Reduce the heat to medium low and transfer the chicken thighs from the plate back into the pan.",
+      "section": null
+    },
+    {
+      "text": "Be sure not to waste any chicken fat.",
+      "section": null
+    },
+    {
+      "text": "Cover the pan with a lid and simmer the dish for 45 to 60 minutes. A simmer means small, gentle bubbles; lower the burner if it boils vigorously.",
+      "section": null
+    },
+    {
+      "text": "With a fork, test to see that the chicken is tender.",
+      "section": null
+    },
+    {
+      "text": "Add salt and pepper to taste afterwards.",
+      "section": null
+    },
+    {
+      "section": "Check doneness",
+      "text": "Before serving, insert a food thermometer into the thickest piece of chicken or turkey, away from bone: it must reach 165°F (74°C). If using already-cooked poultry, reheat it to 165°F (74°C). Continue cooking and recheck if needed; wash hands and utensils after handling raw poultry and do not rinse it."
+    },
+    {
+      "text": "Plate the chicken with an optional dusting of cayenne pepper and serve it with some nice hearty bread.",
+      "section": null
+    },
+    {
+      "text": "This dish has sour cream added to it traditionally, however if dairy is not your thing it’s delicious without it also.",
+      "section": null
+    },
+    {
+      "text": "So for this last step you can add some sour cream to the sauce and stir it or add the sour cream at the end when you plate the chicken.",
+      "section": null
+    },
+    {
+      "text": "Then garnish with herbs and enjoy!",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dinner"
+    },
+    {
+      "name": "category",
+      "value": "chicken"
+    },
+    {
+      "name": "category",
+      "value": "hungarian"
+    },
+    {
+      "name": "category",
+      "value": "stew"
+    }
+  ],
+  "keywords": [
+    "chicken",
+    "hungarian",
+    "stew",
+    "chicken paprikash"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/chicken-paprikash/",
+    "siteName": "Public Domain Recipes",
+    "author": "hcm444",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. Pat raw chicken thighs with paper towels for crispier skin. Season with salt and pepper.\n2. Heat up a heavy, deep-sided pan on high heat with a little olive oil.\n3. Add the chicken thighs skin-side down. Brown the thighs for five minutes on each side then remove each thigh and place them aside once browned.\n4. Add chopped onions to the pan with the chicken fat and sauce until the onions are golden.\n5. Add powdered garlic and tomato paste. Stir this another 5 minutes to create a tomato-roux.\n6. Add Hungarian paprika and stir another minute.\n7. Add chicken or beef broth and bring it to a medium temperature.\n8. Reduce the heat to medium low and transfer the chicken thighs from the plate back into the pan. Be sure not to waste any chicken fat.\n9. Cover the pan with a lid and simmer the dish for 45 to 60 minutes.\n10. With a fork, test to see that the chicken is tender. Add salt and pepper to taste afterwards.\n11. Plate the chicken with an optional dusting of cayenne pepper and serve it with some nice hearty bread. This dish has sour cream added to it traditionally, however if dairy is not your thing it’s delicious without it also. So for this last step you can add some sour cream to the sauce and stir it or add the sour cream at the end when you plate the chicken. Then garnish with herbs and enjoy!",
+    "originalIngredients": [
+      "8 bone-in, skin-on chicken thighs",
+      "salt to taste",
+      "pepper to taste",
+      "2 cups chicken or beef broth",
+      "2 tablespoons olive oil",
+      "2 medium sized onions",
+      "1 tablespoon powdered garlic",
+      "3 tablespoons tomato paste",
+      "1/4 cup Hungarian paprika or regular paprika",
+      "1 tablespoon cayenne pepper (optional)",
+      "1 cup sour cream (optional)"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}

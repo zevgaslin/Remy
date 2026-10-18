@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "244a94ea-95f7-5fb1-aa8a-9c112fa4a607",
+  "name": "Swedish Pancakes",
+  "description": null,
+  "cuisine": "Swedish",
+  "mealType": "Dessert",
+  "difficulty": null,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "totalMinutes": null,
+  "servings": 4.0,
+  "yieldText": "4 servings",
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "originalText": "3 Eggs, beaten",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": "beaten",
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "1 tsp Salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "1 tbsp Sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "1 cup Flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk",
+      "originalText": "1 - 2/3 cups Milk",
+      "quantity": 1.6666666666666667,
+      "quantityText": "1 2/3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "6-8 tbsp Butter",
+      "quantity": null,
+      "quantityText": "6-8",
+      "unit": "tbsp",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "section": "Preparation",
+      "text": "Read the entire method first and measure the following ingredients before turning on the heat: 3 Eggs, beaten; 1 tsp Salt; 1 tbsp Sugar; 1 cup Flour; 1 - 2/3 cups Milk; 6-8 tbsp Butter. Keep ingredients marked optional separate until their step."
+    },
+    {
+      "section": "Preparation",
+      "text": "Prepare these ingredients before cooking: Eggs: beaten. Wash produce under running water before cutting. Use a cutting board and a sharp knife; keep raw meat and its utensils separate from ready-to-eat ingredients."
+    },
+    {
+      "text": "At medium/low heat begin melting the butter, and continue with beating eggs in large bowl, add salt, sugar, milk, flour and mix.",
+      "section": null
+    },
+    {
+      "text": "Add melted butter while stirring batter.",
+      "section": null
+    },
+    {
+      "text": "Use about 1/2 cup batter on griddle and tilt until spread evenly over griddle surface.",
+      "section": null
+    },
+    {
+      "text": "When edges of pancake start to firm-up use spatula and free up the outside inch or two to achieve a clean removal for flipping later.",
+      "section": null
+    },
+    {
+      "text": "First side will take about a minute or more the second side will take half that time.",
+      "section": null
+    },
+    {
+      "text": "Pick up at middle of pancake with spatula then place on plate and fold over.",
+      "section": null
+    },
+    {
+      "text": "The pancake will then be four layers thick 10\" x 2\" long.",
+      "section": null
+    },
+    {
+      "text": "Serve with syrup on top or anything you choose, my wife likes peanut butter and I prefer to spread a little butter on it before adding syrup.",
+      "section": null
+    },
+    {
+      "text": "Maybe you prefer adding fruits of your choice.",
+      "section": null
+    },
+    {
+      "section": "Finish",
+      "text": "Turn off any burners or oven when cooking is finished. Follow the cooling or resting instruction above before cutting or serving. Serve the finished dish as directed; allow hot portions to cool enough to eat."
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "meal_type",
+      "value": "dessert"
+    },
+    {
+      "name": "cuisine",
+      "value": "swedish"
+    },
+    {
+      "name": "category",
+      "value": "breakfast"
+    },
+    {
+      "name": "category",
+      "value": "pancake"
+    },
+    {
+      "name": "category",
+      "value": "swedish"
+    }
+  ],
+  "keywords": [
+    "breakfast",
+    "pancake",
+    "swedish",
+    "swedish pancakes"
+  ],
+  "nutrition": null,
+  "imageUrl": "https://publicdomainrecipes.com/pix/swedish-pancakes.webp",
+  "source": {
+    "kind": "website",
+    "url": "https://publicdomainrecipes.com/swedish-pancakes/",
+    "siteName": "Public Domain Recipes",
+    "author": "Matt Bogenhagen",
+    "importedAt": "2026-10-16T22:24:05.819849+00:00",
+    "originalInstructions": "1. At medium/low heat begin melting the butter, and continue with beating eggs in large bowl, add salt, sugar, milk, flour and mix.\n2. Add melted butter while stirring batter.\n3. Use about 1/2 cup batter on griddle and tilt until spread evenly over griddle surface.\n4. When edges of pancake start to firm-up use spatula and free up the outside inch or two to achieve a clean removal for flipping later.\n5. First side will take about a minute or more the second side will take half that time. Pick up at middle of pancake with spatula then place on plate and fold over. The pancake will then be four layers thick 10\" x 2\" long. Serve with syrup on top or anything you choose, my wife likes peanut butter and I prefer to spread a little butter on it before adding syrup. Maybe you prefer adding fruits of your choice.",
+    "originalIngredients": [
+      "3 Eggs, beaten",
+      "1 tsp Salt",
+      "1 tbsp Sugar",
+      "1 cup Flour",
+      "1 - 2/3 cups Milk",
+      "6-8 tbsp Butter"
+    ],
+    "license": "Public domain (Unlicense)",
+    "licenseUrl": "https://github.com/ronaldl29/public-domain-recipes/blob/main/LICENSE.md",
+    "instructionsOrigin": "adapted",
+    "adaptationNotes": "Ingredient amounts and original directions come from the linked public-domain page. Remy added preparation explanations, cooking-technique definitions, serving guidance, and applicable USDA thermometer checks. Unspecified quantities, serving counts, nutrition, and timing remain unknown. These adaptations have not been kitchen-tested."
+  }
+}
