@@ -377,13 +377,26 @@
 }
 
 .nutrition-fields {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px 12px;
   margin: 0;
   padding: 10px 12px 12px;
   border: 1px solid var(--border);
   border-radius: 8px;
+}
+
+.nutrition-fields label {
+  min-width: 0;
+}
+
+.nutrition-fields input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
 }
 
 .nutrition-fields legend {
