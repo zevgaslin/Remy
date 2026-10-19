@@ -1,0 +1,45 @@
+.ingredient-entry-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  margin-bottom: 20px;
+  background: #f1f4f0;
+  border-radius: 10px;
+}
+
+.ingredient-entry-tabs button {
+  flex: 1;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: #465447;
+  font: inherit;
+  cursor: pointer;
+}
+
+.ingredient-entry-tabs button[aria-selected='true'] {
+  background: white;
+  color: #254b2c;
+  font-weight: 600;
+  box-shadow: 0 1px 4px #00000015;
+}
+
+.ingredient-entry-tabs button:focus-visible {
+  outline: 2px solid #387443;
+  outline-offset: 2px;
+}
+
+.ingredient-camera video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #18231b;
+  border-radius: 10px;
+}
+
+.ingredient-camera p {
+  font-size: 14px;
+  line-height: 1.5;
+}
