@@ -138,16 +138,15 @@ public class RecipeController {
         return ResponseEntity.ok(Map.of("recipeId", id, "preference", preference));
     }
 
+    // Replace the old createRecipe method with this one:
     @PostMapping
-    public ResponseEntity<?> createRecipe(@RequestBody Map<String, String> request) {
-        String name = request.get("name");
-        String instructions = request.get("instructions");
-
-        if (isBlank(name) || isBlank(instructions)) {
+    public ResponseEntity<?> createRecipe(@RequestBody com.fasterxml.jackson.databind.JsonNode requestNode) {
+        if (requestNode == null || !requestNode.has("name") || !requestNode.has("instructions")) {
             return ResponseEntity.badRequest().body(Map.of("error", "Name and instructions are required."));
         }
 
-        return ResponseEntity.status(HttpStatus.CREATED).body(recipeManagementService.create(name, instructions));
+        // Pass the full JSON object to your service layer
+        return ResponseEntity.status(HttpStatus.CREATED).body(recipeManagementService.create(requestNode));
     }
 
     @PostMapping("/{id}/like")
