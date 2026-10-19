@@ -58,7 +58,8 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     return () => { active = false; };
   }, [token]);
 
-  async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false } = {}) {
+  // NEW: Added `random = false` to the destructured arguments
+  async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, random = false } = {}) {
     const pantrySearch = useCurrentIngredients || requireAllIngredients;
     const available = pantrySearch ? currentIngredients : ingredients;
     if (pantrySearch && !token) {
@@ -69,15 +70,19 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       setError('Add at least one current ingredient before using that filter.');
       return;
     }
-    if (available.length === 0 && preferences.length === 0 && !query.trim()) {
+    
+    // NEW: We bypass this check if `random` is true, so it doesn't throw an error when searching without terms
+    if (!random && available.length === 0 && preferences.length === 0 && !query.trim()) {
       setError('Enter a search term, an ingredient, or choose a diet.');
       return;
     }
+    
     const version = ++requestVersion.current;
     setLoading(true);
     setError(null);
     try {
-      const matches = await searchRecipes({ query: query.trim(), ingredients: available, preferences, requireAllIngredients, limit: 50 });
+      // NEW: Pass `random` into the searchRecipes API call
+      const matches = await searchRecipes({ query: query.trim(), ingredients: available, preferences, requireAllIngredients, limit: 50, random });
       if (version !== requestVersion.current) return;
       setRecipes(matches.map(match => ({
         ...(match.recipe || match),
