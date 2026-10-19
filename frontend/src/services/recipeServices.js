@@ -85,11 +85,13 @@ export async function searchRecipes({
   preferences = [],
   requireAllIngredients = false,
   limit = 20,
+  random = false, // NEW: Added random flag to parameters
 } = {}) {
   const response = await fetch(`${API_BASE}/recipes/search`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ query, ingredients, preferences, requireAllIngredients, limit }),
+    // NEW: Passed random flag to the backend in the request body
+    body: JSON.stringify({ query, ingredients, preferences, requireAllIngredients, limit, random }),
   });
   const data = await response.json().catch(() => []);
   if (!response.ok) {
@@ -201,7 +203,7 @@ export async function deleteRecipe(id) {
     method: 'DELETE',
   });
   const data = await response.json().catch(() => ({}));
-  if (!response.ok) {
+  if (!response.ok) {``
     throw new Error(data.error || 'Could not delete recipe.');
   }
   invalidateRecipeCache();

@@ -39,6 +39,17 @@ function RecipesPanel({ currentUser }) {
     });
   }
 
+  function handleRandomRecipe() {
+    search({
+      random: true, 
+      preferences: diet ? [{ name: 'diet', value: diet }] : [],
+      query: '',
+      ingredients: [],
+      requireAllIngredients: false,
+      useCurrentIngredients: false,
+    });
+  }
+
   function refreshFeed() {
     resetFilters();
     return refresh();
@@ -103,6 +114,17 @@ function RecipesPanel({ currentUser }) {
             <button type="submit" className="recipe-search-submit" disabled={loading} style={{ margin: 0, height: '100%' }}>
               Search
             </button>
+            
+            <button 
+              type="button" 
+              className="recipe-search-submit" 
+              onClick={handleRandomRecipe} 
+              disabled={loading} 
+              style={{ margin: 0, height: '100%' }}
+            >
+              Random
+            </button>
+
             {searchActive && (
               <button
                 type="button"

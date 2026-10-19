@@ -6,14 +6,16 @@ import java.util.List;
 public class RecipeSearchRequest {
 
     private String query = "";
-
-    public String getQuery() { return query; }
-    public void setQuery(String query) { this.query = query == null ? "" : query.trim(); }
-
     private List<String> ingredients = new ArrayList<>();
     private List<PreferenceCriterion> preferences = new ArrayList<>();
     private boolean requireAllIngredients;
     private Integer limit = 20;
+    
+    // NEW: random flag for random recipe selection
+    private boolean random;
+
+    public String getQuery() { return query; }
+    public void setQuery(String query) { this.query = query == null ? "" : query.trim(); }
 
     public List<String> getIngredients() {
         return ingredients;
@@ -45,5 +47,14 @@ public class RecipeSearchRequest {
 
     public void setLimit(Integer limit) {
         this.limit = limit;
+    }
+
+    // NEW: Getter and setter for the random flag
+    public boolean isRandom() {
+        return random;
+    }
+
+    public void setRandom(boolean random) {
+        this.random = random;
     }
 }
