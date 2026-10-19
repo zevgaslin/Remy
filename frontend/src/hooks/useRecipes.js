@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { dislikeRecipe, getAllRecipes, getRecipeFeed, likeRecipe, searchRecipes } from '../services/recipeServices';
+import { dislikeRecipe, getAllRecipes, getRecipeFeed, likeRecipe, searchRecipes, createRecipe } from '../services/recipeServices';
 import { getMyIngredients } from '../services/ingredientServices';
 
 /** Recipe data comes from Spring Boot/Supabase; components own only their form and layout. */
@@ -58,7 +58,6 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     return () => { active = false; };
   }, [token]);
 
-  // NEW: Added `random = false` to the destructured arguments
   async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, random = false } = {}) {
     const pantrySearch = useCurrentIngredients || requireAllIngredients;
     const available = pantrySearch ? currentIngredients : ingredients;
@@ -71,7 +70,6 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       return;
     }
     
-    // NEW: We bypass this check if `random` is true, so it doesn't throw an error when searching without terms
     if (!random && available.length === 0 && preferences.length === 0 && !query.trim()) {
       setError('Enter a search term, an ingredient, or choose a diet.');
       return;
@@ -81,7 +79,6 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     setLoading(true);
     setError(null);
     try {
-      // NEW: Pass `random` into the searchRecipes API call
       const matches = await searchRecipes({ query: query.trim(), ingredients: available, preferences, requireAllIngredients, limit: 50, random });
       if (version !== requestVersion.current) return;
       setRecipes(matches.map(match => ({
@@ -121,5 +118,21 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     return loadFeed(0, true, true);
   }
 
-  return { recipes, feedback, loading, error, searchActive, search, refresh, setRecipeFeedback };
+  async function addNewRecipe(recipeData) {
+    if (!token) {
+      setError('Please log in to add a recipe.');
+      return false;
+    }
+    setError(null);
+    try {
+      await createRecipe(recipeData);
+      refresh();
+      return true;
+    } catch (err) {
+      setError(err.message || 'Could not create recipe.');
+      return false;
+    }
+  }
+
+  return { recipes, feedback, loading, error, searchActive, search, refresh, setRecipeFeedback, addNewRecipe };
 }
