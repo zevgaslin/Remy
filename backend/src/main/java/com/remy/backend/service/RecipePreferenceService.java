@@ -46,8 +46,12 @@ public class RecipePreferenceService {
             recipe.applyPreferenceChange(previous, next);
         }
 
-        existing.setPreference(next);
-        recipePreferenceRepository.save(existing);
+        if (next == null) {
+            if (existing.getId() != null) recipePreferenceRepository.delete(existing);
+        } else {
+            existing.setPreference(next);
+            recipePreferenceRepository.save(existing);
+        }
         recipeRepository.save(recipe);
 
         return new RatingResult(recipeId, next, recipe.getLikes(), recipe.getDislikes());

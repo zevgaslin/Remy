@@ -338,6 +338,16 @@ class CrudApiControllerTest {
         assertThat(preferenceResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(preferenceResponse.getBody()).containsEntry("preference", "LIKE");
 
+        for (int attempt = 0; attempt < 2; attempt++) {
+            var removed = restTemplate.exchange("/api/recipes/{id}/like", HttpMethod.DELETE,
+                    new HttpEntity<>(headers), Map.class, firstRecipeId);
+            assertThat(removed.getStatusCode()).isEqualTo(HttpStatus.OK);
+            assertThat(removed.getBody()).containsEntry("preference", "NONE").containsEntry("likes", 0);
+        }
+        var clearedPreference = restTemplate.exchange("/api/recipes/{id}/preference", HttpMethod.GET,
+                new HttpEntity<>(headers), Map.class, firstRecipeId);
+        assertThat(clearedPreference.getBody()).containsEntry("preference", "NONE");
+
         // Deleting a reviewed recipe must remove its reaction foreign keys too.
         var deleted = restTemplate.exchange("/api/recipes/{id}", HttpMethod.DELETE,
                 new HttpEntity<>(headers), Map.class, firstRecipeId);

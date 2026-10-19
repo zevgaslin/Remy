@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { dislikeRecipe, getAllRecipes, getRecipeFeed, likeRecipe, searchRecipes } from '../services/recipeServices';
+import { dislikeRecipe, getAllRecipes, getRecipeFeed, likeRecipe, unlikeRecipe, searchRecipes } from '../services/recipeServices';
 import { getMyIngredients } from '../services/ingredientServices';
 
 /** Recipe data comes from Spring Boot/Supabase; components own only their form and layout. */
@@ -13,6 +13,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
   const [currentIngredients, setCurrentIngredients] = useState([]);
   const requestVersion = useRef(0);
   const feedAbort = useRef(null);
+  const pendingFeedback = useRef(new Set());
 
   const invalidateRequests = useCallback(() => {
     requestVersion.current++;
@@ -98,16 +99,24 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       setError('Please log in to like or dislike recipes.');
       return;
     }
+    if (pendingFeedback.current.has(id)) return;
+    pendingFeedback.current.add(id);
     const version = requestVersion.current;
     try {
-      if (value === 'favorite') await likeRecipe(token, id);
+      const removingFavorite = value === 'favorite' && feedback[id] === 'favorite';
+      if (removingFavorite) await unlikeRecipe(token, id);
+      else if (value === 'favorite') await likeRecipe(token, id);
       else await dislikeRecipe(token, id);
       if (version !== requestVersion.current) return;
       setError(null);
-      setFeedback(previous => ({ ...previous, [id]: value }));
-      setRecipes(previous => previous.filter(recipe => recipe.id !== id));
+      setFeedback(previous => ({ ...previous, [id]: removingFavorite ? null : value }));
+      if (value !== 'favorite') {
+        setRecipes(previous => previous.filter(recipe => recipe.id !== id));
+      }
     } catch (err) {
       if (version === requestVersion.current) setError(err.message || 'Could not save your recipe reaction.');
+    } finally {
+      pendingFeedback.current.delete(id);
     }
   }
 

@@ -140,6 +140,21 @@ export async function likeRecipe(token, recipeId) {
   return data;
 }
 
+export async function unlikeRecipe(token, recipeId) {
+  const response = await fetch(`${API_BASE}/recipes/${recipeId}/like`, {
+    method: 'DELETE',
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not remove favorite.');
+  }
+  invalidateRecipeCache();
+  return data;
+}
+
 export async function dislikeRecipe(token, recipeId) {
   const response = await fetch(`${API_BASE}/recipes/${recipeId}/dislike`, {
     method: 'POST',

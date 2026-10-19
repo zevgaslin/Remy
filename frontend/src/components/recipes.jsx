@@ -1,5 +1,3 @@
-import { useRecipeHover } from '../hooks/useRecipeHover';
-import RecipeHoverPopover from './RecipeHoverPopover';
 import RecipeDetails from './RecipeDetails';
 
 function RecipeCard({
@@ -13,12 +11,9 @@ function RecipeCard({
   onFavorite,
   onDislike,
 }) {
-  const { visible, coords, triggerProps } = useRecipeHover();
-
   return (
     <div
       className={`recipe-card${feedback === 'favorite' ? ' favorited' : ''}`}
-      {...triggerProps}
     >
       <div className="recipe-card-info">
         <div className="recipe-card-title-row">
@@ -46,7 +41,8 @@ function RecipeCard({
       <div className="recipe-card-actions">
         <button
           type="button"
-          aria-label="Favorite recipe"
+          aria-label={feedback === 'favorite' ? 'Unfavorite recipe' : 'Favorite recipe'}
+          aria-pressed={feedback === 'favorite'}
           className={feedback === 'favorite' ? 'active' : ''}
           onClick={(event) => {
             event.stopPropagation();
@@ -67,7 +63,6 @@ function RecipeCard({
           ✕
         </button>
       </div>
-      {visible && <RecipeHoverPopover recipe={{ ...recipe, name, instructions }} coords={coords} />}
     </div>
   );
 }

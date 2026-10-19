@@ -15,7 +15,7 @@ vi.mock('../services/recipeServices', () => ({
   searchRecipes: vi.fn(),
   getRecipeFeed: vi.fn(),
   getAllRecipes: vi.fn(),
-  likeRecipe: vi.fn(),
+  likeRecipe: vi.fn(), unlikeRecipe: vi.fn(),
   dislikeRecipe: vi.fn(),
 }));
 

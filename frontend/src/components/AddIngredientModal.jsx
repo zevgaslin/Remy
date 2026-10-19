@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import IngredientCamera from './IngredientCamera';
+import './AddIngredientModal.css';
 import { createIngredient } from '../services/ingredientServices';
 
 const NUTRITION_FIELDS = [
@@ -14,6 +16,7 @@ function toOptionalNumber(value) {
 }
 
 function AddIngredientModal({ token, onClose, onAdded }) {
+  const [activeTab, setActiveTab] = useState('manual');
   const [name, setName] = useState('');
   const [quantity, setQuantity] = useState('1');
   const [unit, setUnit] = useState('');
@@ -54,6 +57,26 @@ function AddIngredientModal({ token, onClose, onAdded }) {
             ×
           </button>
         </div>
+        <div className="ingredient-entry-tabs" role="tablist" aria-label="Ingredient entry method">
+          {['manual', 'scan'].map((tab) => (
+            <button key={tab} type="button" role="tab" id={`ingredient-${tab}-tab`}
+              aria-selected={activeTab === tab} aria-controls={`ingredient-${tab}-panel`}
+              tabIndex={activeTab === tab ? 0 : -1}
+              onClick={() => setActiveTab(tab)}
+              onKeyDown={(event) => {
+                if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {
+                  event.preventDefault();
+                  const next = event.key === 'Home' ? 'manual' : event.key === 'End' ? 'scan' : activeTab === 'manual' ? 'scan' : 'manual';
+                  setActiveTab(next);
+                  document.getElementById(`ingredient-${next}-tab`)?.focus();
+                }
+              }}>
+              {tab === 'manual' ? 'Manual Entry' : 'Scan Barcode'}
+            </button>
+          ))}
+        </div>
+        {activeTab === 'scan' && <div role="tabpanel" id="ingredient-scan-panel" aria-labelledby="ingredient-scan-tab"><IngredientCamera /></div>}
+        <div role="tabpanel" id="ingredient-manual-panel" aria-labelledby="ingredient-manual-tab" hidden={activeTab !== 'manual'}>
         <form onSubmit={handleSubmit} className="auth-form">
           <label>
             Name
@@ -109,6 +132,7 @@ function AddIngredientModal({ token, onClose, onAdded }) {
             {submitting ? 'Adding...' : 'Add Ingredient'}
           </button>
         </form>
+        </div>
       </div>
     </div>
   );

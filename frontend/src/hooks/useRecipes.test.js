@@ -6,7 +6,7 @@ import { getMyIngredients } from '../services/ingredientServices';
 
 vi.mock('../services/recipeServices', () => ({
   getAllRecipes: vi.fn(), getRecipeFeed: vi.fn(), searchRecipes: vi.fn(),
-  likeRecipe: vi.fn(), dislikeRecipe: vi.fn(),
+  likeRecipe: vi.fn(), unlikeRecipe: vi.fn(), dislikeRecipe: vi.fn(),
 }));
 vi.mock('../services/ingredientServices', () => ({ getMyIngredients: vi.fn() }));
 
@@ -41,15 +41,19 @@ describe('useRecipes', () => {
     expect(result.current.searchActive).toBe(true);
   });
 
-  it('saves a reaction before removing the reviewed recipe from the feed', async () => {
+  it('saves a favorite and keeps the recipe in the current list', async () => {
     recipes.getRecipeFeed.mockResolvedValue([{ id: 3, name: 'Soup' }]);
     recipes.likeRecipe.mockResolvedValue({ preference: 'LIKE' });
     const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
     await waitFor(() => expect(result.current.recipes).toHaveLength(1));
     await act(async () => { await result.current.setRecipeFeedback(3, 'favorite'); });
     expect(recipes.likeRecipe).toHaveBeenCalledWith('user-token', 3);
-    expect(result.current.recipes).toEqual([]);
+    expect(result.current.recipes).toEqual([{ id: 3, name: 'Soup' }]);
     expect(result.current.feedback[3]).toBe('favorite');
+    await act(async () => { await result.current.setRecipeFeedback(3, 'favorite'); });
+    expect(recipes.unlikeRecipe).toHaveBeenCalledWith('user-token', 3);
+    expect(result.current.feedback[3]).toBeNull();
+    expect(result.current.recipes).toEqual([{ id: 3, name: 'Soup' }]);
   });
 
   it('ignores old account requests that finish after switching users', async () => {

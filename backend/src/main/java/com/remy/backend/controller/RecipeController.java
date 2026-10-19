@@ -157,6 +157,13 @@ public class RecipeController {
         return applyPreference(authHeader, id, PreferenceType.LIKE);
     }
 
+    @DeleteMapping("/{id}/like")
+    public ResponseEntity<?> unlikeRecipe(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @PathVariable Long id) {
+        return applyPreference(authHeader, id, null);
+    }
+
     @PostMapping("/{id}/dislike")
     public ResponseEntity<?> dislikeRecipe(
             @RequestHeader(value = "Authorization", required = false) String authHeader,
@@ -191,7 +198,7 @@ public class RecipeController {
         RatingResult result = recipePreferenceService.rate(userId.get(), recipeId, preference);
         return ResponseEntity.ok(Map.of(
                 "recipeId", result.recipeId(),
-                "preference", result.preference().name(),
+                "preference", result.preference() == null ? "NONE" : result.preference().name(),
                 "likes", result.likes(),
                 "dislikes", result.dislikes()));
     }
