@@ -85,12 +85,11 @@ export async function searchRecipes({
   preferences = [],
   requireAllIngredients = false,
   limit = 20,
-  random = false, // NEW: Added random flag to parameters
+  random = false,
 } = {}) {
   const response = await fetch(`${API_BASE}/recipes/search`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    // NEW: Passed random flag to the backend in the request body
     body: JSON.stringify({ query, ingredients, preferences, requireAllIngredients, limit, random }),
   });
   const data = await response.json().catch(() => []);
@@ -170,11 +169,11 @@ export async function getRecipePreference(token, recipeId) {
   return data;
 }
 
-export async function createRecipe({ name, instructions }) {
+export async function createRecipe(recipeData) {
   const response = await fetch(`${API_BASE}/recipes`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ name, instructions }),
+    body: JSON.stringify(recipeData),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -184,11 +183,11 @@ export async function createRecipe({ name, instructions }) {
   return data;
 }
 
-export async function updateRecipe(id, { name, instructions }) {
+export async function updateRecipe(id, recipeData) {
   const response = await fetch(`${API_BASE}/recipes/${id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ name, instructions }),
+    body: JSON.stringify(recipeData),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -203,7 +202,7 @@ export async function deleteRecipe(id) {
     method: 'DELETE',
   });
   const data = await response.json().catch(() => ({}));
-  if (!response.ok) {``
+  if (!response.ok) {
     throw new Error(data.error || 'Could not delete recipe.');
   }
   invalidateRecipeCache();
