@@ -1188,6 +1188,7 @@ body.is-dragging-ingredient * {
   overflow: hidden;
 }
 
+.recipe-card-info .recipe-expiring-detail,
 .recipe-card-info .recipe-match-detail,
 .recipe-card-info .recipe-missing-detail {
   display: block;
@@ -1203,6 +1204,11 @@ body.is-dragging-ingredient * {
 
 .recipe-card-info .recipe-missing-detail {
   color: var(--warning);
+}
+
+.recipe-card-info .recipe-expiring-detail {
+  color: var(--urgent);
+  font-weight: 600;
 }
 
 .recipe-card-actions {
