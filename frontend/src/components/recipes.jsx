@@ -7,6 +7,7 @@ function RecipeCard({
   matchScore,
   matchedIngredients = [],
   missingIngredients = [],
+  expiringIngredients = [],
   feedback,
   onFavorite,
   onDislike,
@@ -27,6 +28,11 @@ function RecipeCard({
           <summary>View recipe</summary>
           <RecipeDetails recipe={{ ...recipe, name, instructions }} />
         </details>
+        {expiringIngredients.length > 0 && (
+          <p className="recipe-expiring-detail">
+            Uses up: {expiringIngredients.join(', ')}
+          </p>
+        )}
         {matchedIngredients.length > 0 && (
           <p className="recipe-match-detail">
             Have: {matchedIngredients.join(', ')}

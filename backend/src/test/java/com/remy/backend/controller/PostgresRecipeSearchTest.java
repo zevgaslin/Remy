@@ -67,6 +67,15 @@ class PostgresRecipeSearchTest {
         assertThat(search(Map.of("query","pasta","ingredients",List.of("garlic"),"requireAllIngredients",true))).isEmpty();
         assertThat(search(Map.of("requireAllIngredients",true))).isEmpty();
     }
+    @Test void expiringSoonKeepsOnlyRecipesThatUseThemMostUsedFirst() {
+        var matches=search(Map.of("ingredients",List.of("rice"),"expiringIngredients",List.of("broccoli","cheddar")));
+        assertThat(names(matches)).containsExactly("Broccoli Cheddar Rice Skillet","Veggie Stir Fry Rice Bowl",
+                "Spinach Egg Breakfast Wrap","Easy Mac and Cheese","Classic Beef Chili");
+        assertThat((List)matches.get(0).get("expiringIngredients")).containsExactly("Broccoli","Cheddar");
+        assertThat(((Number)matches.get(0).get("matchScore")).doubleValue()).isEqualTo(100);
+        assertThat((List)matches.get(1).get("expiringIngredients")).containsExactly("Broccoli");
+        assertThat((List)search(Map.of("query","pasta")).get(0).get("expiringIngredients")).isEmpty();
+    }
     @Test void paginationAndDetailsUseStoredSupabaseShape() {
         var first=http.getForObject("/api/recipes/feed?limit=2",Map[].class);
         var next=http.getForObject("/api/recipes/feed?limit=2&offset=2",Map[].class);
