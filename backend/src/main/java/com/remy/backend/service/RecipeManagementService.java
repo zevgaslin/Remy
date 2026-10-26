@@ -15,11 +15,14 @@ public class RecipeManagementService {
     private final RecipeRepository recipes;
     private final RecipeReadRepository reads;
     private final RecipePreferenceRepository preferences;
+    private final PlannedMealRepository plannedMeals;
 
-    public RecipeManagementService(RecipeRepository recipes, RecipePreferenceRepository preferences, RecipeReadRepository reads) {
+    public RecipeManagementService(RecipeRepository recipes, RecipePreferenceRepository preferences, RecipeReadRepository reads,
+            PlannedMealRepository plannedMeals) {
         this.recipes = recipes;
         this.preferences = preferences;
         this.reads = reads;
+        this.plannedMeals = plannedMeals;
     }
 
     @Transactional(readOnly = true)
@@ -133,6 +136,7 @@ public class RecipeManagementService {
     public void delete(Long id) {
         Recipe recipe = getForUpdate(id);
         preferences.deleteForRecipe(id);
+        plannedMeals.deleteForRecipe(id);
         recipes.delete(recipe);
     }
 

@@ -20,7 +20,7 @@ A website that recommends what to cook for the week based on the ingredients you
 
 ## What's built so far
 
-- **Dashboard homepage**: a meal-planning calendar (This Week / Next 7 Days / Month views, with a scalable set of meal slots — add or remove beyond the default Breakfast/Lunch/Dinner/Snack), an "Ingredients" panel (sorted by soonest expiration), and a recipes panel.
+- **Dashboard homepage**: a meal-planning calendar (This Week / Next 7 Days / Month views, with a scalable set of meal slots — add or remove beyond the default Breakfast/Lunch/Dinner/Snack; for logged-in users the planned recipes and custom meal slots are saved through `/api/users/me/meal-plan`, so they survive a refresh), an "Ingredients" panel (sorted by soonest expiration), and a recipes panel.
 - **Accounts**: register/login (`POST /api/auth/register`, `POST /api/auth/login`), passwords hashed with BCrypt, a session token issued on login.
 - **Ingredients**: each logged-in user has their own pantry list (`/api/ingredients`, scoped by owner) — add an ingredient with a name/quantity/unit/expiration date, and the "Ingredients" panel lists them with the soonest-expiring first. Ingredients can optionally store calories, protein, carbs, and fat per unit; the panel shows each item's calories (hover for macros) and a total for the whole pantry.
 - **Recipes**: shared recipe list (`/api/recipes`) with favorite/dislike, and a hover preview that shows the full recipe on both recipe cards and calendar meal chips.

@@ -8,12 +8,21 @@ import CalendarPanel, {
   VIEW_STRATEGIES,
 } from './CalendarPanel';
 import { getAllRecipes } from '../services/recipeServices';
+import { getMealPlan, removePlannedMeal, saveDaySlots, savePlannedMeal } from '../services/mealPlanServices';
+import { waitFor } from '@testing-library/react';
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
 
 // Mock the recipe service API call using Vitest's vi
 vi.mock('../services/recipeServices', () => ({
   getAllRecipes: vi.fn(),
+}));
+
+vi.mock('../services/mealPlanServices', () => ({
+  getMealPlan: vi.fn(),
+  savePlannedMeal: vi.fn(),
+  removePlannedMeal: vi.fn(),
+  saveDaySlots: vi.fn(),
 }));
 
 // Unmount anything rendered by the previous test
@@ -344,5 +353,104 @@ describe('Per-Day Meal Slot Management (Add & Remove Meals)', () => {
     });
     fireEvent.click(removeButtons[0]);
     expect(screen.getAllByText('Evening Tea (8 PM)')).toHaveLength(6);
+  });
+});
+
+describe('CalendarPanel saved meal plan', () => {
+  const user = { id: 1, username: 'jordan', token: 'user-token' };
+  const now = new Date();
+  const todayKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+
+  beforeEach(() => {
+    vi.clearAllMocks();
+    getMealPlan.mockResolvedValue({ meals: [], daySlots: {} });
+    savePlannedMeal.mockResolvedValue({});
+    removePlannedMeal.mockResolvedValue({});
+    saveDaySlots.mockResolvedValue({});
+  });
+
+  it('removes a planned recipe but keeps its meal slot', async () => {
+    getMealPlan.mockResolvedValue({
+      meals: [{ date: todayKey, slotId: 'lunch', recipe: { id: 6, name: 'Leftover Curry' } }],
+      daySlots: {},
+    });
+    render(<CalendarPanel currentUser={user} />);
+    expect(await screen.findByText('Leftover Curry')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: /Remove Leftover Curry from Lunch on/i }));
+
+    expect(screen.queryByText('Leftover Curry')).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Add Lunch for/i })).toBeInTheDocument();
+    expect(removePlannedMeal).toHaveBeenCalledWith('user-token', todayKey, 'lunch');
+    expect(saveDaySlots).not.toHaveBeenCalled();
+  });
+
+  it('loads the saved plan for a logged-in user', async () => {
+    getMealPlan.mockResolvedValue({
+      meals: [{ date: todayKey, slotId: 'custom-brunch', recipe: { id: 4, name: 'Saved Shakshuka' } }],
+      daySlots: { [todayKey]: [{ id: 'custom-brunch', label: 'Brunch', time: '10:00', hour: 10 }] },
+    });
+
+    render(<CalendarPanel currentUser={user} />);
+
+    expect(await screen.findByText('Saved Shakshuka')).toBeInTheDocument();
+    expect(screen.getByText('Brunch (10 AM)')).toBeInTheDocument();
+    expect(screen.queryByText('Breakfast (8 AM)')).not.toBeInTheDocument();
+    expect(getMealPlan).toHaveBeenCalledWith('user-token');
+  });
+
+  it('saves a chosen recipe and a removed slot to the server', async () => {
+    getAllRecipes.mockResolvedValueOnce([{ id: 7, name: 'Saved Oats' }]);
+    render(<CalendarPanel currentUser={user} />);
+    await waitFor(() => expect(getMealPlan).toHaveBeenCalled());
+
+    fireEvent.click(screen.getByRole('button', { name: /Add Breakfast for/i }));
+    fireEvent.click(await screen.findByText('Saved Oats'));
+    expect(savePlannedMeal).toHaveBeenCalledWith('user-token', todayKey, 'breakfast', 7);
+
+    fireEvent.click(screen.getByRole('button', { name: /Remove Lunch on/i }));
+    expect(saveDaySlots).toHaveBeenCalledWith(
+      'user-token',
+      todayKey,
+      expect.not.arrayContaining([expect.objectContaining({ id: 'lunch' })]),
+    );
+  });
+
+  it('tells the user when a change could not be saved', async () => {
+    saveDaySlots.mockRejectedValue(new Error('Could not save your meal times.'));
+    render(<CalendarPanel currentUser={user} />);
+    await waitFor(() => expect(getMealPlan).toHaveBeenCalled());
+
+    fireEvent.click(screen.getByRole('button', { name: /Remove Lunch on/i }));
+
+    expect(await screen.findByRole('alert')).toHaveTextContent('Could not save your meal times.');
+  });
+
+  it('clears the plan on log out and does not save guest changes', async () => {
+    getMealPlan.mockResolvedValue({
+      meals: [{ date: todayKey, slotId: 'dinner', recipe: { id: 5, name: 'Private Pasta' } }],
+      daySlots: {},
+    });
+    const { rerender } = render(<CalendarPanel currentUser={user} />);
+    expect(await screen.findByText('Private Pasta')).toBeInTheDocument();
+
+    rerender(<CalendarPanel />);
+    expect(screen.queryByText('Private Pasta')).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: /Remove Lunch on/i }));
+    expect(saveDaySlots).not.toHaveBeenCalled();
+  });
+
+  it('lets guests remove a planned recipe without saving anything', async () => {
+    getAllRecipes.mockResolvedValueOnce([{ id: 8, name: 'Guest Granola' }]);
+    render(<CalendarPanel />);
+
+    fireEvent.click(screen.getByRole('button', { name: /Add Breakfast for/i }));
+    fireEvent.click(await screen.findByText('Guest Granola'));
+    fireEvent.click(screen.getByRole('button', { name: /Remove Guest Granola from Breakfast on/i }));
+
+    expect(screen.queryByText('Guest Granola')).not.toBeInTheDocument();
+    expect(screen.getByText('Breakfast (8 AM)')).toBeInTheDocument();
+    expect(removePlannedMeal).not.toHaveBeenCalled();
   });
 });
