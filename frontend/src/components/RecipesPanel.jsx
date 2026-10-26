@@ -31,7 +31,10 @@ const INITIAL_RECIPE_STATE = {
 };
 
 function RecipesPanel({ currentUser }) {
-  const { recipes, feedback, loading, error, searchActive, search, refresh, setRecipeFeedback, addNewRecipe } = useRecipes(currentUser);
+  const {
+    recipes, feedback, loading, error, searchActive, showingFavorites,
+    search, refresh, showFavorites, setRecipeFeedback, addNewRecipe,
+  } = useRecipes(currentUser);
   
   // Search state
   const [recipeQuery, setRecipeQuery] = useState('');
@@ -191,10 +194,15 @@ function RecipesPanel({ currentUser }) {
     <section className="recipes-panel">
       <div className="recipes-panel-header">
         <div>
-          <h2>{searchActive ? 'Recipe Search' : 'Recipes For You'}</h2>
+          <h2>{searchActive ? 'Recipe Search' : showingFavorites ? 'My Favorites' : 'Recipes For You'}</h2>
           {searchActive && !loading && (
             <span className="recipe-result-count">
               {recipes.length} {recipes.length === 1 ? 'match' : 'matches'}
+            </span>
+          )}
+          {showingFavorites && !loading && (
+            <span className="recipe-result-count">
+              {recipes.length} {recipes.length === 1 ? 'favorite' : 'favorites'}
             </span>
           )}
         </div>
@@ -202,6 +210,11 @@ function RecipesPanel({ currentUser }) {
           <button type="button" className="auth-button" onClick={() => setShowAddModal(true)} disabled={loading}>
             + Add Recipe
           </button>
+          {currentUser && (
+            <button type="button" className="auth-button" onClick={showFavorites} disabled={loading}>
+              ♥ Favorites
+            </button>
+          )}
           <button type="button" className="auth-button" onClick={refreshFeed} disabled={loading}>
             Refresh feed
           </button>
@@ -451,7 +464,9 @@ function RecipesPanel({ currentUser }) {
             <p>
               {searchActive
                 ? 'No recipes match your search criteria.'
-                : 'No more recipes right now. Refresh to load another batch.'}
+                : showingFavorites
+                  ? 'No favorites yet. Tap ♥ on a recipe to save it here.'
+                  : 'No more recipes right now. Refresh to load another batch.'}
             </p>
           ) : (
             recipes.map((recipe) => (

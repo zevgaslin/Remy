@@ -21,4 +21,13 @@ public interface RecipePreferenceRepository extends JpaRepository<RecipePreferen
 
     @Query("select rp.recipe.id from RecipePreference rp where rp.user.id = :userId")
     List<Long> findRecipeIdsByUserId(@Param("userId") Long userId);
+
+    // Each row is {recipeId, PreferenceType}; avoids loading every reacted recipe just to read its ID.
+    @Query("select rp.recipe.id, rp.preference from RecipePreference rp where rp.user.id = :userId")
+    List<Object[]> findReactionsByUserId(@Param("userId") Long userId);
+
+    @Query("select rp.recipe.id from RecipePreference rp where rp.user.id = :userId"
+            + " and rp.preference = :preference order by rp.id desc")
+    List<Long> findRecipeIdsByUserIdAndPreference(
+            @Param("userId") Long userId, @Param("preference") com.remy.backend.model.PreferenceType preference);
 }
