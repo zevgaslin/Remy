@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
 import { useRecipes } from '../hooks/useRecipes';
 import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
 // CHANGED: also import the shared subject so the calendar can start from its saved state
 import { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
+import { getMealPlan, removePlannedMeal, saveDaySlots, savePlannedMeal } from '../services/mealPlanServices';
 
 const WEEKDAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
@@ -395,6 +396,7 @@ function MealCell({
   slotId,
   onAddClick,
   onRemoveSlot,
+  onClearRecipe,
 }) {
   const { visible, coords, triggerProps } = useRecipeHover();
   const formattedTime = formatTimeString(slotTime);
@@ -452,6 +454,20 @@ function MealCell({
         <div className="event-label">{displayLabel}</div>
         <div className="event-title">{recipe.name}</div>
       </div>
+      {onClearRecipe && (
+        <button
+          type="button"
+          className="meal-clear-recipe-btn"
+          aria-label={`Remove ${recipe.name} from ${slotLabel} on ${day.toDateString()}`}
+          title="Remove the recipe but keep this meal time"
+          onClick={(e) => {
+            e.stopPropagation();
+            onClearRecipe(day, slotId);
+          }}
+        >
+          Remove recipe
+        </button>
+      )}
       {visible && <RecipeHoverPopover recipe={recipe} coords={coords} />}
     </div>
   );
@@ -533,6 +549,7 @@ function DayViewStrategy({
   onOpenPopup,
   onOpenAddMealModal,
   onRemoveMealSlotForDay,
+  onClearMealForDay,
 }) {
   const mealSlots = getDaySlots(today);
   const dKey = dateKey(today);
@@ -733,6 +750,7 @@ function DayViewStrategy({
                         slotId={slot.id}
                         onAddClick={onOpenPopup}
                         onRemoveSlot={onRemoveMealSlotForDay}
+                        onClearRecipe={onClearMealForDay}
                       />
                     </div>
                   ))}
@@ -764,6 +782,7 @@ function MultiDayMealGridStrategy({
   goals,
   onOpenAddMealModal,
   onRemoveMealSlotForDay,
+  onClearMealForDay,
   onOpenPopup,
 }) {
   return (
@@ -847,6 +866,7 @@ function MultiDayMealGridStrategy({
                   slotId={slot.id}
                   onAddClick={onOpenPopup}
                   onRemoveSlot={onRemoveMealSlotForDay}
+                  onClearRecipe={onClearMealForDay}
                 />
               ))}
             </div>
@@ -908,7 +928,8 @@ const VIEWS = Object.values(VIEW_STRATEGIES);
    Context Component (CalendarPanel)
    ========================================================================== */
 
-function CalendarPanel({ goals = DEFAULT_GOALS }) {
+function CalendarPanel({ goals = DEFAULT_GOALS, currentUser }) {
+  const token = currentUser?.token;
   const [view, setView] = useState('day');
   // Stores customized meal slot arrays keyed by YYYY-MM-DD
   // CHANGED: starts from the saved value so it survives switching tabs
@@ -920,6 +941,46 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
   const [plannedMeals, setPlannedMeals] = useState(() => plannedMealsSubject.getPlannedMeals());
   const [activePopup, setActivePopup] = useState(null);
   const [addMealModalDay, setAddMealModalDay] = useState(null);
+  const [saveError, setSaveError] = useState(null);
+  const previousToken = useRef(token);
+
+  // Logged-in users get their saved plan from the server; logging out clears it so the
+  // next person on this browser doesn't see it. Guests keep the in-memory plan.
+  useEffect(() => {
+    const hadUser = previousToken.current;
+    previousToken.current = token;
+    if (!token) {
+      if (hadUser) {
+        setPlannedMeals({});
+        setDailyMealSlots({});
+      }
+      return undefined;
+    }
+    let active = true;
+    getMealPlan(token)
+      .then(({ meals = [], daySlots = {} }) => {
+        if (!active) return;
+        const saved = {};
+        meals.forEach(({ date, slotId, recipe }) => {
+          saved[`${date}-${slotId}`] = recipe;
+        });
+        setPlannedMeals(saved);
+        setDailyMealSlots(daySlots);
+        setSaveError(null);
+      })
+      .catch((err) => {
+        if (active) setSaveError(err.message || 'Could not load your meal plan.');
+      });
+    return () => { active = false; };
+  }, [token]);
+
+  // Changes show up right away; if saving fails the user is told so they can retry.
+  function persist(request) {
+    if (!token) return;
+    request(token)
+      .then(() => setSaveError(null))
+      .catch((err) => setSaveError(err.message || 'Could not save your meal plan.'));
+  }
 
   // Tell the shared subject whenever the planned meals change (the shopping cart observes it)
   useEffect(() => {
@@ -979,17 +1040,17 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
 
     const targetDays = applyToAll && days.length === 7 ? days : [addMealModalDay];
 
-    setDailyMealSlots((prev) => {
-      const next = { ...prev };
-      targetDays.forEach((d) => {
-        const dKey = dateKey(d);
-        const currentSlots = next[dKey] ? [...next[dKey]] : [...DEFAULT_MEAL_SLOTS];
-        const updatedSlots = [...currentSlots, newSlot].sort((a, b) =>
-          (a.time || '23:59').localeCompare(b.time || '23:59')
-        );
-        next[dKey] = updatedSlots;
-      });
-      return next;
+    const updates = {};
+    targetDays.forEach((d) => {
+      const dKey = dateKey(d);
+      const currentSlots = dailyMealSlots[dKey] ? [...dailyMealSlots[dKey]] : [...DEFAULT_MEAL_SLOTS];
+      updates[dKey] = [...currentSlots, newSlot].sort((a, b) =>
+        (a.time || '23:59').localeCompare(b.time || '23:59')
+      );
+    });
+    setDailyMealSlots((prev) => ({ ...prev, ...updates }));
+    Object.entries(updates).forEach(([dKey, slots]) => {
+      persist((t) => saveDaySlots(t, dKey, slots));
     });
 
     setAddMealModalDay(null);
@@ -997,14 +1058,12 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
 
   function removeMealSlotForDay(day, slotId) {
     const dKey = dateKey(day);
+    const currentSlots = dailyMealSlots[dKey] ? [...dailyMealSlots[dKey]] : [...DEFAULT_MEAL_SLOTS];
+    const remainingSlots = currentSlots.filter((slot) => slot.id !== slotId);
 
-    setDailyMealSlots((prev) => {
-      const currentSlots = prev[dKey] ? [...prev[dKey]] : [...DEFAULT_MEAL_SLOTS];
-      return {
-        ...prev,
-        [dKey]: currentSlots.filter((slot) => slot.id !== slotId),
-      };
-    });
+    setDailyMealSlots((prev) => ({ ...prev, [dKey]: remainingSlots }));
+    // The server also drops the meal planned in the removed slot.
+    persist((t) => saveDaySlots(t, dKey, remainingSlots));
 
     // Also remove any planned recipe assigned to that deleted slot on that day
     setPlannedMeals((prev) => {
@@ -1013,6 +1072,18 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
       delete next[`${dKey}-${slotId}`];
       return next;
     });
+  }
+
+  // Empties a meal slot but keeps the slot itself, so another recipe can go there.
+  function clearMealForDay(day, slotId) {
+    const dKey = dateKey(day);
+    setPlannedMeals((prev) => {
+      const next = { ...prev };
+      delete next[`${dKey}::${slotId}`];
+      delete next[`${dKey}-${slotId}`];
+      return next;
+    });
+    persist((t) => removePlannedMeal(t, dKey, slotId));
   }
 
   function handleOpenPopup(e, day, slotId) {
@@ -1033,6 +1104,7 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
       ...prev,
       [key]: recipe,
     }));
+    persist((t) => savePlannedMeal(t, dKey, activePopup.slotId, recipe.id));
 
     setActivePopup(null);
   }
@@ -1062,6 +1134,12 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
         </div>
       </div>
 
+      {saveError && (
+        <p className="error-text" role="alert">
+          {saveError}
+        </p>
+      )}
+
       {/* Delegate rendering to the active strategy's component */}
       <ActiveViewComponent
         days={days}
@@ -1073,6 +1151,7 @@ function CalendarPanel({ goals = DEFAULT_GOALS }) {
         goals={goals}
         onOpenAddMealModal={(day) => setAddMealModalDay(day)}
         onRemoveMealSlotForDay={removeMealSlotForDay}
+        onClearMealForDay={clearMealForDay}
         onOpenPopup={handleOpenPopup}
       />
 
