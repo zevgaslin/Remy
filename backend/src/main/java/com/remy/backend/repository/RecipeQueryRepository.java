@@ -54,6 +54,20 @@ public class RecipeQueryRepository {
         return jdbc.queryForList(sql, parameters, Long.class);
     }
 
+    /** Select in PostgreSQL so only one candidate ID crosses the database boundary. */
+    public Optional<Long> randomId(PreferenceCriterion preference) {
+        var parameters = new MapSqlParameterSource();
+        String where = "";
+        if (preference != null) {
+            parameters.addValue("name", preference.getName().trim().toLowerCase(Locale.ROOT));
+            parameters.addValue("value", preference.getValue().trim().toLowerCase(Locale.ROOT));
+            where = " WHERE EXISTS (SELECT 1 FROM recipe_preference_tags p WHERE p.recipe_id=r.id"
+                    + " AND p.preference_name=:name AND p.preference_value=:value)";
+        }
+        return jdbc.queryForList("SELECT r.id FROM recipe r" + where + " ORDER BY random() LIMIT 1",
+                parameters, Long.class).stream().findFirst();
+    }
+
     public List<Long> feed(Long userId, int limit, int offset) {
         var parameters = new MapSqlParameterSource().addValue("limit",limit).addValue("offset",offset);
         String where = "";

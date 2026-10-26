@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { deleteIngredient, getMyIngredients } from '../services/ingredientServices';
+import { deleteIngredient } from '../services/ingredientServices';
+import { useIngredients } from '../hooks/useIngredients';
 import { useDragToTrash } from '../hooks/useDragToTrash';
 import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSounds';
 import AddIngredientModal from './AddIngredientModal';
@@ -350,9 +351,7 @@ function pantryQuantityLabel(item) {
    ========================================================================== */
 
 function IngredientsPanel({ currentUser }) {
-  const [ingredients, setIngredients] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const { ingredients, setIngredients, loading, error } = useIngredients(currentUser?.token);
   const [modalOpen, setModalOpen] = useState(false);
   const [toast, setToast] = useState(null);
   const [gulping, setGulping] = useState(false);
@@ -364,25 +363,12 @@ function IngredientsPanel({ currentUser }) {
     tokenRef.current = currentUser?.token;
   }, [currentUser]);
 
-  useEffect(() => {
-    if (!currentUser) return;
-    getMyIngredients(currentUser.token)
-      .then((data) => {
-        setIngredients(data);
-        setLoading(false);
-      })
-      .catch(() => {
-        setError('Could not load ingredients. Is the backend running?');
-        setLoading(false);
-      });
-  }, [currentUser]);
-
   const commitDelete = useCallback((item) => {
     deleteIngredient(tokenRef.current, item.id).catch(() => {
       setIngredients((prev) => [...prev, item]);
       setToast({ message: `Could not delete ${item.name}. It’s back in your pantry.` });
     });
-  }, []);
+  }, [setIngredients]);
 
   // Send a pending delete now instead of waiting for its undo window to close.
   const flushPending = useCallback(() => {
@@ -412,7 +398,7 @@ function IngredientsPanel({ currentUser }) {
       }, UNDO_MS);
       pendingRef.current = { item, timer };
     },
-    [flushPending, commitDelete],
+    [flushPending, commitDelete, setIngredients],
   );
 
   function undoDelete() {
