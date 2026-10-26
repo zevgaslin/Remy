@@ -11,4 +11,7 @@ public interface SessionTokenService {
     String issueToken(Long userId);
 
     Optional<Long> resolveUserId(String authorizationHeader);
+
+    /** Ends the session behind this header so its token stops working; unknown tokens are ignored. */
+    void revoke(String authorizationHeader);
 }
