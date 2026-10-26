@@ -7,3 +7,14 @@ export const NUTRIENTS = [
   { key: 'carbs', label: 'Carbs', short: 'Carb', unit: 'g', suffix: 'g', max: 2000, min: 0 },
   { key: 'fat', label: 'Fat', short: 'Fat', unit: 'g', suffix: 'g', max: 2000, min: 0 },
 ];
+
+export function sumRecipeNutrition(recipes = []) {
+  const totals = Object.fromEntries(NUTRIENTS.map(({ key }) => [key, 0]));
+  recipes.forEach((recipe) => {
+    if (!recipe?.nutrition) return;
+    NUTRIENTS.forEach(({ key }) => {
+      totals[key] += recipe.nutrition[key] || 0;
+    });
+  });
+  return totals;
+}

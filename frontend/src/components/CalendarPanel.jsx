@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
 import { useRecipes } from '../hooks/useRecipes';
-import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
+import { DEFAULT_GOALS, NUTRIENTS, sumRecipeNutrition } from '../utils/nutritionGoals';
 // CHANGED: also import the shared subject so the calendar can start from its saved state
 import { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
 
@@ -94,18 +94,11 @@ function dateKey(date) {
 }
 
 export function getDailyNutritionTotal(date, meals, mealSlots = DEFAULT_MEAL_SLOTS) {
-  const totals = { calories: 0, protein: 0, carbs: 0, fat: 0 };
   const dKey = dateKey(date);
-  mealSlots.forEach((slot) => {
-    const recipe = meals[`${dKey}::${slot.id}`] ?? meals[`${dKey}-${slot.id}`];
-    if (recipe && recipe.nutrition) {
-      totals.calories += recipe.nutrition.calories || 0;
-      totals.protein += recipe.nutrition.protein || 0;
-      totals.carbs += recipe.nutrition.carbs || 0;
-      totals.fat += recipe.nutrition.fat || 0;
-    }
-  });
-  return totals;
+  const plannedRecipes = mealSlots.map(
+    (slot) => meals[`${dKey}::${slot.id}`] ?? meals[`${dKey}-${slot.id}`]
+  );
+  return sumRecipeNutrition(plannedRecipes);
 }
 
 export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS }) {
