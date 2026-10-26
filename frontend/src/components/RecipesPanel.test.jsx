@@ -18,6 +18,9 @@ vi.mock('../services/recipeServices', () => ({
   likeRecipe: vi.fn(),
   dislikeRecipe: vi.fn(),
   createRecipe: vi.fn(), // Added to mock the new feature
+  clearRecipePreference: vi.fn(),
+  getRecipeReactions: vi.fn(),
+  getFavoriteRecipes: vi.fn(),
 }));
 
 vi.mock('../services/ingredientServices', () => ({
@@ -31,6 +34,7 @@ describe('RecipesPanel', () => {
     recipeServices.getRecipeFeed.mockResolvedValue([]);
     ingredientServices.getMyIngredients.mockResolvedValue([]);
     recipeServices.createRecipe.mockResolvedValue({ id: 'mock-new-id' });
+    recipeServices.getRecipeReactions.mockResolvedValue({});
   });
 
   // --- EXISTING SEARCH TESTS ---

@@ -42,6 +42,7 @@ function RecipeCard({
         <button
           type="button"
           aria-label="Favorite recipe"
+          aria-pressed={feedback === 'favorite'}
           className={feedback === 'favorite' ? 'active' : ''}
           onClick={(event) => {
             event.stopPropagation();
@@ -53,6 +54,7 @@ function RecipeCard({
         <button
           type="button"
           aria-label="Dislike recipe"
+          aria-pressed={feedback === 'dislike'}
           className={feedback === 'dislike' ? 'active' : ''}
           onClick={(event) => {
             event.stopPropagation();
