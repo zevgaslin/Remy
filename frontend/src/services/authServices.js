@@ -25,3 +25,24 @@ export async function register(username, email, password) {
   });
   return parseResponse(response);
 }
+
+export class SessionExpiredError extends Error {}
+
+// Confirms a saved token still has a live session on the server.
+export async function getCurrentUser(token) {
+  const response = await fetch(`${API_BASE}/auth/me`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (response.status === 401) {
+    throw new SessionExpiredError('Your session has ended. Please log in again.');
+  }
+  return parseResponse(response);
+}
+
+export async function logout(token) {
+  const response = await fetch(`${API_BASE}/auth/logout`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  return parseResponse(response);
+}
