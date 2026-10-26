@@ -11,14 +11,12 @@ import com.remy.backend.model.UserPreference;
 import com.remy.backend.repository.IngredientRepository;
 import com.remy.backend.repository.RecipeReadRepository;
 import com.remy.backend.repository.RecipeQueryRepository;
-import com.remy.backend.repository.RecipeRepository;
 import com.remy.backend.repository.UserPreferenceRepository;
 import com.remy.backend.repository.UserRepository;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
-import java.util.Random;
 import java.util.Set;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -31,21 +29,18 @@ public class RecipeMatchingService {
     private final IngredientRepository ingredientRepository;
     private final UserPreferenceRepository userPreferenceRepository;
     private final UserRepository userRepository;
-    private final RecipeRepository recipeRepository;
 
     public RecipeMatchingService(
             RecipeReadRepository recipeReads,
             RecipeQueryRepository recipeQueryRepository,
             IngredientRepository ingredientRepository,
             UserPreferenceRepository userPreferenceRepository,
-            UserRepository userRepository,
-            RecipeRepository recipeRepository) {
+            UserRepository userRepository) {
         this.recipeReads = recipeReads;
         this.recipeQueryRepository = recipeQueryRepository;
         this.ingredientRepository = ingredientRepository;
         this.userPreferenceRepository = userPreferenceRepository;
         this.userRepository = userRepository;
-        this.recipeRepository = recipeRepository;
     }
 
     @Transactional(readOnly = true)
@@ -79,24 +74,8 @@ public class RecipeMatchingService {
                 .filter(item -> item != null && !isBlank(item.getName()) && !isBlank(item.getValue()))
                 .toList();
 
-        // NEW: Intercept the random flag and return a single random recipe
         if (request.isRandom()) {
-            List<Long> candidateIds;
-            if (requestedPreferences.isEmpty()) {
-                candidateIds = recipeRepository.findAllRecipeIds();
-            } else {
-                PreferenceCriterion pref = requestedPreferences.get(0);
-                candidateIds = recipeRepository.findRecipeIdsByPreference(normalize(pref.getName()), normalize(pref.getValue()));
-            }
-
-            if (candidateIds.isEmpty()) {
-                return List.of();
-            }
-
-            Long randomId = candidateIds.get(new Random().nextInt(candidateIds.size()));
-            return loadInOrder(List.of(randomId)).stream()
-                    .map(recipe -> score(recipe, availableIngredients, requestedPreferences))
-                    .toList();
+            return randomMatch(availableIngredients, requestedPreferences);
         }
 
         int limit = request.getLimit() == null ? 20 : Math.max(1, Math.min(request.getLimit(), 100));
@@ -106,6 +85,16 @@ public class RecipeMatchingService {
         return loadInOrder(ids).stream()
                 .map(recipe -> score(recipe, availableIngredients, requestedPreferences))
                 .toList();
+    }
+
+    private List<RecipeMatchResponse> randomMatch(
+            Set<String> ingredients, List<PreferenceCriterion> preferences) {
+        PreferenceCriterion preference = preferences.isEmpty() ? null : preferences.get(0);
+        return recipeQueryRepository.randomId(preference)
+                .map(id -> loadInOrder(List.of(id)).stream()
+                        .map(recipe -> score(recipe, ingredients, preferences))
+                        .toList())
+                .orElseGet(List::of);
     }
 
     @Transactional(readOnly = true)

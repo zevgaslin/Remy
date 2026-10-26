@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { dislikeRecipe, getAllRecipes, getRecipeFeed, likeRecipe, searchRecipes, createRecipe } from '../services/recipeServices';
-import { getMyIngredients } from '../services/ingredientServices';
+import { useIngredients } from './useIngredients';
 
 /** Recipe data comes from Spring Boot/Supabase; components own only their form and layout. */
 export function useRecipes(currentUser, { mode = 'feed' } = {}) {
@@ -10,7 +10,8 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchActive, setSearchActive] = useState(false);
-  const [currentIngredients, setCurrentIngredients] = useState([]);
+  const { ingredients: pantryIngredients } = useIngredients(token);
+  const currentIngredients = pantryIngredients.map(item => item.name).filter(Boolean);
   const requestVersion = useRef(0);
   const feedAbort = useRef(null);
 
@@ -46,17 +47,6 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     loadFeed();
     return invalidateRequests;
   }, [loadFeed, invalidateRequests]);
-
-  useEffect(() => {
-    let active = true;
-    setCurrentIngredients([]);
-    if (token) {
-      getMyIngredients(token)
-        .then(data => { if (active) setCurrentIngredients(data.map(item => item.name).filter(Boolean)); })
-        .catch(() => { if (active) setCurrentIngredients([]); });
-    }
-    return () => { active = false; };
-  }, [token]);
 
   async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, random = false } = {}) {
     const pantrySearch = useCurrentIngredients || requireAllIngredients;

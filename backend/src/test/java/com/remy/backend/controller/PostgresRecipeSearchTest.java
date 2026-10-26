@@ -38,6 +38,18 @@ class PostgresRecipeSearchTest {
         assertThat(names(search(Map.of("query","dessert")))).containsExactly("Chocolate Chunk Cookies");
         assertThat(search(Map.of("query","does-not-exist"))).isEmpty();
     }
+    @Test void randomSelectionReturnsOneRecipeAndHonorsTheDiet() {
+        assertThat(search(Map.of("random", true))).hasSize(1);
+        var matches = search(Map.of("random", true, "preferences",
+                List.of(Map.of("name", "diet", "value", "vegetarian"))));
+        assertThat(matches).hasSize(1);
+        assertThat(names(search(Map.of("preferences",
+                List.of(Map.of("name", "diet", "value", "vegetarian"))))))
+                .containsAll(names(matches));
+        assertThat(search(Map.of("random", true, "preferences",
+                List.of(Map.of("name", "diet", "value", "nonexistent-diet"))))).isEmpty();
+    }
+
     @Test void literalSearchDoesNotTreatSqlOrWildcardsAsCommands() {
         assertThat(search(Map.of("query","' OR 1=1 --"))).isEmpty();
         assertThat(search(Map.of("query","%"))).isEmpty();
