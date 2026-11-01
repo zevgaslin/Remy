@@ -101,3 +101,15 @@ From `frontend/`, use Node 22.12+ (or Node 20.19+) and run `npm test` and `npm r
 
 
 Supabase password: RemyDatabas
+## Eaten meals and weekly recaps
+
+On the dashboard, signed-in users can edit daily nutrition goals and mark calendar recipes as eaten with a serving quantity. Eaten meals are stored in Supabase independently of calendar plans, and remain in the food journal after a page refresh or a recipe edit/deletion. Undo an eaten meal from its calendar cell or the recap's daily food list. Existing calendar plans themselves still use the shared frontend state.
+
+The Weekly Recap below the calendar defaults to the last completed Monday–Sunday. A completed recap becomes available each Monday in the browser's local timezone; use Next week for the current week's progress, or Previous week for history. It is calculated when opened, with no background job or email required. An open dashboard checks for a date change every 30 seconds.
+
+Nutrition is captured from the server-side recipe per serving at logging time. Each day's first meal captures that day's goals; additional meals keep those targets even if goals change later that day. Protein hits goal at or above target. Calories, carbs, and fat hit within 10% of target (a zero target requires zero). Missing logs and missing nutrient values remain unknown; averages use only logged days with complete values for that nutrient. Results represent logged food, not a claim that all food for a day was recorded.
+
+Authenticated endpoints:
+- `POST /api/users/me/meal-logs`: `{ "recipeId": 1, "eatenOn": "2026-11-01", "slot": "lunch", "servings": 1, "timezone": "America/Chicago" }`. One eaten meal per user/date/slot; retries return the existing entry. Future dates are rejected.
+- `DELETE /api/users/me/meal-logs/{id}`: undo an owned log.
+- `GET /api/users/me/recaps/weekly?weekStart=2026-10-26&timezone=America/Chicago`: daily meal snapshots, nutrition totals, goal outcomes, and weekly counts. `weekStart` is an optional Monday; defaults to the previous week.

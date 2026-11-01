@@ -1,3 +1,4 @@
+import { MealEatenControl } from '../context/MealLogContext';
 import { useEffect, useMemo, useState } from 'react';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
@@ -452,6 +453,7 @@ function MealCell({
         <div className="event-label">{displayLabel}</div>
         <div className="event-title">{recipe.name}</div>
       </div>
+      <MealEatenControl recipe={recipe} day={day} slot={slotId} />
       {visible && <RecipeHoverPopover recipe={recipe} coords={coords} />}
     </div>
   );
