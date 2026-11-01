@@ -82,6 +82,7 @@ export async function getRecipeMatches(token, { limit = 20 } = {}) {
 export async function searchRecipes({
   query = '',
   ingredients = [],
+  expiringIngredients = [],
   preferences = [],
   requireAllIngredients = false,
   limit = 20,
@@ -90,7 +91,7 @@ export async function searchRecipes({
   const response = await fetch(`${API_BASE}/recipes/search`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ query, ingredients, preferences, requireAllIngredients, limit, random }),
+    body: JSON.stringify({ query, ingredients, expiringIngredients, preferences, requireAllIngredients, limit, random }),
   });
   const data = await response.json().catch(() => []);
   if (!response.ok) {

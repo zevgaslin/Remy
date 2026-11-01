@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { dislikeRecipe, getAllRecipes, getRecipeFeed, likeRecipe, searchRecipes, createRecipe } from '../services/recipeServices';
 import { useIngredients } from './useIngredients';
+import { EXPIRING_SOON_DAYS, expiringSoonNames } from '../utils/expiration';
 
 /** Recipe data comes from Spring Boot/Supabase; components own only their form and layout. */
 export function useRecipes(currentUser, { mode = 'feed' } = {}) {
@@ -48,10 +49,12 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     return invalidateRequests;
   }, [loadFeed, invalidateRequests]);
 
-  async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, random = false } = {}) {
+  async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, useExpiringSoon = false, random = false } = {}) {
     const pantrySearch = useCurrentIngredients || requireAllIngredients;
-    const available = pantrySearch ? currentIngredients : ingredients;
-    if (pantrySearch && !token) {
+    // Without typed ingredients, the expiring filter scores recipes against the whole pantry.
+    const available = pantrySearch || (useExpiringSoon && ingredients.length === 0) ? currentIngredients : ingredients;
+    const expiringIngredients = useExpiringSoon ? expiringSoonNames(pantryIngredients) : [];
+    if ((pantrySearch || useExpiringSoon) && !token) {
       setError('Log in to filter recipes by your current ingredients.');
       return;
     }
@@ -59,8 +62,12 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       setError('Add at least one current ingredient before using that filter.');
       return;
     }
-    
-    if (!random && available.length === 0 && preferences.length === 0 && !query.trim()) {
+    if (useExpiringSoon && expiringIngredients.length === 0) {
+      setError(`Nothing in your pantry expires in the next ${EXPIRING_SOON_DAYS} days.`);
+      return;
+    }
+
+    if (!random && available.length === 0 && expiringIngredients.length === 0 && preferences.length === 0 && !query.trim()) {
       setError('Enter a search term, an ingredient, or choose a diet.');
       return;
     }
@@ -69,13 +76,14 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     setLoading(true);
     setError(null);
     try {
-      const matches = await searchRecipes({ query: query.trim(), ingredients: available, preferences, requireAllIngredients, limit: 50, random });
+      const matches = await searchRecipes({ query: query.trim(), ingredients: available, expiringIngredients, preferences, requireAllIngredients, limit: 50, random });
       if (version !== requestVersion.current) return;
       setRecipes(matches.map(match => ({
         ...(match.recipe || match),
         matchScore: match.matchScore ?? null,
         matchedIngredients: match.matchedIngredients || [],
         missingIngredients: match.missingIngredients || [],
+        expiringIngredients: match.expiringIngredients || [],
       })));
       setSearchActive(true);
     } catch (err) {

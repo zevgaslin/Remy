@@ -41,6 +41,38 @@ describe('useRecipes', () => {
     expect(result.current.searchActive).toBe(true);
   });
 
+  it('sends only pantry items expiring within three days for the expiring soon filter', async () => {
+    const inDays = (days) => {
+      const date = new Date();
+      date.setDate(date.getDate() + days);
+      return date.toLocaleDateString('en-CA');
+    };
+    getMyIngredients.mockResolvedValue([
+      { name: 'Spinach', expirationDate: inDays(1) },
+      { name: 'Milk', expirationDate: inDays(3) },
+      { name: 'Rice', expirationDate: inDays(30) },
+      { name: 'Old Yogurt', expirationDate: inDays(-2) },
+    ]);
+    recipes.searchRecipes.mockResolvedValue([{ recipe: { id: 5, name: 'Spinach Wrap' }, matchScore: 50, expiringIngredients: ['Spinach'] }]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    await act(async () => { await result.current.search({ useExpiringSoon: true }); });
+    expect(recipes.searchRecipes).toHaveBeenCalledWith(expect.objectContaining({
+      expiringIngredients: ['Spinach', 'Milk'],
+      ingredients: ['Spinach', 'Milk', 'Rice', 'Old Yogurt'],
+    }));
+    expect(result.current.recipes[0].expiringIngredients).toEqual(['Spinach']);
+  });
+
+  it('explains when nothing in the pantry is expiring soon', async () => {
+    getMyIngredients.mockResolvedValue([{ name: 'Rice', expirationDate: '2999-01-01' }]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    await act(async () => { await result.current.search({ useExpiringSoon: true }); });
+    expect(recipes.searchRecipes).not.toHaveBeenCalled();
+    expect(result.current.error).toBe('Nothing in your pantry expires in the next 3 days.');
+  });
+
   it('saves a reaction before removing the reviewed recipe from the feed', async () => {
     recipes.getRecipeFeed.mockResolvedValue([{ id: 3, name: 'Soup' }]);
     recipes.likeRecipe.mockResolvedValue({ preference: 'LIKE' });

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import RecipeCard from './recipes';
 import { useRecipes } from '../hooks/useRecipes';
+import { EXPIRING_SOON_DAYS } from '../utils/expiration';
 
 const DIET_OPTIONS = [
   { value: '', label: 'Any diet' },
@@ -39,6 +40,7 @@ function RecipesPanel({ currentUser }) {
   const [diet, setDiet] = useState('');
   const [onlyCurrentIngredients, setOnlyCurrentIngredients] = useState(false);
   const [onlyMakeNow, setOnlyMakeNow] = useState(false);
+  const [expiringSoon, setExpiringSoon] = useState(false);
 
   // Modal state
   const [showAddModal, setShowAddModal] = useState(false);
@@ -50,6 +52,7 @@ function RecipesPanel({ currentUser }) {
     setDiet('');
     setOnlyCurrentIngredients(false);
     setOnlyMakeNow(false);
+    setExpiringSoon(false);
   }
 
   useEffect(() => { resetFilters(); }, [currentUser?.token]);
@@ -62,6 +65,7 @@ function RecipesPanel({ currentUser }) {
       preferences: diet ? [{ name: 'diet', value: diet }] : [],
       requireAllIngredients: onlyMakeNow,
       useCurrentIngredients: onlyCurrentIngredients,
+      useExpiringSoon: expiringSoon,
     });
   }
 
@@ -440,6 +444,14 @@ function RecipesPanel({ currentUser }) {
             />
             <span>Only show recipes I can make right now</span>
           </label>
+          <label className="recipe-search-check">
+            <input
+              type="checkbox"
+              checked={expiringSoon}
+              onChange={(event) => setExpiringSoon(event.target.checked)}
+            />
+            <span>Use up ingredients expiring in the next {EXPIRING_SOON_DAYS} days</span>
+          </label>
         </div>
       </form>
 
@@ -463,6 +475,7 @@ function RecipesPanel({ currentUser }) {
                 matchScore={recipe.matchScore}
                 matchedIngredients={recipe.matchedIngredients}
                 missingIngredients={recipe.missingIngredients}
+                expiringIngredients={recipe.expiringIngredients}
                 feedback={feedback[recipe.id]}
                 onFavorite={() => setRecipeFeedback(recipe.id, 'favorite')}
                 onDislike={() => setRecipeFeedback(recipe.id, 'dislike')}
