@@ -54,7 +54,7 @@ Search directly with `POST /api/recipes/search`:
 }
 ```
 
-Each result contains the recipe, a `matchScore`, the matched pantry ingredients, and the missing required ingredients. Setting `requireAllIngredients` to `true` removes recipes that need anything not supplied in the search.
+Each result contains the recipe, a `matchScore`, the matched pantry ingredients, and the missing required ingredients. Setting `requireAllIngredients` to `true` removes recipes that need anything not supplied in the search. Passing `expiringIngredients` (pantry items about to expire) keeps only recipes that use at least one of them, ranks recipes that use more of them first, and lists the ones each recipe uses in its `expiringIngredients` field. The recipes page sends everything that expires within 3 days when "Use up ingredients expiring in the next 3 days" is checked.
 
 The calendar recipe picker loads recipes from the backend; selected meals currently live in component state. Recipe reactions are stored per user in Supabase and reviewed recipes are excluded from that user’s feed.
 

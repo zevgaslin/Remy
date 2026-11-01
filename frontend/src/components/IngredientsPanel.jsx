@@ -4,6 +4,7 @@ import { deleteIngredient } from '../services/ingredientServices';
 import { useIngredients } from '../hooks/useIngredients';
 import { useDragToTrash } from '../hooks/useDragToTrash';
 import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSounds';
+import { daysUntil } from '../utils/expiration';
 import AddIngredientModal from './AddIngredientModal';
 import TrashCan from './TrashCan';
 import UndoToast from './UndoToast';
@@ -288,13 +289,6 @@ function ShoppingCart({ ingredients }) {
 /* ==========================================================================
    Pantry helpers
    ========================================================================== */
-
-function daysUntil(dateStr) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const target = new Date(`${dateStr}T00:00:00`);
-  return Math.round((target - today) / (1000 * 60 * 60 * 24));
-}
 
 function statusLabel(daysLeft) {
   if (daysLeft < 0) return 'Expired';
