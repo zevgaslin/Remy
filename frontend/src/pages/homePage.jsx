@@ -16,7 +16,7 @@ function HomePage() {
         loadError={error}
         onSave={saveGoals}
       />
-      <CalendarPanel goals={goals} />
+      <CalendarPanel goals={goals} currentUser={currentUser} />
     </>
   );
 }
