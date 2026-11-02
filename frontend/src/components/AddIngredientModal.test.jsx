@@ -3,6 +3,7 @@ import '@testing-library/jest-dom/vitest';
 import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
 import AddIngredientModal from './AddIngredientModal';
+vi.mock('../services/barcodeServices', async original => ({ ...await original(), startBarcodeReader: vi.fn().mockResolvedValue({ stop: vi.fn() }) }));
 
 let getUserMedia;
 let stop;
@@ -26,8 +27,10 @@ it('requests camera only on Scan, preserves manual inputs, and stops on return',
   expect(getUserMedia).not.toHaveBeenCalled();
   fireEvent.click(screen.getByRole('tab', { name: 'Scan Barcode' }));
   await screen.findByText(/Camera is live/);
-  expect(getUserMedia).toHaveBeenCalledWith({ video: true, audio: false });
+  expect(getUserMedia).toHaveBeenCalledWith({ video: { facingMode: { ideal: 'environment' }, width: { ideal: 1280 }, height: { ideal: 960 } }, audio: false });
   expect(screen.getByLabelText('Live camera preview').srcObject).toBeTruthy();
+  expect(screen.getByRole('img', { name: 'Green barcode alignment box' })).toBeInTheDocument();
+  expect(await screen.findByText(/It scans automatically/)).toBeInTheDocument();
   fireEvent.click(screen.getByRole('tab', { name: 'Manual Entry' }));
   expect(stop).toHaveBeenCalledTimes(1);
   expect(screen.getByLabelText('Name')).toHaveValue('Milk');

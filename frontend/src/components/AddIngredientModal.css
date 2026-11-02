@@ -43,3 +43,16 @@
   font-size: 14px;
   line-height: 1.5;
 }
+
+.barcode-product-note { padding: 12px; margin-bottom: 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--accent-bg); font-size: .85rem; line-height: 1.5; }
+.barcode-product-note p { margin: 6px 0; }
+.barcode-product-note button { display: block; margin-top: 10px; background: var(--bg); color: var(--text-h); border: 1px solid var(--border); border-radius: 6px; padding: 8px; cursor: pointer; }
+.barcode-source { font-size: .8rem; line-height: 1.5; }
+.barcode-scanner .auth-form { margin-top: 16px; }
+.auth-form select { width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text-h); font: inherit; }
+
+.barcode-viewfinder { position: relative; overflow: hidden; border-radius: 10px; background: #18231b; isolation: isolate; }
+.barcode-guide { position: absolute; top: 34%; left: 9%; width: 82%; height: 32%; box-sizing: border-box; border: 3px solid #4ade80; border-radius: 10px; box-shadow: 0 0 0 100vmax #0007, 0 0 18px #4ade8040; pointer-events: none; }
+.barcode-guide-label { position: absolute; left: 50%; top: -30px; transform: translateX(-50%); white-space: nowrap; color: #dcfce7; background: #12351fee; border-radius: 5px; padding: 3px 8px; font-size: 11px; font-weight: 700; letter-spacing: .06em; }
+.barcode-guide-line { position: absolute; top: 50%; left: 5%; right: 5%; height: 2px; background: #4ade80; box-shadow: 0 0 8px #4ade80; opacity: .75; }
+.barcode-camera-help { color: var(--text); }
