@@ -2,7 +2,7 @@ import { useState } from 'react';
 import BarcodeScanner from './BarcodeScanner';
 import { packageQuantity } from '../utils/packageQuantity';
 import './AddIngredientModal.css';
-import { createIngredient } from '../services/ingredientServices';
+import { createIngredient, updateIngredient } from '../services/ingredientServices';
 
 const NUTRITION_FIELDS = [
   { key: 'calories', label: 'Calories' },
@@ -16,13 +16,15 @@ function toOptionalNumber(value) {
   return value === '' ? null : Number(value);
 }
 
-function AddIngredientModal({ token, onClose, onAdded }) {
+function AddIngredientModal({ token, onClose, onAdded, ingredient = null, onSaved }) {
+  const editing = ingredient != null;
+  const title = editing ? 'Edit Ingredient' : 'Add Ingredient';
   const [activeTab, setActiveTab] = useState('manual');
-  const [name, setName] = useState('');
-  const [quantity, setQuantity] = useState('1');
-  const [unit, setUnit] = useState('');
-  const [expirationDate, setExpirationDate] = useState('');
-  const [nutrition, setNutrition] = useState({ calories: '', protein: '', carbs: '', fat: '' });
+  const [name, setName] = useState(ingredient?.name ?? '');
+  const [quantity, setQuantity] = useState(String(ingredient?.quantity ?? 1));
+  const [unit, setUnit] = useState(ingredient?.unit ?? '');
+  const [expirationDate, setExpirationDate] = useState(ingredient?.expirationDate ?? '');
+  const [nutrition, setNutrition] = useState(() => Object.fromEntries(NUTRITION_FIELDS.map(({ key }) => [key, ingredient?.[key] == null ? '' : String(ingredient[key])])));
   const [scannedProduct, setScannedProduct] = useState(null);
   const [error, setError] = useState(null);
   const [submitting, setSubmitting] = useState(false);
@@ -46,7 +48,7 @@ function AddIngredientModal({ token, onClose, onAdded }) {
     setError(null);
     setSubmitting(true);
     try {
-      const saved = await createIngredient(token, {
+      const values = {
         name,
         quantity: Number(quantity),
         unit,
@@ -55,8 +57,10 @@ function AddIngredientModal({ token, onClose, onAdded }) {
         protein: toOptionalNumber(nutrition.protein),
         carbs: toOptionalNumber(nutrition.carbs),
         fat: toOptionalNumber(nutrition.fat),
-      });
-      onAdded(saved);
+      };
+      const saved = editing ? await updateIngredient(token, ingredient.id, values) : await createIngredient(token, values);
+      if (editing) onSaved(saved);
+      else onAdded(saved);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -65,11 +69,11 @@ function AddIngredientModal({ token, onClose, onAdded }) {
   }
 
   return (
-    <div className="auth-modal-backdrop" onClick={onClose}>
-      <div className="auth-modal" role="dialog" aria-modal="true" aria-label="Add Ingredient" onClick={(event) => event.stopPropagation()}>
+    <div className="auth-modal-backdrop" onClick={() => { if (!submitting) onClose(); }}>
+      <div className="auth-modal" role="dialog" aria-modal="true" aria-label={title} onClick={(event) => event.stopPropagation()}>
         <div className="auth-modal-header">
-          <h2>Add Ingredient</h2>
-          <button type="button" className="auth-modal-close" aria-label="Close" onClick={onClose}>
+          <h2>{title}</h2>
+          <button type="button" className="auth-modal-close" aria-label="Close" onClick={() => { if (!submitting) onClose(); }}>
             ×
           </button>
         </div>
@@ -105,6 +109,8 @@ function AddIngredientModal({ token, onClose, onAdded }) {
           <button type="button" onClick={() => { setScannedProduct(null); setUnit(''); setQuantity('1'); setNutrition({ calories: '', protein: '', carbs: '', fat: '' }); }}>Use a different unit and enter nutrition manually</button>
         </aside>}
         <form onSubmit={handleSubmit} className="auth-form">
+          {editing && <p className="ingredient-edit-hint">Update any field below. Nutrition values are per unit; if you change units, update nutrition to match.</p>}
+          <fieldset disabled={submitting} className="ingredient-form-fields">
           <label>
             Name
             <input type="text" value={name} onChange={(event) => setName(event.target.value)} required />
@@ -153,9 +159,10 @@ function AddIngredientModal({ token, onClose, onAdded }) {
               </label>
             ))}
           </fieldset>
-          {error && <p className="auth-error">{error}</p>}
+          </fieldset>
+          {error && <p className="auth-error" role="alert">{error}</p>}
           <button type="submit" className="auth-submit" disabled={submitting}>
-            {submitting ? 'Adding...' : 'Add Ingredient'}
+            {submitting ? (editing ? 'Saving…' : 'Adding...') : editing ? 'Save changes' : 'Add Ingredient'}
           </button>
         </form>
         </div>
