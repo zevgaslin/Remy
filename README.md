@@ -69,9 +69,7 @@ Password is RemyDatabas
 
 **Frontend** (from `frontend/`):
 ``` 
-npm install
-npm run dev
-```
+npm install`
 Runs on http://localhost:5173 and talks to the backend over `http://localhost:8080/api/*`.
 
 Run both at once, in two terminals, to use the app.
