@@ -4,11 +4,19 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import com.remy.backend.dto.LoginRequest;
 import com.remy.backend.dto.RegisterRequest;
+import com.remy.backend.model.UserSession;
+import com.remy.backend.repository.UserRepository;
+import com.remy.backend.repository.UserSessionRepository;
+import com.remy.backend.service.DatabaseTokenService;
+import java.time.Instant;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.TestPropertySource;
@@ -28,6 +36,20 @@ class AuthControllerTest {
 
     @Autowired
     private TestRestTemplate restTemplate;
+
+    @Autowired
+    private UserSessionRepository sessionRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    private ResponseEntity<Map> me(String token) {
+        HttpHeaders headers = new HttpHeaders();
+        if (token != null) {
+            headers.set("Authorization", "Bearer " + token);
+        }
+        return restTemplate.exchange("/api/auth/me", HttpMethod.GET, new HttpEntity<>(headers), Map.class);
+    }
 
     private RegisterRequest registerRequest(String username, String email, String password) {
         RegisterRequest request = new RegisterRequest();
@@ -115,5 +137,43 @@ class AuthControllerTest {
         assertThat(unknownUserResponse.getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
         assertThat(wrongPasswordResponse.getBody().get("error"))
                 .isEqualTo(unknownUserResponse.getBody().get("error"));
+    }
+
+    @Test
+    void savedTokenStaysValidUntilLogout() {
+        String token = (String) restTemplate.postForEntity("/api/auth/register",
+                registerRequest("session_user", "session@example.com", "password123"), Map.class)
+                .getBody().get("token");
+
+        ResponseEntity<Map> current = me(token);
+        assertThat(current.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(current.getBody()).containsEntry("username", "session_user").doesNotContainKey("token");
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+        ResponseEntity<Map> logout = restTemplate.exchange(
+                "/api/auth/logout", HttpMethod.POST, new HttpEntity<>(headers), Map.class);
+        assertThat(logout.getStatusCode()).isEqualTo(HttpStatus.OK);
+
+        assertThat(me(token).getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
+        assertThat(me(null).getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
+        assertThat(me("made-up-token").getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
+    }
+
+    @Test
+    void sessionsSurviveABackendRestartButNotExpiry() {
+        String token = (String) restTemplate.postForEntity("/api/auth/register",
+                registerRequest("restart_user", "restart@example.com", "password123"), Map.class)
+                .getBody().get("token");
+
+        // A fresh service instance has no memory of the login, like the backend after a restart.
+        var restarted = new DatabaseTokenService(sessionRepository, userRepository, 30);
+        assertThat(restarted.resolveUserId("Bearer " + token)).isPresent();
+        assertThat(sessionRepository.findAll()).noneMatch(session -> session.getTokenHash().equals(token));
+
+        var user = userRepository.findByUsername("restart_user").orElseThrow();
+        sessionRepository.save(new UserSession(
+                "0".repeat(64), user, Instant.now().minusSeconds(7200), Instant.now().minusSeconds(60)));
+        assertThat(sessionRepository.findActiveUserId("0".repeat(64), Instant.now())).isEmpty();
     }
 }

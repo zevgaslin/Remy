@@ -4,6 +4,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { MemoryRouter } from 'react-router';
 import { AppRoutes } from './App';
 import { AuthProvider } from './context/AuthProvider';
+import * as authServices from './services/authServices';
 import * as notificationServices from './services/notificationServices';
 import * as goalServices from './services/goalServices';
 
@@ -22,6 +23,11 @@ vi.mock('./components/CalendarPanel', () => ({
 vi.mock('./services/goalServices', () => ({
   getNutritionGoals: vi.fn(),
   saveNutritionGoals: vi.fn(),
+}));
+vi.mock('./services/authServices', async (importOriginal) => ({
+  ...(await importOriginal()),
+  getCurrentUser: vi.fn(),
+  logout: vi.fn(),
 }));
 vi.mock('./services/notificationServices', () => ({
   getNotifications: vi.fn(),
@@ -43,6 +49,8 @@ describe('App routing', () => {
     vi.clearAllMocks();
     localStorage.clear();
     notificationServices.getNotifications.mockResolvedValue([]);
+    authServices.getCurrentUser.mockImplementation(() => new Promise(() => {}));
+    authServices.logout.mockResolvedValue({ loggedOut: true });
     goalServices.getNutritionGoals.mockResolvedValue({ calories: 3200, protein: 180, carbs: 350, fat: 90 });
   });
 
@@ -128,8 +136,40 @@ describe('App routing', () => {
 
     fireEvent.click(screen.getByRole('button', { name: 'Log Out' }));
 
+    expect(authServices.logout).toHaveBeenCalledWith('abc');
     expect(screen.getByTestId('ingredients-panel')).toHaveTextContent('guest');
     expect(screen.getByRole('button', { name: 'Log In / Sign Up' })).toBeInTheDocument();
     expect(localStorage.getItem('remy-current-user')).toBeNull();
+  });
+
+  it('stays logged in after a refresh when the saved session is still valid', async () => {
+    localStorage.setItem('remy-current-user', JSON.stringify({ id: 3, username: 'jordan', token: 'abc' }));
+    authServices.getCurrentUser.mockResolvedValue({ id: 3, username: 'jordan', email: 'j@example.com' });
+    renderAt('/pantry');
+
+    await waitFor(() => expect(authServices.getCurrentUser).toHaveBeenCalledWith('abc'));
+    expect(screen.getByTestId('ingredients-panel')).toHaveTextContent('jordan');
+    await waitFor(() => expect(JSON.parse(localStorage.getItem('remy-current-user')))
+      .toEqual({ id: 3, username: 'jordan', email: 'j@example.com', token: 'abc' }));
+  });
+
+  it('logs out on refresh when the server says the saved session has ended', async () => {
+    localStorage.setItem('remy-current-user', JSON.stringify({ id: 3, username: 'jordan', token: 'old' }));
+    authServices.getCurrentUser.mockRejectedValue(new authServices.SessionExpiredError('ended'));
+    renderAt('/pantry');
+
+    await waitFor(() => expect(screen.getByTestId('ingredients-panel')).toHaveTextContent('guest'));
+    expect(localStorage.getItem('remy-current-user')).toBeNull();
+  });
+
+  it('keeps the user logged in when the session check cannot reach the server', async () => {
+    localStorage.setItem('remy-current-user', JSON.stringify({ id: 3, username: 'jordan', token: 'abc' }));
+    authServices.getCurrentUser.mockRejectedValue(new TypeError('Failed to fetch'));
+    renderAt('/pantry');
+
+    await waitFor(() => expect(authServices.getCurrentUser).toHaveBeenCalled());
+    // Let the rejected check settle before asserting nothing changed.
+    await new Promise(resolve => setTimeout(resolve, 0));
+    expect(screen.getByTestId('ingredients-panel')).toHaveTextContent('jordan');
   });
 });
