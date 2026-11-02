@@ -19,7 +19,8 @@ function HomePage() {
         onSave={saveGoals}
       />
       <CalendarPanel goals={goals} currentUser={currentUser} />
-    </>
+      <WeeklyRecap />
+    </MealLogProvider>
   );
 }
 
