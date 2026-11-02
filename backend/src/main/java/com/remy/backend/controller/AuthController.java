@@ -11,8 +11,10 @@ import java.util.Optional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -75,6 +77,28 @@ public class AuthController {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Invalid username or password."));
         }
         return ResponseEntity.ok(toResponse(match.get()));
+    }
+
+    /** Lets the frontend check, after a page refresh, that a saved token still belongs to a live session. */
+    @GetMapping("/me")
+    public ResponseEntity<?> currentUser(
+            @RequestHeader(value = "Authorization", required = false) String authHeader) {
+        Optional<User> user = tokenService.resolveUserId(authHeader).flatMap(userRepository::findById);
+        if (user.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+                    .body(Map.of("error", "Your session has ended. Please log in again."));
+        }
+        return ResponseEntity.ok(Map.of(
+                "id", user.get().getId(),
+                "username", user.get().getUsername(),
+                "email", user.get().getEmail()));
+    }
+
+    @PostMapping("/logout")
+    public ResponseEntity<?> logout(
+            @RequestHeader(value = "Authorization", required = false) String authHeader) {
+        tokenService.revoke(authHeader);
+        return ResponseEntity.ok(Map.of("loggedOut", true));
     }
 
     private AuthResponse toResponse(User user) {

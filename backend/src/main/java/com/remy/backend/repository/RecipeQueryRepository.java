@@ -12,8 +12,8 @@ public class RecipeQueryRepository {
     private final NamedParameterJdbcTemplate jdbc;
     public RecipeQueryRepository(NamedParameterJdbcTemplate jdbc) { this.jdbc = jdbc; }
 
-    public List<Long> search(String query, Set<String> ingredients, List<PreferenceCriterion> preferences,
-            boolean requireAll, int limit) {
+    public List<Long> search(String query, Set<String> ingredients, Set<String> expiring,
+            List<PreferenceCriterion> preferences, boolean requireAll, int limit) {
         var parameters = new MapSqlParameterSource("limit", limit);
         var where = new StringBuilder(" WHERE true");
         String trimmed = query == null ? "" : query.trim().toLowerCase(Locale.ROOT);
@@ -49,7 +49,14 @@ public class RecipeQueryRepository {
             if (!ingredients.isEmpty()) where.append(" AND (missing.normalized_name IS NULL OR missing.normalized_name NOT IN (:ingredients))");
             where.append(")");
         }
+        String expiringRank = null;
+        if (!expiring.isEmpty()) {
+            parameters.addValue("expiring", expiring);
+            where.append(" AND EXISTS (SELECT 1 FROM recipe_ingredients ei WHERE ei.recipe_id=r.id AND ei.normalized_name IN (:expiring))");
+            expiringRank = "(SELECT count(DISTINCT xi.normalized_name) FROM recipe_ingredients xi WHERE xi.recipe_id=r.id AND xi.normalized_name IN (:expiring))";
+        }
         String sql = "SELECT r.id FROM recipe r" + where + " ORDER BY "
+                + (expiringRank == null ? "" : expiringRank + " DESC, ")
                 + (rank == null ? "" : rank + " DESC, ") + "r.name, r.id LIMIT :limit";
         return jdbc.queryForList(sql, parameters, Long.class);
     }
