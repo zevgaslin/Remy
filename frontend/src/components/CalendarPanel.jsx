@@ -172,6 +172,13 @@ export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS }) {
 
 function RecipePickerPopup({ x, y, onClose, onSelect }) {
   const { recipes, loading, error, refresh } = useRecipes(undefined, { mode: 'catalog' });
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredRecipes = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+    if (!query) return recipes;
+    return recipes.filter((r) => r.name?.toLowerCase().includes(query));
+  }, [recipes, searchQuery]);
 
   return (
     <>
@@ -212,6 +219,24 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
             ✕
           </button>
         </div>
+        <div style={{ marginBottom: '8px' }}>
+          <input
+            type="search"
+            className="recipe-picker-search"
+            aria-label="Search recipes"
+            placeholder="Search recipes..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            style={{
+              width: '100%',
+              padding: '6px 8px',
+              borderRadius: '4px',
+              border: '1px solid #ccc',
+              boxSizing: 'border-box',
+              fontSize: '0.85rem',
+            }}
+          />
+        </div>
         {!error && (
           <button type="button" onClick={refresh} disabled={loading}>
             Refresh recipes
@@ -229,9 +254,11 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
           </div>
         ) : recipes.length === 0 ? (
           <p>No recipes are available yet.</p>
+        ) : filteredRecipes.length === 0 ? (
+          <p>No matching recipes found.</p>
         ) : (
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-            {recipes.map((r) => (
+            {filteredRecipes.map((r) => (
               <li
                 key={r.id}
                 style={{

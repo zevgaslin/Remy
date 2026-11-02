@@ -245,6 +245,75 @@ describe('CalendarPanel Recipe Popup Integration', () => {
     render(<CalendarPanel />);
     expect(screen.getByText('Keeper Soup')).toBeInTheDocument();
   });
+
+  it('filters recipes in the popup via the search bar and allows selecting a matching recipe', async () => {
+    getAllRecipes.mockResolvedValueOnce([
+      { id: 'r1', name: 'Avocado Toast', nutrition: { calories: 320 } },
+      { id: 'r2', name: 'Blueberry Pancakes', nutrition: { calories: 510 } },
+      { id: 'r3', name: 'Chicken Stir Fry' },
+      { id: 'r4' },
+    ]);
+
+    render(<CalendarPanel />);
+    fireEvent.click(screen.getAllByRole('button', { name: /Add Breakfast for/i })[0]);
+
+    expect(await screen.findByText('Avocado Toast')).toBeInTheDocument();
+    expect(screen.getByText('· 320 kcal')).toBeInTheDocument();
+    expect(screen.getByText('Blueberry Pancakes')).toBeInTheDocument();
+    expect(screen.getByText('Chicken Stir Fry')).toBeInTheDocument();
+
+    const searchInput = screen.getByRole('searchbox', { name: 'Search recipes' });
+
+    // Case-insensitive filtering with leading/trailing whitespace
+    fireEvent.change(searchInput, { target: { value: '  PANCAKE  ' } });
+    expect(screen.getByText('Blueberry Pancakes')).toBeInTheDocument();
+    expect(screen.queryByText('Avocado Toast')).not.toBeInTheDocument();
+    expect(screen.queryByText('Chicken Stir Fry')).not.toBeInTheDocument();
+
+    // Non-matching search query
+    fireEvent.change(searchInput, { target: { value: 'nonexistent' } });
+    expect(screen.getByText('No matching recipes found.')).toBeInTheDocument();
+
+    // Clearing the search query back to whitespace restores all recipes
+    fireEvent.change(searchInput, { target: { value: '   ' } });
+    expect(screen.getByText('Avocado Toast')).toBeInTheDocument();
+    expect(screen.getByText('Blueberry Pancakes')).toBeInTheDocument();
+    expect(screen.getByText('Chicken Stir Fry')).toBeInTheDocument();
+
+    // Filter and select a recipe
+    fireEvent.change(searchInput, { target: { value: 'stir' } });
+    fireEvent.click(screen.getByText('Chicken Stir Fry'));
+
+    expect(screen.queryByText('Select a Recipe')).not.toBeInTheDocument();
+    expect(screen.getByText('Chicken Stir Fry')).toBeInTheDocument();
+  });
+
+  it('refreshes recipes from the popup and closes when clicking the backdrop', async () => {
+    getAllRecipes
+      .mockResolvedValueOnce([{ id: 'r1', name: 'Initial Soup' }])
+      .mockResolvedValueOnce([
+        { id: 'r1', name: 'Initial Soup' },
+        { id: 'r2', name: 'Refreshed Salad' },
+      ]);
+
+    const { container } = render(<CalendarPanel />);
+    fireEvent.click(screen.getAllByRole('button', { name: /Add Breakfast for/i })[0]);
+
+    expect(await screen.findByText('Initial Soup')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: 'Refresh recipes' }));
+    expect(await screen.findByText('Refreshed Salad')).toBeInTheDocument();
+
+    const searchInput = screen.getByRole('searchbox', { name: 'Search recipes' });
+    fireEvent.change(searchInput, { target: { value: 'salad' } });
+    expect(screen.getByText('Refreshed Salad')).toBeInTheDocument();
+    expect(screen.queryByText('Initial Soup')).not.toBeInTheDocument();
+
+    // Click backdrop to close popup
+    const popup = container.querySelector('.recipe-picker-popup');
+    fireEvent.click(popup.previousElementSibling);
+    expect(screen.queryByText('Select a Recipe')).not.toBeInTheDocument();
+  });
 });
 
 describe('CalendarPanel View Strategies & Timeline Compression', () => {
