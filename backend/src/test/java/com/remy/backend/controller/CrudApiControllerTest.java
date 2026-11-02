@@ -367,6 +367,46 @@ class CrudApiControllerTest {
     }
 
     @Test
+    void savedReactionsAreListedPerUserAndCanBeCleared() {
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + registerAndGetToken("fav_user", "fav@example.com", "password123"));
+        HttpHeaders otherHeaders = new HttpHeaders();
+        otherHeaders.set("Authorization", "Bearer " + registerAndGetToken("other_fav", "otherfav@example.com", "password123"));
+        Long soupId = createRecipe("Tomato Basil Soup");
+        Long tacoId = createRecipe("Fish Tacos");
+        Long saladId = createRecipe("Kale Salad");
+
+        restTemplate.exchange("/api/recipes/{id}/like", HttpMethod.POST, new HttpEntity<>(headers), Map.class, soupId);
+        restTemplate.exchange("/api/recipes/{id}/like", HttpMethod.POST, new HttpEntity<>(headers), Map.class, tacoId);
+        restTemplate.exchange("/api/recipes/{id}/dislike", HttpMethod.POST, new HttpEntity<>(headers), Map.class, saladId);
+        restTemplate.exchange("/api/recipes/{id}/dislike", HttpMethod.POST, new HttpEntity<>(otherHeaders), Map.class, soupId);
+
+        ResponseEntity<Map> reactions = restTemplate.exchange(
+                "/api/recipes/reactions", HttpMethod.GET, new HttpEntity<>(headers), Map.class);
+        assertThat(reactions.getBody()).containsOnly(
+                Map.entry(soupId.toString(), "LIKE"),
+                Map.entry(tacoId.toString(), "LIKE"),
+                Map.entry(saladId.toString(), "DISLIKE"));
+
+        ResponseEntity<Map[]> favorites = restTemplate.exchange(
+                "/api/recipes/favorites", HttpMethod.GET, new HttpEntity<>(headers), Map[].class);
+        assertThat(favorites.getBody()).extracting(item -> item.get("name"))
+                .containsExactly("Fish Tacos", "Tomato Basil Soup");
+
+        ResponseEntity<Map> cleared = restTemplate.exchange(
+                "/api/recipes/{id}/preference", HttpMethod.DELETE, new HttpEntity<>(headers), Map.class, soupId);
+        assertThat(cleared.getBody()).containsEntry("preference", "NONE")
+                .containsEntry("likes", 0).containsEntry("dislikes", 1);
+        assertThat(restTemplate.exchange("/api/recipes/reactions", HttpMethod.GET, new HttpEntity<>(headers), Map.class)
+                .getBody()).doesNotContainKey(soupId.toString());
+        assertThat(restTemplate.exchange("/api/recipes/reactions", HttpMethod.GET, new HttpEntity<>(otherHeaders), Map.class)
+                .getBody()).containsEntry(soupId.toString(), "DISLIKE");
+
+        assertThat(restTemplate.getForEntity("/api/recipes/favorites", Map.class).getStatusCode())
+                .isEqualTo(HttpStatus.UNAUTHORIZED);
+    }
+
+    @Test
     void recipeSearchMatchesPantryAndDietaryPreferences() {
         String token = registerAndGetToken("match_user", "match@example.com", "password123");
         HttpHeaders headers = new HttpHeaders();
