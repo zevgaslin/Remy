@@ -537,6 +537,42 @@
   color: var(--accent);
 }
 
+.calendar-day.calendar-day--green {
+  background: rgba(34, 197, 94, 0.22);
+  border-color: #16a34a;
+}
+
+.calendar-day.calendar-day--yellow {
+  background: rgba(234, 179, 8, 0.25);
+  border-color: #ca8a04;
+}
+
+.calendar-day.calendar-day--orange {
+  background: rgba(249, 115, 22, 0.24);
+  border-color: #ea580c;
+}
+
+.calendar-day.calendar-day--red {
+  background: rgba(239, 68, 68, 0.22);
+  border-color: #dc2626;
+}
+
+.calendar-day--green .meal-dot {
+  background: #16a34a;
+}
+
+.calendar-day--yellow .meal-dot {
+  background: #ca8a04;
+}
+
+.calendar-day--orange .meal-dot {
+  background: #ea580c;
+}
+
+.calendar-day--red .meal-dot {
+  background: #dc2626;
+}
+
 .calendar-day.outside {
   opacity: 0.35;
 }
