@@ -6,7 +6,8 @@ import { getMyIngredients } from '../services/ingredientServices';
 
 vi.mock('../services/recipeServices', () => ({
   getAllRecipes: vi.fn(), getRecipeFeed: vi.fn(), searchRecipes: vi.fn(),
-  likeRecipe: vi.fn(), dislikeRecipe: vi.fn(),
+  likeRecipe: vi.fn(), dislikeRecipe: vi.fn(), clearRecipePreference: vi.fn(),
+  getRecipeReactions: vi.fn(), getFavoriteRecipes: vi.fn(),
 }));
 vi.mock('../services/ingredientServices', () => ({ getMyIngredients: vi.fn() }));
 
@@ -15,6 +16,7 @@ beforeEach(() => {
   recipes.getAllRecipes.mockResolvedValue([]);
   recipes.getRecipeFeed.mockResolvedValue([]);
   getMyIngredients.mockResolvedValue([]);
+  recipes.getRecipeReactions.mockResolvedValue({});
 });
 
 describe('useRecipes', () => {
@@ -41,6 +43,38 @@ describe('useRecipes', () => {
     expect(result.current.searchActive).toBe(true);
   });
 
+  it('sends only pantry items expiring within three days for the expiring soon filter', async () => {
+    const inDays = (days) => {
+      const date = new Date();
+      date.setDate(date.getDate() + days);
+      return date.toLocaleDateString('en-CA');
+    };
+    getMyIngredients.mockResolvedValue([
+      { name: 'Spinach', expirationDate: inDays(1) },
+      { name: 'Milk', expirationDate: inDays(3) },
+      { name: 'Rice', expirationDate: inDays(30) },
+      { name: 'Old Yogurt', expirationDate: inDays(-2) },
+    ]);
+    recipes.searchRecipes.mockResolvedValue([{ recipe: { id: 5, name: 'Spinach Wrap' }, matchScore: 50, expiringIngredients: ['Spinach'] }]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    await act(async () => { await result.current.search({ useExpiringSoon: true }); });
+    expect(recipes.searchRecipes).toHaveBeenCalledWith(expect.objectContaining({
+      expiringIngredients: ['Spinach', 'Milk'],
+      ingredients: ['Spinach', 'Milk', 'Rice', 'Old Yogurt'],
+    }));
+    expect(result.current.recipes[0].expiringIngredients).toEqual(['Spinach']);
+  });
+
+  it('explains when nothing in the pantry is expiring soon', async () => {
+    getMyIngredients.mockResolvedValue([{ name: 'Rice', expirationDate: '2999-01-01' }]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    await act(async () => { await result.current.search({ useExpiringSoon: true }); });
+    expect(recipes.searchRecipes).not.toHaveBeenCalled();
+    expect(result.current.error).toBe('Nothing in your pantry expires in the next 3 days.');
+  });
+
   it('saves a reaction before removing the reviewed recipe from the feed', async () => {
     recipes.getRecipeFeed.mockResolvedValue([{ id: 3, name: 'Soup' }]);
     recipes.likeRecipe.mockResolvedValue({ preference: 'LIKE' });
@@ -50,6 +84,40 @@ describe('useRecipes', () => {
     expect(recipes.likeRecipe).toHaveBeenCalledWith('user-token', 3);
     expect(result.current.recipes).toEqual([]);
     expect(result.current.feedback[3]).toBe('favorite');
+  });
+
+  it('loads saved likes and dislikes so search results show them', async () => {
+    recipes.getRecipeReactions.mockResolvedValue({ 7: 'LIKE', 8: 'DISLIKE' });
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.feedback).toEqual({ 7: 'favorite', 8: 'dislike' }));
+    expect(recipes.getRecipeReactions).toHaveBeenCalledWith('user-token');
+  });
+
+  it('clears a reaction when the same button is pressed again and keeps search results in place', async () => {
+    recipes.getRecipeReactions.mockResolvedValue({ 9: 'LIKE' });
+    recipes.searchRecipes.mockResolvedValue([{ recipe: { id: 9, name: 'Chili' }, matchScore: 80 }]);
+    recipes.clearRecipePreference.mockResolvedValue({ preference: 'NONE' });
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.feedback[9]).toBe('favorite'));
+    await act(async () => { await result.current.search({ query: 'chili' }); });
+    await act(async () => { await result.current.setRecipeFeedback(9, 'favorite'); });
+    expect(recipes.clearRecipePreference).toHaveBeenCalledWith('user-token', 9);
+    expect(recipes.likeRecipe).not.toHaveBeenCalled();
+    expect(result.current.feedback[9]).toBeNull();
+    expect(result.current.recipes.map(recipe => recipe.id)).toEqual([9]);
+  });
+
+  it('shows favorites and drops a recipe from them once it is unliked', async () => {
+    recipes.getFavoriteRecipes.mockResolvedValue([{ id: 10, name: 'Pho' }, { id: 11, name: 'Curry' }]);
+    recipes.getRecipeReactions.mockResolvedValue({ 10: 'LIKE', 11: 'LIKE' });
+    recipes.clearRecipePreference.mockResolvedValue({ preference: 'NONE' });
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.feedback[10]).toBe('favorite'));
+    await act(async () => { await result.current.showFavorites(); });
+    expect(result.current.showingFavorites).toBe(true);
+    expect(result.current.recipes.map(recipe => recipe.name)).toEqual(['Pho', 'Curry']);
+    await act(async () => { await result.current.setRecipeFeedback(10, 'favorite'); });
+    expect(result.current.recipes.map(recipe => recipe.name)).toEqual(['Curry']);
   });
 
   it('ignores old account requests that finish after switching users', async () => {

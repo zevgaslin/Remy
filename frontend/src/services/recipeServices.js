@@ -82,6 +82,7 @@ export async function getRecipeMatches(token, { limit = 20 } = {}) {
 export async function searchRecipes({
   query = '',
   ingredients = [],
+  expiringIngredients = [],
   preferences = [],
   requireAllIngredients = false,
   limit = 20,
@@ -90,7 +91,7 @@ export async function searchRecipes({
   const response = await fetch(`${API_BASE}/recipes/search`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ query, ingredients, preferences, requireAllIngredients, limit, random }),
+    body: JSON.stringify({ query, ingredients, expiringIngredients, preferences, requireAllIngredients, limit, random }),
   });
   const data = await response.json().catch(() => []);
   if (!response.ok) {
@@ -165,6 +166,43 @@ export async function getRecipePreference(token, recipeId) {
   const data = await response.json().catch(() => ({ preference: 'NONE' }));
   if (!response.ok) {
     throw new Error(data.error || 'Could not load recipe preference.');
+  }
+  return data;
+}
+
+export async function clearRecipePreference(token, recipeId) {
+  const response = await fetch(`${API_BASE}/recipes/${recipeId}/preference`, {
+    method: 'DELETE',
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not remove your recipe reaction.');
+  }
+  return data;
+}
+
+// Every recipe the user liked or disliked, as { [recipeId]: 'LIKE' | 'DISLIKE' }.
+export async function getRecipeReactions(token) {
+  const response = await fetch(`${API_BASE}/recipes/reactions`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not load your recipe ratings.');
+  }
+  return data;
+}
+
+export async function getFavoriteRecipes(token) {
+  const response = await fetch(`${API_BASE}/recipes/favorites`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await response.json().catch(() => []);
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not load your favorite recipes.');
   }
   return data;
 }

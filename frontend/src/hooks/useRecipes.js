@@ -1,6 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { dislikeRecipe, getAllRecipes, getRecipeFeed, likeRecipe, searchRecipes, createRecipe } from '../services/recipeServices';
+import {
+  clearRecipePreference, createRecipe, dislikeRecipe, getAllRecipes, getFavoriteRecipes, getRecipeFeed,
+  getRecipeReactions, likeRecipe, searchRecipes,
+} from '../services/recipeServices';
 import { useIngredients } from './useIngredients';
+import { EXPIRING_SOON_DAYS, expiringSoonNames } from '../utils/expiration';
+
+const FEEDBACK_BY_PREFERENCE = { LIKE: 'favorite', DISLIKE: 'dislike' };
 
 /** Recipe data comes from Spring Boot/Supabase; components own only their form and layout. */
 export function useRecipes(currentUser, { mode = 'feed' } = {}) {
@@ -10,6 +16,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchActive, setSearchActive] = useState(false);
+  const [showingFavorites, setShowingFavorites] = useState(false);
   const { ingredients: pantryIngredients } = useIngredients(token);
   const currentIngredients = pantryIngredients.map(item => item.name).filter(Boolean);
   const requestVersion = useRef(0);
@@ -44,14 +51,34 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     setRecipes([]);
     setFeedback({});
     setSearchActive(false);
+    setShowingFavorites(false);
     loadFeed();
     return invalidateRequests;
   }, [loadFeed, invalidateRequests]);
 
-  async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, random = false } = {}) {
+  // Saved likes and dislikes, so hearts stay filled across reloads and in search results.
+  useEffect(() => {
+    if (!token) return undefined;
+    let active = true;
+    getRecipeReactions(token)
+      .then(reactions => {
+        if (!active) return;
+        const saved = {};
+        Object.entries(reactions).forEach(([id, preference]) => {
+          if (FEEDBACK_BY_PREFERENCE[preference]) saved[id] = FEEDBACK_BY_PREFERENCE[preference];
+        });
+        setFeedback(previous => ({ ...saved, ...previous }));
+      })
+      .catch(() => {});
+    return () => { active = false; };
+  }, [token]);
+
+  async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, useExpiringSoon = false, random = false } = {}) {
     const pantrySearch = useCurrentIngredients || requireAllIngredients;
-    const available = pantrySearch ? currentIngredients : ingredients;
-    if (pantrySearch && !token) {
+    // Without typed ingredients, the expiring filter scores recipes against the whole pantry.
+    const available = pantrySearch || (useExpiringSoon && ingredients.length === 0) ? currentIngredients : ingredients;
+    const expiringIngredients = useExpiringSoon ? expiringSoonNames(pantryIngredients) : [];
+    if ((pantrySearch || useExpiringSoon) && !token) {
       setError('Log in to filter recipes by your current ingredients.');
       return;
     }
@@ -59,8 +86,12 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       setError('Add at least one current ingredient before using that filter.');
       return;
     }
-    
-    if (!random && available.length === 0 && preferences.length === 0 && !query.trim()) {
+    if (useExpiringSoon && expiringIngredients.length === 0) {
+      setError(`Nothing in your pantry expires in the next ${EXPIRING_SOON_DAYS} days.`);
+      return;
+    }
+
+    if (!random && available.length === 0 && expiringIngredients.length === 0 && preferences.length === 0 && !query.trim()) {
       setError('Enter a search term, an ingredient, or choose a diet.');
       return;
     }
@@ -69,15 +100,17 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     setLoading(true);
     setError(null);
     try {
-      const matches = await searchRecipes({ query: query.trim(), ingredients: available, preferences, requireAllIngredients, limit: 50, random });
+      const matches = await searchRecipes({ query: query.trim(), ingredients: available, expiringIngredients, preferences, requireAllIngredients, limit: 50, random });
       if (version !== requestVersion.current) return;
       setRecipes(matches.map(match => ({
         ...(match.recipe || match),
         matchScore: match.matchScore ?? null,
         matchedIngredients: match.matchedIngredients || [],
         missingIngredients: match.missingIngredients || [],
+        expiringIngredients: match.expiringIngredients || [],
       })));
       setSearchActive(true);
+      setShowingFavorites(false);
     } catch (err) {
       if (version === requestVersion.current) setError(err.message || 'Could not search recipes.');
     } finally {
@@ -91,13 +124,18 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       return;
     }
     const version = requestVersion.current;
+    // Clicking the active button again clears the reaction.
+    const next = feedback[id] === value ? null : value;
     try {
-      if (value === 'favorite') await likeRecipe(token, id);
+      if (next === null) await clearRecipePreference(token, id);
+      else if (next === 'favorite') await likeRecipe(token, id);
       else await dislikeRecipe(token, id);
       if (version !== requestVersion.current) return;
       setError(null);
-      setFeedback(previous => ({ ...previous, [id]: value }));
-      setRecipes(previous => previous.filter(recipe => recipe.id !== id));
+      setFeedback(previous => ({ ...previous, [id]: next }));
+      // The feed only shows unrated recipes and the favorites list only liked ones; search keeps every result.
+      const leavesList = showingFavorites ? next !== 'favorite' : !searchActive;
+      if (leavesList) setRecipes(previous => previous.filter(recipe => recipe.id !== id));
     } catch (err) {
       if (version === requestVersion.current) setError(err.message || 'Could not save your recipe reaction.');
     }
@@ -105,7 +143,30 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
 
   function refresh() {
     setSearchActive(false);
+    setShowingFavorites(false);
     return loadFeed(0, true, true);
+  }
+
+  async function showFavorites() {
+    if (!token) {
+      setError('Log in to see your favorite recipes.');
+      return;
+    }
+    invalidateRequests();
+    const version = requestVersion.current;
+    setLoading(true);
+    setError(null);
+    try {
+      const favorites = await getFavoriteRecipes(token);
+      if (version !== requestVersion.current) return;
+      setRecipes(favorites);
+      setSearchActive(false);
+      setShowingFavorites(true);
+    } catch (err) {
+      if (version === requestVersion.current) setError(err.message || 'Could not load your favorite recipes.');
+    } finally {
+      if (version === requestVersion.current) setLoading(false);
+    }
   }
 
   async function addNewRecipe(recipeData) {
@@ -124,5 +185,8 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     }
   }
 
-  return { recipes, feedback, loading, error, searchActive, search, refresh, setRecipeFeedback, addNewRecipe };
+  return {
+    recipes, feedback, loading, error, searchActive, showingFavorites,
+    search, refresh, showFavorites, setRecipeFeedback, addNewRecipe,
+  };
 }

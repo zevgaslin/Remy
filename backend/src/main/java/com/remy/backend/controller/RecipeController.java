@@ -118,6 +118,26 @@ public class RecipeController {
                 userId.get(), preferences == null ? List.of() : preferences));
     }
 
+    @GetMapping("/reactions")
+    public ResponseEntity<?> getUserReactions(
+            @RequestHeader(value = "Authorization", required = false) String authHeader) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to see your recipe ratings."));
+        }
+        return ResponseEntity.ok(recipePreferenceService.reactions(userId.get()));
+    }
+
+    @GetMapping("/favorites")
+    public ResponseEntity<?> getFavoriteRecipes(
+            @RequestHeader(value = "Authorization", required = false) String authHeader) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to see your favorite recipes."));
+        }
+        return ResponseEntity.ok(recipePreferenceService.favorites(userId.get()));
+    }
+
     @GetMapping("/{id}/preference")
     public ResponseEntity<?> getUserRecipePreference(
             @RequestHeader(value = "Authorization", required = false) String authHeader,
@@ -163,6 +183,17 @@ public class RecipeController {
         return applyPreference(authHeader, id, PreferenceType.DISLIKE);
     }
 
+    @DeleteMapping("/{id}/preference")
+    public ResponseEntity<?> clearRecipePreference(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @PathVariable Long id) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to rate recipes."));
+        }
+        return ResponseEntity.ok(ratingBody(recipePreferenceService.clear(userId.get(), id)));
+    }
+
     @PutMapping("/{id}")
     public ResponseEntity<?> updateRecipe(@PathVariable Long id, @RequestBody Map<String, String> request) {
         String name = request.get("name");
@@ -187,12 +218,15 @@ public class RecipeController {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to rate recipes."));
         }
 
-        RatingResult result = recipePreferenceService.rate(userId.get(), recipeId, preference);
-        return ResponseEntity.ok(Map.of(
+        return ResponseEntity.ok(ratingBody(recipePreferenceService.rate(userId.get(), recipeId, preference)));
+    }
+
+    private Map<String, Object> ratingBody(RatingResult result) {
+        return Map.of(
                 "recipeId", result.recipeId(),
-                "preference", result.preference().name(),
+                "preference", result.preference() == null ? "NONE" : result.preference().name(),
                 "likes", result.likes(),
-                "dislikes", result.dislikes()));
+                "dislikes", result.dislikes());
     }
 
     private boolean isBlank(String value) {

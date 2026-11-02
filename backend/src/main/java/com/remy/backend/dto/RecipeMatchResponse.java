@@ -10,18 +10,21 @@ public class RecipeMatchResponse {
     private final List<String> matchedIngredients;
     private final List<String> missingIngredients;
     private final List<PreferenceCriterion> matchedPreferences;
+    private final List<String> expiringIngredients;
 
     public RecipeMatchResponse(
             Recipe recipe,
             double matchScore,
             List<String> matchedIngredients,
             List<String> missingIngredients,
-            List<PreferenceCriterion> matchedPreferences) {
+            List<PreferenceCriterion> matchedPreferences,
+            List<String> expiringIngredients) {
         this.recipe = recipe;
         this.matchScore = matchScore;
         this.matchedIngredients = matchedIngredients;
         this.missingIngredients = missingIngredients;
         this.matchedPreferences = matchedPreferences;
+        this.expiringIngredients = expiringIngredients;
     }
 
     public Recipe getRecipe() {
@@ -42,5 +45,9 @@ public class RecipeMatchResponse {
 
     public List<PreferenceCriterion> getMatchedPreferences() {
         return matchedPreferences;
+    }
+
+    public List<String> getExpiringIngredients() {
+        return expiringIngredients;
     }
 }
