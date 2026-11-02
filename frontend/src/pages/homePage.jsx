@@ -18,7 +18,7 @@ function HomePage() {
         loadError={error}
         onSave={saveGoals}
       />
-      <CalendarPanel goals={goals} />
+      <CalendarPanel key={currentUser?.token ?? 'guest'} goals={goals} currentUser={currentUser} />
       <WeeklyRecap />
     </MealLogProvider>
   );

@@ -1,0 +1,57 @@
+import { act, renderHook, waitFor, cleanup } from '@testing-library/react';
+import { afterEach, beforeEach, expect, it, vi } from 'vitest';
+import { useCalendarPlan } from './useCalendarPlan';
+import { getCalendar, saveCalendar } from '../services/calendarServices';
+import { plannedMealsSubject } from '../services/plannedMealsStore';
+vi.mock('../services/calendarServices', () => ({ getCalendar: vi.fn(), saveCalendar: vi.fn() }));
+const user = { id: 1, token: 'one' };
+const empty = { revision: 0, plannedMeals: {}, dailyMealSlots: {} };
+const saved = { revision: 4, plannedMeals: { '2026-11-01::lunch': { id: 7, name: 'Soup' } }, dailyMealSlots: { '2026-11-01': [] } };
+beforeEach(() => { vi.clearAllMocks(); plannedMealsSubject.setOwner('guest'); plannedMealsSubject.setPlannedMeals({}); getCalendar.mockResolvedValue(empty); });
+afterEach(cleanup);
+it('loads the saved calendar without sending an empty overwrite and reloads on remount', async () => {
+  getCalendar.mockResolvedValue(saved);
+  const first = renderHook(() => useCalendarPlan(user));
+  expect(first.result.current.loading).toBe(true);
+  await waitFor(() => expect(first.result.current.plannedMeals).toEqual(saved.plannedMeals));
+  expect(saveCalendar).not.toHaveBeenCalled();
+  expect(plannedMealsSubject.getDailyMealSlots()).toEqual(saved.dailyMealSlots);
+  first.unmount();
+  const second = renderHook(() => useCalendarPlan({ ...user, token: 'new-session' }));
+  await waitFor(() => expect(second.result.current.revision).toBe(4));
+  expect(getCalendar).toHaveBeenLastCalledWith('new-session');
+});
+it('waits for successful saves and keeps the previous plan on failure with an explicit retry', async () => {
+  const { result } = renderHook(() => useCalendarPlan(user));
+  await waitFor(() => expect(result.current.loading).toBe(false));
+  saveCalendar.mockRejectedValueOnce(new Error('Offline')).mockResolvedValueOnce(saved);
+  await act(async () => { await result.current.commit({ ...saved, revision: 0 }); });
+  expect(result.current.plannedMeals).toEqual({});
+  expect(result.current.failure.message).toContain('Change not saved');
+  await act(async () => { await result.current.retrySave(); });
+  expect(result.current.plannedMeals).toEqual(saved.plannedMeals);
+  expect(result.current.failure).toBeNull();
+});
+it('does not replace another account with a stale load', async () => {
+  let resolveOld;
+  getCalendar.mockImplementationOnce(() => new Promise(resolve => { resolveOld = resolve; })).mockResolvedValueOnce(empty);
+  const first = renderHook(() => useCalendarPlan(user));
+  first.unmount();
+  const second = renderHook(() => useCalendarPlan({ id: 2, token: 'two' }));
+  await waitFor(() => expect(second.result.current.loading).toBe(false));
+  await act(async () => { resolveOld(saved); });
+  expect(second.result.current.plannedMeals).toEqual({});
+  expect(plannedMealsSubject.getPlannedMeals()).toEqual({});
+});
+it('blocks edits after load failure and detects conflicting saves', async () => {
+  getCalendar.mockRejectedValueOnce(new Error('Offline'));
+  const { result } = renderHook(() => useCalendarPlan(user));
+  await waitFor(() => expect(result.current.failure?.load).toBe(true));
+  await act(async () => { await result.current.commit(saved); });
+  expect(saveCalendar).not.toHaveBeenCalled();
+  await act(async () => { result.current.loadSaved(); });
+  await waitFor(() => expect(result.current.loading).toBe(false));
+  saveCalendar.mockRejectedValueOnce(Object.assign(new Error('Reload saved calendar'), { status: 409 }));
+  await act(async () => { await result.current.commit(saved); });
+  expect(result.current.failure.conflict).toBe(true);
+});
