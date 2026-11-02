@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { readStoredUser, saveStoredUser, clearStoredUser } from '../services/authStorage';
+import { plannedMealsSubject } from '../services/plannedMealsStore';
 import { getCurrentUser, logout as endServerSession, SessionExpiredError } from '../services/authServices';
 import { AuthContext } from './authContext';
 
@@ -8,6 +9,7 @@ export function AuthProvider({ children }) {
   const startupToken = useRef(currentUser?.token);
 
   useEffect(() => {
+    plannedMealsSubject.setOwner(currentUser?.id ?? 'guest');
     if (currentUser) {
       saveStoredUser(currentUser);
     } else {
@@ -37,12 +39,13 @@ export function AuthProvider({ children }) {
     if (currentUser?.token) {
       endServerSession(currentUser.token).catch(() => {});
     }
+    plannedMealsSubject.setOwner('guest');
     setCurrentUser(null);
   }
 
   const value = {
     currentUser,
-    login: setCurrentUser,
+    login: user => { plannedMealsSubject.setOwner(user.id); setCurrentUser(user); },
     logout,
   };
 

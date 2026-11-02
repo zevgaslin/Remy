@@ -1,3 +1,5 @@
+import WeeklyRecap from '../components/WeeklyRecap';
+import { MealLogProvider } from '../context/MealLogContext';
 import CalendarPanel from '../components/CalendarPanel';
 import NutritionGoalsCard from '../components/NutritionGoalsCard';
 import { useAuth } from '../context/useAuth';
@@ -8,7 +10,7 @@ function HomePage() {
   const { goals, error, saveGoals } = useNutritionGoals(currentUser);
 
   return (
-    <>
+    <MealLogProvider key={currentUser?.id ?? 'guest'} currentUser={currentUser}>
       <NutritionGoalsCard
         key={currentUser?.id ?? 'guest'}
         currentUser={currentUser}
@@ -16,8 +18,9 @@ function HomePage() {
         loadError={error}
         onSave={saveGoals}
       />
-      <CalendarPanel goals={goals} currentUser={currentUser} />
-    </>
+      <CalendarPanel key={currentUser?.token ?? 'guest'} goals={goals} currentUser={currentUser} />
+      <WeeklyRecap />
+    </MealLogProvider>
   );
 }
 

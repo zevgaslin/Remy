@@ -56,7 +56,7 @@ Search directly with `POST /api/recipes/search`:
 
 Each result contains the recipe, a `matchScore`, the matched pantry ingredients, and the missing required ingredients. Setting `requireAllIngredients` to `true` removes recipes that need anything not supplied in the search. Passing `expiringIngredients` (pantry items about to expire) keeps only recipes that use at least one of them, ranks recipes that use more of them first, and lists the ones each recipe uses in its `expiringIngredients` field. The recipes page sends everything that expires within 3 days when "Use up ingredients expiring in the next 3 days" is checked.
 
-The calendar recipe picker loads recipes from the backend; selected meals currently live in component state. Recipe reactions are stored per user in Supabase and reviewed recipes are excluded from that user’s feed.
+The calendar recipe picker loads recipes from the backend; signed-in users’ selected meals and custom slots are saved in Supabase and reloaded on refresh or login. Recipe reactions are stored per user in Supabase and reviewed recipes are excluded from that user’s feed.
 
 ## Running locally
 
@@ -101,3 +101,24 @@ From `frontend/`, use Node 22.12+ (or Node 20.19+) and run `npm test` and `npm r
 
 
 Supabase password: RemyDatabas
+## Eaten meals and weekly recaps
+
+On the dashboard, signed-in users can edit daily nutrition goals and mark calendar recipes as eaten with a serving quantity. Eaten meals are stored in Supabase independently of calendar plans, and remain in the food journal after a page refresh or a recipe edit/deletion. Undo an eaten meal from its calendar cell or the recap's daily food list. Calendar plans and custom meal slots are also stored per account in Supabase.
+
+The Weekly Recap below the calendar defaults to the last completed Monday–Sunday. A completed recap becomes available each Monday in the browser's local timezone; use Next week for the current week's progress, or Previous week for history. It is calculated when opened, with no background job or email required. An open dashboard checks for a date change every 30 seconds.
+
+Nutrition is captured from the server-side recipe per serving at logging time. Each day's first meal captures that day's goals; additional meals keep those targets even if goals change later that day. Protein hits goal at or above target. Calories, carbs, and fat hit within 10% of target (a zero target requires zero). Missing logs and missing nutrient values remain unknown; averages use only logged days with complete values for that nutrient. Results represent logged food, not a claim that all food for a day was recorded.
+
+Authenticated endpoints:
+- `POST /api/users/me/meal-logs`: `{ "recipeId": 1, "eatenOn": "2026-11-01", "slot": "lunch", "servings": 1, "timezone": "America/Chicago" }`. One eaten meal per user/date/slot; retries return the existing entry. Future dates are rejected.
+- `DELETE /api/users/me/meal-logs/{id}`: undo an owned log.
+- `GET /api/users/me/recaps/weekly?weekStart=2026-10-26&timezone=America/Chicago`: daily meal snapshots, nutrition totals, goal outcomes, and weekly counts. `weekStart` is an optional Monday; defaults to the previous week.
+
+
+## Saved calendar plans
+
+Signed-in users’ calendar recipes, meal times, custom slots, and removed slots save automatically after each change. Wait for “Calendar saved to your account” before closing the page. Guests can plan locally but must sign in to save across visits; guest plans are not automatically copied into an account. Account changes clear the shared shopping-cart plan to avoid mixing users’ calendars.
+
+`GET /api/users/me/calendar` returns `{ revision, plannedMeals, dailyMealSlots }`. `PUT` accepts the same shape. The backend derives ownership from the session token. Recipe details are snapshots so existing plans can still be displayed if catalog recipes change or are deleted. Marking a meal eaten still uses current server-side recipe nutrition.
+
+Saves include a revision to prevent stale tabs from silently overwriting newer plans. Failed saves keep the prior saved calendar and offer Retry save; conflicting saves require Reload saved calendar. A failed initial load blocks edits so an empty calendar cannot overwrite an existing one. Removing a planned meal never deletes an eaten-meal log.

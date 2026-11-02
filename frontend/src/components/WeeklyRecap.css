@@ -1,0 +1,17 @@
+.weekly-recap { margin: 20px 12px; padding: 24px; border: 1px solid var(--border); border-radius: 16px; background: var(--bg); color: var(--text); }
+.recap-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+.recap-heading h2 { margin: 4px 0; color: var(--text-h); }
+.recap-eyebrow { color: var(--accent); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
+.weekly-recap nav { display: flex; gap: 8px; flex-wrap: wrap; }
+.weekly-recap button, .meal-eaten-control button { border: 1px solid var(--border); background: var(--bg); color: var(--text-h); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.weekly-recap button:disabled, .meal-eaten-control button:disabled { opacity: .5; cursor: default; }
+.recap-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.recap-stats article { padding: 16px; background: var(--bg); border-radius: 10px; border: 1px solid var(--border); }
+.recap-stats h4 { margin: 0 0 12px; }.recap-stats strong { font-size: 1.5rem; }.recap-stats p { font-size: .85rem; }
+.recap-note { font-size: .85rem; line-height: 1.6; color: var(--text); }.recap-status { font-size: .75rem; font-weight: normal; }
+.recap-days details { border-top: 1px solid var(--border); padding: 12px 0; }.recap-days summary { cursor: pointer; }
+.recap-days li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 0; }.recap-days ul { padding: 0; }
+.recap-days dl > div { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 0; }.recap-days dd { margin: 0; }
+.meal-eaten-control { padding: 6px; display: flex; flex-direction: column; gap: 6px; font-size: .75rem; }
+.meal-eaten-control label { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }.meal-eaten-control input { width: 58px; padding: 3px; }
+.meal-eaten-badge { color: var(--accent); font-weight: 600; }.meal-eaten-control p { color: var(--urgent); }
