@@ -19,7 +19,7 @@ function HomePage() {
         onSave={saveGoals}
       />
       <CalendarPanel key={currentUser?.token ?? 'guest'} goals={goals} currentUser={currentUser} />
-      <WeeklyRecap />
+      <WeeklyRecap goals={goals} />
     </MealLogProvider>
   );
 }
