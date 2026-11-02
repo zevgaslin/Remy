@@ -172,6 +172,24 @@ describe('IngredientsPanel shopping cart (Observer)', () => {
     return screen.getByRole('heading', { name: 'Shopping Cart' }).closest('section');
   }
 
+  it('excludes cooking water but keeps purchased water products and other ingredients', async () => {
+    await renderPanel();
+    const recipeIngredients = ['Boiling water', { name: 'Water, chilled', quantity: 2, unit: 'cup' },
+      'Pot of water', 'Very Hot Water', 'Water to thin peanut sauce', 'Coconut water', 'Water chestnuts',
+      'Sparkling water', 'Chicken broth or water', 'Rice'];
+    await act(async () => {
+      setSharedPlannedMeals({ dinner: { name: 'Water test recipe', ingredients: recipeIngredients } });
+    });
+    const cart = within(getCart());
+    for (const name of ['Boiling water', 'Water, chilled', 'Pot of water', 'Very Hot Water', 'Water to thin peanut sauce']) {
+      expect(cart.queryByText(name)).not.toBeInTheDocument();
+    }
+    for (const name of ['Coconut water', 'Water chestnuts', 'Sparkling water', 'Chicken broth or water', 'Rice']) {
+      expect(cart.getByText(name)).toBeInTheDocument();
+    }
+    expect(recipeIngredients).toHaveLength(10);
+  });
+
   it('shows an empty message when no recipes are planned', async () => {
     await renderPanel();
 

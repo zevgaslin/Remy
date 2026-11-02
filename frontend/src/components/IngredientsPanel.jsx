@@ -6,6 +6,7 @@ import { useDragToTrash } from '../hooks/useDragToTrash';
 import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSounds';
 import { daysUntil } from '../utils/expiration';
 import AddIngredientModal from './AddIngredientModal';
+import { isShoppingException } from '../utils/shoppingExceptions';
 import TrashCan from './TrashCan';
 import UndoToast from './UndoToast';
 
@@ -164,7 +165,7 @@ function buildShoppingList(plannedMeals, pantry) {
     (recipe?.ingredients ?? []).forEach((entry) => {
       const display = recipeIngredientName(entry).trim();
       const key = normalizeName(display);
-      if (!key) return;
+      if (!key || isShoppingException(display)) return;
       if (!needed.has(key)) needed.set(key, { name: display, recipes: new Set(), amounts: [] });
       const item = needed.get(key);
       item.recipes.add(recipe.name);
@@ -297,6 +298,7 @@ function pantryQuantityLabel(item) {
 function IngredientsPanel({ currentUser }) {
   const { ingredients, setIngredients, loading, error } = useIngredients(currentUser?.token);
   const [modalOpen, setModalOpen] = useState(false);
+  const [editingIngredient, setEditingIngredient] = useState(null);
   const [toast, setToast] = useState(null);
   const [gulping, setGulping] = useState(false);
   // The ingredient waiting out its undo window: { item, timer }.
@@ -373,6 +375,7 @@ function IngredientsPanel({ currentUser }) {
   else if (drag) trashState = 'ready';
 
   function handleRowKeyDown(event, item) {
+    if (event.target !== event.currentTarget) return;
     if (event.key === 'Delete' || event.key === 'Backspace') {
       event.preventDefault();
       trashIngredient(item);
@@ -382,6 +385,12 @@ function IngredientsPanel({ currentUser }) {
   function handleAdded(newIngredient) {
     setIngredients((prev) => [...prev, newIngredient]);
     setModalOpen(false);
+  }
+
+  function handleSaved(saved) {
+    setIngredients(prev => prev.map(item => item.id === saved.id ? saved : item));
+    setEditingIngredient(null);
+    setToast({ message: `${saved.name} updated` });
   }
 
   const sortedIngredients = [...ingredients].sort(
@@ -436,6 +445,9 @@ function IngredientsPanel({ currentUser }) {
                     </span>
                   )}
                   <span className="ingredient-status">{statusLabel(daysLeft)}</span>
+                  <button type="button" className="ingredient-edit-button" aria-label={`Edit ${item.name}`}
+                    onPointerDown={event => event.stopPropagation()}
+                    onClick={event => { event.stopPropagation(); setEditingIngredient(item); }}>Edit</button>
                 </li>
               );
             })}
@@ -467,6 +479,8 @@ function IngredientsPanel({ currentUser }) {
             </div>,
             document.body,
           )}
+        {editingIngredient && <AddIngredientModal key={editingIngredient.id} token={currentUser.token}
+          ingredient={editingIngredient} onSaved={handleSaved} onClose={() => setEditingIngredient(null)} />}
         {modalOpen && (
           <AddIngredientModal
             token={currentUser.token}

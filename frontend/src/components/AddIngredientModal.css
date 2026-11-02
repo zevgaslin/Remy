@@ -56,3 +56,8 @@
 .barcode-guide-label { position: absolute; left: 50%; top: -30px; transform: translateX(-50%); white-space: nowrap; color: #dcfce7; background: #12351fee; border-radius: 5px; padding: 3px 8px; font-size: 11px; font-weight: 700; letter-spacing: .06em; }
 .barcode-guide-line { position: absolute; top: 50%; left: 5%; right: 5%; height: 2px; background: #4ade80; box-shadow: 0 0 8px #4ade80; opacity: .75; }
 .barcode-camera-help { color: var(--text); }
+
+.ingredient-form-fields { display: flex; flex-direction: column; gap: 14px; margin: 0; padding: 0; border: 0; min-width: 0; }
+.ingredient-edit-hint { margin: 0; font-size: .85rem; color: var(--text); }
+.ingredient-edit-button { padding: 5px 10px; border: 1px solid var(--border); border-radius: 6px; color: var(--text-h); background: var(--bg); cursor: pointer; flex-shrink: 0; }
+.ingredient-edit-button:hover { border-color: var(--accent); color: var(--accent); }
