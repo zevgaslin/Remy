@@ -1,0 +1,93 @@
+import '@testing-library/jest-dom/vitest';
+import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+import { afterEach, beforeEach, expect, it, vi } from 'vitest';
+import AddIngredientModal from './AddIngredientModal';
+import { lookupBarcode, startBarcodeReader } from '../services/barcodeServices';
+import { createIngredient } from '../services/ingredientServices';
+vi.mock('../services/barcodeServices', async original => ({ ...await original(), lookupBarcode: vi.fn(), startBarcodeReader: vi.fn() }));
+vi.mock('../services/ingredientServices', () => ({ createIngredient: vi.fn() }));
+const product = { barcode: '3017620422003', name: 'Hazelnut spread', brand: 'Example', packageSize: '400 g', servingSize: '15 g', basisUnit: 'g', nutritionPer100: { calories: 540, protein: 6, carbs: 58, fat: null }, sourceUrl: 'https://world.openfoodfacts.org/product/3017620422003' };
+let detect;
+let stop;
+beforeEach(() => {
+  vi.clearAllMocks();
+  stop = vi.fn();
+  vi.stubGlobal('navigator', { mediaDevices: { getUserMedia: vi.fn().mockResolvedValue({ getTracks: () => [{ stop }] }) } });
+  vi.spyOn(HTMLMediaElement.prototype, 'play').mockResolvedValue();
+  startBarcodeReader.mockImplementation(async (_, callback) => { detect = callback; return { stop: vi.fn() }; });
+  lookupBarcode.mockResolvedValue(product);
+  createIngredient.mockResolvedValue({ id: 1 });
+});
+afterEach(() => { cleanup(); vi.restoreAllMocks(); vi.unstubAllGlobals(); });
+function open() {
+  const onAdded = vi.fn();
+  const view = render(<AddIngredientModal token="token" onClose={vi.fn()} onAdded={onAdded} />);
+  fireEvent.click(screen.getByRole('tab', { name: 'Scan Barcode' }));
+  return { ...view, onAdded };
+}
+it('decodes once, fills editable pantry fields, and saves nutrition per gram', async () => {
+  const { onAdded } = open();
+  await waitFor(() => expect(startBarcodeReader).toHaveBeenCalled());
+  await act(async () => { detect(product.barcode); detect(product.barcode); });
+  expect(lookupBarcode).toHaveBeenCalledTimes(1);
+  expect(stop).toHaveBeenCalled();
+  expect(screen.getByLabelText('Name')).toHaveValue('Hazelnut spread');
+  expect(screen.getByLabelText('Calories')).toHaveValue(5.4);
+  expect(screen.getByLabelText('Protein (g)')).toHaveValue(0.06);
+  expect(screen.getByLabelText('Fat (g)')).toHaveValue(null);
+  fireEvent.change(screen.getByLabelText('Name'), { target: { value: 'My spread' } });
+  expect(screen.getByLabelText('Quantity')).toHaveValue(400);
+  fireEvent.change(screen.getByLabelText('Quantity'), { target: { value: '150' } });
+  fireEvent.change(screen.getByLabelText('Expiration Date'), { target: { value: '2027-03-01' } });
+  fireEvent.click(screen.getByRole('button', { name: 'Add Ingredient' }));
+  await waitFor(() => expect(onAdded).toHaveBeenCalledWith({ id: 1 }));
+  expect(createIngredient).toHaveBeenCalledWith('token', expect.objectContaining({ name: 'My spread', quantity: 150, unit: 'g', calories: 5.4, protein: 0.06, carbs: 0.58, fat: null }));
+});
+it('supports manually typing a barcode and keeps ml separate from g', async () => {
+  lookupBarcode.mockResolvedValue({ ...product, packageSize: '1 L', basisUnit: 'ml', nutritionPer100: { calories: 40, protein: 0, carbs: 10, fat: 0 } });
+  open();
+  fireEvent.change(screen.getByLabelText('Barcode number'), { target: { value: product.barcode } });
+  fireEvent.click(screen.getByRole('button', { name: 'Look up barcode' }));
+  await waitFor(() => expect(screen.getByLabelText('Unit')).toHaveValue('ml'));
+  expect(screen.getByLabelText('Quantity')).toHaveValue(1000);
+  expect(screen.getByLabelText('Calories')).toHaveValue(0.4);
+  expect(screen.getByLabelText('Protein (g)')).toHaveValue(0);
+  fireEvent.click(screen.getByRole('button', { name: 'Use a different unit and enter nutrition manually' }));
+  expect(screen.getByLabelText('Calories')).toHaveValue(null);
+  expect(screen.getByLabelText('Unit')).toHaveValue('');
+});
+it('requires confirmation of missing nutrition basis and preserves an entered expiration date', async () => {
+  lookupBarcode.mockResolvedValue({ ...product, packageSize: '1 bottle', basisUnit: null });
+  render(<AddIngredientModal token="token" onClose={vi.fn()} onAdded={vi.fn()} />);
+  fireEvent.change(screen.getByLabelText('Expiration Date'), { target: { value: '2027-01-02' } });
+  fireEvent.click(screen.getByRole('tab', { name: 'Scan Barcode' }));
+  fireEvent.change(screen.getByLabelText('Barcode number'), { target: { value: product.barcode } });
+  fireEvent.click(screen.getByRole('button', { name: 'Look up barcode' }));
+  await screen.findByText(/Choose whether the nutrition label/);
+  expect(screen.getByLabelText('Unit')).toHaveValue('');
+  expect(screen.getByLabelText('Quantity')).toHaveValue(null);
+  expect(screen.getByLabelText('Expiration Date')).toHaveValue('2027-01-02');
+});
+it('explains missing products, allows retry, and never overwrites manual data on failure', async () => {
+  lookupBarcode.mockRejectedValueOnce(new Error('Product not found'));
+  render(<AddIngredientModal token="token" onClose={vi.fn()} onAdded={vi.fn()} />);
+  fireEvent.change(screen.getByLabelText('Name'), { target: { value: 'My milk' } });
+  fireEvent.click(screen.getByRole('tab', { name: 'Scan Barcode' }));
+  fireEvent.change(screen.getByLabelText('Barcode number'), { target: { value: product.barcode } });
+  fireEvent.click(screen.getByRole('button', { name: 'Look up barcode' }));
+  expect(await screen.findByRole('alert')).toHaveTextContent('Product not found');
+  fireEvent.click(screen.getByRole('tab', { name: 'Manual Entry' }));
+  expect(screen.getByLabelText('Name')).toHaveValue('My milk');
+});
+it('aborts lookup when leaving Scan and ignores a late response', async () => {
+  let resolve;
+  lookupBarcode.mockImplementation(() => new Promise(done => { resolve = done; }));
+  open();
+  fireEvent.change(screen.getByLabelText('Barcode number'), { target: { value: product.barcode } });
+  fireEvent.click(screen.getByRole('button', { name: 'Look up barcode' }));
+  const signal = lookupBarcode.mock.calls[0][2];
+  fireEvent.click(screen.getByRole('tab', { name: 'Manual Entry' }));
+  expect(signal.aborted).toBe(true);
+  await act(async () => resolve(product));
+  expect(screen.getByLabelText('Name')).toHaveValue('');
+});
