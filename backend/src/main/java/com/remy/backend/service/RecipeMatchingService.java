@@ -61,13 +61,10 @@ public class RecipeMatchingService {
 
     @Transactional(readOnly = true)
     public List<RecipeMatchResponse> search(RecipeSearchRequest request) {
-        Set<String> availableIngredients = new HashSet<>();
-        if (request.getIngredients() != null) {
-            request.getIngredients().stream()
-                    .filter(value -> value != null && !value.isBlank())
-                    .map(IngredientNameNormalizer::canonicalize)
-                    .forEach(availableIngredients::add);
-        }
+        Set<String> availableIngredients = canonicalNames(request.getIngredients());
+        Set<String> expiringIngredients = canonicalNames(request.getExpiringIngredients());
+        // Expiring items are still in the pantry, so they count toward what the user has.
+        availableIngredients.addAll(expiringIngredients);
 
         List<PreferenceCriterion> requestedPreferences = request.getPreferences() == null ? List.of() : 
                 request.getPreferences().stream()
@@ -80,10 +77,10 @@ public class RecipeMatchingService {
 
         int limit = request.getLimit() == null ? 20 : Math.max(1, Math.min(request.getLimit(), 100));
 
-        var ids = recipeQueryRepository.search(request.getQuery(), availableIngredients, requestedPreferences,
-                request.isRequireAllIngredients(), limit);
+        var ids = recipeQueryRepository.search(request.getQuery(), availableIngredients, expiringIngredients,
+                requestedPreferences, request.isRequireAllIngredients(), limit);
         return loadInOrder(ids).stream()
-                .map(recipe -> score(recipe, availableIngredients, requestedPreferences))
+                .map(recipe -> score(recipe, availableIngredients, expiringIngredients, requestedPreferences))
                 .toList();
     }
 
@@ -92,7 +89,7 @@ public class RecipeMatchingService {
         PreferenceCriterion preference = preferences.isEmpty() ? null : preferences.get(0);
         return recipeQueryRepository.randomId(preference)
                 .map(id -> loadInOrder(List.of(id)).stream()
-                        .map(recipe -> score(recipe, ingredients, preferences))
+                        .map(recipe -> score(recipe, ingredients, Set.of(), preferences))
                         .toList())
                 .orElseGet(List::of);
     }
@@ -142,15 +139,20 @@ public class RecipeMatchingService {
     private RecipeMatchResponse score(
             Recipe recipe,
             Set<String> availableIngredients,
+            Set<String> expiringIngredients,
             List<PreferenceCriterion> requestedPreferences) {
         List<String> matched = new ArrayList<>();
         List<String> missing = new ArrayList<>();
+        Set<String> expiringUsed = new HashSet<>();
         int requiredCount = 0;
         int matchedRequiredCount = 0;
 
         for (RecipeIngredient ingredient : recipe.getIngredients()) {
-            boolean available = availableIngredients.contains(
-                    IngredientNameNormalizer.canonicalize(ingredient.getIngredientName()));
+            String canonical = IngredientNameNormalizer.canonicalize(ingredient.getIngredientName());
+            boolean available = availableIngredients.contains(canonical);
+            if (expiringIngredients.contains(canonical)) {
+                expiringUsed.add(ingredient.getIngredientName());
+            }
             if (available) {
                 matched.add(ingredient.getIngredientName());
             }
@@ -176,7 +178,19 @@ public class RecipeMatchingService {
                 Math.round(score * 100.0) / 100.0,
                 matched.stream().sorted().toList(),
                 missing.stream().sorted().toList(),
-                requestedPreferences);
+                requestedPreferences,
+                expiringUsed.stream().sorted().toList());
+    }
+
+    private Set<String> canonicalNames(List<String> names) {
+        Set<String> canonical = new HashSet<>();
+        if (names != null) {
+            names.stream()
+                    .filter(value -> value != null && !value.isBlank())
+                    .map(IngredientNameNormalizer::canonicalize)
+                    .forEach(canonical::add);
+        }
+        return canonical;
     }
 
     private String normalize(String value) {
