@@ -1,16 +1,16 @@
 // @vitest-environment jsdom
 import React from 'react';
-import { render, screen, fireEvent, cleanup } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom/vitest';
 import CalendarPanel, {
   getDailyNutritionTotal,
+  getNutritionGoalColor,
   DailyNutritionSummary,
   VIEW_STRATEGIES,
 } from './CalendarPanel';
 import { getAllRecipes } from '../services/recipeServices';
 import { getCalendar, saveCalendar } from '../services/calendarServices';
-import { waitFor } from '@testing-library/react';
-import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
 
 // Mock the recipe service API call using Vitest's vi
@@ -82,6 +82,35 @@ describe('getDailyNutritionTotal', () => {
     const result = getDailyNutritionTotal(fixedDate, mockMeals);
 
     expect(result).toEqual({ calories: 250, protein: 15, carbs: 30, fat: 8 });
+  });
+});
+
+describe('getNutritionGoalColor', () => {
+  const goals = { calories: 2000, protein: 100, carbs: 200, fat: 100 };
+
+  it('returns green when average percentage deviation is 10% or less', () => {
+    expect(getNutritionGoalColor({ calories: 2000, protein: 100, carbs: 200, fat: 100 }, goals)).toBe('green');
+    expect(getNutritionGoalColor({ calories: 1800, protein: 90, carbs: 180, fat: 90 }, goals)).toBe('green');
+  });
+
+  it('returns yellow when average percentage deviation is more than 10% up to 20%', () => {
+    expect(getNutritionGoalColor({ calories: 1700, protein: 85, carbs: 170, fat: 85 }, goals)).toBe('yellow');
+    expect(getNutritionGoalColor({ calories: 1600, protein: 80, carbs: 160, fat: 80 }, goals)).toBe('yellow');
+  });
+
+  it('returns orange when average percentage deviation is more than 20% up to 40%', () => {
+    expect(getNutritionGoalColor({ calories: 1400, protein: 70, carbs: 140, fat: 70 }, goals)).toBe('orange');
+    expect(getNutritionGoalColor({ calories: 1200, protein: 60, carbs: 120, fat: 60 }, goals)).toBe('orange');
+  });
+
+  it('returns red when average percentage deviation is more than 40%', () => {
+    expect(getNutritionGoalColor({ calories: 800, protein: 40, carbs: 80, fat: 40 }, goals)).toBe('red');
+    expect(getNutritionGoalColor({ calories: 3200, protein: 160, carbs: 320, fat: 160 }, goals)).toBe('red');
+  });
+
+  it('handles zero or empty goals and missing totals gracefully', () => {
+    expect(getNutritionGoalColor({ calories: 500 }, { calories: 0, protein: 0, carbs: 0, fat: 0 })).toBe('green');
+    expect(getNutritionGoalColor({})).toBe('red');
   });
 });
 
@@ -266,9 +295,45 @@ describe('CalendarPanel View Strategies & Timeline Compression', () => {
     expect(screen.getByText('Mon')).toBeInTheDocument();
     expect(screen.getByText('Sun')).toBeInTheDocument();
     expect(container.querySelector('.meal-dot')).toBeInTheDocument();
+    expect(container.querySelector('.calendar-day.calendar-day--red')).toBeInTheDocument();
 
     // Verify VIEW_STRATEGIES registry exports expected keys
     expect(Object.keys(VIEW_STRATEGIES)).toEqual(['day', 'week', 'next7', 'month']);
+  });
+
+  it('color codes planned days in Month view based on average nutrition goal deviation and leaves unplanned days uncolored', () => {
+    const goals = { calories: 2000, protein: 100, carbs: 200, fat: 100 };
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+
+    setSharedPlannedMeals({
+      [`${year}-${month}-05::breakfast`]: {
+        name: 'Spot On Meal',
+        nutrition: { calories: 1950, protein: 98, carbs: 195, fat: 98 },
+      },
+      [`${year}-${month}-10::lunch`]: {
+        name: 'Slightly Off Meal',
+        nutrition: { calories: 1700, protein: 85, carbs: 170, fat: 85 },
+      },
+      [`${year}-${month}-15::dinner`]: {
+        name: 'Moderately Off Meal',
+        nutrition: { calories: 1400, protein: 70, carbs: 140, fat: 70 },
+      },
+      [`${year}-${month}-20::snack`]: {
+        name: 'Way Off Meal',
+        nutrition: { calories: 500, protein: 20, carbs: 50, fat: 20 },
+      },
+    });
+
+    const { container } = render(<CalendarPanel goals={goals} />);
+    fireEvent.click(screen.getByRole('button', { name: 'Month' }));
+
+    expect(container.querySelector('.calendar-day.calendar-day--green')).toBeInTheDocument();
+    expect(container.querySelector('.calendar-day.calendar-day--yellow')).toBeInTheDocument();
+    expect(container.querySelector('.calendar-day.calendar-day--orange')).toBeInTheDocument();
+    expect(container.querySelector('.calendar-day.calendar-day--red')).toBeInTheDocument();
+    expect(container.querySelectorAll('.calendar-day[data-goal-color]')).toHaveLength(4);
   });
 });
 
@@ -437,5 +502,27 @@ describe('CalendarPanel saved meal plan', () => {
     expect(screen.queryByText('Guest Granola')).not.toBeInTheDocument();
     expect(screen.getByText('Breakfast (8 AM)')).toBeInTheDocument();
     expect(saveCalendar).not.toHaveBeenCalled();
+  });
+
+  it('retries saving or reloads the saved calendar after a save error', async () => {
+    saveCalendar
+      .mockRejectedValueOnce(new Error('Temporary network error.'))
+      .mockImplementationOnce(async (_, plan) => ({ ...plan, revision: plan.revision + 1 }));
+
+    render(<CalendarPanel currentUser={user} />);
+    await waitFor(() => expect(getCalendar).toHaveBeenCalled());
+
+    fireEvent.click(screen.getByRole('button', { name: /Remove Lunch on/i }));
+    expect(await screen.findByRole('alert')).toHaveTextContent('Temporary network error.');
+
+    fireEvent.click(screen.getByRole('button', { name: 'Retry save' }));
+    await waitFor(() => expect(saveCalendar).toHaveBeenCalledTimes(2));
+
+    saveCalendar.mockRejectedValueOnce(new Error('Another save error.'));
+    fireEvent.click(screen.getByRole('button', { name: /Remove Snack on/i }));
+    expect(await screen.findByRole('alert')).toHaveTextContent('Another save error.');
+
+    fireEvent.click(screen.getByRole('button', { name: 'Reload saved calendar' }));
+    await waitFor(() => expect(getCalendar).toHaveBeenCalledTimes(2));
   });
 });

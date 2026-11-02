@@ -108,6 +108,24 @@ export function getDailyNutritionTotal(date, meals, mealSlots = DEFAULT_MEAL_SLO
   return totals;
 }
 
+export function getNutritionGoalColor(totals, goals = DEFAULT_GOALS) {
+  const activeNutrients = NUTRIENTS.filter(({ key }) => (goals?.[key] ?? 0) > 0);
+  if (activeNutrients.length === 0) return 'green';
+
+  const totalDeviation = activeNutrients.reduce((sum, { key }) => {
+    const goal = goals[key];
+    const actual = totals?.[key] ?? 0;
+    return sum + Math.abs(actual - goal) / goal;
+  }, 0);
+
+  const avgDeviation = Number((totalDeviation / activeNutrients.length).toFixed(6));
+
+  if (avgDeviation > 0.4) return 'red';
+  if (avgDeviation > 0.2) return 'orange';
+  if (avgDeviation > 0.1) return 'yellow';
+  return 'green';
+}
+
 export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS }) {
   return (
     <div className="daily-nutrition-summary">
@@ -515,7 +533,14 @@ function useCurrentTimeProgress() {
    Concrete View Render Strategies
    ========================================================================== */
 
-function MonthViewStrategy({ days, today, plannedDateKeys }) {
+function MonthViewStrategy({
+  days,
+  today,
+  getDaySlots = () => DEFAULT_MEAL_SLOTS,
+  plannedMeals = {},
+  plannedDateKeys = new Set(),
+  goals = DEFAULT_GOALS,
+}) {
   return (
     <div className="calendar-grid month">
       {WEEKDAY_LABELS.map((label) => (
@@ -523,19 +548,32 @@ function MonthViewStrategy({ days, today, plannedDateKeys }) {
           {label}
         </div>
       ))}
-      {days.map((day) => (
-        <div
-          key={dateKey(day)}
-          className={
-            'calendar-day' +
-            (isSameDay(day, today) ? ' today' : '') +
-            (day.getMonth() !== today.getMonth() ? ' outside' : '')
-          }
-        >
-          <span className="calendar-day-number">{day.getDate()}</span>
-          {plannedDateKeys.has(dateKey(day)) && <span className="meal-dot" />}
-        </div>
-      ))}
+      {days.map((day) => {
+        const dKey = dateKey(day);
+        const hasPlannedMeals = plannedDateKeys.has(dKey);
+        const goalColor = hasPlannedMeals
+          ? getNutritionGoalColor(
+              getDailyNutritionTotal(day, plannedMeals, getDaySlots(day)),
+              goals
+            )
+          : null;
+
+        return (
+          <div
+            key={dKey}
+            data-goal-color={goalColor || undefined}
+            className={
+              'calendar-day' +
+              (isSameDay(day, today) ? ' today' : '') +
+              (day.getMonth() !== today.getMonth() ? ' outside' : '') +
+              (goalColor ? ` calendar-day--${goalColor} ${goalColor}` : '')
+            }
+          >
+            <span className="calendar-day-number">{day.getDate()}</span>
+            {hasPlannedMeals && <span className="meal-dot" />}
+          </div>
+        );
+      })}
     </div>
   );
 }
