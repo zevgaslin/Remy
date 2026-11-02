@@ -56,6 +56,23 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     return invalidateRequests;
   }, [loadFeed, invalidateRequests]);
 
+  // Saved likes and dislikes, so hearts stay filled across reloads and in search results.
+  useEffect(() => {
+    if (!token) return undefined;
+    let active = true;
+    getRecipeReactions(token)
+      .then(reactions => {
+        if (!active) return;
+        const saved = {};
+        Object.entries(reactions).forEach(([id, preference]) => {
+          if (FEEDBACK_BY_PREFERENCE[preference]) saved[id] = FEEDBACK_BY_PREFERENCE[preference];
+        });
+        setFeedback(previous => ({ ...saved, ...previous }));
+      })
+      .catch(() => {});
+    return () => { active = false; };
+  }, [token]);
+
   async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, useExpiringSoon = false, random = false } = {}) {
     const pantrySearch = useCurrentIngredients || requireAllIngredients;
     // Without typed ingredients, the expiring filter scores recipes against the whole pantry.
