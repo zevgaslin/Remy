@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { deleteIngredient } from '../services/ingredientServices';
 import { useIngredients } from '../hooks/useIngredients';
@@ -6,7 +6,7 @@ import { useDragToTrash } from '../hooks/useDragToTrash';
 import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSounds';
 import { daysUntil } from '../utils/expiration';
 import AddIngredientModal from './AddIngredientModal';
-import { isShoppingException } from '../utils/shoppingExceptions';
+import GroceryList from './GroceryList';
 import TrashCan from './TrashCan';
 import UndoToast from './UndoToast';
 
@@ -22,57 +22,15 @@ const GULP_MS = 450;
    Concrete subject: PlannedMealsSubject, which holds the recipes planned in
                      the calendar. CalendarPanel writes to it and never knows
                      who is listening.
-   Concrete observer: the ShoppingCart component, which registers itself and
-                     recomputes whenever it is notified.
+   Concrete observer: the GroceryList component, which registers itself and
+                     reloads the list from the server whenever it is notified.
    ========================================================================== */
 
 export { plannedMealsSubject, setSharedPlannedMeals } from '../services/plannedMealsStore';
-import { plannedMealsSubject } from '../services/plannedMealsStore';
 
 /* ==========================================================================
-   Units
+   Formatting
    ========================================================================== */
-
-// Each unit converts to a base unit within its family (volume: tsp, weight: g),
-// so 0.25 cup in the pantry can be subtracted from 4 tbsp in a recipe.
-const UNIT_TABLE = {
-  tsp: { family: 'volume', factor: 1 },
-  tbsp: { family: 'volume', factor: 3 },
-  fl_oz: { family: 'volume', factor: 6 },
-  cup: { family: 'volume', factor: 48 },
-  ml: { family: 'volume', factor: 0.2029 },
-  l: { family: 'volume', factor: 202.9 },
-  g: { family: 'weight', factor: 1 },
-  oz: { family: 'weight', factor: 28.3495 },
-  lb: { family: 'weight', factor: 453.592 },
-  kg: { family: 'weight', factor: 1000 },
-};
-
-const UNIT_ALIASES = {
-  tablespoon: 'tbsp',
-  teaspoon: 'tsp',
-  ounce: 'oz',
-  pound: 'lb',
-  gram: 'g',
-  kilogram: 'kg',
-  liter: 'l',
-  litre: 'l',
-  milliliter: 'ml',
-  millilitre: 'ml',
-  'fl oz': 'fl_oz',
-  floz: 'fl_oz',
-};
-
-function normalizeUnit(unit) {
-  let u = String(unit ?? '').trim().toLowerCase().replace(/\./g, '');
-  if (u.length > 2 && u.endsWith('s') && !u.endsWith('ss')) u = u.slice(0, -1);
-  return UNIT_ALIASES[u] ?? u;
-}
-
-function unitInfo(unit) {
-  const norm = normalizeUnit(unit);
-  return UNIT_TABLE[norm] ?? { family: `unit:${norm}`, factor: 1 };
-}
 
 function formatQuantity(value) {
   if (typeof value !== 'number') return String(value);
@@ -82,159 +40,6 @@ function formatQuantity(value) {
 function formatWithUnit(quantity, unit) {
   const u = String(unit ?? '').trim();
   return `${formatQuantity(quantity)}${u ? ` ${u}` : ''}`;
-}
-
-/* ==========================================================================
-   Shopping list logic
-   ========================================================================== */
-
-function normalizeName(name) {
-  return String(name ?? '').trim().toLowerCase();
-}
-
-// Recipe ingredients may be strings or objects like { name, quantity, unit }.
-function recipeIngredientName(entry) {
-  if (typeof entry === 'string') return entry;
-  return entry?.name ?? entry?.ingredient ?? entry?.ingredientName ?? '';
-}
-
-function recipeIngredientAmount(entry) {
-  if (!entry || typeof entry === 'string') return { quantity: null, unit: '' };
-  const raw = entry.quantity ?? entry.amount ?? entry.qty ?? null;
-  const unit = String(entry.unit ?? entry.units ?? '').trim();
-  if (raw == null || raw === '') return { quantity: null, unit };
-  const asNumber = Number(raw);
-  return { quantity: Number.isNaN(asNumber) ? String(raw) : asNumber, unit };
-}
-
-function namesMatch(name, ownedName) {
-  return (
-    ownedName === name ||
-    (name.length >= 3 &&
-      ownedName.length >= 3 &&
-      (ownedName.includes(name) || name.includes(ownedName)))
-  );
-}
-
-// How much of a recipe's need is still missing after what the pantry holds.
-// Returns null when the pantry already covers it.
-function remainingAmount(amounts, ownedItems) {
-  if (ownedItems.length === 0) {
-    const parts = amounts
-      .filter((a) => a.quantity != null)
-      .map((a) => formatWithUnit(a.quantity, a.unit));
-    return { amount: parts.join(' + '), have: '' };
-  }
-
-  const numericNeeds = amounts.filter((a) => typeof a.quantity === 'number');
-  // Recipe gives no comparable amount, so owning any of it counts as covered.
-  if (numericNeeds.length === 0) return null;
-
-  const needByFamily = new Map();
-  numericNeeds.forEach(({ quantity, unit }) => {
-    const { family, factor } = unitInfo(unit);
-    const entry = needByFamily.get(family) ?? { base: 0, displayUnit: unit, factor };
-    entry.base += quantity * factor;
-    needByFamily.set(family, entry);
-  });
-
-  const haveByFamily = new Map();
-  const haveParts = [];
-  ownedItems.forEach((item) => {
-    const quantity = Number(item.quantity);
-    if (!Number.isFinite(quantity) || quantity <= 0) return;
-    const { family, factor } = unitInfo(item.unit);
-    haveByFamily.set(family, (haveByFamily.get(family) ?? 0) + quantity * factor);
-    haveParts.push(formatWithUnit(quantity, item.unit));
-  });
-
-  const parts = [];
-  needByFamily.forEach((entry, family) => {
-    const left = entry.base - (haveByFamily.get(family) ?? 0);
-    if (left > 1e-6) parts.push(formatWithUnit(left / entry.factor, entry.displayUnit));
-  });
-
-  if (parts.length === 0) return null;
-  return { amount: parts.join(' + '), have: haveParts.join(' + ') };
-}
-
-function buildShoppingList(plannedMeals, pantry) {
-  const needed = new Map();
-
-  Object.values(plannedMeals).forEach((recipe) => {
-    (recipe?.ingredients ?? []).forEach((entry) => {
-      const display = recipeIngredientName(entry).trim();
-      const key = normalizeName(display);
-      if (!key || isShoppingException(display)) return;
-      if (!needed.has(key)) needed.set(key, { name: display, recipes: new Set(), amounts: [] });
-      const item = needed.get(key);
-      item.recipes.add(recipe.name);
-      item.amounts.push(recipeIngredientAmount(entry));
-    });
-  });
-
-  const rows = [];
-  needed.forEach((item, key) => {
-    const owned = pantry.filter((p) => namesMatch(key, normalizeName(p.name)));
-    const result = remainingAmount(item.amounts, owned);
-    if (!result) return;
-    rows.push({
-      name: item.name,
-      recipes: [...item.recipes],
-      amount: result.amount,
-      have: result.have,
-    });
-  });
-
-  return rows.sort((a, b) => a.name.localeCompare(b.name));
-}
-
-// Concrete observer: registers with the subject on mount, unregisters on unmount.
-function ShoppingCart({ ingredients }) {
-  const [plannedMeals, setPlannedMeals] = useState(() => plannedMealsSubject.getPlannedMeals());
-
-  useEffect(() => {
-    const observer = {
-      update(subject) {
-        setPlannedMeals(subject.getPlannedMeals());
-      },
-    };
-    plannedMealsSubject.addObserver(observer);
-    // Catch any change that happened between the first render and subscribing.
-    setPlannedMeals(plannedMealsSubject.getPlannedMeals());
-    return () => plannedMealsSubject.removeObserver(observer);
-  }, []);
-
-  const list = useMemo(
-    () => buildShoppingList(plannedMeals, ingredients),
-    [plannedMeals, ingredients],
-  );
-
-  return (
-    <section className="ingredients-panel shopping-cart-panel">
-      <h2>Shopping Cart</h2>
-      {list.length === 0 ? (
-        <p>Nothing to buy. Add recipes to your calendar to see what you need.</p>
-      ) : (
-        <ul className="ingredients-list">
-          {list.map((item) => (
-            <li
-              key={item.name.toLowerCase()}
-              className="ingredient-row"
-              title={
-                `Needed for: ${item.recipes.join(', ')}` +
-                (item.have ? ` · You already have ${item.have}` : '')
-              }
-            >
-              <span>{item.name}</span>
-              <span className="ingredient-calories">{item.recipes.join(', ')}</span>
-              <span className="ingredient-status">{item.amount || 'Amount not listed'}</span>
-            </li>
-          ))}
-        </ul>
-      )}
-    </section>
-  );
 }
 
 /* ==========================================================================
@@ -490,7 +295,7 @@ function IngredientsPanel({ currentUser }) {
         )}
       </section>
 
-      {currentUser && !loading && !error && <ShoppingCart ingredients={ingredients} />}
+      {currentUser && !loading && !error && <GroceryList token={currentUser.token} ingredients={ingredients} />}
     </>
   );
 }
