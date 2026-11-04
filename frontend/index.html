@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <title>Remy</title>
+    <script>
+      // Apply the saved theme before the app loads (see src/utils/theme.js).
+      try {
+        var theme = localStorage.getItem('remy-theme');
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

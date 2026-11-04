@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, NavLink } from 'react-router';
 import AuthModal from './AuthModal';
 import NotificationBell from './NotificationBell';
+import ThemeToggle from './ThemeToggle';
 import { useAuth } from '../context/useAuth';
 
 const NAV_LINKS = [
@@ -34,19 +35,22 @@ function TopBar() {
           </NavLink>
         ))}
       </nav>
-      {currentUser ? (
-        <div className="account-menu">
-          <NotificationBell key={currentUser.id} currentUser={currentUser} />
-          <span className="account-greeting">Hi, {currentUser.username}</span>
-          <button type="button" className="auth-button" onClick={logout}>
-            Log Out
+      <div className="account-menu">
+        <ThemeToggle />
+        {currentUser ? (
+          <>
+            <NotificationBell key={currentUser.id} currentUser={currentUser} />
+            <span className="account-greeting">Hi, {currentUser.username}</span>
+            <button type="button" className="auth-button" onClick={logout}>
+              Log Out
+            </button>
+          </>
+        ) : (
+          <button type="button" className="auth-button" onClick={() => setModalOpen(true)}>
+            Log In / Sign Up
           </button>
-        </div>
-      ) : (
-        <button type="button" className="auth-button" onClick={() => setModalOpen(true)}>
-          Log In / Sign Up
-        </button>
-      )}
+        )}
+      </div>
       {modalOpen && (
         <AuthModal onClose={() => setModalOpen(false)} onAuthSuccess={handleAuthSuccess} />
       )}
