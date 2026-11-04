@@ -33,8 +33,8 @@ const INITIAL_RECIPE_STATE = {
 
 function RecipesPanel({ currentUser }) {
   const {
-    recipes, feedback, loading, error, searchActive, showingFavorites,
-    search, refresh, showFavorites, setRecipeFeedback, addNewRecipe,
+    recipes, feedback, ratings, loading, error, searchActive, showingFavorites,
+    search, refresh, showFavorites, setRecipeFeedback, setRecipeRating, addNewRecipe,
   } = useRecipes(currentUser);
   
   // Search state
@@ -214,15 +214,35 @@ function RecipesPanel({ currentUser }) {
           <button type="button" className="auth-button" onClick={() => setShowAddModal(true)} disabled={loading}>
             + Add Recipe
           </button>
-          {currentUser && (
-            <button type="button" className="auth-button" onClick={showFavorites} disabled={loading}>
-              ♥ Favorites
-            </button>
-          )}
           <button type="button" className="auth-button" onClick={refreshFeed} disabled={loading}>
             Refresh feed
           </button>
         </div>
+      </div>
+
+      <div className="recipe-tabs" role="tablist" aria-label="Recipe lists">
+        <button
+          type="button"
+          role="tab"
+          aria-selected={!searchActive && !showingFavorites}
+          className="recipe-tab"
+          onClick={refreshFeed}
+          disabled={loading}
+        >
+          For You
+        </button>
+        {currentUser && (
+          <button
+            type="button"
+            role="tab"
+            aria-selected={showingFavorites}
+            className="recipe-tab"
+            onClick={showFavorites}
+            disabled={loading}
+          >
+            ♥ Favorites
+          </button>
+        )}
       </div>
 
       {showAddModal && (
@@ -477,7 +497,7 @@ function RecipesPanel({ currentUser }) {
               {searchActive
                 ? 'No recipes match your search criteria.'
                 : showingFavorites
-                  ? 'No favorites yet. Tap ♥ on a recipe to save it here.'
+                  ? 'No favorites yet. Tap ♥ on a recipe to save it here, and rate it to sort your favorites.'
                   : 'No more recipes right now. Refresh to load another batch.'}
             </p>
           ) : (
@@ -492,8 +512,10 @@ function RecipesPanel({ currentUser }) {
                 missingIngredients={recipe.missingIngredients}
                 expiringIngredients={recipe.expiringIngredients}
                 feedback={feedback[recipe.id]}
+                rating={ratings[recipe.id] ?? null}
                 onFavorite={() => setRecipeFeedback(recipe.id, 'favorite')}
                 onDislike={() => setRecipeFeedback(recipe.id, 'dislike')}
+                onRate={(stars) => setRecipeRating(recipe.id, stars)}
               />
             ))
           )}

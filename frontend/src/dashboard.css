@@ -1682,3 +1682,109 @@ body.is-dragging-ingredient * {
 .recipe-details li { margin-bottom: 10px; }
 .recipe-card-info .recipe-details p { display: block; overflow: visible; }
 .recipe-instructions { white-space: pre-wrap; }
+
+/* ==========================================================================
+   Recipe tabs and star ratings
+   ========================================================================== */
+
+.recipe-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 8px;
+  background: var(--code-bg);
+  align-self: flex-start;
+}
+
+.recipe-tab {
+  border: none;
+  background: transparent;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.recipe-tab[aria-selected='true'] {
+  background: var(--bg);
+  color: var(--text-h);
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+
+.recipe-tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin: 4px 0;
+}
+
+.star-rating-stars {
+  display: inline-flex;
+}
+
+.star-rating-star {
+  padding: 0 2px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  opacity: 0.4;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.1s ease, transform 0.1s ease;
+}
+
+.star-rating-star.filled {
+  color: var(--warning);
+  opacity: 1;
+}
+
+.star-rating-star:hover {
+  transform: scale(1.15);
+}
+
+.star-rating-star:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-radius: 4px;
+}
+
+.star-rating-summary {
+  font-size: 12px;
+  color: var(--text);
+}
+
+@media (max-width: 720px) {
+  .recipe-tabs {
+    align-self: stretch;
+  }
+
+  .recipe-tab {
+    flex: 1;
+  }
+
+  /* Bigger touch targets for the stars. */
+  .star-rating-star {
+    font-size: 26px;
+    padding: 2px 4px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .star-rating-star {
+    transition: none;
+  }
+
+  .star-rating-star:hover {
+    transform: none;
+  }
+}

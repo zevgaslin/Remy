@@ -1,4 +1,5 @@
 import RecipeDetails from './RecipeDetails';
+import StarRating from './StarRating';
 
 function RecipeCard({
   name,
@@ -9,8 +10,10 @@ function RecipeCard({
   missingIngredients = [],
   expiringIngredients = [],
   feedback,
+  rating = null,
   onFavorite,
   onDislike,
+  onRate,
 }) {
   return (
     <div
@@ -24,6 +27,14 @@ function RecipeCard({
           )}
         </div>
         <p>{recipe.description || recipe.document?.description || instructions}</p>
+        {onRate && (
+          <StarRating
+            value={rating}
+            average={recipe.ratingAverage ?? null}
+            count={recipe.ratingCount ?? 0}
+            onRate={onRate}
+          />
+        )}
         <details className="recipe-expand">
           <summary>View recipe</summary>
           <RecipeDetails recipe={{ ...recipe, name, instructions }} />

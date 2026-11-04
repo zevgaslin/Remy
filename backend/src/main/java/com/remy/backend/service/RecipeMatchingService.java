@@ -56,11 +56,17 @@ public class RecipeMatchingService {
         request.setIngredients(ingredients);
         request.setPreferences(preferences);
         request.setLimit(limit);
-        return search(request);
+        return search(request, userId);
     }
 
     @Transactional(readOnly = true)
     public List<RecipeMatchResponse> search(RecipeSearchRequest request) {
+        return search(request, null);
+    }
+
+    /** userId, when given, lifts the user's higher-rated recipes in the ranking. */
+    @Transactional(readOnly = true)
+    public List<RecipeMatchResponse> search(RecipeSearchRequest request, Long userId) {
         Set<String> availableIngredients = canonicalNames(request.getIngredients());
         Set<String> expiringIngredients = canonicalNames(request.getExpiringIngredients());
         // Expiring items are still in the pantry, so they count toward what the user has.
@@ -78,7 +84,7 @@ public class RecipeMatchingService {
         int limit = request.getLimit() == null ? 20 : Math.max(1, Math.min(request.getLimit(), 100));
 
         var ids = recipeQueryRepository.search(request.getQuery(), availableIngredients, expiringIngredients,
-                requestedPreferences, request.isRequireAllIngredients(), limit);
+                requestedPreferences, request.isRequireAllIngredients(), limit, userId);
         return loadInOrder(ids).stream()
                 .map(recipe -> score(recipe, availableIngredients, expiringIngredients, requestedPreferences))
                 .toList();

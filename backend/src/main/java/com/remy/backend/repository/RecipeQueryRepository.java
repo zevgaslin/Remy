@@ -12,8 +12,24 @@ public class RecipeQueryRepository {
     private final NamedParameterJdbcTemplate jdbc;
     public RecipeQueryRepository(NamedParameterJdbcTemplate jdbc) { this.jdbc = jdbc; }
 
+    /**
+     * How much one star above or below neutral (3) moves a recipe in pantry-ranked search:
+     * 5 stars ranks like covering 20% more of the recipe's ingredients, 1 star like 20% fewer.
+     */
+    static final String RATING_BOOST_PER_STAR = "0.1";
+
+    /** The signed-in user's stars for r, with unrated counted as a neutral 3. */
+    private static final String MY_STARS =
+            "COALESCE((SELECT mr.stars FROM recipe_ratings mr WHERE mr.recipe_id=r.id AND mr.user_id=:userId), 3)";
+
     public List<Long> search(String query, Set<String> ingredients, Set<String> expiring,
             List<PreferenceCriterion> preferences, boolean requireAll, int limit) {
+        return search(query, ingredients, expiring, preferences, requireAll, limit, null);
+    }
+
+    /** userId, when given, ranks the user's higher-rated recipes above their lower-rated ones. */
+    public List<Long> search(String query, Set<String> ingredients, Set<String> expiring,
+            List<PreferenceCriterion> preferences, boolean requireAll, int limit, Long userId) {
         var parameters = new MapSqlParameterSource("limit", limit);
         var where = new StringBuilder(" WHERE true");
         String trimmed = query == null ? "" : query.trim().toLowerCase(Locale.ROOT);
@@ -55,9 +71,18 @@ public class RecipeQueryRepository {
             where.append(" AND EXISTS (SELECT 1 FROM recipe_ingredients ei WHERE ei.recipe_id=r.id AND ei.normalized_name IN (:expiring))");
             expiringRank = "(SELECT count(DISTINCT xi.normalized_name) FROM recipe_ingredients xi WHERE xi.recipe_id=r.id AND xi.normalized_name IN (:expiring))";
         }
+        String ratingOrder = "";
+        if (userId != null) {
+            parameters.addValue("userId", userId);
+            if (rank != null) {
+                rank = "(" + rank + " + (" + MY_STARS + " - 3) * " + RATING_BOOST_PER_STAR + ")";
+            } else {
+                ratingOrder = MY_STARS + " DESC, ";
+            }
+        }
         String sql = "SELECT r.id FROM recipe r" + where + " ORDER BY "
                 + (expiringRank == null ? "" : expiringRank + " DESC, ")
-                + (rank == null ? "" : rank + " DESC, ") + "r.name, r.id LIMIT :limit";
+                + (rank == null ? "" : rank + " DESC, ") + ratingOrder + "r.name, r.id LIMIT :limit";
         return jdbc.queryForList(sql, parameters, Long.class);
     }
 
@@ -75,13 +100,19 @@ public class RecipeQueryRepository {
                 parameters, Long.class).stream().findFirst();
     }
 
+    /**
+     * Recipes the user has not favorited or disliked. Their 5- and 4-star recipes come first,
+     * then unrated and 3-star ones (newest first), and 1- and 2-star ones last.
+     */
     public List<Long> feed(Long userId, int limit, int offset) {
         var parameters = new MapSqlParameterSource().addValue("limit",limit).addValue("offset",offset);
         String where = "";
+        String order = " ORDER BY r.id DESC";
         if (userId != null) {
             where = " WHERE NOT EXISTS (SELECT 1 FROM recipe_preferences rp WHERE rp.recipe_id=r.id AND rp.user_id=:userId)";
+            order = " ORDER BY " + MY_STARS + " DESC, r.id DESC";
             parameters.addValue("userId",userId);
         }
-        return jdbc.queryForList("SELECT r.id FROM recipe r"+where+" ORDER BY r.id DESC LIMIT :limit OFFSET :offset", parameters, Long.class);
+        return jdbc.queryForList("SELECT r.id FROM recipe r"+where+order+" LIMIT :limit OFFSET :offset", parameters, Long.class);
     }
 }

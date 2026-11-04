@@ -63,6 +63,21 @@ public class Recipe {
     @Embedded
     private RecipeNutrition nutrition;
 
+    // Average stars across all users and how many rated; filled in by RecipeReadRepository, never stored.
+    @jakarta.persistence.Transient
+    private Double ratingAverage;
+
+    @jakarta.persistence.Transient
+    private long ratingCount;
+
+    public Double getRatingAverage() { return ratingAverage; }
+    public long getRatingCount() { return ratingCount; }
+
+    public void setRatingSummary(Double average, long count) {
+        this.ratingAverage = average;
+        this.ratingCount = count;
+    }
+
     public Recipe() {
     }
 

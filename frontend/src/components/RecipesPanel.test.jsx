@@ -21,6 +21,9 @@ vi.mock('../services/recipeServices', () => ({
   clearRecipePreference: vi.fn(),
   getRecipeReactions: vi.fn(),
   getFavoriteRecipes: vi.fn(),
+  getMyRatings: vi.fn(),
+  rateRecipe: vi.fn(),
+  clearRecipeRating: vi.fn(),
 }));
 
 vi.mock('../services/ingredientServices', () => ({
@@ -35,6 +38,29 @@ describe('RecipesPanel', () => {
     ingredientServices.getMyIngredients.mockResolvedValue([]);
     recipeServices.createRecipe.mockResolvedValue({ id: 'mock-new-id' });
     recipeServices.getRecipeReactions.mockResolvedValue({});
+    recipeServices.getMyRatings.mockResolvedValue({});
+  });
+
+  it('switches between the For You and Favorites tabs', async () => {
+    recipeServices.getFavoriteRecipes.mockResolvedValue([{ id: 8, name: 'Saved Curry' }]);
+    render(<RecipesPanel currentUser={{ id: 1, token: 'tok' }} />);
+    const forYou = screen.getByRole('tab', { name: 'For You' });
+    const favorites = screen.getByRole('tab', { name: '♥ Favorites' });
+    await waitFor(() => expect(favorites).not.toBeDisabled());
+    expect(forYou).toHaveAttribute('aria-selected', 'true');
+
+    fireEvent.click(favorites);
+    await waitFor(() => expect(screen.getByText('Saved Curry')).toBeInTheDocument());
+    expect(favorites).toHaveAttribute('aria-selected', 'true');
+    expect(forYou).toHaveAttribute('aria-selected', 'false');
+    expect(recipeServices.getFavoriteRecipes).toHaveBeenCalledWith('tok');
+  });
+
+  it('hides the Favorites tab from guests', async () => {
+    render(<RecipesPanel />);
+    expect(screen.getByRole('tab', { name: 'For You' })).toBeInTheDocument();
+    expect(screen.queryByRole('tab', { name: /Favorites/ })).not.toBeInTheDocument();
+    await waitFor(() => expect(screen.getByRole('tab', { name: 'For You' })).not.toBeDisabled());
   });
 
   // --- EXISTING SEARCH TESTS ---

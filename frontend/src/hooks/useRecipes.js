@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import {
-  clearRecipePreference, createRecipe, dislikeRecipe, getAllRecipes, getFavoriteRecipes, getRecipeFeed,
-  getRecipeReactions, likeRecipe, searchRecipes,
+  clearRecipePreference, clearRecipeRating, createRecipe, dislikeRecipe, getAllRecipes, getFavoriteRecipes,
+  getMyRatings, getRecipeFeed, getRecipeReactions, likeRecipe, rateRecipe, searchRecipes,
 } from '../services/recipeServices';
 import { useIngredients } from './useIngredients';
 import { EXPIRING_SOON_DAYS, expiringSoonNames } from '../utils/expiration';
@@ -13,6 +13,8 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
   const token = currentUser?.token;
   const [recipes, setRecipes] = useState([]);
   const [feedback, setFeedback] = useState({});
+  // The user's own stars per recipe ID.
+  const [ratings, setRatings] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchActive, setSearchActive] = useState(false);
@@ -50,6 +52,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
   useEffect(() => {
     setRecipes([]);
     setFeedback({});
+    setRatings({});
     setSearchActive(false);
     setShowingFavorites(false);
     loadFeed();
@@ -72,6 +75,43 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       .catch(() => {});
     return () => { active = false; };
   }, [token]);
+
+  useEffect(() => {
+    if (!token) return undefined;
+    let active = true;
+    getMyRatings(token)
+      .then(saved => {
+        if (active) setRatings(previous => ({ ...saved, ...previous }));
+      })
+      .catch(() => {});
+    return () => { active = false; };
+  }, [token]);
+
+  // Clicking the current rating again clears it. The list is not reordered until the next load.
+  async function setRecipeRating(id, stars) {
+    if (!token) {
+      setError('Log in to rate recipes.');
+      return;
+    }
+    const version = requestVersion.current;
+    const next = ratings[id] === stars ? null : stars;
+    try {
+      const result = next === null ? await clearRecipeRating(token, id) : await rateRecipe(token, id, next);
+      if (version !== requestVersion.current) return;
+      setError(null);
+      setRatings(previous => {
+        const updated = { ...previous };
+        if (next === null) delete updated[id];
+        else updated[id] = next;
+        return updated;
+      });
+      setRecipes(previous => previous.map(recipe => (recipe.id === id
+        ? { ...recipe, ratingAverage: result.average, ratingCount: result.count }
+        : recipe)));
+    } catch (err) {
+      if (version === requestVersion.current) setError(err.message || 'Could not save your rating.');
+    }
+  }
 
   async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, useExpiringSoon = false, random = false } = {}) {
     const pantrySearch = useCurrentIngredients || requireAllIngredients;
@@ -100,7 +140,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     setLoading(true);
     setError(null);
     try {
-      const matches = await searchRecipes({ query: query.trim(), ingredients: available, expiringIngredients, preferences, requireAllIngredients, limit: 50, random });
+      const matches = await searchRecipes({ query: query.trim(), ingredients: available, expiringIngredients, preferences, requireAllIngredients, limit: 50, random, token });
       if (version !== requestVersion.current) return;
       setRecipes(matches.map(match => ({
         ...(match.recipe || match),
@@ -186,7 +226,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
   }
 
   return {
-    recipes, feedback, loading, error, searchActive, showingFavorites,
-    search, refresh, showFavorites, setRecipeFeedback, addNewRecipe,
+    recipes, feedback, ratings, loading, error, searchActive, showingFavorites,
+    search, refresh, showFavorites, setRecipeFeedback, setRecipeRating, addNewRecipe,
   };
 }
