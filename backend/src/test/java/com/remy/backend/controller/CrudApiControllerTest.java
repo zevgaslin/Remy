@@ -6,7 +6,9 @@ import com.remy.backend.dto.CreateIngredientRequest;
 import com.remy.backend.model.Recipe;
 import com.remy.backend.model.RecipeIngredient;
 import com.remy.backend.model.RecipePreferenceTag;
+import com.remy.backend.model.Role;
 import com.remy.backend.repository.RecipeRepository;
+import com.remy.backend.repository.UserRepository;
 import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
@@ -34,6 +36,9 @@ class CrudApiControllerTest {
 
     @Autowired
     private RecipeRepository recipeRepository;
+
+    @Autowired
+    private UserRepository userRepository;
 
     @Test
     void ingredientCrudFlowWorks() {
@@ -210,12 +215,46 @@ class CrudApiControllerTest {
         ResponseEntity<Map> deleteResponse = restTemplate.exchange(
                 "/api/recipes/{id}",
                 HttpMethod.DELETE,
-                new HttpEntity<>(headers),
+                new HttpEntity<>(adminHeaders("crud_admin")),
                 Map.class,
                 recipeId);
 
         assertThat(deleteResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(deleteResponse.getBody()).containsEntry("deleted", true);
+    }
+
+    @Test
+    void recipeDeleteIsAdminOnly() {
+        Long recipeId = createRecipe("Admin Guarded Stew");
+
+        ResponseEntity<Map> anonymous = restTemplate.exchange(
+                "/api/recipes/{id}", HttpMethod.DELETE, new HttpEntity<>(new HttpHeaders()), Map.class, recipeId);
+        assertThat(anonymous.getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
+
+        HttpHeaders regular = new HttpHeaders();
+        regular.set("Authorization", "Bearer " + registerAndGetToken("regular_user", "regular@example.com", "password123"));
+        ResponseEntity<Map> forbidden = restTemplate.exchange(
+                "/api/recipes/{id}", HttpMethod.DELETE, new HttpEntity<>(regular), Map.class, recipeId);
+        assertThat(forbidden.getStatusCode()).isEqualTo(HttpStatus.FORBIDDEN);
+        assertThat(forbidden.getBody()).containsEntry("error", "Only admins can do this.");
+
+        // The rejected attempts must not have removed the recipe.
+        assertThat(restTemplate.getForEntity("/api/recipes/{id}", Map.class, recipeId).getStatusCode())
+                .isEqualTo(HttpStatus.OK);
+
+        ResponseEntity<Map> allowed = restTemplate.exchange(
+                "/api/recipes/{id}", HttpMethod.DELETE, new HttpEntity<>(adminHeaders("guard_admin")), Map.class, recipeId);
+        assertThat(allowed.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(restTemplate.getForEntity("/api/recipes/{id}", Map.class, recipeId).getStatusCode())
+                .isEqualTo(HttpStatus.NOT_FOUND);
+    }
+
+    @Test
+    void newAccountsAreRegularUsers() {
+        ResponseEntity<Map> response = restTemplate.postForEntity("/api/auth/register",
+                Map.of("username", "role_user", "email", "role@example.com", "password", "password123"), Map.class);
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        assertThat(response.getBody()).containsEntry("role", "USER");
     }
 
     @Test
@@ -340,7 +379,7 @@ class CrudApiControllerTest {
 
         // Deleting a reviewed recipe must remove its reaction foreign keys too.
         var deleted = restTemplate.exchange("/api/recipes/{id}", HttpMethod.DELETE,
-                new HttpEntity<>(headers), Map.class, firstRecipeId);
+                new HttpEntity<>(adminHeaders("feed_admin")), Map.class, firstRecipeId);
         assertThat(deleted.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(restTemplate.getForEntity("/api/recipes/{id}", Map.class, firstRecipeId)
                 .getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
@@ -557,6 +596,16 @@ class CrudApiControllerTest {
         tag.setPreferenceName(name);
         tag.setPreferenceValue(value);
         recipe.getPreferenceTags().add(tag);
+    }
+
+    private HttpHeaders adminHeaders(String username) {
+        String token = registerAndGetToken(username, username + "@example.com", "password123");
+        var admin = userRepository.findByUsername(username).orElseThrow();
+        admin.setRole(Role.ADMIN);
+        userRepository.save(admin);
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + token);
+        return headers;
     }
 
     private String registerAndGetToken(String username, String email, String password) {

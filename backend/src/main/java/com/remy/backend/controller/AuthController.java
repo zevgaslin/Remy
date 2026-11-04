@@ -91,7 +91,8 @@ public class AuthController {
         return ResponseEntity.ok(Map.of(
                 "id", user.get().getId(),
                 "username", user.get().getUsername(),
-                "email", user.get().getEmail()));
+                "email", user.get().getEmail(),
+                "role", user.get().getRole().name()));
     }
 
     @PostMapping("/logout")
@@ -103,7 +104,7 @@ public class AuthController {
 
     private AuthResponse toResponse(User user) {
         String token = tokenService.issueToken(user.getId());
-        return new AuthResponse(user.getId(), user.getUsername(), user.getEmail(), token);
+        return new AuthResponse(user.getId(), user.getUsername(), user.getEmail(), token, user.getRole().name());
     }
 
     private boolean isBlank(String value) {
