@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "2b41b745-7236-59de-a368-371b230caeca",
+  "name": "Liver Dumplings",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "calf's liver",
+      "originalText": "calf's liver",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef suet chopped fine",
+      "originalText": "half a pound of beef suet chopped fine",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "half a pound of flour",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "minced onion",
+      "originalText": "one minced onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of bread crumbs",
+      "originalText": "a handful of bread crumbs",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped parsley and sweet marjoram mixed",
+      "originalText": "a table-spoonful of chopped parsley and sweet marjoram mixed",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few blades of mace",
+      "originalText": "a few blades of mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "grated nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs well beaten",
+      "originalText": "six eggs well beaten",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread-crumbs browned in butter",
+      "originalText": "bread-crumbs browned in butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a calf's liver, and chop it very fine",
+      "section": null
+    },
+    {
+      "text": "Mix with it half a pound of beef suet chopped fine also; half a pound of flour; one minced onion; a handful of bread crumbs; a table-spoonful of chopped parsley and sweet marjoram mixed; a few blades of mace and some grated nutmeg; and a little pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Mix all well together",
+      "section": null
+    },
+    {
+      "text": "Wet the mixture with six eggs well beaten, and make it up into dumplings, with your hands well floured",
+      "section": null
+    },
+    {
+      "text": "Have ready a large pot of boiling water",
+      "section": null
+    },
+    {
+      "text": "Drop the dumplings into it with a ladle, and let them boil an hour",
+      "section": null
+    },
+    {
+      "text": "Have ready bread-crumbs browned in butter to pour over them before they go to table",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/liver-dumplings.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a calf's liver, and chop it very fine\n2. Mix with it half a pound of beef suet chopped fine also; half a pound of flour; one minced onion; a handful of bread crumbs; a table-spoonful of chopped parsley and sweet marjoram mixed; a few blades of mace and some grated nutmeg; and a little pepper and salt\n3. Mix all well together\n4. Wet the mixture with six eggs well beaten, and make it up into dumplings, with your hands well floured\n5. Have ready a large pot of boiling water\n6. Drop the dumplings into it with a ladle, and let them boil an hour\n7. Have ready bread-crumbs browned in butter to pour over them before they go to table",
+    "originalIngredients": [
+      "calf's liver",
+      "half a pound of beef suet chopped fine",
+      "half a pound of flour",
+      "one minced onion",
+      "a handful of bread crumbs",
+      "a table-spoonful of chopped parsley and sweet marjoram mixed",
+      "a few blades of mace",
+      "grated nutmeg",
+      "pepper and salt",
+      "six eggs well beaten",
+      "bread-crumbs browned in butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

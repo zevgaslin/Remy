@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "1f46edad-e7d9-5f16-aa3b-a5d1d5f20475",
+  "name": "Tomato Bouillon",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "tomatoes",
+      "originalText": "1 can tomatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stock",
+      "originalText": "2 qts. stock",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped onion",
+      "originalText": "1 tablespoonful chopped onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bay leaves",
+      "originalText": "2 bay leaves",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole cloves",
+      "originalText": "4 whole cloves",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoonful celery seed",
+      "originalText": "1 level teaspoonful celery seed",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of 3 eggs",
+      "originalText": "Whites of 3 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "2 tablespoonfuls salt",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put tomatoes and stock over fire, add onion, bay leaves, cloves, celery and pepper",
+      "section": null
+    },
+    {
+      "text": "Cover and cook twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Strain through a sieve",
+      "section": null
+    },
+    {
+      "text": "Beat whites of eggs till partly light, add these to tomato, bring to boil and boil rapidly five minutes",
+      "section": null
+    },
+    {
+      "text": "Strain through two thicknesses of cheesecloth",
+      "section": null
+    },
+    {
+      "text": "Re-heat, season with salt and serve with tiny cubes of toasted bread",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/tomato-bouillon.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put tomatoes and stock over fire, add onion, bay leaves, cloves, celery and pepper\n2. Cover and cook twenty minutes\n3. Strain through a sieve\n4. Beat whites of eggs till partly light, add these to tomato, bring to boil and boil rapidly five minutes\n5. Strain through two thicknesses of cheesecloth\n6. Re-heat, season with salt and serve with tiny cubes of toasted bread",
+    "originalIngredients": [
+      "1 can tomatoes",
+      "2 qts. stock",
+      "1 tablespoonful chopped onion",
+      "2 bay leaves",
+      "4 whole cloves",
+      "1 level teaspoonful celery seed",
+      "Whites of 3 eggs",
+      "2 tablespoonfuls salt",
+      "Pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

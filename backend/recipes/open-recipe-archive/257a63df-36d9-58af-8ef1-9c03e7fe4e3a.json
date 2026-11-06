@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "257a63df-36d9-58af-8ef1-9c03e7fe4e3a",
+  "name": "Cranberry Jelly",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cranberries",
+      "originalText": "one quart of cranberries",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scant cupful of water",
+      "originalText": "one scant cupful of water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two cupfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "To one quart of cranberries add one scant cupful of water, and cook until the berries are tender",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire and strain through a fine sieve",
+      "section": null
+    },
+    {
+      "text": "Return the juice to the saucepan, add two cupfuls of sugar, and cook just long enough to thoroughly melt the sugar",
+      "section": null
+    },
+    {
+      "text": "When cool, put in a mould and pack in ice for an hour, and serve in sherbet glasses",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cranberry-jelly-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. To one quart of cranberries add one scant cupful of water, and cook until the berries are tender\n2. Remove from the fire and strain through a fine sieve\n3. Return the juice to the saucepan, add two cupfuls of sugar, and cook just long enough to thoroughly melt the sugar\n4. When cool, put in a mould and pack in ice for an hour, and serve in sherbet glasses",
+    "originalIngredients": [
+      "one quart of cranberries",
+      "one scant cupful of water",
+      "two cupfuls of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

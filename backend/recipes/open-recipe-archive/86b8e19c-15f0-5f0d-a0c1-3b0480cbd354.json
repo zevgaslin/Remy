@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "86b8e19c-15f0-5f0d-a0c1-3b0480cbd354",
+  "name": "Lemon Ice Cream",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "very rich thick cream",
+      "originalText": "two quarts of very rich thick cream",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best loaf-sugar powdered fine",
+      "originalText": "a pound of the best loaf-sugar powdered fine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the grated rind and the juice of four ripe lemons of the largest size, or of five or six smaller ones",
+      "originalText": "the grated rind and the juice of four ripe lemons of the largest size, or of five or six smaller ones",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "essence or oil of lemon",
+      "originalText": "essence or oil of lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Have ready two quarts of very rich thick cream, and take out a pint",
+      "section": null
+    },
+    {
+      "text": "Stir gradually into the pint a pound of the best loaf-sugar powdered fine and the grated rind and the juice of four ripe lemons of the largest size, or of five or six smaller ones",
+      "section": null
+    },
+    {
+      "text": "If you cannot procure the fruit, you may flavour the cream with essence or oil of lemon; a tea-spoonful or more, according to its strength",
+      "section": null
+    },
+    {
+      "text": "After you have mixed the pint of cream with the sugar and lemon, beat it gradually and hard into the remaining cream, that is, the three pints",
+      "section": null
+    },
+    {
+      "text": "Cover it, and let it stand to infuse from half an hour to an hour",
+      "section": null
+    },
+    {
+      "text": "Then taste it, and if you think it necessary, stir in a little more lemon juice or a little more sugar",
+      "section": null
+    },
+    {
+      "text": "Strain it into the freezer through a fine strainer to get rid of the grated lemon-peel",
+      "section": null
+    },
+    {
+      "text": "Cover the freezer, and stand it in the ice cream tub, which should be filled with a mixture, in equal quantities, of coarse salt, and ice broken up as small as possible",
+      "section": null
+    },
+    {
+      "text": "While the cream is freezing, keep it always in motion, whirling the freezer round by the handle, and opening the lid frequently to stir and beat the cream, and to scrape it down from the sides with a long-handled tin spoon",
+      "section": null
+    },
+    {
+      "text": "Take care that no salt gets in, or the cream will be spoiled",
+      "section": null
+    },
+    {
+      "text": "When it is entirely frozen, take it out of the freezer and put it into your mould",
+      "section": null
+    },
+    {
+      "text": "Set it again in the tub, which must be filled with fresh ice and salt, and leave it undisturbed till you want it for immediate use",
+      "section": null
+    },
+    {
+      "text": "When it has arrived at the proper consistence, and it is time to serve it up, dip a cloth in cold water, and wash it round the mould for a few moments, to loosen the cream and make it come out easily",
+      "section": null
+    },
+    {
+      "text": "Set the mould on a glass or china dish, lift it carefully off the top if a pyramid or obelisk mould, or take it off down the middle if it represents doves, dolphins, lap-dogs, fruit baskets, &c.",
+      "section": null
+    },
+    {
+      "text": "Serve it up immediately lest it begin to melt",
+      "section": null
+    },
+    {
+      "text": "Send round sponge-cake with it, and wine or cordials immediately after",
+      "section": null
+    },
+    {
+      "text": "If you have no moulds, but intend serving it up in a large bowl or in glasses, it must still be frozen twice over",
+      "section": null
+    },
+    {
+      "text": "The second freezing if you have no mould must be done in the freezer, which should be washed out, and set again in the tub with fresh ice and salt",
+      "section": null
+    },
+    {
+      "text": "Cover it closely and let the cream stand in it untouched, but not less than two hours",
+      "section": null
+    },
+    {
+      "text": "When you put it into glasses, heap it high on the top",
+      "section": null
+    },
+    {
+      "text": "Begin to make ice cream about four or five hours before it is wanted for use",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-ice-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Have ready two quarts of very rich thick cream, and take out a pint\n2. Stir gradually into the pint a pound of the best loaf-sugar powdered fine and the grated rind and the juice of four ripe lemons of the largest size, or of five or six smaller ones\n3. If you cannot procure the fruit, you may flavour the cream with essence or oil of lemon; a tea-spoonful or more, according to its strength\n4. After you have mixed the pint of cream with the sugar and lemon, beat it gradually and hard into the remaining cream, that is, the three pints\n5. Cover it, and let it stand to infuse from half an hour to an hour\n6. Then taste it, and if you think it necessary, stir in a little more lemon juice or a little more sugar\n7. Strain it into the freezer through a fine strainer to get rid of the grated lemon-peel\n8. Cover the freezer, and stand it in the ice cream tub, which should be filled with a mixture, in equal quantities, of coarse salt, and ice broken up as small as possible\n9. While the cream is freezing, keep it always in motion, whirling the freezer round by the handle, and opening the lid frequently to stir and beat the cream, and to scrape it down from the sides with a long-handled tin spoon\n10. Take care that no salt gets in, or the cream will be spoiled\n11. When it is entirely frozen, take it out of the freezer and put it into your mould\n12. Set it again in the tub, which must be filled with fresh ice and salt, and leave it undisturbed till you want it for immediate use\n13. When it has arrived at the proper consistence, and it is time to serve it up, dip a cloth in cold water, and wash it round the mould for a few moments, to loosen the cream and make it come out easily\n14. Set the mould on a glass or china dish, lift it carefully off the top if a pyramid or obelisk mould, or take it off down the middle if it represents doves, dolphins, lap-dogs, fruit baskets, &c.\n15. Serve it up immediately lest it begin to melt\n16. Send round sponge-cake with it, and wine or cordials immediately after\n17. If you have no moulds, but intend serving it up in a large bowl or in glasses, it must still be frozen twice over\n18. The second freezing if you have no mould must be done in the freezer, which should be washed out, and set again in the tub with fresh ice and salt\n19. Cover it closely and let the cream stand in it untouched, but not less than two hours\n20. When you put it into glasses, heap it high on the top\n21. Begin to make ice cream about four or five hours before it is wanted for use",
+    "originalIngredients": [
+      "two quarts of very rich thick cream",
+      "a pound of the best loaf-sugar powdered fine",
+      "the grated rind and the juice of four ripe lemons of the largest size, or of five or six smaller ones",
+      "essence or oil of lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

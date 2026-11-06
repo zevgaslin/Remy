@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "babf3cfd-3e3f-5282-8e2f-2644503f7f09",
+  "name": "Lemon Cordial",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh lemons",
+      "originalText": "6 fresh lemons",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half milk",
+      "originalText": "1 quart and a half milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 and a half quarts French brandy",
+      "originalText": "1 and a half quarts French brandy",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf sugar",
+      "originalText": "3 pounds powdered loaf sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut six fresh lemons in thin slices",
+      "section": null
+    },
+    {
+      "text": "Put them into a quart and a half of milk",
+      "section": null
+    },
+    {
+      "text": "Boil it until the whey is very clear",
+      "section": null
+    },
+    {
+      "text": "Pass it through a sieve",
+      "section": null
+    },
+    {
+      "text": "Put to this whey, one and a half quarts of French brandy, and three pounds of powdered loaf sugar",
+      "section": null
+    },
+    {
+      "text": "Stir it till the sugar is dissolved",
+      "section": null
+    },
+    {
+      "text": "Let it stand to refine, and bottle it",
+      "section": null
+    },
+    {
+      "text": "Pare some of the yellow rind of the lemons very thin, and put a little in each bottle",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-cordial.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut six fresh lemons in thin slices\n2. Put them into a quart and a half of milk\n3. Boil it until the whey is very clear\n4. Pass it through a sieve\n5. Put to this whey, one and a half quarts of French brandy, and three pounds of powdered loaf sugar\n6. Stir it till the sugar is dissolved\n7. Let it stand to refine, and bottle it\n8. Pare some of the yellow rind of the lemons very thin, and put a little in each bottle",
+    "originalIngredients": [
+      "6 fresh lemons",
+      "1 quart and a half milk",
+      "1 and a half quarts French brandy",
+      "3 pounds powdered loaf sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

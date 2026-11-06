@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "1aa20e26-44f9-5cfe-a7c5-9d345096eccc",
+  "name": "Rice",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "half or quarter of a pound of the best quality of rice",
+      "originalText": "half or quarter of a pound of the best quality of rice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clean water",
+      "originalText": "a quart of clean water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "a pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of new milk",
+      "originalText": "a teacupful of new milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh new milk",
+      "originalText": "fresh new milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fruit and sugar",
+      "originalText": "fruit and sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash rice in a strainer",
+      "section": null
+    },
+    {
+      "text": "Put it in a saucepan with a quart of clean water and a pinch of salt",
+      "section": null
+    },
+    {
+      "text": "Let it boil slowly till the water is all evaporated, ensuring it does not burn",
+      "section": null
+    },
+    {
+      "text": "Pour in a teacupful of new milk",
+      "section": null
+    },
+    {
+      "text": "Stir carefully from the bottom of the saucepan so that the upper grain may go under, but do not smash it",
+      "section": null
+    },
+    {
+      "text": "Close the lid on your saucepan carefully down and set it on a cooler part of the fire where it will not boil",
+      "section": null
+    },
+    {
+      "text": "As soon as it has absorbed the added milk, serve it up with fresh new milk, adding fruit and sugar for those who like them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash rice in a strainer\n2. Put it in a saucepan with a quart of clean water and a pinch of salt\n3. Let it boil slowly till the water is all evaporated, ensuring it does not burn\n4. Pour in a teacupful of new milk\n5. Stir carefully from the bottom of the saucepan so that the upper grain may go under, but do not smash it\n6. Close the lid on your saucepan carefully down and set it on a cooler part of the fire where it will not boil\n7. As soon as it has absorbed the added milk, serve it up with fresh new milk, adding fruit and sugar for those who like them",
+    "originalIngredients": [
+      "half or quarter of a pound of the best quality of rice",
+      "a quart of clean water",
+      "a pinch of salt",
+      "a teacupful of new milk",
+      "fresh new milk",
+      "fruit and sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "9065d067-5f7c-5951-9e5e-cf67aa42fc5a",
+  "name": "Potato Omelet",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "mashed potato",
+      "originalText": "1 cup mashed potato",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "3/4 cup milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 tablespoon butter or good dripping",
+      "originalText": "1 tablespoon butter or good dripping",
+      "quantity": null,
+      "quantityText": "1 tablespoon butter or good dripping",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Add 3/4 cup milk and seasoning to 1 cup mashed potato",
+      "section": null
+    },
+    {
+      "text": "Beat in the well-beaten eggs",
+      "section": null
+    },
+    {
+      "text": "Melt a tablespoon of butter or good dripping in a frying pan",
+      "section": null
+    },
+    {
+      "text": "When quite hot, turn in the mixture and cook until nicely browned on the bottom",
+      "section": null
+    },
+    {
+      "text": "Set the pan in a moderately hot oven and cook until puffed and set on top",
+      "section": null
+    },
+    {
+      "text": "Fold and serve on a hot platter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/potato-omelet-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Add 3/4 cup milk and seasoning to 1 cup mashed potato\n2. Beat in the well-beaten eggs\n3. Melt a tablespoon of butter or good dripping in a frying pan\n4. When quite hot, turn in the mixture and cook until nicely browned on the bottom\n5. Set the pan in a moderately hot oven and cook until puffed and set on top\n6. Fold and serve on a hot platter",
+    "originalIngredients": [
+      "1 cup mashed potato",
+      "3 eggs",
+      "3/4 cup milk",
+      "salt",
+      "pepper",
+      "1 tablespoon butter or good dripping"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

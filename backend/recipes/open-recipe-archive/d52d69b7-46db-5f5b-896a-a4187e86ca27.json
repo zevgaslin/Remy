@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "d52d69b7-46db-5f5b-896a-a4187e86ca27",
+  "name": "Boiled Rice Pudding No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "teacupfuls of rice",
+      "originalText": "two teacupfuls of rice",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins stoned and cut in halves",
+      "originalText": "half a pound of raisins stoned and cut in halves",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash two teacupfuls of rice and soak it in water for half an hour",
+      "section": null
+    },
+    {
+      "text": "Turn off the water and mix the rice with half a pound of raisins stoned and cut in halves",
+      "section": null
+    },
+    {
+      "text": "Add a little salt",
+      "section": null
+    },
+    {
+      "text": "Tie the whole in a cloth, leaving room for the rice to swell to twice its natural size",
+      "section": null
+    },
+    {
+      "text": "Boil two hours in plenty of water",
+      "section": null
+    },
+    {
+      "text": "Serve with wine sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-rice-pudding-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash two teacupfuls of rice and soak it in water for half an hour\n2. Turn off the water and mix the rice with half a pound of raisins stoned and cut in halves\n3. Add a little salt\n4. Tie the whole in a cloth, leaving room for the rice to swell to twice its natural size\n5. Boil two hours in plenty of water\n6. Serve with wine sauce",
+    "originalIngredients": [
+      "two teacupfuls of rice",
+      "water",
+      "half a pound of raisins stoned and cut in halves",
+      "a little salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

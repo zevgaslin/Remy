@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "38245f8a-7c7a-54fb-8d82-c21f83be3cdd",
+  "name": "Tomato Sauce",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "can of tomatoes",
+      "originalText": "one quart can of tomatoes",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "one slice of onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "two cloves",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one ounce of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put one quart can of tomatoes over the fire in a stewpan",
+      "section": null
+    },
+    {
+      "text": "Add one slice of onion and two cloves, a little pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Boil about twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire and strain it through a sieve",
+      "section": null
+    },
+    {
+      "text": "Melt one ounce of butter in another pan, and as it melts, sprinkle in one tablespoonful of flour",
+      "section": null
+    },
+    {
+      "text": "Stir it until it browns and froths a little",
+      "section": null
+    },
+    {
+      "text": "Mix the tomato pulp with it, and it is ready for the table",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomato-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put one quart can of tomatoes over the fire in a stewpan\n2. Add one slice of onion and two cloves, a little pepper and salt\n3. Boil about twenty minutes\n4. Remove from the fire and strain it through a sieve\n5. Melt one ounce of butter in another pan, and as it melts, sprinkle in one tablespoonful of flour\n6. Stir it until it browns and froths a little\n7. Mix the tomato pulp with it, and it is ready for the table",
+    "originalIngredients": [
+      "one quart can of tomatoes",
+      "one slice of onion",
+      "two cloves",
+      "pepper and salt",
+      "one ounce of butter",
+      "one tablespoonful of flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

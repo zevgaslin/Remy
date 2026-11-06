@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "c368dbeb-fea5-5018-9a54-3614142a4b25",
+  "name": "Dried Rusk",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "warm milk",
+      "originalText": "1 pint of warm milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teacup of butter",
+      "originalText": "½ teacup of butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "Half a cup of yeast",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "Flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set a sponge with the milk, yeast, and salt, stirring in flour until you have a thick batter",
+      "section": null
+    },
+    {
+      "text": "Early next morning add the well-beaten eggs, and flour enough to enable you to roll out the dough",
+      "section": null
+    },
+    {
+      "text": "Let this rise in the bread-bowl two hours",
+      "section": null
+    },
+    {
+      "text": "Roll into a sheet nearly an inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut into round cakes",
+      "section": null
+    },
+    {
+      "text": "Arrange in your baking-pan two deep, laying one upon the other carefully",
+      "section": null
+    },
+    {
+      "text": "Let these stand for another half-hour",
+      "section": null
+    },
+    {
+      "text": "Bake",
+      "section": null
+    },
+    {
+      "text": "To dry: divide the twins, leaving one side of each cake soft, and pile them loosely in the pan, set them in the oven when the fire is declining for the night, and leave them in until morning",
+      "section": null
+    },
+    {
+      "text": "Put them in a clean muslin bag, and hang them up in the kitchen",
+      "section": null
+    },
+    {
+      "text": "They will be fit to eat upon the third day",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/dried-rusk.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Set a sponge with the milk, yeast, and salt, stirring in flour until you have a thick batter\n2. Early next morning add the well-beaten eggs, and flour enough to enable you to roll out the dough\n3. Let this rise in the bread-bowl two hours\n4. Roll into a sheet nearly an inch thick\n5. Cut into round cakes\n6. Arrange in your baking-pan two deep, laying one upon the other carefully\n7. Let these stand for another half-hour\n8. Bake\n9. To dry: divide the twins, leaving one side of each cake soft, and pile them loosely in the pan, set them in the oven when the fire is declining for the night, and leave them in until morning\n10. Put them in a clean muslin bag, and hang them up in the kitchen\n11. They will be fit to eat upon the third day",
+    "originalIngredients": [
+      "1 pint of warm milk",
+      "2 eggs",
+      "½ teacup of butter",
+      "Half a cup of yeast",
+      "1 teaspoonful salt",
+      "Flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

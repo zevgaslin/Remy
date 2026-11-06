@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "fb7d3bd9-72f3-5c17-afef-89345c54765a",
+  "name": "Game Soup",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Two grouse or partridges, or a pair of rabbits",
+      "originalText": "Two grouse or partridges, or a pair of rabbits",
+      "quantity": null,
+      "quantityText": "Two grouse or partridges, or a pair of rabbits",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean ham",
+      "originalText": "half a pound of lean ham",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "medium-sized onions",
+      "originalText": "two medium-sized onions",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean beef",
+      "originalText": "one pound of lean beef",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fried bread",
+      "originalText": "fried bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter for frying",
+      "originalText": "butter for frying",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalks of white celery cut into inch lengths",
+      "originalText": "two stalks of white celery cut into inch lengths",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "three quarts of water",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Joint your game neatly; cut the ham and onions into small pieces, fry all in butter to a light brown",
+      "section": null
+    },
+    {
+      "text": "Put into a soup-pot with the beef, cut into strips, add a little pepper",
+      "section": null
+    },
+    {
+      "text": "Pour on the water; heat slowly, and stew gently two hours",
+      "section": null
+    },
+    {
+      "text": "Take out the pieces of bird, and cover in a bowl",
+      "section": null
+    },
+    {
+      "text": "Cook the soup an hour longer; strain; cool",
+      "section": null
+    },
+    {
+      "text": "Drop in the celery and simmer ten minutes",
+      "section": null
+    },
+    {
+      "text": "Pour upon fried bread in the tureen",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/game-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Joint your game neatly; cut the ham and onions into small pieces, fry all in butter to a light brown\n2. Put into a soup-pot with the beef, cut into strips, add a little pepper\n3. Pour on the water; heat slowly, and stew gently two hours\n4. Take out the pieces of bird, and cover in a bowl\n5. Cook the soup an hour longer; strain; cool\n6. Drop in the celery and simmer ten minutes\n7. Pour upon fried bread in the tureen",
+    "originalIngredients": [
+      "Two grouse or partridges, or a pair of rabbits",
+      "half a pound of lean ham",
+      "two medium-sized onions",
+      "one pound of lean beef",
+      "fried bread",
+      "butter for frying",
+      "pepper",
+      "salt",
+      "two stalks of white celery cut into inch lengths",
+      "three quarts of water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "5b5dd4b5-6041-596d-9e64-c3547aba1f19",
+  "name": "Creamed Chicken",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one chicken of four pounds, or two of six pounds",
+      "originalText": "one chicken of four pounds, or two of six pounds",
+      "quantity": null,
+      "quantityText": "one chicken of four pounds, or two of six pounds",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweetbreads",
+      "originalText": "four sweetbreads",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mushrooms",
+      "originalText": "one can of mushrooms",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "four coffee-cups or one quart of cream",
+      "originalText": "four coffee-cups or one quart of cream",
+      "quantity": null,
+      "quantityText": "four coffee-cups or one quart of cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tablespoonfuls of butter",
+      "originalText": "four large tablespoonfuls of butter",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "even tablespoonfuls of flour",
+      "originalText": "five even tablespoonfuls of flour",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small half of a grated onion",
+      "originalText": "small half of a grated onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very little nutmeg",
+      "originalText": "a very little nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black and red pepper",
+      "originalText": "black and red pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated bread",
+      "originalText": "grated bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil chicken and sweetbreads and when cold cut up as for salad",
+      "section": null
+    },
+    {
+      "text": "In a sauce-pan put four coffee-cups or one quart of cream",
+      "section": null
+    },
+    {
+      "text": "In another sauce-pan put four large tablespoonfuls of butter and five even tablespoonfuls of flour",
+      "section": null
+    },
+    {
+      "text": "Stir until melted, then pour in the hot cream and stir until it thickens",
+      "section": null
+    },
+    {
+      "text": "Flavor with the small half of a grated onion and a very little nutmeg",
+      "section": null
+    },
+    {
+      "text": "Season highly with black and red pepper",
+      "section": null
+    },
+    {
+      "text": "Put the chicken and cream in a baking-dish",
+      "section": null
+    },
+    {
+      "text": "Add the mushrooms cut in pieces (if large), and cover with grated bread",
+      "section": null
+    },
+    {
+      "text": "Put a number of pieces of butter on the top and bake ten or twenty minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/creamed-chicken-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil chicken and sweetbreads and when cold cut up as for salad\n2. In a sauce-pan put four coffee-cups or one quart of cream\n3. In another sauce-pan put four large tablespoonfuls of butter and five even tablespoonfuls of flour\n4. Stir until melted, then pour in the hot cream and stir until it thickens\n5. Flavor with the small half of a grated onion and a very little nutmeg\n6. Season highly with black and red pepper\n7. Put the chicken and cream in a baking-dish\n8. Add the mushrooms cut in pieces (if large), and cover with grated bread\n9. Put a number of pieces of butter on the top and bake ten or twenty minutes",
+    "originalIngredients": [
+      "one chicken of four pounds, or two of six pounds",
+      "four sweetbreads",
+      "one can of mushrooms",
+      "four coffee-cups or one quart of cream",
+      "four large tablespoonfuls of butter",
+      "five even tablespoonfuls of flour",
+      "small half of a grated onion",
+      "a very little nutmeg",
+      "black and red pepper",
+      "grated bread"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

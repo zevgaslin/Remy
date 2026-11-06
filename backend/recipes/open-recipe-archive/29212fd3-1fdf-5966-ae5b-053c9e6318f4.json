@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "29212fd3-1fdf-5966-ae5b-053c9e6318f4",
+  "name": "Grape Juice",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "basket grapes",
+      "originalText": "1 basket grapes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar for each basket",
+      "originalText": "2 pounds sugar for each basket",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "paraffine wax",
+      "originalText": "paraffine wax",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take the contents of 1 basket grapes, wash and stem",
+      "section": null
+    },
+    {
+      "text": "Put on stove with just enough water to cover",
+      "section": null
+    },
+    {
+      "text": "Let come to a boil, remove from fire and pour into cheese cloth bag",
+      "section": null
+    },
+    {
+      "text": "When cool enough, press out the juice with the hands",
+      "section": null
+    },
+    {
+      "text": "Put juice back on stove with 2 pounds sugar for each basket",
+      "section": null
+    },
+    {
+      "text": "Let come to a boil",
+      "section": null
+    },
+    {
+      "text": "Bottle while hot, cork and seal with paraffine wax, to exclude the air",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/grape-juice.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take the contents of 1 basket grapes, wash and stem\n2. Put on stove with just enough water to cover\n3. Let come to a boil, remove from fire and pour into cheese cloth bag\n4. When cool enough, press out the juice with the hands\n5. Put juice back on stove with 2 pounds sugar for each basket\n6. Let come to a boil\n7. Bottle while hot, cork and seal with paraffine wax, to exclude the air",
+    "originalIngredients": [
+      "1 basket grapes",
+      "water",
+      "2 pounds sugar for each basket",
+      "paraffine wax"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

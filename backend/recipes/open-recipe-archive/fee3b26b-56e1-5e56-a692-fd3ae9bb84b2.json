@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "fee3b26b-56e1-5e56-a692-fd3ae9bb84b2",
+  "name": "Soft Gingerbread",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh butter",
+      "originalText": "half a pound of fresh butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "half a pound of brown sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonfuls of ginger",
+      "originalText": "two large table-spoonfuls of ginger",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cloves",
+      "originalText": "a tea-spoonful of powdered cloves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "West India molasses",
+      "originalText": "a pint of West India molasses",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "three pints of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "six well-beaten eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of pearl-ash",
+      "originalText": "a small tea-spoonful of pearl-ash",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour milk",
+      "originalText": "a pint of sour milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat to a cream half a pound of fresh butter cut up in a deep pan, among half a pound of brown sugar, setting it near the fire to soften it a little, but not to melt it",
+      "section": null
+    },
+    {
+      "text": "Add two large table-spoonfuls of ginger, a tea-spoonful of powdered cinnamon, and a tea-spoonful of powdered cloves",
+      "section": null
+    },
+    {
+      "text": "Stir into it, alternately, a pint of West India molasses, and three pints of sifted flour, and six well-beaten eggs",
+      "section": null
+    },
+    {
+      "text": "Dissolve a small tea-spoonful of pearl-ash in a pint of sour milk, and stir it, while foaming, into the mixture",
+      "section": null
+    },
+    {
+      "text": "Put it immediately into shallow square tin pans, well buttered",
+      "section": null
+    },
+    {
+      "text": "Place it in an oven not too hot",
+      "section": null
+    },
+    {
+      "text": "Bake, giving it long beating and much baking",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/soft-gingerbread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat to a cream half a pound of fresh butter cut up in a deep pan, among half a pound of brown sugar, setting it near the fire to soften it a little, but not to melt it\n2. Add two large table-spoonfuls of ginger, a tea-spoonful of powdered cinnamon, and a tea-spoonful of powdered cloves\n3. Stir into it, alternately, a pint of West India molasses, and three pints of sifted flour, and six well-beaten eggs\n4. Dissolve a small tea-spoonful of pearl-ash in a pint of sour milk, and stir it, while foaming, into the mixture\n5. Put it immediately into shallow square tin pans, well buttered\n6. Place it in an oven not too hot\n7. Bake, giving it long beating and much baking",
+    "originalIngredients": [
+      "half a pound of fresh butter",
+      "half a pound of brown sugar",
+      "two large table-spoonfuls of ginger",
+      "a tea-spoonful of powdered cinnamon",
+      "a tea-spoonful of powdered cloves",
+      "a pint of West India molasses",
+      "three pints of sifted flour",
+      "six well-beaten eggs",
+      "a small tea-spoonful of pearl-ash",
+      "a pint of sour milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

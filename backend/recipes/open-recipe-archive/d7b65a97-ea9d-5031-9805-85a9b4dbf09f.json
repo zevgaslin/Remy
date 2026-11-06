@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "d7b65a97-ea9d-5031-9805-85a9b4dbf09f",
+  "name": "Sweetbread and Mushroom Timbales",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced onion",
+      "originalText": "1 sliced onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ cups mushroom caps finely chopped",
+      "originalText": "1½ cups mushroom caps finely chopped",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small parboiled sweetbread, finely chopped",
+      "originalText": "1 small parboiled sweetbread, finely chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Sauce II",
+      "originalText": "1 cup White Sauce II",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup stale bread crumbs",
+      "originalText": "¼ cup stale bread crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "red pepper chopped",
+      "originalText": "1 red pepper chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon salt",
+      "originalText": "½ teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks 2 eggs, well beaten",
+      "originalText": "Yolks 2 eggs, well beaten",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites 2 eggs, beaten until stiff",
+      "originalText": "Whites 2 eggs, beaten until stiff",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook butter with sliced onion five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add mushroom caps finely chopped, and small parboiled sweetbread, finely chopped.",
+      "section": null
+    },
+    {
+      "text": "Add White Sauce II, stale bread crumbs, red pepper chopped, salt, yolks of eggs, well beaten, and whites of eggs, beaten until stiff.",
+      "section": null
+    },
+    {
+      "text": "Fill buttered timbale moulds, set in pan of hot water, cover with buttered paper, and bake fifteen minutes.",
+      "section": null
+    },
+    {
+      "text": "Remove to serving dish and pour around Mushroom Sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sweetbread-and-mushroom-timbales.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook butter with sliced onion five minutes.\n2. Add mushroom caps finely chopped, and small parboiled sweetbread, finely chopped.\n3. Add White Sauce II, stale bread crumbs, red pepper chopped, salt, yolks of eggs, well beaten, and whites of eggs, beaten until stiff.\n4. Fill buttered timbale moulds, set in pan of hot water, cover with buttered paper, and bake fifteen minutes.\n5. Remove to serving dish and pour around Mushroom Sauce.",
+    "originalIngredients": [
+      "2 tablespoons butter",
+      "1 sliced onion",
+      "1½ cups mushroom caps finely chopped",
+      "1 small parboiled sweetbread, finely chopped",
+      "1 cup White Sauce II",
+      "¼ cup stale bread crumbs",
+      "1 red pepper chopped",
+      "½ teaspoon salt",
+      "Yolks 2 eggs, well beaten",
+      "Whites 2 eggs, beaten until stiff"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

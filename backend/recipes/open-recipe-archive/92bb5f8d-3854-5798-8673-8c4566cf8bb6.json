@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "92bb5f8d-3854-5798-8673-8c4566cf8bb6",
+  "name": "Raised Doughnuts",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "a pint of warm water or milk",
+      "originalText": "a pint of warm water or milk",
+      "quantity": null,
+      "quantityText": "a pint of warm water or milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large half cupful of yeast",
+      "originalText": "a large half cupful of yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a cupful of butter or sweet lard",
+      "originalText": "half a cupful of butter or sweet lard",
+      "quantity": null,
+      "quantityText": "half a cupful of butter or sweet lard",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coffeecupful of sugar",
+      "originalText": "a coffeecupful of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small teaspoonful of soda",
+      "originalText": "one small teaspoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "one tablespoonful of cinnamon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little grated nutmeg",
+      "originalText": "a little grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "two well-beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "sifted flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a sponge as for bread, using a pint of warm water or milk, and a large half cupful of yeast",
+      "section": null
+    },
+    {
+      "text": "when the sponge is very light, add half a cupful of butter or sweet lard, a coffeecupful of sugar, a teaspoonful of salt and one small teaspoonful of soda dissolved in a little water, one tablespoonful of cinnamon, a little grated nutmeg",
+      "section": null
+    },
+    {
+      "text": "stir in now two well-beaten eggs",
+      "section": null
+    },
+    {
+      "text": "add sifted flour until it is the consistency of biscuit dough",
+      "section": null
+    },
+    {
+      "text": "knead it well, cover and let rise",
+      "section": null
+    },
+    {
+      "text": "roll the dough out into a sheet half an inch thick",
+      "section": null
+    },
+    {
+      "text": "cut out with a very small biscuit-cutter, or in strips half an inch wide and three inches long",
+      "section": null
+    },
+    {
+      "text": "place them on greased tins, cover them well and let them rise before frying them",
+      "section": null
+    },
+    {
+      "text": "Drop them in very hot lard",
+      "section": null
+    },
+    {
+      "text": "Sift powdered sugar over them as fast as they are fried, while warm",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/raised-doughnuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a sponge as for bread, using a pint of warm water or milk, and a large half cupful of yeast\n2. when the sponge is very light, add half a cupful of butter or sweet lard, a coffeecupful of sugar, a teaspoonful of salt and one small teaspoonful of soda dissolved in a little water, one tablespoonful of cinnamon, a little grated nutmeg\n3. stir in now two well-beaten eggs\n4. add sifted flour until it is the consistency of biscuit dough\n5. knead it well, cover and let rise\n6. roll the dough out into a sheet half an inch thick\n7. cut out with a very small biscuit-cutter, or in strips half an inch wide and three inches long\n8. place them on greased tins, cover them well and let them rise before frying them\n9. Drop them in very hot lard\n10. Sift powdered sugar over them as fast as they are fried, while warm",
+    "originalIngredients": [
+      "a pint of warm water or milk",
+      "a large half cupful of yeast",
+      "half a cupful of butter or sweet lard",
+      "a coffeecupful of sugar",
+      "a teaspoonful of salt",
+      "one small teaspoonful of soda",
+      "one tablespoonful of cinnamon",
+      "a little grated nutmeg",
+      "two well-beaten eggs",
+      "sifted flour",
+      "powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "10d86c38-44f7-5b67-818e-ce5fa5bb7c7e",
+  "name": "An Apple Custard",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pippins",
+      "originalText": "twelve pippins",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf sugar",
+      "originalText": "a pound of loaf sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "a pint of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "twelve cloves",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich boiled custard",
+      "originalText": "a quart of rich boiled custard",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare and core twelve pippins, slice them tolerably thick",
+      "section": null
+    },
+    {
+      "text": "Put a pound of loaf sugar in a stew pan, with a pint of water and twelve cloves",
+      "section": null
+    },
+    {
+      "text": "Boil and skim it, then put in the apples, and stew them till clear, and but little of the syrup remains",
+      "section": null
+    },
+    {
+      "text": "Lay them in a deep dish, and take out the cloves",
+      "section": null
+    },
+    {
+      "text": "When the apples are cold, pour in a quart of rich boiled custard",
+      "section": null
+    },
+    {
+      "text": "Set it in water, and make it boil till the custard is set",
+      "section": null
+    },
+    {
+      "text": "Take care the water does not get into it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/an-apple-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare and core twelve pippins, slice them tolerably thick\n2. Put a pound of loaf sugar in a stew pan, with a pint of water and twelve cloves\n3. Boil and skim it, then put in the apples, and stew them till clear, and but little of the syrup remains\n4. Lay them in a deep dish, and take out the cloves\n5. When the apples are cold, pour in a quart of rich boiled custard\n6. Set it in water, and make it boil till the custard is set\n7. Take care the water does not get into it",
+    "originalIngredients": [
+      "twelve pippins",
+      "a pound of loaf sugar",
+      "a pint of water",
+      "twelve cloves",
+      "a quart of rich boiled custard"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

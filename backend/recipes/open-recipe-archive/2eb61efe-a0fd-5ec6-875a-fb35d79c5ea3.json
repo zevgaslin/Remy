@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "2eb61efe-a0fd-5ec6-875a-fb35d79c5ea3",
+  "name": "Salad Cream Dressing",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoon flour",
+      "originalText": "1 spoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 2 eggs",
+      "originalText": "whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoons vinegar",
+      "originalText": "3 spoons vinegar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoons salad oil",
+      "originalText": "2 spoons salad oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoons powdered sugar",
+      "originalText": "2 spoons powdered sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoon salt",
+      "originalText": "1 spoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoon pepper",
+      "originalText": "1/2 spoon pepper",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoon made mustard",
+      "originalText": "1 spoon made mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold milk",
+      "originalText": "cold milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat cream almost to boiling",
+      "section": null
+    },
+    {
+      "text": "Stir in flour previously wet with cold milk",
+      "section": null
+    },
+    {
+      "text": "Boil 2 minutes, stirring constantly",
+      "section": null
+    },
+    {
+      "text": "Add sugar and remove from fire",
+      "section": null
+    },
+    {
+      "text": "When half cold beat in whipped whites of eggs",
+      "section": null
+    },
+    {
+      "text": "Set aside to cool",
+      "section": null
+    },
+    {
+      "text": "When quite cold, whip in the oil, pepper, mustard and salt",
+      "section": null
+    },
+    {
+      "text": "If the salad is ready, add vinegar and pour at once over it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salad-cream-dressing.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat cream almost to boiling\n2. Stir in flour previously wet with cold milk\n3. Boil 2 minutes, stirring constantly\n4. Add sugar and remove from fire\n5. When half cold beat in whipped whites of eggs\n6. Set aside to cool\n7. When quite cold, whip in the oil, pepper, mustard and salt\n8. If the salad is ready, add vinegar and pour at once over it",
+    "originalIngredients": [
+      "1 cup cream",
+      "1 spoon flour",
+      "whites of 2 eggs",
+      "3 spoons vinegar",
+      "2 spoons salad oil",
+      "2 spoons powdered sugar",
+      "1 spoon salt",
+      "1/2 spoon pepper",
+      "1 spoon made mustard",
+      "cold milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

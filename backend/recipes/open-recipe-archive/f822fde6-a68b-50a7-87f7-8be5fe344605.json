@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "f822fde6-a68b-50a7-87f7-8be5fe344605",
+  "name": "Fish Balls",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "salt codfish",
+      "originalText": "1 cup salt codfish",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping cups potatoes",
+      "originalText": "2 heaping cups potatoes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ tablespoon butter",
+      "originalText": "½ tablespoon butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅛ teaspoon pepper",
+      "originalText": "⅛ teaspoon pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash fish in cold water, and pick in very small pieces, or cut, using scissors.",
+      "section": null
+    },
+    {
+      "text": "Wash, pare, and soak potatoes, cutting in pieces of uniform size before measuring.",
+      "section": null
+    },
+    {
+      "text": "Cook fish and potatoes in boiling water to cover until potatoes are soft.",
+      "section": null
+    },
+    {
+      "text": "Drain through strainer, return to kettle in which they were cooked, mash thoroughly (being sure there are no lumps left in potato), add butter, egg well beaten, and pepper.",
+      "section": null
+    },
+    {
+      "text": "Beat with a fork two minutes.",
+      "section": null
+    },
+    {
+      "text": "Add salt if necessary.",
+      "section": null
+    },
+    {
+      "text": "Take up by spoonfuls, put in frying-basket, and fry one minute in deep fat, allowing six fish balls for each frying; drain on brown paper.",
+      "section": null
+    },
+    {
+      "text": "Reheat the fat after each frying.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fish-balls.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash fish in cold water, and pick in very small pieces, or cut, using scissors.\n2. Wash, pare, and soak potatoes, cutting in pieces of uniform size before measuring.\n3. Cook fish and potatoes in boiling water to cover until potatoes are soft.\n4. Drain through strainer, return to kettle in which they were cooked, mash thoroughly (being sure there are no lumps left in potato), add butter, egg well beaten, and pepper.\n5. Beat with a fork two minutes.\n6. Add salt if necessary.\n7. Take up by spoonfuls, put in frying-basket, and fry one minute in deep fat, allowing six fish balls for each frying; drain on brown paper.\n8. Reheat the fat after each frying.",
+    "originalIngredients": [
+      "1 cup salt codfish",
+      "2 heaping cups potatoes",
+      "1 egg",
+      "½ tablespoon butter",
+      "⅛ teaspoon pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

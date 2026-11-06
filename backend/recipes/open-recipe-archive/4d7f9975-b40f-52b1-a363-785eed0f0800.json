@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "4d7f9975-b40f-52b1-a363-785eed0f0800",
+  "name": "Plain Omelet",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "two ounces of fresh butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs of curled parsley",
+      "originalText": "sprigs of curled parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Leave out the whites of two eggs.",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs very light, and strain them through a sieve.",
+      "section": null
+    },
+    {
+      "text": "Add pepper and salt to your taste.",
+      "section": null
+    },
+    {
+      "text": "Divide two ounces of fresh butter into little bits, and put it into the egg.",
+      "section": null
+    },
+    {
+      "text": "Have ready a quarter of a pound of butter in a frying-pan, or a flat stew-pan.",
+      "section": null
+    },
+    {
+      "text": "Place it on hot coals, and have the butter boiling when you put in the beaten egg.",
+      "section": null
+    },
+    {
+      "text": "Fry it gently till of a light brown on the under side.",
+      "section": null
+    },
+    {
+      "text": "Do not turn it while cooking as it will do better without.",
+      "section": null
+    },
+    {
+      "text": "You may brown the top by holding a hot shovel over it.",
+      "section": null
+    },
+    {
+      "text": "When done, lay it in the dish, double it in half, and stick sprigs of curled parsley over it.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/plain-omelet.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Leave out the whites of two eggs.\n2. Beat the eggs very light, and strain them through a sieve.\n3. Add pepper and salt to your taste.\n4. Divide two ounces of fresh butter into little bits, and put it into the egg.\n5. Have ready a quarter of a pound of butter in a frying-pan, or a flat stew-pan.\n6. Place it on hot coals, and have the butter boiling when you put in the beaten egg.\n7. Fry it gently till of a light brown on the under side.\n8. Do not turn it while cooking as it will do better without.\n9. You may brown the top by holding a hot shovel over it.\n10. When done, lay it in the dish, double it in half, and stick sprigs of curled parsley over it.",
+    "originalIngredients": [
+      "six eggs",
+      "pepper",
+      "salt",
+      "two ounces of fresh butter",
+      "a quarter of a pound of butter",
+      "sprigs of curled parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

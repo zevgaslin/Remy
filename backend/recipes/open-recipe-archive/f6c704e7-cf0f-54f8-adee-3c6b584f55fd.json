@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "f6c704e7-cf0f-54f8-adee-3c6b584f55fd",
+  "name": "Anchovy Sauce",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "anchovies",
+      "originalText": "eight anchovies",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glasses of red wine",
+      "originalText": "two glasses of red wine",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "about half a pint of melted butter",
+      "originalText": "about half a pint of melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak eight anchovies for three or four hours, changing the water every hour",
+      "section": null
+    },
+    {
+      "text": "Put them into a sauce-pan with a quart of cold water",
+      "section": null
+    },
+    {
+      "text": "Set them on hot coals and simmer them till they are entirely dissolved and till the liquid is diminished two-thirds",
+      "section": null
+    },
+    {
+      "text": "Strain it",
+      "section": null
+    },
+    {
+      "text": "Stir in two glasses of red wine and add about half a pint of melted butter",
+      "section": null
+    },
+    {
+      "text": "Heat it over again and send it to table",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/anchovy-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak eight anchovies for three or four hours, changing the water every hour\n2. Put them into a sauce-pan with a quart of cold water\n3. Set them on hot coals and simmer them till they are entirely dissolved and till the liquid is diminished two-thirds\n4. Strain it\n5. Stir in two glasses of red wine and add about half a pint of melted butter\n6. Heat it over again and send it to table",
+    "originalIngredients": [
+      "eight anchovies",
+      "water",
+      "two glasses of red wine",
+      "about half a pint of melted butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

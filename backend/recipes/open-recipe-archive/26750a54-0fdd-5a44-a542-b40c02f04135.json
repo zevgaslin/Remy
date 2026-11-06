@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "26750a54-0fdd-5a44-a542-b40c02f04135",
+  "name": "Pear and Quince Marmalade",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pears",
+      "originalText": "24 pears",
+      "quantity": 24.0,
+      "quantityText": "24",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ripe quinces",
+      "originalText": "10 ripe quinces",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice 3 lemons",
+      "originalText": "Juice 3 lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar to each 1 lb. fruit",
+      "originalText": "1 1/2 lbs. sugar to each 1 lb. fruit",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water to each lb. sugar",
+      "originalText": "1 pt. water to each lb. sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Weigh fruit after it is ready to cook",
+      "section": null
+    },
+    {
+      "text": "Pare and core the fruit and throw into cold water",
+      "section": null
+    },
+    {
+      "text": "Stew parings and cores in a little cold water to make syrup",
+      "section": null
+    },
+    {
+      "text": "When the parings are well boiled strain off liquid",
+      "section": null
+    },
+    {
+      "text": "When cold put in fruit and bring quickly to a boil, boiling until smooth",
+      "section": null
+    },
+    {
+      "text": "Add the sugar and lemon juice, and cook steadily for an hour",
+      "section": null
+    },
+    {
+      "text": "Work with a spoon to a rich jelly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/pear-and-quince-marmalade.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Weigh fruit after it is ready to cook\n2. Pare and core the fruit and throw into cold water\n3. Stew parings and cores in a little cold water to make syrup\n4. When the parings are well boiled strain off liquid\n5. When cold put in fruit and bring quickly to a boil, boiling until smooth\n6. Add the sugar and lemon juice, and cook steadily for an hour\n7. Work with a spoon to a rich jelly",
+    "originalIngredients": [
+      "24 pears",
+      "10 ripe quinces",
+      "Juice 3 lemons",
+      "1 1/2 lbs. sugar to each 1 lb. fruit",
+      "1 pt. water to each lb. sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

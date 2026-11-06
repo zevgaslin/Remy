@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "9624138d-58a5-5fd3-b97f-e05584d87e3a",
+  "name": "Porterhouse Steak, Bordelaise Sauce",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "porterhouse steak",
+      "originalText": "porterhouse steak",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "shallot, finely chopped",
+      "originalText": "one shallot, finely chopped",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-fourth cup claret",
+      "originalText": "one-fourth cup claret",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "one slice onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "two slices carrot",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig of parsley",
+      "originalText": "sprig of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bit of bay leaf",
+      "originalText": "bit of bay leaf",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "eight peppercorns",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clove",
+      "originalText": "one clove",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three and one-half tablespoons flour",
+      "originalText": "three and one-half tablespoons flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Brown Stock",
+      "originalText": "one cup Brown Stock",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "marrow from a marrow-bone",
+      "originalText": "marrow from a marrow-bone",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook one shallot, finely chopped, with one-fourth cup claret until claret is reduced to two tablespoons, and strain.",
+      "section": null
+    },
+    {
+      "text": "Melt two tablespoons butter, add one slice onion, two slices carrot, sprig of parsley, bit of bay leaf, eight peppercorns, and one clove, and cook until brown.",
+      "section": null
+    },
+    {
+      "text": "Add three and one-half tablespoons flour, and when well browned add gradually one cup Brown Stock.",
+      "section": null
+    },
+    {
+      "text": "Strain, let simmer eight minutes, add claret and one tablespoon butter.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Remove marrow from a marrow-bone and cut in one-third inch slices; then poach in boiling water.",
+      "section": null
+    },
+    {
+      "text": "Broil porterhouse steak.",
+      "section": null
+    },
+    {
+      "text": "Arrange marrow on and around steak, and pour around sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/porterhouse-steak-bordelaise-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook one shallot, finely chopped, with one-fourth cup claret until claret is reduced to two tablespoons, and strain.\n2. Melt two tablespoons butter, add one slice onion, two slices carrot, sprig of parsley, bit of bay leaf, eight peppercorns, and one clove, and cook until brown.\n3. Add three and one-half tablespoons flour, and when well browned add gradually one cup Brown Stock.\n4. Strain, let simmer eight minutes, add claret and one tablespoon butter.\n5. Season with salt and pepper.\n6. Remove marrow from a marrow-bone and cut in one-third inch slices; then poach in boiling water.\n7. Broil porterhouse steak.\n8. Arrange marrow on and around steak, and pour around sauce.",
+    "originalIngredients": [
+      "porterhouse steak",
+      "one shallot, finely chopped",
+      "one-fourth cup claret",
+      "two tablespoons butter",
+      "one slice onion",
+      "two slices carrot",
+      "sprig of parsley",
+      "bit of bay leaf",
+      "eight peppercorns",
+      "one clove",
+      "three and one-half tablespoons flour",
+      "one cup Brown Stock",
+      "one tablespoon butter",
+      "salt and pepper",
+      "marrow from a marrow-bone"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

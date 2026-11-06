@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "51a7f53f-eae6-530c-8bb7-0d4958d6952d",
+  "name": "Stewed Ox-Tails",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ox-tails",
+      "originalText": "2 ox-tails",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "3 cloves",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "blade mace",
+      "originalText": "1 blade mace",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole black pepper",
+      "originalText": "1/2 teaspoonful whole black pepper",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice",
+      "originalText": "1/2 teaspoonful allspice",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 teaspoonful salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Small bunch of savory herbs",
+      "originalText": "Small bunch of savory herbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "1 tablespoonful lemon juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mushroom catsup",
+      "originalText": "1 tablespoonful mushroom catsup",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thickening of butter and flour",
+      "originalText": "Thickening of butter and flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Divide the tails at the joints, wash, and put them into a stew-pan with sufficient water to cover, and set them on the fire.",
+      "section": null
+    },
+    {
+      "text": "When the water boils remove the scum, and add the onions cut into rings, the spice, seasoning and herbs.",
+      "section": null
+    },
+    {
+      "text": "Cover the stew-pan closely, and simmer gently until tender, which will be in about two and one-half hours.",
+      "section": null
+    },
+    {
+      "text": "Take the tails out, make a thickening of butter and flour; add it to the gravy, and let it boil for one-quarter of an hour.",
+      "section": null
+    },
+    {
+      "text": "Strain it through a sieve into a saucepan; put back the tails, add the lemon juice and catsup; let the whole just boil up, and serve.",
+      "section": null
+    },
+    {
+      "text": "Serve with croutons or sippets of toasted bread.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/stewed-ox-tails-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Divide the tails at the joints, wash, and put them into a stew-pan with sufficient water to cover, and set them on the fire.\n2. When the water boils remove the scum, and add the onions cut into rings, the spice, seasoning and herbs.\n3. Cover the stew-pan closely, and simmer gently until tender, which will be in about two and one-half hours.\n4. Take the tails out, make a thickening of butter and flour; add it to the gravy, and let it boil for one-quarter of an hour.\n5. Strain it through a sieve into a saucepan; put back the tails, add the lemon juice and catsup; let the whole just boil up, and serve.\n6. Serve with croutons or sippets of toasted bread.",
+    "originalIngredients": [
+      "2 ox-tails",
+      "1 onion",
+      "3 cloves",
+      "1 blade mace",
+      "1/2 teaspoonful whole black pepper",
+      "1/2 teaspoonful allspice",
+      "1/2 teaspoonful salt",
+      "Small bunch of savory herbs",
+      "1 tablespoonful lemon juice",
+      "1 tablespoonful mushroom catsup",
+      "Thickening of butter and flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

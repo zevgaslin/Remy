@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "517edc87-8a41-58ad-b557-5eba2cd9a345",
+  "name": "Moravian Sugar Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "¼ pound butter",
+      "originalText": "¼ pound butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "1 pint rich milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ pound flour",
+      "originalText": "¾ pound flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonful brewer's yeast",
+      "originalText": "1 large table-spoonful brewer's yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten eggs",
+      "originalText": "2 beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ pound sifted flour",
+      "originalText": "¾ pound sifted flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oil of cinnamon",
+      "originalText": "1 tea-spoonful oil of cinnamon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine brown sugar",
+      "originalText": "5 ounces fine brown sugar",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 ounces butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "2 table-spoonfuls powdered cinnamon",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up a quarter of a pound of butter into a pint of rich milk, and warm it till the butter becomes soft",
+      "section": null
+    },
+    {
+      "text": "Stir it about in the milk so as to mix them well",
+      "section": null
+    },
+    {
+      "text": "Sift three quarters of a pound of flour into a deep pan, and making a hole in the middle of it, stir in a large table-spoonful of the best brewer's yeast in which a salt-spoonful of salt has been dissolved",
+      "section": null
+    },
+    {
+      "text": "Thin it with the milk and butter",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it near the fire to rise",
+      "section": null
+    },
+    {
+      "text": "When it is quite light, mix with the dough two beaten eggs and three quarters of a pound more of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Add a tea-spoonful of oil of cinnamon, and stir it very hard",
+      "section": null
+    },
+    {
+      "text": "Butter a large round baking pan, and put the mixture into it",
+      "section": null
+    },
+    {
+      "text": "Set it to rise again",
+      "section": null
+    },
+    {
+      "text": "Mix together five ounces of fine brown sugar; two ounces of butter; and two table-spoonfuls of powdered cinnamon",
+      "section": null
+    },
+    {
+      "text": "When the dough is thoroughly light, make deep incisions all over it, at equal distances, and fill them with the mixture of butter, sugar and cinnamon",
+      "section": null
+    },
+    {
+      "text": "Strew some sugar over the top of the cake",
+      "section": null
+    },
+    {
+      "text": "Bake it from an hour and a half to two hours, or more, in a brisk oven",
+      "section": null
+    },
+    {
+      "text": "When cool, cut it into squares",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/moravian-sugar-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up a quarter of a pound of butter into a pint of rich milk, and warm it till the butter becomes soft\n2. Stir it about in the milk so as to mix them well\n3. Sift three quarters of a pound of flour into a deep pan, and making a hole in the middle of it, stir in a large table-spoonful of the best brewer's yeast in which a salt-spoonful of salt has been dissolved\n4. Thin it with the milk and butter\n5. Cover it, and set it near the fire to rise\n6. When it is quite light, mix with the dough two beaten eggs and three quarters of a pound more of sifted flour\n7. Add a tea-spoonful of oil of cinnamon, and stir it very hard\n8. Butter a large round baking pan, and put the mixture into it\n9. Set it to rise again\n10. Mix together five ounces of fine brown sugar; two ounces of butter; and two table-spoonfuls of powdered cinnamon\n11. When the dough is thoroughly light, make deep incisions all over it, at equal distances, and fill them with the mixture of butter, sugar and cinnamon\n12. Strew some sugar over the top of the cake\n13. Bake it from an hour and a half to two hours, or more, in a brisk oven\n14. When cool, cut it into squares",
+    "originalIngredients": [
+      "¼ pound butter",
+      "1 pint rich milk",
+      "¾ pound flour",
+      "1 large table-spoonful brewer's yeast",
+      "salt",
+      "2 beaten eggs",
+      "¾ pound sifted flour",
+      "1 tea-spoonful oil of cinnamon",
+      "5 ounces fine brown sugar",
+      "2 ounces butter",
+      "2 table-spoonfuls powdered cinnamon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

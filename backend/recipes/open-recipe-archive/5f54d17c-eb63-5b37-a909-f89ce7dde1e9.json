@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "5f54d17c-eb63-5b37-a909-f89ce7dde1e9",
+  "name": "Omelette with Jelly",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Currant or other tart jelly",
+      "originalText": "Currant or other tart jelly",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "4 tablespoonfuls cream, or the same of milk, thickened with a teaspoonful of rice-flour or arrow-root",
+      "originalText": "4 tablespoonfuls cream, or the same of milk, thickened with a teaspoonful of rice-flour or arrow-root",
+      "quantity": null,
+      "quantityText": "4 tablespoonfuls cream, or the same of milk, thickened with a teaspoonful of rice-flour or arrow-root",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "2 tablespoonfuls powdered sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 teaspoonful bitter almond or vanilla flavoring",
+      "originalText": "1 teaspoonful bitter almond or vanilla flavoring",
+      "quantity": null,
+      "quantityText": "1 teaspoonful bitter almond or vanilla flavoring",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat whites and yolks separately, adding to the latter the sugar and milk after they are thick and smooth",
+      "section": null
+    },
+    {
+      "text": "Chop in the seasoning",
+      "section": null
+    },
+    {
+      "text": "Stir in the whites with a few swift strokes",
+      "section": null
+    },
+    {
+      "text": "Put a large spoonful of butter in the frying-pan, and, when it is hot, pour in the omelette",
+      "section": null
+    },
+    {
+      "text": "Spread upon it when done some nice jelly",
+      "section": null
+    },
+    {
+      "text": "Take the pan from the fire",
+      "section": null
+    },
+    {
+      "text": "Spread quickly",
+      "section": null
+    },
+    {
+      "text": "Slip your knife or tin spatula under one-half of the omelette, and double it over",
+      "section": null
+    },
+    {
+      "text": "Turn over on a hot platter",
+      "section": null
+    },
+    {
+      "text": "Sift powdered sugar upon it",
+      "section": null
+    },
+    {
+      "text": "Eat at once",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/omelette-with-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat whites and yolks separately, adding to the latter the sugar and milk after they are thick and smooth\n2. Chop in the seasoning\n3. Stir in the whites with a few swift strokes\n4. Put a large spoonful of butter in the frying-pan, and, when it is hot, pour in the omelette\n5. Spread upon it when done some nice jelly\n6. Take the pan from the fire\n7. Spread quickly\n8. Slip your knife or tin spatula under one-half of the omelette, and double it over\n9. Turn over on a hot platter\n10. Sift powdered sugar upon it\n11. Eat at once",
+    "originalIngredients": [
+      "Currant or other tart jelly",
+      "5 eggs",
+      "4 tablespoonfuls cream, or the same of milk, thickened with a teaspoonful of rice-flour or arrow-root",
+      "2 tablespoonfuls powdered sugar",
+      "1 teaspoonful bitter almond or vanilla flavoring",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

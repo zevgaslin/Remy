@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "d9fa95d0-9096-5c52-a21a-0ae63d9ac198",
+  "name": "Dough Nuts—A Yankee Cake",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "good brown sugar",
+      "originalText": "half a pound of good brown sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two pounds of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonsful of yeast",
+      "originalText": "two spoonsful of yeast",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "new milk",
+      "originalText": "new milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling lard",
+      "originalText": "boiling lard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dry half a pound of good brown sugar, pound it and mix it with two pounds of flour",
+      "section": null
+    },
+    {
+      "text": "Sift it",
+      "section": null
+    },
+    {
+      "text": "Add two spoonsful of yeast, and as much new milk as will make it like bread",
+      "section": null
+    },
+    {
+      "text": "When well risen, knead in half a pound of butter",
+      "section": null
+    },
+    {
+      "text": "Make it in cakes the size of a half dollar",
+      "section": null
+    },
+    {
+      "text": "Fry them a light brown in boiling lard",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/dough-nuts-a-yankee-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dry half a pound of good brown sugar, pound it and mix it with two pounds of flour\n2. Sift it\n3. Add two spoonsful of yeast, and as much new milk as will make it like bread\n4. When well risen, knead in half a pound of butter\n5. Make it in cakes the size of a half dollar\n6. Fry them a light brown in boiling lard",
+    "originalIngredients": [
+      "half a pound of good brown sugar",
+      "two pounds of flour",
+      "two spoonsful of yeast",
+      "new milk",
+      "half a pound of butter",
+      "boiling lard"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

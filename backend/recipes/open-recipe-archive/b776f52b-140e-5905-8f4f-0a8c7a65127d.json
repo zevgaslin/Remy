@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "b776f52b-140e-5905-8f4f-0a8c7a65127d",
+  "name": "Custard Soufflé",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "3 tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup flour",
+      "originalText": "¼ cup flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scalded milk",
+      "originalText": "1 cup scalded milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup sugar",
+      "originalText": "¼ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt butter, add flour, and gradually hot milk",
+      "section": null
+    },
+    {
+      "text": "When well thickened, pour on to yolks of eggs beaten until thick and lemon-colored, and mixed with sugar",
+      "section": null
+    },
+    {
+      "text": "Cool, and cut and fold in whites of eggs beaten stiff and dry",
+      "section": null
+    },
+    {
+      "text": "Turn into buttered pudding-dish, and bake from thirty to thirty-five minutes in slow oven",
+      "section": null
+    },
+    {
+      "text": "Take from oven and serve at once,—if not served immediately it is sure to fall",
+      "section": null
+    },
+    {
+      "text": "Serve with Creamy or Foamy Sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/custard-souffl.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt butter, add flour, and gradually hot milk\n2. When well thickened, pour on to yolks of eggs beaten until thick and lemon-colored, and mixed with sugar\n3. Cool, and cut and fold in whites of eggs beaten stiff and dry\n4. Turn into buttered pudding-dish, and bake from thirty to thirty-five minutes in slow oven\n5. Take from oven and serve at once,—if not served immediately it is sure to fall\n6. Serve with Creamy or Foamy Sauce",
+    "originalIngredients": [
+      "3 tablespoons butter",
+      "¼ cup flour",
+      "1 cup scalded milk",
+      "4 eggs",
+      "¼ cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

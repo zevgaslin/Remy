@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "7ad120e4-d01c-5f0f-8800-10d3cec5fa42",
+  "name": "Mayonnaise Dressing I",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "mustard",
+      "originalText": "1 teaspoon mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "1 teaspoon powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Few grains cayenne",
+      "originalText": "Few grains cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks 2 eggs",
+      "originalText": "Yolks 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "2 tablespoons lemon juice",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "2 tablespoons vinegar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ cups olive oil",
+      "originalText": "1½ cups olive oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix dry ingredients, add egg yolks, and when well mixed add one-half teaspoon of vinegar.",
+      "section": null
+    },
+    {
+      "text": "Add oil gradually, at first drop by drop, and stir constantly.",
+      "section": null
+    },
+    {
+      "text": "As mixture thickens, thin with vinegar or lemon juice.",
+      "section": null
+    },
+    {
+      "text": "Add oil, and vinegar or lemon juice alternately, until all is used, stirring or beating constantly.",
+      "section": null
+    },
+    {
+      "text": "If oil is added too rapidly, dressing will have a curdled appearance.",
+      "section": null
+    },
+    {
+      "text": "A smooth consistency may be restored by taking yolk of another egg and adding curdled mixture slowly to it.",
+      "section": null
+    },
+    {
+      "text": "It is desirable to have bowl containing mixture placed in a larger bowl of crushed ice, to which a small quantity of water has been added.",
+      "section": null
+    },
+    {
+      "text": "Olive oil for making Mayonnaise should always be thoroughly chilled.",
+      "section": null
+    },
+    {
+      "text": "A silver fork, wire whisk, small wooden spoon, or Dover Egg-beater may be used as preferred.",
+      "section": null
+    },
+    {
+      "text": "If one has a Keystone Egg-beater, dressing may be made very quickly by its use.",
+      "section": null
+    },
+    {
+      "text": "Mayonnaise should be stiff enough to hold its shape.",
+      "section": null
+    },
+    {
+      "text": "It soon liquefies when added to meat or vegetables; therefore it should be added just before serving time.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mayonnaise-dressing-i.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix dry ingredients, add egg yolks, and when well mixed add one-half teaspoon of vinegar.\n2. Add oil gradually, at first drop by drop, and stir constantly.\n3. As mixture thickens, thin with vinegar or lemon juice.\n4. Add oil, and vinegar or lemon juice alternately, until all is used, stirring or beating constantly.\n5. If oil is added too rapidly, dressing will have a curdled appearance.\n6. A smooth consistency may be restored by taking yolk of another egg and adding curdled mixture slowly to it.\n7. It is desirable to have bowl containing mixture placed in a larger bowl of crushed ice, to which a small quantity of water has been added.\n8. Olive oil for making Mayonnaise should always be thoroughly chilled.\n9. A silver fork, wire whisk, small wooden spoon, or Dover Egg-beater may be used as preferred.\n10. If one has a Keystone Egg-beater, dressing may be made very quickly by its use.\n11. Mayonnaise should be stiff enough to hold its shape.\n12. It soon liquefies when added to meat or vegetables; therefore it should be added just before serving time.",
+    "originalIngredients": [
+      "1 teaspoon mustard",
+      "1 teaspoon salt",
+      "1 teaspoon powdered sugar",
+      "Few grains cayenne",
+      "Yolks 2 eggs",
+      "2 tablespoons lemon juice",
+      "2 tablespoons vinegar",
+      "1½ cups olive oil"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

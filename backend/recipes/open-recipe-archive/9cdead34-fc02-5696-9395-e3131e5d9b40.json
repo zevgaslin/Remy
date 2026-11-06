@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "9cdead34-fc02-5696-9395-e3131e5d9b40",
+  "name": "Irish Pot Pie",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh beef",
+      "originalText": "4 pounds fresh beef",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrots",
+      "originalText": "4 carrots",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnip",
+      "originalText": "1 turnip",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen potatoes",
+      "originalText": "1 dozen potatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "2 onions",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 quarts flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream tartar",
+      "originalText": "2 teaspoons cream tartar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk or cold water",
+      "originalText": "milk or cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "summer savory",
+      "originalText": "summer savory",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make dough with 2 quarts flour, 2 teaspoons cream tartar, 1 teaspoon soda, mixed with milk or cold water as for biscuit with no lard",
+      "section": null
+    },
+    {
+      "text": "Roll about 1 inch thick and cut into 4-inch squares",
+      "section": null
+    },
+    {
+      "text": "Cut meat into small pieces",
+      "section": null
+    },
+    {
+      "text": "Put in a layer of beef in bottom of pot",
+      "section": null
+    },
+    {
+      "text": "Add alternating layers of carrots, turnip, potatoes, dough and meat",
+      "section": null
+    },
+    {
+      "text": "Add salt, pepper, and a little summer savory",
+      "section": null
+    },
+    {
+      "text": "Add water until you see it through the vegetables",
+      "section": null
+    },
+    {
+      "text": "Cook slowly 3 hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/irish-pot-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make dough with 2 quarts flour, 2 teaspoons cream tartar, 1 teaspoon soda, mixed with milk or cold water as for biscuit with no lard\n2. Roll about 1 inch thick and cut into 4-inch squares\n3. Cut meat into small pieces\n4. Put in a layer of beef in bottom of pot\n5. Add alternating layers of carrots, turnip, potatoes, dough and meat\n6. Add salt, pepper, and a little summer savory\n7. Add water until you see it through the vegetables\n8. Cook slowly 3 hours",
+    "originalIngredients": [
+      "4 pounds fresh beef",
+      "4 carrots",
+      "1 turnip",
+      "1 dozen potatoes",
+      "2 onions",
+      "2 quarts flour",
+      "2 teaspoons cream tartar",
+      "1 teaspoon soda",
+      "milk or cold water",
+      "salt",
+      "pepper",
+      "summer savory"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

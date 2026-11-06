@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "4ce43cb4-e61b-5bd7-b1f5-c5e56f361b04",
+  "name": "Swiss Potato Soup",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "small potatoes",
+      "originalText": "4 small potatoes",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large flat white turnip",
+      "originalText": "1 large flat white turnip",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "3 cups boiling water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scalded milk",
+      "originalText": "1 quart scalded milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ onion",
+      "originalText": "½ onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "4 tablespoons butter",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup flour",
+      "originalText": "⅓ cup flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ teaspoons salt",
+      "originalText": "1½ teaspoons salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅛ teaspoon pepper",
+      "originalText": "⅛ teaspoon pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash, pare, and cut potatoes in halves.",
+      "section": null
+    },
+    {
+      "text": "Wash, pare, and cut turnips in one-quarter inch slices.",
+      "section": null
+    },
+    {
+      "text": "Parboil together ten minutes, drain, add onion cut in slices, and three cups boiling water.",
+      "section": null
+    },
+    {
+      "text": "Cook until vegetables are soft; drain, reserving the water to add to vegetables after rubbing them through a sieve.",
+      "section": null
+    },
+    {
+      "text": "Add milk, reheat, and bind with butter and flour cooked together.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/swiss-potato-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash, pare, and cut potatoes in halves.\n2. Wash, pare, and cut turnips in one-quarter inch slices.\n3. Parboil together ten minutes, drain, add onion cut in slices, and three cups boiling water.\n4. Cook until vegetables are soft; drain, reserving the water to add to vegetables after rubbing them through a sieve.\n5. Add milk, reheat, and bind with butter and flour cooked together.\n6. Season with salt and pepper.",
+    "originalIngredients": [
+      "4 small potatoes",
+      "1 large flat white turnip",
+      "3 cups boiling water",
+      "1 quart scalded milk",
+      "½ onion",
+      "4 tablespoons butter",
+      "⅓ cup flour",
+      "1½ teaspoons salt",
+      "⅛ teaspoon pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

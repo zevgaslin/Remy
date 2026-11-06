@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "08a285aa-944b-53cd-bc29-82d3e2792906",
+  "name": "A Baked Indian Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "a pint of molasses",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a quart of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted Indian meal",
+      "originalText": "a pint of sifted Indian meal",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed cinnamon and nutmeg",
+      "originalText": "a table-spoonful of mixed cinnamon and nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the grated peel of a lemon",
+      "originalText": "the grated peel of a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up a quarter of a pound of butter in a pint of molasses, and warm them together till the butter is melted.",
+      "section": null
+    },
+    {
+      "text": "Boil a quart of milk; and while scalding hot, pour it slowly over a pint of sifted Indian meal.",
+      "section": null
+    },
+    {
+      "text": "Stir in the molasses and butter.",
+      "section": null
+    },
+    {
+      "text": "Cover it, and let it steep for an hour.",
+      "section": null
+    },
+    {
+      "text": "Take off the cover, and set the mixture to cool.",
+      "section": null
+    },
+    {
+      "text": "When it is cold, beat six eggs, and stir them gradually into it.",
+      "section": null
+    },
+    {
+      "text": "Add a table-spoonful of mixed cinnamon and nutmeg; and the grated peel of a lemon.",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard.",
+      "section": null
+    },
+    {
+      "text": "Put it into a buttered dish, and bake it two hours.",
+      "section": null
+    },
+    {
+      "text": "Serve it up hot, and eat it with wine sauce, or with butter and molasses.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-baked-indian-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up a quarter of a pound of butter in a pint of molasses, and warm them together till the butter is melted.\n2. Boil a quart of milk; and while scalding hot, pour it slowly over a pint of sifted Indian meal.\n3. Stir in the molasses and butter.\n4. Cover it, and let it steep for an hour.\n5. Take off the cover, and set the mixture to cool.\n6. When it is cold, beat six eggs, and stir them gradually into it.\n7. Add a table-spoonful of mixed cinnamon and nutmeg; and the grated peel of a lemon.\n8. Stir the whole very hard.\n9. Put it into a buttered dish, and bake it two hours.\n10. Serve it up hot, and eat it with wine sauce, or with butter and molasses.",
+    "originalIngredients": [
+      "a quarter of a pound of butter",
+      "a pint of molasses",
+      "a quart of milk",
+      "a pint of sifted Indian meal",
+      "six eggs",
+      "a table-spoonful of mixed cinnamon and nutmeg",
+      "the grated peel of a lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

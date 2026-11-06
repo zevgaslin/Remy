@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "0d4b9224-e4c7-5001-9341-402bfa4cc69d",
+  "name": "Rye and Corn Bread",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one quart of rye meal or rye flour",
+      "originalText": "one quart of rye meal or rye flour",
+      "quantity": null,
+      "quantityText": "one quart of rye meal or rye flour",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Indian meal",
+      "originalText": "two quarts of Indian meal",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cup of molasses",
+      "originalText": "one-half cup of molasses",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "two teaspoonfuls salt",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup yeast",
+      "originalText": "one teacup yeast",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoonful of soda",
+      "originalText": "a level teaspoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "place Indian meal in a pan and pour over it just enough boiling water to merely wet it, stirring constantly with a spoon",
+      "section": null
+    },
+    {
+      "text": "add rye meal or rye flour, molasses, and salt",
+      "section": null
+    },
+    {
+      "text": "make it as stiff as can be stirred with a spoon, mixing with warm water",
+      "section": null
+    },
+    {
+      "text": "let rise all night",
+      "section": null
+    },
+    {
+      "text": "in the morning add a level teaspoonful of soda dissolved in a little water",
+      "section": null
+    },
+    {
+      "text": "put it in a large pan and smooth the top with the hand dipped in cold water",
+      "section": null
+    },
+    {
+      "text": "let it stand a short time",
+      "section": null
+    },
+    {
+      "text": "bake five or six hours, or if put in the oven late in the day, let it remain all night",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rye-and-corn-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. place Indian meal in a pan and pour over it just enough boiling water to merely wet it, stirring constantly with a spoon\n2. add rye meal or rye flour, molasses, and salt\n3. make it as stiff as can be stirred with a spoon, mixing with warm water\n4. let rise all night\n5. in the morning add a level teaspoonful of soda dissolved in a little water\n6. put it in a large pan and smooth the top with the hand dipped in cold water\n7. let it stand a short time\n8. bake five or six hours, or if put in the oven late in the day, let it remain all night",
+    "originalIngredients": [
+      "one quart of rye meal or rye flour",
+      "two quarts of Indian meal",
+      "boiling water",
+      "one-half cup of molasses",
+      "two teaspoonfuls salt",
+      "one teacup yeast",
+      "warm water",
+      "a level teaspoonful of soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

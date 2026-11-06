@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "f7ef56d9-52c9-5e2d-bafc-c09e35e41b67",
+  "name": "Cream of Celery Soup (Second Recipe)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Pint of milk",
+      "originalText": "Pint of milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "Flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cornstarch",
+      "originalText": "Cornstarch",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dash of red pepper",
+      "originalText": "A dash of red pepper",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "A slice of onion",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "blade of mace",
+      "originalText": "A blade of mace",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of celery",
+      "originalText": "A head of celery",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lump of butter",
+      "originalText": "Lump of butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whipped cream",
+      "originalText": "A cupful of whipped cream",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil together pint of milk thickened with flour and cornstarch, a dash of red pepper, a slice of onion, and a blade of mace",
+      "section": null
+    },
+    {
+      "text": "Add a head of celery previously cut in pieces, boiled and mashed, in salted water in which boiled",
+      "section": null
+    },
+    {
+      "text": "When well blended strain",
+      "section": null
+    },
+    {
+      "text": "Add lump of butter; stir over fire till blended",
+      "section": null
+    },
+    {
+      "text": "If very special add a cupful of whipped cream after soup is dished in very hot tureen",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cream-of-celery-soup-second-recipe.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil together pint of milk thickened with flour and cornstarch, a dash of red pepper, a slice of onion, and a blade of mace\n2. Add a head of celery previously cut in pieces, boiled and mashed, in salted water in which boiled\n3. When well blended strain\n4. Add lump of butter; stir over fire till blended\n5. If very special add a cupful of whipped cream after soup is dished in very hot tureen",
+    "originalIngredients": [
+      "Pint of milk",
+      "Flour",
+      "Cornstarch",
+      "A dash of red pepper",
+      "A slice of onion",
+      "A blade of mace",
+      "A head of celery",
+      "Salt",
+      "Lump of butter",
+      "A cupful of whipped cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

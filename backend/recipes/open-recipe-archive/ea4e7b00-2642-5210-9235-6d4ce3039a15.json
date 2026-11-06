@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "ea4e7b00-2642-5210-9235-6d4ce3039a15",
+  "name": "Creamed Codfish (Salt)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "salted codfish",
+      "originalText": "salted codfish",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "one tablespoonful of vinegar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one cupful of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten eggs",
+      "originalText": "two beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "minced parsley",
+      "originalText": "one tablespoonful of minced parsley",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon-juice",
+      "originalText": "lemon-juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne or paprica",
+      "originalText": "cayenne or paprica",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak all night, changing the water several times and having the last bath quite hot",
+      "section": null
+    },
+    {
+      "text": "Boil tender in hot water with a tablespoonful of vinegar",
+      "section": null
+    },
+    {
+      "text": "Take out the bones while hot, and let it cool before picking or shredding it into fine flakes",
+      "section": null
+    },
+    {
+      "text": "Heat a cupful of milk",
+      "section": null
+    },
+    {
+      "text": "Stir into it a tablespoonful of butter rolled in one of flour",
+      "section": null
+    },
+    {
+      "text": "Cook until it thickens well",
+      "section": null
+    },
+    {
+      "text": "Take from the fire and add two beaten eggs",
+      "section": null
+    },
+    {
+      "text": "When these are well mixed, add the shredded fish, and cook two minutes, stirring steadily",
+      "section": null
+    },
+    {
+      "text": "Add a tablespoonful of minced parsley and a little lemon-juice",
+      "section": null
+    },
+    {
+      "text": "Season with cayenne or paprica",
+      "section": null
+    },
+    {
+      "text": "Serve hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/creamed-codfish-salt.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak all night, changing the water several times and having the last bath quite hot\n2. Boil tender in hot water with a tablespoonful of vinegar\n3. Take out the bones while hot, and let it cool before picking or shredding it into fine flakes\n4. Heat a cupful of milk\n5. Stir into it a tablespoonful of butter rolled in one of flour\n6. Cook until it thickens well\n7. Take from the fire and add two beaten eggs\n8. When these are well mixed, add the shredded fish, and cook two minutes, stirring steadily\n9. Add a tablespoonful of minced parsley and a little lemon-juice\n10. Season with cayenne or paprica\n11. Serve hot",
+    "originalIngredients": [
+      "salted codfish",
+      "water",
+      "one tablespoonful of vinegar",
+      "one cupful of milk",
+      "one tablespoonful of butter",
+      "one tablespoonful of flour",
+      "two beaten eggs",
+      "one tablespoonful of minced parsley",
+      "lemon-juice",
+      "cayenne or paprica"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

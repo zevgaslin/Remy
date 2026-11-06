@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "dcb6f8b3-21f8-53e5-b924-f52ad60389a9",
+  "name": "Rice Bread",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "warm water",
+      "originalText": "1 quart warm water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful yeast",
+      "originalText": "1 teacupful yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 tablespoonful white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "2 tablespoonfuls lard",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wheat flour",
+      "originalText": "1 quart wheat flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm milk",
+      "originalText": "three pints of warm milk",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupfuls rice-flour wet to a thin paste with cold milk, and boiled four minutes",
+      "originalText": "three teacupfuls rice-flour wet to a thin paste with cold milk, and boiled four minutes",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a sponge with warm water, yeast, white sugar, lard, and wheat flour",
+      "section": null
+    },
+    {
+      "text": "Beat well together and when it has risen (about five hours), add three pints of warm milk and three teacupfuls rice-flour wet to a thin paste with cold milk and boiled four minutes",
+      "section": null
+    },
+    {
+      "text": "Stir into the batter when it should be a little more than blood-warm",
+      "section": null
+    },
+    {
+      "text": "If not thick enough to make out into dough, add a little wheat-flour",
+      "section": null
+    },
+    {
+      "text": "Knead thoroughly and treat as you would wheat bread in the matter of the two risings and baking",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-bread-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a sponge with warm water, yeast, white sugar, lard, and wheat flour\n2. Beat well together and when it has risen (about five hours), add three pints of warm milk and three teacupfuls rice-flour wet to a thin paste with cold milk and boiled four minutes\n3. Stir into the batter when it should be a little more than blood-warm\n4. If not thick enough to make out into dough, add a little wheat-flour\n5. Knead thoroughly and treat as you would wheat bread in the matter of the two risings and baking",
+    "originalIngredients": [
+      "1 quart warm water",
+      "1 teacupful yeast",
+      "1 tablespoonful white sugar",
+      "2 tablespoonfuls lard",
+      "1 quart wheat flour",
+      "three pints of warm milk",
+      "three teacupfuls rice-flour wet to a thin paste with cold milk, and boiled four minutes"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "e869f826-f21f-59c7-b879-14146d9ae722",
+  "name": "Hare or Rabbit Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "a large newly killed hare, or two rabbits",
+      "originalText": "a large newly killed hare, or two rabbits",
+      "quantity": null,
+      "quantityText": "a large newly killed hare, or two rabbits",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole onions",
+      "originalText": "four whole onions",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few cloves",
+      "originalText": "a few cloves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "four or five blades of mace",
+      "originalText": "four or five blades of mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of celery",
+      "originalText": "a head of celery",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of parsley",
+      "originalText": "a bunch of parsley",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large bunch of sweet marjoram",
+      "originalText": "a large bunch of sweet marjoram",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of sweet basil",
+      "originalText": "one bunch of sweet basil",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and cayenne pepper",
+      "originalText": "salt and cayenne pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "three quarts of water",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "red wine",
+      "originalText": "red wine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonful of currant jelly",
+      "originalText": "a large table-spoonful of currant jelly",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small force-meat balls",
+      "originalText": "small force-meat balls",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a large newly killed hare, or two rabbits; cut them up and wash the pieces.",
+      "section": null
+    },
+    {
+      "text": "Save all the blood and strain it through a sieve.",
+      "section": null
+    },
+    {
+      "text": "Put the pieces into a soup-pot with four whole onions stuck with a few cloves, four or five blades of mace, a head of celery cut small, and a bunch of parsley with a large bunch of sweet marjoram and one of sweet basil, all tied together.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and cayenne to your taste.",
+      "section": null
+    },
+    {
+      "text": "Pour in three quarts of water, and stew it gently an hour and a half.",
+      "section": null
+    },
+    {
+      "text": "Put in the strained blood and simmer it for another hour, at least, but do not let it actually boil.",
+      "section": null
+    },
+    {
+      "text": "Strain it, and pound half the meat in a mortar, and stir it into the soup to thicken it, and cut the remainder of the meat into small mouthfuls.",
+      "section": null
+    },
+    {
+      "text": "Stir in, at the last, a jill or two glasses of red wine, and a large table-spoonful of currant jelly.",
+      "section": null
+    },
+    {
+      "text": "Boil it slowly a few minutes longer, and then put it into your tureen.",
+      "section": null
+    },
+    {
+      "text": "Add two or three dozen small force-meat balls, about the size of a nutmeg.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/hare-or-rabbit-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a large newly killed hare, or two rabbits; cut them up and wash the pieces.\n2. Save all the blood and strain it through a sieve.\n3. Put the pieces into a soup-pot with four whole onions stuck with a few cloves, four or five blades of mace, a head of celery cut small, and a bunch of parsley with a large bunch of sweet marjoram and one of sweet basil, all tied together.\n4. Season with salt and cayenne to your taste.\n5. Pour in three quarts of water, and stew it gently an hour and a half.\n6. Put in the strained blood and simmer it for another hour, at least, but do not let it actually boil.\n7. Strain it, and pound half the meat in a mortar, and stir it into the soup to thicken it, and cut the remainder of the meat into small mouthfuls.\n8. Stir in, at the last, a jill or two glasses of red wine, and a large table-spoonful of currant jelly.\n9. Boil it slowly a few minutes longer, and then put it into your tureen.\n10. Add two or three dozen small force-meat balls, about the size of a nutmeg.",
+    "originalIngredients": [
+      "a large newly killed hare, or two rabbits",
+      "four whole onions",
+      "a few cloves",
+      "four or five blades of mace",
+      "a head of celery",
+      "a bunch of parsley",
+      "a large bunch of sweet marjoram",
+      "one bunch of sweet basil",
+      "salt and cayenne pepper",
+      "three quarts of water",
+      "red wine",
+      "a large table-spoonful of currant jelly",
+      "small force-meat balls"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

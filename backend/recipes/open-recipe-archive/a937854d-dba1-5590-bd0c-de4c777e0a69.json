@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "a937854d-dba1-5590-bd0c-de4c777e0a69",
+  "name": "Hoe Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "whites of three eggs",
+      "originalText": "whites of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wheat flour",
+      "originalText": "a quart of wheat flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt-spoon of salt",
+      "originalText": "a salt-spoon of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best fresh yeast",
+      "originalText": "two table-spoonfuls of the best fresh yeast",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the whites of three eggs to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "Sift into a pan a quart of wheat flour, adding a salt-spoon of salt",
+      "section": null
+    },
+    {
+      "text": "Make a hole in the middle, and mix in the white of egg so as to form a thick batter",
+      "section": null
+    },
+    {
+      "text": "Add two table-spoonfuls of the best fresh yeast",
+      "section": null
+    },
+    {
+      "text": "Cover it, and let it stand all night",
+      "section": null
+    },
+    {
+      "text": "In the morning, take a hoe-iron and prop it before the fire till it is well heated",
+      "section": null
+    },
+    {
+      "text": "Flour a tea-saucer, and fill it with batter, shake it about, and clap it to the hoe (which must be previously greased)",
+      "section": null
+    },
+    {
+      "text": "The batter will adhere till it is baked",
+      "section": null
+    },
+    {
+      "text": "Repeat this with each cake",
+      "section": null
+    },
+    {
+      "text": "Keep them hot, and eat them with butter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/hoe-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the whites of three eggs to a stiff froth\n2. Sift into a pan a quart of wheat flour, adding a salt-spoon of salt\n3. Make a hole in the middle, and mix in the white of egg so as to form a thick batter\n4. Add two table-spoonfuls of the best fresh yeast\n5. Cover it, and let it stand all night\n6. In the morning, take a hoe-iron and prop it before the fire till it is well heated\n7. Flour a tea-saucer, and fill it with batter, shake it about, and clap it to the hoe (which must be previously greased)\n8. The batter will adhere till it is baked\n9. Repeat this with each cake\n10. Keep them hot, and eat them with butter",
+    "originalIngredients": [
+      "whites of three eggs",
+      "a quart of wheat flour",
+      "a salt-spoon of salt",
+      "two table-spoonfuls of the best fresh yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

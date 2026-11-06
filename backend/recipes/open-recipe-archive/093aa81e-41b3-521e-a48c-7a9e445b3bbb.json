@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "093aa81e-41b3-521e-a48c-7a9e445b3bbb",
+  "name": "Tomato Soy",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bushel of full ripe tomatos",
+      "originalText": "a bushel of full ripe tomatos",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "three onions",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "one ounce of cloves",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of allspice",
+      "originalText": "quarter of a pound of allspice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of whole black pepper",
+      "originalText": "quarter of a pound of whole black pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small wine glass of Cayenne",
+      "originalText": "a small wine glass of Cayenne",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a bushel of full ripe tomatos, cut them in slices without skinning",
+      "section": null
+    },
+    {
+      "text": "Sprinkle the bottom of a large tub with salt, strew in the tomatos, and over each layer of about two inches thick, sprinkle half a pint of salt, and three onions sliced without taking off the skins",
+      "section": null
+    },
+    {
+      "text": "Let them remain for three days",
+      "section": null
+    },
+    {
+      "text": "Put them into a large iron pot, in which they must boil from early in the morning till night, constantly stirring to prevent their sticking and mashing them",
+      "section": null
+    },
+    {
+      "text": "The next morning, pass the mixture through a sieve, pressing it to obtain all the liquor you can",
+      "section": null
+    },
+    {
+      "text": "Add to it one ounce of cloves, quarter of a pound of allspice, quarter of a pound of whole black pepper, and a small wine glass of Cayenne",
+      "section": null
+    },
+    {
+      "text": "Let it boil slowly and constantly during the whole of the day",
+      "section": null
+    },
+    {
+      "text": "In the evening, put it into a suitable vessel to cool",
+      "section": null
+    },
+    {
+      "text": "The day after, bottle and cork it well",
+      "section": null
+    },
+    {
+      "text": "Place it in a cool situation during warm weather",
+      "section": null
+    },
+    {
+      "text": "Should it ferment it must be boiled a second time",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomato-soy.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a bushel of full ripe tomatos, cut them in slices without skinning\n2. Sprinkle the bottom of a large tub with salt, strew in the tomatos, and over each layer of about two inches thick, sprinkle half a pint of salt, and three onions sliced without taking off the skins\n3. Let them remain for three days\n4. Put them into a large iron pot, in which they must boil from early in the morning till night, constantly stirring to prevent their sticking and mashing them\n5. The next morning, pass the mixture through a sieve, pressing it to obtain all the liquor you can\n6. Add to it one ounce of cloves, quarter of a pound of allspice, quarter of a pound of whole black pepper, and a small wine glass of Cayenne\n7. Let it boil slowly and constantly during the whole of the day\n8. In the evening, put it into a suitable vessel to cool\n9. The day after, bottle and cork it well\n10. Place it in a cool situation during warm weather\n11. Should it ferment it must be boiled a second time",
+    "originalIngredients": [
+      "a bushel of full ripe tomatos",
+      "salt",
+      "three onions",
+      "one ounce of cloves",
+      "quarter of a pound of allspice",
+      "quarter of a pound of whole black pepper",
+      "a small wine glass of Cayenne"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "e35c9098-e21a-5d98-9b32-d3cb3c2e3638",
+  "name": "Pot Roast (Fourth Method)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "meat",
+      "originalText": "meat",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "2 cups water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "1 cup hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "3 onions",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 teaspoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put meat in pot and add 2 cups water",
+      "section": null
+    },
+    {
+      "text": "Shake generously with salt",
+      "section": null
+    },
+    {
+      "text": "Cover tightly and let boil dry",
+      "section": null
+    },
+    {
+      "text": "Just scorch, not burn",
+      "section": null
+    },
+    {
+      "text": "Add 1 cup hot water and let boil dry",
+      "section": null
+    },
+    {
+      "text": "Repeat the same process for 1 hour",
+      "section": null
+    },
+    {
+      "text": "Add 3 onions cut fine",
+      "section": null
+    },
+    {
+      "text": "Repeat the same process for another hour",
+      "section": null
+    },
+    {
+      "text": "Take out meat",
+      "section": null
+    },
+    {
+      "text": "Mix 2 teaspoons flour in a little water",
+      "section": null
+    },
+    {
+      "text": "Pour in liquid in pot and add water to make sufficient for gravy",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/pot-roast-fourth-method.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put meat in pot and add 2 cups water\n2. Shake generously with salt\n3. Cover tightly and let boil dry\n4. Just scorch, not burn\n5. Add 1 cup hot water and let boil dry\n6. Repeat the same process for 1 hour\n7. Add 3 onions cut fine\n8. Repeat the same process for another hour\n9. Take out meat\n10. Mix 2 teaspoons flour in a little water\n11. Pour in liquid in pot and add water to make sufficient for gravy",
+    "originalIngredients": [
+      "meat",
+      "2 cups water",
+      "salt",
+      "1 cup hot water",
+      "3 onions",
+      "2 teaspoons flour",
+      "water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

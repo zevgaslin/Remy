@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "19070c9e-56b2-5d80-a3e0-acfe74a053a7",
+  "name": "Grandmother's Eye-Wash",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh eggs",
+      "originalText": "three fresh eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clear, cold rain-water",
+      "originalText": "one quart of clear, cold rain-water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sulphate of zinc (white vitrol)",
+      "originalText": "half an ounce of sulphate of zinc (white vitrol)",
+      "quantity": 0.5,
+      "quantityText": "half an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "break the eggs into one quart of clear, cold rain-water",
+      "section": null
+    },
+    {
+      "text": "stir until thoroughly mixed",
+      "section": null
+    },
+    {
+      "text": "bring to a boil on a slow fire, stirring often",
+      "section": null
+    },
+    {
+      "text": "add half an ounce of sulphate of zinc (white vitrol)",
+      "section": null
+    },
+    {
+      "text": "continue the boiling for two minutes, then set it off the fire",
+      "section": null
+    },
+    {
+      "text": "Take the curd that settles at the bottom of this and apply to the eye at night with a bandage",
+      "section": null
+    },
+    {
+      "text": "Strain the liquid through a cloth and use for bathing the eyes occasionally",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/grandmother-s-eye-wash.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. break the eggs into one quart of clear, cold rain-water\n2. stir until thoroughly mixed\n3. bring to a boil on a slow fire, stirring often\n4. add half an ounce of sulphate of zinc (white vitrol)\n5. continue the boiling for two minutes, then set it off the fire\n6. Take the curd that settles at the bottom of this and apply to the eye at night with a bandage\n7. Strain the liquid through a cloth and use for bathing the eyes occasionally",
+    "originalIngredients": [
+      "three fresh eggs",
+      "one quart of clear, cold rain-water",
+      "half an ounce of sulphate of zinc (white vitrol)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

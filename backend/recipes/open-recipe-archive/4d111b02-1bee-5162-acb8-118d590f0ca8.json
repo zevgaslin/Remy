@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "4d111b02-1bee-5162-acb8-118d590f0ca8",
+  "name": "Steamed Sago Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sago",
+      "originalText": "3 oz. sago",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "2 oz. fresh butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 oz. sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Grated rind of 1 lemon",
+      "originalText": "Grated rind of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "three eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half tablespoon flour",
+      "originalText": "one-half tablespoon flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and one-half teaspoonfuls sugar",
+      "originalText": "one and one-half teaspoonfuls sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put into a saucepan milk, sago, fresh butter, sugar, and the grated rind of one lemon",
+      "section": null
+    },
+    {
+      "text": "Boil all together for thirteen and a half minutes",
+      "section": null
+    },
+    {
+      "text": "Work in three eggs",
+      "section": null
+    },
+    {
+      "text": "Mix together one-half tablespoon flour and one and one-half teaspoonfuls sugar",
+      "section": null
+    },
+    {
+      "text": "Butter mould and dust flour and sugar into it well",
+      "section": null
+    },
+    {
+      "text": "Pour in the mixture and put buttered paper on top",
+      "section": null
+    },
+    {
+      "text": "Steam one hour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/steamed-sago-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put into a saucepan milk, sago, fresh butter, sugar, and the grated rind of one lemon\n2. Boil all together for thirteen and a half minutes\n3. Work in three eggs\n4. Mix together one-half tablespoon flour and one and one-half teaspoonfuls sugar\n5. Butter mould and dust flour and sugar into it well\n6. Pour in the mixture and put buttered paper on top\n7. Steam one hour",
+    "originalIngredients": [
+      "1 pt. milk",
+      "3 oz. sago",
+      "2 oz. fresh butter",
+      "3 oz. sugar",
+      "Grated rind of 1 lemon",
+      "three eggs",
+      "one-half tablespoon flour",
+      "one and one-half teaspoonfuls sugar",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

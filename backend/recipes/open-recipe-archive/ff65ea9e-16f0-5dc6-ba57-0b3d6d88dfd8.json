@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "ff65ea9e-16f0-5dc6-ba57-0b3d6d88dfd8",
+  "name": "Risen Doughnuts",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 lb. butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1¾ lb. sugar",
+      "originalText": "1¾ lb. sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1 quart sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup yeast",
+      "originalText": "1 large cup yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 tablespoonful mace or nutmeg",
+      "originalText": "1 tablespoonful mace or nutmeg",
+      "quantity": null,
+      "quantityText": "1 tablespoonful mace or nutmeg",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "2 teaspoonfuls cinnamon",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour to make all stiff as bread dough",
+      "originalText": "Flour to make all stiff as bread dough",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream the butter and sugar, add the milk, yeast, and one quart and a pint of flour",
+      "section": null
+    },
+    {
+      "text": "Set to rise over night",
+      "section": null
+    },
+    {
+      "text": "In the morning beat the eggs very light, and stir into the batter with the spice and rest of the flour",
+      "section": null
+    },
+    {
+      "text": "Set to rise three hours, or until light",
+      "section": null
+    },
+    {
+      "text": "Roll into a pretty thick sheet, cut out, and fry in boiling lard",
+      "section": null
+    },
+    {
+      "text": "Sift powdered sugar over them while hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/risen-doughnuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream the butter and sugar, add the milk, yeast, and one quart and a pint of flour\n2. Set to rise over night\n3. In the morning beat the eggs very light, and stir into the batter with the spice and rest of the flour\n4. Set to rise three hours, or until light\n5. Roll into a pretty thick sheet, cut out, and fry in boiling lard\n6. Sift powdered sugar over them while hot",
+    "originalIngredients": [
+      "1 lb. butter",
+      "1¾ lb. sugar",
+      "1 quart sweet milk",
+      "4 eggs",
+      "1 large cup yeast",
+      "1 tablespoonful mace or nutmeg",
+      "2 teaspoonfuls cinnamon",
+      "Flour to make all stiff as bread dough",
+      "1 teaspoonful salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

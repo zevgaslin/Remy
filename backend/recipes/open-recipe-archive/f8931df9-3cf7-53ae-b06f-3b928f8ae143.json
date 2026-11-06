@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "f8931df9-3cf7-53ae-b06f-3b928f8ae143",
+  "name": "Milk Pudding Sauce",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs, beaten stiff",
+      "originalText": "2 eggs, beaten stiff",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup of sugar",
+      "originalText": "1 large cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling milk",
+      "originalText": "5 tablespoonfuls boiling milk",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful arrow-root or corn-starch, wet with cold milk",
+      "originalText": "½ teaspoonful arrow-root or corn-starch, wet with cold milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 teaspoonful nutmeg, or mace",
+      "originalText": "1 teaspoonful nutmeg, or mace",
+      "quantity": null,
+      "quantityText": "1 teaspoonful nutmeg, or mace",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub the butter into the sugar, add the beaten eggs, and work all to a creamy froth.",
+      "section": null
+    },
+    {
+      "text": "Wet the corn-starch and put in next with the spice—finally, pour in by the spoonful the boiling milk, beating well all the time.",
+      "section": null
+    },
+    {
+      "text": "Set within a saucepan of boiling water five minutes, stirring all the while, but do not let the sauce boil.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/milk-pudding-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub the butter into the sugar, add the beaten eggs, and work all to a creamy froth.\n2. Wet the corn-starch and put in next with the spice—finally, pour in by the spoonful the boiling milk, beating well all the time.\n3. Set within a saucepan of boiling water five minutes, stirring all the while, but do not let the sauce boil.",
+    "originalIngredients": [
+      "2 eggs, beaten stiff",
+      "1 large cup of sugar",
+      "5 tablespoonfuls boiling milk",
+      "½ teaspoonful arrow-root or corn-starch, wet with cold milk",
+      "1 teaspoonful nutmeg, or mace",
+      "1 tablespoonful butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

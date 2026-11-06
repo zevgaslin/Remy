@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "86010116-0041-5f9d-8b0d-8d13c9d23d9f",
+  "name": "Orange Delicious",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "2 cups sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1 cup water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange juice",
+      "originalText": "2 cups orange juice",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks two eggs",
+      "originalText": "Yolks two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heavy cream",
+      "originalText": "1 cup heavy cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup shredded candied orange peel",
+      "originalText": "¼ cup shredded candied orange peel",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil sugar and water eight minutes, then add orange juice",
+      "section": null
+    },
+    {
+      "text": "Scald cream, add yolks of eggs, and cook over hot water until mixture thickens",
+      "section": null
+    },
+    {
+      "text": "Cool, add to first mixture with heavy cream beaten stiff",
+      "section": null
+    },
+    {
+      "text": "Freeze; when nearly frozen, add orange peel",
+      "section": null
+    },
+    {
+      "text": "Line a melon mould with Orange Ice, fill with Orange Delicious, pack in salt and ice, and let stand one and one-half hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/orange-delicious.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil sugar and water eight minutes, then add orange juice\n2. Scald cream, add yolks of eggs, and cook over hot water until mixture thickens\n3. Cool, add to first mixture with heavy cream beaten stiff\n4. Freeze; when nearly frozen, add orange peel\n5. Line a melon mould with Orange Ice, fill with Orange Delicious, pack in salt and ice, and let stand one and one-half hours",
+    "originalIngredients": [
+      "2 cups sugar",
+      "1 cup water",
+      "2 cups orange juice",
+      "1 cup cream",
+      "Yolks two eggs",
+      "1 cup heavy cream",
+      "¼ cup shredded candied orange peel"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

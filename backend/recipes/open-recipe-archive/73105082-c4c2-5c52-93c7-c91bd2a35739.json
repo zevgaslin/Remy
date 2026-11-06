@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "73105082-c4c2-5c52-93c7-c91bd2a35739",
+  "name": "Cauliflower Broth (Without Meat)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fine cauliflower",
+      "originalText": "One fine cauliflower",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter rubbed into one of cornstarch",
+      "originalText": "Two tablespoonfuls butter rubbed into one of cornstarch",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "One onion",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bunch of parsley",
+      "originalText": "Bunch of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "blades of mace",
+      "originalText": "Two blades of mace",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "Two quarts water",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "Two cups milk",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of soda in the milk",
+      "originalText": "A pinch of soda in the milk",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the cauliflower into bunches, reserving about a cupful of small clusters to put whole into the soup",
+      "section": null
+    },
+    {
+      "text": "Chop the rest, also the onion and herbs, and put on in the water, with the mace",
+      "section": null
+    },
+    {
+      "text": "Cook an hour, and rub through a colander",
+      "section": null
+    },
+    {
+      "text": "Return the puree thus obtained to the pot, and season with pepper and salt",
+      "section": null
+    },
+    {
+      "text": "As it boils, stir in the whole clusters, previously boiled tender in hot, salted water, and left to cool",
+      "section": null
+    },
+    {
+      "text": "When the soup is again hot, put in the butter and cornstarch",
+      "section": null
+    },
+    {
+      "text": "Stir until this has thickened",
+      "section": null
+    },
+    {
+      "text": "Pour into the tureen, and add the boiling milk",
+      "section": null
+    },
+    {
+      "text": "Pass sliced lemon and cream-crackers with it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cauliflower-broth-without-meat.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the cauliflower into bunches, reserving about a cupful of small clusters to put whole into the soup\n2. Chop the rest, also the onion and herbs, and put on in the water, with the mace\n3. Cook an hour, and rub through a colander\n4. Return the puree thus obtained to the pot, and season with pepper and salt\n5. As it boils, stir in the whole clusters, previously boiled tender in hot, salted water, and left to cool\n6. When the soup is again hot, put in the butter and cornstarch\n7. Stir until this has thickened\n8. Pour into the tureen, and add the boiling milk\n9. Pass sliced lemon and cream-crackers with it",
+    "originalIngredients": [
+      "One fine cauliflower",
+      "Two tablespoonfuls butter rubbed into one of cornstarch",
+      "One onion",
+      "Bunch of parsley",
+      "Two blades of mace",
+      "Two quarts water",
+      "Two cups milk",
+      "Pepper and salt",
+      "A pinch of soda in the milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

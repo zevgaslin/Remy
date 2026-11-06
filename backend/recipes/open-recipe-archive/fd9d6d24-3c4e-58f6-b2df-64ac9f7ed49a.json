@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "fd9d6d24-3c4e-58f6-b2df-64ac9f7ed49a",
+  "name": "A Baked Plum Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "stale six cent loaf",
+      "originalText": "a stale six cent loaf",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "a quart of rich milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants, picked, washed, and dried",
+      "originalText": "half a pound of currants, picked, washed, and dried",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins, stoned and cut in half",
+      "originalText": "half a pound of raisins, stoned and cut in half",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of citron cut in large slips",
+      "originalText": "a quarter of a pound of citron cut in large slips",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmegs beaten to a powder",
+      "originalText": "two nutmegs beaten to a powder",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace and cinnamon powdered and mixed together",
+      "originalText": "a table-spoonful of mace and cinnamon powdered and mixed together",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a pound of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of brandy",
+      "originalText": "a glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of white wine",
+      "originalText": "a glass of white wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate all the crumb of a stale six cent loaf",
+      "section": null
+    },
+    {
+      "text": "Boil a quart of rich milk, and pour it boiling hot over the grated bread",
+      "section": null
+    },
+    {
+      "text": "Cover it, and let it steep for an hour",
+      "section": null
+    },
+    {
+      "text": "Set it out to cool",
+      "section": null
+    },
+    {
+      "text": "Prepare half a pound of currants, picked, washed, and dried",
+      "section": null
+    },
+    {
+      "text": "Prepare half a pound of raisins, stoned and cut in half",
+      "section": null
+    },
+    {
+      "text": "Prepare a quarter of a pound of citron cut in large slips",
+      "section": null
+    },
+    {
+      "text": "Beat two nutmegs to a powder",
+      "section": null
+    },
+    {
+      "text": "Powder and mix a table-spoonful of mace and cinnamon together",
+      "section": null
+    },
+    {
+      "text": "Crush with a rolling-pin half a pound of sugar",
+      "section": null
+    },
+    {
+      "text": "Cut up half a pound of butter",
+      "section": null
+    },
+    {
+      "text": "When the bread and milk is uncovered to cool, mix with it the butter, sugar, spice and citron",
+      "section": null
+    },
+    {
+      "text": "Add a glass of brandy, and a glass of white wine",
+      "section": null
+    },
+    {
+      "text": "Beat eight eggs very light",
+      "section": null
+    },
+    {
+      "text": "When the milk is quite cold, stir them gradually into the mixture",
+      "section": null
+    },
+    {
+      "text": "Add, by degrees, the raisins and currants, which must be previously dredged with flour",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard",
+      "section": null
+    },
+    {
+      "text": "Put it into a buttered dish, and bake it two hours",
+      "section": null
+    },
+    {
+      "text": "Send it to table warm, and eat it with wine sauce, or with wine and sugar only",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-baked-plum-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate all the crumb of a stale six cent loaf\n2. Boil a quart of rich milk, and pour it boiling hot over the grated bread\n3. Cover it, and let it steep for an hour\n4. Set it out to cool\n5. Prepare half a pound of currants, picked, washed, and dried\n6. Prepare half a pound of raisins, stoned and cut in half\n7. Prepare a quarter of a pound of citron cut in large slips\n8. Beat two nutmegs to a powder\n9. Powder and mix a table-spoonful of mace and cinnamon together\n10. Crush with a rolling-pin half a pound of sugar\n11. Cut up half a pound of butter\n12. When the bread and milk is uncovered to cool, mix with it the butter, sugar, spice and citron\n13. Add a glass of brandy, and a glass of white wine\n14. Beat eight eggs very light\n15. When the milk is quite cold, stir them gradually into the mixture\n16. Add, by degrees, the raisins and currants, which must be previously dredged with flour\n17. Stir the whole very hard\n18. Put it into a buttered dish, and bake it two hours\n19. Send it to table warm, and eat it with wine sauce, or with wine and sugar only",
+    "originalIngredients": [
+      "a stale six cent loaf",
+      "a quart of rich milk",
+      "half a pound of currants, picked, washed, and dried",
+      "half a pound of raisins, stoned and cut in half",
+      "a quarter of a pound of citron cut in large slips",
+      "two nutmegs beaten to a powder",
+      "a table-spoonful of mace and cinnamon powdered and mixed together",
+      "half a pound of sugar",
+      "half a pound of butter",
+      "a glass of brandy",
+      "a glass of white wine",
+      "eight eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

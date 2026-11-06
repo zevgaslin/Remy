@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "b05d25c3-efa6-528d-b417-332b18be9657",
+  "name": "Cheese Custard",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "salt",
+      "originalText": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1/2 teaspoon mustard",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "3/4 cup milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated stale cheese",
+      "originalText": "3/4 cup grated stale cheese",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the seasonings and the eggs into a saucepan and beat thoroughly",
+      "section": null
+    },
+    {
+      "text": "Add the milk and stir in the cheese",
+      "section": null
+    },
+    {
+      "text": "Put over the fire and stir constantly until it begins to thicken and coat the spoon",
+      "section": null
+    },
+    {
+      "text": "Take at once from the fire, and pour over soda biscuits, strips of buttered toast, or shredded wheat biscuits arranged on a hot platter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cheese-custard-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the seasonings and the eggs into a saucepan and beat thoroughly\n2. Add the milk and stir in the cheese\n3. Put over the fire and stir constantly until it begins to thicken and coat the spoon\n4. Take at once from the fire, and pour over soda biscuits, strips of buttered toast, or shredded wheat biscuits arranged on a hot platter",
+    "originalIngredients": [
+      "1/2 teaspoon salt",
+      "1/2 teaspoon mustard",
+      "1 egg",
+      "3/4 cup milk",
+      "3/4 cup grated stale cheese"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

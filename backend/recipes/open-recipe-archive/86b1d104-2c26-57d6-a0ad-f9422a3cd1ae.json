@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "86b1d104-2c26-57d6-a0ad-f9422a3cd1ae",
+  "name": "Light Biscuit No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "piece of bread dough",
+      "originalText": "a piece of bread dough",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a cup of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a cup of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Lay dough out rather flat in a bowl",
+      "section": null
+    },
+    {
+      "text": "Break eggs into it",
+      "section": null
+    },
+    {
+      "text": "Add sugar and butter",
+      "section": null
+    },
+    {
+      "text": "Mix thoroughly with enough flour to keep from sticking",
+      "section": null
+    },
+    {
+      "text": "Knead well for about fifteen or twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Make into small biscuits",
+      "section": null
+    },
+    {
+      "text": "Place in a greased pan",
+      "section": null
+    },
+    {
+      "text": "Let them rise until about even with the top of the pan",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven for about half an hour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/light-biscuit-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Lay dough out rather flat in a bowl\n2. Break eggs into it\n3. Add sugar and butter\n4. Mix thoroughly with enough flour to keep from sticking\n5. Knead well for about fifteen or twenty minutes\n6. Make into small biscuits\n7. Place in a greased pan\n8. Let them rise until about even with the top of the pan\n9. Bake in a quick oven for about half an hour",
+    "originalIngredients": [
+      "a piece of bread dough",
+      "two eggs",
+      "half a cup of sugar",
+      "half a cup of butter",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

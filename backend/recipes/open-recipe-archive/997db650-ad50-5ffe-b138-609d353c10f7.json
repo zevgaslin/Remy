@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "997db650-ad50-5ffe-b138-609d353c10f7",
+  "name": "Venison Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "freshly killed venison",
+      "originalText": "four pounds of freshly killed venison",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ham",
+      "originalText": "one pound of ham",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "an onion",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black pepper",
+      "originalText": "black pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "a quart of boiling water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of celery",
+      "originalText": "a head of celery",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen blades of mace",
+      "originalText": "half a dozen blades of mace",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a pint of port or Madeira wine",
+      "originalText": "half a pint of port or Madeira wine",
+      "quantity": null,
+      "quantityText": "half a pint of port or Madeira wine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take four pounds of freshly killed venison cut off from the bones, and one pound of ham in small slices.",
+      "section": null
+    },
+    {
+      "text": "Add an onion minced, and black pepper to your taste.",
+      "section": null
+    },
+    {
+      "text": "Put only as much water as will cover it, and stew it gently for an hour, keeping the pot closely covered.",
+      "section": null
+    },
+    {
+      "text": "Skim it well, and pour in a quart of boiling water.",
+      "section": null
+    },
+    {
+      "text": "Add a head of celery cut into small pieces, and half a dozen blades of mace.",
+      "section": null
+    },
+    {
+      "text": "Boil it gently two hours and a half.",
+      "section": null
+    },
+    {
+      "text": "Put in a quarter of a pound of butter, divided into small pieces and rolled in flour, and half a pint of port or Madeira wine.",
+      "section": null
+    },
+    {
+      "text": "Let it boil a quarter of an hour longer, and then send it to table with the meat in it.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/venison-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take four pounds of freshly killed venison cut off from the bones, and one pound of ham in small slices.\n2. Add an onion minced, and black pepper to your taste.\n3. Put only as much water as will cover it, and stew it gently for an hour, keeping the pot closely covered.\n4. Skim it well, and pour in a quart of boiling water.\n5. Add a head of celery cut into small pieces, and half a dozen blades of mace.\n6. Boil it gently two hours and a half.\n7. Put in a quarter of a pound of butter, divided into small pieces and rolled in flour, and half a pint of port or Madeira wine.\n8. Let it boil a quarter of an hour longer, and then send it to table with the meat in it.",
+    "originalIngredients": [
+      "four pounds of freshly killed venison",
+      "one pound of ham",
+      "an onion",
+      "black pepper",
+      "water",
+      "a quart of boiling water",
+      "a head of celery",
+      "half a dozen blades of mace",
+      "a quarter of a pound of butter",
+      "flour",
+      "half a pint of port or Madeira wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

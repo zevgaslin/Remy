@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "f9144799-3eca-5204-b2dc-e94d7cc914e8",
+  "name": "Madeira Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 pound butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 1/2 pounds flour",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "castor sugar",
+      "originalText": "1 pound castor sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated rind of 1 lemon",
+      "originalText": "grated rind of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "candied peel",
+      "originalText": "2 ounces candied peel",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "5 or 6 eggs",
+      "originalText": "5 or 6 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the butter and sugar into a clean pan",
+      "section": null
+    },
+    {
+      "text": "Add the grated rind of 1 lemon and with the hand beat it up to a very light cream",
+      "section": null
+    },
+    {
+      "text": "Add in the eggs 1 at a time, and beat well after each addition of eggs",
+      "section": null
+    },
+    {
+      "text": "When all are in and the batter is very light and creamy, add the flour",
+      "section": null
+    },
+    {
+      "text": "Stir it in lightly with the hand",
+      "section": null
+    },
+    {
+      "text": "When well mixed, divide the mixture equally into 3 or 4 round tins, papered at the bottoms and sides with buttered white paper",
+      "section": null
+    },
+    {
+      "text": "Dust sugar over from a sifter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/madeira-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the butter and sugar into a clean pan\n2. Add the grated rind of 1 lemon and with the hand beat it up to a very light cream\n3. Add in the eggs 1 at a time, and beat well after each addition of eggs\n4. When all are in and the batter is very light and creamy, add the flour\n5. Stir it in lightly with the hand\n6. When well mixed, divide the mixture equally into 3 or 4 round tins, papered at the bottoms and sides with buttered white paper\n7. Dust sugar over from a sifter",
+    "originalIngredients": [
+      "1 pound butter",
+      "1 1/2 pounds flour",
+      "1 pound castor sugar",
+      "grated rind of 1 lemon",
+      "2 ounces candied peel",
+      "5 or 6 eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

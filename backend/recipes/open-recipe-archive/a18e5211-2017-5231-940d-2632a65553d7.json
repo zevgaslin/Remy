@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "a18e5211-2017-5231-940d-2632a65553d7",
+  "name": "Wet Yeast",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large handful of hops",
+      "originalText": "1 large handful of hops",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon of water",
+      "originalText": "1 gallon of water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "medium-sized potatoes",
+      "originalText": "5 medium-sized potatoes",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "ginger",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil 1 large handful of hops in a gallon of water for half an hour",
+      "section": null
+    },
+    {
+      "text": "Grate 5 medium-sized potatoes and strain the boiling liquid over it, stirring well",
+      "section": null
+    },
+    {
+      "text": "Add a little salt, sugar and ginger",
+      "section": null
+    },
+    {
+      "text": "Let cool, then add 1 White Swan Yeast Cake and put in a warm place to rise",
+      "section": null
+    },
+    {
+      "text": "Stir frequently",
+      "section": null
+    },
+    {
+      "text": "It is best made in a large dish and afterwards put into a jar and corked tight",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/wet-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil 1 large handful of hops in a gallon of water for half an hour\n2. Grate 5 medium-sized potatoes and strain the boiling liquid over it, stirring well\n3. Add a little salt, sugar and ginger\n4. Let cool, then add 1 White Swan Yeast Cake and put in a warm place to rise\n5. Stir frequently\n6. It is best made in a large dish and afterwards put into a jar and corked tight",
+    "originalIngredients": [
+      "1 large handful of hops",
+      "1 gallon of water",
+      "5 medium-sized potatoes",
+      "a little salt",
+      "sugar",
+      "ginger",
+      "1 White Swan Yeast Cake"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

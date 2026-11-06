@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "db3208a5-6772-5cff-83dd-3d68cf9d3340",
+  "name": "Baked Beans",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1 quart beans (Lima or white beans)",
+      "originalText": "1 quart beans (Lima or white beans)",
+      "quantity": null,
+      "quantityText": "1 quart beans (Lima or white beans)",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt pork",
+      "originalText": "1/4 pound salt pork",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "2 tablespoons molasses",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 cup boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1/2 tablespoon mustard",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "1/8 teaspoon pepper",
+      "quantity": 0.125,
+      "quantityText": "1/8",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash and soak beans over night",
+      "section": null
+    },
+    {
+      "text": "In the morning pour off the water and rinse well",
+      "section": null
+    },
+    {
+      "text": "Cover with fresh water",
+      "section": null
+    },
+    {
+      "text": "Bring to boiling point and simmer until skins will burst; this is best determined by taking a few in the hand and blowing on them; if skins burst, beans are cooked",
+      "section": null
+    },
+    {
+      "text": "Drain beans and throw away the water",
+      "section": null
+    },
+    {
+      "text": "Scald rind of pork, scrape and cut in two",
+      "section": null
+    },
+    {
+      "text": "Half of it put in bottom of bean crock, the other half reserve for the top",
+      "section": null
+    },
+    {
+      "text": "Put beans in the crock and over them pour the seasoning mixed with 1 cup boiling water",
+      "section": null
+    },
+    {
+      "text": "Add enough more boiling water to cover beans",
+      "section": null
+    },
+    {
+      "text": "Bake in covered bean pot in a slow oven 6 or 8 hours",
+      "section": null
+    },
+    {
+      "text": "Uncover the pot the last hour that pork rind may become brown and crisp",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/baked-beans-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash and soak beans over night\n2. In the morning pour off the water and rinse well\n3. Cover with fresh water\n4. Bring to boiling point and simmer until skins will burst; this is best determined by taking a few in the hand and blowing on them; if skins burst, beans are cooked\n5. Drain beans and throw away the water\n6. Scald rind of pork, scrape and cut in two\n7. Half of it put in bottom of bean crock, the other half reserve for the top\n8. Put beans in the crock and over them pour the seasoning mixed with 1 cup boiling water\n9. Add enough more boiling water to cover beans\n10. Bake in covered bean pot in a slow oven 6 or 8 hours\n11. Uncover the pot the last hour that pork rind may become brown and crisp",
+    "originalIngredients": [
+      "1 quart beans (Lima or white beans)",
+      "1/4 pound salt pork",
+      "2 tablespoons molasses",
+      "1 cup boiling water",
+      "1 tablespoon salt",
+      "2 tablespoons sugar",
+      "1/2 tablespoon mustard",
+      "1/8 teaspoon pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

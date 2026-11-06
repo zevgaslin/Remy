@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "559f3e9d-7b01-5746-9860-5b3e9b5abcd5",
+  "name": "Baker's Rolls",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet milk",
+      "originalText": "1 pint sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of 1 egg",
+      "originalText": "white of 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "3/4 cup granulated sugar",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald 1 pint sweet milk",
+      "section": null
+    },
+    {
+      "text": "While hot add tablespoon butter",
+      "section": null
+    },
+    {
+      "text": "When milk is lukewarm add the well-beaten white of 1 egg, 3/4 cup granulated sugar, 1 White Swan Yeast Cake",
+      "section": null
+    },
+    {
+      "text": "Stir in flour and mould into a loaf",
+      "section": null
+    },
+    {
+      "text": "Let rise over night and mould three times",
+      "section": null
+    },
+    {
+      "text": "Roll out to about an inch in thickness",
+      "section": null
+    },
+    {
+      "text": "Cut into biscuits",
+      "section": null
+    },
+    {
+      "text": "Butter on half and fold over",
+      "section": null
+    },
+    {
+      "text": "Let rise and bake in a quick oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/baker-s-rolls.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald 1 pint sweet milk\n2. While hot add tablespoon butter\n3. When milk is lukewarm add the well-beaten white of 1 egg, 3/4 cup granulated sugar, 1 White Swan Yeast Cake\n4. Stir in flour and mould into a loaf\n5. Let rise over night and mould three times\n6. Roll out to about an inch in thickness\n7. Cut into biscuits\n8. Butter on half and fold over\n9. Let rise and bake in a quick oven",
+    "originalIngredients": [
+      "1 pint sweet milk",
+      "1 tablespoon butter",
+      "white of 1 egg",
+      "3/4 cup granulated sugar",
+      "1 White Swan Yeast Cake",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

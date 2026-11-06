@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "a1ebf7df-ae6f-51ac-bb39-a28ece33a970",
+  "name": "Oyster Catsup",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oyster meats",
+      "originalText": "one pint of oyster meats",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of sherry",
+      "originalText": "one teacupful of sherry",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a tablespoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne pepper",
+      "originalText": "a teaspoonful of cayenne pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered mace",
+      "originalText": "a teaspoonful of powdered mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cider vinegar",
+      "originalText": "a gill of cider vinegar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Procure the oysters very fresh and open sufficient to fill a pint measure; save the liquor and scald the oysters in it with the sherry.",
+      "section": null
+    },
+    {
+      "text": "Strain the oysters and chop them fine with the salt, cayenne and mace, until reduced to a pulp; then add it to the liquor in which they were scalded.",
+      "section": null
+    },
+    {
+      "text": "Boil it again five minutes and skim well; rub the whole through a sieve, and, when cold, bottle and cork closely.",
+      "section": null
+    },
+    {
+      "text": "The corks should be sealed.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/oyster-catsup-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Procure the oysters very fresh and open sufficient to fill a pint measure; save the liquor and scald the oysters in it with the sherry.\n2. Strain the oysters and chop them fine with the salt, cayenne and mace, until reduced to a pulp; then add it to the liquor in which they were scalded.\n3. Boil it again five minutes and skim well; rub the whole through a sieve, and, when cold, bottle and cork closely.\n4. The corks should be sealed.",
+    "originalIngredients": [
+      "one pint of oyster meats",
+      "one teacupful of sherry",
+      "a tablespoonful of salt",
+      "a teaspoonful of cayenne pepper",
+      "a teaspoonful of powdered mace",
+      "a gill of cider vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

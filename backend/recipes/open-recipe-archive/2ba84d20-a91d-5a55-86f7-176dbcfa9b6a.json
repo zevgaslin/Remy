@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "2ba84d20-a91d-5a55-86f7-176dbcfa9b6a",
+  "name": "Roast Goose",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "goose",
+      "originalText": "goose",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "three pints of bread crumbs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "six ounces of butter, or part butter and part salt pork",
+      "originalText": "six ounces of butter, or part butter and part salt pork",
+      "quantity": null,
+      "quantityText": "six ounces of butter, or part butter and part salt pork",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sage",
+      "originalText": "one teaspoonful sage",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black pepper",
+      "originalText": "one teaspoonful black pepper",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped onion",
+      "originalText": "one chopped onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "giblets",
+      "originalText": "giblets",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stuff the goose with the following mixture: Three pints of bread crumbs, six ounces of butter, or part butter and part salt pork, one teaspoonful each of sage, black pepper and salt, one chopped onion",
+      "section": null
+    },
+    {
+      "text": "Do not stuff very full, and stitch openings firmly together to keep flavor in and fat out",
+      "section": null
+    },
+    {
+      "text": "Place in a baking pan with a little water",
+      "section": null
+    },
+    {
+      "text": "Baste frequently with salt and water (some add vinegar)",
+      "section": null
+    },
+    {
+      "text": "Turn often so that the sides and back may be nicely browned",
+      "section": null
+    },
+    {
+      "text": "Bake two hours or more",
+      "section": null
+    },
+    {
+      "text": "When done take from the pan, pour off the fat",
+      "section": null
+    },
+    {
+      "text": "To the brown gravy left, add the chopped giblets which have previously been stewed until tender, together with the water they were boiled in",
+      "section": null
+    },
+    {
+      "text": "Thicken with a little flour and butter rubbed together",
+      "section": null
+    },
+    {
+      "text": "Bring to a boil and serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/roast-goose-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stuff the goose with the following mixture: Three pints of bread crumbs, six ounces of butter, or part butter and part salt pork, one teaspoonful each of sage, black pepper and salt, one chopped onion\n2. Do not stuff very full, and stitch openings firmly together to keep flavor in and fat out\n3. Place in a baking pan with a little water\n4. Baste frequently with salt and water (some add vinegar)\n5. Turn often so that the sides and back may be nicely browned\n6. Bake two hours or more\n7. When done take from the pan, pour off the fat\n8. To the brown gravy left, add the chopped giblets which have previously been stewed until tender, together with the water they were boiled in\n9. Thicken with a little flour and butter rubbed together\n10. Bring to a boil and serve",
+    "originalIngredients": [
+      "goose",
+      "three pints of bread crumbs",
+      "six ounces of butter, or part butter and part salt pork",
+      "one teaspoonful sage",
+      "one teaspoonful black pepper",
+      "one teaspoonful salt",
+      "one chopped onion",
+      "water",
+      "vinegar",
+      "giblets",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "e22ebe92-5a49-5a41-a4c8-0c059937b999",
+  "name": "Quick Aspic",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cold water",
+      "originalText": "1 3/4 cups cold water",
+      "quantity": 1.75,
+      "quantityText": "1 3/4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped celery",
+      "originalText": "1 tablespoon chopped celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped carrot",
+      "originalText": "1 tablespoon chopped carrot",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef extract",
+      "originalText": "1 teaspoon beef extract",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "1 cup hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 slice onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bay leaf",
+      "originalText": "1 bay leaf",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "3 cloves",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig parsley",
+      "originalText": "1 sprig parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gelatine",
+      "originalText": "1 ounce gelatine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water for soaking",
+      "originalText": "3/4 cup water for soaking",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 tablespoon sherry or tarragon vinegar",
+      "originalText": "1 tablespoon sherry or tarragon vinegar",
+      "quantity": null,
+      "quantityText": "1 tablespoon sherry or tarragon vinegar",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "kitchen bouquet or caramel",
+      "originalText": "kitchen bouquet or caramel",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put 1 3/4 cups cold water, celery, carrot, beef extract dissolved in 1 cup hot water, onion, bay leaf, cloves, and parsley in a saucepan",
+      "section": null
+    },
+    {
+      "text": "Cover and let simmer 3/4 hour",
+      "section": null
+    },
+    {
+      "text": "Soak 1 ounce gelatine in 3/4 cup water for an hour",
+      "section": null
+    },
+    {
+      "text": "Add gelatine to saucepan and stir until dissolved",
+      "section": null
+    },
+    {
+      "text": "Season with tablespoon sherry or tarragon vinegar",
+      "section": null
+    },
+    {
+      "text": "If deeper color is desired, add a few drops kitchen bouquet or caramel",
+      "section": null
+    },
+    {
+      "text": "Clear if necessary and strain through double cloth",
+      "section": null
+    },
+    {
+      "text": "If for moulding use at once; if for garnishing, turn into a shallow pan to set",
+      "section": null
+    },
+    {
+      "text": "Can be stamped or cut into fancy shapes more easily if cooked in layers of right thickness",
+      "section": null
+    },
+    {
+      "text": "Observe always the proportion of 2 ounces gelatine to 6 cups liquid",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/quick-aspic.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put 1 3/4 cups cold water, celery, carrot, beef extract dissolved in 1 cup hot water, onion, bay leaf, cloves, and parsley in a saucepan\n2. Cover and let simmer 3/4 hour\n3. Soak 1 ounce gelatine in 3/4 cup water for an hour\n4. Add gelatine to saucepan and stir until dissolved\n5. Season with tablespoon sherry or tarragon vinegar\n6. If deeper color is desired, add a few drops kitchen bouquet or caramel\n7. Clear if necessary and strain through double cloth\n8. If for moulding use at once; if for garnishing, turn into a shallow pan to set\n9. Can be stamped or cut into fancy shapes more easily if cooked in layers of right thickness\n10. Observe always the proportion of 2 ounces gelatine to 6 cups liquid",
+    "originalIngredients": [
+      "1 3/4 cups cold water",
+      "1 tablespoon chopped celery",
+      "1 tablespoon chopped carrot",
+      "1 teaspoon beef extract",
+      "1 cup hot water",
+      "1 slice onion",
+      "1 bay leaf",
+      "3 cloves",
+      "1 sprig parsley",
+      "1 ounce gelatine",
+      "3/4 cup water for soaking",
+      "1 tablespoon sherry or tarragon vinegar",
+      "kitchen bouquet or caramel"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

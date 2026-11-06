@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "1ee53ec9-961b-5ca3-bb35-08debc1fc5ac",
+  "name": "Risen Biscuit",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup lard or butter (half-and-half is a good rule)",
+      "originalText": "¾ cup lard or butter (half-and-half is a good rule)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup of yeast",
+      "originalText": "¾ cup of yeast",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "2 tablespoonfuls white sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour to make a soft dough",
+      "originalText": "flour to make a soft dough",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix over night, warming the milk slightly and melting the lard or butter",
+      "section": null
+    },
+    {
+      "text": "In the morning, roll out into a sheet three-quarters of an inch in thickness",
+      "section": null
+    },
+    {
+      "text": "Cut into round cakes and set these closely together in a pan",
+      "section": null
+    },
+    {
+      "text": "Let them rise for twenty minutes and bake twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Alternatively, set the ingredients with half as much flour in the form of a thin sponge and work in the rest of the flour five hours later",
+      "section": null
+    },
+    {
+      "text": "Let this rise five hours more and proceed as already directed",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/risen-biscuit.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix over night, warming the milk slightly and melting the lard or butter\n2. In the morning, roll out into a sheet three-quarters of an inch in thickness\n3. Cut into round cakes and set these closely together in a pan\n4. Let them rise for twenty minutes and bake twenty minutes\n5. Alternatively, set the ingredients with half as much flour in the form of a thin sponge and work in the rest of the flour five hours later\n6. Let this rise five hours more and proceed as already directed",
+    "originalIngredients": [
+      "1 quart milk",
+      "¾ cup lard or butter (half-and-half is a good rule)",
+      "¾ cup of yeast",
+      "2 tablespoonfuls white sugar",
+      "1 teaspoonful salt",
+      "flour to make a soft dough"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

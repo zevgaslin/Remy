@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "aa5aee4c-7ca6-51dd-9ed1-c6c41fe08bf0",
+  "name": "Tea Biscuit",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarter of a pound of fresh butter",
+      "originalText": "a quarter of a pound of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm milk",
+      "originalText": "a quart of warm milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt-spoonful of salt",
+      "originalText": "a salt-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two pounds of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best brewer's yeast",
+      "originalText": "three table-spoonfuls of the best brewer's yeast",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt a quarter of a pound of fresh butter in a quart of warm milk, and add a salt-spoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Sift two pounds of flour into a pan, make a hole in the centre, and put in three table-spoonfuls of the best brewer's yeast",
+      "section": null
+    },
+    {
+      "text": "Add the milk and butter and mix it into a stiff paste",
+      "section": null
+    },
+    {
+      "text": "Cover it and set it by the fire to rise",
+      "section": null
+    },
+    {
+      "text": "When quite light, knead it well, roll it out an inch thick, and cut it into round cakes with the edge of a tumbler",
+      "section": null
+    },
+    {
+      "text": "Prick the top of each with a fork; lay them in buttered pans",
+      "section": null
+    },
+    {
+      "text": "Bake them light brown",
+      "section": null
+    },
+    {
+      "text": "Send them to table warm, and split and butter them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tea-biscuit.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt a quarter of a pound of fresh butter in a quart of warm milk, and add a salt-spoonful of salt\n2. Sift two pounds of flour into a pan, make a hole in the centre, and put in three table-spoonfuls of the best brewer's yeast\n3. Add the milk and butter and mix it into a stiff paste\n4. Cover it and set it by the fire to rise\n5. When quite light, knead it well, roll it out an inch thick, and cut it into round cakes with the edge of a tumbler\n6. Prick the top of each with a fork; lay them in buttered pans\n7. Bake them light brown\n8. Send them to table warm, and split and butter them",
+    "originalIngredients": [
+      "a quarter of a pound of fresh butter",
+      "a quart of warm milk",
+      "a salt-spoonful of salt",
+      "two pounds of flour",
+      "three table-spoonfuls of the best brewer's yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

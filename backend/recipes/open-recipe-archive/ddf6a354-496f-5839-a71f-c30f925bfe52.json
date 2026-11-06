@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "ddf6a354-496f-5839-a71f-c30f925bfe52",
+  "name": "Cocoa",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "level teaspoons cocoa",
+      "originalText": "2 level teaspoons cocoa",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoons sugar",
+      "originalText": "2 level teaspoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "0.5 cup milk",
+      "quantity": 0.5,
+      "quantityText": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir cocoa and sugar together",
+      "section": null
+    },
+    {
+      "text": "Add water drop by drop, stirring constantly until a smooth, even paste has been secured",
+      "section": null
+    },
+    {
+      "text": "Place 0.5 cup milk over fire and allow it to heat until it begins to simmer around the sides of the pan",
+      "section": null
+    },
+    {
+      "text": "Add the cocoa and allow it to come to the boiling point",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire and beat vigorously for 2 or 3 minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cocoa-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir cocoa and sugar together\n2. Add water drop by drop, stirring constantly until a smooth, even paste has been secured\n3. Place 0.5 cup milk over fire and allow it to heat until it begins to simmer around the sides of the pan\n4. Add the cocoa and allow it to come to the boiling point\n5. Remove from the fire and beat vigorously for 2 or 3 minutes",
+    "originalIngredients": [
+      "2 level teaspoons cocoa",
+      "2 level teaspoons sugar",
+      "water",
+      "0.5 cup milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

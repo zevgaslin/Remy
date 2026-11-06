@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "4b6e2a5d-2629-510c-b1a7-f78e25ceb2fb",
+  "name": "Split Pea (Dried)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallon water",
+      "originalText": "1 gallon water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "split peas, which have been soaked over night",
+      "originalText": "1 qt. split peas, which have been soaked over night",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt pork, cut into bits an inch square",
+      "originalText": "1 lb. salt pork, cut into bits an inch square",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef, cut into bits an inch square",
+      "originalText": "1 lb. beef, cut into bits an inch square",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery",
+      "originalText": "celery",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet herbs",
+      "originalText": "sweet herbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fried bread",
+      "originalText": "fried bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put over the fire, and boil slowly for two hours, or until the quantity of liquor does not exceed two quarts.",
+      "section": null
+    },
+    {
+      "text": "Pour into a cullender, and press the peas through it with a wooden or silver spoon.",
+      "section": null
+    },
+    {
+      "text": "Return the soup to the pot, adding a small head of celery, chopped up, a little parsley, or, if preferred, summer savory or sweet marjoram.",
+      "section": null
+    },
+    {
+      "text": "Have ready three or four slices of bread (stale) which have been fried in butter until they are brown; cut into slices and scatter them upon the surface of the soup after it is poured into the tureen.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/split-pea-dried.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put over the fire, and boil slowly for two hours, or until the quantity of liquor does not exceed two quarts.\n2. Pour into a cullender, and press the peas through it with a wooden or silver spoon.\n3. Return the soup to the pot, adding a small head of celery, chopped up, a little parsley, or, if preferred, summer savory or sweet marjoram.\n4. Have ready three or four slices of bread (stale) which have been fried in butter until they are brown; cut into slices and scatter them upon the surface of the soup after it is poured into the tureen.",
+    "originalIngredients": [
+      "1 gallon water",
+      "1 qt. split peas, which have been soaked over night",
+      "1 lb. salt pork, cut into bits an inch square",
+      "1 lb. beef, cut into bits an inch square",
+      "celery",
+      "sweet herbs",
+      "fried bread"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

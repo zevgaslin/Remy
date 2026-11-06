@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "5afa3db5-4352-5f32-9f26-ff8bd60e6f4a",
+  "name": "Sugar Vinegar",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallon of water",
+      "originalText": "1 gallon of water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best white sugar",
+      "originalText": "1 pound of the best white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 jill or more of strong yeast",
+      "originalText": "1 jill or more of strong yeast",
+      "quantity": null,
+      "quantityText": "1 jill or more of strong yeast",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "To every gallon of water allow a pound of the best white sugar, and a jill or more of strong yeast",
+      "section": null
+    },
+    {
+      "text": "Mix the sugar and water together",
+      "section": null
+    },
+    {
+      "text": "Boil and skim it till the scum ceases to rise",
+      "section": null
+    },
+    {
+      "text": "Pour it into a tub",
+      "section": null
+    },
+    {
+      "text": "When it cools to lukewarm heat, put into it the yeast spread on pieces of toast",
+      "section": null
+    },
+    {
+      "text": "Let it work two days",
+      "section": null
+    },
+    {
+      "text": "Put it into an iron-hooped cask",
+      "section": null
+    },
+    {
+      "text": "Set it in a sunny place for five months, leaving the bung loose, but keeping the bung-hole covered",
+      "section": null
+    },
+    {
+      "text": "In five months it will be good clear vinegar",
+      "section": null
+    },
+    {
+      "text": "Bottle it for use",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sugar-vinegar-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. To every gallon of water allow a pound of the best white sugar, and a jill or more of strong yeast\n2. Mix the sugar and water together\n3. Boil and skim it till the scum ceases to rise\n4. Pour it into a tub\n5. When it cools to lukewarm heat, put into it the yeast spread on pieces of toast\n6. Let it work two days\n7. Put it into an iron-hooped cask\n8. Set it in a sunny place for five months, leaving the bung loose, but keeping the bung-hole covered\n9. In five months it will be good clear vinegar\n10. Bottle it for use",
+    "originalIngredients": [
+      "1 gallon of water",
+      "1 pound of the best white sugar",
+      "1 jill or more of strong yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

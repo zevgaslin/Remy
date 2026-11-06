@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "929cb69e-c947-572c-bba2-c86b6a1e8141",
+  "name": "Cocoanut Pie",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, yolks",
+      "originalText": "3 eggs, yolks",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cocoanut",
+      "originalText": "1/4 grated cocoanut",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 tablespoonfuls sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "2 tablespoonfuls cornstarch",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoonful vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pie paste",
+      "originalText": "pie paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of egg",
+      "originalText": "white of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of one egg for meringue",
+      "originalText": "white of one egg for meringue",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Line a tin basin which is two inches deep with pie paste, and bake it.",
+      "section": null
+    },
+    {
+      "text": "Scald the milk and turn it on to the yolks and sugar beaten together.",
+      "section": null
+    },
+    {
+      "text": "Return it to the fire.",
+      "section": null
+    },
+    {
+      "text": "Add the cornstarch moistened with cold milk, and stir until well thickened.",
+      "section": null
+    },
+    {
+      "text": "Add vanilla, and the whites of two eggs whipped to a froth.",
+      "section": null
+    },
+    {
+      "text": "Cook one minute to set the egg, then remove.",
+      "section": null
+    },
+    {
+      "text": "When nearly cold and stiffened stir in the cocoanut.",
+      "section": null
+    },
+    {
+      "text": "Brush the bottom of the baked pie-crust with white of egg.",
+      "section": null
+    },
+    {
+      "text": "Cover it with a thin layer of grated cocoanut and turn in the thickened custard.",
+      "section": null
+    },
+    {
+      "text": "Cover the top with meringue made with the white of one egg.",
+      "section": null
+    },
+    {
+      "text": "Return it to the oven one minute to color the meringue.",
+      "section": null
+    },
+    {
+      "text": "Let the pie stand long enough to get firm and cold before serving.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cocoanut-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Line a tin basin which is two inches deep with pie paste, and bake it.\n2. Scald the milk and turn it on to the yolks and sugar beaten together.\n3. Return it to the fire.\n4. Add the cornstarch moistened with cold milk, and stir until well thickened.\n5. Add vanilla, and the whites of two eggs whipped to a froth.\n6. Cook one minute to set the egg, then remove.\n7. When nearly cold and stiffened stir in the cocoanut.\n8. Brush the bottom of the baked pie-crust with white of egg.\n9. Cover it with a thin layer of grated cocoanut and turn in the thickened custard.\n10. Cover the top with meringue made with the white of one egg.\n11. Return it to the oven one minute to color the meringue.\n12. Let the pie stand long enough to get firm and cold before serving.",
+    "originalIngredients": [
+      "1 pt. milk",
+      "3 eggs, yolks",
+      "1/4 grated cocoanut",
+      "3 tablespoonfuls sugar",
+      "2 tablespoonfuls cornstarch",
+      "1 teaspoonful vanilla",
+      "pie paste",
+      "white of egg",
+      "white of one egg for meringue"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "dda1c602-4464-54e3-87e6-0aa07e676d3f",
+  "name": "Pickled Lemons",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lemons",
+      "originalText": "2 doz. lemons",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "doz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole mace",
+      "originalText": "1 oz. whole mace",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg, sliced",
+      "originalText": "1 oz. nutmeg, sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1/2 oz. cloves",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger, bruised",
+      "originalText": "2 oz. ginger, bruised",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns, white",
+      "originalText": "1/2 oz. peppercorns, white",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Jamaica long pepper and cayenne pods",
+      "originalText": "1/2 oz. Jamaica long pepper and cayenne pods",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "shallots, pared",
+      "originalText": "1/2 oz. shallots, pared",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of horseradish",
+      "originalText": "a piece of horseradish",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "3 qts. vinegar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take lemons, grate off the rind, prick them, and put them in a dish so as not to touch each other.",
+      "section": null
+    },
+    {
+      "text": "Cover them with salt, and turn them every day for a month.",
+      "section": null
+    },
+    {
+      "text": "Wipe them dry and let them remain within the air of the fire three or four days to dry.",
+      "section": null
+    },
+    {
+      "text": "Take mace, nutmeg, cloves, ginger, white peppercorns, Jamaica long pepper and cayenne pods and tie them in two or three separate muslin bags.",
+      "section": null
+    },
+    {
+      "text": "Put the lemons and seasoning in well glazed jars.",
+      "section": null
+    },
+    {
+      "text": "Boil vinegar and pour it on the lemons while hot.",
+      "section": null
+    },
+    {
+      "text": "Let the jars remain near the fire a few days, shaking them gently each day.",
+      "section": null
+    },
+    {
+      "text": "Look at them in a few weeks to see if they require more vinegar.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/pickled-lemons-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take lemons, grate off the rind, prick them, and put them in a dish so as not to touch each other.\n2. Cover them with salt, and turn them every day for a month.\n3. Wipe them dry and let them remain within the air of the fire three or four days to dry.\n4. Take mace, nutmeg, cloves, ginger, white peppercorns, Jamaica long pepper and cayenne pods and tie them in two or three separate muslin bags.\n5. Put the lemons and seasoning in well glazed jars.\n6. Boil vinegar and pour it on the lemons while hot.\n7. Let the jars remain near the fire a few days, shaking them gently each day.\n8. Look at them in a few weeks to see if they require more vinegar.",
+    "originalIngredients": [
+      "2 doz. lemons",
+      "1 oz. whole mace",
+      "1 oz. nutmeg, sliced",
+      "1/2 oz. cloves",
+      "2 oz. ginger, bruised",
+      "1/2 oz. peppercorns, white",
+      "1/2 oz. Jamaica long pepper and cayenne pods",
+      "1/2 oz. shallots, pared",
+      "a piece of horseradish",
+      "3 qts. vinegar",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

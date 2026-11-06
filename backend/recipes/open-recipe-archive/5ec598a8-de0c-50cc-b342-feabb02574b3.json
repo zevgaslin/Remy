@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "5ec598a8-de0c-50cc-b342-feabb02574b3",
+  "name": "Boston Baked Beans",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pea beans",
+      "originalText": "one quart pea beans",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three-fourths pound fat salt pork",
+      "originalText": "three-fourths pound fat salt pork",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "one tablespoon molasses",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "three tablespoons sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "one cup boiling water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half tablespoon mustard",
+      "originalText": "one-half tablespoon mustard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pick over one quart pea beans, cover with cold water, and soak over night.",
+      "section": null
+    },
+    {
+      "text": "In morning, drain, cover with fresh water, heat slowly (keeping water below boiling-point), and cook until skins will burst,—which is best determined by taking a few beans on the tip of a spoon and blowing on them, when skins will burst if sufficiently cooked.",
+      "section": null
+    },
+    {
+      "text": "Beans thus tested must, of course, be thrown away.",
+      "section": null
+    },
+    {
+      "text": "Drain beans, throwing bean-water out of doors, not in sink.",
+      "section": null
+    },
+    {
+      "text": "Scald rind of three-fourths pound fat salt pork, scrape, remove one-fourth inch slice and put in bottom of bean-pot.",
+      "section": null
+    },
+    {
+      "text": "Cut through rind of remaining pork every one-half inch, making cuts one inch deep.",
+      "section": null
+    },
+    {
+      "text": "Put beans in pot and bury pork in beans, leaving rind exposed.",
+      "section": null
+    },
+    {
+      "text": "Mix one tablespoon salt, one tablespoon molasses, and three tablespoons sugar; add one cup boiling water, and pour over beans; then add enough more boiling water to cover beans.",
+      "section": null
+    },
+    {
+      "text": "Cover bean-pot, put in oven, and bake slowly six or eight hours, uncovering the last hour of cooking, that rind may become brown and crisp.",
+      "section": null
+    },
+    {
+      "text": "Add water as needed.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boston-baked-beans.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pick over one quart pea beans, cover with cold water, and soak over night.\n2. In morning, drain, cover with fresh water, heat slowly (keeping water below boiling-point), and cook until skins will burst,—which is best determined by taking a few beans on the tip of a spoon and blowing on them, when skins will burst if sufficiently cooked.\n3. Beans thus tested must, of course, be thrown away.\n4. Drain beans, throwing bean-water out of doors, not in sink.\n5. Scald rind of three-fourths pound fat salt pork, scrape, remove one-fourth inch slice and put in bottom of bean-pot.\n6. Cut through rind of remaining pork every one-half inch, making cuts one inch deep.\n7. Put beans in pot and bury pork in beans, leaving rind exposed.\n8. Mix one tablespoon salt, one tablespoon molasses, and three tablespoons sugar; add one cup boiling water, and pour over beans; then add enough more boiling water to cover beans.\n9. Cover bean-pot, put in oven, and bake slowly six or eight hours, uncovering the last hour of cooking, that rind may become brown and crisp.\n10. Add water as needed.",
+    "originalIngredients": [
+      "one quart pea beans",
+      "three-fourths pound fat salt pork",
+      "one tablespoon salt",
+      "one tablespoon molasses",
+      "three tablespoons sugar",
+      "one cup boiling water",
+      "one-half tablespoon mustard"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "19a4b480-6494-51d1-b56a-cca633e96bee",
+  "name": "Pickled Oysters",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hundred and fifty fine large oysters",
+      "originalText": "one hundred and fifty fine large oysters",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pint of clear cider vinegar",
+      "originalText": "pint of clear cider vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tea-spoonful of blades of mace",
+      "originalText": "large tea-spoonful of blades of mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen whole cloves",
+      "originalText": "three dozen whole cloves",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen whole pepper corns",
+      "originalText": "three dozen whole pepper corns",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a hundred and fifty fine large oysters, and pick off carefully the bits of shell that may be sticking to them.",
+      "section": null
+    },
+    {
+      "text": "Lay the oysters in a deep dish, and then strain the liquor over them.",
+      "section": null
+    },
+    {
+      "text": "Put them into an iron skillet that is lined with porcelain, and add salt to your taste.",
+      "section": null
+    },
+    {
+      "text": "Set the skillet on hot coals, and allow the oysters to simmer till they are heated all through, but not till they boil.",
+      "section": null
+    },
+    {
+      "text": "Then take out the oysters and put them into a stone jar, leaving the liquor in the skillet.",
+      "section": null
+    },
+    {
+      "text": "Add to it a pint of clear cider vinegar, a large tea-spoonful of blades of mace, three dozen whole cloves, and three dozen whole pepper corns.",
+      "section": null
+    },
+    {
+      "text": "Let it come to a boil, and when the oysters are quite cold in the jar, pour the liquor on them.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pickled-oysters-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a hundred and fifty fine large oysters, and pick off carefully the bits of shell that may be sticking to them.\n2. Lay the oysters in a deep dish, and then strain the liquor over them.\n3. Put them into an iron skillet that is lined with porcelain, and add salt to your taste.\n4. Set the skillet on hot coals, and allow the oysters to simmer till they are heated all through, but not till they boil.\n5. Then take out the oysters and put them into a stone jar, leaving the liquor in the skillet.\n6. Add to it a pint of clear cider vinegar, a large tea-spoonful of blades of mace, three dozen whole cloves, and three dozen whole pepper corns.\n7. Let it come to a boil, and when the oysters are quite cold in the jar, pour the liquor on them.",
+    "originalIngredients": [
+      "one hundred and fifty fine large oysters",
+      "salt",
+      "pint of clear cider vinegar",
+      "large tea-spoonful of blades of mace",
+      "three dozen whole cloves",
+      "three dozen whole pepper corns"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

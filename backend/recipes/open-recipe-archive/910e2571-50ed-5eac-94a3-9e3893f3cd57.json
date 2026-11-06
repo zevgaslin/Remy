@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "910e2571-50ed-5eac-94a3-9e3893f3cd57",
+  "name": "Neapolitaines",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "powdered sugar",
+      "originalText": "one cup of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a cup of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "two tablespoonfuls of lemon juice",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole eggs",
+      "originalText": "three whole eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks",
+      "originalText": "three yolks",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "three cups of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "half a teaspoonful of soda",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one tablespoonful of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg and milk",
+      "originalText": "beaten egg and milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped almonds",
+      "originalText": "chopped almonds",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put all together with half a teaspoonful of soda dissolved in a tablespoonful of milk",
+      "section": null
+    },
+    {
+      "text": "If it is too stiff to roll out, add just enough more milk",
+      "section": null
+    },
+    {
+      "text": "Roll it a quarter of an inch thick and cut it out with any tin cutter",
+      "section": null
+    },
+    {
+      "text": "Place the cakes in a pan slightly greased and color the tops with beaten egg and milk, with some chopped almonds over them",
+      "section": null
+    },
+    {
+      "text": "Bake in a rather quick oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/neapolitaines.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put all together with half a teaspoonful of soda dissolved in a tablespoonful of milk\n2. If it is too stiff to roll out, add just enough more milk\n3. Roll it a quarter of an inch thick and cut it out with any tin cutter\n4. Place the cakes in a pan slightly greased and color the tops with beaten egg and milk, with some chopped almonds over them\n5. Bake in a rather quick oven",
+    "originalIngredients": [
+      "one cup of powdered sugar",
+      "half a cup of butter",
+      "two tablespoonfuls of lemon juice",
+      "three whole eggs",
+      "three yolks",
+      "three cups of sifted flour",
+      "half a teaspoonful of soda",
+      "one tablespoonful of milk",
+      "beaten egg and milk",
+      "chopped almonds"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

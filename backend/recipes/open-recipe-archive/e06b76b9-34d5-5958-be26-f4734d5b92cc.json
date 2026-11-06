@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "e06b76b9-34d5-5958-be26-f4734d5b92cc",
+  "name": "Good Mince-Meat",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bullock's heart or two pounds lean fresh beef",
+      "originalText": "bullock's heart or two pounds lean fresh beef",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef suet",
+      "originalText": "three pounds beef suet",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large juicy apples",
+      "originalText": "six pounds large juicy apples",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "six pounds raisins",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "three pounds currants",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated peel of two or three large oranges",
+      "originalText": "grated peel of two or three large oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of two or three large oranges",
+      "originalText": "juice of two or three large oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "two table-spoonfuls powdered cinnamon",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered nutmegs",
+      "originalText": "two powdered nutmegs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen powdered cloves",
+      "originalText": "three dozen powdered cloves",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten mace",
+      "originalText": "one tea-spoonful beaten mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine brown sugar",
+      "originalText": "one pound fine brown sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Madeira wine",
+      "originalText": "one quart Madeira wine",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "French brandy",
+      "originalText": "one pint French brandy",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron",
+      "originalText": "half a pound citron",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a bullock's heart and boil it, or two pounds of the lean of fresh beef.",
+      "section": null
+    },
+    {
+      "text": "When it is quite cold, chop it very fine.",
+      "section": null
+    },
+    {
+      "text": "Chop three pounds of beef suet (first removing the skin and strings) and six pounds of large juicy apples that have been pared and cored.",
+      "section": null
+    },
+    {
+      "text": "Stone six pounds of the best raisins, (or take sultana raisins that are without stones,) and chop them also.",
+      "section": null
+    },
+    {
+      "text": "Wash and dry three pounds of currants.",
+      "section": null
+    },
+    {
+      "text": "Mix all together; adding to them the grated peel and the juice of two or three large oranges, two table-spoonfuls of powdered cinnamon, two powdered nutmegs, and three dozen powdered cloves, a tea-spoonful of beaten mace, one pound of fine brown sugar, one quart of Madeira wine, one pint of French brandy, and half a pound of citron cut into large slips.",
+      "section": null
+    },
+    {
+      "text": "Having thoroughly mixed the whole, put it into a stone jar, and tie it up with brandy paper.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/good-mince-meat.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a bullock's heart and boil it, or two pounds of the lean of fresh beef.\n2. When it is quite cold, chop it very fine.\n3. Chop three pounds of beef suet (first removing the skin and strings) and six pounds of large juicy apples that have been pared and cored.\n4. Stone six pounds of the best raisins, (or take sultana raisins that are without stones,) and chop them also.\n5. Wash and dry three pounds of currants.\n6. Mix all together; adding to them the grated peel and the juice of two or three large oranges, two table-spoonfuls of powdered cinnamon, two powdered nutmegs, and three dozen powdered cloves, a tea-spoonful of beaten mace, one pound of fine brown sugar, one quart of Madeira wine, one pint of French brandy, and half a pound of citron cut into large slips.\n7. Having thoroughly mixed the whole, put it into a stone jar, and tie it up with brandy paper.",
+    "originalIngredients": [
+      "bullock's heart or two pounds lean fresh beef",
+      "three pounds beef suet",
+      "six pounds large juicy apples",
+      "six pounds raisins",
+      "three pounds currants",
+      "grated peel of two or three large oranges",
+      "juice of two or three large oranges",
+      "two table-spoonfuls powdered cinnamon",
+      "two powdered nutmegs",
+      "three dozen powdered cloves",
+      "one tea-spoonful beaten mace",
+      "one pound fine brown sugar",
+      "one quart Madeira wine",
+      "one pint French brandy",
+      "half a pound citron"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

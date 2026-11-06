@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "61891230-455d-5dbd-a973-78feb6033269",
+  "name": "White Mountain Cream",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup boiling water",
+      "originalText": "⅓ cup boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White 1 egg",
+      "originalText": "White 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 teaspoon vanilla or ½ tablespoon lemon juice",
+      "originalText": "1 teaspoon vanilla or ½ tablespoon lemon juice",
+      "quantity": null,
+      "quantityText": "1 teaspoon vanilla or ½ tablespoon lemon juice",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put sugar and water in saucepan, and stir to prevent sugar from adhering to saucepan.",
+      "section": null
+    },
+    {
+      "text": "Heat gradually to boiling-point, and boil without stirring until syrup will thread when dropped from tip of spoon or tines of silver fork.",
+      "section": null
+    },
+    {
+      "text": "Pour syrup gradually on beaten white of egg, beating mixture constantly, and continue beating until of right consistency to spread.",
+      "section": null
+    },
+    {
+      "text": "Add flavoring and pour over cake, spreading evenly with back of spoon.",
+      "section": null
+    },
+    {
+      "text": "Crease as soon as firm.",
+      "section": null
+    },
+    {
+      "text": "If not beaten long enough, frosting will run; if beaten too long, it will not be smooth.",
+      "section": null
+    },
+    {
+      "text": "Frosting beaten too long may be improved by adding a few drops of lemon juice or boiling water.",
+      "section": null
+    },
+    {
+      "text": "If frosting is to be ornamented with nuts or candied cherries, place them on frosting as soon as spread.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/white-mountain-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put sugar and water in saucepan, and stir to prevent sugar from adhering to saucepan.\n2. Heat gradually to boiling-point, and boil without stirring until syrup will thread when dropped from tip of spoon or tines of silver fork.\n3. Pour syrup gradually on beaten white of egg, beating mixture constantly, and continue beating until of right consistency to spread.\n4. Add flavoring and pour over cake, spreading evenly with back of spoon.\n5. Crease as soon as firm.\n6. If not beaten long enough, frosting will run; if beaten too long, it will not be smooth.\n7. Frosting beaten too long may be improved by adding a few drops of lemon juice or boiling water.\n8. If frosting is to be ornamented with nuts or candied cherries, place them on frosting as soon as spread.",
+    "originalIngredients": [
+      "1 cup sugar",
+      "⅓ cup boiling water",
+      "White 1 egg",
+      "1 teaspoon vanilla or ½ tablespoon lemon juice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

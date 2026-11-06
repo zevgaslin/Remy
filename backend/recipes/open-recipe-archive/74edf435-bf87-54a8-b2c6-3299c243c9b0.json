@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "74edf435-bf87-54a8-b2c6-3299c243c9b0",
+  "name": "Indian Pudding Without Eggs",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cinnamon",
+      "originalText": "cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a quart of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "a pint of molasses",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a quart or more of Indian meal",
+      "originalText": "a quart or more of Indian meal",
+      "quantity": null,
+      "quantityText": "a quart or more of Indian meal",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated peel and juice of a large lemon or orange",
+      "originalText": "grated peel and juice of a large lemon or orange",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil some cinnamon in a quart of milk, and then strain it",
+      "section": null
+    },
+    {
+      "text": "While the milk is hot, stir into it a pint of molasses",
+      "section": null
+    },
+    {
+      "text": "Add by degrees a quart or more of Indian meal so as to make a thick batter",
+      "section": null
+    },
+    {
+      "text": "Improve it by the grated peel and juice of a large lemon or orange",
+      "section": null
+    },
+    {
+      "text": "Tie it very securely in a thick cloth, leaving room for it to swell, and pasting up the tying-place with a lump of flour and water",
+      "section": null
+    },
+    {
+      "text": "Put it into a pot of boiling water, having ready a kettle to fill it up as it boils away",
+      "section": null
+    },
+    {
+      "text": "Hang it over a good fire, and keep it boiling hard for four or five hours",
+      "section": null
+    },
+    {
+      "text": "Eat it warm with molasses and butter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/indian-pudding-without-eggs.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil some cinnamon in a quart of milk, and then strain it\n2. While the milk is hot, stir into it a pint of molasses\n3. Add by degrees a quart or more of Indian meal so as to make a thick batter\n4. Improve it by the grated peel and juice of a large lemon or orange\n5. Tie it very securely in a thick cloth, leaving room for it to swell, and pasting up the tying-place with a lump of flour and water\n6. Put it into a pot of boiling water, having ready a kettle to fill it up as it boils away\n7. Hang it over a good fire, and keep it boiling hard for four or five hours\n8. Eat it warm with molasses and butter",
+    "originalIngredients": [
+      "cinnamon",
+      "a quart of milk",
+      "a pint of molasses",
+      "a quart or more of Indian meal",
+      "grated peel and juice of a large lemon or orange"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

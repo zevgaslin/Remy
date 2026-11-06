@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "336475a5-b9ba-57bf-8067-1780c6580627",
+  "name": "The Best Clam Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fifty clams",
+      "originalText": "fifty clams",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "knuckle of veal",
+      "originalText": "a knuckle of veal",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "calves' feet split in half",
+      "originalText": "four calves' feet split in half",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the liquor of the clams",
+      "originalText": "the liquor of the clams",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a quart of rich milk, or cream",
+      "originalText": "a quart of rich milk, or cream",
+      "quantity": null,
+      "quantityText": "a quart of rich milk, or cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large bunch of sweet majoram",
+      "originalText": "a large bunch of sweet majoram",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few leaves of sage",
+      "originalText": "a few leaves of sage",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of celery",
+      "originalText": "a head of celery",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen whole pepper-corns",
+      "originalText": "a dozen whole pepper-corns",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen blades of mace",
+      "originalText": "two dozen blades of mace",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered nutmegs",
+      "originalText": "two powdered nutmegs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of fresh butter",
+      "originalText": "a quarter of a pound of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thick slices of nicely-toasted bread",
+      "originalText": "thick slices of nicely-toasted bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put fifty clams into a large pot of boiling water, to make the shells open easily",
+      "section": null
+    },
+    {
+      "text": "Take a knuckle of veal, cut it into pieces (four calves' feet split in half will be still better) and put it into a soup-pot with the liquor of the clams, and a quart of rich milk, or cream, adding a large bunch of sweet majoram, and a few leaves of sage, cut into pieces, and a head of celery chopped small; also, a dozen whole pepper-corns, but no salt",
+      "section": null
+    },
+    {
+      "text": "Boil it till all the meat of the veal drops from the bones, then strain off the soup and return it to the pot, which must first be washed out",
+      "section": null
+    },
+    {
+      "text": "Cut up the clams, and pound them in a mortar",
+      "section": null
+    },
+    {
+      "text": "Season them with two dozen blades of mace, and two powdered nutmegs; mix with them a quarter of a pound of fresh butter, and put them into the soup with all the liquor that remains about them",
+      "section": null
+    },
+    {
+      "text": "After the clams are in, let it boil another quarter of an hour",
+      "section": null
+    },
+    {
+      "text": "Have ready some thick slices of nicely-toasted bread, (with the crust removed,) cut them into small square mouthfuls; put them into a tureen; and pour the soup upon them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/the-best-clam-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put fifty clams into a large pot of boiling water, to make the shells open easily\n2. Take a knuckle of veal, cut it into pieces (four calves' feet split in half will be still better) and put it into a soup-pot with the liquor of the clams, and a quart of rich milk, or cream, adding a large bunch of sweet majoram, and a few leaves of sage, cut into pieces, and a head of celery chopped small; also, a dozen whole pepper-corns, but no salt\n3. Boil it till all the meat of the veal drops from the bones, then strain off the soup and return it to the pot, which must first be washed out\n4. Cut up the clams, and pound them in a mortar\n5. Season them with two dozen blades of mace, and two powdered nutmegs; mix with them a quarter of a pound of fresh butter, and put them into the soup with all the liquor that remains about them\n6. After the clams are in, let it boil another quarter of an hour\n7. Have ready some thick slices of nicely-toasted bread, (with the crust removed,) cut them into small square mouthfuls; put them into a tureen; and pour the soup upon them",
+    "originalIngredients": [
+      "fifty clams",
+      "water",
+      "a knuckle of veal",
+      "four calves' feet split in half",
+      "the liquor of the clams",
+      "a quart of rich milk, or cream",
+      "a large bunch of sweet majoram",
+      "a few leaves of sage",
+      "a head of celery",
+      "a dozen whole pepper-corns",
+      "two dozen blades of mace",
+      "two powdered nutmegs",
+      "a quarter of a pound of fresh butter",
+      "thick slices of nicely-toasted bread"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

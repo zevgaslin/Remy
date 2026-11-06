@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "69d297ef-a30d-5d81-b03f-afc406df542f",
+  "name": "Washington Pie 2",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1/2 cup milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter the size of an egg",
+      "originalText": "butter the size of an egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "1 teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strawberry or raspberry jam",
+      "originalText": "strawberry or raspberry jam",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a stiff batter using sugar, egg, milk, butter, baking powder, and flour as for cake",
+      "section": null
+    },
+    {
+      "text": "Bake in jelly pan",
+      "section": null
+    },
+    {
+      "text": "Slip it off and spread with strawberry or raspberry jam",
+      "section": null
+    },
+    {
+      "text": "Spread the whites of 2 eggs beaten to a stiff froth with a little sugar over the jam",
+      "section": null
+    },
+    {
+      "text": "Put in oven till set",
+      "section": null
+    },
+    {
+      "text": "Eat with or without cream while hot",
+      "section": null
+    },
+    {
+      "text": "Can also be cut when cold and used for a cake",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/washington-pie-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a stiff batter using sugar, egg, milk, butter, baking powder, and flour as for cake\n2. Bake in jelly pan\n3. Slip it off and spread with strawberry or raspberry jam\n4. Spread the whites of 2 eggs beaten to a stiff froth with a little sugar over the jam\n5. Put in oven till set\n6. Eat with or without cream while hot\n7. Can also be cut when cold and used for a cake",
+    "originalIngredients": [
+      "1 cup sugar",
+      "1 egg",
+      "1/2 cup milk",
+      "butter the size of an egg",
+      "1 teaspoon baking powder",
+      "1 cup flour",
+      "strawberry or raspberry jam",
+      "2 eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

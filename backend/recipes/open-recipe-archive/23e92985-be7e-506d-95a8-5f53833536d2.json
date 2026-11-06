@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "23e92985-be7e-506d-95a8-5f53833536d2",
+  "name": "To Make Custard",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "one quart milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf sugar",
+      "originalText": "loaf sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a quart of milk quite hot, that it may not whey when baked",
+      "section": null
+    },
+    {
+      "text": "Let it stand to get cold, and then mix six eggs with it",
+      "section": null
+    },
+    {
+      "text": "Sweeten it with loaf sugar, and fill the custard cups",
+      "section": null
+    },
+    {
+      "text": "Put on the covers, and set them in a Dutch oven with water, but not enough to risk its boiling into the cups",
+      "section": null
+    },
+    {
+      "text": "Do not put on the top of the oven",
+      "section": null
+    },
+    {
+      "text": "When the water has boiled ten or fifteen minutes, take out a cup, and if the custard be the consistence of jelly; it is sufficiently done",
+      "section": null
+    },
+    {
+      "text": "Serve them in the cups with the covers on, and a tea-spoon on the dish between each cup",
+      "section": null
+    },
+    {
+      "text": "Grate nutmeg on the tops when cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/to-make-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a quart of milk quite hot, that it may not whey when baked\n2. Let it stand to get cold, and then mix six eggs with it\n3. Sweeten it with loaf sugar, and fill the custard cups\n4. Put on the covers, and set them in a Dutch oven with water, but not enough to risk its boiling into the cups\n5. Do not put on the top of the oven\n6. When the water has boiled ten or fifteen minutes, take out a cup, and if the custard be the consistence of jelly; it is sufficiently done\n7. Serve them in the cups with the covers on, and a tea-spoon on the dish between each cup\n8. Grate nutmeg on the tops when cold",
+    "originalIngredients": [
+      "one quart milk",
+      "six eggs",
+      "loaf sugar",
+      "nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

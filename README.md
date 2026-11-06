@@ -101,6 +101,10 @@ From `frontend/`, use Node 22.12+ (or Node 20.19+) and run `npm test` and `npm r
 
 
 Supabase password: RemyDatabas
+## Kitchen
+
+Open Kitchen between Meal Planner and Pantry to see the full recipes scheduled for a single day. Use the previous/next arrows or Today to choose the day. Each scheduled meal, including custom slots, expands and collapses independently. Kitchen reads the saved account calendar; guests can view plans made in the current session. Refresh schedule reloads saved changes.
+
 ## Eaten meals and weekly recaps
 
 On the dashboard, signed-in users can edit daily nutrition goals and mark calendar recipes as eaten with a serving quantity. Eaten meals are stored in Supabase independently of calendar plans, and remain in the food journal after a page refresh or a recipe edit/deletion. Undo an eaten meal from its calendar cell or the recap's daily food list. Calendar plans and custom meal slots are also stored per account in Supabase.

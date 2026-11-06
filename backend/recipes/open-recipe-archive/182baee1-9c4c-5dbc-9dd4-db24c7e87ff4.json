@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "182baee1-9c4c-5dbc-9dd4-db24c7e87ff4",
+  "name": "Orange Pudding No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet oranges",
+      "originalText": "five sweet oranges",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coffeecupful of white sugar",
+      "originalText": "one coffeecupful of white sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one pint of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of three eggs",
+      "originalText": "yolks of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "one tablespoonful of cornstarch",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two tablespoonfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel and cut the oranges into thin slices, taking out the seeds",
+      "section": null
+    },
+    {
+      "text": "Pour the sugar over them and let them stand",
+      "section": null
+    },
+    {
+      "text": "Set the milk in a suitable dish into another of boiling water",
+      "section": null
+    },
+    {
+      "text": "Let the milk get boiling hot",
+      "section": null
+    },
+    {
+      "text": "Add a piece of butter as large as a nutmeg, the cornstarch made smooth with a little cold milk, and the well-beaten yolks of the eggs and a little flavoring",
+      "section": null
+    },
+    {
+      "text": "Stir it all well together until it is smooth and cooked",
+      "section": null
+    },
+    {
+      "text": "Set it off and pour it over the oranges",
+      "section": null
+    },
+    {
+      "text": "Beat the whites to a stiff froth, adding two tablespoonfuls of sugar",
+      "section": null
+    },
+    {
+      "text": "Spread over the top for frosting",
+      "section": null
+    },
+    {
+      "text": "Set into the oven a few minutes to brown",
+      "section": null
+    },
+    {
+      "text": "Eat cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/orange-pudding-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel and cut the oranges into thin slices, taking out the seeds\n2. Pour the sugar over them and let them stand\n3. Set the milk in a suitable dish into another of boiling water\n4. Let the milk get boiling hot\n5. Add a piece of butter as large as a nutmeg, the cornstarch made smooth with a little cold milk, and the well-beaten yolks of the eggs and a little flavoring\n6. Stir it all well together until it is smooth and cooked\n7. Set it off and pour it over the oranges\n8. Beat the whites to a stiff froth, adding two tablespoonfuls of sugar\n9. Spread over the top for frosting\n10. Set into the oven a few minutes to brown\n11. Eat cold",
+    "originalIngredients": [
+      "five sweet oranges",
+      "one coffeecupful of white sugar",
+      "one pint of milk",
+      "yolks of three eggs",
+      "one tablespoonful of cornstarch",
+      "butter",
+      "two tablespoonfuls of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

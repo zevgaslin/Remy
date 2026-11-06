@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "65a2c8ea-3276-576a-888b-fc797e2e2679",
+  "name": "Currant Wine",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallons of ripe currants",
+      "originalText": "4 gallons of ripe currants",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallons and a half of water",
+      "originalText": "2 gallons and a half of water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of the best loaf-sugar",
+      "originalText": "5 pounds and a half of the best loaf-sugar",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 2 eggs",
+      "originalText": "whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream of tartar",
+      "originalText": "half an ounce of cream of tartar",
+      "quantity": 0.5,
+      "quantityText": "half an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Strip the currants from the stalks into a great stone jar that has a cover to it, and mash them with a long thick stick",
+      "section": null
+    },
+    {
+      "text": "Let them stand twenty-four hours",
+      "section": null
+    },
+    {
+      "text": "Then put the currants into a large linen bag; wash out the jar, set it under the bag, and squeeze the juice into it",
+      "section": null
+    },
+    {
+      "text": "Boil together two gallons and a half of water, and five pounds and a half of the best loaf-sugar, skimming it well",
+      "section": null
+    },
+    {
+      "text": "When the scum ceases to rise, mix the syrup with the currant juice",
+      "section": null
+    },
+    {
+      "text": "Let it stand a fortnight or three weeks to settle",
+      "section": null
+    },
+    {
+      "text": "Then transfer it to another vessel, taking care not to disturb the lees or dregs",
+      "section": null
+    },
+    {
+      "text": "If it is not quite clear and bright, refine it by mixing with a quart of the wine, (taken out for the purpose,) the whites of two eggs beaten to a stiff froth, and half an ounce of cream of tartar",
+      "section": null
+    },
+    {
+      "text": "Pour this gradually into the vessel",
+      "section": null
+    },
+    {
+      "text": "Let it stand ten days, and then bottle it off",
+      "section": null
+    },
+    {
+      "text": "Place the bottles in saw-dust, laying them on their sides",
+      "section": null
+    },
+    {
+      "text": "Take care that the saw-dust is not from pine wood",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/currant-wine-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Strip the currants from the stalks into a great stone jar that has a cover to it, and mash them with a long thick stick\n2. Let them stand twenty-four hours\n3. Then put the currants into a large linen bag; wash out the jar, set it under the bag, and squeeze the juice into it\n4. Boil together two gallons and a half of water, and five pounds and a half of the best loaf-sugar, skimming it well\n5. When the scum ceases to rise, mix the syrup with the currant juice\n6. Let it stand a fortnight or three weeks to settle\n7. Then transfer it to another vessel, taking care not to disturb the lees or dregs\n8. If it is not quite clear and bright, refine it by mixing with a quart of the wine, (taken out for the purpose,) the whites of two eggs beaten to a stiff froth, and half an ounce of cream of tartar\n9. Pour this gradually into the vessel\n10. Let it stand ten days, and then bottle it off\n11. Place the bottles in saw-dust, laying them on their sides\n12. Take care that the saw-dust is not from pine wood",
+    "originalIngredients": [
+      "4 gallons of ripe currants",
+      "2 gallons and a half of water",
+      "5 pounds and a half of the best loaf-sugar",
+      "whites of 2 eggs",
+      "half an ounce of cream of tartar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

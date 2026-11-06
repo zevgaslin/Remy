@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "afae5c3b-ae71-5540-8c18-dc62fa9a1d44",
+  "name": "Oyster Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "One quart or twenty-five oysters in their own liquor",
+      "originalText": "One quart or twenty-five oysters in their own liquor",
+      "quantity": null,
+      "quantityText": "One quart or twenty-five oysters in their own liquor",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "One cupful of water",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "One tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One cupful of scalded milk or cream",
+      "originalText": "One cupful of scalded milk or cream",
+      "quantity": null,
+      "quantityText": "One cupful of scalded milk or cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper, salt if necessary, and a dash of cayenne or paprica",
+      "originalText": "Pepper, salt if necessary, and a dash of cayenne or paprica",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald a quart or twenty-five oysters in their own liquor",
+      "section": null
+    },
+    {
+      "text": "As soon as they are plump, or the gills curl, remove them",
+      "section": null
+    },
+    {
+      "text": "Add to the liquor a cupful of water",
+      "section": null
+    },
+    {
+      "text": "Make a roux of one tablespoonful each of butter and flour, dilute it with the liquor, and when it is smooth add a cupful of scalded milk or cream",
+      "section": null
+    },
+    {
+      "text": "Season with pepper, salt if necessary, and a dash of cayenne or paprica",
+      "section": null
+    },
+    {
+      "text": "Add the oysters, and as soon as they are heated serve at once",
+      "section": null
+    },
+    {
+      "text": "Examine oysters carefully, and pass the liquor through a fine sieve before being cooked, in order to remove any pieces of shell",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/oyster-soup-6.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald a quart or twenty-five oysters in their own liquor\n2. As soon as they are plump, or the gills curl, remove them\n3. Add to the liquor a cupful of water\n4. Make a roux of one tablespoonful each of butter and flour, dilute it with the liquor, and when it is smooth add a cupful of scalded milk or cream\n5. Season with pepper, salt if necessary, and a dash of cayenne or paprica\n6. Add the oysters, and as soon as they are heated serve at once\n7. Examine oysters carefully, and pass the liquor through a fine sieve before being cooked, in order to remove any pieces of shell",
+    "originalIngredients": [
+      "One quart or twenty-five oysters in their own liquor",
+      "One cupful of water",
+      "One tablespoonful of butter",
+      "One tablespoonful of flour",
+      "One cupful of scalded milk or cream",
+      "Pepper, salt if necessary, and a dash of cayenne or paprica"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

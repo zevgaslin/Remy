@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "e71ca866-991a-5b80-bf04-952f56d638c9",
+  "name": "Baked Rice Curry",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "raw rice",
+      "originalText": "1 cupful raw rice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1 quart water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoonful curry-powder",
+      "originalText": "1 heaping teaspoonful curry-powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash a cupful of raw rice in three waters, and let it soak fifteen minutes in water enough to cover it.",
+      "section": null
+    },
+    {
+      "text": "Boil an onion in a quart of water with a little salt until the onion is very soft.",
+      "section": null
+    },
+    {
+      "text": "Strain the water, squeezing the onion hard in a bit of cloth.",
+      "section": null
+    },
+    {
+      "text": "Throw it away, put the water over the fire with a heaping teaspoonful of curry-powder, and when it boils again pour upon the rice and the water in which it was soaked.",
+      "section": null
+    },
+    {
+      "text": "Turn all into a jar with a close top, or a casserole dish with a cover, and set in a moderate oven until the rice has soaked up the liquid and is swollen and soft, but not broken.",
+      "section": null
+    },
+    {
+      "text": "Serve in a deep, open dish, and pour over it a few spoonfuls of melted butter, loosening the rice gently with a fork to allow the butter to penetrate to the bottom.",
+      "section": null
+    },
+    {
+      "text": "Serve with roast chicken, veal, or fish.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/baked-rice-curry.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash a cupful of raw rice in three waters, and let it soak fifteen minutes in water enough to cover it.\n2. Boil an onion in a quart of water with a little salt until the onion is very soft.\n3. Strain the water, squeezing the onion hard in a bit of cloth.\n4. Throw it away, put the water over the fire with a heaping teaspoonful of curry-powder, and when it boils again pour upon the rice and the water in which it was soaked.\n5. Turn all into a jar with a close top, or a casserole dish with a cover, and set in a moderate oven until the rice has soaked up the liquid and is swollen and soft, but not broken.\n6. Serve in a deep, open dish, and pour over it a few spoonfuls of melted butter, loosening the rice gently with a fork to allow the butter to penetrate to the bottom.\n7. Serve with roast chicken, veal, or fish.",
+    "originalIngredients": [
+      "1 cupful raw rice",
+      "1 onion",
+      "1 quart water",
+      "salt",
+      "1 heaping teaspoonful curry-powder",
+      "melted butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

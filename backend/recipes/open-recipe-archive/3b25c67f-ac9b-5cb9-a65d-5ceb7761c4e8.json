@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "3b25c67f-ac9b-5cb9-a65d-5ceb7761c4e8",
+  "name": "German Chowder",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "haddock",
+      "originalText": "3 lb. haddock",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 quart cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "2 slices carrot",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bit of bay leaf",
+      "originalText": "Bit of bay leaf",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sprig of parsley",
+      "originalText": "Sprig of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cracker, pounded",
+      "originalText": "1 cracker, pounded",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt, pepper, cayenne",
+      "originalText": "Salt, pepper, cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "2 tablespoons melted butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Few drops onion juice",
+      "originalText": "Few drops onion juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "1 beaten egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "potatoes cut in ¾-inch cubes",
+      "originalText": "1 quart potatoes cut in ¾-inch cubes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2–inch cube fat salt pork",
+      "originalText": "2–inch cube fat salt pork",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced onion",
+      "originalText": "1 sliced onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "5 tablespoons flour",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scalded milk",
+      "originalText": "1 quart scalded milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup butter",
+      "originalText": "¼ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "common crackers",
+      "originalText": "8 common crackers",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Clean, skin, and bone fish.",
+      "section": null
+    },
+    {
+      "text": "Add to bones cold water and vegetables, and let simmer twenty minutes.",
+      "section": null
+    },
+    {
+      "text": "Strain stock from bones.",
+      "section": null
+    },
+    {
+      "text": "Chop fish meat; there should be one and one-half cups.",
+      "section": null
+    },
+    {
+      "text": "Add cracker, seasonings, melted butter and egg, then shape in small balls.",
+      "section": null
+    },
+    {
+      "text": "Try out pork, add onion, and cook five minutes.",
+      "section": null
+    },
+    {
+      "text": "Strain, and add to fat, potatoes, balls, and fish stock, and cook until potatoes are soft.",
+      "section": null
+    },
+    {
+      "text": "Thicken milk with butter and flour cooked together.",
+      "section": null
+    },
+    {
+      "text": "Combine mixtures, and season highly with salt, pepper, and cayenne.",
+      "section": null
+    },
+    {
+      "text": "Add crackers, split and soaked in cold milk.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/german-chowder.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Clean, skin, and bone fish.\n2. Add to bones cold water and vegetables, and let simmer twenty minutes.\n3. Strain stock from bones.\n4. Chop fish meat; there should be one and one-half cups.\n5. Add cracker, seasonings, melted butter and egg, then shape in small balls.\n6. Try out pork, add onion, and cook five minutes.\n7. Strain, and add to fat, potatoes, balls, and fish stock, and cook until potatoes are soft.\n8. Thicken milk with butter and flour cooked together.\n9. Combine mixtures, and season highly with salt, pepper, and cayenne.\n10. Add crackers, split and soaked in cold milk.",
+    "originalIngredients": [
+      "3 lb. haddock",
+      "1 quart cold water",
+      "2 slices carrot",
+      "Bit of bay leaf",
+      "Sprig of parsley",
+      "1 cracker, pounded",
+      "Salt, pepper, cayenne",
+      "2 tablespoons melted butter",
+      "Few drops onion juice",
+      "1 beaten egg",
+      "1 quart potatoes cut in ¾-inch cubes",
+      "2–inch cube fat salt pork",
+      "1 sliced onion",
+      "5 tablespoons flour",
+      "1 quart scalded milk",
+      "¼ cup butter",
+      "8 common crackers"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

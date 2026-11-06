@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "c4ad7050-6870-5a6c-973f-943a3fca74a8",
+  "name": "Surprise Layer Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 1/2 cups white sugar",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "3/4 cup water",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat 3 eggs 1 minute",
+      "section": null
+    },
+    {
+      "text": "Add 1 1/2 cups white sugar and beat 5 minutes",
+      "section": null
+    },
+    {
+      "text": "Add 1 cup flour and beat 1 minute",
+      "section": null
+    },
+    {
+      "text": "Add 3/4 cup water and flavor to taste",
+      "section": null
+    },
+    {
+      "text": "Mix 1 cup flour and 2 teaspoons baking powder together and add",
+      "section": null
+    },
+    {
+      "text": "Bake in a cake pan",
+      "section": null
+    },
+    {
+      "text": "Ice with icing sugar moistened with milk and flavored to suit",
+      "section": null
+    },
+    {
+      "text": "Lay on shelled walnuts so you can cut in square pieces",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/surprise-layer-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat 3 eggs 1 minute\n2. Add 1 1/2 cups white sugar and beat 5 minutes\n3. Add 1 cup flour and beat 1 minute\n4. Add 3/4 cup water and flavor to taste\n5. Mix 1 cup flour and 2 teaspoons baking powder together and add\n6. Bake in a cake pan\n7. Ice with icing sugar moistened with milk and flavored to suit\n8. Lay on shelled walnuts so you can cut in square pieces",
+    "originalIngredients": [
+      "3 eggs",
+      "1 1/2 cups white sugar",
+      "1 cup flour",
+      "3/4 cup water",
+      "1 cup flour",
+      "2 teaspoons baking powder"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

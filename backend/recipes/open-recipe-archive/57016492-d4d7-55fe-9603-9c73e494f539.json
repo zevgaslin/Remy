@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "57016492-d4d7-55fe-9603-9c73e494f539",
+  "name": "Jugged Beef",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "2 pounds thin beef or stewing steak",
+      "originalText": "2 pounds thin beef or stewing steak",
+      "quantity": null,
+      "quantityText": "2 pounds thin beef or stewing steak",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "2 onions",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "medium-sized carrot",
+      "originalText": "1 medium-sized carrot",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed herbs",
+      "originalText": "1 teaspoon mixed herbs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion stuck with dozen cloves",
+      "originalText": "1 small onion stuck with dozen cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yorkshire relish",
+      "originalText": "Yorkshire relish",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water or stock",
+      "originalText": "water or stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put beef cut into convenient sized pieces into a brown stewing jar",
+      "section": null
+    },
+    {
+      "text": "Add onions cut in slices",
+      "section": null
+    },
+    {
+      "text": "Add carrot cut in cubes",
+      "section": null
+    },
+    {
+      "text": "Add mixed herbs",
+      "section": null
+    },
+    {
+      "text": "Add small onion stuck with cloves",
+      "section": null
+    },
+    {
+      "text": "Add a little Yorkshire relish",
+      "section": null
+    },
+    {
+      "text": "Dust all with flour",
+      "section": null
+    },
+    {
+      "text": "Season with pepper and salt to taste",
+      "section": null
+    },
+    {
+      "text": "Do not quite cover with water or stock",
+      "section": null
+    },
+    {
+      "text": "Put on the lid and set jar in the oven",
+      "section": null
+    },
+    {
+      "text": "Let it cook for 2 hours",
+      "section": null
+    },
+    {
+      "text": "Serve with boiled potatoes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/jugged-beef.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put beef cut into convenient sized pieces into a brown stewing jar\n2. Add onions cut in slices\n3. Add carrot cut in cubes\n4. Add mixed herbs\n5. Add small onion stuck with cloves\n6. Add a little Yorkshire relish\n7. Dust all with flour\n8. Season with pepper and salt to taste\n9. Do not quite cover with water or stock\n10. Put on the lid and set jar in the oven\n11. Let it cook for 2 hours\n12. Serve with boiled potatoes",
+    "originalIngredients": [
+      "2 pounds thin beef or stewing steak",
+      "2 onions",
+      "1 medium-sized carrot",
+      "1 teaspoon mixed herbs",
+      "1 small onion stuck with dozen cloves",
+      "Yorkshire relish",
+      "1 tablespoon flour",
+      "pepper and salt",
+      "water or stock"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

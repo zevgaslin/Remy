@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "a6a4fddb-b1f1-5db9-9baf-ef715ed7a5ec",
+  "name": "Pork and Beans",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pickled pork",
+      "originalText": "two pounds of pickled pork",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dried beans",
+      "originalText": "two quarts of dried beans",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the meat all night in a pan of cold water.",
+      "section": null
+    },
+    {
+      "text": "Put the beans into a pot with cold water, and let them hang all night over the embers of the fire, or set them in the chimney corner, that they may warm as well as soak.",
+      "section": null
+    },
+    {
+      "text": "Early in the morning rinse them through a cullender.",
+      "section": null
+    },
+    {
+      "text": "Having scored the rind of the pork, (which should not be a very fat piece,) put it into a pot with cold water, and boil it till tender, carefully skimming off the liquid fat.",
+      "section": null
+    },
+    {
+      "text": "In another pot boil the beans till they have all bursted.",
+      "section": null
+    },
+    {
+      "text": "When soft, take them up; lay the pork in a tin pan; and cover it with the beans, adding a very little water.",
+      "section": null
+    },
+    {
+      "text": "Bake them in an oven till brown, but not longer.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pork-and-beans.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the meat all night in a pan of cold water.\n2. Put the beans into a pot with cold water, and let them hang all night over the embers of the fire, or set them in the chimney corner, that they may warm as well as soak.\n3. Early in the morning rinse them through a cullender.\n4. Having scored the rind of the pork, (which should not be a very fat piece,) put it into a pot with cold water, and boil it till tender, carefully skimming off the liquid fat.\n5. In another pot boil the beans till they have all bursted.\n6. When soft, take them up; lay the pork in a tin pan; and cover it with the beans, adding a very little water.\n7. Bake them in an oven till brown, but not longer.",
+    "originalIngredients": [
+      "two pounds of pickled pork",
+      "two quarts of dried beans",
+      "cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

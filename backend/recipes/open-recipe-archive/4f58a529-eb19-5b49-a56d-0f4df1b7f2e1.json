@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "4f58a529-eb19-5b49-a56d-0f4df1b7f2e1",
+  "name": "Gooseberry Wine",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallons of soft water",
+      "originalText": "3 gallons of soft water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallons of ripe gooseberries",
+      "originalText": "6 gallons of ripe gooseberries",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three-quarters of a pound of loaf-sugar per quart of juice",
+      "originalText": "three-quarters of a pound of loaf-sugar per quart of juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white brandy for every gallon of the gooseberry wine",
+      "originalText": "1 pint of white brandy for every gallon of the gooseberry wine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 2 eggs",
+      "originalText": "whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very small tea-spoonful of salt",
+      "originalText": "a very small tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 or 3 raisins per bottle",
+      "originalText": "2 or 3 raisins per bottle",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Top and tail the gooseberries; put them, a few at a time, into a wooden dish, and with a rolling-pin or beetle break and mash every one; transferring them, as they are done, into a large stone jar",
+      "section": null
+    },
+    {
+      "text": "Pour the boiling water upon the mashed gooseberries; cover the jar, and let them stand twelve hours",
+      "section": null
+    },
+    {
+      "text": "Then strain and measure the juice, and to each quart allow three-quarters of a pound of loaf-sugar",
+      "section": null
+    },
+    {
+      "text": "Mix it with the liquid, and let it stand eight or nine hours to dissolve, stirring it several times",
+      "section": null
+    },
+    {
+      "text": "Then pour it into a keg of proper size for containing it, and let it ferment at the bung-hole; filling it up as it works out with some of the liquor reserved for that purpose",
+      "section": null
+    },
+    {
+      "text": "As soon as it ceases to hiss, stop it close with a cloth wrapped round the bung",
+      "section": null
+    },
+    {
+      "text": "A pint of white brandy for every gallon of the gooseberry wine may be added on bunging it up",
+      "section": null
+    },
+    {
+      "text": "At the end of four or five months it will probably be fine enough to bottle off",
+      "section": null
+    },
+    {
+      "text": "You may refine it by allowing to every gallon of wine the whites of two eggs, beaten to a froth, with a very small tea-spoonful of salt",
+      "section": null
+    },
+    {
+      "text": "When the white of egg, &c. is a stiff froth, take out a quart of the wine, and mix them well together",
+      "section": null
+    },
+    {
+      "text": "Then pour it into the cask, and in a few days it will be fine and clear",
+      "section": null
+    },
+    {
+      "text": "Put two or three raisins in the bottom of each bottle",
+      "section": null
+    },
+    {
+      "text": "Keep the bottles in saw-dust, lying on their sides",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/gooseberry-wine.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Top and tail the gooseberries; put them, a few at a time, into a wooden dish, and with a rolling-pin or beetle break and mash every one; transferring them, as they are done, into a large stone jar\n2. Pour the boiling water upon the mashed gooseberries; cover the jar, and let them stand twelve hours\n3. Then strain and measure the juice, and to each quart allow three-quarters of a pound of loaf-sugar\n4. Mix it with the liquid, and let it stand eight or nine hours to dissolve, stirring it several times\n5. Then pour it into a keg of proper size for containing it, and let it ferment at the bung-hole; filling it up as it works out with some of the liquor reserved for that purpose\n6. As soon as it ceases to hiss, stop it close with a cloth wrapped round the bung\n7. A pint of white brandy for every gallon of the gooseberry wine may be added on bunging it up\n8. At the end of four or five months it will probably be fine enough to bottle off\n9. You may refine it by allowing to every gallon of wine the whites of two eggs, beaten to a froth, with a very small tea-spoonful of salt\n10. When the white of egg, &c. is a stiff froth, take out a quart of the wine, and mix them well together\n11. Then pour it into the cask, and in a few days it will be fine and clear\n12. Put two or three raisins in the bottom of each bottle\n13. Keep the bottles in saw-dust, lying on their sides",
+    "originalIngredients": [
+      "3 gallons of soft water",
+      "6 gallons of ripe gooseberries",
+      "three-quarters of a pound of loaf-sugar per quart of juice",
+      "1 pint of white brandy for every gallon of the gooseberry wine",
+      "whites of 2 eggs",
+      "a very small tea-spoonful of salt",
+      "2 or 3 raisins per bottle"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "22fc449e-ab24-5ea5-b9bc-ad62aaa1ee6c",
+  "name": "Plain Pancakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "half a pound or a pint of flour",
+      "originalText": "half a pound or a pint of flour",
+      "quantity": null,
+      "quantityText": "half a pound or a pint of flour",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "seven eggs",
+      "quantity": 7.0,
+      "quantityText": "seven",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "a quart of rich milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonful of lard",
+      "originalText": "a spoonful of lard",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine",
+      "originalText": "wine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift half a pound or a pint of flour",
+      "section": null
+    },
+    {
+      "text": "Beat seven eggs very light, and stir them gradually into a quart of rich milk",
+      "section": null
+    },
+    {
+      "text": "Then add by degrees the flour, so as to make a thin batter",
+      "section": null
+    },
+    {
+      "text": "Mix it very smooth, pressing out all the lumps with the back of a spoon",
+      "section": null
+    },
+    {
+      "text": "Set the frying-pan over the fire, and when it is hot, grease it with a spoonful of lard",
+      "section": null
+    },
+    {
+      "text": "Then put in a ladle full of the batter, and fry it of a light brown, turning it with care to prevent its breaking",
+      "section": null
+    },
+    {
+      "text": "Make each pancake large enough to cover the bottom of a dessert plate; greasing the pan every time",
+      "section": null
+    },
+    {
+      "text": "Send them to table hot, accompanied by powdered sugar and nutmeg mixed in a small glass bowl",
+      "section": null
+    },
+    {
+      "text": "Have wine with them also",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/plain-pancakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift half a pound or a pint of flour\n2. Beat seven eggs very light, and stir them gradually into a quart of rich milk\n3. Then add by degrees the flour, so as to make a thin batter\n4. Mix it very smooth, pressing out all the lumps with the back of a spoon\n5. Set the frying-pan over the fire, and when it is hot, grease it with a spoonful of lard\n6. Then put in a ladle full of the batter, and fry it of a light brown, turning it with care to prevent its breaking\n7. Make each pancake large enough to cover the bottom of a dessert plate; greasing the pan every time\n8. Send them to table hot, accompanied by powdered sugar and nutmeg mixed in a small glass bowl\n9. Have wine with them also",
+    "originalIngredients": [
+      "half a pound or a pint of flour",
+      "seven eggs",
+      "a quart of rich milk",
+      "a spoonful of lard",
+      "powdered sugar",
+      "nutmeg",
+      "wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

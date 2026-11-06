@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "a3f9fd9a-e184-5f3b-a25e-1d6847e262d5",
+  "name": "Bean Soup",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "beans",
+      "originalText": "1 cup of beans",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 quart of cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "one slice of onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalk of celery",
+      "originalText": "1 stalk of celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sauce",
+      "originalText": "1 cup white sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot milk",
+      "originalText": "1 cup hot milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bit of mustard",
+      "originalText": "a bit of mustard",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very thin slice of lemon",
+      "originalText": "a very thin slice of lemon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak 1 cup of beans over night, drain and put on to boil in 1 quart of cold water",
+      "section": null
+    },
+    {
+      "text": "Fry one slice of onion in 1 tablespoon of butter until slightly brown, and add, with 1 stalk of celery, to the beans",
+      "section": null
+    },
+    {
+      "text": "Let simmer till very soft, adding a little cold water occasionally to check the boiling and help soften the beans",
+      "section": null
+    },
+    {
+      "text": "Rub through a soup strainer, put over fire and when hot, add 1 cup white sauce (made of 1 tablespoon each of flour and butter, cooked together and thinned with 1 cup hot milk)",
+      "section": null
+    },
+    {
+      "text": "Season with salt, pepper and a bit of mustard, and serve with a very thin slice of lemon in each plate",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/bean-soup-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak 1 cup of beans over night, drain and put on to boil in 1 quart of cold water\n2. Fry one slice of onion in 1 tablespoon of butter until slightly brown, and add, with 1 stalk of celery, to the beans\n3. Let simmer till very soft, adding a little cold water occasionally to check the boiling and help soften the beans\n4. Rub through a soup strainer, put over fire and when hot, add 1 cup white sauce (made of 1 tablespoon each of flour and butter, cooked together and thinned with 1 cup hot milk)\n5. Season with salt, pepper and a bit of mustard, and serve with a very thin slice of lemon in each plate",
+    "originalIngredients": [
+      "1 cup of beans",
+      "1 quart of cold water",
+      "one slice of onion",
+      "1 tablespoon of butter",
+      "1 stalk of celery",
+      "1 cup white sauce",
+      "1 tablespoon flour",
+      "1 tablespoon butter",
+      "1 cup hot milk",
+      "salt",
+      "pepper",
+      "a bit of mustard",
+      "a very thin slice of lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

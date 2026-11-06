@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "4762d149-10bd-5f27-a723-4f75e8dfbfa1",
+  "name": "Sippet Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "loaf of bread",
+      "originalText": "a loaf of bread",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "marrow or butter",
+      "originalText": "marrow or butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a handful of currants or stoned raisins",
+      "originalText": "a handful of currants or stoned raisins",
+      "quantity": null,
+      "quantityText": "a handful of currants or stoned raisins",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk boiled and cooled",
+      "originalText": "a quart of milk boiled and cooled",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of sugar",
+      "originalText": "a quarter of a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine sauce",
+      "originalText": "wine sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut a loaf of bread as thin as possible",
+      "section": null
+    },
+    {
+      "text": "Put a layer of it in the bottom of a deep dish",
+      "section": null
+    },
+    {
+      "text": "Strew on some slices of marrow or butter, with a handful of currants or stoned raisins",
+      "section": null
+    },
+    {
+      "text": "Do this till the dish is full, let the currants or raisins be at the top",
+      "section": null
+    },
+    {
+      "text": "Beat four eggs, mix with them a quart of milk that has been boiled a little and become cold, a quarter of a pound of sugar, and a grated nutmeg",
+      "section": null
+    },
+    {
+      "text": "Pour it in, and bake it in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Eat it with wine sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sippet-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut a loaf of bread as thin as possible\n2. Put a layer of it in the bottom of a deep dish\n3. Strew on some slices of marrow or butter, with a handful of currants or stoned raisins\n4. Do this till the dish is full, let the currants or raisins be at the top\n5. Beat four eggs, mix with them a quart of milk that has been boiled a little and become cold, a quarter of a pound of sugar, and a grated nutmeg\n6. Pour it in, and bake it in a moderate oven\n7. Eat it with wine sauce",
+    "originalIngredients": [
+      "a loaf of bread",
+      "marrow or butter",
+      "a handful of currants or stoned raisins",
+      "four eggs",
+      "a quart of milk boiled and cooled",
+      "a quarter of a pound of sugar",
+      "a grated nutmeg",
+      "wine sauce"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

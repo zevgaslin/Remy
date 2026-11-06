@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "82c5f383-85e2-5e4c-852b-bbe8be7fb521",
+  "name": "Almond Jumbles",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1 lb. sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. flour",
+      "originalText": "½ lb. flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ lb. butter",
+      "originalText": "¼ lb. butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup loppered milk",
+      "originalText": "1 teacup loppered milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose-water",
+      "originalText": "2 tablespoonfuls rose-water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ lb. almonds, blanched and chopped small, but not pounded",
+      "originalText": "¾ lb. almonds, blanched and chopped small, but not pounded",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda dissolved in boiling water",
+      "originalText": "1 teaspoonful soda dissolved in boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream butter and sugar.",
+      "section": null
+    },
+    {
+      "text": "Stir in the beaten yolks, the milk, the flour, and the rose-water.",
+      "section": null
+    },
+    {
+      "text": "Stir in the almonds.",
+      "section": null
+    },
+    {
+      "text": "Add lastly the beaten whites very lightly and quickly.",
+      "section": null
+    },
+    {
+      "text": "Drop in rings or round cakes upon buttered paper, and bake immediately.",
+      "section": null
+    },
+    {
+      "text": "You may substitute grated cocoanut, or the chopped kernels of white walnuts, for the almonds, in which case add a little salt.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/almond-jumbles.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream butter and sugar.\n2. Stir in the beaten yolks, the milk, the flour, and the rose-water.\n3. Stir in the almonds.\n4. Add lastly the beaten whites very lightly and quickly.\n5. Drop in rings or round cakes upon buttered paper, and bake immediately.\n6. You may substitute grated cocoanut, or the chopped kernels of white walnuts, for the almonds, in which case add a little salt.",
+    "originalIngredients": [
+      "1 lb. sugar",
+      "½ lb. flour",
+      "¼ lb. butter",
+      "1 teacup loppered milk",
+      "5 eggs",
+      "2 tablespoonfuls rose-water",
+      "¾ lb. almonds, blanched and chopped small, but not pounded",
+      "1 teaspoonful soda dissolved in boiling water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

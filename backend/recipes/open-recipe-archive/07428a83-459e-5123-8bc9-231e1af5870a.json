@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "07428a83-459e-5123-8bc9-231e1af5870a",
+  "name": "Omelette—Another Way",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped parsley",
+      "originalText": "chopped parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "four ounces of fresh butter",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Break six eggs",
+      "section": null
+    },
+    {
+      "text": "Leave out half the whites",
+      "section": null
+    },
+    {
+      "text": "Beat them with a fork",
+      "section": null
+    },
+    {
+      "text": "Add some salt and chopped parsley",
+      "section": null
+    },
+    {
+      "text": "Take four ounces of fresh butter",
+      "section": null
+    },
+    {
+      "text": "Cut half of it in small pieces and put them in the omelette",
+      "section": null
+    },
+    {
+      "text": "Put the other half in a small frying pan",
+      "section": null
+    },
+    {
+      "text": "When melted, pour in the eggs",
+      "section": null
+    },
+    {
+      "text": "Stir till it begins to set",
+      "section": null
+    },
+    {
+      "text": "Turn it up round the edges",
+      "section": null
+    },
+    {
+      "text": "When done, put a plate on and turn the pan up so that it may not break",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/omelette-another-way.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Break six eggs\n2. Leave out half the whites\n3. Beat them with a fork\n4. Add some salt and chopped parsley\n5. Take four ounces of fresh butter\n6. Cut half of it in small pieces and put them in the omelette\n7. Put the other half in a small frying pan\n8. When melted, pour in the eggs\n9. Stir till it begins to set\n10. Turn it up round the edges\n11. When done, put a plate on and turn the pan up so that it may not break",
+    "originalIngredients": [
+      "six eggs",
+      "salt",
+      "chopped parsley",
+      "four ounces of fresh butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

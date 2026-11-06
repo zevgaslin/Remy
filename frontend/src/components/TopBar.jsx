@@ -7,6 +7,7 @@ import { useAuth } from '../context/useAuth';
 
 const NAV_LINKS = [
   { to: '/', label: 'Meal Planner', end: true },
+  { to: '/kitchen', label: 'Kitchen' },
   { to: '/pantry', label: 'Pantry' },
   { to: '/recipes', label: 'Recipes' },
 ];

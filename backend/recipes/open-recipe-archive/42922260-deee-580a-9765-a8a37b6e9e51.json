@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "42922260-deee-580a-9765-a8a37b6e9e51",
+  "name": "Tomato Catsup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eight quarts or one peck of tomatas",
+      "originalText": "eight quarts or one peck of tomatas",
+      "quantity": null,
+      "quantityText": "eight quarts or one peck of tomatas",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "two ounces of cloves",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace",
+      "originalText": "one ounce of mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black pepper",
+      "originalText": "two ounces of black pepper",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne",
+      "originalText": "two table-spoonfuls of cayenne",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put tomatas into a tub in layers about two inches in thickness, sprinkling a handful of salt between each layer",
+      "section": null
+    },
+    {
+      "text": "Cover the tub and let it set for three days",
+      "section": null
+    },
+    {
+      "text": "Early in the morning, put the tomatas into a large porcelain kettle, and boil it slowly and steadily till ten at night, frequently mashing and stirring the tomatas",
+      "section": null
+    },
+    {
+      "text": "Put it out to cool",
+      "section": null
+    },
+    {
+      "text": "Next morning strain and press it through a sieve",
+      "section": null
+    },
+    {
+      "text": "Put it into a clean kettle with two ounces of cloves, one ounce of mace, two ounces of black pepper, and two table-spoonfuls of cayenne, all powdered",
+      "section": null
+    },
+    {
+      "text": "Let it boil slowly and steadily all day, and put it to cool in the evening in a large pan",
+      "section": null
+    },
+    {
+      "text": "Cover it, and let it set all night",
+      "section": null
+    },
+    {
+      "text": "Next day put it into small bottles, securing the corks by dipping them in melted rosin, and tying leathers over them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomato-catsup-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put tomatas into a tub in layers about two inches in thickness, sprinkling a handful of salt between each layer\n2. Cover the tub and let it set for three days\n3. Early in the morning, put the tomatas into a large porcelain kettle, and boil it slowly and steadily till ten at night, frequently mashing and stirring the tomatas\n4. Put it out to cool\n5. Next morning strain and press it through a sieve\n6. Put it into a clean kettle with two ounces of cloves, one ounce of mace, two ounces of black pepper, and two table-spoonfuls of cayenne, all powdered\n7. Let it boil slowly and steadily all day, and put it to cool in the evening in a large pan\n8. Cover it, and let it set all night\n9. Next day put it into small bottles, securing the corks by dipping them in melted rosin, and tying leathers over them",
+    "originalIngredients": [
+      "eight quarts or one peck of tomatas",
+      "salt",
+      "two ounces of cloves",
+      "one ounce of mace",
+      "two ounces of black pepper",
+      "two table-spoonfuls of cayenne"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

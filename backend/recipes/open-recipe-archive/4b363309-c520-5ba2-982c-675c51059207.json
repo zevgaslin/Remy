@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "4b363309-c520-5ba2-982c-675c51059207",
+  "name": "Bran Yeast",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "wheat bran",
+      "originalText": "a pint of wheat bran",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of hops",
+      "originalText": "a handful of hops",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "a quart of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brewer's yeast",
+      "originalText": "four table-spoonfuls of brewer's yeast",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two of brown sugar, or four of molasses",
+      "originalText": "two of brown sugar, or four of molasses",
+      "quantity": null,
+      "quantityText": "two of brown sugar, or four of molasses",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix a pint of wheat bran, and a handful of hops with a quart of water, and boil them together about twenty minutes.",
+      "section": null
+    },
+    {
+      "text": "Strain it through a sieve into a pan.",
+      "section": null
+    },
+    {
+      "text": "When the liquid becomes only milk-warm, stir into it four table-spoonfuls of brewer's yeast, and two of brown sugar, or four of molasses.",
+      "section": null
+    },
+    {
+      "text": "Put it into a wooden bowl, cover it, and set it near the fire for four or five hours.",
+      "section": null
+    },
+    {
+      "text": "Then bottle it, and cork it tightly next day.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bran-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix a pint of wheat bran, and a handful of hops with a quart of water, and boil them together about twenty minutes.\n2. Strain it through a sieve into a pan.\n3. When the liquid becomes only milk-warm, stir into it four table-spoonfuls of brewer's yeast, and two of brown sugar, or four of molasses.\n4. Put it into a wooden bowl, cover it, and set it near the fire for four or five hours.\n5. Then bottle it, and cork it tightly next day.",
+    "originalIngredients": [
+      "a pint of wheat bran",
+      "a handful of hops",
+      "a quart of water",
+      "four table-spoonfuls of brewer's yeast",
+      "two of brown sugar, or four of molasses"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

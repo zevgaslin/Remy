@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "75abdf9b-52f1-5de7-a1c4-c32eb9abdf05",
+  "name": "Baked Plum Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1¼ lb. of flour",
+      "originalText": "1¼ lb. of flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins seeded, cut in two, and dredged with flour",
+      "originalText": "1 lb. raisins seeded, cut in two, and dredged with flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. suet, freed from strings and powdered",
+      "originalText": "½ lb. suet, freed from strings and powdered",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron, shred fine",
+      "originalText": "2 oz. citron, shred fine",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs—whites and yolks beaten separately",
+      "originalText": "5 eggs—whites and yolks beaten separately",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Nutmeg, cinnamon, and cloves—one teaspoonful each",
+      "originalText": "Nutmeg, cinnamon, and cloves—one teaspoonful each",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk to make a thick batter of the flour, beginning with two cups and adding more if necessary",
+      "originalText": "Milk to make a thick batter of the flour, beginning with two cups and adding more if necessary",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the yolks and sugar together",
+      "section": null
+    },
+    {
+      "text": "Add the suet and spice, then the flour, moistening the mixture gradually with milk until you can move the spoon in it",
+      "section": null
+    },
+    {
+      "text": "Dredge the fruit and put in by degrees",
+      "section": null
+    },
+    {
+      "text": "Finally, stir in the beaten whites",
+      "section": null
+    },
+    {
+      "text": "Beat all very hard and long before baking in a buttered mould",
+      "section": null
+    },
+    {
+      "text": "Bake at least an hour and a half in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Turn out, and eat with rich sweet sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/baked-plum-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the yolks and sugar together\n2. Add the suet and spice, then the flour, moistening the mixture gradually with milk until you can move the spoon in it\n3. Dredge the fruit and put in by degrees\n4. Finally, stir in the beaten whites\n5. Beat all very hard and long before baking in a buttered mould\n6. Bake at least an hour and a half in a moderate oven\n7. Turn out, and eat with rich sweet sauce",
+    "originalIngredients": [
+      "1¼ lb. of flour",
+      "1 lb. raisins seeded, cut in two, and dredged with flour",
+      "½ lb. suet, freed from strings and powdered",
+      "1 cup sugar",
+      "2 oz. citron, shred fine",
+      "5 eggs—whites and yolks beaten separately",
+      "Nutmeg, cinnamon, and cloves—one teaspoonful each",
+      "Milk to make a thick batter of the flour, beginning with two cups and adding more if necessary"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

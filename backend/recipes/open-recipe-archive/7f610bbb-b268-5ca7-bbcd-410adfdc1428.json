@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "7f610bbb-b268-5ca7-bbcd-410adfdc1428",
+  "name": "Rich Maccaroni Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "clear gravy soup",
+      "originalText": "one quart clear gravy soup",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "maccaroni",
+      "originalText": "one pound maccaroni",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "more soup",
+      "originalText": "two quarts more soup",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound grated Parmesan cheese",
+      "originalText": "quarter of a pound grated Parmesan cheese",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a quart of clear gravy soup, and boil in it a pound of the best maccaroni cut into pieces.",
+      "section": null
+    },
+    {
+      "text": "When it is tender, take out half of the maccaroni, and add to the remainder two quarts more of the soup.",
+      "section": null
+    },
+    {
+      "text": "Boil it till the maccaroni is entirely dissolved and incorporated with the liquid.",
+      "section": null
+    },
+    {
+      "text": "Strain it: then return it to the soup-pan, and add to it the remainder of the maccaroni, (that was taken out before the pieces broke,) and put in a quarter of a pound of grated Parmesan cheese.",
+      "section": null
+    },
+    {
+      "text": "Let it simmer awhile, but take it up before it comes to a boil.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rich-maccaroni-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a quart of clear gravy soup, and boil in it a pound of the best maccaroni cut into pieces.\n2. When it is tender, take out half of the maccaroni, and add to the remainder two quarts more of the soup.\n3. Boil it till the maccaroni is entirely dissolved and incorporated with the liquid.\n4. Strain it: then return it to the soup-pan, and add to it the remainder of the maccaroni, (that was taken out before the pieces broke,) and put in a quarter of a pound of grated Parmesan cheese.\n5. Let it simmer awhile, but take it up before it comes to a boil.",
+    "originalIngredients": [
+      "one quart clear gravy soup",
+      "one pound maccaroni",
+      "two quarts more soup",
+      "quarter of a pound grated Parmesan cheese"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "dc8d4ae9-3c34-522c-8cd1-bc1671d2f298",
+  "name": "Rice Relish",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large cup rice",
+      "originalText": "1 large cup rice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 quart boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold meat, any kind",
+      "originalText": "1 cup cold meat, any kind",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "catsup",
+      "originalText": "2 tablespoons catsup",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "bread crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash rice in cold water",
+      "section": null
+    },
+    {
+      "text": "Add 1 quart boiling water and 1 teaspoon salt",
+      "section": null
+    },
+    {
+      "text": "Boil quickly until tender and water is all boiled away",
+      "section": null
+    },
+    {
+      "text": "Mince 1 cup cold meat of any kind",
+      "section": null
+    },
+    {
+      "text": "Season with pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Place in granite dish",
+      "section": null
+    },
+    {
+      "text": "Spread over the boiled rice 2 tablespoons catsup",
+      "section": null
+    },
+    {
+      "text": "On top place a few lumps of butter and some bread crumbs",
+      "section": null
+    },
+    {
+      "text": "Bake 20 or 30 minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/rice-relish.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash rice in cold water\n2. Add 1 quart boiling water and 1 teaspoon salt\n3. Boil quickly until tender and water is all boiled away\n4. Mince 1 cup cold meat of any kind\n5. Season with pepper and salt\n6. Place in granite dish\n7. Spread over the boiled rice 2 tablespoons catsup\n8. On top place a few lumps of butter and some bread crumbs\n9. Bake 20 or 30 minutes",
+    "originalIngredients": [
+      "1 large cup rice",
+      "1 quart boiling water",
+      "1 teaspoon salt",
+      "1 cup cold meat, any kind",
+      "pepper and salt",
+      "2 tablespoons catsup",
+      "butter",
+      "bread crumbs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

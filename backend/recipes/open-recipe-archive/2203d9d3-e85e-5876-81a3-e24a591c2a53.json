@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "2203d9d3-e85e-5876-81a3-e24a591c2a53",
+  "name": "Lyonnaise Potatoes",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one and a half tablespoonfuls of butter",
+      "originalText": "one and a half tablespoonfuls of butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scant tablespoonful of chopped onion",
+      "originalText": "a scant tablespoonful of chopped onion",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold boiled potatoes",
+      "originalText": "two cupfuls of cold boiled potatoes",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped parsley",
+      "originalText": "a tablespoonful of chopped parsley",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put one and a half tablespoonfuls of butter in a frying pan.",
+      "section": null
+    },
+    {
+      "text": "When melted add a scant tablespoonful of chopped onion; let it slightly color.",
+      "section": null
+    },
+    {
+      "text": "Add two cupfuls of cold boiled potatoes cut into dice.",
+      "section": null
+    },
+    {
+      "text": "Stir until the potato has absorbed all the butter, and become slightly browned.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle with salt, pepper, and a tablespoonful of chopped parsley.",
+      "section": null
+    },
+    {
+      "text": "Mix well, and serve very hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/lyonnaise-potatoes-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put one and a half tablespoonfuls of butter in a frying pan.\n2. When melted add a scant tablespoonful of chopped onion; let it slightly color.\n3. Add two cupfuls of cold boiled potatoes cut into dice.\n4. Stir until the potato has absorbed all the butter, and become slightly browned.\n5. Sprinkle with salt, pepper, and a tablespoonful of chopped parsley.\n6. Mix well, and serve very hot.",
+    "originalIngredients": [
+      "one and a half tablespoonfuls of butter",
+      "a scant tablespoonful of chopped onion",
+      "two cupfuls of cold boiled potatoes",
+      "salt",
+      "pepper",
+      "a tablespoonful of chopped parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

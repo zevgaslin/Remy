@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "44d71fe7-44d7-58b1-9bd3-4d7a6c985f41",
+  "name": "Fruit Junklets",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "white sugar",
+      "originalText": "1 1/4 cups white sugar",
+      "quantity": 1.25,
+      "quantityText": "1 1/4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped dates",
+      "originalText": "1 pound chopped dates",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "walnuts",
+      "originalText": "3/4 pound walnuts",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 cups flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoon vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "1 tablespoon warm water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir 1 1/4 cups white sugar and 1/2 cup butter together.",
+      "section": null
+    },
+    {
+      "text": "Add beaten 3 eggs, then 3 cups flour.",
+      "section": null
+    },
+    {
+      "text": "Add 1 pound chopped dates and 3/4 pound walnuts and 1 teaspoon vanilla.",
+      "section": null
+    },
+    {
+      "text": "Dissolve 1 teaspoon soda in 1 tablespoon warm water and stir in last of all.",
+      "section": null
+    },
+    {
+      "text": "Drop mixture, size of a walnut, in buttered pans and spread with a wet knife.",
+      "section": null
+    },
+    {
+      "text": "Bake in a hot oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/fruit-junklets.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir 1 1/4 cups white sugar and 1/2 cup butter together.\n2. Add beaten 3 eggs, then 3 cups flour.\n3. Add 1 pound chopped dates and 3/4 pound walnuts and 1 teaspoon vanilla.\n4. Dissolve 1 teaspoon soda in 1 tablespoon warm water and stir in last of all.\n5. Drop mixture, size of a walnut, in buttered pans and spread with a wet knife.\n6. Bake in a hot oven.",
+    "originalIngredients": [
+      "1 1/4 cups white sugar",
+      "1/2 cup butter",
+      "3 eggs",
+      "1 pound chopped dates",
+      "3/4 pound walnuts",
+      "3 cups flour",
+      "1 teaspoon vanilla",
+      "1 teaspoon soda",
+      "1 tablespoon warm water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

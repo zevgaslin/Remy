@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "f57e6400-b605-5c56-8c0b-464030322093",
+  "name": "Sally Lunn (No. 1)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 quart of flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup melted butter",
+      "originalText": "½ cup melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm milk",
+      "originalText": "1 cup warm milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "1 cup warm water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "4 tablespoonfuls yeast",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful soda, dissolved in hot water",
+      "originalText": "½ teaspoonful soda, dissolved in hot water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the eggs to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "Add the milk, water, butter, soda, and salt",
+      "section": null
+    },
+    {
+      "text": "Stir in the flour to a smooth batter and beat the yeast in well",
+      "section": null
+    },
+    {
+      "text": "Set to rise in a buttered pudding-dish, in which it must be baked and sent to table, or if you wish to turn it out, set to rise in a well-buttered mould",
+      "section": null
+    },
+    {
+      "text": "It will not be light under six hours",
+      "section": null
+    },
+    {
+      "text": "Bake steadily three-quarters of an hour, or until a straw thrust into it comes up clean",
+      "section": null
+    },
+    {
+      "text": "Eat while hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sally-lunn-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the eggs to a stiff froth\n2. Add the milk, water, butter, soda, and salt\n3. Stir in the flour to a smooth batter and beat the yeast in well\n4. Set to rise in a buttered pudding-dish, in which it must be baked and sent to table, or if you wish to turn it out, set to rise in a well-buttered mould\n5. It will not be light under six hours\n6. Bake steadily three-quarters of an hour, or until a straw thrust into it comes up clean\n7. Eat while hot",
+    "originalIngredients": [
+      "1 quart of flour",
+      "4 eggs",
+      "½ cup melted butter",
+      "1 cup warm milk",
+      "1 cup warm water",
+      "4 tablespoonfuls yeast",
+      "1 teaspoonful salt",
+      "½ teaspoonful soda, dissolved in hot water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

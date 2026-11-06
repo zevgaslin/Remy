@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "10f00f6d-3d92-5e3f-8908-10790eaa6b90",
+  "name": "A Curd Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "two quarts of milk",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white wine",
+      "originalText": "half a pint of white wine",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "six ounces of butter",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf sugar",
+      "originalText": "half a pound of loaf sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a pint of rice flour or crackers",
+      "originalText": "half a pint of rice flour or crackers",
+      "quantity": null,
+      "quantityText": "half a pint of rice flour or crackers",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "half a grated nutmeg",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "slices of citron",
+      "originalText": "slices of citron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine",
+      "originalText": "wine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put two quarts of milk on the fire",
+      "section": null
+    },
+    {
+      "text": "When it boils, pour in half a pint of white wine",
+      "section": null
+    },
+    {
+      "text": "Strain the curd from the whey, and pound it in a mortar",
+      "section": null
+    },
+    {
+      "text": "Mix with six ounces of butter, half a pound of loaf sugar, and half a pint of rice flour, or as much crackers beaten as fine as flour",
+      "section": null
+    },
+    {
+      "text": "Add six eggs made light, and half a grated nutmeg",
+      "section": null
+    },
+    {
+      "text": "Beat all well together, and bake them in saucers in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Turn them out carefully in your dish",
+      "section": null
+    },
+    {
+      "text": "Stick thin slices of citron in them, and pour on rich melted butter, with sugar and wine",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-curd-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put two quarts of milk on the fire\n2. When it boils, pour in half a pint of white wine\n3. Strain the curd from the whey, and pound it in a mortar\n4. Mix with six ounces of butter, half a pound of loaf sugar, and half a pint of rice flour, or as much crackers beaten as fine as flour\n5. Add six eggs made light, and half a grated nutmeg\n6. Beat all well together, and bake them in saucers in a moderate oven\n7. Turn them out carefully in your dish\n8. Stick thin slices of citron in them, and pour on rich melted butter, with sugar and wine",
+    "originalIngredients": [
+      "two quarts of milk",
+      "half a pint of white wine",
+      "six ounces of butter",
+      "half a pound of loaf sugar",
+      "half a pint of rice flour or crackers",
+      "six eggs",
+      "half a grated nutmeg",
+      "slices of citron",
+      "melted butter",
+      "sugar",
+      "wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

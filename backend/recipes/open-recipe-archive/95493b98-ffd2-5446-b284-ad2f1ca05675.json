@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "95493b98-ffd2-5446-b284-ad2f1ca05675",
+  "name": "Canned Corn 3",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet corn scraped off cob",
+      "originalText": "8 cups sweet corn scraped off cob",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "3 cups water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 cup salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix well",
+      "section": null
+    },
+    {
+      "text": "Let come to a boil and boil for 20 minutes",
+      "section": null
+    },
+    {
+      "text": "Seal hot",
+      "section": null
+    },
+    {
+      "text": "The jars, new rubbers, tops and rings must be scalded before using",
+      "section": null
+    },
+    {
+      "text": "To prepare for table, put on in cold water and let come to a boil",
+      "section": null
+    },
+    {
+      "text": "Drain off, put on fresh water again, and let come to a boil",
+      "section": null
+    },
+    {
+      "text": "Drain off, fix with cream or milk, thicken with flour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/canned-corn-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix well\n2. Let come to a boil and boil for 20 minutes\n3. Seal hot\n4. The jars, new rubbers, tops and rings must be scalded before using\n5. To prepare for table, put on in cold water and let come to a boil\n6. Drain off, put on fresh water again, and let come to a boil\n7. Drain off, fix with cream or milk, thicken with flour",
+    "originalIngredients": [
+      "8 cups sweet corn scraped off cob",
+      "3 cups water",
+      "1/2 cup salt",
+      "1 cup granulated sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

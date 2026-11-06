@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "f03fd513-5600-562f-be70-a94fc050033a",
+  "name": "Ox-Marrow Pomade For The Hair",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "marrow bone",
+      "originalText": "One marrow bone",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oil",
+      "originalText": "Half a pint of oil",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cents' worth of citronella",
+      "originalText": "Ten cents' worth of citronella",
+      "quantity": 10.0,
+      "quantityText": "Ten",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take the marrow out of the bone, place it in warm water, let it get almost to boiling point, then let it cool and pour the water away",
+      "section": null
+    },
+    {
+      "text": "Repeat this three times until the marrow is thoroughly fined",
+      "section": null
+    },
+    {
+      "text": "Beat the marrow to a cream with a silver fork, stir the oil in, drop by drop, beating all the time",
+      "section": null
+    },
+    {
+      "text": "When quite cold add the citronella, pour into jars and cover down",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/ox-marrow-pomade-for-the-hair.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take the marrow out of the bone, place it in warm water, let it get almost to boiling point, then let it cool and pour the water away\n2. Repeat this three times until the marrow is thoroughly fined\n3. Beat the marrow to a cream with a silver fork, stir the oil in, drop by drop, beating all the time\n4. When quite cold add the citronella, pour into jars and cover down",
+    "originalIngredients": [
+      "One marrow bone",
+      "Half a pint of oil",
+      "Ten cents' worth of citronella"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

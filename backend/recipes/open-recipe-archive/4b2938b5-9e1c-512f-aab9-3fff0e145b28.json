@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "4b2938b5-9e1c-512f-aab9-3fff0e145b28",
+  "name": "Fine Milk Punch",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large lemons",
+      "originalText": "four large lemons",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a quart of brandy or rum",
+      "originalText": "a quart of brandy or rum",
+      "quantity": null,
+      "quantityText": "a quart of brandy or rum",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of loaf-sugar",
+      "originalText": "a pound and a half of loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmegs",
+      "originalText": "two nutmegs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "a quart of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich unskimmed milk",
+      "originalText": "a quart of rich unskimmed milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare off the yellow rind of four large lemons",
+      "section": null
+    },
+    {
+      "text": "Steep it for twenty-four hours in a quart of brandy or rum",
+      "section": null
+    },
+    {
+      "text": "Mix with it the juice of the lemons, a pound and a half of loaf-sugar, and two grated nutmegs",
+      "section": null
+    },
+    {
+      "text": "Add a quart of water",
+      "section": null
+    },
+    {
+      "text": "Add a quart of rich unskimmed milk, made boiling hot",
+      "section": null
+    },
+    {
+      "text": "Strain the whole through a jelly-bag",
+      "section": null
+    },
+    {
+      "text": "Use it as soon as it is cold, or make a larger quantity and bottle it",
+      "section": null
+    },
+    {
+      "text": "It will keep several months",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fine-milk-punch.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare off the yellow rind of four large lemons\n2. Steep it for twenty-four hours in a quart of brandy or rum\n3. Mix with it the juice of the lemons, a pound and a half of loaf-sugar, and two grated nutmegs\n4. Add a quart of water\n5. Add a quart of rich unskimmed milk, made boiling hot\n6. Strain the whole through a jelly-bag\n7. Use it as soon as it is cold, or make a larger quantity and bottle it\n8. It will keep several months",
+    "originalIngredients": [
+      "four large lemons",
+      "a quart of brandy or rum",
+      "a pound and a half of loaf-sugar",
+      "two nutmegs",
+      "a quart of water",
+      "a quart of rich unskimmed milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

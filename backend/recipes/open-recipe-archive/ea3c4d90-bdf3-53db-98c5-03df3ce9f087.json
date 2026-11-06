@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "ea3c4d90-bdf3-53db-98c5-03df3ce9f087",
+  "name": "Peach Marmalade",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the ripest soft peaches",
+      "originalText": "the ripest soft peaches",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dry light coloured brown sugar to two of peaches",
+      "originalText": "one pound of dry light coloured brown sugar to two of peaches",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take the ripest soft peaches, (the yellow ones make the prettiest marmalade,) pare them, and take out the stones",
+      "section": null
+    },
+    {
+      "text": "put them in the pan with one pound of dry light coloured brown sugar to two of peaches",
+      "section": null
+    },
+    {
+      "text": "when they are juicy, they do not require water",
+      "section": null
+    },
+    {
+      "text": "with a silver or wooden spoon, chop them with the sugar",
+      "section": null
+    },
+    {
+      "text": "continue to do this, and let them boil gently till they are a transparent pulp, that will be a jelly when cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/peach-marmalade.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take the ripest soft peaches, (the yellow ones make the prettiest marmalade,) pare them, and take out the stones\n2. put them in the pan with one pound of dry light coloured brown sugar to two of peaches\n3. when they are juicy, they do not require water\n4. with a silver or wooden spoon, chop them with the sugar\n5. continue to do this, and let them boil gently till they are a transparent pulp, that will be a jelly when cold",
+    "originalIngredients": [
+      "the ripest soft peaches",
+      "one pound of dry light coloured brown sugar to two of peaches"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

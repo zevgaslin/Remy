@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "f63bd169-b9e7-5570-815a-9f246f12453a",
+  "name": "Strawberry Water",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ripe hulled berries",
+      "originalText": "one cupful of ripe hulled berries",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of pulverized sugar",
+      "originalText": "a quarter of a pound of pulverized sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "half a pint of cold water",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of one lemon",
+      "originalText": "juice of one lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and a half pints of cold water",
+      "originalText": "one and a half pints of cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take one cupful of ripe hulled berries; crush with a wooden spoon, mixing with the mass a quarter of a pound of pulverized sugar and half a pint of cold water",
+      "section": null
+    },
+    {
+      "text": "Pour the mixture into a fine sieve, rub through and filter till clear",
+      "section": null
+    },
+    {
+      "text": "Add the strained juice of one lemon and one and a half pints of cold water, mix thoroughly and set in ice chest till wanted",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/strawberry-water.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take one cupful of ripe hulled berries; crush with a wooden spoon, mixing with the mass a quarter of a pound of pulverized sugar and half a pint of cold water\n2. Pour the mixture into a fine sieve, rub through and filter till clear\n3. Add the strained juice of one lemon and one and a half pints of cold water, mix thoroughly and set in ice chest till wanted",
+    "originalIngredients": [
+      "one cupful of ripe hulled berries",
+      "a quarter of a pound of pulverized sugar",
+      "half a pint of cold water",
+      "juice of one lemon",
+      "one and a half pints of cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

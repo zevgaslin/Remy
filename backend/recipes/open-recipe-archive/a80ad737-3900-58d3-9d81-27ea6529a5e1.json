@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "a80ad737-3900-58d3-9d81-27ea6529a5e1",
+  "name": "Macdonald Institute Recipe for Baking Powder Biscuits",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "level cups flour",
+      "originalText": "4 level cups flour",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoon salt",
+      "originalText": "1 level teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level tablespoons shortening",
+      "originalText": "2 level tablespoons shortening",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level tablespoons baking powder",
+      "originalText": "2 1/2 level tablespoons baking powder",
+      "quantity": 2.5,
+      "quantityText": "2 1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "about 1 1/2 cups milk",
+      "originalText": "about 1 1/2 cups milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Place the board, mixing knife, rolling pin, cutter, and pan ready",
+      "section": null
+    },
+    {
+      "text": "See that the oven is hot",
+      "section": null
+    },
+    {
+      "text": "Sift the salt and flour into a bowl",
+      "section": null
+    },
+    {
+      "text": "Rub the shortening into it with the fingers",
+      "section": null
+    },
+    {
+      "text": "Sift in the baking powder, and mix well",
+      "section": null
+    },
+    {
+      "text": "Mix into a soft dough with the milk, using a broad-bladed, flexible knife, in order to cut and mix it quickly",
+      "section": null
+    },
+    {
+      "text": "Flour the board lightly, turn the dough out, and roll it round to coat it with flour",
+      "section": null
+    },
+    {
+      "text": "Knead just enough to make the dough smooth",
+      "section": null
+    },
+    {
+      "text": "Roll out about an inch thick, and cut into small biscuits",
+      "section": null
+    },
+    {
+      "text": "Place them in the pan, wet the tops only with milk or water, and bake in a hot oven about 20 minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/macdonald-institute-recipe-for-baking-powder-biscuits.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Place the board, mixing knife, rolling pin, cutter, and pan ready\n2. See that the oven is hot\n3. Sift the salt and flour into a bowl\n4. Rub the shortening into it with the fingers\n5. Sift in the baking powder, and mix well\n6. Mix into a soft dough with the milk, using a broad-bladed, flexible knife, in order to cut and mix it quickly\n7. Flour the board lightly, turn the dough out, and roll it round to coat it with flour\n8. Knead just enough to make the dough smooth\n9. Roll out about an inch thick, and cut into small biscuits\n10. Place them in the pan, wet the tops only with milk or water, and bake in a hot oven about 20 minutes",
+    "originalIngredients": [
+      "4 level cups flour",
+      "1 level teaspoon salt",
+      "2 level tablespoons shortening",
+      "2 1/2 level tablespoons baking powder",
+      "about 1 1/2 cups milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

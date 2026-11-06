@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "9f91e786-8cbb-5e59-a1c7-44fc1ee24abe",
+  "name": "Lemon Pie No. 4",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large fresh lemons",
+      "originalText": "two large fresh lemons",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two cupfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "three tablespoonfuls of water",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "two tablespoonfuls of sifted flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate off the rind of two large fresh lemons, if not bitter reserve it for the filling of the pie",
+      "section": null
+    },
+    {
+      "text": "Pare off every bit of the white skin of the lemon (as it toughens while cooking)",
+      "section": null
+    },
+    {
+      "text": "Cut the lemon into very thin slices with a sharp knife and take out the seeds",
+      "section": null
+    },
+    {
+      "text": "Put into the pie a layer of lemon, then one of sugar, then one of the grated rind and, lastly, of flour, and so on till the ingredients are used",
+      "section": null
+    },
+    {
+      "text": "Sprinkle the water over all, and cover with upper crust",
+      "section": null
+    },
+    {
+      "text": "Be sure to have the under crust lap over the upper, and pinch it well, as the syrup will cook all out if care is not taken when finishing the edge of crust",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-pie-no-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate off the rind of two large fresh lemons, if not bitter reserve it for the filling of the pie\n2. Pare off every bit of the white skin of the lemon (as it toughens while cooking)\n3. Cut the lemon into very thin slices with a sharp knife and take out the seeds\n4. Put into the pie a layer of lemon, then one of sugar, then one of the grated rind and, lastly, of flour, and so on till the ingredients are used\n5. Sprinkle the water over all, and cover with upper crust\n6. Be sure to have the under crust lap over the upper, and pinch it well, as the syrup will cook all out if care is not taken when finishing the edge of crust",
+    "originalIngredients": [
+      "two large fresh lemons",
+      "two cupfuls of sugar",
+      "three tablespoonfuls of water",
+      "two tablespoonfuls of sifted flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

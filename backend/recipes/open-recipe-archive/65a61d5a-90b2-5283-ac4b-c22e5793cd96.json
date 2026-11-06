@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "65a61d5a-90b2-5283-ac4b-c22e5793cd96",
+  "name": "Virginia Creamed Oysters",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "3 or 4 oysters per nappy",
+      "originalText": "3 or 4 oysters per nappy",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oyster liquor",
+      "originalText": "1 cupful oyster liquor",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking soda",
+      "originalText": "baking soda",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white pepper",
+      "originalText": "white pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook butter and flour together until they bubble",
+      "section": null
+    },
+    {
+      "text": "Pour on them a cupful of oyster liquor and 1 of cream",
+      "section": null
+    },
+    {
+      "text": "Add a tiny pinch of baking soda to the cream",
+      "section": null
+    },
+    {
+      "text": "Stir over the fire in a double boiler until you have a thick, smooth sauce",
+      "section": null
+    },
+    {
+      "text": "Season to taste with salt and white pepper",
+      "section": null
+    },
+    {
+      "text": "Beat up hard once and pour over the oysters in the shells or the nappies",
+      "section": null
+    },
+    {
+      "text": "Set in the oven and after the shells or dishes are hot, bake for about 5 minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/virginia-creamed-oysters.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook butter and flour together until they bubble\n2. Pour on them a cupful of oyster liquor and 1 of cream\n3. Add a tiny pinch of baking soda to the cream\n4. Stir over the fire in a double boiler until you have a thick, smooth sauce\n5. Season to taste with salt and white pepper\n6. Beat up hard once and pour over the oysters in the shells or the nappies\n7. Set in the oven and after the shells or dishes are hot, bake for about 5 minutes",
+    "originalIngredients": [
+      "3 or 4 oysters per nappy",
+      "2 tablespoons butter",
+      "2 tablespoons flour",
+      "1 cupful oyster liquor",
+      "1 cup cream",
+      "baking soda",
+      "salt",
+      "white pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

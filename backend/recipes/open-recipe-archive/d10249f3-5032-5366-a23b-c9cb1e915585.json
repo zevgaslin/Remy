@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "d10249f3-5032-5366-a23b-c9cb1e915585",
+  "name": "Bell Fritters",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "one pint of water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one pint of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "five or six eggs",
+      "originalText": "five or six eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "one pint of lard",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a piece of butter the size of an egg into a pint of water",
+      "section": null
+    },
+    {
+      "text": "let it boil a few minutes",
+      "section": null
+    },
+    {
+      "text": "thicken it very smoothly with a pint of flour",
+      "section": null
+    },
+    {
+      "text": "let it remain a short time on the fire, stir it all the time that it may not stick to the pan",
+      "section": null
+    },
+    {
+      "text": "pour it in a wooden bowl",
+      "section": null
+    },
+    {
+      "text": "add five or six eggs, breaking one and beating it in--then another, and so on till they are all in, and the dough quite light",
+      "section": null
+    },
+    {
+      "text": "put a pint of lard in a pan, let it boil",
+      "section": null
+    },
+    {
+      "text": "make the fritters small, and fry them of a fine amber colour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bell-fritters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a piece of butter the size of an egg into a pint of water\n2. let it boil a few minutes\n3. thicken it very smoothly with a pint of flour\n4. let it remain a short time on the fire, stir it all the time that it may not stick to the pan\n5. pour it in a wooden bowl\n6. add five or six eggs, breaking one and beating it in--then another, and so on till they are all in, and the dough quite light\n7. put a pint of lard in a pan, let it boil\n8. make the fritters small, and fry them of a fine amber colour",
+    "originalIngredients": [
+      "butter",
+      "one pint of water",
+      "one pint of flour",
+      "five or six eggs",
+      "one pint of lard"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

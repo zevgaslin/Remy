@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "cebd0800-7cdf-500d-92be-00300b14ce5f",
+  "name": "Chocolate Blanc-Mange",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cooper's gelatine, soaked in a cup of the milk one hour",
+      "originalText": "1 oz. Cooper's gelatine, soaked in a cup of the milk one hour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonfuls of grated chocolate, rubbed up with a little milk",
+      "originalText": "4 heaping tablespoonfuls of grated chocolate, rubbed up with a little milk",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, whites and yolks beaten separately",
+      "originalText": "3 eggs, whites and yolks beaten separately",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup sugar",
+      "originalText": "¾ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "2 teaspoonfuls of vanilla",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the milk to boiling; pour in the gelatine and milk, and stir until it is dissolved",
+      "section": null
+    },
+    {
+      "text": "Add the sugar to the beaten yolks and stir until smooth",
+      "section": null
+    },
+    {
+      "text": "Beat the chocolate into this, and pour in, spoonful by spoonful, the scalding milk upon the mixture, stirring all the while until all is in",
+      "section": null
+    },
+    {
+      "text": "Return to the inner saucepan and heat gently, stirring faithfully until it almost boils",
+      "section": null
+    },
+    {
+      "text": "Remove from fire, turn into a bowl, and whip in lightly and briskly the beaten whites with the vanilla",
+      "section": null
+    },
+    {
+      "text": "Set to form in moulds wet with cold water",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chocolate-blanc-mange.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the milk to boiling; pour in the gelatine and milk, and stir until it is dissolved\n2. Add the sugar to the beaten yolks and stir until smooth\n3. Beat the chocolate into this, and pour in, spoonful by spoonful, the scalding milk upon the mixture, stirring all the while until all is in\n4. Return to the inner saucepan and heat gently, stirring faithfully until it almost boils\n5. Remove from fire, turn into a bowl, and whip in lightly and briskly the beaten whites with the vanilla\n6. Set to form in moulds wet with cold water",
+    "originalIngredients": [
+      "1 quart of milk",
+      "1 oz. Cooper's gelatine, soaked in a cup of the milk one hour",
+      "4 heaping tablespoonfuls of grated chocolate, rubbed up with a little milk",
+      "3 eggs, whites and yolks beaten separately",
+      "¾ cup sugar",
+      "2 teaspoonfuls of vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

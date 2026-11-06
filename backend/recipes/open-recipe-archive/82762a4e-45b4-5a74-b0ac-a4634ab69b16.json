@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "82762a4e-45b4-5a74-b0ac-a4634ab69b16",
+  "name": "Favorite Pie",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "stewed apples",
+      "originalText": "6 stewed apples",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten yolks of 4 eggs",
+      "originalText": "beaten yolks of 4 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of one lemon",
+      "originalText": "juice of one lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mash 6 stewed apples and while hot stir in a tablespoon butter",
+      "section": null
+    },
+    {
+      "text": "When cool add the beaten yolks of 4 eggs, 1 cup sugar, 1 cup cream and juice of one lemon",
+      "section": null
+    },
+    {
+      "text": "Line pie tins with good crust and fill with above mixture",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven and spread the beaten whites of the eggs sweetened a little over top",
+      "section": null
+    },
+    {
+      "text": "Place in oven and brown lightly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/favorite-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mash 6 stewed apples and while hot stir in a tablespoon butter\n2. When cool add the beaten yolks of 4 eggs, 1 cup sugar, 1 cup cream and juice of one lemon\n3. Line pie tins with good crust and fill with above mixture\n4. Bake in a quick oven and spread the beaten whites of the eggs sweetened a little over top\n5. Place in oven and brown lightly",
+    "originalIngredients": [
+      "6 stewed apples",
+      "1 tablespoon butter",
+      "beaten yolks of 4 eggs",
+      "1 cup sugar",
+      "1 cup cream",
+      "juice of one lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

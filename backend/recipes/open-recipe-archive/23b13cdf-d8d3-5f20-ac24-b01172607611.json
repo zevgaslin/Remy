@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "23b13cdf-d8d3-5f20-ac24-b01172607611",
+  "name": "Cream of Oysters",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oysters in their own liquor",
+      "originalText": "One quart of oysters in their own liquor",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonful of flour",
+      "originalText": "One heaping tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper, salt and paprica to taste",
+      "originalText": "Pepper, salt and paprica to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half pint of whipped cream",
+      "originalText": "One half pint of whipped cream",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald a quart of oysters in their own liquor",
+      "section": null
+    },
+    {
+      "text": "Remove the oysters; chop and pound them in a mortar, then press as much of them as possible through a puree sieve",
+      "section": null
+    },
+    {
+      "text": "Make a roux of one tablespoonful of butter and a heaping tablespoonful of flour",
+      "section": null
+    },
+    {
+      "text": "Dilute it with the oyster juice",
+      "section": null
+    },
+    {
+      "text": "Add the oyster pulp; season it with pepper, salt and paprica, and keep it hot until ready to serve",
+      "section": null
+    },
+    {
+      "text": "Just before serving add a half pint of whipped cream, and beat it well into the soup",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cream-of-oysters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald a quart of oysters in their own liquor\n2. Remove the oysters; chop and pound them in a mortar, then press as much of them as possible through a puree sieve\n3. Make a roux of one tablespoonful of butter and a heaping tablespoonful of flour\n4. Dilute it with the oyster juice\n5. Add the oyster pulp; season it with pepper, salt and paprica, and keep it hot until ready to serve\n6. Just before serving add a half pint of whipped cream, and beat it well into the soup",
+    "originalIngredients": [
+      "One quart of oysters in their own liquor",
+      "One tablespoonful of butter",
+      "One heaping tablespoonful of flour",
+      "Pepper, salt and paprica to taste",
+      "One half pint of whipped cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "631fd96a-fb23-5ffd-8195-9940265dc1db",
+  "name": "Banana Cake 2",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "3/4 cup sweet milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 cups flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1/4 cup granulated sugar",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1 cup sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "banana flavoring",
+      "originalText": "1 teaspoon banana flavoring",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced banana",
+      "originalText": "sliced banana",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix 1 egg, 1 cup granulated sugar, 1 tablespoon butter, 3/4 cup sweet milk, 2 cups flour, and 2 teaspoons baking powder",
+      "section": null
+    },
+    {
+      "text": "Bake in 3 layers",
+      "section": null
+    },
+    {
+      "text": "For filling: Mix 1/4 cup granulated sugar, 1 tablespoon flour, yolk of 1 egg, 1 cup sweet milk, and 1 teaspoon banana flavoring",
+      "section": null
+    },
+    {
+      "text": "Cook filling till thick, put between layers of cake",
+      "section": null
+    },
+    {
+      "text": "Beat the white of the egg and add sugar enough to make icing",
+      "section": null
+    },
+    {
+      "text": "Cover the cake with the icing and slice banana over the top",
+      "section": null
+    },
+    {
+      "text": "Best while fresh",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/banana-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix 1 egg, 1 cup granulated sugar, 1 tablespoon butter, 3/4 cup sweet milk, 2 cups flour, and 2 teaspoons baking powder\n2. Bake in 3 layers\n3. For filling: Mix 1/4 cup granulated sugar, 1 tablespoon flour, yolk of 1 egg, 1 cup sweet milk, and 1 teaspoon banana flavoring\n4. Cook filling till thick, put between layers of cake\n5. Beat the white of the egg and add sugar enough to make icing\n6. Cover the cake with the icing and slice banana over the top\n7. Best while fresh",
+    "originalIngredients": [
+      "1 egg",
+      "1 cup granulated sugar",
+      "1 tablespoon butter",
+      "3/4 cup sweet milk",
+      "2 cups flour",
+      "2 teaspoons baking powder",
+      "1/4 cup granulated sugar",
+      "1 tablespoon flour",
+      "1 cup sweet milk",
+      "1 teaspoon banana flavoring",
+      "sliced banana"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

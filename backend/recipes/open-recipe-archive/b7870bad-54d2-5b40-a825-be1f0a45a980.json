@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "b7870bad-54d2-5b40-a825-be1f0a45a980",
+  "name": "Kidney Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "kidneys",
+      "originalText": "kidneys",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 oz. butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 oz. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ground rice",
+      "originalText": "1 oz. ground rice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "3 qts. cold water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcester sauce",
+      "originalText": "1 tablespoonful Worcester sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mushroom sauce",
+      "originalText": "1 tablespoonful mushroom sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the kidneys in thin slices, sprinkle with the ounce of flour",
+      "section": null
+    },
+    {
+      "text": "Melt the butter, put in the kidney and brown",
+      "section": null
+    },
+    {
+      "text": "Pour in the water, stir till it boils, skim carefully and allow to simmer slowly for three hours",
+      "section": null
+    },
+    {
+      "text": "Put the one-half ounce of rice in a bowl with the sauces",
+      "section": null
+    },
+    {
+      "text": "When mixed pour into the soup",
+      "section": null
+    },
+    {
+      "text": "Stir well till it boils, then cook slowly for ten minutes and serve without the meat",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/kidney-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the kidneys in thin slices, sprinkle with the ounce of flour\n2. Melt the butter, put in the kidney and brown\n3. Pour in the water, stir till it boils, skim carefully and allow to simmer slowly for three hours\n4. Put the one-half ounce of rice in a bowl with the sauces\n5. When mixed pour into the soup\n6. Stir well till it boils, then cook slowly for ten minutes and serve without the meat",
+    "originalIngredients": [
+      "kidneys",
+      "1 oz. butter",
+      "1 oz. flour",
+      "1 oz. ground rice",
+      "pepper",
+      "salt",
+      "3 qts. cold water",
+      "1 tablespoonful Worcester sauce",
+      "1 tablespoonful mushroom sauce"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

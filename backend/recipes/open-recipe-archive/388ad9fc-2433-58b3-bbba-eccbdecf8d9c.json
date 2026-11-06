@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "388ad9fc-2433-58b3-bbba-eccbdecf8d9c",
+  "name": "Salad Dressing for Lettuce or Cabbage",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "vinegar",
+      "originalText": "1/2 cup vinegar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "3/4 cup cold water",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 cup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 teaspoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1 teaspoon mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black pepper",
+      "originalText": "3/4 teaspoon black pepper",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little cold vinegar",
+      "originalText": "a little cold vinegar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put on the stove in a granite pan just to simmer 1/2 cup vinegar, 3/4 cup cold water, 1 cup white sugar, and 1 teaspoon butter",
+      "section": null
+    },
+    {
+      "text": "Beat up 2 eggs; take in another dish, 1 teaspoon mustard, 1/2 teaspoon salt, 3/4 teaspoon black pepper, mix with a little cold vinegar, add this to the eggs and stir into the pan",
+      "section": null
+    },
+    {
+      "text": "Stand over it and stir till it boils up, then let get cold and pour over your cabbage, having it chopped up fine",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salad-dressing-for-lettuce-or-cabbage.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put on the stove in a granite pan just to simmer 1/2 cup vinegar, 3/4 cup cold water, 1 cup white sugar, and 1 teaspoon butter\n2. Beat up 2 eggs; take in another dish, 1 teaspoon mustard, 1/2 teaspoon salt, 3/4 teaspoon black pepper, mix with a little cold vinegar, add this to the eggs and stir into the pan\n3. Stand over it and stir till it boils up, then let get cold and pour over your cabbage, having it chopped up fine",
+    "originalIngredients": [
+      "1/2 cup vinegar",
+      "3/4 cup cold water",
+      "1 cup white sugar",
+      "1 teaspoon butter",
+      "2 eggs",
+      "1 teaspoon mustard",
+      "1/2 teaspoon salt",
+      "3/4 teaspoon black pepper",
+      "a little cold vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

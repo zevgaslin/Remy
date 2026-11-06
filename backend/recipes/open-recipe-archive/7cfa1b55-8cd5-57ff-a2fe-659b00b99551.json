@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "7cfa1b55-8cd5-57ff-a2fe-659b00b99551",
+  "name": "Toad in the Hole",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "3/4 pound beef, mutton or sausage",
+      "originalText": "3/4 pound beef, mutton or sausage",
+      "quantity": null,
+      "quantityText": "3/4 pound beef, mutton or sausage",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1/4 pound flour",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1/2 pint milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "If beef or mutton is used, cut it into pieces about an inch square",
+      "section": null
+    },
+    {
+      "text": "If sausage is used, prick them and boil them 2 or 3 minutes and then remove the skin",
+      "section": null
+    },
+    {
+      "text": "Grease a pie dish",
+      "section": null
+    },
+    {
+      "text": "Put the meat or sausage at the bottom",
+      "section": null
+    },
+    {
+      "text": "Sprinkle seasoning over it",
+      "section": null
+    },
+    {
+      "text": "Make the batter as for pancakes",
+      "section": null
+    },
+    {
+      "text": "Pour it over the meat",
+      "section": null
+    },
+    {
+      "text": "Bake in hot oven for 3/4 hour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/toad-in-the-hole-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. If beef or mutton is used, cut it into pieces about an inch square\n2. If sausage is used, prick them and boil them 2 or 3 minutes and then remove the skin\n3. Grease a pie dish\n4. Put the meat or sausage at the bottom\n5. Sprinkle seasoning over it\n6. Make the batter as for pancakes\n7. Pour it over the meat\n8. Bake in hot oven for 3/4 hour",
+    "originalIngredients": [
+      "3/4 pound beef, mutton or sausage",
+      "pepper",
+      "salt",
+      "butter",
+      "1 egg",
+      "1/4 pound flour",
+      "1/2 pint milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

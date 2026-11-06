@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "afd085f1-c753-54ee-9b64-9550c8d54f99",
+  "name": "Boiled Cocoa-Nut Custard",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "grated cocoa-nut",
+      "originalText": "a pound of grated cocoa-nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "unskimmed milk",
+      "originalText": "a pint of unskimmed milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "six ounces of white sugar",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of six eggs",
+      "originalText": "yolks of six eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of egg",
+      "originalText": "white of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "To a pound of grated cocoa-nut allow a pint of unskimmed milk, and six ounces of white sugar",
+      "section": null
+    },
+    {
+      "text": "Beat very light the yolks of six eggs",
+      "section": null
+    },
+    {
+      "text": "Stir them gradually into the milk, alternately with the cocoa-nut and sugar",
+      "section": null
+    },
+    {
+      "text": "Put the mixture into a pitcher; set it in a vessel of boiling water; place it on hot coals, and simmer it till it is very smooth and thick; stirring it all the time",
+      "section": null
+    },
+    {
+      "text": "As soon as it comes to a hard boil, take it off the fire; pour it into a large bowl, and set it out to cool",
+      "section": null
+    },
+    {
+      "text": "When cold, put it into glass cups",
+      "section": null
+    },
+    {
+      "text": "Beat to a stiff froth the white of egg that was left, and pile it on the custards",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-cocoa-nut-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. To a pound of grated cocoa-nut allow a pint of unskimmed milk, and six ounces of white sugar\n2. Beat very light the yolks of six eggs\n3. Stir them gradually into the milk, alternately with the cocoa-nut and sugar\n4. Put the mixture into a pitcher; set it in a vessel of boiling water; place it on hot coals, and simmer it till it is very smooth and thick; stirring it all the time\n5. As soon as it comes to a hard boil, take it off the fire; pour it into a large bowl, and set it out to cool\n6. When cold, put it into glass cups\n7. Beat to a stiff froth the white of egg that was left, and pile it on the custards",
+    "originalIngredients": [
+      "a pound of grated cocoa-nut",
+      "a pint of unskimmed milk",
+      "six ounces of white sugar",
+      "yolks of six eggs",
+      "white of egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

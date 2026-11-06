@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "0d9c43eb-1e3f-5d5e-a222-323e41743716",
+  "name": "Chopped Pears",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sickle pears",
+      "originalText": "8 lbs. sickle pears",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "8 lbs. sugar",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "candied ginger",
+      "originalText": "1/4 lb. candied ginger",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemons",
+      "originalText": "4 lemons",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chip or slice the pears, slice the ginger root and let them boil together with the sugar for one hour, slowly.",
+      "section": null
+    },
+    {
+      "text": "Boil the lemons whole in clear water until tender, then cut up in small bits, removing the seeds.",
+      "section": null
+    },
+    {
+      "text": "Add to the pears and boil an hour longer.",
+      "section": null
+    },
+    {
+      "text": "Put in glasses.",
+      "section": null
+    },
+    {
+      "text": "Use candied or crystallized ginger in preference to the green root.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chopped-pears.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chip or slice the pears, slice the ginger root and let them boil together with the sugar for one hour, slowly.\n2. Boil the lemons whole in clear water until tender, then cut up in small bits, removing the seeds.\n3. Add to the pears and boil an hour longer.\n4. Put in glasses.\n5. Use candied or crystallized ginger in preference to the green root.",
+    "originalIngredients": [
+      "8 lbs. sickle pears",
+      "8 lbs. sugar",
+      "1/4 lb. candied ginger",
+      "4 lemons"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

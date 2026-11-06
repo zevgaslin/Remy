@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "aa38eeba-69b5-5673-acf2-60cee438a0dd",
+  "name": "Galantine of Veal",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "breast of veal",
+      "originalText": "5 lbs. breast of veal",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt, pepper and nutmeg",
+      "originalText": "Salt, pepper and nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sausage meat",
+      "originalText": "1 lb. sausage meat",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few walnuts",
+      "originalText": "A few walnuts",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "A little cooked ham or tongue",
+      "originalText": "A little cooked ham or tongue",
+      "quantity": null,
+      "quantityText": "A little cooked ham or tongue",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated breadcrumbs",
+      "originalText": "1 lb. grated breadcrumbs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bones taken from the veal",
+      "originalText": "Bones taken from the veal",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gelatine",
+      "originalText": "1/2 oz. gelatine",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stock",
+      "originalText": "1 cup stock",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "drop of carmine",
+      "originalText": "A drop of carmine",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix with the sausage meat the breadcrumbs, nutmeg, salt, and pepper",
+      "section": null
+    },
+    {
+      "text": "Put half in the veal, then some ham cut in long strips, then walnuts, then more sausage meat, then ham and walnuts",
+      "section": null
+    },
+    {
+      "text": "Tuck the veal over it and sew up",
+      "section": null
+    },
+    {
+      "text": "Tie up in a cloth very firmly at ends and stitch cloth at top",
+      "section": null
+    },
+    {
+      "text": "Put into boiling water and boil for two and a half hours",
+      "section": null
+    },
+    {
+      "text": "After it is boiled put between two boards to press",
+      "section": null
+    },
+    {
+      "text": "Brush the veal over with glaze made from half ounce gelatine, one cup of stock, and a drop of carmine two or three times",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/galantine-of-veal.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix with the sausage meat the breadcrumbs, nutmeg, salt, and pepper\n2. Put half in the veal, then some ham cut in long strips, then walnuts, then more sausage meat, then ham and walnuts\n3. Tuck the veal over it and sew up\n4. Tie up in a cloth very firmly at ends and stitch cloth at top\n5. Put into boiling water and boil for two and a half hours\n6. After it is boiled put between two boards to press\n7. Brush the veal over with glaze made from half ounce gelatine, one cup of stock, and a drop of carmine two or three times",
+    "originalIngredients": [
+      "5 lbs. breast of veal",
+      "Salt, pepper and nutmeg",
+      "1 lb. sausage meat",
+      "A few walnuts",
+      "A little cooked ham or tongue",
+      "1 lb. grated breadcrumbs",
+      "Bones taken from the veal",
+      "1/2 oz. gelatine",
+      "1 cup stock",
+      "A drop of carmine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

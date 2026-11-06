@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "32c74c52-1a5b-5438-882e-f4ce6b8586c4",
+  "name": "Glace Nuts",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "granulated sugar",
+      "originalText": "2 cups granulated sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 cup boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white wine vinegar",
+      "originalText": "3/4 cup white wine vinegar",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nuts",
+      "originalText": "nuts",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil sugar and water without stirring until thick",
+      "section": null
+    },
+    {
+      "text": "Add vinegar until, when dropped in cold water, it cracks",
+      "section": null
+    },
+    {
+      "text": "Set the saucepan on warm place, but not where it can boil",
+      "section": null
+    },
+    {
+      "text": "Stick nuts on ends of hat pins and, taking 2 at a time, dip into the taffy",
+      "section": null
+    },
+    {
+      "text": "Hold in cool place until hard enough to handle them, then drop on tin plate",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/glace-nuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil sugar and water without stirring until thick\n2. Add vinegar until, when dropped in cold water, it cracks\n3. Set the saucepan on warm place, but not where it can boil\n4. Stick nuts on ends of hat pins and, taking 2 at a time, dip into the taffy\n5. Hold in cool place until hard enough to handle them, then drop on tin plate",
+    "originalIngredients": [
+      "2 cups granulated sugar",
+      "1 cup boiling water",
+      "3/4 cup white wine vinegar",
+      "nuts"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

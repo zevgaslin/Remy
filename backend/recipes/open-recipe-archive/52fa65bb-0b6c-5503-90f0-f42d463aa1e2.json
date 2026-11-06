@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "52fa65bb-0b6c-5503-90f0-f42d463aa1e2",
+  "name": "West India Cocoa-Nut Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large ripe cocoa-nut",
+      "originalText": "a large ripe cocoa-nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cocoa-nut",
+      "originalText": "a pound of grated cocoa-nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sixteen eggs (omitting the whites of four)",
+      "originalText": "sixteen eggs (omitting the whites of four)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "a pound of powdered loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose-water",
+      "originalText": "a wine glass of rose-water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff-paste",
+      "originalText": "puff-paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up and skin a large ripe cocoa-nut and grate it fine",
+      "section": null
+    },
+    {
+      "text": "Put the grated cocoa-nut into a clean cloth and squeeze and press it till all the moisture is taken out",
+      "section": null
+    },
+    {
+      "text": "Spread it on a broad tin pan and stand it up to dry, either in the sun or before the fire, stirring it up occasionally with your hands",
+      "section": null
+    },
+    {
+      "text": "When quite dry weigh a pound of it",
+      "section": null
+    },
+    {
+      "text": "Beat very light sixteen eggs omitting the whites of four and then beat into them, gradually, a pound of powdered loaf-sugar and a wine glass of rose-water",
+      "section": null
+    },
+    {
+      "text": "Give the whole a hard stirring",
+      "section": null
+    },
+    {
+      "text": "Put the mixture into deep dishes and lay puff-paste round their edges handsomely notched",
+      "section": null
+    },
+    {
+      "text": "Bake them about half an hour",
+      "section": null
+    },
+    {
+      "text": "Send them to table cold with white sugar grated over the top",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/west-india-cocoa-nut-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up and skin a large ripe cocoa-nut and grate it fine\n2. Put the grated cocoa-nut into a clean cloth and squeeze and press it till all the moisture is taken out\n3. Spread it on a broad tin pan and stand it up to dry, either in the sun or before the fire, stirring it up occasionally with your hands\n4. When quite dry weigh a pound of it\n5. Beat very light sixteen eggs omitting the whites of four and then beat into them, gradually, a pound of powdered loaf-sugar and a wine glass of rose-water\n6. Give the whole a hard stirring\n7. Put the mixture into deep dishes and lay puff-paste round their edges handsomely notched\n8. Bake them about half an hour\n9. Send them to table cold with white sugar grated over the top",
+    "originalIngredients": [
+      "a large ripe cocoa-nut",
+      "a pound of grated cocoa-nut",
+      "sixteen eggs (omitting the whites of four)",
+      "a pound of powdered loaf-sugar",
+      "a wine glass of rose-water",
+      "puff-paste",
+      "white sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

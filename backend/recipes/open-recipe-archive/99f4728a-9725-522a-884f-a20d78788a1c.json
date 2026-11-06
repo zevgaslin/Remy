@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "99f4728a-9725-522a-884f-a20d78788a1c",
+  "name": "German Doughnuts",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "One pint of milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tablespoonful of melted butter",
+      "originalText": "one small tablespoonful of melted butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flavoring",
+      "originalText": "flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt to taste",
+      "originalText": "salt to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one pint of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "First boil the milk and pour it, while hot, over a pint of flour",
+      "section": null
+    },
+    {
+      "text": "Beat it very smooth and when it is cool have ready the yolks of the eggs well beaten",
+      "section": null
+    },
+    {
+      "text": "Add them to the milk and flour, beaten well into it",
+      "section": null
+    },
+    {
+      "text": "Then add the well-beaten whites",
+      "section": null
+    },
+    {
+      "text": "Then, lastly, add the salt and as much more flour as will make the whole into a soft dough",
+      "section": null
+    },
+    {
+      "text": "Flour your board, turn your dough upon it",
+      "section": null
+    },
+    {
+      "text": "Roll it in pieces as thick as your finger and turn them in the form of a ring",
+      "section": null
+    },
+    {
+      "text": "Cook in plenty of boiling lard",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/german-doughnuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. First boil the milk and pour it, while hot, over a pint of flour\n2. Beat it very smooth and when it is cool have ready the yolks of the eggs well beaten\n3. Add them to the milk and flour, beaten well into it\n4. Then add the well-beaten whites\n5. Then, lastly, add the salt and as much more flour as will make the whole into a soft dough\n6. Flour your board, turn your dough upon it\n7. Roll it in pieces as thick as your finger and turn them in the form of a ring\n8. Cook in plenty of boiling lard",
+    "originalIngredients": [
+      "One pint of milk",
+      "four eggs",
+      "one small tablespoonful of melted butter",
+      "flavoring",
+      "salt to taste",
+      "one pint of flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

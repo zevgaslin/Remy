@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "af5298fe-5ddb-5553-9a1c-c6049b879511",
+  "name": "Chicken Mousse",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "breast of a raw chicken pounded and forced through a purée strainer",
+      "originalText": "1/2 breast of a raw chicken pounded and forced through a purée strainer",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of 1 egg slightly beaten",
+      "originalText": "white of 1 egg slightly beaten",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heavy cream",
+      "originalText": "1/2 cup heavy cream",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt, pepper, and cayenne to taste",
+      "originalText": "salt, pepper, and cayenne to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cooked white chicken meat rubbed through a sieve",
+      "originalText": "3/4 cup cooked white chicken meat rubbed through a sieve",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of 1 egg slightly beaten",
+      "originalText": "white of 1 egg slightly beaten",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heavy cream beaten until stiff",
+      "originalText": "1/2 cup heavy cream beaten until stiff",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "truffles",
+      "originalText": "truffles",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a chicken force-meat of pounded raw chicken breast forced through a purée strainer, white of one egg slightly beaten, one-half cup heavy cream, and salt, pepper, and cayenne to taste",
+      "section": null
+    },
+    {
+      "text": "Add cooked white chicken meat rubbed through a sieve, white of an egg slightly beaten, and one-half cup heavy cream beaten until stiff",
+      "section": null
+    },
+    {
+      "text": "Decorate a buttered mould with truffles",
+      "section": null
+    },
+    {
+      "text": "Turn in mixture, set in pan of hot water, cover with buttered paper, and bake until firm",
+      "section": null
+    },
+    {
+      "text": "Remove to platter and pour around Cream or Béchamel Sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chicken-mousse.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a chicken force-meat of pounded raw chicken breast forced through a purée strainer, white of one egg slightly beaten, one-half cup heavy cream, and salt, pepper, and cayenne to taste\n2. Add cooked white chicken meat rubbed through a sieve, white of an egg slightly beaten, and one-half cup heavy cream beaten until stiff\n3. Decorate a buttered mould with truffles\n4. Turn in mixture, set in pan of hot water, cover with buttered paper, and bake until firm\n5. Remove to platter and pour around Cream or Béchamel Sauce",
+    "originalIngredients": [
+      "1/2 breast of a raw chicken pounded and forced through a purée strainer",
+      "white of 1 egg slightly beaten",
+      "1/2 cup heavy cream",
+      "salt, pepper, and cayenne to taste",
+      "3/4 cup cooked white chicken meat rubbed through a sieve",
+      "white of 1 egg slightly beaten",
+      "1/2 cup heavy cream beaten until stiff",
+      "truffles"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

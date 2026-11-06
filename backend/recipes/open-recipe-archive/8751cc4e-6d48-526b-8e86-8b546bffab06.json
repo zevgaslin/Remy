@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "8751cc4e-6d48-526b-8e86-8b546bffab06",
+  "name": "Indian Mush Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cold water",
+      "originalText": "three pints of cold water",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted Indian meal",
+      "originalText": "a quart of sifted Indian meal",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wheat flour",
+      "originalText": "half a pint of wheat flour",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of salt",
+      "originalText": "a small tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "molasses",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pour into a pan three pints of cold water, and stir gradually into it a quart of sifted Indian meal which has been mixed with half a pint of wheat flour, and a small tea-spoonful of salt.",
+      "section": null
+    },
+    {
+      "text": "Give it a hard stirring at the last.",
+      "section": null
+    },
+    {
+      "text": "Have ready a hot griddle, and bake the batter immediately, in cakes about the size of a saucer.",
+      "section": null
+    },
+    {
+      "text": "Send them to table piled evenly, but not cut.",
+      "section": null
+    },
+    {
+      "text": "Eat them with butter or molasses.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/indian-mush-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pour into a pan three pints of cold water, and stir gradually into it a quart of sifted Indian meal which has been mixed with half a pint of wheat flour, and a small tea-spoonful of salt.\n2. Give it a hard stirring at the last.\n3. Have ready a hot griddle, and bake the batter immediately, in cakes about the size of a saucer.\n4. Send them to table piled evenly, but not cut.\n5. Eat them with butter or molasses.",
+    "originalIngredients": [
+      "three pints of cold water",
+      "a quart of sifted Indian meal",
+      "half a pint of wheat flour",
+      "a small tea-spoonful of salt",
+      "butter",
+      "molasses"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

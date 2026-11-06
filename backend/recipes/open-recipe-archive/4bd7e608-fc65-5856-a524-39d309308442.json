@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "4bd7e608-fc65-5856-a524-39d309308442",
+  "name": "Mayonnaise of Fish",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fish, cooked",
+      "originalText": "One pound of fish, cooked",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hard-boiled eggs",
+      "originalText": "Three hard-boiled eggs",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "best oil",
+      "originalText": "Two tablespoonfuls of best oil",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "Six tablespoonfuls of vinegar",
+      "quantity": 6.0,
+      "quantityText": "Six",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "Two teaspoonfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "One teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half teaspoonful mustard",
+      "originalText": "One-half teaspoonful mustard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "One teaspoonful pepper",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heads blanched lettuce",
+      "originalText": "Two heads blanched lettuce",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub the yolks of the eggs smooth with the oil, add the sugar, salt, mustard and pepper, and when these are well mixed, the vinegar, a few drops at a time",
+      "section": null
+    },
+    {
+      "text": "Set it by, covered, while you cut the fish into strips about an inch long, and shred the lettuce",
+      "section": null
+    },
+    {
+      "text": "Mix these in a salad bowl, pour over the dressing and garnish with rings of the whites of the eggs",
+      "section": null
+    },
+    {
+      "text": "Serve as soon as it is ready or the lettuce will become limp",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/mayonnaise-of-fish.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub the yolks of the eggs smooth with the oil, add the sugar, salt, mustard and pepper, and when these are well mixed, the vinegar, a few drops at a time\n2. Set it by, covered, while you cut the fish into strips about an inch long, and shred the lettuce\n3. Mix these in a salad bowl, pour over the dressing and garnish with rings of the whites of the eggs\n4. Serve as soon as it is ready or the lettuce will become limp",
+    "originalIngredients": [
+      "One pound of fish, cooked",
+      "Three hard-boiled eggs",
+      "Two tablespoonfuls of best oil",
+      "Six tablespoonfuls of vinegar",
+      "Two teaspoonfuls of sugar",
+      "One teaspoonful of salt",
+      "One-half teaspoonful mustard",
+      "One teaspoonful pepper",
+      "Two heads blanched lettuce"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

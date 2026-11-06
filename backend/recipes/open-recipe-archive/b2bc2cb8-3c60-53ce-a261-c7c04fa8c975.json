@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "b2bc2cb8-3c60-53ce-a261-c7c04fa8c975",
+  "name": "Spruce Beer",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "handful of hops",
+      "originalText": "handful of hops",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "twice as much chippings of sassafras root",
+      "originalText": "twice as much chippings of sassafras root",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallons water",
+      "originalText": "10 gallons water",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon molasses",
+      "originalText": "1 gallon molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonsful essence of spruce",
+      "originalText": "2 spoonsful essence of spruce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonsful powdered ginger",
+      "originalText": "2 spoonsful powdered ginger",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonful pounded allspice",
+      "originalText": "1 spoonful pounded allspice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good yeast",
+      "originalText": "half a pint good yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil a handful of hops, and twice as much of the chippings of sassafras root, in ten gallons of water",
+      "section": null
+    },
+    {
+      "text": "Strain it, and pour in, while hot, one gallon of molasses, two spoonsful of the essence of spruce, two spoonsful of powdered ginger, and one of pounded allspice",
+      "section": null
+    },
+    {
+      "text": "Put it in a cask",
+      "section": null
+    },
+    {
+      "text": "When sufficiently cold, add half a pint of good yeast",
+      "section": null
+    },
+    {
+      "text": "Stir it well, stop it close, and when fermented and clear, bottle and cork it tight",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/spruce-beer.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil a handful of hops, and twice as much of the chippings of sassafras root, in ten gallons of water\n2. Strain it, and pour in, while hot, one gallon of molasses, two spoonsful of the essence of spruce, two spoonsful of powdered ginger, and one of pounded allspice\n3. Put it in a cask\n4. When sufficiently cold, add half a pint of good yeast\n5. Stir it well, stop it close, and when fermented and clear, bottle and cork it tight",
+    "originalIngredients": [
+      "handful of hops",
+      "twice as much chippings of sassafras root",
+      "10 gallons water",
+      "1 gallon molasses",
+      "2 spoonsful essence of spruce",
+      "2 spoonsful powdered ginger",
+      "1 spoonful pounded allspice",
+      "half a pint good yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

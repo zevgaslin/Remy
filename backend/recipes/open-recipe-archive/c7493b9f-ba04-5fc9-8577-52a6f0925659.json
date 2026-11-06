@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "c7493b9f-ba04-5fc9-8577-52a6f0925659",
+  "name": "Cold Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Well-beaten yolks of 3 eggs",
+      "originalText": "Well-beaten yolks of 3 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 cup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "1 tablespoonful cornstarch",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 cup cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice and rind of 2 lemons",
+      "originalText": "Juice and rind of 2 lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thin stale cake",
+      "originalText": "thin stale cake",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs (the whites)",
+      "originalText": "three eggs (the whites)",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil together until thick the yolks of 3 eggs, 1 cup white sugar, 1 tablespoonful cornstarch, 1 cup cold water, and juice and rind of 2 lemons",
+      "section": null
+    },
+    {
+      "text": "Stir well and pour while hot into a pudding dish, lined first with thin stale cake",
+      "section": null
+    },
+    {
+      "text": "When cooked cover the top with three eggs (the whites) well whisked",
+      "section": null
+    },
+    {
+      "text": "Brown in the oven",
+      "section": null
+    },
+    {
+      "text": "Serve cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cold-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil together until thick the yolks of 3 eggs, 1 cup white sugar, 1 tablespoonful cornstarch, 1 cup cold water, and juice and rind of 2 lemons\n2. Stir well and pour while hot into a pudding dish, lined first with thin stale cake\n3. When cooked cover the top with three eggs (the whites) well whisked\n4. Brown in the oven\n5. Serve cold",
+    "originalIngredients": [
+      "Well-beaten yolks of 3 eggs",
+      "1 cup white sugar",
+      "1 tablespoonful cornstarch",
+      "1 cup cold water",
+      "Juice and rind of 2 lemons",
+      "thin stale cake",
+      "three eggs (the whites)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

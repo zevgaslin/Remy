@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "6ec3a70b-02cd-5523-b9be-8dd72f03a797",
+  "name": "Mulled Cider",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "6 eggs",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cider",
+      "originalText": "1 quart of cider",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of whole cloves",
+      "originalText": "1 handful of whole cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Allow six eggs to a quart of cider",
+      "section": null
+    },
+    {
+      "text": "Put a handful of whole cloves into the cider, and boil it",
+      "section": null
+    },
+    {
+      "text": "While it is boiling, beat the eggs in a large pitcher",
+      "section": null
+    },
+    {
+      "text": "Add to them as much sugar as will make the cider very sweet",
+      "section": null
+    },
+    {
+      "text": "Pour the boiling liquor on the beaten egg",
+      "section": null
+    },
+    {
+      "text": "Continue to pour the mixture backwards and forwards from one pitcher to another, till it has a fine froth on it",
+      "section": null
+    },
+    {
+      "text": "Pour it warm into your glasses",
+      "section": null
+    },
+    {
+      "text": "Grate some nutmeg over each",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mulled-cider.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Allow six eggs to a quart of cider\n2. Put a handful of whole cloves into the cider, and boil it\n3. While it is boiling, beat the eggs in a large pitcher\n4. Add to them as much sugar as will make the cider very sweet\n5. Pour the boiling liquor on the beaten egg\n6. Continue to pour the mixture backwards and forwards from one pitcher to another, till it has a fine froth on it\n7. Pour it warm into your glasses\n8. Grate some nutmeg over each",
+    "originalIngredients": [
+      "6 eggs",
+      "1 quart of cider",
+      "1 handful of whole cloves",
+      "sugar",
+      "nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

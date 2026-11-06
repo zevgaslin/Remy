@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "d6118d63-7374-585e-81fc-04dd9f9ffb3f",
+  "name": "Pumpkin Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pumpkin stewed soft and pressed through a cullender",
+      "originalText": "a pint of pumpkin stewed soft and pressed through a cullender",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm milk",
+      "originalText": "half a pint of warm milk",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of sugar",
+      "originalText": "a quarter of a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich cream",
+      "originalText": "a pint of rich cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose water",
+      "originalText": "a wine glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of wine",
+      "originalText": "a glass of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tea-spoonful of powdered mace and cinnamon mixed",
+      "originalText": "a large tea-spoonful of powdered mace and cinnamon mixed",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a pint of pumpkin that has been stewed soft, and pressed through a cullender.",
+      "section": null
+    },
+    {
+      "text": "Melt in half a pint of warm milk, a quarter of a pound of butter, and the same quantity of sugar, stirring them well together. If you can conveniently procure a pint of rich cream it will be better than the milk and butter.",
+      "section": null
+    },
+    {
+      "text": "Beat eight eggs very light, and add them gradually to the other ingredients, alternately with the pumpkin.",
+      "section": null
+    },
+    {
+      "text": "Then stir in a wine glass of rose water and a glass of wine mixed together, a large tea-spoonful of powdered mace and cinnamon mixed, and a grated nutmeg.",
+      "section": null
+    },
+    {
+      "text": "Having stirred the whole very hard, put it into a buttered dish and bake it three quarters of an hour.",
+      "section": null
+    },
+    {
+      "text": "Eat it cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pumpkin-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a pint of pumpkin that has been stewed soft, and pressed through a cullender.\n2. Melt in half a pint of warm milk, a quarter of a pound of butter, and the same quantity of sugar, stirring them well together. If you can conveniently procure a pint of rich cream it will be better than the milk and butter.\n3. Beat eight eggs very light, and add them gradually to the other ingredients, alternately with the pumpkin.\n4. Then stir in a wine glass of rose water and a glass of wine mixed together, a large tea-spoonful of powdered mace and cinnamon mixed, and a grated nutmeg.\n5. Having stirred the whole very hard, put it into a buttered dish and bake it three quarters of an hour.\n6. Eat it cold.",
+    "originalIngredients": [
+      "a pint of pumpkin stewed soft and pressed through a cullender",
+      "half a pint of warm milk",
+      "a quarter of a pound of butter",
+      "a quarter of a pound of sugar",
+      "a pint of rich cream",
+      "eight eggs",
+      "a wine glass of rose water",
+      "a glass of wine",
+      "a large tea-spoonful of powdered mace and cinnamon mixed",
+      "a grated nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

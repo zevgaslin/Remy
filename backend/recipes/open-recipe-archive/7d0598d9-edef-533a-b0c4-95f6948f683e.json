@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "7d0598d9-edef-533a-b0c4-95f6948f683e",
+  "name": "Graham Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "white flour",
+      "originalText": "2 cups white flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "1 3/4 quarts warm water",
+      "quantity": 1.75,
+      "quantityText": "1 3/4",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "breadspoons baking syrup",
+      "originalText": "4 breadspoons baking syrup",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "about 1 3/4 sifters white flour",
+      "originalText": "about 1 3/4 sifters white flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Graham flour",
+      "originalText": "Graham flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handfuls salt",
+      "originalText": "2 handfuls salt",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "At noon scald 2 cups white flour and let it stand until lukewarm",
+      "section": null
+    },
+    {
+      "text": "Add 1 soaked White Swan Yeast Cake",
+      "section": null
+    },
+    {
+      "text": "Set in a warm place to rise",
+      "section": null
+    },
+    {
+      "text": "At night put 1 3/4 quarts warm water, 1 cup sugar, 4 breadspoons baking syrup and about 1 3/4 sifters white flour with the sponge",
+      "section": null
+    },
+    {
+      "text": "Finish setting with Graham flour",
+      "section": null
+    },
+    {
+      "text": "In the morning put in 2 handfuls salt and stiffen with white flour",
+      "section": null
+    },
+    {
+      "text": "Set to rise",
+      "section": null
+    },
+    {
+      "text": "Put in pan and let rise again",
+      "section": null
+    },
+    {
+      "text": "This will make 5 or 6 loaves",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/graham-bread-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. At noon scald 2 cups white flour and let it stand until lukewarm\n2. Add 1 soaked White Swan Yeast Cake\n3. Set in a warm place to rise\n4. At night put 1 3/4 quarts warm water, 1 cup sugar, 4 breadspoons baking syrup and about 1 3/4 sifters white flour with the sponge\n5. Finish setting with Graham flour\n6. In the morning put in 2 handfuls salt and stiffen with white flour\n7. Set to rise\n8. Put in pan and let rise again\n9. This will make 5 or 6 loaves",
+    "originalIngredients": [
+      "2 cups white flour",
+      "1 White Swan Yeast Cake",
+      "1 3/4 quarts warm water",
+      "1 cup sugar",
+      "4 breadspoons baking syrup",
+      "about 1 3/4 sifters white flour",
+      "Graham flour",
+      "2 handfuls salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "492646bb-404b-5885-9150-9e82f77e03a1",
+  "name": "Bread Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dough from wheat bread",
+      "originalText": "dough from wheat bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tea-cup powdered sugar",
+      "originalText": "1 tea-cup powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tea-cup butter",
+      "originalText": "1 tea-cup butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tea-cup warm milk",
+      "originalText": "1 tea-cup warm milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "1 beaten egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour for dredging",
+      "originalText": "flour for dredging",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "When you are making wheat bread, and the dough is quite light and ready to bake, take out as much of it as would make a twelve cent loaf",
+      "section": null
+    },
+    {
+      "text": "Mix with it a tea-cup full of powdered sugar, and a tea-cup full of butter that has been softened and stirred about in a tea-cup of warm milk",
+      "section": null
+    },
+    {
+      "text": "Add also a beaten egg",
+      "section": null
+    },
+    {
+      "text": "Knead it very well, put it into a square pan, dredged with flour",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it near the fire for half an hour",
+      "section": null
+    },
+    {
+      "text": "Bake it in a moderate oven, and wrap it in a thick cloth as soon as it is done",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bread-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. When you are making wheat bread, and the dough is quite light and ready to bake, take out as much of it as would make a twelve cent loaf\n2. Mix with it a tea-cup full of powdered sugar, and a tea-cup full of butter that has been softened and stirred about in a tea-cup of warm milk\n3. Add also a beaten egg\n4. Knead it very well, put it into a square pan, dredged with flour\n5. Cover it, and set it near the fire for half an hour\n6. Bake it in a moderate oven, and wrap it in a thick cloth as soon as it is done",
+    "originalIngredients": [
+      "dough from wheat bread",
+      "1 tea-cup powdered sugar",
+      "1 tea-cup butter",
+      "1 tea-cup warm milk",
+      "1 beaten egg",
+      "flour for dredging"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

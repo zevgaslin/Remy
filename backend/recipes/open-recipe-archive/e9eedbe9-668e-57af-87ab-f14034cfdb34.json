@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "e9eedbe9-668e-57af-87ab-f14034cfdb34",
+  "name": "Choca",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 pt. boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "4 tablespoonfuls sugar",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scant cup grated chocolate",
+      "originalText": "1 scant cup grated chocolate",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strong coffee",
+      "originalText": "1 pt. strong coffee",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "drops vanilla",
+      "originalText": "10 drops vanilla",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "pinch of salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald one pint of milk and add the same amount of boiling water.",
+      "section": null
+    },
+    {
+      "text": "Mix together sugar and grated chocolate.",
+      "section": null
+    },
+    {
+      "text": "Add sufficient of the hot liquid to mix to a smooth paste, gradually dilute and turn into the milk and water, then cook gently for five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add a pinch of salt, coffee, and vanilla, and take from the fire.",
+      "section": null
+    },
+    {
+      "text": "Serve with whipped cream for luncheon or 5 o'clock tea.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/choca.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald one pint of milk and add the same amount of boiling water.\n2. Mix together sugar and grated chocolate.\n3. Add sufficient of the hot liquid to mix to a smooth paste, gradually dilute and turn into the milk and water, then cook gently for five minutes.\n4. Add a pinch of salt, coffee, and vanilla, and take from the fire.\n5. Serve with whipped cream for luncheon or 5 o'clock tea.",
+    "originalIngredients": [
+      "1 pt. milk",
+      "1 pt. boiling water",
+      "4 tablespoonfuls sugar",
+      "1 scant cup grated chocolate",
+      "1 pt. strong coffee",
+      "10 drops vanilla",
+      "pinch of salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

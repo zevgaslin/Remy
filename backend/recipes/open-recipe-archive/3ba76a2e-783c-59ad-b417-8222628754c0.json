@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "3ba76a2e-783c-59ad-b417-8222628754c0",
+  "name": "Beet Salad",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen young beets",
+      "originalText": "half a dozen young beets",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm vinegar",
+      "originalText": "warm vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little sugar",
+      "originalText": "a little sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "couple of bunches of chives",
+      "originalText": "a couple of bunches of chives",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalks of celery",
+      "originalText": "three stalks of celery",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery leaves",
+      "originalText": "celery leaves",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salad dressing",
+      "originalText": "salad dressing",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil half a dozen young beets, chop fine and pour over them warm vinegar with a little sugar in it.",
+      "section": null
+    },
+    {
+      "text": "Slice very thin a couple of bunches of chives, and chop fine three stalks of celery.",
+      "section": null
+    },
+    {
+      "text": "In serving make a foundation of celery leaves, and on it place first the thin slices of chives, then a layer of beets, then chives, and sprinkle over them the chopped celery.",
+      "section": null
+    },
+    {
+      "text": "Pour over all a salad dressing.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/beet-salad-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil half a dozen young beets, chop fine and pour over them warm vinegar with a little sugar in it.\n2. Slice very thin a couple of bunches of chives, and chop fine three stalks of celery.\n3. In serving make a foundation of celery leaves, and on it place first the thin slices of chives, then a layer of beets, then chives, and sprinkle over them the chopped celery.\n4. Pour over all a salad dressing.",
+    "originalIngredients": [
+      "half a dozen young beets",
+      "warm vinegar",
+      "a little sugar",
+      "a couple of bunches of chives",
+      "three stalks of celery",
+      "celery leaves",
+      "salad dressing"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

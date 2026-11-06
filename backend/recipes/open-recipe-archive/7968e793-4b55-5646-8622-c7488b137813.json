@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "7968e793-4b55-5646-8622-c7488b137813",
+  "name": "Cranberry Wine",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ripe berries",
+      "originalText": "ripe berries",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water to 2 quarts of berries",
+      "originalText": "1 quart of water to 2 quarts of berries",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar for 3 quarts of liquor",
+      "originalText": "1 lb. sugar for 3 quarts of liquor",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mash ripe berries to a pulp; put into a stone jar",
+      "section": null
+    },
+    {
+      "text": "Add water",
+      "section": null
+    },
+    {
+      "text": "Stir well and let it stand two days",
+      "section": null
+    },
+    {
+      "text": "Strain through a double flannel bag",
+      "section": null
+    },
+    {
+      "text": "Mash a second supply of berries, equal in quantity to the first, and cover with this liquid",
+      "section": null
+    },
+    {
+      "text": "Steep two days more",
+      "section": null
+    },
+    {
+      "text": "Strain and add sugar",
+      "section": null
+    },
+    {
+      "text": "Boil five minutes",
+      "section": null
+    },
+    {
+      "text": "Let it ferment in lightly covered jars",
+      "section": null
+    },
+    {
+      "text": "Rack off and bottle",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cranberry-wine.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mash ripe berries to a pulp; put into a stone jar\n2. Add water\n3. Stir well and let it stand two days\n4. Strain through a double flannel bag\n5. Mash a second supply of berries, equal in quantity to the first, and cover with this liquid\n6. Steep two days more\n7. Strain and add sugar\n8. Boil five minutes\n9. Let it ferment in lightly covered jars\n10. Rack off and bottle",
+    "originalIngredients": [
+      "ripe berries",
+      "1 quart of water to 2 quarts of berries",
+      "1 lb. sugar for 3 quarts of liquor"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

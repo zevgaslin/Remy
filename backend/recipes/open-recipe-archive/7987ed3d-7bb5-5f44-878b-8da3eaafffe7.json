@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "7987ed3d-7bb5-5f44-878b-8da3eaafffe7",
+  "name": "White Mountain Cake No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "Three cupfuls of sugar",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One cupful of butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "One cupful of milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of eight eggs",
+      "originalText": "Whites of eight eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "Four cups of sifted flour",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "One tablespoonful of baking powder",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flavoring",
+      "originalText": "Flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of four eggs",
+      "originalText": "Whites of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine white sugar",
+      "originalText": "Two cups of fine white sugar",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of half a lemon",
+      "originalText": "Juice of half a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream sugar and butter together, making it very light",
+      "section": null
+    },
+    {
+      "text": "Add milk",
+      "section": null
+    },
+    {
+      "text": "Beat whites of eight eggs very stiff",
+      "section": null
+    },
+    {
+      "text": "Add half of the beaten egg whites to the other ingredients",
+      "section": null
+    },
+    {
+      "text": "Mix baking powder well into sifted flour",
+      "section": null
+    },
+    {
+      "text": "Stir flour mixture into the cake",
+      "section": null
+    },
+    {
+      "text": "Add flavoring",
+      "section": null
+    },
+    {
+      "text": "Add remaining beaten egg whites",
+      "section": null
+    },
+    {
+      "text": "Bake in layers like jelly cake",
+      "section": null
+    },
+    {
+      "text": "Make icing using whites of four eggs beaten to stiff froth with two cups sugar and juice of half a lemon",
+      "section": null
+    },
+    {
+      "text": "Spread icing thickly on each layer",
+      "section": null
+    },
+    {
+      "text": "Stack layers and ice all over the top and sides",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/white-mountain-cake-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream sugar and butter together, making it very light\n2. Add milk\n3. Beat whites of eight eggs very stiff\n4. Add half of the beaten egg whites to the other ingredients\n5. Mix baking powder well into sifted flour\n6. Stir flour mixture into the cake\n7. Add flavoring\n8. Add remaining beaten egg whites\n9. Bake in layers like jelly cake\n10. Make icing using whites of four eggs beaten to stiff froth with two cups sugar and juice of half a lemon\n11. Spread icing thickly on each layer\n12. Stack layers and ice all over the top and sides",
+    "originalIngredients": [
+      "Three cupfuls of sugar",
+      "One cupful of butter",
+      "One cupful of milk",
+      "Whites of eight eggs",
+      "Four cups of sifted flour",
+      "One tablespoonful of baking powder",
+      "Flavoring",
+      "Whites of four eggs",
+      "Two cups of fine white sugar",
+      "Juice of half a lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

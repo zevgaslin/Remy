@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "4b2a6934-71bf-5fcc-a2ee-33161be6c696",
+  "name": "Mince Meat (without Alcoholic Liquor)",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "chopped apple",
+      "originalText": "one cup chopped apple",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cup raisins seeded and chopped",
+      "originalText": "one-half cup raisins seeded and chopped",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cup currants",
+      "originalText": "one-half cup currants",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-fourth cup butter",
+      "originalText": "one-fourth cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "one tablespoon molasses",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiled cider",
+      "originalText": "one tablespoon boiled cider",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one cup sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "one teaspoon cinnamon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half teaspoon cloves",
+      "originalText": "one-half teaspoon cloves",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half nutmeg grated",
+      "originalText": "one-half nutmeg grated",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt-spoon of mace",
+      "originalText": "one salt-spoon of mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stock in which meat was cooked",
+      "originalText": "stock in which meat was cooked",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together one cup chopped apple, one-half cup raisins seeded and chopped, one-half cup currants, one-fourth cup butter, one tablespoon molasses, one tablespoon boiled cider, one cup sugar, one teaspoon cinnamon, one-half teaspoon cloves, one-half nutmeg grated, one salt-spoon of mace, and one teaspoon salt.",
+      "section": null
+    },
+    {
+      "text": "Add enough stock in which meat was cooked to moisten; heat gradually to boiling-point, and simmer one hour.",
+      "section": null
+    },
+    {
+      "text": "Add one cup chopped meat and two tablespoons Barberry Jelly.",
+      "section": null
+    },
+    {
+      "text": "Cook fifteen minutes.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mince-meat-without-alcoholic-liquor.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together one cup chopped apple, one-half cup raisins seeded and chopped, one-half cup currants, one-fourth cup butter, one tablespoon molasses, one tablespoon boiled cider, one cup sugar, one teaspoon cinnamon, one-half teaspoon cloves, one-half nutmeg grated, one salt-spoon of mace, and one teaspoon salt.\n2. Add enough stock in which meat was cooked to moisten; heat gradually to boiling-point, and simmer one hour.\n3. Add one cup chopped meat and two tablespoons Barberry Jelly.\n4. Cook fifteen minutes.",
+    "originalIngredients": [
+      "one cup chopped apple",
+      "one-half cup raisins seeded and chopped",
+      "one-half cup currants",
+      "one-fourth cup butter",
+      "one tablespoon molasses",
+      "one tablespoon boiled cider",
+      "one cup sugar",
+      "one teaspoon cinnamon",
+      "one-half teaspoon cloves",
+      "one-half nutmeg grated",
+      "one salt-spoon of mace",
+      "one teaspoon salt",
+      "stock in which meat was cooked"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

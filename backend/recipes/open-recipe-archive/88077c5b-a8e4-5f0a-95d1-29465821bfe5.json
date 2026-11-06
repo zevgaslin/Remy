@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "88077c5b-a8e4-5f0a-95d1-29465821bfe5",
+  "name": "Apple Catsup",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen sound, tart apples",
+      "originalText": "a dozen sound, tart apples",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of sugar",
+      "originalText": "a teacupful of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "one teaspoonful of pepper",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "one teaspoonful of cloves",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "one teaspoonful of mustard",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "two teaspoonfuls of cinnamon",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "medium-sized onions, chopped very fine",
+      "originalText": "two medium-sized onions, chopped very fine",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a tablespoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "a pint of vinegar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel and quarter a dozen sound, tart apples; stew them until soft in as little water as possible, then pass them through a sieve.",
+      "section": null
+    },
+    {
+      "text": "To a quart of the sifted apple, add a teacupful of sugar, one teaspoonful of pepper, one of cloves, one of mustard, two of cinnamon, and two medium-sized onions, chopped very fine.",
+      "section": null
+    },
+    {
+      "text": "Stir all together, adding a tablespoonful of salt and a pint of vinegar.",
+      "section": null
+    },
+    {
+      "text": "Place over the fire and boil one hour, and bottle while hot; seal very tight.",
+      "section": null
+    },
+    {
+      "text": "It should be about as thick as tomato catsup, so that it will just run from the bottle.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/apple-catsup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel and quarter a dozen sound, tart apples; stew them until soft in as little water as possible, then pass them through a sieve.\n2. To a quart of the sifted apple, add a teacupful of sugar, one teaspoonful of pepper, one of cloves, one of mustard, two of cinnamon, and two medium-sized onions, chopped very fine.\n3. Stir all together, adding a tablespoonful of salt and a pint of vinegar.\n4. Place over the fire and boil one hour, and bottle while hot; seal very tight.\n5. It should be about as thick as tomato catsup, so that it will just run from the bottle.",
+    "originalIngredients": [
+      "a dozen sound, tart apples",
+      "water",
+      "a teacupful of sugar",
+      "one teaspoonful of pepper",
+      "one teaspoonful of cloves",
+      "one teaspoonful of mustard",
+      "two teaspoonfuls of cinnamon",
+      "two medium-sized onions, chopped very fine",
+      "a tablespoonful of salt",
+      "a pint of vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

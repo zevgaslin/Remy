@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "8be09100-d1e1-5c25-9425-8240e6f05410",
+  "name": "Clarified Sugar Syrup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the best double-refined loaf-sugar",
+      "originalText": "eight pounds of the best double-refined loaf-sugar",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of four eggs",
+      "originalText": "whites of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two quarts of very clear spring or pump water",
+      "originalText": "two quarts of very clear spring or pump water",
+      "quantity": null,
+      "quantityText": "two quarts of very clear spring or pump water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Break up or powder the eight pounds of sugar",
+      "section": null
+    },
+    {
+      "text": "Beat the whites of four eggs to a strong froth",
+      "section": null
+    },
+    {
+      "text": "Stir the white of egg gradually into two quarts of very clear spring or pump water",
+      "section": null
+    },
+    {
+      "text": "Put the sugar into a porcelain kettle and mix with it the water and white of egg",
+      "section": null
+    },
+    {
+      "text": "While the sugar is melting, stir it frequently",
+      "section": null
+    },
+    {
+      "text": "When it is entirely dissolved, put the kettle over a moderate fire and let it boil",
+      "section": null
+    },
+    {
+      "text": "Carefully take off the scum as it comes to the top",
+      "section": null
+    },
+    {
+      "text": "Pour in a little cold water when you find the syrup rising so as to run over the edge of the kettle",
+      "section": null
+    },
+    {
+      "text": "When it first boils hard, pour in half a pint of cold water to keep down the bubbles so that the scum may appear and be easily removed",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/clarified-sugar-syrup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Break up or powder the eight pounds of sugar\n2. Beat the whites of four eggs to a strong froth\n3. Stir the white of egg gradually into two quarts of very clear spring or pump water\n4. Put the sugar into a porcelain kettle and mix with it the water and white of egg\n5. While the sugar is melting, stir it frequently\n6. When it is entirely dissolved, put the kettle over a moderate fire and let it boil\n7. Carefully take off the scum as it comes to the top\n8. Pour in a little cold water when you find the syrup rising so as to run over the edge of the kettle\n9. When it first boils hard, pour in half a pint of cold water to keep down the bubbles so that the scum may appear and be easily removed",
+    "originalIngredients": [
+      "eight pounds of the best double-refined loaf-sugar",
+      "whites of four eggs",
+      "two quarts of very clear spring or pump water",
+      "cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

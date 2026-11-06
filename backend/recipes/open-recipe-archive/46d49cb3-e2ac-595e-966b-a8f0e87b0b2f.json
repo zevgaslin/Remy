@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "46d49cb3-e2ac-595e-966b-a8f0e87b0b2f",
+  "name": "Lemon Méringue Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread-crumbs",
+      "originalText": "2 cups bread-crumbs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup butter",
+      "originalText": "½ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 cup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large lemon—juice and half the rind, grated",
+      "originalText": "1 large lemon—juice and half the rind, grated",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the bread in the milk; add the beaten yolks, with the butter and sugar rubbed to a cream, also the lemon.",
+      "section": null
+    },
+    {
+      "text": "Bake in a buttered dish until firm and slightly brown.",
+      "section": null
+    },
+    {
+      "text": "Draw to the door of the oven and cover with a méringue of the whites whipped to a froth with three tablespoonfuls of powdered sugar, and a little lemon-juice.",
+      "section": null
+    },
+    {
+      "text": "Brown very slightly; sift powdered sugar over it, and eat cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-m-ringue-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the bread in the milk; add the beaten yolks, with the butter and sugar rubbed to a cream, also the lemon.\n2. Bake in a buttered dish until firm and slightly brown.\n3. Draw to the door of the oven and cover with a méringue of the whites whipped to a froth with three tablespoonfuls of powdered sugar, and a little lemon-juice.\n4. Brown very slightly; sift powdered sugar over it, and eat cold.",
+    "originalIngredients": [
+      "1 quart milk",
+      "2 cups bread-crumbs",
+      "4 eggs",
+      "½ cup butter",
+      "1 cup white sugar",
+      "1 large lemon—juice and half the rind, grated"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "b317218e-f00c-5676-b757-2db19f9352dc",
+  "name": "Mutton Broth",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Neck or shoulder-pieces of mutton",
+      "originalText": "Neck or shoulder-pieces of mutton",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water per pound of meat",
+      "originalText": "One quart of cold water per pound of meat",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stick of celery per quart of stock",
+      "originalText": "One stick of celery per quart of stock",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rice per quart of stock",
+      "originalText": "Two tablespoonfuls of rice per quart of stock",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper to taste",
+      "originalText": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the meat into pieces and remove the fat",
+      "section": null
+    },
+    {
+      "text": "To each pound of meat add one quart of cold water",
+      "section": null
+    },
+    {
+      "text": "Simmer for four or five hours",
+      "section": null
+    },
+    {
+      "text": "Strain it into an earthen bowl",
+      "section": null
+    },
+    {
+      "text": "When ready to serve, remove the grease, and add to each quart of stock one stick of celery, two tablespoonfuls of rice, salt and pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Boil until the rice is soft",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/mutton-broth-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the meat into pieces and remove the fat\n2. To each pound of meat add one quart of cold water\n3. Simmer for four or five hours\n4. Strain it into an earthen bowl\n5. When ready to serve, remove the grease, and add to each quart of stock one stick of celery, two tablespoonfuls of rice, salt and pepper to taste\n6. Boil until the rice is soft",
+    "originalIngredients": [
+      "Neck or shoulder-pieces of mutton",
+      "One quart of cold water per pound of meat",
+      "One stick of celery per quart of stock",
+      "Two tablespoonfuls of rice per quart of stock",
+      "Salt and pepper to taste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

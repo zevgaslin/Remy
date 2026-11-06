@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "836e2e30-3ea4-5f17-9b5a-58edd242b7a5",
+  "name": "Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "warm water",
+      "originalText": "4 quarts warm water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level tablespoons salt",
+      "originalText": "3 level tablespoons salt",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cakes",
+      "originalText": "2 White Swan Yeast Cakes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "At night put in the bake dish 4 quarts warm water, 3 level tablespoons salt, 2 White Swan Yeast Cakes, mix all together with enough good flour to make a thin batter.",
+      "section": null
+    },
+    {
+      "text": "Next morning, when nice and light, put in 1 cup sugar, mix stiff and knead a few minutes, let rise and make into loaves.",
+      "section": null
+    },
+    {
+      "text": "Let them rise and bake in moderate oven for one hour.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/bread-6.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. At night put in the bake dish 4 quarts warm water, 3 level tablespoons salt, 2 White Swan Yeast Cakes, mix all together with enough good flour to make a thin batter.\n2. Next morning, when nice and light, put in 1 cup sugar, mix stiff and knead a few minutes, let rise and make into loaves.\n3. Let them rise and bake in moderate oven for one hour.",
+    "originalIngredients": [
+      "4 quarts warm water",
+      "3 level tablespoons salt",
+      "2 White Swan Yeast Cakes",
+      "flour",
+      "1 cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

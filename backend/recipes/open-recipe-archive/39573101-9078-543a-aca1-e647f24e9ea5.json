@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "39573101-9078-543a-aca1-e647f24e9ea5",
+  "name": "Punch",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fine lemons",
+      "originalText": "twelve fine lemons",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon of water",
+      "originalText": "a gallon of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar",
+      "originalText": "two pounds of loaf-sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a quart of rum or of the best whiskey",
+      "originalText": "a quart of rum or of the best whiskey",
+      "quantity": null,
+      "quantityText": "a quart of rum or of the best whiskey",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Roll lemons under your hand on the table",
+      "section": null
+    },
+    {
+      "text": "Pare off the yellow rind very thin",
+      "section": null
+    },
+    {
+      "text": "Boil the rind in a gallon of water till all the flavour is drawn out",
+      "section": null
+    },
+    {
+      "text": "Break up into a large bowl two pounds of loaf-sugar, and squeeze the lemons over it",
+      "section": null
+    },
+    {
+      "text": "When the water has boiled sufficiently, strain it from the lemon-peel",
+      "section": null
+    },
+    {
+      "text": "Mix it with the lemon juice and sugar",
+      "section": null
+    },
+    {
+      "text": "Stir in a quart of rum or of the best whiskey",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/punch.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Roll lemons under your hand on the table\n2. Pare off the yellow rind very thin\n3. Boil the rind in a gallon of water till all the flavour is drawn out\n4. Break up into a large bowl two pounds of loaf-sugar, and squeeze the lemons over it\n5. When the water has boiled sufficiently, strain it from the lemon-peel\n6. Mix it with the lemon juice and sugar\n7. Stir in a quart of rum or of the best whiskey",
+    "originalIngredients": [
+      "twelve fine lemons",
+      "a gallon of water",
+      "two pounds of loaf-sugar",
+      "a quart of rum or of the best whiskey"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

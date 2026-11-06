@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "bcfd8110-4b8f-588f-9d69-f05e57034d73",
+  "name": "Apple Frittees",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 lb. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, whites and yolks beaten separately",
+      "originalText": "2 eggs, whites and yolks beaten separately",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk for thin batter",
+      "originalText": "Milk for thin batter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 oz. butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/4 teaspoonful salt",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Apples",
+      "originalText": "Apples",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Boiling lard or clarified dripping",
+      "originalText": "Boiling lard or clarified dripping",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sifted sugar",
+      "originalText": "Sifted sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Prepare some apples, as for a pie, or mince them if preferred",
+      "section": null
+    },
+    {
+      "text": "Add these to the batter",
+      "section": null
+    },
+    {
+      "text": "Drop a large tablespoonful at a time into a pan of boiling lard or clarified dripping",
+      "section": null
+    },
+    {
+      "text": "Fry till of a light brown, turning when required",
+      "section": null
+    },
+    {
+      "text": "When done, lay them on a sheet of blotting-paper before the fire to absorb the grease",
+      "section": null
+    },
+    {
+      "text": "Dish them, piled high, one above the other",
+      "section": null
+    },
+    {
+      "text": "Strew with sifted sugar",
+      "section": null
+    },
+    {
+      "text": "Serve as hot as possible",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/apple-frittees.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Prepare some apples, as for a pie, or mince them if preferred\n2. Add these to the batter\n3. Drop a large tablespoonful at a time into a pan of boiling lard or clarified dripping\n4. Fry till of a light brown, turning when required\n5. When done, lay them on a sheet of blotting-paper before the fire to absorb the grease\n6. Dish them, piled high, one above the other\n7. Strew with sifted sugar\n8. Serve as hot as possible",
+    "originalIngredients": [
+      "1 lb. flour",
+      "2 eggs, whites and yolks beaten separately",
+      "Milk for thin batter",
+      "1 oz. butter",
+      "1/4 teaspoonful salt",
+      "Apples",
+      "Boiling lard or clarified dripping",
+      "Sifted sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

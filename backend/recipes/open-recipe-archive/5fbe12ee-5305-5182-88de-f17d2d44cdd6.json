@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "5fbe12ee-5305-5182-88de-f17d2d44cdd6",
+  "name": "Christmas Plum Pudding",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "raisins",
+      "originalText": "1 pound raisins",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "1 pound currants",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "suet",
+      "originalText": "1 pound suet",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 pound sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3/4 pound flour",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "1/2 pound bread crumbs",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed peel",
+      "originalText": "1/2 pound mixed peel",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg grated",
+      "originalText": "1 nutmeg grated",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spice",
+      "originalText": "1/2 teaspoon spice",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "8 eggs",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "3/4 pint milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stone raisins if not the dressed ones",
+      "section": null
+    },
+    {
+      "text": "Wash, dry and pick currants",
+      "section": null
+    },
+    {
+      "text": "Mince suet fine",
+      "section": null
+    },
+    {
+      "text": "Cut into thin slices the mixed peel",
+      "section": null
+    },
+    {
+      "text": "Grate fine the bread crumbs",
+      "section": null
+    },
+    {
+      "text": "Sift the flour",
+      "section": null
+    },
+    {
+      "text": "Add spices, sugar and salt",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs and add the milk",
+      "section": null
+    },
+    {
+      "text": "Stir well that everything may be thoroughly blended",
+      "section": null
+    },
+    {
+      "text": "Press into buttered moulds or basins",
+      "section": null
+    },
+    {
+      "text": "Tie down tightly with a floured cloth",
+      "section": null
+    },
+    {
+      "text": "Boil from 6 to 8 hours",
+      "section": null
+    },
+    {
+      "text": "Serve hot with a good sweet sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/christmas-plum-pudding-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stone raisins if not the dressed ones\n2. Wash, dry and pick currants\n3. Mince suet fine\n4. Cut into thin slices the mixed peel\n5. Grate fine the bread crumbs\n6. Sift the flour\n7. Add spices, sugar and salt\n8. Beat the eggs and add the milk\n9. Stir well that everything may be thoroughly blended\n10. Press into buttered moulds or basins\n11. Tie down tightly with a floured cloth\n12. Boil from 6 to 8 hours\n13. Serve hot with a good sweet sauce",
+    "originalIngredients": [
+      "1 pound raisins",
+      "1 pound currants",
+      "1 pound suet",
+      "1 pound sugar",
+      "3/4 pound flour",
+      "1/2 pound bread crumbs",
+      "1/2 pound mixed peel",
+      "1 teaspoon salt",
+      "1 nutmeg grated",
+      "1/2 teaspoon spice",
+      "8 eggs",
+      "3/4 pint milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "4e17a670-b29e-5717-8fe8-f7a994bbe2e3",
+  "name": "A Rich Fruit Cake",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "four pounds of flour",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "four pounds of butter",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf sugar",
+      "originalText": "two pounds of loaf sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of mace",
+      "originalText": "one quarter of a pound of mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of nutmegs",
+      "originalText": "one quarter of a pound of nutmegs",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "four pounds of currants",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet almonds",
+      "originalText": "one pound of sweet almonds",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "two pounds of raisins",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron",
+      "originalText": "two pounds of citron",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thirty eggs",
+      "originalText": "thirty eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "half a pint of brandy",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Have the following articles prepared: four pounds of flour dried and sifted, four pounds of butter washed to free it from salt, two pounds of loaf sugar pounded, a quarter of a pound of mace, the same of nutmegs powdered",
+      "section": null
+    },
+    {
+      "text": "Wash four pounds of currants clean, pick and dry them",
+      "section": null
+    },
+    {
+      "text": "Blanch one pound of sweet almonds, and cut them in very thin slices",
+      "section": null
+    },
+    {
+      "text": "Stone two pounds of raisins, cut them in two, and strew a little flour over to prevent their sticking together, and two pounds of citron sliced thin",
+      "section": null
+    },
+    {
+      "text": "Break thirty eggs, separating the yelks and whites",
+      "section": null
+    },
+    {
+      "text": "Work the butter to a cream with your hand",
+      "section": null
+    },
+    {
+      "text": "Put in alternately, flour, sugar, and the froth from both whites and yelks, which must be beaten separately, and only the froth put in",
+      "section": null
+    },
+    {
+      "text": "When all are mixed and the cake looks very light, add the spice, with half a pint of brandy, the currants and almonds",
+      "section": null
+    },
+    {
+      "text": "Butter the mould well",
+      "section": null
+    },
+    {
+      "text": "Pour in part of the cake, strew over it some raisins and citron",
+      "section": null
+    },
+    {
+      "text": "Do this until all is in",
+      "section": null
+    },
+    {
+      "text": "Set it in a well heated oven",
+      "section": null
+    },
+    {
+      "text": "When it has risen, and the top is coloured, cover it with paper",
+      "section": null
+    },
+    {
+      "text": "Bake for three hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-rich-fruit-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Have the following articles prepared: four pounds of flour dried and sifted, four pounds of butter washed to free it from salt, two pounds of loaf sugar pounded, a quarter of a pound of mace, the same of nutmegs powdered\n2. Wash four pounds of currants clean, pick and dry them\n3. Blanch one pound of sweet almonds, and cut them in very thin slices\n4. Stone two pounds of raisins, cut them in two, and strew a little flour over to prevent their sticking together, and two pounds of citron sliced thin\n5. Break thirty eggs, separating the yelks and whites\n6. Work the butter to a cream with your hand\n7. Put in alternately, flour, sugar, and the froth from both whites and yelks, which must be beaten separately, and only the froth put in\n8. When all are mixed and the cake looks very light, add the spice, with half a pint of brandy, the currants and almonds\n9. Butter the mould well\n10. Pour in part of the cake, strew over it some raisins and citron\n11. Do this until all is in\n12. Set it in a well heated oven\n13. When it has risen, and the top is coloured, cover it with paper\n14. Bake for three hours",
+    "originalIngredients": [
+      "four pounds of flour",
+      "four pounds of butter",
+      "two pounds of loaf sugar",
+      "one quarter of a pound of mace",
+      "one quarter of a pound of nutmegs",
+      "four pounds of currants",
+      "one pound of sweet almonds",
+      "two pounds of raisins",
+      "two pounds of citron",
+      "thirty eggs",
+      "half a pint of brandy"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

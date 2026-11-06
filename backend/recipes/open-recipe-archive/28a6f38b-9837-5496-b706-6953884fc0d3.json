@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "28a6f38b-9837-5496-b706-6953884fc0d3",
+  "name": "Wine Jelly",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "3 cups of sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 pint of wine—pale Sherry or White",
+      "originalText": "1 pint of wine—pale Sherry or White",
+      "quantity": null,
+      "quantityText": "1 pint of wine—pale Sherry or White",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 cup of cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "package Coxe's gelatine",
+      "originalText": "1 package Coxe's gelatine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of two lemons and grated peel of one",
+      "originalText": "Juice of two lemons and grated peel of one",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 quart of boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good pinch of cinnamon",
+      "originalText": "1 good pinch of cinnamon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the gelatine in the cold water one hour",
+      "section": null
+    },
+    {
+      "text": "Add to this the sugar, lemons, and cinnamon",
+      "section": null
+    },
+    {
+      "text": "Pour over all a quart of boiling water, and stir until the gelatine is thoroughly dissolved",
+      "section": null
+    },
+    {
+      "text": "Put in the wine, strain through a double flannel bag, without squeezing",
+      "section": null
+    },
+    {
+      "text": "Wet your moulds with cold water, and set the jelly away in them to cool",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/wine-jelly-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the gelatine in the cold water one hour\n2. Add to this the sugar, lemons, and cinnamon\n3. Pour over all a quart of boiling water, and stir until the gelatine is thoroughly dissolved\n4. Put in the wine, strain through a double flannel bag, without squeezing\n5. Wet your moulds with cold water, and set the jelly away in them to cool",
+    "originalIngredients": [
+      "3 cups of sugar",
+      "1 pint of wine—pale Sherry or White",
+      "1 cup of cold water",
+      "1 package Coxe's gelatine",
+      "Juice of two lemons and grated peel of one",
+      "1 quart of boiling water",
+      "1 good pinch of cinnamon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

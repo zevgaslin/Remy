@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "210db87d-f12c-5d21-ab36-9b7f208a2ae9",
+  "name": "The Queen Of Puddings",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1½ cup white sugar",
+      "originalText": "1½ cup white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine dry bread-crumbs",
+      "originalText": "2 cups fine dry bread-crumbs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla, rose-water, or lemon seasoning",
+      "originalText": "Vanilla, rose-water, or lemon seasoning",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh rich milk",
+      "originalText": "1 quart fresh rich milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one half cup jelly or jam",
+      "originalText": "one half cup jelly or jam",
+      "quantity": null,
+      "quantityText": "one half cup jelly or jam",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub the butter into a cup of sugar; beat the yolks very light, and stir these together to a cream.",
+      "section": null
+    },
+    {
+      "text": "Add the bread-crumbs, soaked in milk, then the seasoning.",
+      "section": null
+    },
+    {
+      "text": "Bake this in a buttered pudding-dish—a large one and but two-thirds full—until the custard is \"set.\"",
+      "section": null
+    },
+    {
+      "text": "Draw to the mouth of the oven, spread over with jam or other nice fruit-conserve.",
+      "section": null
+    },
+    {
+      "text": "Cover this with a méringue made of the whipped whites and half a cup of sugar.",
+      "section": null
+    },
+    {
+      "text": "Shut the oven and bake until the méringue begins to color.",
+      "section": null
+    },
+    {
+      "text": "Eat cold, with cream.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/the-queen-of-puddings.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub the butter into a cup of sugar; beat the yolks very light, and stir these together to a cream.\n2. Add the bread-crumbs, soaked in milk, then the seasoning.\n3. Bake this in a buttered pudding-dish—a large one and but two-thirds full—until the custard is \"set.\"\n4. Draw to the mouth of the oven, spread over with jam or other nice fruit-conserve.\n5. Cover this with a méringue made of the whipped whites and half a cup of sugar.\n6. Shut the oven and bake until the méringue begins to color.\n7. Eat cold, with cream.",
+    "originalIngredients": [
+      "1½ cup white sugar",
+      "2 cups fine dry bread-crumbs",
+      "5 eggs",
+      "1 tablespoonful of butter",
+      "Vanilla, rose-water, or lemon seasoning",
+      "1 quart fresh rich milk",
+      "one half cup jelly or jam"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

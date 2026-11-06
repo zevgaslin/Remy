@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "220c2b5a-8421-51ae-a013-51b3dd8f5ac9",
+  "name": "Wintergreen Wafers",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gum tragacanth",
+      "originalText": "1 oz. gum tragacanth",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 cup cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Confectioners' sugar",
+      "originalText": "Confectioners' sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oil of wintergreen",
+      "originalText": "Oil of wintergreen",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak gum tragacanth in water twenty-four hours and rub through a fine wire sieve; add enough confectioners' sugar to knead.",
+      "section": null
+    },
+    {
+      "text": "Flavor with a few drops of oil of wintergreen.",
+      "section": null
+    },
+    {
+      "text": "If liked pink, color with fruit red.",
+      "section": null
+    },
+    {
+      "text": "Roll until very thin on a board or marble dredged with sugar.",
+      "section": null
+    },
+    {
+      "text": "Shape with a small round cutter or cut in three-fourths inch squares.",
+      "section": null
+    },
+    {
+      "text": "Spread wafers, cover, and let stand until dry and brittle.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/wintergreen-wafers.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak gum tragacanth in water twenty-four hours and rub through a fine wire sieve; add enough confectioners' sugar to knead.\n2. Flavor with a few drops of oil of wintergreen.\n3. If liked pink, color with fruit red.\n4. Roll until very thin on a board or marble dredged with sugar.\n5. Shape with a small round cutter or cut in three-fourths inch squares.\n6. Spread wafers, cover, and let stand until dry and brittle.",
+    "originalIngredients": [
+      "1 oz. gum tragacanth",
+      "1 cup cold water",
+      "Confectioners' sugar",
+      "Oil of wintergreen"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

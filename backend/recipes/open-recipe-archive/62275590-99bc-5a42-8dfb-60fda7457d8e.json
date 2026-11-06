@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "62275590-99bc-5a42-8dfb-60fda7457d8e",
+  "name": "Stewed Carrots",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "carrots",
+      "originalText": "carrots",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "weak stock",
+      "originalText": "weak stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "two tablespoonfuls of milk",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scrape and boil whole three-quarters of an hour",
+      "section": null
+    },
+    {
+      "text": "Drain",
+      "section": null
+    },
+    {
+      "text": "Cut into cubes half an inch square",
+      "section": null
+    },
+    {
+      "text": "Have ready in a saucepan enough weak stock to cover the carrot-dice",
+      "section": null
+    },
+    {
+      "text": "Put them on in it and cook twenty minutes, or until tender",
+      "section": null
+    },
+    {
+      "text": "Add two tablespoonfuls of milk, a tablespoonful of butter cut up in one of flour, salt and pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Simmer five minutes",
+      "section": null
+    },
+    {
+      "text": "Serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/stewed-carrots-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scrape and boil whole three-quarters of an hour\n2. Drain\n3. Cut into cubes half an inch square\n4. Have ready in a saucepan enough weak stock to cover the carrot-dice\n5. Put them on in it and cook twenty minutes, or until tender\n6. Add two tablespoonfuls of milk, a tablespoonful of butter cut up in one of flour, salt and pepper to taste\n7. Simmer five minutes\n8. Serve",
+    "originalIngredients": [
+      "carrots",
+      "weak stock",
+      "two tablespoonfuls of milk",
+      "one tablespoonful of butter",
+      "one tablespoonful of flour",
+      "salt and pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

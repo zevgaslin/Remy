@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "31359a6b-b7aa-556e-a01b-ee6c83af6a9d",
+  "name": "Canned Corn 2",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "corn cut from the cob",
+      "originalText": "10 cups of corn cut from the cob",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 cup salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together corn, sugar, and salt",
+      "section": null
+    },
+    {
+      "text": "Put in a kettle at the back of the stove until enough of the milk of the corn has exuded to cook it without adding water",
+      "section": null
+    },
+    {
+      "text": "Cook for 1 hour, watching carefully that it does not scorch",
+      "section": null
+    },
+    {
+      "text": "Can and seal",
+      "section": null
+    },
+    {
+      "text": "When you wish to use the corn take the required amount and put in cold water for 3 1/2 hours",
+      "section": null
+    },
+    {
+      "text": "Turn off the salty water and prepare with milk and butter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/canned-corn-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together corn, sugar, and salt\n2. Put in a kettle at the back of the stove until enough of the milk of the corn has exuded to cook it without adding water\n3. Cook for 1 hour, watching carefully that it does not scorch\n4. Can and seal\n5. When you wish to use the corn take the required amount and put in cold water for 3 1/2 hours\n6. Turn off the salty water and prepare with milk and butter",
+    "originalIngredients": [
+      "10 cups of corn cut from the cob",
+      "1 cup sugar",
+      "1/2 cup salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

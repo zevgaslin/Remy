@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "23f0e719-77ac-5a32-8255-a6ab7db0a2ed",
+  "name": "Veal Or Mutton Broth",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "scrag-end of mutton (two pounds)",
+      "originalText": "scrag-end of mutton (two pounds)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "two quarts of cold water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "an ounce of pearl barley or rice",
+      "originalText": "an ounce of pearl barley or rice",
+      "quantity": null,
+      "quantityText": "an ounce of pearl barley or rice",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "half a teaspoonful of salt",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnip",
+      "originalText": "one turnip",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "one carrot",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "one onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put scrag-end of mutton in a saucepan, with two quarts of cold water, and an ounce of pearl barley or rice",
+      "section": null
+    },
+    {
+      "text": "When it is coming to a boil, skim it well",
+      "section": null
+    },
+    {
+      "text": "Then add half a teaspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Let it boil until half reduced, then strain it, and take off all the fat",
+      "section": null
+    },
+    {
+      "text": "If vegetables are liked in this broth, cut turnip, carrot, and onion in shreds, and boil them in the broth half an hour",
+      "section": null
+    },
+    {
+      "text": "The barley may be served with the vegetables in broth",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/veal-or-mutton-broth-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put scrag-end of mutton in a saucepan, with two quarts of cold water, and an ounce of pearl barley or rice\n2. When it is coming to a boil, skim it well\n3. Then add half a teaspoonful of salt\n4. Let it boil until half reduced, then strain it, and take off all the fat\n5. If vegetables are liked in this broth, cut turnip, carrot, and onion in shreds, and boil them in the broth half an hour\n6. The barley may be served with the vegetables in broth",
+    "originalIngredients": [
+      "scrag-end of mutton (two pounds)",
+      "two quarts of cold water",
+      "an ounce of pearl barley or rice",
+      "half a teaspoonful of salt",
+      "one turnip",
+      "one carrot",
+      "one onion"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

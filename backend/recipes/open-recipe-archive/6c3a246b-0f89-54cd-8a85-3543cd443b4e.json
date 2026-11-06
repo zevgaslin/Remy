@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "6c3a246b-0f89-54cd-8a85-3543cd443b4e",
+  "name": "Corn Soup",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large fowl, cut into eight pieces",
+      "originalText": "1 large fowl, cut into eight pieces",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ears green corn—cut from the cobs",
+      "originalText": "1 doz. ears green corn—cut from the cobs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "doz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon water",
+      "originalText": "1 gallon water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "Parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rice or wheat flour",
+      "originalText": "Rice or wheat flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the chicken with the cobs in a gallon of water until the fowl is tender—if tough, the boiling must be slow and long.",
+      "section": null
+    },
+    {
+      "text": "Then, put the corn into the pot, and stew an hour longer—still gently.",
+      "section": null
+    },
+    {
+      "text": "Remove the chicken with a cupful of the liquid, if you wish to make other use of the meat.",
+      "section": null
+    },
+    {
+      "text": "Set this aside, take out the cobs, season the corn-soup with pepper, salt, and parsley; thicken with rice or wheat flour, boil up once, and serve without straining, if the corn be young and tender.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/corn-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the chicken with the cobs in a gallon of water until the fowl is tender—if tough, the boiling must be slow and long.\n2. Then, put the corn into the pot, and stew an hour longer—still gently.\n3. Remove the chicken with a cupful of the liquid, if you wish to make other use of the meat.\n4. Set this aside, take out the cobs, season the corn-soup with pepper, salt, and parsley; thicken with rice or wheat flour, boil up once, and serve without straining, if the corn be young and tender.",
+    "originalIngredients": [
+      "1 large fowl, cut into eight pieces",
+      "1 doz. ears green corn—cut from the cobs",
+      "1 gallon water",
+      "Pepper and salt",
+      "Parsley",
+      "Rice or wheat flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

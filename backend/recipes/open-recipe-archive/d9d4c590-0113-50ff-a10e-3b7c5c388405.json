@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "d9d4c590-0113-50ff-a10e-3b7c5c388405",
+  "name": "Oxford Dumplings",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "One tablespoonful of sugar",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks of three eggs",
+      "originalText": "Yolks of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped suet",
+      "originalText": "Half a cupful of finely chopped suet",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "English currants",
+      "originalText": "Half a cupful of English currants",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "One cupful of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoonful of baking powder",
+      "originalText": "One heaping teaspoonful of baking powder",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little nutmeg",
+      "originalText": "A little nutmeg",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "One teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of three eggs",
+      "originalText": "Whites of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour for hands",
+      "originalText": "Flour for hands",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cloth",
+      "originalText": "Cloth",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Wine sauce for serving",
+      "originalText": "Wine sauce for serving",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat until quite light one tablespoonful of sugar and the yolks of three eggs.",
+      "section": null
+    },
+    {
+      "text": "Add half a cupful of finely chopped suet and half a cupful of English currants.",
+      "section": null
+    },
+    {
+      "text": "Sift a heaping teaspoonful of baking powder, a little nutmeg, and one teaspoonful of salt into one cupful of sifted flour.",
+      "section": null
+    },
+    {
+      "text": "Add the flour mixture to the egg and suet mixture.",
+      "section": null
+    },
+    {
+      "text": "Add lastly the beaten whites of the eggs.",
+      "section": null
+    },
+    {
+      "text": "Flour your hands and make it into balls the size of an egg.",
+      "section": null
+    },
+    {
+      "text": "Boil in separate cloths one hour or more.",
+      "section": null
+    },
+    {
+      "text": "Serve with wine sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/oxford-dumplings.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat until quite light one tablespoonful of sugar and the yolks of three eggs.\n2. Add half a cupful of finely chopped suet and half a cupful of English currants.\n3. Sift a heaping teaspoonful of baking powder, a little nutmeg, and one teaspoonful of salt into one cupful of sifted flour.\n4. Add the flour mixture to the egg and suet mixture.\n5. Add lastly the beaten whites of the eggs.\n6. Flour your hands and make it into balls the size of an egg.\n7. Boil in separate cloths one hour or more.\n8. Serve with wine sauce.",
+    "originalIngredients": [
+      "One tablespoonful of sugar",
+      "Yolks of three eggs",
+      "Half a cupful of finely chopped suet",
+      "Half a cupful of English currants",
+      "One cupful of sifted flour",
+      "One heaping teaspoonful of baking powder",
+      "A little nutmeg",
+      "One teaspoonful of salt",
+      "Whites of three eggs",
+      "Flour for hands",
+      "Cloth",
+      "Wine sauce for serving"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "f37f258b-04b0-5dfc-af74-12690370687d",
+  "name": "Boiled Rice",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "half cupful rice",
+      "originalText": "1 half cupful rice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half teaspoonful salt",
+      "originalText": "1 half teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cupful milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten egg",
+      "originalText": "1 well-beaten egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil half a cupful of rice in just enough water to cover it, with half a teaspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "When the water has boiled nearly out and the rice begins to look soft and dry, turn over it a cupful of milk",
+      "section": null
+    },
+    {
+      "text": "Let it simmer until the rice is done and nearly dry",
+      "section": null
+    },
+    {
+      "text": "Take from the fire and beat in a well-beaten egg",
+      "section": null
+    },
+    {
+      "text": "Eat it warm with cream and sugar",
+      "section": null
+    },
+    {
+      "text": "Flavor to taste",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/boiled-rice-7.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil half a cupful of rice in just enough water to cover it, with half a teaspoonful of salt\n2. When the water has boiled nearly out and the rice begins to look soft and dry, turn over it a cupful of milk\n3. Let it simmer until the rice is done and nearly dry\n4. Take from the fire and beat in a well-beaten egg\n5. Eat it warm with cream and sugar\n6. Flavor to taste",
+    "originalIngredients": [
+      "1 half cupful rice",
+      "water",
+      "1 half teaspoonful salt",
+      "1 cupful milk",
+      "1 well-beaten egg",
+      "cream",
+      "sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

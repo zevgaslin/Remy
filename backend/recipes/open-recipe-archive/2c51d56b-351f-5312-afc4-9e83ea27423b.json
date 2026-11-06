@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "2c51d56b-351f-5312-afc4-9e83ea27423b",
+  "name": "Common Yeast",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large handful of hops",
+      "originalText": "a large handful of hops",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "two quarts of boiling water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "three pints of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good strong yeast",
+      "originalText": "half a pint of good strong yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "four or five large tea-spoonfuls of brown sugar, or as many table-spoonfuls of molasses",
+      "originalText": "four or five large tea-spoonfuls of brown sugar, or as many table-spoonfuls of molasses",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two or three raisins",
+      "originalText": "two or three raisins",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lump of pearl-ash the size of a hazle-nut",
+      "originalText": "a lump of pearl-ash the size of a hazle-nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a large handful of hops into two quarts of boiling water, which must then be set on the fire again, and boiled twenty minutes with the hops.",
+      "section": null
+    },
+    {
+      "text": "Have ready in a pan three pints of sifted flour; strain the liquid, and pour half of it on the flour.",
+      "section": null
+    },
+    {
+      "text": "Let the other half stand till it becomes cool, and then mix it gradually into the pan with the flour.",
+      "section": null
+    },
+    {
+      "text": "Stir into it half a pint of good strong yeast, fresh from the brewery if possible; if not, use some that was left of the last making.",
+      "section": null
+    },
+    {
+      "text": "You may increase the strength by stirring into your yeast before you bottle it, four or five large tea-spoonfuls of brown sugar, or as many table-spoonfuls of molasses.",
+      "section": null
+    },
+    {
+      "text": "Put it into clean bottles, and cork them loosely till the fermentation is over.",
+      "section": null
+    },
+    {
+      "text": "Next morning put in the corks tightly, and set the bottles in a cold place.",
+      "section": null
+    },
+    {
+      "text": "When you are going to bottle the yeast place two or three raisins at the bottom of each bottle.",
+      "section": null
+    },
+    {
+      "text": "If you are apprehensive of its becoming sour, put into each bottle a lump of pearl-ash the size of a hazle-nut.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/common-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a large handful of hops into two quarts of boiling water, which must then be set on the fire again, and boiled twenty minutes with the hops.\n2. Have ready in a pan three pints of sifted flour; strain the liquid, and pour half of it on the flour.\n3. Let the other half stand till it becomes cool, and then mix it gradually into the pan with the flour.\n4. Stir into it half a pint of good strong yeast, fresh from the brewery if possible; if not, use some that was left of the last making.\n5. You may increase the strength by stirring into your yeast before you bottle it, four or five large tea-spoonfuls of brown sugar, or as many table-spoonfuls of molasses.\n6. Put it into clean bottles, and cork them loosely till the fermentation is over.\n7. Next morning put in the corks tightly, and set the bottles in a cold place.\n8. When you are going to bottle the yeast place two or three raisins at the bottom of each bottle.\n9. If you are apprehensive of its becoming sour, put into each bottle a lump of pearl-ash the size of a hazle-nut.",
+    "originalIngredients": [
+      "a large handful of hops",
+      "two quarts of boiling water",
+      "three pints of sifted flour",
+      "half a pint of good strong yeast",
+      "four or five large tea-spoonfuls of brown sugar, or as many table-spoonfuls of molasses",
+      "two or three raisins",
+      "a lump of pearl-ash the size of a hazle-nut"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

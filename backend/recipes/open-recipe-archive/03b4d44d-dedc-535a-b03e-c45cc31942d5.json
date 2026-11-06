@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "03b4d44d-dedc-535a-b03e-c45cc31942d5",
+  "name": "Salt Cod With Egg Sauce",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "salt cod soaked, boiled and picked up very fine",
+      "originalText": "1 lb. salt cod soaked, boiled and picked up very fine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 small cup milk or cream",
+      "originalText": "1 small cup milk or cream",
+      "quantity": null,
+      "quantityText": "1 small cup milk or cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 teaspoonful flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs beaten light",
+      "originalText": "2 eggs beaten light",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoonfuls of butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Little chopped parsley",
+      "originalText": "Little chopped parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "as much mashed potato as fish",
+      "originalText": "Half as much mashed potato as fish",
+      "quantity": 0.5,
+      "quantityText": "Half",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper to taste",
+      "originalText": "Pepper to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the milk",
+      "section": null
+    },
+    {
+      "text": "Thicken with the flour, then the potato rubbed very fine",
+      "section": null
+    },
+    {
+      "text": "Add the butter, the eggs, and parsley",
+      "section": null
+    },
+    {
+      "text": "Last, add the fish",
+      "section": null
+    },
+    {
+      "text": "Stir and toss until smoking hot all through",
+      "section": null
+    },
+    {
+      "text": "Pour into a deep dish",
+      "section": null
+    },
+    {
+      "text": "Alternatively: make a sauce of all the ingredients except the fish and potato",
+      "section": null
+    },
+    {
+      "text": "Mix the fish and potato well together with a little melted butter",
+      "section": null
+    },
+    {
+      "text": "Heat in a saucepan, stirring all the while",
+      "section": null
+    },
+    {
+      "text": "Heap in the centre of a dish and pour the sauce over all",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salt-cod-with-egg-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the milk\n2. Thicken with the flour, then the potato rubbed very fine\n3. Add the butter, the eggs, and parsley\n4. Last, add the fish\n5. Stir and toss until smoking hot all through\n6. Pour into a deep dish\n7. Alternatively: make a sauce of all the ingredients except the fish and potato\n8. Mix the fish and potato well together with a little melted butter\n9. Heat in a saucepan, stirring all the while\n10. Heap in the centre of a dish and pour the sauce over all",
+    "originalIngredients": [
+      "1 lb. salt cod soaked, boiled and picked up very fine",
+      "1 small cup milk or cream",
+      "1 teaspoonful flour",
+      "2 eggs beaten light",
+      "2 tablespoonfuls of butter",
+      "Little chopped parsley",
+      "Half as much mashed potato as fish",
+      "Pepper to taste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

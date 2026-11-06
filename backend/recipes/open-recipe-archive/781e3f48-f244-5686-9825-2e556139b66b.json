@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "781e3f48-f244-5686-9825-2e556139b66b",
+  "name": "Fricassee of Veal",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sliced veal, cut from loin",
+      "originalText": "Two pounds sliced veal, cut from loin",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "One small onion",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalks celery",
+      "originalText": "Two stalks celery",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "Six slices carrot",
+      "quantity": 6.0,
+      "quantityText": "Six",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "Flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pork fat",
+      "originalText": "Pork fat",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "Four tablespoons butter",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "Four tablespoons flour",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "Parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe two pounds sliced veal and cover with boiling water; add one small onion, two stalks celery, and six slices carrot.",
+      "section": null
+    },
+    {
+      "text": "Cook slowly until meat is tender.",
+      "section": null
+    },
+    {
+      "text": "Remove meat, sprinkle with salt and pepper, dredge with flour, and sauté in pork fat.",
+      "section": null
+    },
+    {
+      "text": "Strain liquor (there should be two cups).",
+      "section": null
+    },
+    {
+      "text": "Melt four tablespoons butter, add four tablespoons flour and strained liquor.",
+      "section": null
+    },
+    {
+      "text": "Bring to boiling-point, season with salt and pepper, and pour around meat.",
+      "section": null
+    },
+    {
+      "text": "Garnish with parsley.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fricassee-of-veal.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe two pounds sliced veal and cover with boiling water; add one small onion, two stalks celery, and six slices carrot.\n2. Cook slowly until meat is tender.\n3. Remove meat, sprinkle with salt and pepper, dredge with flour, and sauté in pork fat.\n4. Strain liquor (there should be two cups).\n5. Melt four tablespoons butter, add four tablespoons flour and strained liquor.\n6. Bring to boiling-point, season with salt and pepper, and pour around meat.\n7. Garnish with parsley.",
+    "originalIngredients": [
+      "Two pounds sliced veal, cut from loin",
+      "One small onion",
+      "Two stalks celery",
+      "Six slices carrot",
+      "Salt and pepper",
+      "Flour",
+      "Pork fat",
+      "Four tablespoons butter",
+      "Four tablespoons flour",
+      "Parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

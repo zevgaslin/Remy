@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "20ed4812-3232-5f49-bb81-ce4dc89ed16c",
+  "name": "Tea Cream",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the best tea",
+      "originalText": "one ounce of the best tea",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "table spoonful of water",
+      "originalText": "a table spoonful of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling cream",
+      "originalText": "a quart of boiling cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tea-spoonsful of a strong infusion of rennet in water",
+      "originalText": "four tea-spoonsful of a strong infusion of rennet in water",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "preserved fruit",
+      "originalText": "preserved fruit",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put one ounce of the best tea in a pitcher, pour on it a table spoonful of water, and let it stand an hour to soften the leaves",
+      "section": null
+    },
+    {
+      "text": "Then put to it a quart of boiling cream, cover it close",
+      "section": null
+    },
+    {
+      "text": "In half an hour strain it",
+      "section": null
+    },
+    {
+      "text": "Add four tea-spoonsful of a strong infusion of rennet in water, stir it",
+      "section": null
+    },
+    {
+      "text": "Set it on some hot ashes, and cover it",
+      "section": null
+    },
+    {
+      "text": "When you find by cooling a little of it, that it will jelly, pour it into glasses, and garnish with thin bits of preserved fruit",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tea-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put one ounce of the best tea in a pitcher, pour on it a table spoonful of water, and let it stand an hour to soften the leaves\n2. Then put to it a quart of boiling cream, cover it close\n3. In half an hour strain it\n4. Add four tea-spoonsful of a strong infusion of rennet in water, stir it\n5. Set it on some hot ashes, and cover it\n6. When you find by cooling a little of it, that it will jelly, pour it into glasses, and garnish with thin bits of preserved fruit",
+    "originalIngredients": [
+      "one ounce of the best tea",
+      "a table spoonful of water",
+      "a quart of boiling cream",
+      "four tea-spoonsful of a strong infusion of rennet in water",
+      "preserved fruit"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

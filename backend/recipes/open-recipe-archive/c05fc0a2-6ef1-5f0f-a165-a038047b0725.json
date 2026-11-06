@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "c05fc0a2-6ef1-5f0f-a165-a038047b0725",
+  "name": "Lobster Salad",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lobster",
+      "originalText": "One can of lobster",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of lettuce",
+      "originalText": "One head of lettuce",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dressing",
+      "originalText": "1/2 cup of dressing",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut lobster quite fine (not chop)",
+      "section": null
+    },
+    {
+      "text": "Break the leaves from a head of lettuce, let stand in a pan of ice cold water till crisp",
+      "section": null
+    },
+    {
+      "text": "Lay the leaves on a board and shave fine",
+      "section": null
+    },
+    {
+      "text": "Just before serving mix the lettuce, lobster and half a cup of dressing together lightly with a fork",
+      "section": null
+    },
+    {
+      "text": "Arrange some lettuce leaves on a dish and put the mixture in the centre",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/lobster-salad-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut lobster quite fine (not chop)\n2. Break the leaves from a head of lettuce, let stand in a pan of ice cold water till crisp\n3. Lay the leaves on a board and shave fine\n4. Just before serving mix the lettuce, lobster and half a cup of dressing together lightly with a fork\n5. Arrange some lettuce leaves on a dish and put the mixture in the centre",
+    "originalIngredients": [
+      "One can of lobster",
+      "One head of lettuce",
+      "1/2 cup of dressing"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

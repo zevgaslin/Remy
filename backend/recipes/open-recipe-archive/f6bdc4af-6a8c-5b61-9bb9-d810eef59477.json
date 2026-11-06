@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "f6bdc4af-6a8c-5b61-9bb9-d810eef59477",
+  "name": "Cream Pie",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rich paste for shell",
+      "originalText": "rich paste for shell",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1 pint of sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons of flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little milk",
+      "originalText": "a little milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of 2 eggs",
+      "originalText": "yolks of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 tablespoons of sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of eggs",
+      "originalText": "2 whites of eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a shell of rich paste",
+      "section": null
+    },
+    {
+      "text": "Put 1 pint of sweet milk on in double boiler",
+      "section": null
+    },
+    {
+      "text": "Wet 2 tablespoons of flour with a little milk",
+      "section": null
+    },
+    {
+      "text": "Pour on it the boiling milk slowly",
+      "section": null
+    },
+    {
+      "text": "Add to this the yolks of 2 eggs beaten with 3 tablespoons of sugar and 1 of butter",
+      "section": null
+    },
+    {
+      "text": "Cook 5 minutes",
+      "section": null
+    },
+    {
+      "text": "Pour into the crust which has been already baked",
+      "section": null
+    },
+    {
+      "text": "Make meringue of the 2 whites whipped light with 2 tablespoons sugar",
+      "section": null
+    },
+    {
+      "text": "Brown slightly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cream-pie-6.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a shell of rich paste\n2. Put 1 pint of sweet milk on in double boiler\n3. Wet 2 tablespoons of flour with a little milk\n4. Pour on it the boiling milk slowly\n5. Add to this the yolks of 2 eggs beaten with 3 tablespoons of sugar and 1 of butter\n6. Cook 5 minutes\n7. Pour into the crust which has been already baked\n8. Make meringue of the 2 whites whipped light with 2 tablespoons sugar\n9. Brown slightly",
+    "originalIngredients": [
+      "rich paste for shell",
+      "1 pint of sweet milk",
+      "2 tablespoons of flour",
+      "a little milk",
+      "yolks of 2 eggs",
+      "3 tablespoons of sugar",
+      "1 tablespoon of butter",
+      "2 whites of eggs",
+      "2 tablespoons sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

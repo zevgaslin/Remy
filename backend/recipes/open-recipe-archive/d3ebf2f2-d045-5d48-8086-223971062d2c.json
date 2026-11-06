@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "d3ebf2f2-d045-5d48-8086-223971062d2c",
+  "name": "Spruce Beer for Present Use",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "handful of hops",
+      "originalText": "a handful of hops",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallons and a half of water",
+      "originalText": "two gallons and a half of water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ground white ginger",
+      "originalText": "a table-spoonful of ground white ginger",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "a pint of molasses",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "essence of spruce",
+      "originalText": "a table-spoonful of essence of spruce",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "half a pint of yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three or four raisins per bottle",
+      "originalText": "three or four raisins per bottle",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil a handful of hops in two gallons and a half of water, till they fall to the bottom",
+      "section": null
+    },
+    {
+      "text": "Strain the water, and when it is lukewarm, stir into it a table-spoonful of ground white ginger",
+      "section": null
+    },
+    {
+      "text": "Add a pint of molasses and a table-spoonful of essence of spruce",
+      "section": null
+    },
+    {
+      "text": "Mix the whole well together in a stone jug with half a pint of yeast",
+      "section": null
+    },
+    {
+      "text": "Let it ferment for a day and a half, or two days",
+      "section": null
+    },
+    {
+      "text": "Put it into bottles, with three or four raisins in the bottom of each, to prevent any further fermentation",
+      "section": null
+    },
+    {
+      "text": "It will then be fit for immediate use",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/spruce-beer-for-present-use.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil a handful of hops in two gallons and a half of water, till they fall to the bottom\n2. Strain the water, and when it is lukewarm, stir into it a table-spoonful of ground white ginger\n3. Add a pint of molasses and a table-spoonful of essence of spruce\n4. Mix the whole well together in a stone jug with half a pint of yeast\n5. Let it ferment for a day and a half, or two days\n6. Put it into bottles, with three or four raisins in the bottom of each, to prevent any further fermentation\n7. It will then be fit for immediate use",
+    "originalIngredients": [
+      "a handful of hops",
+      "two gallons and a half of water",
+      "a table-spoonful of ground white ginger",
+      "a pint of molasses",
+      "a table-spoonful of essence of spruce",
+      "half a pint of yeast",
+      "three or four raisins per bottle"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

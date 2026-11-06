@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "a65d8bb8-d506-570c-b0a3-9d56104e76c4",
+  "name": "Sago Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sago",
+      "originalText": "half a pound of sago",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a quart of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stick of cinnamon",
+      "originalText": "a stick of cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a pound of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine",
+      "originalText": "a gill of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "four ounces of currants",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "paste",
+      "originalText": "paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash half a pound of sago in several waters",
+      "section": null
+    },
+    {
+      "text": "Put it on to boil in a quart of milk, with a stick of cinnamon",
+      "section": null
+    },
+    {
+      "text": "Stir it very frequently, for it is apt to burn",
+      "section": null
+    },
+    {
+      "text": "When it becomes quite thick, take out the cinnamon",
+      "section": null
+    },
+    {
+      "text": "Stir in half a pound of butter, and an equal quantity of sugar, with a gill of wine",
+      "section": null
+    },
+    {
+      "text": "When cold, add six eggs and four ounces of currants that have been plumped in hot water",
+      "section": null
+    },
+    {
+      "text": "Bake it in a paste",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sago-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash half a pound of sago in several waters\n2. Put it on to boil in a quart of milk, with a stick of cinnamon\n3. Stir it very frequently, for it is apt to burn\n4. When it becomes quite thick, take out the cinnamon\n5. Stir in half a pound of butter, and an equal quantity of sugar, with a gill of wine\n6. When cold, add six eggs and four ounces of currants that have been plumped in hot water\n7. Bake it in a paste",
+    "originalIngredients": [
+      "half a pound of sago",
+      "a quart of milk",
+      "a stick of cinnamon",
+      "half a pound of butter",
+      "half a pound of sugar",
+      "a gill of wine",
+      "six eggs",
+      "four ounces of currants",
+      "paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

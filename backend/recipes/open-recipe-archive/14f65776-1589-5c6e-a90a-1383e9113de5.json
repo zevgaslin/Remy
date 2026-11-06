@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "14f65776-1589-5c6e-a90a-1383e9113de5",
+  "name": "Quince Cordial",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the finest and ripest quinces",
+      "originalText": "the finest and ripest quinces",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice",
+      "originalText": "six quarts of juice",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "a quart of cold water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar",
+      "originalText": "three pounds of loaf-sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white brandy",
+      "originalText": "a quart of white brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "grated nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered mace",
+      "originalText": "powdered mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cloves",
+      "originalText": "powdered cloves",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take the finest and ripest quinces you can procure, wipe them clean, and cut out all the defective parts.",
+      "section": null
+    },
+    {
+      "text": "Then grate them into a tureen or some other large vessel, leaving out the seeds and cores.",
+      "section": null
+    },
+    {
+      "text": "Let the grated pulp remain covered in the tureen for twenty-four hours.",
+      "section": null
+    },
+    {
+      "text": "Then squeeze it through a jelly-bag or cloth.",
+      "section": null
+    },
+    {
+      "text": "To six quarts of the juice allow a quart of cold water, three pounds of loaf-sugar, (broken up,) and a quart of white brandy.",
+      "section": null
+    },
+    {
+      "text": "Mix the whole well together, and put it into a stone jar.",
+      "section": null
+    },
+    {
+      "text": "Have ready three very small flannel or thick muslin bags, (not larger than two inches square,) fill one with grated nutmeg, another with powdered mace, and the third with powdered cloves; and put them into the jar that the spice may flavour the liquor without mixing with it.",
+      "section": null
+    },
+    {
+      "text": "Leave the jar uncorked for a few days; reserving some of the liquor to replace that which may flow over in the fermentation.",
+      "section": null
+    },
+    {
+      "text": "Whenever it has done working, bottle it off, but do not use it for six months.",
+      "section": null
+    },
+    {
+      "text": "If not sufficiently bright and clear, filter it through fine muslin pinned round the bottom of a sieve, or through a white blotting paper fastened in the same manner.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/quince-cordial.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take the finest and ripest quinces you can procure, wipe them clean, and cut out all the defective parts.\n2. Then grate them into a tureen or some other large vessel, leaving out the seeds and cores.\n3. Let the grated pulp remain covered in the tureen for twenty-four hours.\n4. Then squeeze it through a jelly-bag or cloth.\n5. To six quarts of the juice allow a quart of cold water, three pounds of loaf-sugar, (broken up,) and a quart of white brandy.\n6. Mix the whole well together, and put it into a stone jar.\n7. Have ready three very small flannel or thick muslin bags, (not larger than two inches square,) fill one with grated nutmeg, another with powdered mace, and the third with powdered cloves; and put them into the jar that the spice may flavour the liquor without mixing with it.\n8. Leave the jar uncorked for a few days; reserving some of the liquor to replace that which may flow over in the fermentation.\n9. Whenever it has done working, bottle it off, but do not use it for six months.\n10. If not sufficiently bright and clear, filter it through fine muslin pinned round the bottom of a sieve, or through a white blotting paper fastened in the same manner.",
+    "originalIngredients": [
+      "the finest and ripest quinces",
+      "six quarts of juice",
+      "a quart of cold water",
+      "three pounds of loaf-sugar",
+      "a quart of white brandy",
+      "grated nutmeg",
+      "powdered mace",
+      "powdered cloves"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "121906a1-786b-5da8-8e6d-70726a75fbb8",
+  "name": "Scalloped Meat (Alternative)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cold meat",
+      "originalText": "1 cup cold meat",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mashed potatoes",
+      "originalText": "1/2 cup mashed potatoes",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "made mustard",
+      "originalText": "1/2 teaspoon made mustard",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gravy or stock",
+      "originalText": "gravy or stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mashed potatoes",
+      "originalText": "1 cup mashed potatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 teaspoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop meat fine",
+      "section": null
+    },
+    {
+      "text": "Mix 1 cup cold meat chopped fine, 1/2 cup mashed potatoes, 1/2 teaspoon made mustard, and enough gravy or stock to moisten",
+      "section": null
+    },
+    {
+      "text": "Put in buttered baking dish",
+      "section": null
+    },
+    {
+      "text": "Mix 1 cup mashed potatoes, 2 teaspoons butter, 1 cup milk, and one egg well beaten",
+      "section": null
+    },
+    {
+      "text": "Cover this over the top of the meat",
+      "section": null
+    },
+    {
+      "text": "Bake in the oven until a nice brown",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scalloped-meat-alternative.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop meat fine\n2. Mix 1 cup cold meat chopped fine, 1/2 cup mashed potatoes, 1/2 teaspoon made mustard, and enough gravy or stock to moisten\n3. Put in buttered baking dish\n4. Mix 1 cup mashed potatoes, 2 teaspoons butter, 1 cup milk, and one egg well beaten\n5. Cover this over the top of the meat\n6. Bake in the oven until a nice brown",
+    "originalIngredients": [
+      "1 cup cold meat",
+      "1/2 cup mashed potatoes",
+      "1/2 teaspoon made mustard",
+      "gravy or stock",
+      "1 cup mashed potatoes",
+      "2 teaspoons butter",
+      "1 cup milk",
+      "1 egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "8d977a3b-7401-55a7-bbd4-7f80cc582aa3",
+  "name": "Baked Saddle of Venison",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "saddle of venison of about ten pounds",
+      "originalText": "saddle of venison of about ten pounds",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt pork in strips about two inches long, and an eighth of an inch thick",
+      "originalText": "salt pork in strips about two inches long, and an eighth of an inch thick",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrots",
+      "originalText": "two carrots",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "one onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt pork in thin slices",
+      "originalText": "salt pork in thin slices",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bay leaves",
+      "originalText": "two bay leaves",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "two cloves",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "kernels of allspice",
+      "originalText": "four kernels of allspice",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon, sliced",
+      "originalText": "half a lemon, sliced",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good stock",
+      "originalText": "a quart of good stock",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small piece of butter",
+      "originalText": "a small piece of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jelly or a wine sauce",
+      "originalText": "jelly or a wine sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash the saddle carefully; see that no hairs are left dried on to the outside.",
+      "section": null
+    },
+    {
+      "text": "Cut some salt pork in strips about two inches long, and an eighth of an inch thick, with which lard the saddle with two rows on each side.",
+      "section": null
+    },
+    {
+      "text": "In a large dripping-pan cut two carrots, one onion, and some salt pork in thin slices; add two bay leaves, two cloves, four kernels of allspice, half a lemon, sliced, and season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Place the saddle of venison in the pan, with a quart of good stock, boiling hot, and a small piece of butter, and let it boil about fifteen minutes on top of the stove.",
+      "section": null
+    },
+    {
+      "text": "Put it in a hot oven and bake, basting well every five minutes, until it is medium rare, so that the blood runs when cut.",
+      "section": null
+    },
+    {
+      "text": "Serve with jelly or a wine sauce.",
+      "section": null
+    },
+    {
+      "text": "If the venison is desired well done cook much longer, and use a cream sauce with it, or stir cream into the venison gravy.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/baked-saddle-of-venison-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash the saddle carefully; see that no hairs are left dried on to the outside.\n2. Cut some salt pork in strips about two inches long, and an eighth of an inch thick, with which lard the saddle with two rows on each side.\n3. In a large dripping-pan cut two carrots, one onion, and some salt pork in thin slices; add two bay leaves, two cloves, four kernels of allspice, half a lemon, sliced, and season with salt and pepper.\n4. Place the saddle of venison in the pan, with a quart of good stock, boiling hot, and a small piece of butter, and let it boil about fifteen minutes on top of the stove.\n5. Put it in a hot oven and bake, basting well every five minutes, until it is medium rare, so that the blood runs when cut.\n6. Serve with jelly or a wine sauce.\n7. If the venison is desired well done cook much longer, and use a cream sauce with it, or stir cream into the venison gravy.",
+    "originalIngredients": [
+      "saddle of venison of about ten pounds",
+      "salt pork in strips about two inches long, and an eighth of an inch thick",
+      "two carrots",
+      "one onion",
+      "salt pork in thin slices",
+      "two bay leaves",
+      "two cloves",
+      "four kernels of allspice",
+      "half a lemon, sliced",
+      "salt and pepper",
+      "a quart of good stock",
+      "a small piece of butter",
+      "jelly or a wine sauce"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

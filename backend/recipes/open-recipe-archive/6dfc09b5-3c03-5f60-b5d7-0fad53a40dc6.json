@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "6dfc09b5-3c03-5f60-b5d7-0fad53a40dc6",
+  "name": "Winter Salad",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "green cucumbers",
+      "originalText": "2 quarts green cucumbers",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "green tomatoes",
+      "originalText": "2 quarts green tomatoes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "green cabbage",
+      "originalText": "2 quarts green cabbage",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cauliflowers",
+      "originalText": "2 large cauliflowers",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of red pepper",
+      "originalText": "a pinch of red pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar and water",
+      "originalText": "vinegar and water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunches of celery",
+      "originalText": "6 bunches of celery",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon vinegar",
+      "originalText": "1 gallon vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "3/4 pound mustard",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turmeric",
+      "originalText": "3 teaspoons turmeric",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "5 1/2 cups sugar",
+      "quantity": 5.5,
+      "quantityText": "5 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping cup flour",
+      "originalText": "1 heaping cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Let cucumbers, tomatoes, cabbage, cauliflowers and red pepper stand over night in salt in separate dishes",
+      "section": null
+    },
+    {
+      "text": "Drain in the morning and scald in vinegar and water",
+      "section": null
+    },
+    {
+      "text": "Add 6 bunches of celery, 1 gallon vinegar, 3/4 pound mustard, 3 teaspoons turmeric, 5 1/2 cups sugar, 1 heaping cup flour",
+      "section": null
+    },
+    {
+      "text": "Mix mustard, flour and turmeric in cold vinegar",
+      "section": null
+    },
+    {
+      "text": "Put on and scald",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/winter-salad-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Let cucumbers, tomatoes, cabbage, cauliflowers and red pepper stand over night in salt in separate dishes\n2. Drain in the morning and scald in vinegar and water\n3. Add 6 bunches of celery, 1 gallon vinegar, 3/4 pound mustard, 3 teaspoons turmeric, 5 1/2 cups sugar, 1 heaping cup flour\n4. Mix mustard, flour and turmeric in cold vinegar\n5. Put on and scald",
+    "originalIngredients": [
+      "2 quarts green cucumbers",
+      "2 quarts green tomatoes",
+      "2 quarts green cabbage",
+      "2 large cauliflowers",
+      "a pinch of red pepper",
+      "salt",
+      "vinegar and water",
+      "6 bunches of celery",
+      "1 gallon vinegar",
+      "3/4 pound mustard",
+      "3 teaspoons turmeric",
+      "5 1/2 cups sugar",
+      "1 heaping cup flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

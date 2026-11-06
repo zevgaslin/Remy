@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "1ee58935-d26b-5d99-93ea-87cf3f6c2c7f",
+  "name": "Cream-Cake",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "powdered sugar",
+      "originalText": "2 cups powdered sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅔ cupful butter",
+      "originalText": "⅔ cupful butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cupful milk",
+      "originalText": "½ cupful milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful soda",
+      "originalText": "½ teaspoonful soda",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream-tartar",
+      "originalText": "1 teaspoonful cream-tartar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 cups flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ pint of milk",
+      "originalText": "½ pint of milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small teaspoonfuls corn-starch",
+      "originalText": "2 small teaspoonfuls corn-starch",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoonful vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sugar",
+      "originalText": "½ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Bake in thin layers as for jelly-cake.",
+      "section": null
+    },
+    {
+      "text": "Heat the milk to boiling, and stir in the corn-starch, wet with a little cold milk.",
+      "section": null
+    },
+    {
+      "text": "Take out a little and mix gradually with the beaten egg and sugar.",
+      "section": null
+    },
+    {
+      "text": "Return to the rest of the custard, and boil, stirring constantly until quite thick.",
+      "section": null
+    },
+    {
+      "text": "Let it cool before you season, and spread on cake.",
+      "section": null
+    },
+    {
+      "text": "Season the icing also with vanilla.",
+      "section": null
+    },
+    {
+      "text": "Spread between the layers when cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cream-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Bake in thin layers as for jelly-cake.\n2. Heat the milk to boiling, and stir in the corn-starch, wet with a little cold milk.\n3. Take out a little and mix gradually with the beaten egg and sugar.\n4. Return to the rest of the custard, and boil, stirring constantly until quite thick.\n5. Let it cool before you season, and spread on cake.\n6. Season the icing also with vanilla.\n7. Spread between the layers when cold.",
+    "originalIngredients": [
+      "2 cups powdered sugar",
+      "⅔ cupful butter",
+      "4 eggs",
+      "½ cupful milk",
+      "½ teaspoonful soda",
+      "1 teaspoonful cream-tartar",
+      "3 cups flour",
+      "½ pint of milk",
+      "2 small teaspoonfuls corn-starch",
+      "1 egg",
+      "1 teaspoonful vanilla",
+      "½ cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

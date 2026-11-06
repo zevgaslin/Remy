@@ -20,10 +20,10 @@ function RecipeDetails({ recipe }) {
         <h4>Ingredients</h4>
         <ul>{ingredients.map((ingredient, index) => (
           <li key={index}>
-            {[ingredient.quantityText ?? ingredient.quantity, ingredient.unit,
+            {ingredient.originalText || [ingredient.quantityText ?? ingredient.quantity, ingredient.unit,
               ingredient.name || ingredient.ingredientName].filter(value => value != null && value !== '').join(' ')}
-            {ingredient.preparation ? ` — ${ingredient.preparation}` : ''}
-            {ingredient.optional ? ' (optional)' : ''}
+            {!ingredient.originalText && ingredient.preparation ? ` — ${ingredient.preparation}` : ''}
+            {ingredient.optional && !/optional/i.test(ingredient.originalText || '') ? ' (optional)' : ''}
           </li>
         ))}</ul>
       </>}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "64649ebd-d496-5bba-91bf-ea0146a616f9",
+  "name": "Newark Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fine bread-crumbs soaked in a pint of the milk",
+      "originalText": "1 cup fine bread-crumbs soaked in a pint of the milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 quart of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rice-flour",
+      "originalText": "2 tablespoonfuls rice-flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. raisins seeded, cut in two, and dredged with flour",
+      "originalText": "½ lb. raisins seeded, cut in two, and dredged with flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla or bitter almond extract",
+      "originalText": "Vanilla or bitter almond extract",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "2 tablespoonfuls melted butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful soda",
+      "originalText": "½ teaspoonful soda",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the yolks light",
+      "section": null
+    },
+    {
+      "text": "Add the soaked bread-crumbs and milk",
+      "section": null
+    },
+    {
+      "text": "Stir to a smooth batter",
+      "section": null
+    },
+    {
+      "text": "Put in the rice-flour, wet up first with cold milk",
+      "section": null
+    },
+    {
+      "text": "Add the reserved pint of milk, the seasoning, butter, the fruit",
+      "section": null
+    },
+    {
+      "text": "Lastly add the whites whipped stiff",
+      "section": null
+    },
+    {
+      "text": "Bake an hour in a buttered mould",
+      "section": null
+    },
+    {
+      "text": "Turn out and pour sauce over it, serving hard sauce also with it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/newark-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the yolks light\n2. Add the soaked bread-crumbs and milk\n3. Stir to a smooth batter\n4. Put in the rice-flour, wet up first with cold milk\n5. Add the reserved pint of milk, the seasoning, butter, the fruit\n6. Lastly add the whites whipped stiff\n7. Bake an hour in a buttered mould\n8. Turn out and pour sauce over it, serving hard sauce also with it",
+    "originalIngredients": [
+      "1 cup fine bread-crumbs soaked in a pint of the milk",
+      "1 quart of milk",
+      "5 eggs",
+      "2 tablespoonfuls rice-flour",
+      "½ lb. raisins seeded, cut in two, and dredged with flour",
+      "Vanilla or bitter almond extract",
+      "2 tablespoonfuls melted butter",
+      "½ teaspoonful soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

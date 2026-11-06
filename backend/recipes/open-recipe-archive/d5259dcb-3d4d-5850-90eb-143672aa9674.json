@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "d5259dcb-3d4d-5850-90eb-143672aa9674",
+  "name": "Eve's Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large pippins",
+      "originalText": "six large pippins",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "six ounces of bread crumbs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "six ounces of white sugar",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "six ounces of currants",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "six ounces of butter",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two table-spoonfuls of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweetened cream flavoured with wine and nutmeg",
+      "originalText": "sweetened cream flavoured with wine and nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare, core, and quarter six large pippins, and chop them very fine.",
+      "section": null
+    },
+    {
+      "text": "Grate stale bread till you have six ounces of crumbs, and roll fine six ounces of white sugar.",
+      "section": null
+    },
+    {
+      "text": "Pick, wash, and dry six ounces of currants, and sprinkle them with flour.",
+      "section": null
+    },
+    {
+      "text": "Mix all these ingredients together in a large pan, adding six ounces of butter cut small, and two table-spoonfuls of flour.",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs very light, and moisten the mixture with them.",
+      "section": null
+    },
+    {
+      "text": "Add a grated nutmeg, and a tea-spoonful of powdered cinnamon.",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very well together.",
+      "section": null
+    },
+    {
+      "text": "Have ready a pot of boiling water.",
+      "section": null
+    },
+    {
+      "text": "Dip your pudding cloth into it, shake it out, and dredge it with flour.",
+      "section": null
+    },
+    {
+      "text": "Put in the mixture, and tie it very firmly; leaving space for the pudding to swell, and stopping up the tying place with a paste of wetted flour.",
+      "section": null
+    },
+    {
+      "text": "Boil it three hours; keeping at the fire a kettle of boiling water, to replenish the pot, that the pudding may be always well covered.",
+      "section": null
+    },
+    {
+      "text": "Send it to table hot, and eat it with sweetened cream flavoured with wine and nutmeg.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/eve-s-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare, core, and quarter six large pippins, and chop them very fine.\n2. Grate stale bread till you have six ounces of crumbs, and roll fine six ounces of white sugar.\n3. Pick, wash, and dry six ounces of currants, and sprinkle them with flour.\n4. Mix all these ingredients together in a large pan, adding six ounces of butter cut small, and two table-spoonfuls of flour.\n5. Beat six eggs very light, and moisten the mixture with them.\n6. Add a grated nutmeg, and a tea-spoonful of powdered cinnamon.\n7. Stir the whole very well together.\n8. Have ready a pot of boiling water.\n9. Dip your pudding cloth into it, shake it out, and dredge it with flour.\n10. Put in the mixture, and tie it very firmly; leaving space for the pudding to swell, and stopping up the tying place with a paste of wetted flour.\n11. Boil it three hours; keeping at the fire a kettle of boiling water, to replenish the pot, that the pudding may be always well covered.\n12. Send it to table hot, and eat it with sweetened cream flavoured with wine and nutmeg.",
+    "originalIngredients": [
+      "six large pippins",
+      "six ounces of bread crumbs",
+      "six ounces of white sugar",
+      "six ounces of currants",
+      "flour",
+      "six ounces of butter",
+      "two table-spoonfuls of flour",
+      "six eggs",
+      "a grated nutmeg",
+      "a tea-spoonful of powdered cinnamon",
+      "sweetened cream flavoured with wine and nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

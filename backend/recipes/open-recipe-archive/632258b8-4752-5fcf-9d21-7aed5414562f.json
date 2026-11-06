@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "632258b8-4752-5fcf-9d21-7aed5414562f",
+  "name": "Tomato Puree",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "canned tomatoes",
+      "originalText": "1 qt. canned tomatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 pt. stock or water",
+      "originalText": "1 pt. stock or water",
+      "quantity": null,
+      "quantityText": "1 pt. stock or water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bay leaf",
+      "originalText": "1 bay leaf",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig parsley",
+      "originalText": "1 sprig parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stick celery",
+      "originalText": "1 stick celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "6 peppercorns",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 teaspoonful sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced onion",
+      "originalText": "1 sliced onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Small croutons",
+      "originalText": "Small croutons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Simmer tomatoes, stock or water, bay leaf, parsley, celery, peppercorns and sugar together until the tomato is thoroughly soft",
+      "section": null
+    },
+    {
+      "text": "In another saucepan put a tablespoonful of butter; when it is hot add a sliced onion, and fry, but not brown it",
+      "section": null
+    },
+    {
+      "text": "Then add a tablespoonful of flour, and cook, but not brown the flour",
+      "section": null
+    },
+    {
+      "text": "To this roux add enough of the tomato to dilute it, and then mix it well with the rest of the tomato, and season with salt",
+      "section": null
+    },
+    {
+      "text": "Pass the whole through a fine sieve or strainer",
+      "section": null
+    },
+    {
+      "text": "Heat it again before serving, and sprinkle over the top small croutons",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/tomato-puree.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Simmer tomatoes, stock or water, bay leaf, parsley, celery, peppercorns and sugar together until the tomato is thoroughly soft\n2. In another saucepan put a tablespoonful of butter; when it is hot add a sliced onion, and fry, but not brown it\n3. Then add a tablespoonful of flour, and cook, but not brown the flour\n4. To this roux add enough of the tomato to dilute it, and then mix it well with the rest of the tomato, and season with salt\n5. Pass the whole through a fine sieve or strainer\n6. Heat it again before serving, and sprinkle over the top small croutons",
+    "originalIngredients": [
+      "1 qt. canned tomatoes",
+      "1 pt. stock or water",
+      "1 bay leaf",
+      "1 sprig parsley",
+      "1 stick celery",
+      "6 peppercorns",
+      "1 teaspoonful sugar",
+      "1 tablespoonful of butter",
+      "1 sliced onion",
+      "1 tablespoonful of flour",
+      "Salt",
+      "Small croutons"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

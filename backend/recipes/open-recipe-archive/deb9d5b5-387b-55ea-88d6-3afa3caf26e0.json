@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "deb9d5b5-387b-55ea-88d6-3afa3caf26e0",
+  "name": "Boiled Apple Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fine juicy apples",
+      "originalText": "two pounds of fine juicy apples",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of brown sugar",
+      "originalText": "a quarter of a pound of brown sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice and yellow peel of a large lemon",
+      "originalText": "juice and yellow peel of a large lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped suet",
+      "originalText": "a pound of chopped suet",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two pounds of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare, core, and quarter as many fine juicy apples as will weigh two pounds when done",
+      "section": null
+    },
+    {
+      "text": "Strew among them a quarter of a pound of brown sugar",
+      "section": null
+    },
+    {
+      "text": "Add a grated nutmeg, and the juice and yellow peel of a large lemon",
+      "section": null
+    },
+    {
+      "text": "Prepare a paste of suet and flour, in the proportion of a pound of chopped suet to two pounds of flour",
+      "section": null
+    },
+    {
+      "text": "Roll it out of moderate thickness",
+      "section": null
+    },
+    {
+      "text": "Lay the apples in the centre, and close the paste nicely over them in the form of a large dumpling",
+      "section": null
+    },
+    {
+      "text": "Tie it in a cloth and boil it three hours",
+      "section": null
+    },
+    {
+      "text": "Send it to table hot, and eat with it cream sauce, or with butter and sugar",
+      "section": null
+    },
+    {
+      "text": "Ensure the water boils before the pudding goes in",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-apple-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare, core, and quarter as many fine juicy apples as will weigh two pounds when done\n2. Strew among them a quarter of a pound of brown sugar\n3. Add a grated nutmeg, and the juice and yellow peel of a large lemon\n4. Prepare a paste of suet and flour, in the proportion of a pound of chopped suet to two pounds of flour\n5. Roll it out of moderate thickness\n6. Lay the apples in the centre, and close the paste nicely over them in the form of a large dumpling\n7. Tie it in a cloth and boil it three hours\n8. Send it to table hot, and eat with it cream sauce, or with butter and sugar\n9. Ensure the water boils before the pudding goes in",
+    "originalIngredients": [
+      "two pounds of fine juicy apples",
+      "a quarter of a pound of brown sugar",
+      "a grated nutmeg",
+      "juice and yellow peel of a large lemon",
+      "a pound of chopped suet",
+      "two pounds of flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "aaece5d6-d873-5024-9b27-789b91eccb4b",
+  "name": "Roman Punch No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lemons",
+      "originalText": "four lemons",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oranges",
+      "originalText": "two oranges",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf sugar",
+      "originalText": "two pounds of loaf sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bottle of champagne",
+      "originalText": "a bottle of champagne",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of eight eggs",
+      "originalText": "whites of eight eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate the yellow rind of four lemons and two oranges upon two pounds of loaf sugar",
+      "section": null
+    },
+    {
+      "text": "Squeeze the juice of the lemons and oranges and cover it",
+      "section": null
+    },
+    {
+      "text": "Let it stand until next day",
+      "section": null
+    },
+    {
+      "text": "Strain it through a sieve and mix with the sugar",
+      "section": null
+    },
+    {
+      "text": "Add a bottle of champagne and the whites of eight eggs beaten to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "It may be frozen or not, as desired",
+      "section": null
+    },
+    {
+      "text": "For winter use snow instead of ice",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/roman-punch-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate the yellow rind of four lemons and two oranges upon two pounds of loaf sugar\n2. Squeeze the juice of the lemons and oranges and cover it\n3. Let it stand until next day\n4. Strain it through a sieve and mix with the sugar\n5. Add a bottle of champagne and the whites of eight eggs beaten to a stiff froth\n6. It may be frozen or not, as desired\n7. For winter use snow instead of ice",
+    "originalIngredients": [
+      "four lemons",
+      "two oranges",
+      "two pounds of loaf sugar",
+      "a bottle of champagne",
+      "whites of eight eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

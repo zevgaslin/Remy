@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "88a72307-05a3-5a3e-963d-e1d307cf256d",
+  "name": "Mexican Candy",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "granulated sugar",
+      "originalText": "5 cups granulated sugar",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "golden syrup",
+      "originalText": "1 cup golden syrup",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1 cup water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg whites",
+      "originalText": "4 egg whites",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped walnuts",
+      "originalText": "1 cup chopped walnuts",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flavoring",
+      "originalText": "flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put sugar, water and syrup on to boil and stir until it melts",
+      "section": null
+    },
+    {
+      "text": "Beat the egg whites",
+      "section": null
+    },
+    {
+      "text": "After the mixture has boiled a few minutes, pour 1 cup over the egg whites",
+      "section": null
+    },
+    {
+      "text": "Let the remainder boil until it hairs",
+      "section": null
+    },
+    {
+      "text": "Add nuts and pour over the eggs",
+      "section": null
+    },
+    {
+      "text": "Beat until stiff",
+      "section": null
+    },
+    {
+      "text": "When partially cool, beat in the flavoring",
+      "section": null
+    },
+    {
+      "text": "Pour on buttered plates and cut in squares as used",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/mexican-candy.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put sugar, water and syrup on to boil and stir until it melts\n2. Beat the egg whites\n3. After the mixture has boiled a few minutes, pour 1 cup over the egg whites\n4. Let the remainder boil until it hairs\n5. Add nuts and pour over the eggs\n6. Beat until stiff\n7. When partially cool, beat in the flavoring\n8. Pour on buttered plates and cut in squares as used",
+    "originalIngredients": [
+      "5 cups granulated sugar",
+      "1 cup golden syrup",
+      "1 cup water",
+      "4 egg whites",
+      "1 cup chopped walnuts",
+      "flavoring"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

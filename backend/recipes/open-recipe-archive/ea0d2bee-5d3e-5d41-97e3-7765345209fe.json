@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "ea0d2bee-5d3e-5d41-97e3-7765345209fe",
+  "name": "Fine Cookies",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large tea-cupsful of flour",
+      "originalText": "five large tea-cupsful of flour",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tea-cup of fresh butter",
+      "originalText": "one tea-cup of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered white sugar",
+      "originalText": "two cups of powdered white sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a handful or two of carraway seeds",
+      "originalText": "a handful or two of carraway seeds",
+      "quantity": null,
+      "quantityText": "a handful or two of carraway seeds",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "an egg",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little rose-water",
+      "originalText": "a little rose-water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of sal-aratus",
+      "originalText": "a small tea-spoonful of sal-aratus",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lukewarm water",
+      "originalText": "lukewarm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift into a pan five large tea-cupsful of flour",
+      "section": null
+    },
+    {
+      "text": "Rub into it one tea-cup of fresh butter",
+      "section": null
+    },
+    {
+      "text": "Add two cups of powdered white sugar, and a handful or two of carraway seeds",
+      "section": null
+    },
+    {
+      "text": "Wet it with an egg well beaten, and a little rose-water",
+      "section": null
+    },
+    {
+      "text": "Dissolve a small tea-spoonful of sal-aratus in a very little lukewarm water and add at the last",
+      "section": null
+    },
+    {
+      "text": "Knead the whole well",
+      "section": null
+    },
+    {
+      "text": "Roll it out into a sheet",
+      "section": null
+    },
+    {
+      "text": "Cut it into cakes with a stamp or a tumbler edge",
+      "section": null
+    },
+    {
+      "text": "Put them into a buttered pan",
+      "section": null
+    },
+    {
+      "text": "Bake them about fifteen minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fine-cookies.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift into a pan five large tea-cupsful of flour\n2. Rub into it one tea-cup of fresh butter\n3. Add two cups of powdered white sugar, and a handful or two of carraway seeds\n4. Wet it with an egg well beaten, and a little rose-water\n5. Dissolve a small tea-spoonful of sal-aratus in a very little lukewarm water and add at the last\n6. Knead the whole well\n7. Roll it out into a sheet\n8. Cut it into cakes with a stamp or a tumbler edge\n9. Put them into a buttered pan\n10. Bake them about fifteen minutes",
+    "originalIngredients": [
+      "five large tea-cupsful of flour",
+      "one tea-cup of fresh butter",
+      "two cups of powdered white sugar",
+      "a handful or two of carraway seeds",
+      "an egg",
+      "a little rose-water",
+      "a small tea-spoonful of sal-aratus",
+      "lukewarm water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

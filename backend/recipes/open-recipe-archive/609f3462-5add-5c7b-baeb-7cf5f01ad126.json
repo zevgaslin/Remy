@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "609f3462-5add-5c7b-baeb-7cf5f01ad126",
+  "name": "Buns (No. 3)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3/8 cup sugar",
+      "quantity": 0.375,
+      "quantityText": "3/8",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "1 pint hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1 pint sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants if desired",
+      "originalText": "currants if desired",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pour hot water over butter, sugar, and salt",
+      "section": null
+    },
+    {
+      "text": "When butter and sugar are melted, cool by adding 1 pint of sweet milk",
+      "section": null
+    },
+    {
+      "text": "Add flour enough to make a rather stiff batter",
+      "section": null
+    },
+    {
+      "text": "Soak White Swan Yeast Cake for 10 minutes in warm water",
+      "section": null
+    },
+    {
+      "text": "Stir in yeast cake",
+      "section": null
+    },
+    {
+      "text": "Let it stand in warm place over night",
+      "section": null
+    },
+    {
+      "text": "In the morning add flour enough to knead into a stiff dough",
+      "section": null
+    },
+    {
+      "text": "Let it rise and when light roll out an inch thick",
+      "section": null
+    },
+    {
+      "text": "Spread lightly over the top with butter",
+      "section": null
+    },
+    {
+      "text": "Cut with small cake cutter",
+      "section": null
+    },
+    {
+      "text": "When light, bake in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "A cup of currants may be added if desired",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/buns-no-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pour hot water over butter, sugar, and salt\n2. When butter and sugar are melted, cool by adding 1 pint of sweet milk\n3. Add flour enough to make a rather stiff batter\n4. Soak White Swan Yeast Cake for 10 minutes in warm water\n5. Stir in yeast cake\n6. Let it stand in warm place over night\n7. In the morning add flour enough to knead into a stiff dough\n8. Let it rise and when light roll out an inch thick\n9. Spread lightly over the top with butter\n10. Cut with small cake cutter\n11. When light, bake in a moderate oven\n12. A cup of currants may be added if desired",
+    "originalIngredients": [
+      "1/2 cup butter",
+      "3/8 cup sugar",
+      "1 tablespoon salt",
+      "1 pint hot water",
+      "1 pint sweet milk",
+      "flour",
+      "1 White Swan Yeast Cake",
+      "warm water",
+      "currants if desired"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

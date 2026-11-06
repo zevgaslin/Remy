@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "c702e2d4-3fc8-55f8-9ba3-f8c10ead0733",
+  "name": "Jellied Veal",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "shank of veal",
+      "originalText": "A shank of veal",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "Water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cover with water and cook a shank of veal slowly until the meat comes easily from the bones",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper",
+      "section": null
+    },
+    {
+      "text": "Meanwhile hard-boil two eggs and chill in cold water",
+      "section": null
+    },
+    {
+      "text": "Moisten a mould, cut the eggs in slices and lay in the bottom",
+      "section": null
+    },
+    {
+      "text": "Take out the bones and gristle and pour the remainder on the eggs",
+      "section": null
+    },
+    {
+      "text": "Put in a cool place, or on ice, and it will jelly quickly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/jellied-veal-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cover with water and cook a shank of veal slowly until the meat comes easily from the bones\n2. Season with salt and pepper\n3. Meanwhile hard-boil two eggs and chill in cold water\n4. Moisten a mould, cut the eggs in slices and lay in the bottom\n5. Take out the bones and gristle and pour the remainder on the eggs\n6. Put in a cool place, or on ice, and it will jelly quickly",
+    "originalIngredients": [
+      "A shank of veal",
+      "Water",
+      "Salt and pepper",
+      "2 eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

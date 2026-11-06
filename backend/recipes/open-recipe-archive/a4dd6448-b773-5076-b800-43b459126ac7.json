@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "a4dd6448-b773-5076-b800-43b459126ac7",
+  "name": "Peas Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "two quarts of dried or split peas",
+      "originalText": "two quarts of dried or split peas",
+      "quantity": null,
+      "quantityText": "two quarts of dried or split peas",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean fresh beef",
+      "originalText": "three pounds lean fresh beef",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pound of bacon or pickled pork",
+      "originalText": "pound of bacon or pickled pork",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "table-spoonful of dried mint",
+      "originalText": "table-spoonful of dried mint",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "five quarts of water",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heads of celery",
+      "originalText": "four heads of celery",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pounded celery seed",
+      "originalText": "two table-spoonfuls of pounded celery seed",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "toasted bread",
+      "originalText": "toasted bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak two quarts of dried or split peas over-night.",
+      "section": null
+    },
+    {
+      "text": "In the morning take three pounds of the lean of fresh beef, and a pound of bacon or pickled pork.",
+      "section": null
+    },
+    {
+      "text": "Cut them into pieces, and put them into a large soup-pot with the peas, (which must first be well drained,) and a table-spoonful of dried mint rubbed to powder.",
+      "section": null
+    },
+    {
+      "text": "Add five quarts of water, and boil the soup gently for three hours, skimming it well, and then put in four heads of celery cut small, or two table-spoonfuls of pounded celery seed.",
+      "section": null
+    },
+    {
+      "text": "It must be boiled till the peas are entirely dissolved, so as to be no longer distinguishable, and the celery quite soft.",
+      "section": null
+    },
+    {
+      "text": "Then strain it into a tureen, and serve it up with toasted bread cut in dice.",
+      "section": null
+    },
+    {
+      "text": "Omit the crust of the bread.",
+      "section": null
+    },
+    {
+      "text": "Stir it up immediately before it goes to table, as it is apt to settle, and be thick at the bottom and thin at the top.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/peas-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak two quarts of dried or split peas over-night.\n2. In the morning take three pounds of the lean of fresh beef, and a pound of bacon or pickled pork.\n3. Cut them into pieces, and put them into a large soup-pot with the peas, (which must first be well drained,) and a table-spoonful of dried mint rubbed to powder.\n4. Add five quarts of water, and boil the soup gently for three hours, skimming it well, and then put in four heads of celery cut small, or two table-spoonfuls of pounded celery seed.\n5. It must be boiled till the peas are entirely dissolved, so as to be no longer distinguishable, and the celery quite soft.\n6. Then strain it into a tureen, and serve it up with toasted bread cut in dice.\n7. Omit the crust of the bread.\n8. Stir it up immediately before it goes to table, as it is apt to settle, and be thick at the bottom and thin at the top.",
+    "originalIngredients": [
+      "two quarts of dried or split peas",
+      "three pounds lean fresh beef",
+      "pound of bacon or pickled pork",
+      "table-spoonful of dried mint",
+      "five quarts of water",
+      "four heads of celery",
+      "two table-spoonfuls of pounded celery seed",
+      "toasted bread"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

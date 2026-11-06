@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "b4c2cbdb-238b-5ffc-b674-dbd4bfdecc05",
+  "name": "Green-Pea Pancakes",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "green peas",
+      "originalText": "2 cupfuls of green peas",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten eggs",
+      "originalText": "2 beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cupful of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "1/2 teaspoonful of baking powder",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1/2 cupful of flour",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the peas expressly for this dish, mashed while hot, and rubbed through a colander.",
+      "section": null
+    },
+    {
+      "text": "Season with pepper, salt, and butter to taste; let them get cold; then add two beaten eggs and a cupful of milk.",
+      "section": null
+    },
+    {
+      "text": "Sift half a teaspoonful of baking powder twice through half a cupful of flour, and beat in lightly at the last.",
+      "section": null
+    },
+    {
+      "text": "Mix well and bake as you would griddle-cakes.",
+      "section": null
+    },
+    {
+      "text": "Eat hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/green-pea-pancakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the peas expressly for this dish, mashed while hot, and rubbed through a colander.\n2. Season with pepper, salt, and butter to taste; let them get cold; then add two beaten eggs and a cupful of milk.\n3. Sift half a teaspoonful of baking powder twice through half a cupful of flour, and beat in lightly at the last.\n4. Mix well and bake as you would griddle-cakes.\n5. Eat hot.",
+    "originalIngredients": [
+      "2 cupfuls of green peas",
+      "pepper",
+      "salt",
+      "butter",
+      "2 beaten eggs",
+      "1 cupful of milk",
+      "1/2 teaspoonful of baking powder",
+      "1/2 cupful of flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

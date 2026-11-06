@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "a6998643-7fbb-5045-bc4d-3e4db5b7cf3f",
+  "name": "Milk Buns",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "new milk",
+      "originalText": "2 cups new milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoon lard",
+      "originalText": "1 heaping tablespoon lard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1/2 White Swan Yeast Cake or 1/4 cup hop yeast",
+      "originalText": "1/2 White Swan Yeast Cake or 1/4 cup hop yeast",
+      "quantity": null,
+      "quantityText": "1/2 White Swan Yeast Cake or 1/4 cup hop yeast",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Let milk come to a boil",
+      "section": null
+    },
+    {
+      "text": "Stir in sugar and lard",
+      "section": null
+    },
+    {
+      "text": "When lukewarm put in White Swan Yeast Cake or hop yeast",
+      "section": null
+    },
+    {
+      "text": "Add enough flour to make a batter as thick as for sponge cake",
+      "section": null
+    },
+    {
+      "text": "Let rise till morning and keep very warm",
+      "section": null
+    },
+    {
+      "text": "In morning put in egg and a little salt",
+      "section": null
+    },
+    {
+      "text": "Mix as stiff as soft bread",
+      "section": null
+    },
+    {
+      "text": "Let rise again till real light",
+      "section": null
+    },
+    {
+      "text": "When very light take out on bakeboard and roll out 3/8 inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut in round cakes",
+      "section": null
+    },
+    {
+      "text": "Butter and turn over double",
+      "section": null
+    },
+    {
+      "text": "Pinch ends",
+      "section": null
+    },
+    {
+      "text": "Let rise 1 hour",
+      "section": null
+    },
+    {
+      "text": "Bake in quick oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/milk-buns.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Let milk come to a boil\n2. Stir in sugar and lard\n3. When lukewarm put in White Swan Yeast Cake or hop yeast\n4. Add enough flour to make a batter as thick as for sponge cake\n5. Let rise till morning and keep very warm\n6. In morning put in egg and a little salt\n7. Mix as stiff as soft bread\n8. Let rise again till real light\n9. When very light take out on bakeboard and roll out 3/8 inch thick\n10. Cut in round cakes\n11. Butter and turn over double\n12. Pinch ends\n13. Let rise 1 hour\n14. Bake in quick oven",
+    "originalIngredients": [
+      "2 cups new milk",
+      "1 cup granulated sugar",
+      "1 heaping tablespoon lard",
+      "1/2 White Swan Yeast Cake or 1/4 cup hop yeast",
+      "flour",
+      "1 egg",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "e7168b9b-203a-53a0-9187-28d73d8bf24d",
+  "name": "Beef Tea",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lean fresh juicy beef",
+      "originalText": "one pound of lean fresh juicy beef",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut a pound of the lean of fresh juicy beef into small thin slices and sprinkle them with a very little salt",
+      "section": null
+    },
+    {
+      "text": "Put the meat into a wide-mouthed glass or stone jar closely corked",
+      "section": null
+    },
+    {
+      "text": "Set it in a kettle or pan of water, which must be made to boil and kept boiling hard round the jar for an hour or more",
+      "section": null
+    },
+    {
+      "text": "Take out the jar and strain the essence of the beef into a bowl",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/beef-tea.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut a pound of the lean of fresh juicy beef into small thin slices and sprinkle them with a very little salt\n2. Put the meat into a wide-mouthed glass or stone jar closely corked\n3. Set it in a kettle or pan of water, which must be made to boil and kept boiling hard round the jar for an hour or more\n4. Take out the jar and strain the essence of the beef into a bowl",
+    "originalIngredients": [
+      "one pound of lean fresh juicy beef",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

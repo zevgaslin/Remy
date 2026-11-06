@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "5ef02d29-d035-5237-b556-584f1f4a8f5e",
+  "name": "Green Pea Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "stock",
+      "originalText": "2 qts. stock",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peck old peas",
+      "originalText": "1 peck old peas",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lettuce",
+      "originalText": "2 lettuce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoonful flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few sprigs of mint",
+      "originalText": "a few sprigs of mint",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little cucumber",
+      "originalText": "a little cucumber",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "toasted bread",
+      "originalText": "toasted bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Reserve one quart of stock and a teacupful of peas",
+      "section": null
+    },
+    {
+      "text": "Put the rest of stock and all the vegetables together and simmer till quite tender",
+      "section": null
+    },
+    {
+      "text": "Press all through a sieve",
+      "section": null
+    },
+    {
+      "text": "Add the remainder of the stock, let it come to the boiling point",
+      "section": null
+    },
+    {
+      "text": "Just before serving, if the soup is not very thick, add the butter and flour well mixed together",
+      "section": null
+    },
+    {
+      "text": "Boil the teacup of peas by themselves, put them in the tureen and pour the soup over them",
+      "section": null
+    },
+    {
+      "text": "Serve with a dish of toasted bread",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/green-pea-soup-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Reserve one quart of stock and a teacupful of peas\n2. Put the rest of stock and all the vegetables together and simmer till quite tender\n3. Press all through a sieve\n4. Add the remainder of the stock, let it come to the boiling point\n5. Just before serving, if the soup is not very thick, add the butter and flour well mixed together\n6. Boil the teacup of peas by themselves, put them in the tureen and pour the soup over them\n7. Serve with a dish of toasted bread",
+    "originalIngredients": [
+      "2 qts. stock",
+      "1 peck old peas",
+      "2 lettuce",
+      "1 onion",
+      "1 tablespoonful butter",
+      "1 tablespoonful flour",
+      "a few sprigs of mint",
+      "a little cucumber",
+      "toasted bread"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

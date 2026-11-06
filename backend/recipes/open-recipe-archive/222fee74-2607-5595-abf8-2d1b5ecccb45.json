@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "222fee74-2607-5595-abf8-2d1b5ecccb45",
+  "name": "Apple Pudding",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen medium-sized apples",
+      "originalText": "a dozen medium-sized apples",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3/4 cup sugar",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little water",
+      "originalText": "a little water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter size of small egg",
+      "originalText": "butter size of small egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1 cup sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoon of baking powder",
+      "originalText": "a heaping teaspoon of baking powder",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel, core and cut apples in quarters",
+      "section": null
+    },
+    {
+      "text": "Put apples with 3/4 cup sugar and a little water in saucepan and stew until they are about half done",
+      "section": null
+    },
+    {
+      "text": "Make a batter of 1 egg, 1 cup sugar, butter size of small egg creamed together",
+      "section": null
+    },
+    {
+      "text": "Add 1 cup sweet milk, a heaping teaspoon of baking powder and flour to thicken",
+      "section": null
+    },
+    {
+      "text": "Put apples in pudding dish",
+      "section": null
+    },
+    {
+      "text": "Pour batter over them and bake",
+      "section": null
+    },
+    {
+      "text": "When done spread butter over the pudding and serve with cream",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/apple-pudding-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel, core and cut apples in quarters\n2. Put apples with 3/4 cup sugar and a little water in saucepan and stew until they are about half done\n3. Make a batter of 1 egg, 1 cup sugar, butter size of small egg creamed together\n4. Add 1 cup sweet milk, a heaping teaspoon of baking powder and flour to thicken\n5. Put apples in pudding dish\n6. Pour batter over them and bake\n7. When done spread butter over the pudding and serve with cream",
+    "originalIngredients": [
+      "a dozen medium-sized apples",
+      "3/4 cup sugar",
+      "a little water",
+      "1 egg",
+      "1 cup sugar",
+      "butter size of small egg",
+      "1 cup sweet milk",
+      "a heaping teaspoon of baking powder",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

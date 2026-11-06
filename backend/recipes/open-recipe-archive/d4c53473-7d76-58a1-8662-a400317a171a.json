@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "d4c53473-7d76-58a1-8662-a400317a171a",
+  "name": "Spiced Oysters",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hundred large oysters",
+      "originalText": "four hundred large oysters",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cider vinegar",
+      "originalText": "a pint of cider vinegar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmegs",
+      "originalText": "four grated nutmegs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sixteen blades of whole mace",
+      "originalText": "sixteen blades of whole mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen of whole cloves",
+      "originalText": "six dozen of whole cloves",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen whole pepper corns",
+      "originalText": "three dozen whole pepper corns",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt-spoonful of cayenne",
+      "originalText": "a salt-spoonful of cayenne",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the liquor into a porcelain kettle, and boil and skim it",
+      "section": null
+    },
+    {
+      "text": "When it has come to a hard boil, add the vinegar and put in the oysters with the seasoning of spices, &c.",
+      "section": null
+    },
+    {
+      "text": "Give them one boil up, for if boiled longer they will shrivel and lose their flavour",
+      "section": null
+    },
+    {
+      "text": "Put them into a stone or glass jar, cover them closely, and set them in a cool place",
+      "section": null
+    },
+    {
+      "text": "They must be quite cold when eaten",
+      "section": null
+    },
+    {
+      "text": "You may give them a light reddish tint by boiling in the liquor a little prepared cochineal",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/spiced-oysters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the liquor into a porcelain kettle, and boil and skim it\n2. When it has come to a hard boil, add the vinegar and put in the oysters with the seasoning of spices, &c.\n3. Give them one boil up, for if boiled longer they will shrivel and lose their flavour\n4. Put them into a stone or glass jar, cover them closely, and set them in a cool place\n5. They must be quite cold when eaten\n6. You may give them a light reddish tint by boiling in the liquor a little prepared cochineal",
+    "originalIngredients": [
+      "four hundred large oysters",
+      "a pint of cider vinegar",
+      "four grated nutmegs",
+      "sixteen blades of whole mace",
+      "six dozen of whole cloves",
+      "three dozen whole pepper corns",
+      "a salt-spoonful of cayenne"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

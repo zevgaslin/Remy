@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "db14db14-e293-5a69-b6b0-7918873dd0a6",
+  "name": "Ginger Beer",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallons boiling water",
+      "originalText": "2 gallons boiling water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "2 pounds brown sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 and a half ounce cream of tartar",
+      "originalText": "1 and a half ounce cream of tartar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 and a half ounce pounded ginger",
+      "originalText": "1 and a half ounce pounded ginger",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good yeast",
+      "originalText": "half a pint good yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pour two gallons of boiling water on two pounds brown sugar, one and a half ounce of cream of tartar, and the same of pounded ginger",
+      "section": null
+    },
+    {
+      "text": "Stir them well, and put it in a small cask",
+      "section": null
+    },
+    {
+      "text": "When milk warm, put in half a pint of good yeast",
+      "section": null
+    },
+    {
+      "text": "Shake the cask well, and stop it close",
+      "section": null
+    },
+    {
+      "text": "In twenty-four hours it will be fit to bottle",
+      "section": null
+    },
+    {
+      "text": "Cork it very well, and in ten days it will sparkle like Champaigne",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ginger-beer.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pour two gallons of boiling water on two pounds brown sugar, one and a half ounce of cream of tartar, and the same of pounded ginger\n2. Stir them well, and put it in a small cask\n3. When milk warm, put in half a pint of good yeast\n4. Shake the cask well, and stop it close\n5. In twenty-four hours it will be fit to bottle\n6. Cork it very well, and in ten days it will sparkle like Champaigne",
+    "originalIngredients": [
+      "2 gallons boiling water",
+      "2 pounds brown sugar",
+      "1 and a half ounce cream of tartar",
+      "1 and a half ounce pounded ginger",
+      "half a pint good yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

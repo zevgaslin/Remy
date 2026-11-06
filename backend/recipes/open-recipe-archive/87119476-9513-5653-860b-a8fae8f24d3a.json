@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "87119476-9513-5653-860b-a8fae8f24d3a",
+  "name": "Filtered or Drip Coffee",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large tablespoonful of finely ground coffee for each person",
+      "originalText": "One large tablespoonful of finely ground coffee for each person",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water for every tablespoonful of coffee",
+      "originalText": "One cupful of boiling water for every tablespoonful of coffee",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "part Mocha to two of Java coffee",
+      "originalText": "One part Mocha to two of Java coffee",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Have a small iron ring made to fit the top of the coffeepot inside",
+      "section": null
+    },
+    {
+      "text": "Sew a small muslin bag to this ring",
+      "section": null
+    },
+    {
+      "text": "Fit the bag into the pot and pour some boiling water in it",
+      "section": null
+    },
+    {
+      "text": "When the pot is well warmed, put the ground coffee into the bag",
+      "section": null
+    },
+    {
+      "text": "Pour over as much boiling water as is required",
+      "section": null
+    },
+    {
+      "text": "Close the lid",
+      "section": null
+    },
+    {
+      "text": "When all the water has filtered through, remove the bag",
+      "section": null
+    },
+    {
+      "text": "Send the coffee to table",
+      "section": null
+    },
+    {
+      "text": "The water should be poured on the coffee gradually so that the infusion may be stronger",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/filtered-or-drip-coffee.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Have a small iron ring made to fit the top of the coffeepot inside\n2. Sew a small muslin bag to this ring\n3. Fit the bag into the pot and pour some boiling water in it\n4. When the pot is well warmed, put the ground coffee into the bag\n5. Pour over as much boiling water as is required\n6. Close the lid\n7. When all the water has filtered through, remove the bag\n8. Send the coffee to table\n9. The water should be poured on the coffee gradually so that the infusion may be stronger",
+    "originalIngredients": [
+      "One large tablespoonful of finely ground coffee for each person",
+      "One cupful of boiling water for every tablespoonful of coffee",
+      "One part Mocha to two of Java coffee"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

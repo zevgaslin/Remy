@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "caa0a34d-f1a6-5df4-b10e-dc06ab64b0b1",
+  "name": "Jelly Roll",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ tablespoon milk",
+      "originalText": "½ tablespoon milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "1 teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ teaspoon salt",
+      "originalText": "¼ teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "1 tablespoon melted butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jelly or jam",
+      "originalText": "jelly or jam",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat egg until light, add sugar gradually, milk, flour mixed and sifted with baking powder and salt, then butter.",
+      "section": null
+    },
+    {
+      "text": "Line the bottom of a dripping-pan with paper; butter paper and sides of pan.",
+      "section": null
+    },
+    {
+      "text": "Cover bottom of pan with mixture, and spread evenly.",
+      "section": null
+    },
+    {
+      "text": "Bake twelve minutes in a moderate oven.",
+      "section": null
+    },
+    {
+      "text": "Take from oven and turn on a paper sprinkled with powdered sugar.",
+      "section": null
+    },
+    {
+      "text": "Quickly remove paper, and cut off a thin strip from sides and ends of cake.",
+      "section": null
+    },
+    {
+      "text": "Spread with jelly or jam which has been beaten to consistency to spread easily, and roll.",
+      "section": null
+    },
+    {
+      "text": "After cake has been rolled, roll paper around cake that it may better keep in shape.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/jelly-roll.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat egg until light, add sugar gradually, milk, flour mixed and sifted with baking powder and salt, then butter.\n2. Line the bottom of a dripping-pan with paper; butter paper and sides of pan.\n3. Cover bottom of pan with mixture, and spread evenly.\n4. Bake twelve minutes in a moderate oven.\n5. Take from oven and turn on a paper sprinkled with powdered sugar.\n6. Quickly remove paper, and cut off a thin strip from sides and ends of cake.\n7. Spread with jelly or jam which has been beaten to consistency to spread easily, and roll.\n8. After cake has been rolled, roll paper around cake that it may better keep in shape.",
+    "originalIngredients": [
+      "3 eggs",
+      "1 cup sugar",
+      "½ tablespoon milk",
+      "1 teaspoon baking powder",
+      "¼ teaspoon salt",
+      "1 cup flour",
+      "1 tablespoon melted butter",
+      "jelly or jam",
+      "powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

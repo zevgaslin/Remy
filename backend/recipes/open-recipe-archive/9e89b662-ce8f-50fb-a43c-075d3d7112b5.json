@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "9e89b662-ce8f-50fb-a43c-075d3d7112b5",
+  "name": "Cream of Spinach",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "spinach",
+      "originalText": "spinach",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "four ounces of fresh butter",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little grated nutmeg",
+      "originalText": "a little grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strong stock",
+      "originalText": "two quarts of strong stock",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "a tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "a teaspoonful of granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pick, wash and boil enough spinach to measure a pint, when cooked, chopped and pounded into a soft paste",
+      "section": null
+    },
+    {
+      "text": "Put it into a stewpan with four ounces of fresh butter, a little grated nutmeg, a teaspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Cook and stir it about ten minutes",
+      "section": null
+    },
+    {
+      "text": "Add to this two quarts of strong stock; let boil up, then rub it through a strainer",
+      "section": null
+    },
+    {
+      "text": "Set it over the fire again, and, when on the point of boiling, mix with it a tablespoonful of butter, and a teaspoonful of granulated sugar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cream-of-spinach.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pick, wash and boil enough spinach to measure a pint, when cooked, chopped and pounded into a soft paste\n2. Put it into a stewpan with four ounces of fresh butter, a little grated nutmeg, a teaspoonful of salt\n3. Cook and stir it about ten minutes\n4. Add to this two quarts of strong stock; let boil up, then rub it through a strainer\n5. Set it over the fire again, and, when on the point of boiling, mix with it a tablespoonful of butter, and a teaspoonful of granulated sugar",
+    "originalIngredients": [
+      "spinach",
+      "four ounces of fresh butter",
+      "a little grated nutmeg",
+      "a teaspoonful of salt",
+      "two quarts of strong stock",
+      "a tablespoonful of butter",
+      "a teaspoonful of granulated sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

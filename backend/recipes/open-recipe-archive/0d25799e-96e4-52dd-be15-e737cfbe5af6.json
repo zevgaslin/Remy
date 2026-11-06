@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "0d25799e-96e4-52dd-be15-e737cfbe5af6",
+  "name": "Fruit Pin Wheels",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 pt flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoonfuls butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 tablespoonful sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "0.5 pt milk",
+      "quantity": 0.5,
+      "quantityText": "0.5",
+      "unit": "pt",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoonfuls baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "1 cup currants",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little nutmeg",
+      "originalText": "a little nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large spoonful of slightly melted butter",
+      "originalText": "a large spoonful of slightly melted butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Demerara sugar",
+      "originalText": "one cupful of Demerara sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix sifted flour, sugar, salt, and baking powder",
+      "section": null
+    },
+    {
+      "text": "Rub in butter, and mix into a moderately stiff dough with half a pint of milk",
+      "section": null
+    },
+    {
+      "text": "Sprinkle the pastry board with flour, turn out the dough and roll it to a large square about half an inch thick",
+      "section": null
+    },
+    {
+      "text": "Spread a large spoonful of slightly melted butter on this",
+      "section": null
+    },
+    {
+      "text": "Add one cupful of Demerara sugar, and one cupful of well-cleaned currants",
+      "section": null
+    },
+    {
+      "text": "Grate a little nutmeg over the sugar and currants",
+      "section": null
+    },
+    {
+      "text": "Roll up just like a jelly roll or poly-poly",
+      "section": null
+    },
+    {
+      "text": "Cut the roll into slices about three-quarters of an inch thick",
+      "section": null
+    },
+    {
+      "text": "Place them upon a well-buttered baking shell or tin, but do not let the slices touch",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/fruit-pin-wheels.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix sifted flour, sugar, salt, and baking powder\n2. Rub in butter, and mix into a moderately stiff dough with half a pint of milk\n3. Sprinkle the pastry board with flour, turn out the dough and roll it to a large square about half an inch thick\n4. Spread a large spoonful of slightly melted butter on this\n5. Add one cupful of Demerara sugar, and one cupful of well-cleaned currants\n6. Grate a little nutmeg over the sugar and currants\n7. Roll up just like a jelly roll or poly-poly\n8. Cut the roll into slices about three-quarters of an inch thick\n9. Place them upon a well-buttered baking shell or tin, but do not let the slices touch",
+    "originalIngredients": [
+      "1 pt flour",
+      "2 tablespoonfuls butter",
+      "1 tablespoonful sugar",
+      "0.5 pt milk",
+      "2 teaspoonfuls baking powder",
+      "1 cup currants",
+      "a little nutmeg",
+      "a large spoonful of slightly melted butter",
+      "one cupful of Demerara sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

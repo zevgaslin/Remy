@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "8a8251d6-c347-5b94-a61b-9986c91f1d85",
+  "name": "Mutton Cutlets à la Maintenon",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "French Chops",
+      "originalText": "six French Chops",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and one-half tablespoons butter",
+      "originalText": "one and one-half tablespoons butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "one tablespoon onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cup chopped mushrooms",
+      "originalText": "one-half cup chopped mushrooms",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stock",
+      "originalText": "three tablespoons stock",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped parsley",
+      "originalText": "one teaspoon finely chopped parsley",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-fourth teaspoon salt",
+      "originalText": "one-fourth teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne",
+      "originalText": "cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "buttered paper cases",
+      "originalText": "buttered paper cases",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe six French Chops, cut one and one-half inches thick.",
+      "section": null
+    },
+    {
+      "text": "Split meat in halves, cutting to bone.",
+      "section": null
+    },
+    {
+      "text": "Cook two and one-half tablespoons butter and one tablespoon onion five minutes; remove onion, add one-half cup chopped mushrooms, and cook five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add two tablespoons flour, three tablespoons stock, one teaspoon finely chopped parsley, one-fourth teaspoon salt, and a few grains cayenne.",
+      "section": null
+    },
+    {
+      "text": "Spread mixture between layers of chops, press together lightly, wrap in buttered paper cases, and broil ten minutes.",
+      "section": null
+    },
+    {
+      "text": "Serve with Spanish Sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mutton-cutlets-la-maintenon.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe six French Chops, cut one and one-half inches thick.\n2. Split meat in halves, cutting to bone.\n3. Cook two and one-half tablespoons butter and one tablespoon onion five minutes; remove onion, add one-half cup chopped mushrooms, and cook five minutes.\n4. Add two tablespoons flour, three tablespoons stock, one teaspoon finely chopped parsley, one-fourth teaspoon salt, and a few grains cayenne.\n5. Spread mixture between layers of chops, press together lightly, wrap in buttered paper cases, and broil ten minutes.\n6. Serve with Spanish Sauce.",
+    "originalIngredients": [
+      "six French Chops",
+      "one and one-half tablespoons butter",
+      "one tablespoon onion",
+      "one-half cup chopped mushrooms",
+      "two tablespoons flour",
+      "three tablespoons stock",
+      "one teaspoon finely chopped parsley",
+      "one-fourth teaspoon salt",
+      "cayenne",
+      "buttered paper cases"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

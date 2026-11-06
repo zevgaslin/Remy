@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "id": "90555b14-9eaf-597c-b51b-440bf6a31b5d",
+  "name": "Venison Steak, Chestnut Sauce",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Venison steak",
+      "originalText": "Venison steak",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Grease for broiler",
+      "originalText": "Grease for broiler",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half onion",
+      "originalText": "One-half onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot, cut in small pieces",
+      "originalText": "Six slices carrot, cut in small pieces",
+      "quantity": 6.0,
+      "quantityText": "Six",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "Two tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "Three tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One and one-half cups Brown Stock",
+      "originalText": "One and one-half cups Brown Stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig of parsley",
+      "originalText": "A sprig of parsley",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bit of bay leaf",
+      "originalText": "A bit of bay leaf",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "Eight peppercorns",
+      "quantity": 8.0,
+      "quantityText": "Eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "One teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Madeira wine",
+      "originalText": "Three tablespoons Madeira wine",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiled French chestnuts",
+      "originalText": "One cup boiled French chestnuts",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe steak, sprinkle with salt and pepper, place on a greased broiler, and broil five minutes.",
+      "section": null
+    },
+    {
+      "text": "Fry onion and carrot in two tablespoons butter for five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add flour and stir until well browned.",
+      "section": null
+    },
+    {
+      "text": "Add Brown Stock, parsley, bay leaf, peppercorns, and salt.",
+      "section": null
+    },
+    {
+      "text": "Let simmer twenty minutes and strain.",
+      "section": null
+    },
+    {
+      "text": "Add Madeira wine, boiled French chestnuts, and one tablespoon butter.",
+      "section": null
+    },
+    {
+      "text": "Pour sauce over steak on hot platter.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/venison-steak-chestnut-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe steak, sprinkle with salt and pepper, place on a greased broiler, and broil five minutes.\n2. Fry onion and carrot in two tablespoons butter for five minutes.\n3. Add flour and stir until well browned.\n4. Add Brown Stock, parsley, bay leaf, peppercorns, and salt.\n5. Let simmer twenty minutes and strain.\n6. Add Madeira wine, boiled French chestnuts, and one tablespoon butter.\n7. Pour sauce over steak on hot platter.",
+    "originalIngredients": [
+      "Venison steak",
+      "Salt",
+      "Pepper",
+      "Grease for broiler",
+      "One-half onion",
+      "Six slices carrot, cut in small pieces",
+      "Two tablespoons butter",
+      "Three tablespoons flour",
+      "One and one-half cups Brown Stock",
+      "A sprig of parsley",
+      "A bit of bay leaf",
+      "Eight peppercorns",
+      "One teaspoon salt",
+      "Three tablespoons Madeira wine",
+      "One cup boiled French chestnuts",
+      "One tablespoon butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

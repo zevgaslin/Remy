@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "8aed528e-95d6-58c5-93d3-867a88436123",
+  "name": "Turnip Soup",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Knuckle of veal, well cracked",
+      "originalText": "Knuckle of veal, well cracked",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "5 qts. water",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "6 large winter or a dozen small summer turnips",
+      "originalText": "6 large winter or a dozen small summer turnips",
+      "quantity": null,
+      "quantityText": "6 large winter or a dozen small summer turnips",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet marjoram or thyme minced very finely",
+      "originalText": "Sweet marjoram or thyme minced very finely",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 tablespoonful rice-flour or other thickening",
+      "originalText": "1 tablespoonful rice-flour or other thickening",
+      "quantity": null,
+      "quantityText": "1 tablespoonful rice-flour or other thickening",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cover closely and stew gently for four hours, the day before the soup is wanted.",
+      "section": null
+    },
+    {
+      "text": "On the morrow, skim off the fat and warm the stock gradually to a boil.",
+      "section": null
+    },
+    {
+      "text": "Have ready an onion and six large winter or a dozen small summer turnips, sweet marjoram or thyme minced very finely.",
+      "section": null
+    },
+    {
+      "text": "Put these into the soup and let them simmer together for an hour.",
+      "section": null
+    },
+    {
+      "text": "Strain; return to the fire and add a cup of milk—in which has been stirred a tablespoonful of rice-flour or other thickening—and a tablespoonful of butter.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper, let it boil up once, stirring all the time, as is necessary in all soups where milk is added at last, and remove instantly, or it will scorch.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/turnip-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cover closely and stew gently for four hours, the day before the soup is wanted.\n2. On the morrow, skim off the fat and warm the stock gradually to a boil.\n3. Have ready an onion and six large winter or a dozen small summer turnips, sweet marjoram or thyme minced very finely.\n4. Put these into the soup and let them simmer together for an hour.\n5. Strain; return to the fire and add a cup of milk—in which has been stirred a tablespoonful of rice-flour or other thickening—and a tablespoonful of butter.\n6. Season with salt and pepper, let it boil up once, stirring all the time, as is necessary in all soups where milk is added at last, and remove instantly, or it will scorch.",
+    "originalIngredients": [
+      "Knuckle of veal, well cracked",
+      "5 qts. water",
+      "1 onion",
+      "6 large winter or a dozen small summer turnips",
+      "Sweet marjoram or thyme minced very finely",
+      "1 cup milk",
+      "1 tablespoonful rice-flour or other thickening",
+      "1 tablespoonful butter",
+      "Salt and pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

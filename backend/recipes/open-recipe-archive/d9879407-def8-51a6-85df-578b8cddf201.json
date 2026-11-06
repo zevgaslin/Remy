@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "d9879407-def8-51a6-85df-578b8cddf201",
+  "name": "Ginger Snaps",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "brown sugar",
+      "originalText": "one cup brown sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "two cups molasses",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup butter",
+      "originalText": "one large cup butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "two teaspoonfuls soda",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "two teaspoonfuls ginger",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour to commence with",
+      "originalText": "three pints flour to commence with",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub shortening and sugar together into the flour",
+      "section": null
+    },
+    {
+      "text": "Add enough more flour to roll very smooth and very thin",
+      "section": null
+    },
+    {
+      "text": "Roll out to wafer-like thinness",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven without burning",
+      "section": null
+    },
+    {
+      "text": "The dough can be kept for days by putting it in the flour barrel under the flour, and bake a few at a time",
+      "section": null
+    },
+    {
+      "text": "They should become perfectly cold before putting aside",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ginger-snaps.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub shortening and sugar together into the flour\n2. Add enough more flour to roll very smooth and very thin\n3. Roll out to wafer-like thinness\n4. Bake in a quick oven without burning\n5. The dough can be kept for days by putting it in the flour barrel under the flour, and bake a few at a time\n6. They should become perfectly cold before putting aside",
+    "originalIngredients": [
+      "one cup brown sugar",
+      "two cups molasses",
+      "one large cup butter",
+      "two teaspoonfuls soda",
+      "two teaspoonfuls ginger",
+      "three pints flour to commence with"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

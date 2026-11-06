@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "34ca69a6-a7d4-5f32-8cee-2764556ef188",
+  "name": "Cocoanut Layer Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1 cup white or yellow sugar",
+      "originalText": "1 cup white or yellow sugar",
+      "quantity": null,
+      "quantityText": "1 cup white or yellow sugar",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet cream",
+      "originalText": "3 tablespoons sweet cream",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs well beaten",
+      "originalText": "3 eggs well beaten",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 1/4 cups flour",
+      "quantity": 1.25,
+      "quantityText": "1 1/4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fruit color",
+      "originalText": "3/4 teaspoon fruit color",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1/2 cup sweet milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "2 tablespoons cornstarch",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold milk",
+      "originalText": "cold milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolk of 1 egg",
+      "originalText": "yolk of 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of 1 egg",
+      "originalText": "white of 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1/2 cup white sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cocoanut",
+      "originalText": "1/2 cup cocoanut",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make into 3 layers and put 3/4 teaspoon fruit color in centre layer",
+      "section": null
+    },
+    {
+      "text": "For filling, boil 1/2 cup sweet milk",
+      "section": null
+    },
+    {
+      "text": "Thicken with 2 tablespoons cornstarch dissolved in cold milk",
+      "section": null
+    },
+    {
+      "text": "Add 1/2 cup sugar",
+      "section": null
+    },
+    {
+      "text": "When cool, add yolk of 1 egg",
+      "section": null
+    },
+    {
+      "text": "For top of cake, beat white of 1 egg",
+      "section": null
+    },
+    {
+      "text": "Boil 1/2 cup white sugar dissolved in a little water a few minutes",
+      "section": null
+    },
+    {
+      "text": "Stir these two together",
+      "section": null
+    },
+    {
+      "text": "Add 1/2 cup cocoanut",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cocoanut-layer-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make into 3 layers and put 3/4 teaspoon fruit color in centre layer\n2. For filling, boil 1/2 cup sweet milk\n3. Thicken with 2 tablespoons cornstarch dissolved in cold milk\n4. Add 1/2 cup sugar\n5. When cool, add yolk of 1 egg\n6. For top of cake, beat white of 1 egg\n7. Boil 1/2 cup white sugar dissolved in a little water a few minutes\n8. Stir these two together\n9. Add 1/2 cup cocoanut",
+    "originalIngredients": [
+      "1 cup white or yellow sugar",
+      "2 tablespoons butter",
+      "3 tablespoons sweet cream",
+      "3 eggs well beaten",
+      "1 1/4 cups flour",
+      "2 teaspoons baking powder",
+      "3/4 teaspoon fruit color",
+      "1/2 cup sweet milk",
+      "2 tablespoons cornstarch",
+      "cold milk",
+      "1/2 cup sugar",
+      "yolk of 1 egg",
+      "white of 1 egg",
+      "1/2 cup white sugar",
+      "water",
+      "1/2 cup cocoanut"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

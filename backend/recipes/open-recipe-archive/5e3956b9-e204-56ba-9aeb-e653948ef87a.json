@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "5e3956b9-e204-56ba-9aeb-e653948ef87a",
+  "name": "German Omelet",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "4 teaspoonfuls cornstarch",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery salt",
+      "originalText": "celery salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat eggs separately.",
+      "section": null
+    },
+    {
+      "text": "Mix beaten yolks, milk, cornstarch and seasoning and divide into two parts.",
+      "section": null
+    },
+    {
+      "text": "Pour half into a hot buttered frying-pan and cook slowly.",
+      "section": null
+    },
+    {
+      "text": "When beginning to set, put on the top of the omelet half the beaten whites, and when cooked turn over so that the white of the eggs is enrolled in the omelet.",
+      "section": null
+    },
+    {
+      "text": "Serve very hot, with brown side up.",
+      "section": null
+    },
+    {
+      "text": "Proceed in the same manner with the remaining half.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/german-omelet.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat eggs separately.\n2. Mix beaten yolks, milk, cornstarch and seasoning and divide into two parts.\n3. Pour half into a hot buttered frying-pan and cook slowly.\n4. When beginning to set, put on the top of the omelet half the beaten whites, and when cooked turn over so that the white of the eggs is enrolled in the omelet.\n5. Serve very hot, with brown side up.\n6. Proceed in the same manner with the remaining half.",
+    "originalIngredients": [
+      "4 eggs",
+      "4 teaspoonfuls cornstarch",
+      "1 pt. milk",
+      "salt",
+      "celery salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

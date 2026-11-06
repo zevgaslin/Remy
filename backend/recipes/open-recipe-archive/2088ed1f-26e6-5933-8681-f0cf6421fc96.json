@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2088ed1f-26e6-5933-8681-f0cf6421fc96",
+  "name": "Yeast For Use In Making Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "medium-sized potatoes",
+      "originalText": "12 medium-sized potatoes",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lukewarm water",
+      "originalText": "1 cup lukewarm water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cakes",
+      "originalText": "3 White Swan Yeast Cakes",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 quart cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "parts hot water",
+      "originalText": "3 parts hot water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare and boil potatoes, mash well",
+      "section": null
+    },
+    {
+      "text": "There should be 1 quart water on them when done",
+      "section": null
+    },
+    {
+      "text": "Put the flour in a crock, sugar and salt, scald with 1 pint boiling water",
+      "section": null
+    },
+    {
+      "text": "Add the quart of hot water from the potatoes, with 1 quart cold water",
+      "section": null
+    },
+    {
+      "text": "Soak yeast cakes in lukewarm water, then add to the mixture when about cold",
+      "section": null
+    },
+    {
+      "text": "Let it rise all night",
+      "section": null
+    },
+    {
+      "text": "Keep in a cool place",
+      "section": null
+    },
+    {
+      "text": "It will keep from 3 weeks to a month",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/yeast-for-use-in-making-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare and boil potatoes, mash well\n2. There should be 1 quart water on them when done\n3. Put the flour in a crock, sugar and salt, scald with 1 pint boiling water\n4. Add the quart of hot water from the potatoes, with 1 quart cold water\n5. Soak yeast cakes in lukewarm water, then add to the mixture when about cold\n6. Let it rise all night\n7. Keep in a cool place\n8. It will keep from 3 weeks to a month",
+    "originalIngredients": [
+      "12 medium-sized potatoes",
+      "3 tablespoons flour",
+      "2 tablespoons sugar",
+      "1 teaspoon salt",
+      "1 cup lukewarm water",
+      "3 White Swan Yeast Cakes",
+      "1 quart cold water",
+      "3 parts hot water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "af039e46-fd6e-5ff3-88a7-2b0b9d5972cd",
+  "name": "Sardine Sandwiches",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "boxes sardines",
+      "originalText": "2 boxes sardines",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head lettuce",
+      "originalText": "1 head lettuce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little lemon juice",
+      "originalText": "A little lemon juice",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take sardines and throw into hot water, having first drained away all the oil",
+      "section": null
+    },
+    {
+      "text": "A few minutes will free the sardines from grease",
+      "section": null
+    },
+    {
+      "text": "Pour away the water and dry the fish in a cloth",
+      "section": null
+    },
+    {
+      "text": "Scrape away the skins and pound the sardines in a mortar till reduced to paste",
+      "section": null
+    },
+    {
+      "text": "Add pepper, salt, and some tiny pieces of lettuce",
+      "section": null
+    },
+    {
+      "text": "Spread on the sandwiches, which have been previously cut",
+      "section": null
+    },
+    {
+      "text": "Alternatively, chop the sardines up fine and squeeze a few drops of lemon-juice into them and spread between buttered bread or cold biscuits",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/sardine-sandwiches-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take sardines and throw into hot water, having first drained away all the oil\n2. A few minutes will free the sardines from grease\n3. Pour away the water and dry the fish in a cloth\n4. Scrape away the skins and pound the sardines in a mortar till reduced to paste\n5. Add pepper, salt, and some tiny pieces of lettuce\n6. Spread on the sandwiches, which have been previously cut\n7. Alternatively, chop the sardines up fine and squeeze a few drops of lemon-juice into them and spread between buttered bread or cold biscuits",
+    "originalIngredients": [
+      "2 boxes sardines",
+      "1 head lettuce",
+      "Salt and pepper",
+      "A little lemon juice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "7222a176-80d0-5669-aa07-a97621103701",
+  "name": "Onion Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "One tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped onion",
+      "originalText": "One finely chopped onion",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soup stock",
+      "originalText": "One quart of soup stock",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "One tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little cold water",
+      "originalText": "A little cold water",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half a teaspoonful of salt",
+      "originalText": "One-half a teaspoonful of salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-quarter teaspoonful of pepper",
+      "originalText": "One-quarter teaspoonful of pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stale bread",
+      "originalText": "Two slices of stale bread",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put one tablespoonful of butter in the frying-pan",
+      "section": null
+    },
+    {
+      "text": "When hot add one finely chopped onion; fry it until nicely browned, being careful not to burn",
+      "section": null
+    },
+    {
+      "text": "Put one quart of soup stock into a stew-pan; add the fried onion and cook for fifteen minutes",
+      "section": null
+    },
+    {
+      "text": "Strain; return to the fire, add one tablespoonful of flour wet in a little cold water, to thicken, and boil for five minutes longer",
+      "section": null
+    },
+    {
+      "text": "Season with one-half a teaspoonful of salt and one-quarter teaspoonful of pepper",
+      "section": null
+    },
+    {
+      "text": "Cut two slices of stale bread into dice; brown the dice in the oven, put them in the soup tureen, pour the soup over them and serve at once before they become soft",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/onion-soup-6.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put one tablespoonful of butter in the frying-pan\n2. When hot add one finely chopped onion; fry it until nicely browned, being careful not to burn\n3. Put one quart of soup stock into a stew-pan; add the fried onion and cook for fifteen minutes\n4. Strain; return to the fire, add one tablespoonful of flour wet in a little cold water, to thicken, and boil for five minutes longer\n5. Season with one-half a teaspoonful of salt and one-quarter teaspoonful of pepper\n6. Cut two slices of stale bread into dice; brown the dice in the oven, put them in the soup tureen, pour the soup over them and serve at once before they become soft",
+    "originalIngredients": [
+      "One tablespoonful of butter",
+      "One finely chopped onion",
+      "One quart of soup stock",
+      "One tablespoonful of flour",
+      "A little cold water",
+      "One-half a teaspoonful of salt",
+      "One-quarter teaspoonful of pepper",
+      "Two slices of stale bread"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

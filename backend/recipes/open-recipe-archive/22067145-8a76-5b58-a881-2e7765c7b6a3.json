@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "22067145-8a76-5b58-a881-2e7765c7b6a3",
+  "name": "Scotch Cake",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "0.5 lb. butter",
+      "quantity": 0.5,
+      "quantityText": "0.5",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 oz. sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "0.5 lb. flour",
+      "quantity": 0.5,
+      "quantityText": "0.5",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of soda",
+      "originalText": "A pinch of soda",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the butter in a large bowl, rubbing a few times with the hand",
+      "section": null
+    },
+    {
+      "text": "then put the flour, sugar and soda in a sifter, and as these are sifted into the butter mix with the hand, the warmth being sufficient to make all into a dough",
+      "section": null
+    },
+    {
+      "text": "Have a pan ready with buttered paper, and put the ball of dough on this, pressing to the desired thinness with the hands",
+      "section": null
+    },
+    {
+      "text": "Prick with fork on top, and bake twenty minutes or so in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Cut in squares while in the pan and hot, directly upon being taken out of the oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scotch-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the butter in a large bowl, rubbing a few times with the hand\n2. then put the flour, sugar and soda in a sifter, and as these are sifted into the butter mix with the hand, the warmth being sufficient to make all into a dough\n3. Have a pan ready with buttered paper, and put the ball of dough on this, pressing to the desired thinness with the hands\n4. Prick with fork on top, and bake twenty minutes or so in a moderate oven\n5. Cut in squares while in the pan and hot, directly upon being taken out of the oven",
+    "originalIngredients": [
+      "0.5 lb. butter",
+      "2 oz. sugar",
+      "0.5 lb. flour",
+      "A pinch of soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

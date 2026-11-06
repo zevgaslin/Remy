@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "1800193c-d84b-510a-afca-a7a7fb35cb1f",
+  "name": "Beef Soup (Brown)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "beef cut into strips",
+      "originalText": "3 lbs. beef cut into strips",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "3 onions",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "3 qts. water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1 teaspoonful of cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful pepper",
+      "originalText": "½ teaspoonful pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful mace",
+      "originalText": "½ teaspoonful mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of allspice",
+      "originalText": "pinch of allspice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "essence of celery",
+      "originalText": "1 teaspoonful of essence of celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful of powdered savory or sweet marjoram",
+      "originalText": "½ teaspoonful of powdered savory or sweet marjoram",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcestershire sauce",
+      "originalText": "1 teaspoonful of Worcestershire sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 glass of brown sherry or Madeira wine",
+      "originalText": "1 glass of brown sherry or Madeira wine",
+      "quantity": null,
+      "quantityText": "1 glass of brown sherry or Madeira wine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put beef and water into the saucepan and boil for one hour",
+      "section": null
+    },
+    {
+      "text": "Meanwhile, slice the onions and fry them in butter to a light brown",
+      "section": null
+    },
+    {
+      "text": "Drop into the pot with cloves, pepper, mace, allspice, essence of celery, savory or sweet marjoram, and Worcestershire sauce",
+      "section": null
+    },
+    {
+      "text": "Stew all for two hours more, or until the beef has boiled to pieces",
+      "section": null
+    },
+    {
+      "text": "Strain the soup and return to the fire",
+      "section": null
+    },
+    {
+      "text": "Salt to taste, and just before taking it off, pour in a glass of brown sherry or Madeira wine",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/beef-soup-brown.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put beef and water into the saucepan and boil for one hour\n2. Meanwhile, slice the onions and fry them in butter to a light brown\n3. Drop into the pot with cloves, pepper, mace, allspice, essence of celery, savory or sweet marjoram, and Worcestershire sauce\n4. Stew all for two hours more, or until the beef has boiled to pieces\n5. Strain the soup and return to the fire\n6. Salt to taste, and just before taking it off, pour in a glass of brown sherry or Madeira wine",
+    "originalIngredients": [
+      "3 lbs. beef cut into strips",
+      "3 onions",
+      "3 qts. water",
+      "butter",
+      "1 teaspoonful of cloves",
+      "½ teaspoonful pepper",
+      "½ teaspoonful mace",
+      "pinch of allspice",
+      "1 teaspoonful of essence of celery",
+      "½ teaspoonful of powdered savory or sweet marjoram",
+      "1 teaspoonful of Worcestershire sauce",
+      "salt",
+      "1 glass of brown sherry or Madeira wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

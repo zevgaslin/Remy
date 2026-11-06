@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "a934b296-d18c-58a4-aa04-7e28a5f56195",
+  "name": "Potato Griddle-Cakes",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large potatoes",
+      "originalText": "twelve large potatoes",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonfuls of flour",
+      "originalText": "three heaping tablespoonfuls of flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "one teaspoonful of baking powder",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half teaspoonful salt",
+      "originalText": "one-half teaspoonful salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one or two eggs",
+      "originalText": "one or two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupfuls of boiling milk",
+      "originalText": "two teacupfuls of boiling milk",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel and wash the potatoes and grate into a little cold water",
+      "section": null
+    },
+    {
+      "text": "Strain off water and pour on boiling milk",
+      "section": null
+    },
+    {
+      "text": "Stir in eggs, salt and flour mixed with the baking powder",
+      "section": null
+    },
+    {
+      "text": "If agreeable, flavor with a little fine chopped onion",
+      "section": null
+    },
+    {
+      "text": "Bake like any other pancakes, allowing a little more lard or butter",
+      "section": null
+    },
+    {
+      "text": "Serve with stewed or preserved fruit, especially with huckleberries",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/potato-griddle-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel and wash the potatoes and grate into a little cold water\n2. Strain off water and pour on boiling milk\n3. Stir in eggs, salt and flour mixed with the baking powder\n4. If agreeable, flavor with a little fine chopped onion\n5. Bake like any other pancakes, allowing a little more lard or butter\n6. Serve with stewed or preserved fruit, especially with huckleberries",
+    "originalIngredients": [
+      "twelve large potatoes",
+      "three heaping tablespoonfuls of flour",
+      "one teaspoonful of baking powder",
+      "one-half teaspoonful salt",
+      "one or two eggs",
+      "two teacupfuls of boiling milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

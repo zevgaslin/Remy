@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "4bc5245f-8841-5f52-94e6-2525380f4c9f",
+  "name": "Calves' Foot Jelly",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "set of calves' feet",
+      "originalText": "a set of calves' feet",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "broken up loaf-sugar per quart",
+      "originalText": "a pound of broken up loaf-sugar per quart",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Madeira wine per quart",
+      "originalText": "a pint of Madeira wine per quart",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large glass of brandy per quart",
+      "originalText": "a large glass of brandy per quart",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large sticks of the best Ceylon cinnamon per quart",
+      "originalText": "three large sticks of the best Ceylon cinnamon per quart",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated peel and juice of four large lemons",
+      "originalText": "grated peel and juice of four large lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of four eggs",
+      "originalText": "whites of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil a set of feet in four quarts of cold water (if the feet have been skinned allow but three quarts); they should boil slowly till the liquid is reduced to two quarts or one half the original quantity, and the meat has dropped in rags from the bone.",
+      "section": null
+    },
+    {
+      "text": "Strain the liquid; measure and set it away in a large earthen pan to get cold; and let it rest till next morning.",
+      "section": null
+    },
+    {
+      "text": "If you do not find it a firm cake of jelly, boil it over again with an ounce of isinglass, and again set it away till cold and congealed.",
+      "section": null
+    },
+    {
+      "text": "Remove the sediment from the bottom of the cake of jelly, and carefully scrape off all the fat.",
+      "section": null
+    },
+    {
+      "text": "Press some clean blotting paper all over it to absorb what little grease may yet remain.",
+      "section": null
+    },
+    {
+      "text": "Cut the cake of jelly into pieces, and put it into a porcelain kettle to melt over the fire.",
+      "section": null
+    },
+    {
+      "text": "To each quart allow a pound of broken up loaf-sugar, a pint of Madeira wine, and a large glass of brandy; three large sticks of the best Ceylon cinnamon broken up (if common cinnamon, use four sticks), the grated peel and juice of four large lemons; and lastly, the whites of four eggs strained, but not beaten.",
+      "section": null
+    },
+    {
+      "text": "Mix all the ingredients well together, and put them to the jelly in the kettle.",
+      "section": null
+    },
+    {
+      "text": "Set it on the fire, and boil it hard for twenty minutes, but do not stir it.",
+      "section": null
+    },
+    {
+      "text": "Throw in a tea-cup of cold water, and boil it five minutes longer.",
+      "section": null
+    },
+    {
+      "text": "Take the kettle off the fire, and set it aside, keeping it closely covered for half an hour.",
+      "section": null
+    },
+    {
+      "text": "Take a large white flannel jelly-bag; suspend it by the strings to a wooden frame made for such purposes, or to the legs of a table.",
+      "section": null
+    },
+    {
+      "text": "Pour in the mixture boiling hot, and when it is all in, close up the mouth of the bag that none of the flavour may evaporate.",
+      "section": null
+    },
+    {
+      "text": "Hang it over a deep white dish or bowl, and let it drip slowly, but on no account squeeze the bag.",
+      "section": null
+    },
+    {
+      "text": "If it is not clear the first time, empty the bag, wash it, put in the jelly that has dripped into the dish, and pass it through again.",
+      "section": null
+    },
+    {
+      "text": "Repeat this till it is clear.",
+      "section": null
+    },
+    {
+      "text": "Put it into moulds to congeal, setting them in a cold place.",
+      "section": null
+    },
+    {
+      "text": "When it is quite firm, wrap a cloth that has been dipped in hot water, round the moulds to make the jelly turn out easily.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/calves-foot-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil a set of feet in four quarts of cold water (if the feet have been skinned allow but three quarts); they should boil slowly till the liquid is reduced to two quarts or one half the original quantity, and the meat has dropped in rags from the bone.\n2. Strain the liquid; measure and set it away in a large earthen pan to get cold; and let it rest till next morning.\n3. If you do not find it a firm cake of jelly, boil it over again with an ounce of isinglass, and again set it away till cold and congealed.\n4. Remove the sediment from the bottom of the cake of jelly, and carefully scrape off all the fat.\n5. Press some clean blotting paper all over it to absorb what little grease may yet remain.\n6. Cut the cake of jelly into pieces, and put it into a porcelain kettle to melt over the fire.\n7. To each quart allow a pound of broken up loaf-sugar, a pint of Madeira wine, and a large glass of brandy; three large sticks of the best Ceylon cinnamon broken up (if common cinnamon, use four sticks), the grated peel and juice of four large lemons; and lastly, the whites of four eggs strained, but not beaten.\n8. Mix all the ingredients well together, and put them to the jelly in the kettle.\n9. Set it on the fire, and boil it hard for twenty minutes, but do not stir it.\n10. Throw in a tea-cup of cold water, and boil it five minutes longer.\n11. Take the kettle off the fire, and set it aside, keeping it closely covered for half an hour.\n12. Take a large white flannel jelly-bag; suspend it by the strings to a wooden frame made for such purposes, or to the legs of a table.\n13. Pour in the mixture boiling hot, and when it is all in, close up the mouth of the bag that none of the flavour may evaporate.\n14. Hang it over a deep white dish or bowl, and let it drip slowly, but on no account squeeze the bag.\n15. If it is not clear the first time, empty the bag, wash it, put in the jelly that has dripped into the dish, and pass it through again.\n16. Repeat this till it is clear.\n17. Put it into moulds to congeal, setting them in a cold place.\n18. When it is quite firm, wrap a cloth that has been dipped in hot water, round the moulds to make the jelly turn out easily.",
+    "originalIngredients": [
+      "a set of calves' feet",
+      "cold water",
+      "a pound of broken up loaf-sugar per quart",
+      "a pint of Madeira wine per quart",
+      "a large glass of brandy per quart",
+      "three large sticks of the best Ceylon cinnamon per quart",
+      "grated peel and juice of four large lemons",
+      "whites of four eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

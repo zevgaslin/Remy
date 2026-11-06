@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "9b9b44ce-bcf8-58f5-81a2-27de30b42889",
+  "name": "Clove Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh butter",
+      "originalText": "a pound of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "three pounds of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine brown sugar",
+      "originalText": "a pound of fine brown sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half an ounce of cloves ground or powdered",
+      "originalText": "half an ounce of cloves ground or powdered",
+      "quantity": null,
+      "quantityText": "half an ounce of cloves ground or powdered",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sufficient West India molasses",
+      "originalText": "sufficient West India molasses",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of sal-aratus",
+      "originalText": "a small tea-spoonful of sal-aratus",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tepid water",
+      "originalText": "tepid water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub a pound of fresh butter (cut up) into three pounds of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Add by degrees a pound of fine brown sugar, half an ounce of cloves ground or powdered, and sufficient West India molasses to wet the whole into a stiff dough",
+      "section": null
+    },
+    {
+      "text": "Dissolve a small tea-spoonful of sal-aratus in tepid water and mix in at the last",
+      "section": null
+    },
+    {
+      "text": "Roll the dough out into a sheet of paste",
+      "section": null
+    },
+    {
+      "text": "Cut out the cakes with a tin stamp, or with the edge of a tumbler",
+      "section": null
+    },
+    {
+      "text": "Put them in buttered pans",
+      "section": null
+    },
+    {
+      "text": "Bake them a quarter of an hour or more",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/clove-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub a pound of fresh butter (cut up) into three pounds of sifted flour\n2. Add by degrees a pound of fine brown sugar, half an ounce of cloves ground or powdered, and sufficient West India molasses to wet the whole into a stiff dough\n3. Dissolve a small tea-spoonful of sal-aratus in tepid water and mix in at the last\n4. Roll the dough out into a sheet of paste\n5. Cut out the cakes with a tin stamp, or with the edge of a tumbler\n6. Put them in buttered pans\n7. Bake them a quarter of an hour or more",
+    "originalIngredients": [
+      "a pound of fresh butter",
+      "three pounds of sifted flour",
+      "a pound of fine brown sugar",
+      "half an ounce of cloves ground or powdered",
+      "sufficient West India molasses",
+      "a small tea-spoonful of sal-aratus",
+      "tepid water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "a5344268-785e-525d-be59-d0e3d661d1fd",
+  "name": "Chelsea Rolls",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 quart flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large teaspoons baking powder",
+      "originalText": "2 large teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "4 tablespoons lard",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1 cup sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large teaspoon cinnamon",
+      "originalText": "1 large teaspoon cinnamon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "1 cup currants",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk and sugar for glaze",
+      "originalText": "milk and sugar for glaze",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make biscuit dough with 1 quart flour, 2 large teaspoons baking powder, 1/2 teaspoon salt, 4 tablespoons lard and 1 cup sweet milk",
+      "section": null
+    },
+    {
+      "text": "Roll out to about 1/4 inch thick",
+      "section": null
+    },
+    {
+      "text": "Spread with 2 tablespoons butter, 1 cup sugar, mixed with 1 large teaspoon cinnamon, 1 cup currants",
+      "section": null
+    },
+    {
+      "text": "Give a light roll with rolling-pin to keep the currants from dropping out",
+      "section": null
+    },
+    {
+      "text": "Roll as you would a jelly roll",
+      "section": null
+    },
+    {
+      "text": "Cut in slices about 1 inch thick",
+      "section": null
+    },
+    {
+      "text": "Place in pan and bake a light brown",
+      "section": null
+    },
+    {
+      "text": "Glaze with a spoonful of milk and sugar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chelsea-rolls.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make biscuit dough with 1 quart flour, 2 large teaspoons baking powder, 1/2 teaspoon salt, 4 tablespoons lard and 1 cup sweet milk\n2. Roll out to about 1/4 inch thick\n3. Spread with 2 tablespoons butter, 1 cup sugar, mixed with 1 large teaspoon cinnamon, 1 cup currants\n4. Give a light roll with rolling-pin to keep the currants from dropping out\n5. Roll as you would a jelly roll\n6. Cut in slices about 1 inch thick\n7. Place in pan and bake a light brown\n8. Glaze with a spoonful of milk and sugar",
+    "originalIngredients": [
+      "1 quart flour",
+      "2 large teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "4 tablespoons lard",
+      "1 cup sweet milk",
+      "2 tablespoons butter",
+      "1 cup sugar",
+      "1 large teaspoon cinnamon",
+      "1 cup currants",
+      "milk and sugar for glaze"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

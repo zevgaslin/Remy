@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "e5e24883-732f-56a5-929d-1398b5813e6a",
+  "name": "Cream Sponge",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one-half box Knox's gelatine",
+      "originalText": "one-half box Knox's gelatine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-quarter cup cold water",
+      "originalText": "one-quarter cup cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "one pint cream",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one cup milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one cup sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "one egg",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "one teaspoonful vanilla",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak gelatine in water for one-half hour",
+      "section": null
+    },
+    {
+      "text": "Stand it in boiling water to dissolve",
+      "section": null
+    },
+    {
+      "text": "Scald the milk, add sugar",
+      "section": null
+    },
+    {
+      "text": "Beat the egg until light, and add hot milk to egg, stirring constantly while adding, removing from fire for the purpose",
+      "section": null
+    },
+    {
+      "text": "Add gelatine and flavoring, and set aside to cool but not to set",
+      "section": null
+    },
+    {
+      "text": "Whip the cream, add the cooled custard, beat well",
+      "section": null
+    },
+    {
+      "text": "Put into moulds",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cream-sponge.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak gelatine in water for one-half hour\n2. Stand it in boiling water to dissolve\n3. Scald the milk, add sugar\n4. Beat the egg until light, and add hot milk to egg, stirring constantly while adding, removing from fire for the purpose\n5. Add gelatine and flavoring, and set aside to cool but not to set\n6. Whip the cream, add the cooled custard, beat well\n7. Put into moulds",
+    "originalIngredients": [
+      "one-half box Knox's gelatine",
+      "one-quarter cup cold water",
+      "one pint cream",
+      "one cup milk",
+      "one cup sugar",
+      "one egg",
+      "one teaspoonful vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

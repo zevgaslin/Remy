@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "873ae0ea-7583-568c-8ae4-2906a988c04d",
+  "name": "Tart Shells",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "white of 1 egg",
+      "originalText": "white of 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "2 tablespoons granulated sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "1 cup lard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "2 tablespoons cold water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small teaspoons baking powder",
+      "originalText": "2 small teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put lard in dish and add sugar and mix together",
+      "section": null
+    },
+    {
+      "text": "Add the beaten white of egg and water",
+      "section": null
+    },
+    {
+      "text": "Sift baking powder with flour and mix stiff enough to roll",
+      "section": null
+    },
+    {
+      "text": "Cut with large biscuit cutter",
+      "section": null
+    },
+    {
+      "text": "Take 2 off sides and turn towards centre which has been dampened with a little water",
+      "section": null
+    },
+    {
+      "text": "Turn other 2 sides and press down in centre with finger",
+      "section": null
+    },
+    {
+      "text": "Bake in very hot oven",
+      "section": null
+    },
+    {
+      "text": "Fill with good jelly or jam when needed",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/tart-shells.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put lard in dish and add sugar and mix together\n2. Add the beaten white of egg and water\n3. Sift baking powder with flour and mix stiff enough to roll\n4. Cut with large biscuit cutter\n5. Take 2 off sides and turn towards centre which has been dampened with a little water\n6. Turn other 2 sides and press down in centre with finger\n7. Bake in very hot oven\n8. Fill with good jelly or jam when needed",
+    "originalIngredients": [
+      "white of 1 egg",
+      "2 tablespoons granulated sugar",
+      "1 cup lard",
+      "2 tablespoons cold water",
+      "2 small teaspoons baking powder",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

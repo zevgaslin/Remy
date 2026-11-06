@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "e0f74c77-bbae-5f52-a033-40ea60a2b590",
+  "name": "Hickory Nut or Walnut Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fine white sugar",
+      "originalText": "two cups of fine white sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a cup of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "three eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two-thirds of a cup of sweet milk",
+      "originalText": "two-thirds of a cup of sweet milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "three cups of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoonful of baking powder",
+      "originalText": "one heaping teaspoonful of baking powder",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "(level) of powdered mace",
+      "originalText": "one tablespoonful (level) of powdered mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a coffeecup of hickory nut or walnut meats chopped",
+      "originalText": "a coffeecup of hickory nut or walnut meats chopped",
+      "quantity": null,
+      "quantityText": "a coffeecup of hickory nut or walnut meats chopped",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "raisins",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream sugar with butter",
+      "section": null
+    },
+    {
+      "text": "Add eggs, milk, and flour mixed with baking powder",
+      "section": null
+    },
+    {
+      "text": "Add powdered mace and chopped nuts",
+      "section": null
+    },
+    {
+      "text": "Fill the cake-pans with a layer of the cake, then a layer of raisins upon that, then strew over these a handful of nuts, and so on until the pan is two-thirds full",
+      "section": null
+    },
+    {
+      "text": "Line the tins with well-buttered paper",
+      "section": null
+    },
+    {
+      "text": "Bake in a steady, but not quick, oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/hickory-nut-or-walnut-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream sugar with butter\n2. Add eggs, milk, and flour mixed with baking powder\n3. Add powdered mace and chopped nuts\n4. Fill the cake-pans with a layer of the cake, then a layer of raisins upon that, then strew over these a handful of nuts, and so on until the pan is two-thirds full\n5. Line the tins with well-buttered paper\n6. Bake in a steady, but not quick, oven",
+    "originalIngredients": [
+      "two cups of fine white sugar",
+      "half a cup of butter",
+      "three eggs",
+      "two-thirds of a cup of sweet milk",
+      "three cups of sifted flour",
+      "one heaping teaspoonful of baking powder",
+      "one tablespoonful (level) of powdered mace",
+      "a coffeecup of hickory nut or walnut meats chopped",
+      "raisins"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

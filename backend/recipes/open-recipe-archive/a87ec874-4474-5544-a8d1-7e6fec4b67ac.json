@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "a87ec874-4474-5544-a8d1-7e6fec4b67ac",
+  "name": "Spinach",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peck spinach",
+      "originalText": "1/4 peck spinach",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Have 2 pans filled with cold water",
+      "section": null
+    },
+    {
+      "text": "Pick over the leaves carefully and drop them into 1 pan of water",
+      "section": null
+    },
+    {
+      "text": "Shake them well in the water and lift them into the other pan",
+      "section": null
+    },
+    {
+      "text": "Empty the water from the first pan and fill it again with cold water",
+      "section": null
+    },
+    {
+      "text": "Wash the spinach in this way until not a grain of sand is left in it",
+      "section": null
+    },
+    {
+      "text": "Put the leaves in a granite kettle and cover closely",
+      "section": null
+    },
+    {
+      "text": "Cook gently for 3/4 hour",
+      "section": null
+    },
+    {
+      "text": "Add the salt when about half cooked",
+      "section": null
+    },
+    {
+      "text": "When tender, turn into a colander and chop with a knife",
+      "section": null
+    },
+    {
+      "text": "Drain well",
+      "section": null
+    },
+    {
+      "text": "Put into a hot vegetable dish and add the butter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/spinach-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Have 2 pans filled with cold water\n2. Pick over the leaves carefully and drop them into 1 pan of water\n3. Shake them well in the water and lift them into the other pan\n4. Empty the water from the first pan and fill it again with cold water\n5. Wash the spinach in this way until not a grain of sand is left in it\n6. Put the leaves in a granite kettle and cover closely\n7. Cook gently for 3/4 hour\n8. Add the salt when about half cooked\n9. When tender, turn into a colander and chop with a knife\n10. Drain well\n11. Put into a hot vegetable dish and add the butter",
+    "originalIngredients": [
+      "1/4 peck spinach",
+      "2 tablespoons butter",
+      "1 tablespoon salt",
+      "cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

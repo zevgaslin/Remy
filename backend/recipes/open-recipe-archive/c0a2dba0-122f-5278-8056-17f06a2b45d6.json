@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "c0a2dba0-122f-5278-8056-17f06a2b45d6",
+  "name": "Orange and Walnut Salad",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peeled oranges",
+      "originalText": "Four peeled oranges",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Three or four tablespoonfuls of olive oil",
+      "originalText": "Three or four tablespoonfuls of olive oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon-juice",
+      "originalText": "One tablespoonful of lemon-juice",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lettuce leaves",
+      "originalText": "Lettuce leaves",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced nut meats",
+      "originalText": "One cupful of sliced nut meats",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oil",
+      "originalText": "One tablespoonful of oil",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dash of salt",
+      "originalText": "A dash of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "Half a teaspoonful of lemon juice",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Slice oranges lengthwise, dress with three or four tablespoonfuls of olive oil and one tablespoonful of lemon-juice.",
+      "section": null
+    },
+    {
+      "text": "Arrange slices in a mound upon a layer of lettuce leaves.",
+      "section": null
+    },
+    {
+      "text": "Dress one cupful of sliced nut meats with one tablespoonful of oil, a dash of salt and half a teaspoonful of lemon juice, and dispose upon the centre of mound.",
+      "section": null
+    },
+    {
+      "text": "Mix together before serving.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/orange-and-walnut-salad.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Slice oranges lengthwise, dress with three or four tablespoonfuls of olive oil and one tablespoonful of lemon-juice.\n2. Arrange slices in a mound upon a layer of lettuce leaves.\n3. Dress one cupful of sliced nut meats with one tablespoonful of oil, a dash of salt and half a teaspoonful of lemon juice, and dispose upon the centre of mound.\n4. Mix together before serving.",
+    "originalIngredients": [
+      "Four peeled oranges",
+      "Three or four tablespoonfuls of olive oil",
+      "One tablespoonful of lemon-juice",
+      "Lettuce leaves",
+      "One cupful of sliced nut meats",
+      "One tablespoonful of oil",
+      "A dash of salt",
+      "Half a teaspoonful of lemon juice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

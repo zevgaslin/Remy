@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "id": "32ff52d0-ace4-5dbe-9e9b-031c8d7126ec",
+  "name": "Black Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "currants",
+      "originalText": "two pounds of currants",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "two pounds of raisins",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon (large gravy-spoonful)",
+      "originalText": "cinnamon (large gravy-spoonful)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace (table-spoonful)",
+      "originalText": "mace (table-spoonful)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmegs",
+      "originalText": "four nutmegs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large glasses of white wine",
+      "originalText": "two large glasses of white wine",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of brandy",
+      "originalText": "one glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of rose water",
+      "originalText": "one glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron",
+      "originalText": "one pound of citron",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one pound of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "one pound of powdered loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "one pound of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "twelve eggs",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Prepare two pounds of currants by picking them clean, washing and draining them through a cullender, and then spreading them out on a large dish to dry before the fire or in the sun, placing the dish in a slanting position.",
+      "section": null
+    },
+    {
+      "text": "Pick and stone two pounds of the best raisins, and cut them in half.",
+      "section": null
+    },
+    {
+      "text": "Dredge the currants (when they are dry) and the raisins thickly with flour to prevent them from sinking in the cake.",
+      "section": null
+    },
+    {
+      "text": "Grind or powder as much cinnamon as will make a large gravy-spoonful when done; also a table-spoonful of mace and four nutmegs; sift these spices, and mix them all together in a cup.",
+      "section": null
+    },
+    {
+      "text": "Mix together two large glasses of white wine, one of brandy and one of rose water, and cut a pound of citron into large slips.",
+      "section": null
+    },
+    {
+      "text": "Sift a pound of flour into one pan, and a pound of powdered loaf-sugar into another.",
+      "section": null
+    },
+    {
+      "text": "Cut up among the sugar a pound of the best fresh butter, and stir them to a cream.",
+      "section": null
+    },
+    {
+      "text": "Beat twelve eggs till perfectly thick and smooth, and stir them gradually into the butter and sugar, alternately with the flour.",
+      "section": null
+    },
+    {
+      "text": "Then add by degrees, the fruit, spice and liquor, and stir the whole very hard at the last.",
+      "section": null
+    },
+    {
+      "text": "Then put the mixture into a well-buttered tin pan with straight or perpendicular sides.",
+      "section": null
+    },
+    {
+      "text": "Put it immediately into a moderate oven, and bake it at least six hours.",
+      "section": null
+    },
+    {
+      "text": "When done, take it out and set it on an inverted sieve to cool gradually.",
+      "section": null
+    },
+    {
+      "text": "Ice it next morning; first dredging the outside all over with flour, and then wiping it with a towel.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/black-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Prepare two pounds of currants by picking them clean, washing and draining them through a cullender, and then spreading them out on a large dish to dry before the fire or in the sun, placing the dish in a slanting position.\n2. Pick and stone two pounds of the best raisins, and cut them in half.\n3. Dredge the currants (when they are dry) and the raisins thickly with flour to prevent them from sinking in the cake.\n4. Grind or powder as much cinnamon as will make a large gravy-spoonful when done; also a table-spoonful of mace and four nutmegs; sift these spices, and mix them all together in a cup.\n5. Mix together two large glasses of white wine, one of brandy and one of rose water, and cut a pound of citron into large slips.\n6. Sift a pound of flour into one pan, and a pound of powdered loaf-sugar into another.\n7. Cut up among the sugar a pound of the best fresh butter, and stir them to a cream.\n8. Beat twelve eggs till perfectly thick and smooth, and stir them gradually into the butter and sugar, alternately with the flour.\n9. Then add by degrees, the fruit, spice and liquor, and stir the whole very hard at the last.\n10. Then put the mixture into a well-buttered tin pan with straight or perpendicular sides.\n11. Put it immediately into a moderate oven, and bake it at least six hours.\n12. When done, take it out and set it on an inverted sieve to cool gradually.\n13. Ice it next morning; first dredging the outside all over with flour, and then wiping it with a towel.",
+    "originalIngredients": [
+      "two pounds of currants",
+      "two pounds of raisins",
+      "flour",
+      "cinnamon (large gravy-spoonful)",
+      "mace (table-spoonful)",
+      "four nutmegs",
+      "two large glasses of white wine",
+      "one glass of brandy",
+      "one glass of rose water",
+      "one pound of citron",
+      "one pound of flour",
+      "one pound of powdered loaf-sugar",
+      "one pound of fresh butter",
+      "twelve eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "7f389c82-6308-5b69-ac2e-86d546222f42",
+  "name": "Bread and Butter Pudding",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "small baker's stale loaf",
+      "originalText": "1 small baker's stale loaf",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "Butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sugar",
+      "originalText": "½ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ teaspoon salt",
+      "originalText": "¼ teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Remove end crusts from bread, cut loaf in one-half inch slices",
+      "section": null
+    },
+    {
+      "text": "Spread each slice generously with butter",
+      "section": null
+    },
+    {
+      "text": "Arrange in buttered pudding-dish, buttered side down",
+      "section": null
+    },
+    {
+      "text": "Beat eggs slightly, add sugar, salt, and milk",
+      "section": null
+    },
+    {
+      "text": "Strain, and pour over bread",
+      "section": null
+    },
+    {
+      "text": "Let stand thirty minutes",
+      "section": null
+    },
+    {
+      "text": "Bake one hour in slow oven, covering the first half-hour of baking",
+      "section": null
+    },
+    {
+      "text": "The top of pudding should be well browned",
+      "section": null
+    },
+    {
+      "text": "Serve with Hard or Creamy Sauce",
+      "section": null
+    },
+    {
+      "text": "Three-fourths cup raisins, parboiled in boiling water to cover and seeded, may be sprinkled between layers of bread",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bread-and-butter-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Remove end crusts from bread, cut loaf in one-half inch slices\n2. Spread each slice generously with butter\n3. Arrange in buttered pudding-dish, buttered side down\n4. Beat eggs slightly, add sugar, salt, and milk\n5. Strain, and pour over bread\n6. Let stand thirty minutes\n7. Bake one hour in slow oven, covering the first half-hour of baking\n8. The top of pudding should be well browned\n9. Serve with Hard or Creamy Sauce\n10. Three-fourths cup raisins, parboiled in boiling water to cover and seeded, may be sprinkled between layers of bread",
+    "originalIngredients": [
+      "1 small baker's stale loaf",
+      "Butter",
+      "3 eggs",
+      "½ cup sugar",
+      "¼ teaspoon salt",
+      "1 quart milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

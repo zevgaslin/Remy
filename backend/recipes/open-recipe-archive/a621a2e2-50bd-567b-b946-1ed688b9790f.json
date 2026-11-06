@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "a621a2e2-50bd-567b-b946-1ed688b9790f",
+  "name": "Boston Baked Beans (Variation 2)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pork sliced",
+      "originalText": "1 pound pork sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1 tablespoon mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beans",
+      "originalText": "1 quart beans",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil 1 quart beans until skins break open",
+      "section": null
+    },
+    {
+      "text": "place 2 or 3 slices of meat in bottom of bean pot",
+      "section": null
+    },
+    {
+      "text": "add a layer of beans, a little mustard, sugar, pepper and salt if pork is fresh",
+      "section": null
+    },
+    {
+      "text": "continue until bean pot is full, leaving a little pork for top",
+      "section": null
+    },
+    {
+      "text": "fill bean pot with water",
+      "section": null
+    },
+    {
+      "text": "bake all day in a moderate oven, adding water occasionally",
+      "section": null
+    },
+    {
+      "text": "Serve hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/boston-baked-beans-variation-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil 1 quart beans until skins break open\n2. place 2 or 3 slices of meat in bottom of bean pot\n3. add a layer of beans, a little mustard, sugar, pepper and salt if pork is fresh\n4. continue until bean pot is full, leaving a little pork for top\n5. fill bean pot with water\n6. bake all day in a moderate oven, adding water occasionally\n7. Serve hot",
+    "originalIngredients": [
+      "1 pound pork sliced",
+      "1 tablespoon mustard",
+      "1/2 cup sugar",
+      "pepper and salt",
+      "1 quart beans",
+      "water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

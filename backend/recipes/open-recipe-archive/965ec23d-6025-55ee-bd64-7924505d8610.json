@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "965ec23d-6025-55ee-bd64-7924505d8610",
+  "name": "Ochra, or Gumbo",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ochras, sliced thin",
+      "originalText": "2 qts. of ochras, sliced thin",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tomatoes, also sliced",
+      "originalText": "1 qt. of tomatoes, also sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "4 tablespoonfuls of butter",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef, cut into small pieces",
+      "originalText": "2 lbs. of beef, cut into small pieces",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. corned ham or pork, also cut up",
+      "originalText": "½ lb. corned ham or pork, also cut up",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 quart cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "2 quarts boiling water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cayenne pepper and salt",
+      "originalText": "Cayenne pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the meat and ochras together in a pot with a quart of cold water—just enough to cover them—and let them stew for an hour.",
+      "section": null
+    },
+    {
+      "text": "Then add the tomatoes and two quarts of boiling water—more, if the liquid in the pot has boiled away so as to expose the meat and vegetables.",
+      "section": null
+    },
+    {
+      "text": "Boil three-quarters of an hour longer, skimming often with a silver spoon.",
+      "section": null
+    },
+    {
+      "text": "When the contents of the vessel are boiled to pieces, put in the butter, with cayenne pepper and salt, if the ham has not seasoned it sufficiently.",
+      "section": null
+    },
+    {
+      "text": "Strain and send up with squares of light, crisp toast floating upon it.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ochra-or-gumbo.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the meat and ochras together in a pot with a quart of cold water—just enough to cover them—and let them stew for an hour.\n2. Then add the tomatoes and two quarts of boiling water—more, if the liquid in the pot has boiled away so as to expose the meat and vegetables.\n3. Boil three-quarters of an hour longer, skimming often with a silver spoon.\n4. When the contents of the vessel are boiled to pieces, put in the butter, with cayenne pepper and salt, if the ham has not seasoned it sufficiently.\n5. Strain and send up with squares of light, crisp toast floating upon it.",
+    "originalIngredients": [
+      "2 qts. of ochras, sliced thin",
+      "1 qt. of tomatoes, also sliced",
+      "4 tablespoonfuls of butter",
+      "2 lbs. of beef, cut into small pieces",
+      "½ lb. corned ham or pork, also cut up",
+      "1 quart cold water",
+      "2 quarts boiling water",
+      "Cayenne pepper and salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

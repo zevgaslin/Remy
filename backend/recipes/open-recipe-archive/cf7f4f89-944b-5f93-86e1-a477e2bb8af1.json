@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "cf7f4f89-944b-5f93-86e1-a477e2bb8af1",
+  "name": "Chicken Pie",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "part ice-cold water",
+      "originalText": "1 part ice-cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "part thick sour cream",
+      "originalText": "1 part thick sour cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream of tartar",
+      "originalText": "2 teaspoons cream of tartar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 quart flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chicken",
+      "originalText": "chicken",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rolled crackers",
+      "originalText": "rolled crackers",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "broth",
+      "originalText": "broth",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Line a deep biscuit pan with pastry made with 1 part ice-cold water and one part of thick sour cream, with 1 teaspoon soda and 2 of cream of tartar to 1 quart of flour",
+      "section": null
+    },
+    {
+      "text": "Bone the chicken and distribute white and dark meat evenly over crust",
+      "section": null
+    },
+    {
+      "text": "Sprinkle rolled crackers 1/2 inch in depth over meat when pan was half filled",
+      "section": null
+    },
+    {
+      "text": "Simmer broth to good strength, thicken and season as for gravy",
+      "section": null
+    },
+    {
+      "text": "Pour in pan enough to nearly cover second layer of meat",
+      "section": null
+    },
+    {
+      "text": "Leave opening in top crust for escape of steam",
+      "section": null
+    },
+    {
+      "text": "Bake 40 minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chicken-pie-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Line a deep biscuit pan with pastry made with 1 part ice-cold water and one part of thick sour cream, with 1 teaspoon soda and 2 of cream of tartar to 1 quart of flour\n2. Bone the chicken and distribute white and dark meat evenly over crust\n3. Sprinkle rolled crackers 1/2 inch in depth over meat when pan was half filled\n4. Simmer broth to good strength, thicken and season as for gravy\n5. Pour in pan enough to nearly cover second layer of meat\n6. Leave opening in top crust for escape of steam\n7. Bake 40 minutes",
+    "originalIngredients": [
+      "1 part ice-cold water",
+      "1 part thick sour cream",
+      "1 teaspoon soda",
+      "2 teaspoons cream of tartar",
+      "1 quart flour",
+      "chicken",
+      "rolled crackers",
+      "broth",
+      "salt",
+      "pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

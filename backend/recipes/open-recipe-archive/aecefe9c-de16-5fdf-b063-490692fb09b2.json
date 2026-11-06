@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "id": "aecefe9c-de16-5fdf-b063-490692fb09b2",
+  "name": "Roast Duckling",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "mashed potatoes",
+      "originalText": "3 tablespoonfuls of mashed potatoes",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 tablespoonful of cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery salt",
+      "originalText": "celery salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white pepper",
+      "originalText": "white pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "almonds, blanched and chopped very fine",
+      "originalText": "3 tablespoonfuls of almonds, blanched and chopped very fine",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "young ducks",
+      "originalText": "2 young ducks",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cotton-twine",
+      "originalText": "cotton-twine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "split onion",
+      "originalText": "1 split onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 cupful of boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gravy",
+      "originalText": "gravy",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "browned flour",
+      "originalText": "1 tablespoonful of browned flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currant jelly",
+      "originalText": "2 tablespoonfuls of currant jelly",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Whip three tablespoonfuls of mashed potatoes to a white cream with butter and a tablespoonful of cream",
+      "section": null
+    },
+    {
+      "text": "Season with celery salt and white pepper",
+      "section": null
+    },
+    {
+      "text": "Add three tablespoonfuls of almonds, blanched and chopped very fine",
+      "section": null
+    },
+    {
+      "text": "Stuff your young ducks when you have cleaned and washed them with this mixture",
+      "section": null
+    },
+    {
+      "text": "Do not distend the bodies, but fill without packing",
+      "section": null
+    },
+    {
+      "text": "Truss and bind legs and wings into position with cotton-twine",
+      "section": null
+    },
+    {
+      "text": "Lay the plump creatures upon the grating of your roaster",
+      "section": null
+    },
+    {
+      "text": "Rub the breast with a split onion",
+      "section": null
+    },
+    {
+      "text": "Dust with pepper, salt and flour",
+      "section": null
+    },
+    {
+      "text": "Put a cupful of boiling water into the pan and cover",
+      "section": null
+    },
+    {
+      "text": "Set in a very quick oven for the first fifteen minutes",
+      "section": null
+    },
+    {
+      "text": "Change, then, to a more moderate, and cook, still covered, ten minutes to the pound",
+      "section": null
+    },
+    {
+      "text": "Uncover, baste well with gravy, then with butter",
+      "section": null
+    },
+    {
+      "text": "Dredge with flour, and brown",
+      "section": null
+    },
+    {
+      "text": "Skim the fat from the gravy",
+      "section": null
+    },
+    {
+      "text": "Thicken with a tablespoonful of browned flour, rubbed up with two tablespoonfuls of currant jelly, and send to table in a boat",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/roast-duckling.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Whip three tablespoonfuls of mashed potatoes to a white cream with butter and a tablespoonful of cream\n2. Season with celery salt and white pepper\n3. Add three tablespoonfuls of almonds, blanched and chopped very fine\n4. Stuff your young ducks when you have cleaned and washed them with this mixture\n5. Do not distend the bodies, but fill without packing\n6. Truss and bind legs and wings into position with cotton-twine\n7. Lay the plump creatures upon the grating of your roaster\n8. Rub the breast with a split onion\n9. Dust with pepper, salt and flour\n10. Put a cupful of boiling water into the pan and cover\n11. Set in a very quick oven for the first fifteen minutes\n12. Change, then, to a more moderate, and cook, still covered, ten minutes to the pound\n13. Uncover, baste well with gravy, then with butter\n14. Dredge with flour, and brown\n15. Skim the fat from the gravy\n16. Thicken with a tablespoonful of browned flour, rubbed up with two tablespoonfuls of currant jelly, and send to table in a boat",
+    "originalIngredients": [
+      "3 tablespoonfuls of mashed potatoes",
+      "butter",
+      "1 tablespoonful of cream",
+      "celery salt",
+      "white pepper",
+      "3 tablespoonfuls of almonds, blanched and chopped very fine",
+      "2 young ducks",
+      "cotton-twine",
+      "1 split onion",
+      "pepper",
+      "salt",
+      "flour",
+      "1 cupful of boiling water",
+      "gravy",
+      "1 tablespoonful of browned flour",
+      "2 tablespoonfuls of currant jelly"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

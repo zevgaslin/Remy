@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "758c0fa7-b05c-524e-8e89-92e54eefbeaa",
+  "name": "Apple Sauce Cake 2",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "shortening",
+      "originalText": "1/2 cup shortening",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoon salt",
+      "originalText": "1 saltspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1/4 teaspoon cloves",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "1 teaspoon cinnamon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins seeded and cut up",
+      "originalText": "1 cup raisins seeded and cut up",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour apple sauce",
+      "originalText": "1 cup sour apple sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "2 1/2 cups sifted flour",
+      "quantity": 2.5,
+      "quantityText": "2 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiled cider or vinegar",
+      "originalText": "boiled cider or vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream together 1 cup sugar and 1/2 cup shortening",
+      "section": null
+    },
+    {
+      "text": "Add 1 saltspoon salt, 1/4 teaspoon cloves, 1 teaspoon cinnamon, a little nutmeg and 1 cup raisins seeded and cut up",
+      "section": null
+    },
+    {
+      "text": "Dissolve 1 teaspoon soda in a bit of warm water, then stir it in a cup of sour apple sauce, letting it foam over the ingredients in the bowl",
+      "section": null
+    },
+    {
+      "text": "Beat all thoroughly and add 2 1/2 cups sifted flour",
+      "section": null
+    },
+    {
+      "text": "Bake in a loaf tin 45 minutes or more, until it is well baked",
+      "section": null
+    },
+    {
+      "text": "If the apple sauce is not very sour add a little boiled cider or vinegar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/apple-sauce-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream together 1 cup sugar and 1/2 cup shortening\n2. Add 1 saltspoon salt, 1/4 teaspoon cloves, 1 teaspoon cinnamon, a little nutmeg and 1 cup raisins seeded and cut up\n3. Dissolve 1 teaspoon soda in a bit of warm water, then stir it in a cup of sour apple sauce, letting it foam over the ingredients in the bowl\n4. Beat all thoroughly and add 2 1/2 cups sifted flour\n5. Bake in a loaf tin 45 minutes or more, until it is well baked\n6. If the apple sauce is not very sour add a little boiled cider or vinegar",
+    "originalIngredients": [
+      "1 cup sugar",
+      "1/2 cup shortening",
+      "1 saltspoon salt",
+      "1/4 teaspoon cloves",
+      "1 teaspoon cinnamon",
+      "nutmeg",
+      "1 cup raisins seeded and cut up",
+      "1 teaspoon soda",
+      "1 cup sour apple sauce",
+      "2 1/2 cups sifted flour",
+      "boiled cider or vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

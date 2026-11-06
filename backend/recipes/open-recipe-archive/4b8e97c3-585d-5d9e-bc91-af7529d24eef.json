@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "4b8e97c3-585d-5d9e-bc91-af7529d24eef",
+  "name": "Steamed Brown Bread Rolls",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "buttermilk",
+      "originalText": "2 1/2 cups buttermilk",
+      "quantity": 2.5,
+      "quantityText": "2 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Graham flour",
+      "originalText": "3 cups Graham flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white flour",
+      "originalText": "white flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat 1/2 cup sugar and 1 egg together",
+      "section": null
+    },
+    {
+      "text": "Add 2 1/2 cups buttermilk, 1 teaspoon salt, 1 teaspoon soda, 3 cups Graham flour and enough white flour to make a stiff batter",
+      "section": null
+    },
+    {
+      "text": "Have ready 4 one-pound baking powder cans, well greased, lids and all",
+      "section": null
+    },
+    {
+      "text": "Fill the cans half-full of Graham batter",
+      "section": null
+    },
+    {
+      "text": "Put on lids and steam 2 1/2 hours",
+      "section": null
+    },
+    {
+      "text": "Remove from steamer and set in oven for 15 minutes with lids off",
+      "section": null
+    },
+    {
+      "text": "Turn upside down and with a little shaking turn out on a board",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/steamed-brown-bread-rolls.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat 1/2 cup sugar and 1 egg together\n2. Add 2 1/2 cups buttermilk, 1 teaspoon salt, 1 teaspoon soda, 3 cups Graham flour and enough white flour to make a stiff batter\n3. Have ready 4 one-pound baking powder cans, well greased, lids and all\n4. Fill the cans half-full of Graham batter\n5. Put on lids and steam 2 1/2 hours\n6. Remove from steamer and set in oven for 15 minutes with lids off\n7. Turn upside down and with a little shaking turn out on a board",
+    "originalIngredients": [
+      "1/2 cup sugar",
+      "1 egg",
+      "2 1/2 cups buttermilk",
+      "1 teaspoon salt",
+      "1 teaspoon soda",
+      "3 cups Graham flour",
+      "white flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

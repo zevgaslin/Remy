@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "bf533c8d-4d53-5607-9959-a43293ac1048",
+  "name": "Blanquette of Turkey",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cooked turkey cut in small pieces",
+      "originalText": "1 qt. cooked turkey cut in small pieces",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup stock",
+      "originalText": "1 large cup stock",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoonfuls of butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonful of flour",
+      "originalText": "1 heaping tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "1 teaspoonful lemon juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 cupful milk or cream",
+      "originalText": "1 cupful milk or cream",
+      "quantity": null,
+      "quantityText": "1 cupful milk or cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of four eggs",
+      "originalText": "yolks of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "4 tablespoonfuls of milk",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the butter in the sauce-pan and when hot add the flour.",
+      "section": null
+    },
+    {
+      "text": "Stir until smooth, but not brown.",
+      "section": null
+    },
+    {
+      "text": "Add the stock, and cook two minutes.",
+      "section": null
+    },
+    {
+      "text": "Add the seasoning and cream.",
+      "section": null
+    },
+    {
+      "text": "As soon as this boils up add the turkey.",
+      "section": null
+    },
+    {
+      "text": "Cook ten minutes.",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks of the eggs with four tablespoonfuls of milk.",
+      "section": null
+    },
+    {
+      "text": "Stir into the blanquette.",
+      "section": null
+    },
+    {
+      "text": "Cook about half a minute longer.",
+      "section": null
+    },
+    {
+      "text": "This can be served in a rice or potato border.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/blanquette-of-turkey.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the butter in the sauce-pan and when hot add the flour.\n2. Stir until smooth, but not brown.\n3. Add the stock, and cook two minutes.\n4. Add the seasoning and cream.\n5. As soon as this boils up add the turkey.\n6. Cook ten minutes.\n7. Beat the yolks of the eggs with four tablespoonfuls of milk.\n8. Stir into the blanquette.\n9. Cook about half a minute longer.\n10. This can be served in a rice or potato border.",
+    "originalIngredients": [
+      "1 qt. cooked turkey cut in small pieces",
+      "1 large cup stock",
+      "3 tablespoonfuls of butter",
+      "1 heaping tablespoonful of flour",
+      "1 teaspoonful lemon juice",
+      "1 cupful milk or cream",
+      "yolks of four eggs",
+      "4 tablespoonfuls of milk",
+      "salt",
+      "pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

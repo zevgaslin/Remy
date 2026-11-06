@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "1bff5b08-cb07-58d6-b2ca-2684f6a5c65b",
+  "name": "Creamed Lobster",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Meat of 1 lobster chopped fine",
+      "originalText": "Meat of 1 lobster chopped fine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whipped cream",
+      "originalText": "1/2 pt. whipped cream",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gelatine",
+      "originalText": "1/2 oz. gelatine",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little anchovy paste",
+      "originalText": "A little anchovy paste",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne and salt",
+      "originalText": "cayenne and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take the meat lobster, chop it fine, add whipped cream, gelatine which has been soaked in water, a little anchovy sauce, salt and cayenne",
+      "section": null
+    },
+    {
+      "text": "Stir it gently till nearly set, and pour into a slightly oiled border mould",
+      "section": null
+    },
+    {
+      "text": "When turned out, fill the centre with mayonnaise, garnish with mashed green peas put through a forcepipe, and the claws round the outside",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/creamed-lobster.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take the meat lobster, chop it fine, add whipped cream, gelatine which has been soaked in water, a little anchovy sauce, salt and cayenne\n2. Stir it gently till nearly set, and pour into a slightly oiled border mould\n3. When turned out, fill the centre with mayonnaise, garnish with mashed green peas put through a forcepipe, and the claws round the outside",
+    "originalIngredients": [
+      "Meat of 1 lobster chopped fine",
+      "1/2 pt. whipped cream",
+      "1/2 oz. gelatine",
+      "A little anchovy paste",
+      "cayenne and salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

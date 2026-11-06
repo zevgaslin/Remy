@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "440d5d8f-fc27-5357-a582-14e922f97f31",
+  "name": "Orange Marmalade",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen bitter oranges",
+      "originalText": "1 dozen bitter oranges",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "5 quarts cold water",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "7 pounds granulated sugar",
+      "quantity": 7.0,
+      "quantityText": "7",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel off the rind as thin as possible in long strips with a sharp knife",
+      "section": null
+    },
+    {
+      "text": "Remove the white part",
+      "section": null
+    },
+    {
+      "text": "Cut the yellow part in very thin shreds about 1 inch long",
+      "section": null
+    },
+    {
+      "text": "Cut the white part into bits the size of small beans",
+      "section": null
+    },
+    {
+      "text": "Cut up the pulp rather fine, saving the pips",
+      "section": null
+    },
+    {
+      "text": "Put pips in a bowl with 1 pint water poured over them",
+      "section": null
+    },
+    {
+      "text": "Pour the 5 quarts water on the cut-up rind and pulp",
+      "section": null
+    },
+    {
+      "text": "Let stand over night",
+      "section": null
+    },
+    {
+      "text": "Next day add the liquid from the pips, and boil 3 hours",
+      "section": null
+    },
+    {
+      "text": "Set away until next day, bring to a boil",
+      "section": null
+    },
+    {
+      "text": "Add the sugar (which has been heated)",
+      "section": null
+    },
+    {
+      "text": "Boil an hour or less if it jellies",
+      "section": null
+    },
+    {
+      "text": "Put in glasses",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/orange-marmalade-10.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel off the rind as thin as possible in long strips with a sharp knife\n2. Remove the white part\n3. Cut the yellow part in very thin shreds about 1 inch long\n4. Cut the white part into bits the size of small beans\n5. Cut up the pulp rather fine, saving the pips\n6. Put pips in a bowl with 1 pint water poured over them\n7. Pour the 5 quarts water on the cut-up rind and pulp\n8. Let stand over night\n9. Next day add the liquid from the pips, and boil 3 hours\n10. Set away until next day, bring to a boil\n11. Add the sugar (which has been heated)\n12. Boil an hour or less if it jellies\n13. Put in glasses",
+    "originalIngredients": [
+      "1 dozen bitter oranges",
+      "5 quarts cold water",
+      "7 pounds granulated sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

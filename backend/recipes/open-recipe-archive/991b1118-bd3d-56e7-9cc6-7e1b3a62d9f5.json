@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "991b1118-bd3d-56e7-9cc6-7e1b3a62d9f5",
+  "name": "Bread from Manitoba Flour",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "3 quarts warm water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "1 quart yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "3 tablespoons salt",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In the morning sift flour into your bread pan",
+      "section": null
+    },
+    {
+      "text": "Take 3 quarts of warm water to 1 quart of yeast, 2 tablespoons sugar, 3 tablespoons salt",
+      "section": null
+    },
+    {
+      "text": "Mix to consistency of a nice soft dough",
+      "section": null
+    },
+    {
+      "text": "Punch for half an hour, gradually sifting flour till you have a nice, smooth, spongy dough",
+      "section": null
+    },
+    {
+      "text": "Let rise and mix down twice",
+      "section": null
+    },
+    {
+      "text": "Put in the pans and let rise for an hour",
+      "section": null
+    },
+    {
+      "text": "Bake in oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/bread-from-manitoba-flour.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. In the morning sift flour into your bread pan\n2. Take 3 quarts of warm water to 1 quart of yeast, 2 tablespoons sugar, 3 tablespoons salt\n3. Mix to consistency of a nice soft dough\n4. Punch for half an hour, gradually sifting flour till you have a nice, smooth, spongy dough\n5. Let rise and mix down twice\n6. Put in the pans and let rise for an hour\n7. Bake in oven",
+    "originalIngredients": [
+      "flour",
+      "3 quarts warm water",
+      "1 quart yeast",
+      "2 tablespoons sugar",
+      "3 tablespoons salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

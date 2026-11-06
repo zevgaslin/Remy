@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "c650ee1d-6cd5-5569-b446-e162c088c9be",
+  "name": "Risen Cake",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "three pounds of flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and a half pounds of pounded sugar",
+      "originalText": "one and a half pounds of pounded sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "one tea-spoonful of cloves",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace",
+      "originalText": "one tea-spoonful of mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "one tea-spoonful of ginger",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonsful of good yeast",
+      "originalText": "four spoonsful of good yeast",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "twelve eggs",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "two gills of brandy",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "gills",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "two pounds of raisins",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take three pounds of flour, one and a half pounds of pounded sugar, a tea-spoonful of cloves, one of mace, and one of ginger, all finely powdered",
+      "section": null
+    },
+    {
+      "text": "Pass the whole through a sieve",
+      "section": null
+    },
+    {
+      "text": "Put to it four spoonsful of good yeast, and twelve eggs",
+      "section": null
+    },
+    {
+      "text": "Mix it up well, and if not sufficiently soft, add a little milk",
+      "section": null
+    },
+    {
+      "text": "Make it up at night, and set it to rise",
+      "section": null
+    },
+    {
+      "text": "When well risen, knead into it a pound of butter, and two gills of brandy",
+      "section": null
+    },
+    {
+      "text": "Have ready two pounds of raisins stoned",
+      "section": null
+    },
+    {
+      "text": "Mix all well together",
+      "section": null
+    },
+    {
+      "text": "Pour it into a mould of proper size",
+      "section": null
+    },
+    {
+      "text": "Bake it in an oven heated as for bread",
+      "section": null
+    },
+    {
+      "text": "Let it stand till thoroughly done",
+      "section": null
+    },
+    {
+      "text": "Do not take it from the mould until quite cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/risen-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take three pounds of flour, one and a half pounds of pounded sugar, a tea-spoonful of cloves, one of mace, and one of ginger, all finely powdered\n2. Pass the whole through a sieve\n3. Put to it four spoonsful of good yeast, and twelve eggs\n4. Mix it up well, and if not sufficiently soft, add a little milk\n5. Make it up at night, and set it to rise\n6. When well risen, knead into it a pound of butter, and two gills of brandy\n7. Have ready two pounds of raisins stoned\n8. Mix all well together\n9. Pour it into a mould of proper size\n10. Bake it in an oven heated as for bread\n11. Let it stand till thoroughly done\n12. Do not take it from the mould until quite cold",
+    "originalIngredients": [
+      "three pounds of flour",
+      "one and a half pounds of pounded sugar",
+      "one tea-spoonful of cloves",
+      "one tea-spoonful of mace",
+      "one tea-spoonful of ginger",
+      "four spoonsful of good yeast",
+      "twelve eggs",
+      "milk",
+      "one pound of butter",
+      "two gills of brandy",
+      "two pounds of raisins"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

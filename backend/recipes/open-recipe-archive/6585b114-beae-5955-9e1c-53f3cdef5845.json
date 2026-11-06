@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "6585b114-beae-5955-9e1c-53f3cdef5845",
+  "name": "Mocha Cakes",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "3/4 cup milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 1/2 cups flour",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoonfuls baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites 4 eggs",
+      "originalText": "Whites 4 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "2 cups powdered sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoonfuls butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water and vanilla",
+      "originalText": "1 tablespoonful water and vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 lb. almonds, chopped, or peanuts",
+      "originalText": "1 lb. almonds, chopped, or peanuts",
+      "quantity": null,
+      "quantityText": "1 lb. almonds, chopped, or peanuts",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream butter and sugar, beating all the time, slowly add the milk, then the flour and baking powder sifted together, gently fold in well-beaten whites.",
+      "section": null
+    },
+    {
+      "text": "Bake in a long pan or in two square layer-cake tins.",
+      "section": null
+    },
+    {
+      "text": "Beat sugar, butter, water with vanilla; if not soft enough add more water.",
+      "section": null
+    },
+    {
+      "text": "When cake is cold cut in pieces about an inch square, which hold on a two-pronged fork, ice on five sides and dip in a bowl of finely rolled peanuts or chopped parched almonds, previously prepared.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/mocha-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream butter and sugar, beating all the time, slowly add the milk, then the flour and baking powder sifted together, gently fold in well-beaten whites.\n2. Bake in a long pan or in two square layer-cake tins.\n3. Beat sugar, butter, water with vanilla; if not soft enough add more water.\n4. When cake is cold cut in pieces about an inch square, which hold on a two-pronged fork, ice on five sides and dip in a bowl of finely rolled peanuts or chopped parched almonds, previously prepared.",
+    "originalIngredients": [
+      "1 cup sugar",
+      "1/2 cup butter",
+      "3/4 cup milk",
+      "1 1/2 cups flour",
+      "2 teaspoonfuls baking powder",
+      "Whites 4 eggs",
+      "2 cups powdered sugar",
+      "2 tablespoonfuls butter",
+      "1 tablespoonful water and vanilla",
+      "1 lb. almonds, chopped, or peanuts"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

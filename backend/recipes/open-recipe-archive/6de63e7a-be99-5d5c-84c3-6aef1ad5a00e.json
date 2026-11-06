@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "6de63e7a-be99-5d5c-84c3-6aef1ad5a00e",
+  "name": "Rice Lemon Pudding",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "one quart of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rice flour",
+      "originalText": "four tablespoonfuls of rice flour",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little milk",
+      "originalText": "a little milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "one quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the grated peel with the juice of two lemons",
+      "originalText": "the grated peel with the juice of two lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the yolks and beaten whites of four eggs",
+      "originalText": "the yolks and beaten whites of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar to taste",
+      "originalText": "sugar to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine-glassful of wine",
+      "originalText": "one wine-glassful of wine",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put on to boil one quart of milk",
+      "section": null
+    },
+    {
+      "text": "When it simmers stir in four tablespoonfuls of rice flour that has been moistened in a little milk",
+      "section": null
+    },
+    {
+      "text": "Let it come to a boil and remove from the fire",
+      "section": null
+    },
+    {
+      "text": "Add one quarter of a pound of butter",
+      "section": null
+    },
+    {
+      "text": "When cool, add the grated peel with the juice of two lemons and the yolks and beaten whites of four eggs",
+      "section": null
+    },
+    {
+      "text": "Sweeten to taste",
+      "section": null
+    },
+    {
+      "text": "Add one wine-glassful of wine in the last thing",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-lemon-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put on to boil one quart of milk\n2. When it simmers stir in four tablespoonfuls of rice flour that has been moistened in a little milk\n3. Let it come to a boil and remove from the fire\n4. Add one quarter of a pound of butter\n5. When cool, add the grated peel with the juice of two lemons and the yolks and beaten whites of four eggs\n6. Sweeten to taste\n7. Add one wine-glassful of wine in the last thing",
+    "originalIngredients": [
+      "one quart of milk",
+      "four tablespoonfuls of rice flour",
+      "a little milk",
+      "one quarter of a pound of butter",
+      "the grated peel with the juice of two lemons",
+      "the yolks and beaten whites of four eggs",
+      "sugar to taste",
+      "one wine-glassful of wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

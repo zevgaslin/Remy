@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "1a73035c-1615-55ea-8b58-08dc84835889",
+  "name": "Kebobbed Oysters",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oysters",
+      "originalText": "50 oysters",
+      "quantity": 50.0,
+      "quantityText": "50",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped parsley",
+      "originalText": "2 tablespoonfuls chopped parsley",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped celery",
+      "originalText": "2 tablespoonfuls chopped celery",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread-crumbs",
+      "originalText": "1 pint bread-crumbs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oyster liquid",
+      "originalText": "oyster liquid",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Drain oysters",
+      "section": null
+    },
+    {
+      "text": "Beat two eggs and add to them a tablespoonful of oyster liquid",
+      "section": null
+    },
+    {
+      "text": "Put on a board a pint of bread-crumbs",
+      "section": null
+    },
+    {
+      "text": "Have at your left side an ordinary baking-dish",
+      "section": null
+    },
+    {
+      "text": "Lift the oysters by the muscular part",
+      "section": null
+    },
+    {
+      "text": "Dip them in egg, then in bread-crumbs",
+      "section": null
+    },
+    {
+      "text": "Put them at once in the bottom of the baking-dish",
+      "section": null
+    },
+    {
+      "text": "Sprinkle over half a teaspoonful of salt, a dash of pepper, a sprinkling of parsley and celery",
+      "section": null
+    },
+    {
+      "text": "Dip and put in another layer of oysters, etc., until all are used",
+      "section": null
+    },
+    {
+      "text": "Cut small pieces of butter over the top",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven for fifteen or twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Serve in the dish in which they were baked",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/kebobbed-oysters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Drain oysters\n2. Beat two eggs and add to them a tablespoonful of oyster liquid\n3. Put on a board a pint of bread-crumbs\n4. Have at your left side an ordinary baking-dish\n5. Lift the oysters by the muscular part\n6. Dip them in egg, then in bread-crumbs\n7. Put them at once in the bottom of the baking-dish\n8. Sprinkle over half a teaspoonful of salt, a dash of pepper, a sprinkling of parsley and celery\n9. Dip and put in another layer of oysters, etc., until all are used\n10. Cut small pieces of butter over the top\n11. Bake in a quick oven for fifteen or twenty minutes\n12. Serve in the dish in which they were baked",
+    "originalIngredients": [
+      "50 oysters",
+      "2 tablespoonfuls chopped parsley",
+      "2 tablespoonfuls chopped celery",
+      "2 eggs",
+      "1 pint bread-crumbs",
+      "butter",
+      "salt",
+      "pepper",
+      "oyster liquid"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

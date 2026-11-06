@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "00824f11-94ca-520f-82ed-103c384a8347",
+  "name": "Knöfli",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1/4 cup milk",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cheese",
+      "originalText": "grated cheese",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat two eggs slightly",
+      "section": null
+    },
+    {
+      "text": "Add one-fourth cup milk",
+      "section": null
+    },
+    {
+      "text": "Add gradually to one cup flour mixed and sifted with one teaspoon salt",
+      "section": null
+    },
+    {
+      "text": "Place colander over a kettle of boiling water",
+      "section": null
+    },
+    {
+      "text": "Turn in one-third mixture",
+      "section": null
+    },
+    {
+      "text": "Force through colander into water, using a potato masher",
+      "section": null
+    },
+    {
+      "text": "As soon as buttons come to top of water, remove with skimmer to hot vegetable dish",
+      "section": null
+    },
+    {
+      "text": "Sprinkle with salt and grated cheese",
+      "section": null
+    },
+    {
+      "text": "Repeat until mixture is used",
+      "section": null
+    },
+    {
+      "text": "Let stand in oven five minutes",
+      "section": null
+    },
+    {
+      "text": "Serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/kn-fli.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat two eggs slightly\n2. Add one-fourth cup milk\n3. Add gradually to one cup flour mixed and sifted with one teaspoon salt\n4. Place colander over a kettle of boiling water\n5. Turn in one-third mixture\n6. Force through colander into water, using a potato masher\n7. As soon as buttons come to top of water, remove with skimmer to hot vegetable dish\n8. Sprinkle with salt and grated cheese\n9. Repeat until mixture is used\n10. Let stand in oven five minutes\n11. Serve",
+    "originalIngredients": [
+      "2 eggs",
+      "1/4 cup milk",
+      "1 cup flour",
+      "1 teaspoon salt",
+      "salt",
+      "grated cheese"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

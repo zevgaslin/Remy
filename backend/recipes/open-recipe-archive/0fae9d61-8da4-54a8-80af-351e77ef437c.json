@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "0fae9d61-8da4-54a8-80af-351e77ef437c",
+  "name": "Lemon Cream No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cream",
+      "originalText": "One pint of cream",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the yolks of two eggs",
+      "originalText": "the yolks of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of white sugar",
+      "originalText": "one quarter of a pound of white sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large lemon",
+      "originalText": "one large lemon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one ounce isinglass or gelatine",
+      "originalText": "one ounce isinglass or gelatine",
+      "quantity": null,
+      "quantityText": "one ounce isinglass or gelatine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the cream into a lined saucepan with the sugar, lemon peel and isinglass",
+      "section": null
+    },
+    {
+      "text": "Simmer these over a gentle fire for about ten minutes, stirring them all the time",
+      "section": null
+    },
+    {
+      "text": "Strain the cream into a basin",
+      "section": null
+    },
+    {
+      "text": "Add the yolks of eggs, which should be well beaten",
+      "section": null
+    },
+    {
+      "text": "Put the basin into a saucepan of boiling water",
+      "section": null
+    },
+    {
+      "text": "Stir the mixture one way until it thickens, but do not allow it to boil",
+      "section": null
+    },
+    {
+      "text": "Take it off the fire and keep stirring it until nearly cold",
+      "section": null
+    },
+    {
+      "text": "Strain the lemon juice into a basin",
+      "section": null
+    },
+    {
+      "text": "Gradually pour on it the cream, and stir it well until the juice is well mixed with it",
+      "section": null
+    },
+    {
+      "text": "Have ready a well-oiled mold",
+      "section": null
+    },
+    {
+      "text": "Pour the cream into it, and let it remain until perfectly set",
+      "section": null
+    },
+    {
+      "text": "When required for table, loosen the edges with a small blunt knife",
+      "section": null
+    },
+    {
+      "text": "Put a dish on the top of the mold",
+      "section": null
+    },
+    {
+      "text": "Turn it over quickly, and the cream should easily slip away",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-cream-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the cream into a lined saucepan with the sugar, lemon peel and isinglass\n2. Simmer these over a gentle fire for about ten minutes, stirring them all the time\n3. Strain the cream into a basin\n4. Add the yolks of eggs, which should be well beaten\n5. Put the basin into a saucepan of boiling water\n6. Stir the mixture one way until it thickens, but do not allow it to boil\n7. Take it off the fire and keep stirring it until nearly cold\n8. Strain the lemon juice into a basin\n9. Gradually pour on it the cream, and stir it well until the juice is well mixed with it\n10. Have ready a well-oiled mold\n11. Pour the cream into it, and let it remain until perfectly set\n12. When required for table, loosen the edges with a small blunt knife\n13. Put a dish on the top of the mold\n14. Turn it over quickly, and the cream should easily slip away",
+    "originalIngredients": [
+      "One pint of cream",
+      "the yolks of two eggs",
+      "one quarter of a pound of white sugar",
+      "one large lemon",
+      "one ounce isinglass or gelatine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

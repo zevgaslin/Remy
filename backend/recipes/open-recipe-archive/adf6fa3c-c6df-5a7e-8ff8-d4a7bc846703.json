@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "adf6fa3c-c6df-5a7e-8ff8-d4a7bc846703",
+  "name": "A Marlborough Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large ripe pippin apples",
+      "originalText": "six large ripe pippin apples",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jill of water",
+      "originalText": "a jill of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonfuls of sugar",
+      "originalText": "six large table-spoonfuls of sugar",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two milk biscuits or small sponge cakes or an equal quantity of stale bread",
+      "originalText": "two milk biscuits or small sponge cakes or an equal quantity of stale bread",
+      "quantity": null,
+      "quantityText": "two milk biscuits or small sponge cakes or an equal quantity of stale bread",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large lemon",
+      "originalText": "a large lemon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose water",
+      "originalText": "a wine glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff paste",
+      "originalText": "puff paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "slips of citron",
+      "originalText": "slips of citron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare, core and quarter six large ripe pippin apples.",
+      "section": null
+    },
+    {
+      "text": "Stew them in about a jill of water.",
+      "section": null
+    },
+    {
+      "text": "When they are soft but not broken, take them out, drain them through a sieve, and mash them to a paste with the back of a spoon.",
+      "section": null
+    },
+    {
+      "text": "Mix with them six large table-spoonfuls of sugar and a quarter of a pound of butter, and set them away to get cold.",
+      "section": null
+    },
+    {
+      "text": "Grate two milk biscuits or small sponge cakes, or an equal quantity of stale bread, and grate also the yellow peel, and squeeze the juice of a large lemon.",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs light, and when the apple is cold stir them gradually into it, adding the grated biscuit and the lemon.",
+      "section": null
+    },
+    {
+      "text": "Stir in a wine glass of rose water and a grated nutmeg.",
+      "section": null
+    },
+    {
+      "text": "Put the mixture into a buttered dish or dishes; lay round the edge a border of puff paste, and bake it three quarters of an hour.",
+      "section": null
+    },
+    {
+      "text": "When cold, grate white sugar over the top, and ornament it with slips of citron handsomely arranged.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-marlborough-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare, core and quarter six large ripe pippin apples.\n2. Stew them in about a jill of water.\n3. When they are soft but not broken, take them out, drain them through a sieve, and mash them to a paste with the back of a spoon.\n4. Mix with them six large table-spoonfuls of sugar and a quarter of a pound of butter, and set them away to get cold.\n5. Grate two milk biscuits or small sponge cakes, or an equal quantity of stale bread, and grate also the yellow peel, and squeeze the juice of a large lemon.\n6. Beat six eggs light, and when the apple is cold stir them gradually into it, adding the grated biscuit and the lemon.\n7. Stir in a wine glass of rose water and a grated nutmeg.\n8. Put the mixture into a buttered dish or dishes; lay round the edge a border of puff paste, and bake it three quarters of an hour.\n9. When cold, grate white sugar over the top, and ornament it with slips of citron handsomely arranged.",
+    "originalIngredients": [
+      "six large ripe pippin apples",
+      "a jill of water",
+      "six large table-spoonfuls of sugar",
+      "a quarter of a pound of butter",
+      "two milk biscuits or small sponge cakes or an equal quantity of stale bread",
+      "a large lemon",
+      "six eggs",
+      "a wine glass of rose water",
+      "a grated nutmeg",
+      "puff paste",
+      "white sugar",
+      "slips of citron"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

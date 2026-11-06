@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "2c63c2ad-fe44-533e-b008-baa68b2612de",
+  "name": "Meringue Custard Tartlets",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "puff paste",
+      "originalText": "puff paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of six eggs",
+      "originalText": "yolks of six eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two tablespoonfuls of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful of salt",
+      "originalText": "a saltspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "half a pint of cream",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two tablespoonfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla flavoring",
+      "originalText": "vanilla flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of the eggs",
+      "originalText": "whites of the eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a pound of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dash of salt",
+      "originalText": "a dash of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Select deep individual pie-tins",
+      "section": null
+    },
+    {
+      "text": "Butter the pan and line it with ordinary puff paste",
+      "section": null
+    },
+    {
+      "text": "Stir gradually into the beaten yolks of six eggs two tablespoonfuls of flour, a saltspoonful of salt and half a pint of cream",
+      "section": null
+    },
+    {
+      "text": "Stir until free from lumps and add two tablespoonfuls of sugar",
+      "section": null
+    },
+    {
+      "text": "put the saucepan on the range and stir until the custard coats the spoon",
+      "section": null
+    },
+    {
+      "text": "Do not let it boil or it will curdle",
+      "section": null
+    },
+    {
+      "text": "Pour it in a bowl, add a few drops of vanilla flavoring and stir until the custard becomes cold",
+      "section": null
+    },
+    {
+      "text": "fill the lined mold with this and bake in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "put the whites of the eggs in a bright copper vessel and beat thoroughly, using a baker's wire egg-beater",
+      "section": null
+    },
+    {
+      "text": "While beating, sprinkle in lightly half a pound of sugar and a dash of salt",
+      "section": null
+    },
+    {
+      "text": "spread a thin layer of it over the tart and decorate the top with the remainder by squeezing it through a paper funnel",
+      "section": null
+    },
+    {
+      "text": "Strew a little powdered sugar over the top, return to the oven, and when a delicate yellow tinge remove from the oven and when cold serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/meringue-custard-tartlets.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Select deep individual pie-tins\n2. Butter the pan and line it with ordinary puff paste\n3. Stir gradually into the beaten yolks of six eggs two tablespoonfuls of flour, a saltspoonful of salt and half a pint of cream\n4. Stir until free from lumps and add two tablespoonfuls of sugar\n5. put the saucepan on the range and stir until the custard coats the spoon\n6. Do not let it boil or it will curdle\n7. Pour it in a bowl, add a few drops of vanilla flavoring and stir until the custard becomes cold\n8. fill the lined mold with this and bake in a moderate oven\n9. put the whites of the eggs in a bright copper vessel and beat thoroughly, using a baker's wire egg-beater\n10. While beating, sprinkle in lightly half a pound of sugar and a dash of salt\n11. spread a thin layer of it over the tart and decorate the top with the remainder by squeezing it through a paper funnel\n12. Strew a little powdered sugar over the top, return to the oven, and when a delicate yellow tinge remove from the oven and when cold serve",
+    "originalIngredients": [
+      "puff paste",
+      "yolks of six eggs",
+      "two tablespoonfuls of flour",
+      "a saltspoonful of salt",
+      "half a pint of cream",
+      "two tablespoonfuls of sugar",
+      "vanilla flavoring",
+      "whites of the eggs",
+      "half a pound of sugar",
+      "a dash of salt",
+      "powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

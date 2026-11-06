@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "3b08c8ae-28d8-5857-96d1-4c311a823bc6",
+  "name": "Chocolate Cake No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "one cup of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two cups of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of five eggs",
+      "originalText": "yolks of five eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one cup of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of two eggs",
+      "originalText": "whites of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of sifted flour",
+      "originalText": "three cups and a half of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoonfuls of baking powder",
+      "originalText": "two heaping teaspoonfuls of baking powder",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Mixture for Filling: whites of three eggs",
+      "originalText": "Mixture for Filling: whites of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two cupfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cake of grated chocolate",
+      "originalText": "one-half cake of grated chocolate",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla extract",
+      "originalText": "one teaspoonful of vanilla extract",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir one cup of butter and two cups of sugar to a cream",
+      "section": null
+    },
+    {
+      "text": "Add the yolks of five eggs after they have been well beaten",
+      "section": null
+    },
+    {
+      "text": "Stir into that one cup of milk",
+      "section": null
+    },
+    {
+      "text": "Beat the whites of two of the eggs to a stiff froth and add that also",
+      "section": null
+    },
+    {
+      "text": "Put in three cups and a half of sifted flour with two heaping teaspoonfuls of baking powder stirred into it",
+      "section": null
+    },
+    {
+      "text": "Bake in jelly-cake tins",
+      "section": null
+    },
+    {
+      "text": "For the filling, take the remaining three whites of the eggs beaten very stiff",
+      "section": null
+    },
+    {
+      "text": "Boil two cupfuls of sugar to almost candy or until it becomes stringy or almost brittle",
+      "section": null
+    },
+    {
+      "text": "Take it hot from the fire and pour it very slowly on the beaten whites of egg, beating quite fast",
+      "section": null
+    },
+    {
+      "text": "Add one-half cake of grated chocolate and a teaspoonful of vanilla extract",
+      "section": null
+    },
+    {
+      "text": "Stir it all until cool, then spread between each cake and over the top and sides",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chocolate-cake-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir one cup of butter and two cups of sugar to a cream\n2. Add the yolks of five eggs after they have been well beaten\n3. Stir into that one cup of milk\n4. Beat the whites of two of the eggs to a stiff froth and add that also\n5. Put in three cups and a half of sifted flour with two heaping teaspoonfuls of baking powder stirred into it\n6. Bake in jelly-cake tins\n7. For the filling, take the remaining three whites of the eggs beaten very stiff\n8. Boil two cupfuls of sugar to almost candy or until it becomes stringy or almost brittle\n9. Take it hot from the fire and pour it very slowly on the beaten whites of egg, beating quite fast\n10. Add one-half cake of grated chocolate and a teaspoonful of vanilla extract\n11. Stir it all until cool, then spread between each cake and over the top and sides",
+    "originalIngredients": [
+      "one cup of butter",
+      "two cups of sugar",
+      "yolks of five eggs",
+      "one cup of milk",
+      "whites of two eggs",
+      "three cups and a half of sifted flour",
+      "two heaping teaspoonfuls of baking powder",
+      "Mixture for Filling: whites of three eggs",
+      "two cupfuls of sugar",
+      "one-half cake of grated chocolate",
+      "one teaspoonful of vanilla extract"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "c8d947fd-b4c6-5037-af53-f6b391388a52",
+  "name": "Suet Paste",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "beef suet",
+      "originalText": "one pound of beef suet",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two quarts of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Remove the skin and stringy fibres from a pound of beef suet, and chop it as fine as possible.",
+      "section": null
+    },
+    {
+      "text": "Sift two quarts of flour into a deep pan, and rub into it one half of the suet.",
+      "section": null
+    },
+    {
+      "text": "Make it into a round lump of dough with cold water, and then knead it a little.",
+      "section": null
+    },
+    {
+      "text": "Lay the dough on your paste-board, roll it out very thin, and cover it with the remaining half of the suet.",
+      "section": null
+    },
+    {
+      "text": "Flour it, roll it out thin again, and then roll it into a scroll.",
+      "section": null
+    },
+    {
+      "text": "Cut it into as many pieces as you want sheets of paste, and roll them out half an inch thick.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/suet-paste.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Remove the skin and stringy fibres from a pound of beef suet, and chop it as fine as possible.\n2. Sift two quarts of flour into a deep pan, and rub into it one half of the suet.\n3. Make it into a round lump of dough with cold water, and then knead it a little.\n4. Lay the dough on your paste-board, roll it out very thin, and cover it with the remaining half of the suet.\n5. Flour it, roll it out thin again, and then roll it into a scroll.\n6. Cut it into as many pieces as you want sheets of paste, and roll them out half an inch thick.",
+    "originalIngredients": [
+      "one pound of beef suet",
+      "two quarts of flour",
+      "cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

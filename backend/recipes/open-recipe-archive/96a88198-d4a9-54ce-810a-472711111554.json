@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "96a88198-d4a9-54ce-810a-472711111554",
+  "name": "Bologna Sausage (Cooked)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lean beef",
+      "originalText": "2 lbs. lean beef",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean veal",
+      "originalText": "2 lbs. lean veal",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean pork",
+      "originalText": "2 lbs. lean pork",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fat salt pork—not smoked",
+      "originalText": "2 lbs. fat salt pork—not smoked",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef suet",
+      "originalText": "1 lb. beef suet",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sage",
+      "originalText": "10 teaspoonfuls powdered sage",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "marjoram, parsley, savory, and thyme, mixed",
+      "originalText": "1 oz. marjoram, parsley, savory, and thyme, mixed",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne pepper",
+      "originalText": "2 teaspoonfuls cayenne pepper",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black pepper",
+      "originalText": "2 teaspoonfuls black pepper",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "1 grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1 teaspoonful cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "minced onion",
+      "originalText": "1 minced onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt to taste",
+      "originalText": "Salt to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oil or melted butter",
+      "originalText": "Oil or melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Beef-skins",
+      "originalText": "Beef-skins",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop or grind the meat and suet; season, and stuff into beef-skins",
+      "section": null
+    },
+    {
+      "text": "Tie these up; prick each in several places to allow the escape of the steam",
+      "section": null
+    },
+    {
+      "text": "Put into hot—not boiling water, and heat gradually to the boiling-point",
+      "section": null
+    },
+    {
+      "text": "Cook slowly for one hour",
+      "section": null
+    },
+    {
+      "text": "Take out the skins and lay them to dry in the sun, upon clean, sweet straw or hay",
+      "section": null
+    },
+    {
+      "text": "Rub the outside of the skins with oil or melted butter, and hang in a cool, dry cellar",
+      "section": null
+    },
+    {
+      "text": "If you mean to keep it more than a week, rub pepper or powdered ginger upon the outside",
+      "section": null
+    },
+    {
+      "text": "You can wash it off before sending to table",
+      "section": null
+    },
+    {
+      "text": "Cut in round slices, and lay sliced lemon around the edge of the dish",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bologna-sausage-cooked.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop or grind the meat and suet; season, and stuff into beef-skins\n2. Tie these up; prick each in several places to allow the escape of the steam\n3. Put into hot—not boiling water, and heat gradually to the boiling-point\n4. Cook slowly for one hour\n5. Take out the skins and lay them to dry in the sun, upon clean, sweet straw or hay\n6. Rub the outside of the skins with oil or melted butter, and hang in a cool, dry cellar\n7. If you mean to keep it more than a week, rub pepper or powdered ginger upon the outside\n8. You can wash it off before sending to table\n9. Cut in round slices, and lay sliced lemon around the edge of the dish",
+    "originalIngredients": [
+      "2 lbs. lean beef",
+      "2 lbs. lean veal",
+      "2 lbs. lean pork",
+      "2 lbs. fat salt pork—not smoked",
+      "1 lb. beef suet",
+      "10 teaspoonfuls powdered sage",
+      "1 oz. marjoram, parsley, savory, and thyme, mixed",
+      "2 teaspoonfuls cayenne pepper",
+      "2 teaspoonfuls black pepper",
+      "1 grated nutmeg",
+      "1 teaspoonful cloves",
+      "1 minced onion",
+      "Salt to taste",
+      "Oil or melted butter",
+      "Beef-skins"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

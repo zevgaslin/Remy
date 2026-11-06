@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "55d8225f-0a10-5403-b48a-3e5384cada78",
+  "name": "Thieves' Vinegar",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large handful of lavender blossoms",
+      "originalText": "a large handful of lavender blossoms",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large handful of sage",
+      "originalText": "a large handful of sage",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large handful of mint",
+      "originalText": "a large handful of mint",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large handful of rue",
+      "originalText": "a large handful of rue",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large handful of wormwood",
+      "originalText": "a large handful of wormwood",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large handful of rosemary",
+      "originalText": "a large handful of rosemary",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "camphor",
+      "originalText": "half an ounce of camphor",
+      "quantity": 0.5,
+      "quantityText": "half an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "alcohol",
+      "originalText": "alcohol",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strong clear vinegar",
+      "originalText": "three quarts of strong clear vinegar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clove of garlic",
+      "originalText": "clove of garlic",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop and mix lavender blossoms, sage, mint, rue, wormwood and rosemary well",
+      "section": null
+    },
+    {
+      "text": "Put them into a jar, with half an ounce of camphor that has been dissolved in a little alcohol",
+      "section": null
+    },
+    {
+      "text": "Pour in three quarts of strong clear vinegar",
+      "section": null
+    },
+    {
+      "text": "Keep the jar for two or three weeks in the hot sun, and at night plunge it into a box of heated sand",
+      "section": null
+    },
+    {
+      "text": "Strain and bottle the liquid, putting into each bottle a clove of garlic sliced",
+      "section": null
+    },
+    {
+      "text": "After it has been bottled for a week, pour it off carefully from the sediment and filter it through blotting paper",
+      "section": null
+    },
+    {
+      "text": "Wash the bottles and return the vinegar to them",
+      "section": null
+    },
+    {
+      "text": "Keep it very tightly corked",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/thieves-vinegar.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop and mix lavender blossoms, sage, mint, rue, wormwood and rosemary well\n2. Put them into a jar, with half an ounce of camphor that has been dissolved in a little alcohol\n3. Pour in three quarts of strong clear vinegar\n4. Keep the jar for two or three weeks in the hot sun, and at night plunge it into a box of heated sand\n5. Strain and bottle the liquid, putting into each bottle a clove of garlic sliced\n6. After it has been bottled for a week, pour it off carefully from the sediment and filter it through blotting paper\n7. Wash the bottles and return the vinegar to them\n8. Keep it very tightly corked",
+    "originalIngredients": [
+      "a large handful of lavender blossoms",
+      "a large handful of sage",
+      "a large handful of mint",
+      "a large handful of rue",
+      "a large handful of wormwood",
+      "a large handful of rosemary",
+      "half an ounce of camphor",
+      "alcohol",
+      "three quarts of strong clear vinegar",
+      "clove of garlic"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

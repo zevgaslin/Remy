@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "74d4d675-e62e-5476-8832-334b116b807a",
+  "name": "Perpetual Yeast",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "potato water",
+      "originalText": "3 cups potato water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "3 cups warm water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 cups of flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Add 3 cups potato water, 1 cup granulated sugar and 1 White Swan Yeast Cake together",
+      "section": null
+    },
+    {
+      "text": "Let stand 48 hours where temperature is moderate, then seal in 2 quart can and set in cool place",
+      "section": null
+    },
+    {
+      "text": "At noon, save 3 cups potato water and add 3/4 cup granulated sugar",
+      "section": null
+    },
+    {
+      "text": "Pour in the yeast",
+      "section": null
+    },
+    {
+      "text": "At night take 3 cups of this liquid and to it add 3 cups warm water (always cup for cup)",
+      "section": null
+    },
+    {
+      "text": "Allow 3 cups of flour to 1 of liquid",
+      "section": null
+    },
+    {
+      "text": "Add 1 tablespoon butter and 1 tablespoon salt",
+      "section": null
+    },
+    {
+      "text": "Knead well and put in pan to rise",
+      "section": null
+    },
+    {
+      "text": "In morning make into loaves",
+      "section": null
+    },
+    {
+      "text": "If yeast is put with potato water at night you may knead stiff in morning",
+      "section": null
+    },
+    {
+      "text": "Grease loaves with melted butter just before placing in oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/perpetual-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Add 3 cups potato water, 1 cup granulated sugar and 1 White Swan Yeast Cake together\n2. Let stand 48 hours where temperature is moderate, then seal in 2 quart can and set in cool place\n3. At noon, save 3 cups potato water and add 3/4 cup granulated sugar\n4. Pour in the yeast\n5. At night take 3 cups of this liquid and to it add 3 cups warm water (always cup for cup)\n6. Allow 3 cups of flour to 1 of liquid\n7. Add 1 tablespoon butter and 1 tablespoon salt\n8. Knead well and put in pan to rise\n9. In morning make into loaves\n10. If yeast is put with potato water at night you may knead stiff in morning\n11. Grease loaves with melted butter just before placing in oven",
+    "originalIngredients": [
+      "3 cups potato water",
+      "1 cup granulated sugar",
+      "1 White Swan Yeast Cake",
+      "3 cups warm water",
+      "3 cups of flour",
+      "1 tablespoon butter",
+      "1 tablespoon salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

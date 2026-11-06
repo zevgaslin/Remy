@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "585fd943-9247-5afd-bc2d-b36f3d8fc48e",
+  "name": "Soufflé",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "2 oz. butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2.5 oz. flour",
+      "quantity": 2.5,
+      "quantityText": "2.5",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks of 4 eggs",
+      "originalText": "Yolks of 4 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of 6 eggs",
+      "originalText": "Whites of 6 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoonful vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chocolate",
+      "originalText": "2 oz. chocolate",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 oz. sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 gill cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt butter and flour, then add cream",
+      "section": null
+    },
+    {
+      "text": "Cook two minutes",
+      "section": null
+    },
+    {
+      "text": "Add chocolate and stir till melted",
+      "section": null
+    },
+    {
+      "text": "Remove from fire and let cool",
+      "section": null
+    },
+    {
+      "text": "Add yolks",
+      "section": null
+    },
+    {
+      "text": "Just before steaming, add whites stiffly beaten and fold them in gently",
+      "section": null
+    },
+    {
+      "text": "Steam one hour and a half in mould placed in saucepan of hot water with water come half way up mould",
+      "section": null
+    },
+    {
+      "text": "Put mould in bottom of saucepan and cover with a greased paper, and then cover saucepan",
+      "section": null
+    },
+    {
+      "text": "Do not let water boil",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/souffl.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt butter and flour, then add cream\n2. Cook two minutes\n3. Add chocolate and stir till melted\n4. Remove from fire and let cool\n5. Add yolks\n6. Just before steaming, add whites stiffly beaten and fold them in gently\n7. Steam one hour and a half in mould placed in saucepan of hot water with water come half way up mould\n8. Put mould in bottom of saucepan and cover with a greased paper, and then cover saucepan\n9. Do not let water boil",
+    "originalIngredients": [
+      "2 oz. butter",
+      "2.5 oz. flour",
+      "Yolks of 4 eggs",
+      "Whites of 6 eggs",
+      "1 teaspoonful vanilla",
+      "2 oz. chocolate",
+      "2 oz. sugar",
+      "1 gill cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

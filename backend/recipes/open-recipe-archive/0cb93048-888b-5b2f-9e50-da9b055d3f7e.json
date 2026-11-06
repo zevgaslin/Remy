@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "0cb93048-888b-5b2f-9e50-da9b055d3f7e",
+  "name": "Salmon Salad",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1½ lb. cold boiled or baked salmon",
+      "originalText": "1½ lb. cold boiled or baked salmon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 heads white lettuce (or celery)",
+      "originalText": "2 heads white lettuce (or celery)",
+      "quantity": null,
+      "quantityText": "2 heads white lettuce (or celery)",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hard-boiled eggs",
+      "originalText": "3 hard-boiled eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salad oil",
+      "originalText": "2 tablespoonfuls salad oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne",
+      "originalText": "1 teaspoonful cayenne",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 teaspoonful white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 teaspoonful Worcestershire or anchovy sauce",
+      "originalText": "1 teaspoonful Worcestershire or anchovy sauce",
+      "quantity": null,
+      "quantityText": "1 teaspoonful Worcestershire or anchovy sauce",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "made mustard",
+      "originalText": "1 teaspoonful made mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful vinegar",
+      "originalText": "1 teacupful vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mince three-quarters of the salmon, laying aside four or five pieces half an inch wide and four or five long; cut smoothly and of uniform size.",
+      "section": null
+    },
+    {
+      "text": "Prepare the dressing in the usual way, and pour over the minced fish.",
+      "section": null
+    },
+    {
+      "text": "Shred the lettuce, handling as little as possible, and heap in a separate bowl, with pounded ice.",
+      "section": null
+    },
+    {
+      "text": "This must accompany the salmon, that the guests may help themselves to their liking. Or you may mix the lettuce with the fish, if it is to be eaten immediately.",
+      "section": null
+    },
+    {
+      "text": "Celery, of course, is always stirred into the salad, when it is used.",
+      "section": null
+    },
+    {
+      "text": "The reserved pieces of salmon should be laid in the dressing for five minutes before the latter is added to the minced fish, then dipped in vinegar.",
+      "section": null
+    },
+    {
+      "text": "When you have transferred your salad (or mayonnaise) to the dish in which it is to be served, round it into a mound, and lay the strips upon it in such a manner as to divide it into triangular sections, the bars all meeting at the top and diverging at the base.",
+      "section": null
+    },
+    {
+      "text": "Between these have subdivisions of chain-work made of the whites of the boiled eggs, each circle overlapping that next to it.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/salmon-salad.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mince three-quarters of the salmon, laying aside four or five pieces half an inch wide and four or five long; cut smoothly and of uniform size.\n2. Prepare the dressing in the usual way, and pour over the minced fish.\n3. Shred the lettuce, handling as little as possible, and heap in a separate bowl, with pounded ice.\n4. This must accompany the salmon, that the guests may help themselves to their liking. Or you may mix the lettuce with the fish, if it is to be eaten immediately.\n5. Celery, of course, is always stirred into the salad, when it is used.\n6. The reserved pieces of salmon should be laid in the dressing for five minutes before the latter is added to the minced fish, then dipped in vinegar.\n7. When you have transferred your salad (or mayonnaise) to the dish in which it is to be served, round it into a mound, and lay the strips upon it in such a manner as to divide it into triangular sections, the bars all meeting at the top and diverging at the base.\n8. Between these have subdivisions of chain-work made of the whites of the boiled eggs, each circle overlapping that next to it.",
+    "originalIngredients": [
+      "1½ lb. cold boiled or baked salmon",
+      "2 heads white lettuce (or celery)",
+      "3 hard-boiled eggs",
+      "2 tablespoonfuls salad oil",
+      "1 teaspoonful salt",
+      "1 teaspoonful cayenne",
+      "1 teaspoonful white sugar",
+      "1 teaspoonful Worcestershire or anchovy sauce",
+      "1 teaspoonful made mustard",
+      "1 teacupful vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

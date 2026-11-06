@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "942f865d-6d8e-5fc1-a202-d573add1739a",
+  "name": "Sweetbread à la Mont Vert",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pair sweetbreads",
+      "originalText": "1 pair sweetbreads",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Truffles, sliced thin",
+      "originalText": "Truffles, sliced thin",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "2 slices onion",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "6 slices carrot",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup brown stock",
+      "originalText": "¼ cup brown stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sherry wine",
+      "originalText": "2 tablespoons Sherry wine",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peas",
+      "originalText": "1 can peas",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large mushroom caps",
+      "originalText": "3 large mushroom caps",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Parboil a pair of sweetbreads, and gash.",
+      "section": null
+    },
+    {
+      "text": "Decorate in gashes with truffles cut in thin slices, and slice in fancy shapes.",
+      "section": null
+    },
+    {
+      "text": "Melt three tablespoons butter, add two slices onion, six slices carrot, and sweetbreads; fry five minutes.",
+      "section": null
+    },
+    {
+      "text": "Pour off butter, and add one-fourth cup brown stock and two tablespoons Sherry wine.",
+      "section": null
+    },
+    {
+      "text": "Cook in oven twenty-five minutes, basting often until well glazed.",
+      "section": null
+    },
+    {
+      "text": "For nests: Drain and rinse one can peas, and rub through a sieve. Add three tablespoons butter, and salt and pepper to taste. Heat to boiling-point, and shape in nests, using pastry bag and tube.",
+      "section": null
+    },
+    {
+      "text": "For Mushroom Sauce: Clean three large mushroom caps, cut in halves crosswise, then in slices. Sauté in two tablespoons butter five minutes. Dredge with one tablespoon flour, and add one cup cream and liquor left in pan in which sweetbreads were cooked. Cook two minutes.",
+      "section": null
+    },
+    {
+      "text": "Serve in nests of peas, and pour around Mushroom Sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sweetbread-la-mont-vert.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Parboil a pair of sweetbreads, and gash.\n2. Decorate in gashes with truffles cut in thin slices, and slice in fancy shapes.\n3. Melt three tablespoons butter, add two slices onion, six slices carrot, and sweetbreads; fry five minutes.\n4. Pour off butter, and add one-fourth cup brown stock and two tablespoons Sherry wine.\n5. Cook in oven twenty-five minutes, basting often until well glazed.\n6. For nests: Drain and rinse one can peas, and rub through a sieve. Add three tablespoons butter, and salt and pepper to taste. Heat to boiling-point, and shape in nests, using pastry bag and tube.\n7. For Mushroom Sauce: Clean three large mushroom caps, cut in halves crosswise, then in slices. Sauté in two tablespoons butter five minutes. Dredge with one tablespoon flour, and add one cup cream and liquor left in pan in which sweetbreads were cooked. Cook two minutes.\n8. Serve in nests of peas, and pour around Mushroom Sauce.",
+    "originalIngredients": [
+      "1 pair sweetbreads",
+      "Truffles, sliced thin",
+      "3 tablespoons butter",
+      "2 slices onion",
+      "6 slices carrot",
+      "¼ cup brown stock",
+      "2 tablespoons Sherry wine",
+      "1 can peas",
+      "3 tablespoons butter",
+      "Salt and pepper",
+      "3 large mushroom caps",
+      "2 tablespoons butter",
+      "1 tablespoon flour",
+      "1 cup cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

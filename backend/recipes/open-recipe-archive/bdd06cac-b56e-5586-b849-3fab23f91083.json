@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "bdd06cac-b56e-5586-b849-3fab23f91083",
+  "name": "Pound Cake",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "one pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour sifted",
+      "originalText": "one pound of flour sifted",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "one pound of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "twelve eggs",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated lemon peel",
+      "originalText": "grated lemon peel",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "a nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "a gill of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash the salt from a pound of butter, and rub it till it is soft as cream",
+      "section": null
+    },
+    {
+      "text": "Have ready a pound of flour sifted, one of powdered sugar, and twelve eggs well beaten",
+      "section": null
+    },
+    {
+      "text": "Put alternately into the butter, sugar, flour, and the froth from the eggs",
+      "section": null
+    },
+    {
+      "text": "Continue to beat them together till all the ingredients are in, and the cake quite light",
+      "section": null
+    },
+    {
+      "text": "Add some grated lemon peel, a nutmeg, and a gill of brandy",
+      "section": null
+    },
+    {
+      "text": "Butter the pans",
+      "section": null
+    },
+    {
+      "text": "Bake them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pound-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash the salt from a pound of butter, and rub it till it is soft as cream\n2. Have ready a pound of flour sifted, one of powdered sugar, and twelve eggs well beaten\n3. Put alternately into the butter, sugar, flour, and the froth from the eggs\n4. Continue to beat them together till all the ingredients are in, and the cake quite light\n5. Add some grated lemon peel, a nutmeg, and a gill of brandy\n6. Butter the pans\n7. Bake them",
+    "originalIngredients": [
+      "one pound of butter",
+      "one pound of flour sifted",
+      "one pound of powdered sugar",
+      "twelve eggs",
+      "grated lemon peel",
+      "a nutmeg",
+      "a gill of brandy"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

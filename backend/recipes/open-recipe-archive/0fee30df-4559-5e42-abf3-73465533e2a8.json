@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "0fee30df-4559-5e42-abf3-73465533e2a8",
+  "name": "Salted Almonds",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "almonds",
+      "originalText": "two pounds almonds",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "best olive oil",
+      "originalText": "three tablespoonfuls best olive oil",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine salt",
+      "originalText": "one tablespoonful fine salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Blanch almonds",
+      "section": null
+    },
+    {
+      "text": "pour oil over them, adding salt",
+      "section": null
+    },
+    {
+      "text": "Let them stand for an hour or two, stirring frequently",
+      "section": null
+    },
+    {
+      "text": "Place in a pan large enough for the almonds to rest on the surface, not being crowded one on another",
+      "section": null
+    },
+    {
+      "text": "Place in an oven sufficiently slow to allow twenty minutes for the nuts to brown nicely",
+      "section": null
+    },
+    {
+      "text": "shake the pan frequently that they may color evenly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salted-almonds.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Blanch almonds\n2. pour oil over them, adding salt\n3. Let them stand for an hour or two, stirring frequently\n4. Place in a pan large enough for the almonds to rest on the surface, not being crowded one on another\n5. Place in an oven sufficiently slow to allow twenty minutes for the nuts to brown nicely\n6. shake the pan frequently that they may color evenly",
+    "originalIngredients": [
+      "two pounds almonds",
+      "three tablespoonfuls best olive oil",
+      "one tablespoonful fine salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

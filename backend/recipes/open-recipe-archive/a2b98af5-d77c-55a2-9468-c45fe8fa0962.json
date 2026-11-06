@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "a2b98af5-d77c-55a2-9468-c45fe8fa0962",
+  "name": "Newport Waffles",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Indian meal",
+      "originalText": "One pint of Indian meal",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small lump of butter",
+      "originalText": "A small lump of butter",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dessertspoonful of salt",
+      "originalText": "A dessertspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "Four eggs",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wheaten flour",
+      "originalText": "One quart of wheaten flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Half a pint of buttermilk, or sour cream",
+      "originalText": "Half a pint of buttermilk, or sour cream",
+      "quantity": null,
+      "quantityText": "Half a pint of buttermilk, or sour cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carbonate of soda",
+      "originalText": "Half a teaspoonful of carbonate of soda",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet milk",
+      "originalText": "Sweet milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make one pint of Indian meal into mush in the usual way",
+      "section": null
+    },
+    {
+      "text": "While hot, put in a small lump of butter and a dessertspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Set the mush aside to cool",
+      "section": null
+    },
+    {
+      "text": "Beat separately till very light the whites and yolks of four eggs",
+      "section": null
+    },
+    {
+      "text": "Add the eggs to the mush, and cream in gradually one quart of wheaten flour",
+      "section": null
+    },
+    {
+      "text": "Add half a pint of buttermilk, or sour cream, in which has been dissolved half a teaspoonful of carbonate of soda",
+      "section": null
+    },
+    {
+      "text": "Bring to the consistency of thin batter by the addition of sweet milk",
+      "section": null
+    },
+    {
+      "text": "Put waffle-irons on to heat an hour in advance",
+      "section": null
+    },
+    {
+      "text": "Have a brisk fire, butter the irons thoroughly, but with nicety",
+      "section": null
+    },
+    {
+      "text": "Fill the irons only half full of batter, that the waffles may have room to rise",
+      "section": null
+    },
+    {
+      "text": "Bake quickly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/newport-waffles.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make one pint of Indian meal into mush in the usual way\n2. While hot, put in a small lump of butter and a dessertspoonful of salt\n3. Set the mush aside to cool\n4. Beat separately till very light the whites and yolks of four eggs\n5. Add the eggs to the mush, and cream in gradually one quart of wheaten flour\n6. Add half a pint of buttermilk, or sour cream, in which has been dissolved half a teaspoonful of carbonate of soda\n7. Bring to the consistency of thin batter by the addition of sweet milk\n8. Put waffle-irons on to heat an hour in advance\n9. Have a brisk fire, butter the irons thoroughly, but with nicety\n10. Fill the irons only half full of batter, that the waffles may have room to rise\n11. Bake quickly",
+    "originalIngredients": [
+      "One pint of Indian meal",
+      "A small lump of butter",
+      "A dessertspoonful of salt",
+      "Four eggs",
+      "One quart of wheaten flour",
+      "Half a pint of buttermilk, or sour cream",
+      "Half a teaspoonful of carbonate of soda",
+      "Sweet milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

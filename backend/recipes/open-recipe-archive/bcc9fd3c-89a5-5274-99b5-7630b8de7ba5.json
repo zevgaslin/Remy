@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "bcc9fd3c-89a5-5274-99b5-7630b8de7ba5",
+  "name": "Scalloped Oysters (Second Recipe)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oysters",
+      "originalText": "one quart of oysters",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oyster liquor",
+      "originalText": "oyster liquor",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot milk",
+      "originalText": "one cup of hot milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oyster liquor",
+      "originalText": "one cup of oyster liquor",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two teaspoons of butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "six tablespoons of bread crumbs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped celery",
+      "originalText": "three tablespoons of chopped celery",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald a quart of oysters in their own liquor till plump",
+      "section": null
+    },
+    {
+      "text": "Drain and place to keep warm",
+      "section": null
+    },
+    {
+      "text": "Make sauce of one tablespoon each of butter and flour",
+      "section": null
+    },
+    {
+      "text": "Heat in a pan two teaspoons of butter, and brown six tablespoons of bread crumbs",
+      "section": null
+    },
+    {
+      "text": "Put three tablespoons of chopped celery in the bottom of a bake dish",
+      "section": null
+    },
+    {
+      "text": "Add the white sauce flavored with salt and pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Top with the browned crumbs",
+      "section": null
+    },
+    {
+      "text": "Place in oven and heat thoroughly",
+      "section": null
+    },
+    {
+      "text": "Serve very hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scalloped-oysters-second-recipe.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald a quart of oysters in their own liquor till plump\n2. Drain and place to keep warm\n3. Make sauce of one tablespoon each of butter and flour\n4. Heat in a pan two teaspoons of butter, and brown six tablespoons of bread crumbs\n5. Put three tablespoons of chopped celery in the bottom of a bake dish\n6. Add the white sauce flavored with salt and pepper to taste\n7. Top with the browned crumbs\n8. Place in oven and heat thoroughly\n9. Serve very hot",
+    "originalIngredients": [
+      "one quart of oysters",
+      "oyster liquor",
+      "one tablespoon butter",
+      "one tablespoon flour",
+      "one cup of hot milk",
+      "one cup of oyster liquor",
+      "two teaspoons of butter",
+      "six tablespoons of bread crumbs",
+      "three tablespoons of chopped celery",
+      "salt",
+      "pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

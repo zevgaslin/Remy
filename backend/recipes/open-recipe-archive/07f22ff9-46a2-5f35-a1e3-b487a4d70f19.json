@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "07f22ff9-46a2-5f35-a1e3-b487a4d70f19",
+  "name": "Birds on Canapés",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "5 birds (quails or squabs)",
+      "originalText": "5 birds (quails or squabs)",
+      "quantity": null,
+      "quantityText": "5 birds (quails or squabs)",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "4 tablespoons butter",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1/4 cup water",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiled chickens' livers",
+      "originalText": "6 boiled chickens' livers",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion juice",
+      "originalText": "onion juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped parsley",
+      "originalText": "1 teaspoon finely chopped parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pieces toasted bread",
+      "originalText": "5 pieces toasted bread",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "parsley",
+      "originalText": "parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Split five birds, season with salt and pepper",
+      "section": null
+    },
+    {
+      "text": "Spread with four tablespoons butter, rubbed until creamy, and mixed with three tablespoons flour",
+      "section": null
+    },
+    {
+      "text": "Bake in a hot oven until well browned, basting every four minutes with two tablespoons butter, melted in one-fourth cup water",
+      "section": null
+    },
+    {
+      "text": "Chop six boiled chickens' livers, season with salt, pepper, and onion juice",
+      "section": null
+    },
+    {
+      "text": "Moisten with melted butter and add one teaspoon finely chopped parsley",
+      "section": null
+    },
+    {
+      "text": "Spread mixture on five pieces toasted bread",
+      "section": null
+    },
+    {
+      "text": "Arrange a bird on each canapé and garnish with parsley",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/birds-on-canap-s.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Split five birds, season with salt and pepper\n2. Spread with four tablespoons butter, rubbed until creamy, and mixed with three tablespoons flour\n3. Bake in a hot oven until well browned, basting every four minutes with two tablespoons butter, melted in one-fourth cup water\n4. Chop six boiled chickens' livers, season with salt, pepper, and onion juice\n5. Moisten with melted butter and add one teaspoon finely chopped parsley\n6. Spread mixture on five pieces toasted bread\n7. Arrange a bird on each canapé and garnish with parsley",
+    "originalIngredients": [
+      "5 birds (quails or squabs)",
+      "salt",
+      "pepper",
+      "4 tablespoons butter",
+      "3 tablespoons flour",
+      "2 tablespoons butter",
+      "1/4 cup water",
+      "6 boiled chickens' livers",
+      "onion juice",
+      "melted butter",
+      "1 teaspoon finely chopped parsley",
+      "5 pieces toasted bread",
+      "parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "eeba68a9-7068-52ca-bb71-cec57c780f5a",
+  "name": "Corn Meal Griddle-Cakes (With Yeast)",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "boiling milk",
+      "originalText": "one quart of boiling milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "corn meal",
+      "originalText": "three cups of corn meal",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white flour",
+      "originalText": "one cup of white flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "home-made yeast",
+      "originalText": "three tablespoonfuls of home-made yeast",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one tablespoonful of melted butter or lard",
+      "originalText": "one tablespoonful of melted butter or lard",
+      "quantity": null,
+      "quantityText": "one tablespoonful of melted butter or lard",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten eggs",
+      "originalText": "two beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "one teaspoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter and lard for greasing",
+      "originalText": "one tablespoonful of butter and lard for greasing",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir into one quart of boiling milk three cups of corn meal",
+      "section": null
+    },
+    {
+      "text": "After it cools add one cup of white flour, a teaspoonful of salt and three tablespoonfuls of home-made yeast",
+      "section": null
+    },
+    {
+      "text": "Mix this over night",
+      "section": null
+    },
+    {
+      "text": "In the morning add one tablespoonful of melted butter or lard, two beaten eggs and a teaspoonful of soda dissolved in a little water",
+      "section": null
+    },
+    {
+      "text": "Let batter stand a few minutes, after adding the butter and soda, that it should have time to rise a little",
+      "section": null
+    },
+    {
+      "text": "Melt together a tablespoonful of butter and lard, and grease the griddle with this",
+      "section": null
+    },
+    {
+      "text": "Put the cakes on by spoonfuls, or pour them carefully from a pitcher, trying to get them as near the same size as possible",
+      "section": null
+    },
+    {
+      "text": "As soon as they begin to bubble all over turn them, and cook on the other side till they stop puffing",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/corn-meal-griddle-cakes-with-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir into one quart of boiling milk three cups of corn meal\n2. After it cools add one cup of white flour, a teaspoonful of salt and three tablespoonfuls of home-made yeast\n3. Mix this over night\n4. In the morning add one tablespoonful of melted butter or lard, two beaten eggs and a teaspoonful of soda dissolved in a little water\n5. Let batter stand a few minutes, after adding the butter and soda, that it should have time to rise a little\n6. Melt together a tablespoonful of butter and lard, and grease the griddle with this\n7. Put the cakes on by spoonfuls, or pour them carefully from a pitcher, trying to get them as near the same size as possible\n8. As soon as they begin to bubble all over turn them, and cook on the other side till they stop puffing",
+    "originalIngredients": [
+      "one quart of boiling milk",
+      "three cups of corn meal",
+      "one cup of white flour",
+      "one teaspoonful of salt",
+      "three tablespoonfuls of home-made yeast",
+      "one tablespoonful of melted butter or lard",
+      "two beaten eggs",
+      "one teaspoonful of soda",
+      "one tablespoonful of butter and lard for greasing"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

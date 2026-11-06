@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "19778cbc-1376-5209-a064-9e8fe185611c",
+  "name": "Junket",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 tablespoon sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "junket tablet",
+      "originalText": "3/4 junket tablet",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 tablespoon cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream or fruit syrup for serving",
+      "originalText": "cream or fruit syrup for serving",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the junket tablet to soak in the cold water",
+      "section": null
+    },
+    {
+      "text": "Heat the sugar and milk to blood heat, but no hotter",
+      "section": null
+    },
+    {
+      "text": "Crush and dissolve the tablet in the water",
+      "section": null
+    },
+    {
+      "text": "Stir the whole into the milk",
+      "section": null
+    },
+    {
+      "text": "Pour at once into the serving dish",
+      "section": null
+    },
+    {
+      "text": "Let stand in a warm room until it sets",
+      "section": null
+    },
+    {
+      "text": "Move carefully to a cold place to chill before serving with cream or fruit syrup",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/junket.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the junket tablet to soak in the cold water\n2. Heat the sugar and milk to blood heat, but no hotter\n3. Crush and dissolve the tablet in the water\n4. Stir the whole into the milk\n5. Pour at once into the serving dish\n6. Let stand in a warm room until it sets\n7. Move carefully to a cold place to chill before serving with cream or fruit syrup",
+    "originalIngredients": [
+      "1 cup milk",
+      "1 tablespoon sugar",
+      "3/4 junket tablet",
+      "1 tablespoon cold water",
+      "cream or fruit syrup for serving"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "6c055213-3f27-57b0-a0e6-e57bb82ed975",
+  "name": "Caramel Custard",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "scalded milk",
+      "originalText": "4 cups scalded milk",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon salt",
+      "originalText": "½ teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoon vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sugar",
+      "originalText": "½ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put sugar in omelet pan, stir constantly over hot part of range until melted to a syrup of light brown color.",
+      "section": null
+    },
+    {
+      "text": "Add gradually to milk, being careful that milk does not bubble up and go over, as is liable on account of high temperature of sugar.",
+      "section": null
+    },
+    {
+      "text": "As soon as sugar is melted in milk, add mixture gradually to eggs slightly beaten; add salt and flavoring, then strain in buttered mould.",
+      "section": null
+    },
+    {
+      "text": "Bake as custard.",
+      "section": null
+    },
+    {
+      "text": "Chill, and serve with Caramel Sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/caramel-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put sugar in omelet pan, stir constantly over hot part of range until melted to a syrup of light brown color.\n2. Add gradually to milk, being careful that milk does not bubble up and go over, as is liable on account of high temperature of sugar.\n3. As soon as sugar is melted in milk, add mixture gradually to eggs slightly beaten; add salt and flavoring, then strain in buttered mould.\n4. Bake as custard.\n5. Chill, and serve with Caramel Sauce.",
+    "originalIngredients": [
+      "4 cups scalded milk",
+      "5 eggs",
+      "½ teaspoon salt",
+      "1 teaspoon vanilla",
+      "½ cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

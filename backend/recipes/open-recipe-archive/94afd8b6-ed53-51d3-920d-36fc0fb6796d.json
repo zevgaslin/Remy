@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "94afd8b6-ed53-51d3-920d-36fc0fb6796d",
+  "name": "Scotch Queen Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "one pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oatmeal",
+      "originalText": "two quarts of oatmeal",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "one pound of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon and mace",
+      "originalText": "a table-spoonful of powdered cinnamon and mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose water (optional)",
+      "originalText": "rose water (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "currants (optional)",
+      "originalText": "half a pound of currants (optional)",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt a pound of butter by putting it into a skillet on hot coals",
+      "section": null
+    },
+    {
+      "text": "Set it away to cool",
+      "section": null
+    },
+    {
+      "text": "Sift two quarts of oatmeal into a deep pan",
+      "section": null
+    },
+    {
+      "text": "Mix with it a pound of powdered sugar and a table-spoonful of powdered cinnamon and mace",
+      "section": null
+    },
+    {
+      "text": "Make a hole in the middle and put in the melted butter",
+      "section": null
+    },
+    {
+      "text": "Mix it with a knife till you have formed of the whole a lump of dough",
+      "section": null
+    },
+    {
+      "text": "If it is too stiff, moisten it with a little rose water",
+      "section": null
+    },
+    {
+      "text": "Knead it well and roll it out into a large oval sheet, an inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut it down the middle and then across, so as to divide it into four cakes",
+      "section": null
+    },
+    {
+      "text": "Prick them with a fork and crimp or scollop the edges neatly",
+      "section": null
+    },
+    {
+      "text": "Lay them in shallow pans",
+      "section": null
+    },
+    {
+      "text": "Set them in a quick oven and bake them of a light brown",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/scotch-queen-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt a pound of butter by putting it into a skillet on hot coals\n2. Set it away to cool\n3. Sift two quarts of oatmeal into a deep pan\n4. Mix with it a pound of powdered sugar and a table-spoonful of powdered cinnamon and mace\n5. Make a hole in the middle and put in the melted butter\n6. Mix it with a knife till you have formed of the whole a lump of dough\n7. If it is too stiff, moisten it with a little rose water\n8. Knead it well and roll it out into a large oval sheet, an inch thick\n9. Cut it down the middle and then across, so as to divide it into four cakes\n10. Prick them with a fork and crimp or scollop the edges neatly\n11. Lay them in shallow pans\n12. Set them in a quick oven and bake them of a light brown",
+    "originalIngredients": [
+      "one pound of butter",
+      "two quarts of oatmeal",
+      "one pound of powdered sugar",
+      "a table-spoonful of powdered cinnamon and mace",
+      "rose water (optional)",
+      "half a pound of currants (optional)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

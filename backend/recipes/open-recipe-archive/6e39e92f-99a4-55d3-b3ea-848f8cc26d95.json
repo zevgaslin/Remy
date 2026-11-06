@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "6e39e92f-99a4-55d3-b3ea-848f8cc26d95",
+  "name": "Savory Cream (Cold Entree)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "A small lobster or 1 can passed through a sieve",
+      "originalText": "A small lobster or 1 can passed through a sieve",
+      "quantity": null,
+      "quantityText": "A small lobster or 1 can passed through a sieve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1/2 pt. of cream",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tomato juice",
+      "originalText": "1 gill tomato juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "aspic jelly",
+      "originalText": "1 gill aspic jelly",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mayonnaise",
+      "originalText": "1 tablespoonful of mayonnaise",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1/2 oz. or little more of gelatine",
+      "originalText": "1/2 oz. or little more of gelatine",
+      "quantity": null,
+      "quantityText": "1/2 oz. or little more of gelatine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Small pieces of lobster",
+      "originalText": "Small pieces of lobster",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Small leaves of parsley",
+      "originalText": "Small leaves of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a little aspic jelly in the bottom of a border mould, decorate with small pieces of lobster and small leaves of parsley",
+      "section": null
+    },
+    {
+      "text": "Beat gelatine in tomato juice, whip the cream; also whip the aspic",
+      "section": null
+    },
+    {
+      "text": "Mix these together",
+      "section": null
+    },
+    {
+      "text": "Stir in the mayonnaise and the melted gelatine and tomato, also your lobster",
+      "section": null
+    },
+    {
+      "text": "Fill the mould carefully and set",
+      "section": null
+    },
+    {
+      "text": "When cold turn out and fill the centre with small salad",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/savory-cream-cold-entree.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a little aspic jelly in the bottom of a border mould, decorate with small pieces of lobster and small leaves of parsley\n2. Beat gelatine in tomato juice, whip the cream; also whip the aspic\n3. Mix these together\n4. Stir in the mayonnaise and the melted gelatine and tomato, also your lobster\n5. Fill the mould carefully and set\n6. When cold turn out and fill the centre with small salad",
+    "originalIngredients": [
+      "A small lobster or 1 can passed through a sieve",
+      "1/2 pt. of cream",
+      "1 gill tomato juice",
+      "1 gill aspic jelly",
+      "1 tablespoonful of mayonnaise",
+      "1/2 oz. or little more of gelatine",
+      "Small pieces of lobster",
+      "Small leaves of parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

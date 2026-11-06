@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "id": "21667608-1c74-5dca-897a-93feff50ff59",
+  "name": "Dough Nuts",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarters of a pound of flour",
+      "originalText": "three quarters of a pound of flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of the best brewer's yeast",
+      "originalText": "a wine glass of the best brewer's yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lukewarm milk",
+      "originalText": "lukewarm milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "five ounces of butter",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "half a pound of powdered sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose water",
+      "originalText": "a table-spoonful of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half pint of milk",
+      "originalText": "a half pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "three eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling lard",
+      "originalText": "boiling lard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar",
+      "originalText": "loaf-sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift three quarters of a pound of flour into a deep dish.",
+      "section": null
+    },
+    {
+      "text": "Make a hole in the centre and pour in a wine glass of the best brewer's yeast.",
+      "section": null
+    },
+    {
+      "text": "Mix the flour gradually into it, wetting it with lukewarm milk.",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it by the fire to rise for about two hours.",
+      "section": null
+    },
+    {
+      "text": "In the mean time, cut up five ounces of butter into another dish of flour, and rub it fine with your hands.",
+      "section": null
+    },
+    {
+      "text": "Add half a pound of powdered sugar, a tea-spoonful of powdered cinnamon, a grated nutmeg, a table-spoonful of rose water, and a half pint of milk.",
+      "section": null
+    },
+    {
+      "text": "Beat three eggs very light, and stir them hard into the mixture.",
+      "section": null
+    },
+    {
+      "text": "When the sponge is perfectly light, add it to the other ingredients, mixing them all thoroughly with a knife.",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it again by the fire for another hour.",
+      "section": null
+    },
+    {
+      "text": "When it is quite light, flour your paste-board, turn out the lump of dough, and cut it into thick diamond shaped cakes with a jagging iron.",
+      "section": null
+    },
+    {
+      "text": "If the dough is too soft, mix in a little more flour.",
+      "section": null
+    },
+    {
+      "text": "Have ready a skillet of boiling lard and put the dough-nuts into it, and fry them brown.",
+      "section": null
+    },
+    {
+      "text": "When cool grate loaf-sugar over them.",
+      "section": null
+    },
+    {
+      "text": "Eat quite fresh, as next day they will be tough and heavy.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/dough-nuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift three quarters of a pound of flour into a deep dish.\n2. Make a hole in the centre and pour in a wine glass of the best brewer's yeast.\n3. Mix the flour gradually into it, wetting it with lukewarm milk.\n4. Cover it, and set it by the fire to rise for about two hours.\n5. In the mean time, cut up five ounces of butter into another dish of flour, and rub it fine with your hands.\n6. Add half a pound of powdered sugar, a tea-spoonful of powdered cinnamon, a grated nutmeg, a table-spoonful of rose water, and a half pint of milk.\n7. Beat three eggs very light, and stir them hard into the mixture.\n8. When the sponge is perfectly light, add it to the other ingredients, mixing them all thoroughly with a knife.\n9. Cover it, and set it again by the fire for another hour.\n10. When it is quite light, flour your paste-board, turn out the lump of dough, and cut it into thick diamond shaped cakes with a jagging iron.\n11. If the dough is too soft, mix in a little more flour.\n12. Have ready a skillet of boiling lard and put the dough-nuts into it, and fry them brown.\n13. When cool grate loaf-sugar over them.\n14. Eat quite fresh, as next day they will be tough and heavy.",
+    "originalIngredients": [
+      "three quarters of a pound of flour",
+      "a wine glass of the best brewer's yeast",
+      "lukewarm milk",
+      "five ounces of butter",
+      "half a pound of powdered sugar",
+      "a tea-spoonful of powdered cinnamon",
+      "a grated nutmeg",
+      "a table-spoonful of rose water",
+      "a half pint of milk",
+      "three eggs",
+      "boiling lard",
+      "loaf-sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

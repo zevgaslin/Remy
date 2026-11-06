@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "25fba970-94b5-5072-ba78-cbebf9275ec0",
+  "name": "Stuffed Peppers I",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "green peppers",
+      "originalText": "6 green peppers",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion, finely chopped",
+      "originalText": "1 onion, finely chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped mushrooms",
+      "originalText": "4 tablespoons chopped mushrooms",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup Brown Sauce",
+      "originalText": "⅓ cup Brown Sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "3 tablespoons bread crumbs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Buttered bread crumbs",
+      "originalText": "Buttered bread crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean raw ham, finely chopped",
+      "originalText": "4 tablespoons lean raw ham, finely chopped",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Toast",
+      "originalText": "Toast",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut a slice from stem end of each pepper, remove seeds, and parboil peppers, fifteen minutes.",
+      "section": null
+    },
+    {
+      "text": "Cook onion in butter three minutes; add mushrooms and ham, and cook one minute, then add Brown Sauce and bread crumbs.",
+      "section": null
+    },
+    {
+      "text": "Cool mixture, sprinkle peppers with salt, fill with cooked mixture, cover with buttered bread crumbs and bake ten minutes.",
+      "section": null
+    },
+    {
+      "text": "Serve on toast with Brown Sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/stuffed-peppers-i.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut a slice from stem end of each pepper, remove seeds, and parboil peppers, fifteen minutes.\n2. Cook onion in butter three minutes; add mushrooms and ham, and cook one minute, then add Brown Sauce and bread crumbs.\n3. Cool mixture, sprinkle peppers with salt, fill with cooked mixture, cover with buttered bread crumbs and bake ten minutes.\n4. Serve on toast with Brown Sauce.",
+    "originalIngredients": [
+      "6 green peppers",
+      "1 onion, finely chopped",
+      "2 tablespoons butter",
+      "4 tablespoons chopped mushrooms",
+      "⅓ cup Brown Sauce",
+      "3 tablespoons bread crumbs",
+      "Salt and pepper",
+      "Buttered bread crumbs",
+      "4 tablespoons lean raw ham, finely chopped",
+      "Toast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

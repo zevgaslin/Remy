@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "fe058a2b-bc22-5556-91e0-455431f2cba1",
+  "name": "Lobster Catchup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fine lobster that weighs about three pounds",
+      "originalText": "a fine lobster that weighs about three pounds",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne",
+      "originalText": "a tea-spoonful of cayenne",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sherry wine",
+      "originalText": "sherry wine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet oil",
+      "originalText": "sweet oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a fine lobster that weighs about three pounds",
+      "section": null
+    },
+    {
+      "text": "Put it into boiling water, and cook it thoroughly",
+      "section": null
+    },
+    {
+      "text": "When it is cold break it up, and extract all the flesh from the shell",
+      "section": null
+    },
+    {
+      "text": "Pound the red part or coral in a marble mortar, and when it is well bruised, add the white meat by degrees, and pound that also",
+      "section": null
+    },
+    {
+      "text": "Season it with a tea-spoonful of cayenne, and moisten it gradually with sherry wine",
+      "section": null
+    },
+    {
+      "text": "When it is beaten to a smooth paste, mix it well with the remainder of the bottle of sherry",
+      "section": null
+    },
+    {
+      "text": "Put it into wide-mouthed bottles, and on the top of each put a table-spoonful of sweet oil",
+      "section": null
+    },
+    {
+      "text": "Dip the corks in melted rosin, and secure them well by tying leather over them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lobster-catchup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a fine lobster that weighs about three pounds\n2. Put it into boiling water, and cook it thoroughly\n3. When it is cold break it up, and extract all the flesh from the shell\n4. Pound the red part or coral in a marble mortar, and when it is well bruised, add the white meat by degrees, and pound that also\n5. Season it with a tea-spoonful of cayenne, and moisten it gradually with sherry wine\n6. When it is beaten to a smooth paste, mix it well with the remainder of the bottle of sherry\n7. Put it into wide-mouthed bottles, and on the top of each put a table-spoonful of sweet oil\n8. Dip the corks in melted rosin, and secure them well by tying leather over them",
+    "originalIngredients": [
+      "a fine lobster that weighs about three pounds",
+      "a tea-spoonful of cayenne",
+      "sherry wine",
+      "sweet oil"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

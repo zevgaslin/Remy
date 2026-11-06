@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "ce68f793-f049-580d-8ca0-9d2339586dac",
+  "name": "Rhubarb Wine",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rhubarb cut in pieces",
+      "originalText": "rhubarb cut in pieces",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar to every gallon of wine",
+      "originalText": "4 pounds sugar to every gallon of wine",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole ginger",
+      "originalText": "1 ounce whole ginger",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of 1 lemon",
+      "originalText": "juice of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne pods",
+      "originalText": "7 cayenne pods",
+      "quantity": 7.0,
+      "quantityText": "7",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "isinglass dissolved in a little hot water",
+      "originalText": "1/2 ounce isinglass dissolved in a little hot water",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rum to every gallon of wine",
+      "originalText": "1 gill of rum to every gallon of wine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "To every pint of rhubarb cut in pieces add 1 pint of boiling water",
+      "section": null
+    },
+    {
+      "text": "Let it stand a week, stirring it once every day",
+      "section": null
+    },
+    {
+      "text": "Strain and add 4 pounds sugar to every gallon of wine, 1 ounce whole ginger, the juice of 1 lemon, 7 cayenne pods, 1/2 ounce isinglass dissolved in a little hot water",
+      "section": null
+    },
+    {
+      "text": "Let it stand 2 weeks to ferment",
+      "section": null
+    },
+    {
+      "text": "Strain again and add 1 gill of rum to every gallon of wine",
+      "section": null
+    },
+    {
+      "text": "Bottle",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/rhubarb-wine-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. To every pint of rhubarb cut in pieces add 1 pint of boiling water\n2. Let it stand a week, stirring it once every day\n3. Strain and add 4 pounds sugar to every gallon of wine, 1 ounce whole ginger, the juice of 1 lemon, 7 cayenne pods, 1/2 ounce isinglass dissolved in a little hot water\n4. Let it stand 2 weeks to ferment\n5. Strain again and add 1 gill of rum to every gallon of wine\n6. Bottle",
+    "originalIngredients": [
+      "rhubarb cut in pieces",
+      "boiling water",
+      "4 pounds sugar to every gallon of wine",
+      "1 ounce whole ginger",
+      "juice of 1 lemon",
+      "7 cayenne pods",
+      "1/2 ounce isinglass dissolved in a little hot water",
+      "1 gill of rum to every gallon of wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

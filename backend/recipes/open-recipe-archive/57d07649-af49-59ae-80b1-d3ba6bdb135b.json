@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "57d07649-af49-59ae-80b1-d3ba6bdb135b",
+  "name": "A Mustard Poultice",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "boiling water",
+      "originalText": "one gill of boiling water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Indian meal",
+      "originalText": "one tablespoonful of Indian meal",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard flour",
+      "originalText": "one teaspoonful of mustard flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "muslin",
+      "originalText": "muslin",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Into one gill of boiling water stir one tablespoonful of Indian meal",
+      "section": null
+    },
+    {
+      "text": "Spread the paste thus made upon a cloth, and spread over the paste one teaspoonful of mustard flour",
+      "section": null
+    },
+    {
+      "text": "If you wish a mild poultice, use a teaspoonful of mustard as it is prepared for the table, instead of the mustard flour",
+      "section": null
+    },
+    {
+      "text": "Equal parts of ground mustard and flour made into a paste with warm water, and spread between two pieces of muslin, form the indispensable mustard plaster",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/a-mustard-poultice.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Into one gill of boiling water stir one tablespoonful of Indian meal\n2. Spread the paste thus made upon a cloth, and spread over the paste one teaspoonful of mustard flour\n3. If you wish a mild poultice, use a teaspoonful of mustard as it is prepared for the table, instead of the mustard flour\n4. Equal parts of ground mustard and flour made into a paste with warm water, and spread between two pieces of muslin, form the indispensable mustard plaster",
+    "originalIngredients": [
+      "one gill of boiling water",
+      "one tablespoonful of Indian meal",
+      "one teaspoonful of mustard flour",
+      "muslin"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

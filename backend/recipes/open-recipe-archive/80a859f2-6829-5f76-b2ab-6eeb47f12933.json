@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "80a859f2-6829-5f76-b2ab-6eeb47f12933",
+  "name": "Tomato Eggs",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "even-sized tomatoes",
+      "originalText": "3 even-sized tomatoes",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 tablespoon milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 ounce butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little chopped parsley",
+      "originalText": "a little chopped parsley",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rounds of buttered toast",
+      "originalText": "6 rounds of buttered toast",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut tomatoes in halves through the centre, not from stem to top",
+      "section": null
+    },
+    {
+      "text": "Take out some of the pulp into a saucepan with 1 ounce butter, and cook lightly",
+      "section": null
+    },
+    {
+      "text": "Beat eggs and add to milk and put in saucepan with pulp and allow all to cook, but not set",
+      "section": null
+    },
+    {
+      "text": "Place the tomato shells in the oven and let them cook until tender",
+      "section": null
+    },
+    {
+      "text": "Arrange them on toast and place mixture in them",
+      "section": null
+    },
+    {
+      "text": "Sprinkle parsley over them and decorate the dish with parsley leaves",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/tomato-eggs.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut tomatoes in halves through the centre, not from stem to top\n2. Take out some of the pulp into a saucepan with 1 ounce butter, and cook lightly\n3. Beat eggs and add to milk and put in saucepan with pulp and allow all to cook, but not set\n4. Place the tomato shells in the oven and let them cook until tender\n5. Arrange them on toast and place mixture in them\n6. Sprinkle parsley over them and decorate the dish with parsley leaves",
+    "originalIngredients": [
+      "3 even-sized tomatoes",
+      "2 eggs",
+      "1 tablespoon milk",
+      "1 ounce butter",
+      "a little chopped parsley",
+      "6 rounds of buttered toast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "089f2277-f15a-5703-83a3-d75cf9084477",
+  "name": "Sweetbread in Peppers",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweetbread",
+      "originalText": "1 sweetbread",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup chicken stock",
+      "originalText": "½ cup chicken stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heavy cream",
+      "originalText": "2 tablespoons heavy cream",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup mushroom caps, broken in small pieces",
+      "originalText": "⅓ cup mushroom caps, broken in small pieces",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt, paprika, and Worcestershire Sauce",
+      "originalText": "Salt, paprika, and Worcestershire Sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppers",
+      "originalText": "6 peppers",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Buttered crumbs",
+      "originalText": "Buttered crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Onion juice",
+      "originalText": "Onion juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup heavy cream",
+      "originalText": "¼ cup heavy cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and paprika",
+      "originalText": "Salt and paprika",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Parboil sweetbread, cool, and cut in small pieces; there should be one cup.",
+      "section": null
+    },
+    {
+      "text": "Melt two tablespoons butter, add two tablespoons flour, and pour on gradually one-half cup chicken stock; then add two tablespoons heavy cream, and one-third cup mushroom caps broken in small pieces.",
+      "section": null
+    },
+    {
+      "text": "Season with salt, paprika, and Worcestershire Sauce.",
+      "section": null
+    },
+    {
+      "text": "Cut a slice from stem end of six peppers, remove seeds, and parboil peppers fifteen minutes.",
+      "section": null
+    },
+    {
+      "text": "Cool, fill, cover with buttered crumbs, and bake until crumbs are brown.",
+      "section": null
+    },
+    {
+      "text": "Break stems of mushrooms, cover with cold water, and cook slowly twenty minutes.",
+      "section": null
+    },
+    {
+      "text": "Melt two tablespoons butter, add a few drops onion juice, two tablespoons flour, and pour on gradually the water drained from mushroom stems, and enough chicken stock to make one cup.",
+      "section": null
+    },
+    {
+      "text": "Add one-fourth cup heavy cream, and season with salt and paprika.",
+      "section": null
+    },
+    {
+      "text": "Pour sauce around peppers.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sweetbread-in-peppers.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Parboil sweetbread, cool, and cut in small pieces; there should be one cup.\n2. Melt two tablespoons butter, add two tablespoons flour, and pour on gradually one-half cup chicken stock; then add two tablespoons heavy cream, and one-third cup mushroom caps broken in small pieces.\n3. Season with salt, paprika, and Worcestershire Sauce.\n4. Cut a slice from stem end of six peppers, remove seeds, and parboil peppers fifteen minutes.\n5. Cool, fill, cover with buttered crumbs, and bake until crumbs are brown.\n6. Break stems of mushrooms, cover with cold water, and cook slowly twenty minutes.\n7. Melt two tablespoons butter, add a few drops onion juice, two tablespoons flour, and pour on gradually the water drained from mushroom stems, and enough chicken stock to make one cup.\n8. Add one-fourth cup heavy cream, and season with salt and paprika.\n9. Pour sauce around peppers.",
+    "originalIngredients": [
+      "1 sweetbread",
+      "2 tablespoons butter",
+      "2 tablespoons flour",
+      "½ cup chicken stock",
+      "2 tablespoons heavy cream",
+      "⅓ cup mushroom caps, broken in small pieces",
+      "Salt, paprika, and Worcestershire Sauce",
+      "6 peppers",
+      "Buttered crumbs",
+      "2 tablespoons butter",
+      "Onion juice",
+      "2 tablespoons flour",
+      "¼ cup heavy cream",
+      "Salt and paprika"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

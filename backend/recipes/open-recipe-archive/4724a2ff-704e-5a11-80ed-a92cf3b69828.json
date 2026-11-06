@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "4724a2ff-704e-5a11-80ed-a92cf3b69828",
+  "name": "Timbales",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg, well beaten",
+      "originalText": "1 egg, well beaten",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard for frying",
+      "originalText": "lard for frying",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "creamed chicken",
+      "originalText": "creamed chicken",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "parsley or cress",
+      "originalText": "parsley or cress",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat all together; let stand one hour.",
+      "section": null
+    },
+    {
+      "text": "Have ready a saucepan of boiling lard.",
+      "section": null
+    },
+    {
+      "text": "Put timbale-iron first in lard, then in batter and then in lard again for one-half minute, when the shells will fall off the iron readily.",
+      "section": null
+    },
+    {
+      "text": "Fill with creamed chicken and garnish with parsley or cress after heating a few moments in the oven.",
+      "section": null
+    },
+    {
+      "text": "The shells can be made the day before if desired and heated when required.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/timbales.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat all together; let stand one hour.\n2. Have ready a saucepan of boiling lard.\n3. Put timbale-iron first in lard, then in batter and then in lard again for one-half minute, when the shells will fall off the iron readily.\n4. Fill with creamed chicken and garnish with parsley or cress after heating a few moments in the oven.\n5. The shells can be made the day before if desired and heated when required.",
+    "originalIngredients": [
+      "1 cup milk",
+      "1 cup flour",
+      "1 egg, well beaten",
+      "lard for frying",
+      "creamed chicken",
+      "parsley or cress"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

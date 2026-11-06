@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "fa80f932-9071-5670-b30f-73a10bda9317",
+  "name": "Raspberry Wine",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallons of ripe raspberries",
+      "originalText": "4 gallons of ripe raspberries",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallons of soft water",
+      "originalText": "4 gallons of soft water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar per gallon of liquor",
+      "originalText": "3 pounds of loaf-sugar per gallon of liquor",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put four gallons of ripe raspberries into a stone jar, and mash them with a round stick",
+      "section": null
+    },
+    {
+      "text": "Take four gallons of soft water, (measured after it has boiled an hour,) and strain it warm over the raspberries",
+      "section": null
+    },
+    {
+      "text": "Stir it well and let it stand twelve hours",
+      "section": null
+    },
+    {
+      "text": "Then strain it through a bag, and to every gallon of liquor put three pounds of loaf-sugar",
+      "section": null
+    },
+    {
+      "text": "Set it over a clear fire, and boil and skim it till the scum ceases to rise",
+      "section": null
+    },
+    {
+      "text": "When it is cold bottle it",
+      "section": null
+    },
+    {
+      "text": "Open the bottles every day for a fortnight, closing them again in a few minutes",
+      "section": null
+    },
+    {
+      "text": "Then seal the corks, and lay the bottles on their sides in saw-dust, which must not be from pine wood",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/raspberry-wine.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put four gallons of ripe raspberries into a stone jar, and mash them with a round stick\n2. Take four gallons of soft water, (measured after it has boiled an hour,) and strain it warm over the raspberries\n3. Stir it well and let it stand twelve hours\n4. Then strain it through a bag, and to every gallon of liquor put three pounds of loaf-sugar\n5. Set it over a clear fire, and boil and skim it till the scum ceases to rise\n6. When it is cold bottle it\n7. Open the bottles every day for a fortnight, closing them again in a few minutes\n8. Then seal the corks, and lay the bottles on their sides in saw-dust, which must not be from pine wood",
+    "originalIngredients": [
+      "4 gallons of ripe raspberries",
+      "4 gallons of soft water",
+      "3 pounds of loaf-sugar per gallon of liquor"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

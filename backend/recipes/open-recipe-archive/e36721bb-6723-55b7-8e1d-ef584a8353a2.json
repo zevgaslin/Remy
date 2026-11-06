@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "e36721bb-6723-55b7-8e1d-ef584a8353a2",
+  "name": "Macaroone",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet almonds",
+      "originalText": "one pound of sweet almonds",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose water",
+      "originalText": "rose water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of seven eggs",
+      "originalText": "whites of seven eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "one pound of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Blanch a pound of sweet almonds",
+      "section": null
+    },
+    {
+      "text": "Pound them in a mortar with rose water",
+      "section": null
+    },
+    {
+      "text": "Whip the whites of seven eggs to a strong froth",
+      "section": null
+    },
+    {
+      "text": "Put in one pound of powdered sugar",
+      "section": null
+    },
+    {
+      "text": "Beat it some time",
+      "section": null
+    },
+    {
+      "text": "Then put in the almonds",
+      "section": null
+    },
+    {
+      "text": "Mix them well",
+      "section": null
+    },
+    {
+      "text": "Drop them on sheets of paper buttered",
+      "section": null
+    },
+    {
+      "text": "Sift sugar over",
+      "section": null
+    },
+    {
+      "text": "Bake them quickly",
+      "section": null
+    },
+    {
+      "text": "Be careful not to let them get discoloured",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/macaroone.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Blanch a pound of sweet almonds\n2. Pound them in a mortar with rose water\n3. Whip the whites of seven eggs to a strong froth\n4. Put in one pound of powdered sugar\n5. Beat it some time\n6. Then put in the almonds\n7. Mix them well\n8. Drop them on sheets of paper buttered\n9. Sift sugar over\n10. Bake them quickly\n11. Be careful not to let them get discoloured",
+    "originalIngredients": [
+      "one pound of sweet almonds",
+      "rose water",
+      "whites of seven eggs",
+      "one pound of powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

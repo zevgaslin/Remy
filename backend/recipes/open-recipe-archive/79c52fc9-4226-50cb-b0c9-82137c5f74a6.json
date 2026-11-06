@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "79c52fc9-4226-50cb-b0c9-82137c5f74a6",
+  "name": "Creamed Salmon",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "tin of salmon",
+      "originalText": "A tin of salmon",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "One pint of milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter size of an egg",
+      "originalText": "Butter size of an egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "One teaspoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and cayenne pepper to taste",
+      "originalText": "Salt and cayenne pepper to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "Two well-beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cracker or bread-crumbs",
+      "originalText": "Cracker or bread-crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a tin of salmon, empty on a dish and flake with a fork",
+      "section": null
+    },
+    {
+      "text": "Have ready a sauce made in double boiler from one pint of milk, butter size of an egg, one teaspoonful of flour, with salt and cayenne pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Melt butter and flour until smooth and add milk slowly",
+      "section": null
+    },
+    {
+      "text": "When it boils remove from fire and add two well-beaten eggs",
+      "section": null
+    },
+    {
+      "text": "Put alternate layers of salmon and sauce in baking dish until all is used",
+      "section": null
+    },
+    {
+      "text": "Cover with layer of cracker or bread-crumbs",
+      "section": null
+    },
+    {
+      "text": "Bake fifteen minutes and serve hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/creamed-salmon.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a tin of salmon, empty on a dish and flake with a fork\n2. Have ready a sauce made in double boiler from one pint of milk, butter size of an egg, one teaspoonful of flour, with salt and cayenne pepper to taste\n3. Melt butter and flour until smooth and add milk slowly\n4. When it boils remove from fire and add two well-beaten eggs\n5. Put alternate layers of salmon and sauce in baking dish until all is used\n6. Cover with layer of cracker or bread-crumbs\n7. Bake fifteen minutes and serve hot",
+    "originalIngredients": [
+      "A tin of salmon",
+      "One pint of milk",
+      "Butter size of an egg",
+      "One teaspoonful of flour",
+      "Salt and cayenne pepper to taste",
+      "Two well-beaten eggs",
+      "Cracker or bread-crumbs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

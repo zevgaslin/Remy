@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "50cc60d6-0ca0-5502-812a-0be27c89b662",
+  "name": "Succotash",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ears of corn",
+      "originalText": "6 ears of corn",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "string beans cut in pieces",
+      "originalText": "1 pint string beans cut in pieces",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water, salted",
+      "originalText": "hot water, salted",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the corn from the cob, bruising as little as possible.",
+      "section": null
+    },
+    {
+      "text": "Put over the fire with the beans in enough hot water, salted, to cover them, and stew gently half an hour.",
+      "section": null
+    },
+    {
+      "text": "Turn off nearly all the water and add a cupful of milk.",
+      "section": null
+    },
+    {
+      "text": "Simmer in this, stirring to prevent burning, twenty minutes; add the floured butter, the pepper and salt, and stew ten minutes.",
+      "section": null
+    },
+    {
+      "text": "Serve in a deep dish.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/succotash-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the corn from the cob, bruising as little as possible.\n2. Put over the fire with the beans in enough hot water, salted, to cover them, and stew gently half an hour.\n3. Turn off nearly all the water and add a cupful of milk.\n4. Simmer in this, stirring to prevent burning, twenty minutes; add the floured butter, the pepper and salt, and stew ten minutes.\n5. Serve in a deep dish.",
+    "originalIngredients": [
+      "6 ears of corn",
+      "1 pint string beans cut in pieces",
+      "hot water, salted",
+      "1 cup milk",
+      "1 tablespoonful butter",
+      "pepper and salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

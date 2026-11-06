@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "bbff9760-9d76-5cb7-a3e1-0fa5435ba10b",
+  "name": "Strawberry Mousse",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "thin cream",
+      "originalText": "1 quart thin cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "box strawberries",
+      "originalText": "1 box strawberries",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ box gelatine or 1¼ tablespoons granulated gelatine",
+      "originalText": "¼ box gelatine or 1¼ tablespoons granulated gelatine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "2 tablespoons cold water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "3 tablespoons hot water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash and hull berries, sprinkle with sugar, and let stand one hour",
+      "section": null
+    },
+    {
+      "text": "Mash, and rub through a fine sieve",
+      "section": null
+    },
+    {
+      "text": "Add gelatine soaked in cold and dissolved in boiling water",
+      "section": null
+    },
+    {
+      "text": "Set in pan of ice-water and stir until it begins to thicken",
+      "section": null
+    },
+    {
+      "text": "Fold in whip from cream, put in mould, cover, pack in salt and ice, and let stand four hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/strawberry-mousse.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash and hull berries, sprinkle with sugar, and let stand one hour\n2. Mash, and rub through a fine sieve\n3. Add gelatine soaked in cold and dissolved in boiling water\n4. Set in pan of ice-water and stir until it begins to thicken\n5. Fold in whip from cream, put in mould, cover, pack in salt and ice, and let stand four hours",
+    "originalIngredients": [
+      "1 quart thin cream",
+      "1 box strawberries",
+      "1 cup sugar",
+      "¼ box gelatine or 1¼ tablespoons granulated gelatine",
+      "2 tablespoons cold water",
+      "3 tablespoons hot water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

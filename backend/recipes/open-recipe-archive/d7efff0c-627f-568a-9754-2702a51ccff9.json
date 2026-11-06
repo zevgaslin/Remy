@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "d7efff0c-627f-568a-9754-2702a51ccff9",
+  "name": "Puff Paste",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 pound butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pastry flour",
+      "originalText": "1 pound pastry flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cold water",
+      "originalText": "Cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash the butter, pat and fold until no water flies.",
+      "section": null
+    },
+    {
+      "text": "Reserve two tablespoons of butter, and shape remainder into a circular piece one-half inch thick, and put on floured board.",
+      "section": null
+    },
+    {
+      "text": "Work two tablespoons of butter into flour with the tips of fingers of the right hand.",
+      "section": null
+    },
+    {
+      "text": "Moisten to a dough with cold water, turn on slightly floured board, and knead one minute.",
+      "section": null
+    },
+    {
+      "text": "Cover with towel, and let stand five minutes.",
+      "section": null
+    },
+    {
+      "text": "Pat and roll one-fourth inch thick, keeping paste a little wider than long, and corners square.",
+      "section": null
+    },
+    {
+      "text": "If this cannot be accomplished with rolling-pin, draw into shape with fingers.",
+      "section": null
+    },
+    {
+      "text": "Place butter on centre of lower half of paste.",
+      "section": null
+    },
+    {
+      "text": "Cover butter by folding upper half of paste over it.",
+      "section": null
+    },
+    {
+      "text": "Press edges firmly, to enclose as much air as possible.",
+      "section": null
+    },
+    {
+      "text": "Fold right side of paste over enclosed butter, the left side under enclosed butter.",
+      "section": null
+    },
+    {
+      "text": "Turn paste half-way round, cover, and let stand five minutes.",
+      "section": null
+    },
+    {
+      "text": "Pat, and roll one-fourth inch thick, having paste longer than wide, lifting often to prevent paste from sticking, and dredging board slightly with flour when necessary.",
+      "section": null
+    },
+    {
+      "text": "Fold from ends towards centre, making three layers.",
+      "section": null
+    },
+    {
+      "text": "Cover, and let stand five minutes.",
+      "section": null
+    },
+    {
+      "text": "Repeat twice, turning paste half-way round each time before rolling.",
+      "section": null
+    },
+    {
+      "text": "After fourth rolling, fold from ends to centre, and double, making four layers.",
+      "section": null
+    },
+    {
+      "text": "Put in cold place to chill; if outside temperature is not sufficiently cold, fold paste in a towel, put in a dripping-pan, and place between dripping pans of crushed ice.",
+      "section": null
+    },
+    {
+      "text": "If paste is to be kept for several days, wrap in a napkin, put in tin pail and cover tightly, then put in cold place; if in ice box, do not allow pail to come in direct contact with ice.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/puff-paste-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash the butter, pat and fold until no water flies.\n2. Reserve two tablespoons of butter, and shape remainder into a circular piece one-half inch thick, and put on floured board.\n3. Work two tablespoons of butter into flour with the tips of fingers of the right hand.\n4. Moisten to a dough with cold water, turn on slightly floured board, and knead one minute.\n5. Cover with towel, and let stand five minutes.\n6. Pat and roll one-fourth inch thick, keeping paste a little wider than long, and corners square.\n7. If this cannot be accomplished with rolling-pin, draw into shape with fingers.\n8. Place butter on centre of lower half of paste.\n9. Cover butter by folding upper half of paste over it.\n10. Press edges firmly, to enclose as much air as possible.\n11. Fold right side of paste over enclosed butter, the left side under enclosed butter.\n12. Turn paste half-way round, cover, and let stand five minutes.\n13. Pat, and roll one-fourth inch thick, having paste longer than wide, lifting often to prevent paste from sticking, and dredging board slightly with flour when necessary.\n14. Fold from ends towards centre, making three layers.\n15. Cover, and let stand five minutes.\n16. Repeat twice, turning paste half-way round each time before rolling.\n17. After fourth rolling, fold from ends to centre, and double, making four layers.\n18. Put in cold place to chill; if outside temperature is not sufficiently cold, fold paste in a towel, put in a dripping-pan, and place between dripping pans of crushed ice.\n19. If paste is to be kept for several days, wrap in a napkin, put in tin pail and cover tightly, then put in cold place; if in ice box, do not allow pail to come in direct contact with ice.",
+    "originalIngredients": [
+      "1 pound butter",
+      "1 pound pastry flour",
+      "Cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

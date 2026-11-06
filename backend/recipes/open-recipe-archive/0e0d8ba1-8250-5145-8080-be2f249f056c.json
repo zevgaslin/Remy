@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "0e0d8ba1-8250-5145-8080-be2f249f056c",
+  "name": "Rhubarb, or Pie-Plant Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rhubarb",
+      "originalText": "rhubarb",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour milk",
+      "originalText": "1 cupful of sour milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of butter the size of an egg",
+      "originalText": "a piece of butter the size of an egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1/2 teaspoonful of soda",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop rhubarb pretty fine, put in a pudding-dish, and sprinkle sugar over it",
+      "section": null
+    },
+    {
+      "text": "Make a batter of one cupful of sour milk, two eggs, a piece of butter the size of an egg, half a teaspoonful of soda, and enough flour to make batter about as thick as for cake",
+      "section": null
+    },
+    {
+      "text": "Spread it over the rhubarb, and bake till done",
+      "section": null
+    },
+    {
+      "text": "Turn out on a platter upside down, so that the rhubarb will be on top",
+      "section": null
+    },
+    {
+      "text": "Serve with sugar and cream",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/rhubarb-or-pie-plant-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop rhubarb pretty fine, put in a pudding-dish, and sprinkle sugar over it\n2. Make a batter of one cupful of sour milk, two eggs, a piece of butter the size of an egg, half a teaspoonful of soda, and enough flour to make batter about as thick as for cake\n3. Spread it over the rhubarb, and bake till done\n4. Turn out on a platter upside down, so that the rhubarb will be on top\n5. Serve with sugar and cream",
+    "originalIngredients": [
+      "rhubarb",
+      "sugar",
+      "1 cupful of sour milk",
+      "2 eggs",
+      "a piece of butter the size of an egg",
+      "1/2 teaspoonful of soda",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

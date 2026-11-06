@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "7a0c8168-a1ad-567b-8016-a274fd042d05",
+  "name": "Apple Omelette",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large pippins",
+      "originalText": "6 large pippins",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "8 eggs",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "5 or 6 tablespoonfuls sugar",
+      "originalText": "5 or 6 tablespoonfuls sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Nutmeg to taste",
+      "originalText": "Nutmeg to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose-water",
+      "originalText": "1 teaspoonful rose-water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stew the apples, when you have pared and cored them, as for apple-sauce",
+      "section": null
+    },
+    {
+      "text": "Beat them very smooth while hot, adding the butter, sugar, and nutmeg",
+      "section": null
+    },
+    {
+      "text": "When perfectly cold, put with the eggs, which should be whipped light, yolks and whites separately",
+      "section": null
+    },
+    {
+      "text": "Put in the yolks first, then the rose-water, lastly the whites",
+      "section": null
+    },
+    {
+      "text": "Pour into a deep bake-dish, which has been warmed and buttered",
+      "section": null
+    },
+    {
+      "text": "Bake in a moderate oven until it is delicately browned",
+      "section": null
+    },
+    {
+      "text": "Eat warm—not hot—for tea, with Graham bread",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/apple-omelette.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stew the apples, when you have pared and cored them, as for apple-sauce\n2. Beat them very smooth while hot, adding the butter, sugar, and nutmeg\n3. When perfectly cold, put with the eggs, which should be whipped light, yolks and whites separately\n4. Put in the yolks first, then the rose-water, lastly the whites\n5. Pour into a deep bake-dish, which has been warmed and buttered\n6. Bake in a moderate oven until it is delicately browned\n7. Eat warm—not hot—for tea, with Graham bread",
+    "originalIngredients": [
+      "6 large pippins",
+      "1 tablespoonful butter",
+      "8 eggs",
+      "5 or 6 tablespoonfuls sugar",
+      "Nutmeg to taste",
+      "1 teaspoonful rose-water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

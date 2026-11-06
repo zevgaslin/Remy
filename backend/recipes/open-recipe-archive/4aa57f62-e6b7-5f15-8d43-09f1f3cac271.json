@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "4aa57f62-e6b7-5f15-8d43-09f1f3cac271",
+  "name": "White Gingerbread",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "two pounds of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound of butter",
+      "originalText": "three quarters of a pound of butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "common white sugar powdered",
+      "originalText": "a pound of common white sugar powdered",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best white ginger",
+      "originalText": "three table-spoonfuls of the best white ginger",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of pearl-ash",
+      "originalText": "a small tea-spoonful of pearl-ash",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of sour milk",
+      "originalText": "a wine glass of sour milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift two pounds of flour into a deep pan, and rub into it three quarters of a pound of butter",
+      "section": null
+    },
+    {
+      "text": "Mix in a pound of common white sugar powdered and three table-spoonfuls of the best white ginger",
+      "section": null
+    },
+    {
+      "text": "Beat four eggs very light, and mix them gradually with the other ingredients in the pan",
+      "section": null
+    },
+    {
+      "text": "Add a small tea-spoonful of pearl-ash melted in a wine glass of sour milk",
+      "section": null
+    },
+    {
+      "text": "Stir the whole as hard as possible",
+      "section": null
+    },
+    {
+      "text": "Flour your paste-board and lay the lump of dough upon it",
+      "section": null
+    },
+    {
+      "text": "Roll it out into a sheet an inch thick, adding more flour if necessary",
+      "section": null
+    },
+    {
+      "text": "Butter a large shallow square pan and lay the dough into it",
+      "section": null
+    },
+    {
+      "text": "Bake it in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "When cold, cut it into squares, or cut it out into separate cakes with a jagging iron previous to baking",
+      "section": null
+    },
+    {
+      "text": "Do not lay them too close together in the pan, lest they run into each other",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/white-gingerbread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift two pounds of flour into a deep pan, and rub into it three quarters of a pound of butter\n2. Mix in a pound of common white sugar powdered and three table-spoonfuls of the best white ginger\n3. Beat four eggs very light, and mix them gradually with the other ingredients in the pan\n4. Add a small tea-spoonful of pearl-ash melted in a wine glass of sour milk\n5. Stir the whole as hard as possible\n6. Flour your paste-board and lay the lump of dough upon it\n7. Roll it out into a sheet an inch thick, adding more flour if necessary\n8. Butter a large shallow square pan and lay the dough into it\n9. Bake it in a moderate oven\n10. When cold, cut it into squares, or cut it out into separate cakes with a jagging iron previous to baking\n11. Do not lay them too close together in the pan, lest they run into each other",
+    "originalIngredients": [
+      "two pounds of flour",
+      "three quarters of a pound of butter",
+      "a pound of common white sugar powdered",
+      "three table-spoonfuls of the best white ginger",
+      "four eggs",
+      "a small tea-spoonful of pearl-ash",
+      "a wine glass of sour milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

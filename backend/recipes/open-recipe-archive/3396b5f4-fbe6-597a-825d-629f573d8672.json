@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "3396b5f4-fbe6-597a-825d-629f573d8672",
+  "name": "Apples and Custard",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large apples",
+      "originalText": "6 large apples",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 pint milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks 2 eggs",
+      "originalText": "yolks 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoon cornstarch",
+      "originalText": "1 level teaspoon cornstarch",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg whites",
+      "originalText": "2 egg whites",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare and core 6 large apples, filling the cavities with sugar and a bit of butter",
+      "section": null
+    },
+    {
+      "text": "Put a little water in a dish, place in the apples and bake",
+      "section": null
+    },
+    {
+      "text": "When nearly done, pour a custard around made of 1 pint milk, yolks 2 eggs, 1 level teaspoon cornstarch, sugar and flavor to taste",
+      "section": null
+    },
+    {
+      "text": "Put back in the oven and bake",
+      "section": null
+    },
+    {
+      "text": "Make a meringue of the 2 whites, and put a tablespoon over each",
+      "section": null
+    },
+    {
+      "text": "Brown lightly and eat cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/apples-and-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare and core 6 large apples, filling the cavities with sugar and a bit of butter\n2. Put a little water in a dish, place in the apples and bake\n3. When nearly done, pour a custard around made of 1 pint milk, yolks 2 eggs, 1 level teaspoon cornstarch, sugar and flavor to taste\n4. Put back in the oven and bake\n5. Make a meringue of the 2 whites, and put a tablespoon over each\n6. Brown lightly and eat cold",
+    "originalIngredients": [
+      "6 large apples",
+      "sugar",
+      "butter",
+      "water",
+      "1 pint milk",
+      "yolks 2 eggs",
+      "1 level teaspoon cornstarch",
+      "2 egg whites"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

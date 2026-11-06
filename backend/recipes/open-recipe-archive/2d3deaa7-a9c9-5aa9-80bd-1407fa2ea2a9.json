@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "2d3deaa7-a9c9-5aa9-80bd-1407fa2ea2a9",
+  "name": "Kidgrie, or Dry Curry",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fowl",
+      "originalText": "1 fowl",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 teaspoonfuls curry powder or paste",
+      "originalText": "2 teaspoonfuls curry powder or paste",
+      "quantity": null,
+      "quantityText": "2 teaspoonfuls curry powder or paste",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter and lard",
+      "originalText": "Butter and lard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup hot water",
+      "originalText": "1 teacup hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "4 onions",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut a fowl into pieces the size of a walnut, put into a stewpan with a little lard and stir until nearly cooked",
+      "section": null
+    },
+    {
+      "text": "Cut onions into thin slices, place them in another stewpan with a little lard or butter, grill until nicely browned",
+      "section": null
+    },
+    {
+      "text": "When browned, add a little more butter or lard, with curry; stir a few minutes",
+      "section": null
+    },
+    {
+      "text": "Add the contents of the two saucepans together and stir until the meat is sufficiently cooked",
+      "section": null
+    },
+    {
+      "text": "After adding a teacup of water, allow to stand a short time before serving",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/kidgrie-or-dry-curry.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut a fowl into pieces the size of a walnut, put into a stewpan with a little lard and stir until nearly cooked\n2. Cut onions into thin slices, place them in another stewpan with a little lard or butter, grill until nicely browned\n3. When browned, add a little more butter or lard, with curry; stir a few minutes\n4. Add the contents of the two saucepans together and stir until the meat is sufficiently cooked\n5. After adding a teacup of water, allow to stand a short time before serving",
+    "originalIngredients": [
+      "1 fowl",
+      "2 teaspoonfuls curry powder or paste",
+      "Butter and lard",
+      "1 teacup hot water",
+      "4 onions"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

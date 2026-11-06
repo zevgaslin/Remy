@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "fa0c5b98-f3a9-50a1-81a1-8eb959bd690b",
+  "name": "A Jonathon",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lard or butter",
+      "originalText": "lard or butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "apples",
+      "originalText": "apples",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "1 teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "a pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grease a deep pie plate with lard or preferably butter",
+      "section": null
+    },
+    {
+      "text": "cut apples in small pieces, not thin slices, and spread over the bottom of plate",
+      "section": null
+    },
+    {
+      "text": "make a batter of following: 1 cup cream, 1 egg, 1 cup flour, 1 teaspoon baking powder, a pinch of salt",
+      "section": null
+    },
+    {
+      "text": "pour this over the apple and bake in a moderate oven till nicely browned",
+      "section": null
+    },
+    {
+      "text": "Serve with a dressing after the Jonathon has been turned upside down on a plate",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/a-jonathon.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grease a deep pie plate with lard or preferably butter\n2. cut apples in small pieces, not thin slices, and spread over the bottom of plate\n3. make a batter of following: 1 cup cream, 1 egg, 1 cup flour, 1 teaspoon baking powder, a pinch of salt\n4. pour this over the apple and bake in a moderate oven till nicely browned\n5. Serve with a dressing after the Jonathon has been turned upside down on a plate",
+    "originalIngredients": [
+      "lard or butter",
+      "apples",
+      "1 cup cream",
+      "1 egg",
+      "1 cup flour",
+      "1 teaspoon baking powder",
+      "a pinch of salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

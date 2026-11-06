@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "29b61e73-26c3-59dc-9feb-09f498d0f13a",
+  "name": "Sugar Ginger Bread",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "nice brown sugar",
+      "originalText": "two pounds of nice brown sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "three quarts of flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup full of powdered ginger",
+      "originalText": "a large cup full of powdered ginger",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "twelve eggs",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of brandy",
+      "originalText": "a glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take two pounds of the nicest brown sugar, dry and pound it",
+      "section": null
+    },
+    {
+      "text": "Put it into three quarts of flour",
+      "section": null
+    },
+    {
+      "text": "Add a large cup full of powdered ginger",
+      "section": null
+    },
+    {
+      "text": "Sift the mixture",
+      "section": null
+    },
+    {
+      "text": "Wash the salt out of a pound of butter, and cream it",
+      "section": null
+    },
+    {
+      "text": "Have twelve eggs well beaten",
+      "section": null
+    },
+    {
+      "text": "Work into the butter first, the mixture, then the froth from the eggs, until all are in, and it is quite light",
+      "section": null
+    },
+    {
+      "text": "Add a glass of brandy",
+      "section": null
+    },
+    {
+      "text": "Pour it into butter shallow moulds",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sugar-ginger-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take two pounds of the nicest brown sugar, dry and pound it\n2. Put it into three quarts of flour\n3. Add a large cup full of powdered ginger\n4. Sift the mixture\n5. Wash the salt out of a pound of butter, and cream it\n6. Have twelve eggs well beaten\n7. Work into the butter first, the mixture, then the froth from the eggs, until all are in, and it is quite light\n8. Add a glass of brandy\n9. Pour it into butter shallow moulds\n10. Bake in a quick oven",
+    "originalIngredients": [
+      "two pounds of nice brown sugar",
+      "three quarts of flour",
+      "a large cup full of powdered ginger",
+      "one pound of butter",
+      "twelve eggs",
+      "a glass of brandy"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

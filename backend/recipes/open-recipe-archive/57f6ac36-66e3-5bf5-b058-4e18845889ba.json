@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "57f6ac36-66e3-5bf5-b058-4e18845889ba",
+  "name": "Cheese Souffle (Variation 2)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "melted butter",
+      "originalText": "1 ounce melted butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch pepper",
+      "originalText": "pinch pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup grated cheese",
+      "originalText": "¾ cup grated cheese",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together in a saucepan 1 ounce melted butter and 1 tablespoon flour",
+      "section": null
+    },
+    {
+      "text": "When quite smooth, add 1 teaspoon salt and a pinch pepper and 1 cup milk",
+      "section": null
+    },
+    {
+      "text": "Cook and stir this till thick as good cream",
+      "section": null
+    },
+    {
+      "text": "Remove from stove and beat in ¾ cup grated cheese and yolks of 2 eggs",
+      "section": null
+    },
+    {
+      "text": "Beat in lightly the stiffly beaten whites of the eggs",
+      "section": null
+    },
+    {
+      "text": "Pour the mixture into a buttered pudding dish",
+      "section": null
+    },
+    {
+      "text": "Bake in a very hot oven for about 25 minutes",
+      "section": null
+    },
+    {
+      "text": "Serve as soon as taken from oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cheese-souffle-variation-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together in a saucepan 1 ounce melted butter and 1 tablespoon flour\n2. When quite smooth, add 1 teaspoon salt and a pinch pepper and 1 cup milk\n3. Cook and stir this till thick as good cream\n4. Remove from stove and beat in ¾ cup grated cheese and yolks of 2 eggs\n5. Beat in lightly the stiffly beaten whites of the eggs\n6. Pour the mixture into a buttered pudding dish\n7. Bake in a very hot oven for about 25 minutes\n8. Serve as soon as taken from oven",
+    "originalIngredients": [
+      "1 ounce melted butter",
+      "1 tablespoon flour",
+      "1 teaspoon salt",
+      "pinch pepper",
+      "1 cup milk",
+      "¾ cup grated cheese",
+      "2 eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

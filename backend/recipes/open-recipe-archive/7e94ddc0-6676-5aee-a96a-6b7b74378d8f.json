@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "7e94ddc0-6676-5aee-a96a-6b7b74378d8f",
+  "name": "Velvet Molasses Candy",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "molasses",
+      "originalText": "1 cup molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 cups sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 cup boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "3 tablespoons vinegar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon cream of tartar",
+      "originalText": "½ teaspoon cream of tartar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup melted butter",
+      "originalText": "½ cup melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ teaspoon soda",
+      "originalText": "¼ teaspoon soda",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put first four ingredients in kettle placed over front of range.",
+      "section": null
+    },
+    {
+      "text": "As soon as boiling-point is reached, add cream of tartar.",
+      "section": null
+    },
+    {
+      "text": "Boil until, when tried in cold water, mixture will become brittle.",
+      "section": null
+    },
+    {
+      "text": "Stir constantly during last part of cooking.",
+      "section": null
+    },
+    {
+      "text": "When nearly done, add butter and soda.",
+      "section": null
+    },
+    {
+      "text": "Pour into a buttered pan and pull same as Molasses Candy.",
+      "section": null
+    },
+    {
+      "text": "While pulling, add one teaspoon vanilla, one-half teaspoon lemon extract, few drops oil of peppermint, or few drops oil of wintergreen.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/velvet-molasses-candy.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put first four ingredients in kettle placed over front of range.\n2. As soon as boiling-point is reached, add cream of tartar.\n3. Boil until, when tried in cold water, mixture will become brittle.\n4. Stir constantly during last part of cooking.\n5. When nearly done, add butter and soda.\n6. Pour into a buttered pan and pull same as Molasses Candy.\n7. While pulling, add one teaspoon vanilla, one-half teaspoon lemon extract, few drops oil of peppermint, or few drops oil of wintergreen.",
+    "originalIngredients": [
+      "1 cup molasses",
+      "3 cups sugar",
+      "1 cup boiling water",
+      "3 tablespoons vinegar",
+      "½ teaspoon cream of tartar",
+      "½ cup melted butter",
+      "¼ teaspoon soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

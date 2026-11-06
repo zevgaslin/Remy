@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "16885fbf-ddaa-5fa3-a797-1c36e19ef424",
+  "name": "Cream of Celery Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "1 small onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little mace",
+      "originalText": "A little mace",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whipped cream",
+      "originalText": "1 cup of whipped cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Long stalks of 3 heads of celery",
+      "originalText": "Long stalks of 3 heads of celery",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil onion, celery and mace from thirty to forty minutes",
+      "section": null
+    },
+    {
+      "text": "Mix flour with two tablespoonfuls of cold milk and add to boiling milk; cook ten minutes",
+      "section": null
+    },
+    {
+      "text": "Mash the celery in the water it was boiled in and stir in boiling milk",
+      "section": null
+    },
+    {
+      "text": "Add butter and season with salt and pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Strain, and serve immediately",
+      "section": null
+    },
+    {
+      "text": "Whip a cup of cream and add to soup after it is in the tureen",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cream-of-celery-soup-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil onion, celery and mace from thirty to forty minutes\n2. Mix flour with two tablespoonfuls of cold milk and add to boiling milk; cook ten minutes\n3. Mash the celery in the water it was boiled in and stir in boiling milk\n4. Add butter and season with salt and pepper to taste\n5. Strain, and serve immediately\n6. Whip a cup of cream and add to soup after it is in the tureen",
+    "originalIngredients": [
+      "1 pt. milk",
+      "1 small onion",
+      "1 tablespoonful of flour",
+      "1 tablespoonful of butter",
+      "A little mace",
+      "1 cup of whipped cream",
+      "Long stalks of 3 heads of celery",
+      "Salt",
+      "Pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

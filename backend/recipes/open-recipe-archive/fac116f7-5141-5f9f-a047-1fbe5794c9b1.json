@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "fac116f7-5141-5f9f-a047-1fbe5794c9b1",
+  "name": "Calf's Feet Broth",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "calf's feet",
+      "originalText": "two calf's feet",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "two quarts of water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the beaten yolk of an egg",
+      "originalText": "the beaten yolk of an egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little sugar",
+      "originalText": "a little sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated lemon-peel",
+      "originalText": "grated lemon-peel",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil two calf's feet in two quarts of water, till the liquid is reduced one half, and the meat has dropped to pieces.",
+      "section": null
+    },
+    {
+      "text": "Strain it into a deep dish or pan, and set it by to get cold.",
+      "section": null
+    },
+    {
+      "text": "When it has congealed, take all the fat carefully off; put a tea-cupful of the jelly into a sauce-pan, and set it on hot coals.",
+      "section": null
+    },
+    {
+      "text": "When it has nearly boiled, stir in by degrees the beaten yolk of an egg, and then take it off immediately.",
+      "section": null
+    },
+    {
+      "text": "You may add to it a little sugar, and some grated lemon-peel and nutmeg.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/calf-s-feet-broth.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil two calf's feet in two quarts of water, till the liquid is reduced one half, and the meat has dropped to pieces.\n2. Strain it into a deep dish or pan, and set it by to get cold.\n3. When it has congealed, take all the fat carefully off; put a tea-cupful of the jelly into a sauce-pan, and set it on hot coals.\n4. When it has nearly boiled, stir in by degrees the beaten yolk of an egg, and then take it off immediately.\n5. You may add to it a little sugar, and some grated lemon-peel and nutmeg.",
+    "originalIngredients": [
+      "two calf's feet",
+      "two quarts of water",
+      "the beaten yolk of an egg",
+      "a little sugar",
+      "grated lemon-peel",
+      "nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "2d9b2666-f833-5b88-89ba-8d3e00f5af9b",
+  "name": "Rich Chocolate Caramels",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup milk",
+      "originalText": "½ cup milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sugar",
+      "originalText": "½ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1 cup molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "squares chocolate",
+      "originalText": "4 squares chocolate",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "walnut meats, broken in pieces",
+      "originalText": "1 cup walnut meats, broken in pieces",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "2 teaspoons vanilla",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put butter in saucepan and when melted add milk, sugar and molasses.",
+      "section": null
+    },
+    {
+      "text": "When boiling-point is reached add chocolate, and cook until brittle when tried in cold water, stirring occasionally to prevent mixture from adhering to pan.",
+      "section": null
+    },
+    {
+      "text": "Remove from fire, beat three minutes, add nut meats and vanilla, and turn into a buttered pan.",
+      "section": null
+    },
+    {
+      "text": "When cold cut in squares and wrap in paraffine paper.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rich-chocolate-caramels.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put butter in saucepan and when melted add milk, sugar and molasses.\n2. When boiling-point is reached add chocolate, and cook until brittle when tried in cold water, stirring occasionally to prevent mixture from adhering to pan.\n3. Remove from fire, beat three minutes, add nut meats and vanilla, and turn into a buttered pan.\n4. When cold cut in squares and wrap in paraffine paper.",
+    "originalIngredients": [
+      "2 tablespoons butter",
+      "½ cup milk",
+      "½ cup sugar",
+      "1 cup molasses",
+      "4 squares chocolate",
+      "1 cup walnut meats, broken in pieces",
+      "2 teaspoons vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

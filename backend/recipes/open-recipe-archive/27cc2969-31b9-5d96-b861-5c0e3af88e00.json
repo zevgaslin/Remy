@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "27cc2969-31b9-5d96-b861-5c0e3af88e00",
+  "name": "Blanketed Chicken",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "broilers",
+      "originalText": "two broilers",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "green pepper finely chopped",
+      "originalText": "two tablespoons green pepper finely chopped",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chives finely cut",
+      "originalText": "one tablespoon chives finely cut",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strips of bacon thinly cut",
+      "originalText": "strips of bacon thinly cut",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fat from dripping-pan",
+      "originalText": "three tablespoons fat from dripping-pan",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "four tablespoons flour",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and one-half cups thin cream, or half chicken stock and half cream",
+      "originalText": "one and one-half cups thin cream, or half chicken stock and half cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Split and clean two broilers.",
+      "section": null
+    },
+    {
+      "text": "Place in dripping-pan and sprinkle with salt, pepper, two tablespoons green pepper finely chopped, and one tablespoon chives finely cut.",
+      "section": null
+    },
+    {
+      "text": "Cover with strips of bacon thinly cut, and bake in a hot oven until chicken is tender.",
+      "section": null
+    },
+    {
+      "text": "Remove to serving dish and pour around the following sauce: To three tablespoons fat, taken from dripping-pan, add four tablespoons flour and one and one-half cups thin cream, or half chicken stock and half cream may be used.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/blanketed-chicken-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Split and clean two broilers.\n2. Place in dripping-pan and sprinkle with salt, pepper, two tablespoons green pepper finely chopped, and one tablespoon chives finely cut.\n3. Cover with strips of bacon thinly cut, and bake in a hot oven until chicken is tender.\n4. Remove to serving dish and pour around the following sauce: To three tablespoons fat, taken from dripping-pan, add four tablespoons flour and one and one-half cups thin cream, or half chicken stock and half cream may be used.\n5. Season with salt and pepper.",
+    "originalIngredients": [
+      "two broilers",
+      "salt",
+      "pepper",
+      "two tablespoons green pepper finely chopped",
+      "one tablespoon chives finely cut",
+      "strips of bacon thinly cut",
+      "three tablespoons fat from dripping-pan",
+      "four tablespoons flour",
+      "one and one-half cups thin cream, or half chicken stock and half cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

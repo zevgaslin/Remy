@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "cc2c9952-0944-5f97-ae76-0dea4df5963e",
+  "name": "Currant Fritters",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dry, fine bread crumbs",
+      "originalText": "Two cupfuls dry, fine bread crumbs",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "prepared flour",
+      "originalText": "Two tablespoonfuls of prepared flour",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "Two cups of milk",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half pound currants, washed and well dried",
+      "originalText": "One-half pound currants, washed and well dried",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs whipped very light",
+      "originalText": "Five eggs whipped very light",
+      "quantity": 5.0,
+      "quantityText": "Five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half cup powdered sugar",
+      "originalText": "One-half cup powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half teaspoonful mixed cinnamon and nutmeg",
+      "originalText": "One-half teaspoonful mixed cinnamon and nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the milk and pour over the bread",
+      "section": null
+    },
+    {
+      "text": "Mix and put in the butter",
+      "section": null
+    },
+    {
+      "text": "Let it get cold",
+      "section": null
+    },
+    {
+      "text": "Beat in the yolks and sugar, the seasoning, and flour",
+      "section": null
+    },
+    {
+      "text": "Beat in stiff whites",
+      "section": null
+    },
+    {
+      "text": "Finally, add the currants dredged lightly with flour",
+      "section": null
+    },
+    {
+      "text": "Drop in great spoonfuls into hot lard and fry",
+      "section": null
+    },
+    {
+      "text": "Drain them and send hot to table",
+      "section": null
+    },
+    {
+      "text": "Eat with a mixture of wine and powdered sugar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/currant-fritters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the milk and pour over the bread\n2. Mix and put in the butter\n3. Let it get cold\n4. Beat in the yolks and sugar, the seasoning, and flour\n5. Beat in stiff whites\n6. Finally, add the currants dredged lightly with flour\n7. Drop in great spoonfuls into hot lard and fry\n8. Drain them and send hot to table\n9. Eat with a mixture of wine and powdered sugar",
+    "originalIngredients": [
+      "Two cupfuls dry, fine bread crumbs",
+      "Two tablespoonfuls of prepared flour",
+      "Two cups of milk",
+      "One-half pound currants, washed and well dried",
+      "Five eggs whipped very light",
+      "One-half cup powdered sugar",
+      "One tablespoonful butter",
+      "One-half teaspoonful mixed cinnamon and nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

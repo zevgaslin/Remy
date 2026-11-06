@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "e1f67e4e-dfb9-5044-8a2d-a0d6bdf55283",
+  "name": "Ragoût of Squirrels",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pair of fine young squirrels",
+      "originalText": "A pair of fine young squirrels",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt water",
+      "originalText": "Salt water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "5 tablespoonfuls of boiling water",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "browned flour",
+      "originalText": "2 teaspoonfuls of browned flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of bacon cut into slips",
+      "originalText": "A quarter of a pound of bacon cut into slips",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tepid water",
+      "originalText": "Half a cupful of tepid water",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of wine",
+      "originalText": "A glass of wine",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "The juice of half a lemon",
+      "originalText": "The juice of half a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Skin, clean, and quarter a pair of fine young squirrels, and soak in salt and water to draw out the blood.",
+      "section": null
+    },
+    {
+      "text": "Slice an onion and fry brown in a tablespoonful of butter.",
+      "section": null
+    },
+    {
+      "text": "Stir into the frying-pan five tablespoonfuls of boiling water, and thicken with two teaspoonfuls of browned flour.",
+      "section": null
+    },
+    {
+      "text": "Put the squirrels into a saucepan, with a quarter of a pound of bacon cut into slips; season with pepper and salt to taste, add the onion and gravy, and half a cupful of tepid water.",
+      "section": null
+    },
+    {
+      "text": "Cover and stew for forty minutes, or until tender.",
+      "section": null
+    },
+    {
+      "text": "Pour in a glass of wine and the juice of half a lemon, shake around well, and turn into a deep covered dish.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rago-t-of-squirrels.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Skin, clean, and quarter a pair of fine young squirrels, and soak in salt and water to draw out the blood.\n2. Slice an onion and fry brown in a tablespoonful of butter.\n3. Stir into the frying-pan five tablespoonfuls of boiling water, and thicken with two teaspoonfuls of browned flour.\n4. Put the squirrels into a saucepan, with a quarter of a pound of bacon cut into slips; season with pepper and salt to taste, add the onion and gravy, and half a cupful of tepid water.\n5. Cover and stew for forty minutes, or until tender.\n6. Pour in a glass of wine and the juice of half a lemon, shake around well, and turn into a deep covered dish.",
+    "originalIngredients": [
+      "A pair of fine young squirrels",
+      "Salt water",
+      "1 onion",
+      "1 tablespoonful of butter",
+      "5 tablespoonfuls of boiling water",
+      "2 teaspoonfuls of browned flour",
+      "A quarter of a pound of bacon cut into slips",
+      "Pepper and salt",
+      "Half a cupful of tepid water",
+      "A glass of wine",
+      "The juice of half a lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "d02edb44-4491-59de-9fdc-e50e261098ed",
+  "name": "Quick Method Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "3/4 cup water",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 teaspoon sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 teaspoon lard or butter",
+      "originalText": "1 teaspoon lard or butter",
+      "quantity": null,
+      "quantityText": "1 teaspoon lard or butter",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "Flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the sugar and yeast into a cup, add 3/4 cup of the water warmed to 90° F., mix until the whole is smooth and the sugar dissolved, and stand in a temperature of 80° F. for 15 or 20 minutes to begin fermenting.",
+      "section": null
+    },
+    {
+      "text": "Put the milk on to scald.",
+      "section": null
+    },
+    {
+      "text": "Measure the salt and shortening into the kneading-pan, pour in the scalded milk, add the rest of the water, and bring the temperature to about 90° F.",
+      "section": null
+    },
+    {
+      "text": "Add strong flour enough at the same temperature to make a batter that will beat without spattering; add the yeast, now fermenting vigorously, and beat with a wooden spoon until it looks smooth and elastic.",
+      "section": null
+    },
+    {
+      "text": "Mix in at once enough warm flour to make a dough that will not stick to the fingers, turn out on the moulding board and knead as usual.",
+      "section": null
+    },
+    {
+      "text": "Return to the warm greased kneading-pan, cover closely, and stand in a temperature of 70° to 80° F. until risen to rather more than double in volume. This will take 2 to 3 hours.",
+      "section": null
+    },
+    {
+      "text": "Knead lightly in the pan for a minute to get rid of the larger bubbles, and stand back in the warm place to rise again until double in volume. This will take 1 to 2 hours.",
+      "section": null
+    },
+    {
+      "text": "Shape into loaves that will half fill the bread tins, kneading only to get rid of large bubbles, and smooth the surface.",
+      "section": null
+    },
+    {
+      "text": "Let rise until doubled in volume, then bake and cool as usual.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/quick-method-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the sugar and yeast into a cup, add 3/4 cup of the water warmed to 90° F., mix until the whole is smooth and the sugar dissolved, and stand in a temperature of 80° F. for 15 or 20 minutes to begin fermenting.\n2. Put the milk on to scald.\n3. Measure the salt and shortening into the kneading-pan, pour in the scalded milk, add the rest of the water, and bring the temperature to about 90° F.\n4. Add strong flour enough at the same temperature to make a batter that will beat without spattering; add the yeast, now fermenting vigorously, and beat with a wooden spoon until it looks smooth and elastic.\n5. Mix in at once enough warm flour to make a dough that will not stick to the fingers, turn out on the moulding board and knead as usual.\n6. Return to the warm greased kneading-pan, cover closely, and stand in a temperature of 70° to 80° F. until risen to rather more than double in volume. This will take 2 to 3 hours.\n7. Knead lightly in the pan for a minute to get rid of the larger bubbles, and stand back in the warm place to rise again until double in volume. This will take 1 to 2 hours.\n8. Shape into loaves that will half fill the bread tins, kneading only to get rid of large bubbles, and smooth the surface.\n9. Let rise until doubled in volume, then bake and cool as usual.",
+    "originalIngredients": [
+      "1 cup milk",
+      "3/4 cup water",
+      "1 White Swan Yeast Cake",
+      "1 teaspoon salt",
+      "1 teaspoon sugar",
+      "1 teaspoon lard or butter",
+      "Flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

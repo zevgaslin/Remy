@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "82f9040c-966e-55e0-8daa-96fd8d26ea6b",
+  "name": "Cocoa-Nut Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cocoa-nut",
+      "originalText": "a cocoa-nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound grated cocoa-nut",
+      "originalText": "three quarters of a pound grated cocoa-nut",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "half a pound of powdered loaf-sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of wine and rose water mixed",
+      "originalText": "a glass of wine and rose water mixed",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "twelve eggs",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff paste",
+      "originalText": "puff paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Open the cocoa-nut, pare off the brown skin from the pieces, and wash them all in cold water.",
+      "section": null
+    },
+    {
+      "text": "Weigh three quarters of a pound, and grate it into a dish.",
+      "section": null
+    },
+    {
+      "text": "Cut up half a pound of butter into half a pound of powdered loaf-sugar, and stir them together to a cream; add to them a glass of wine and rose water mixed.",
+      "section": null
+    },
+    {
+      "text": "Beat the whites only of twelve eggs, till they stand alone on the rods.",
+      "section": null
+    },
+    {
+      "text": "Stir the grated cocoa-nut and the beaten white of egg alternately into the butter and sugar, giving the whole a hard stirring at the last.",
+      "section": null
+    },
+    {
+      "text": "Put the mixture into a buttered dish, lay puff paste round the flat edge, and bake it half an hour in a moderate oven.",
+      "section": null
+    },
+    {
+      "text": "When cold, grate powdered sugar over it.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cocoa-nut-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Open the cocoa-nut, pare off the brown skin from the pieces, and wash them all in cold water.\n2. Weigh three quarters of a pound, and grate it into a dish.\n3. Cut up half a pound of butter into half a pound of powdered loaf-sugar, and stir them together to a cream; add to them a glass of wine and rose water mixed.\n4. Beat the whites only of twelve eggs, till they stand alone on the rods.\n5. Stir the grated cocoa-nut and the beaten white of egg alternately into the butter and sugar, giving the whole a hard stirring at the last.\n6. Put the mixture into a buttered dish, lay puff paste round the flat edge, and bake it half an hour in a moderate oven.\n7. When cold, grate powdered sugar over it.",
+    "originalIngredients": [
+      "a cocoa-nut",
+      "three quarters of a pound grated cocoa-nut",
+      "half a pound of butter",
+      "half a pound of powdered loaf-sugar",
+      "a glass of wine and rose water mixed",
+      "twelve eggs",
+      "puff paste",
+      "powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

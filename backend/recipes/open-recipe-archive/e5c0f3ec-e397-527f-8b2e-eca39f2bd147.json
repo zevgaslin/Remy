@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "e5c0f3ec-e397-527f-8b2e-eca39f2bd147",
+  "name": "Chiffonade Salad",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large green peppers",
+      "originalText": "2 large green peppers",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grape fruit",
+      "originalText": "1 grape fruit",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tomatoes",
+      "originalText": "3 large tomatoes",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head lettuce",
+      "originalText": "1 head lettuce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "French dressing",
+      "originalText": "French dressing",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut open peppers, remove the seeds and veins and cut into shreds; drop into boiling water for one minute; drain and cool.",
+      "section": null
+    },
+    {
+      "text": "Cut a grape fruit. Take out the pulp with a spoon and cut into bits.",
+      "section": null
+    },
+    {
+      "text": "Peel tomatoes, and cut into small pieces.",
+      "section": null
+    },
+    {
+      "text": "Shred lettuce finely.",
+      "section": null
+    },
+    {
+      "text": "Marinade each article separately with a French dressing.",
+      "section": null
+    },
+    {
+      "text": "Put the grape fruit pulp in the centre of the salad dish and arrange around it the prepared peppers, tomatoes and lettuce in such a way as to display the different colors to the best advantage.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chiffonade-salad.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut open peppers, remove the seeds and veins and cut into shreds; drop into boiling water for one minute; drain and cool.\n2. Cut a grape fruit. Take out the pulp with a spoon and cut into bits.\n3. Peel tomatoes, and cut into small pieces.\n4. Shred lettuce finely.\n5. Marinade each article separately with a French dressing.\n6. Put the grape fruit pulp in the centre of the salad dish and arrange around it the prepared peppers, tomatoes and lettuce in such a way as to display the different colors to the best advantage.",
+    "originalIngredients": [
+      "2 large green peppers",
+      "1 grape fruit",
+      "3 large tomatoes",
+      "1 head lettuce",
+      "French dressing"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

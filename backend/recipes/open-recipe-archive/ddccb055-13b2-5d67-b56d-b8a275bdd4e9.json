@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "ddccb055-13b2-5d67-b56d-b8a275bdd4e9",
+  "name": "Caramel Pudding Custard",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs (yolks)",
+      "originalText": "6 eggs (yolks)",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 oz. sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "castor sugar",
+      "originalText": "2 oz. castor sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1/2 pt. cream",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Enough water to moisten sugar",
+      "originalText": "Enough water to moisten sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put sugar and water into a mould and cook until sugar is of a dark color.",
+      "section": null
+    },
+    {
+      "text": "Allow it to run all over the mould.",
+      "section": null
+    },
+    {
+      "text": "Dip in cold water to set it.",
+      "section": null
+    },
+    {
+      "text": "Pour in your custard.",
+      "section": null
+    },
+    {
+      "text": "Put into a saucepan with boiling water half way up the mould.",
+      "section": null
+    },
+    {
+      "text": "Cook about twenty minutes, cover mould with a buttered paper, and put cover on saucepan while the custard is steaming.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/caramel-pudding-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put sugar and water into a mould and cook until sugar is of a dark color.\n2. Allow it to run all over the mould.\n3. Dip in cold water to set it.\n4. Pour in your custard.\n5. Put into a saucepan with boiling water half way up the mould.\n6. Cook about twenty minutes, cover mould with a buttered paper, and put cover on saucepan while the custard is steaming.",
+    "originalIngredients": [
+      "6 eggs (yolks)",
+      "2 oz. sugar",
+      "2 oz. castor sugar",
+      "1/2 pt. cream",
+      "Enough water to moisten sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

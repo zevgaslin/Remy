@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "70b4393e-234e-5f34-97b7-0f3621b7dd34",
+  "name": "Home-Made Yeast",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 cup salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "4 quarts of water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large handfuls of hops",
+      "originalText": "three large handfuls of hops",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "White Swan Yeast Cake",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large potatoes",
+      "originalText": "12 large potatoes",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put 1 cup flour, 1 cup salt, 1 cup sugar in a dish and mix well together",
+      "section": null
+    },
+    {
+      "text": "Put 4 quarts of water in a pot and when boiling put in three large handfuls of hops",
+      "section": null
+    },
+    {
+      "text": "Boil thirty minutes, pour on flour, sugar and salt",
+      "section": null
+    },
+    {
+      "text": "When cool, put in White Swan Yeast Cake to start with",
+      "section": null
+    },
+    {
+      "text": "Boil 12 large potatoes, mash fine, and add to mixture",
+      "section": null
+    },
+    {
+      "text": "Cover tight, put in a warm place till it ferments",
+      "section": null
+    },
+    {
+      "text": "Shake well before using",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/home-made-yeast-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put 1 cup flour, 1 cup salt, 1 cup sugar in a dish and mix well together\n2. Put 4 quarts of water in a pot and when boiling put in three large handfuls of hops\n3. Boil thirty minutes, pour on flour, sugar and salt\n4. When cool, put in White Swan Yeast Cake to start with\n5. Boil 12 large potatoes, mash fine, and add to mixture\n6. Cover tight, put in a warm place till it ferments\n7. Shake well before using",
+    "originalIngredients": [
+      "1 cup flour",
+      "1 cup salt",
+      "1 cup sugar",
+      "4 quarts of water",
+      "three large handfuls of hops",
+      "White Swan Yeast Cake",
+      "12 large potatoes"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

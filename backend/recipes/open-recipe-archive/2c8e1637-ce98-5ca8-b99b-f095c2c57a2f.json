@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "2c8e1637-ce98-5ca8-b99b-f095c2c57a2f",
+  "name": "Rice Pudding With Eggs",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup rice",
+      "originalText": "½ cup rice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup sugar",
+      "originalText": "¾ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Handful of raisins, seeded and cut in two",
+      "originalText": "Handful of raisins, seeded and cut in two",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the rice in a pint of the milk an hour, then set the saucepan containing it where it will slowly heat to a boil.",
+      "section": null
+    },
+    {
+      "text": "Boil five minutes; remove and let it cool.",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks, add the sugar and butter, the rice and the milk in which it was cooked, with the pint of unboiled; the beaten whites, and finally the raisins.",
+      "section": null
+    },
+    {
+      "text": "Grate nutmeg on the top, and bake three-quarters of an hour, or until the custard is well set and of a light brown.",
+      "section": null
+    },
+    {
+      "text": "Eat cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-pudding-with-eggs.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the rice in a pint of the milk an hour, then set the saucepan containing it where it will slowly heat to a boil.\n2. Boil five minutes; remove and let it cool.\n3. Beat the yolks, add the sugar and butter, the rice and the milk in which it was cooked, with the pint of unboiled; the beaten whites, and finally the raisins.\n4. Grate nutmeg on the top, and bake three-quarters of an hour, or until the custard is well set and of a light brown.\n5. Eat cold.",
+    "originalIngredients": [
+      "1 quart milk",
+      "4 eggs",
+      "½ cup rice",
+      "¾ cup sugar",
+      "1 tablespoonful butter",
+      "Handful of raisins, seeded and cut in two"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

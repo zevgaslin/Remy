@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "be444c83-6e2a-58e4-86b4-a6f6c4b25c90",
+  "name": "Five-Hour Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large potatoes",
+      "originalText": "12 large potatoes",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 3/4 cups flour",
+      "quantity": 2.75,
+      "quantityText": "2 3/4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "2 tablespoons brown sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 quart boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "potato water",
+      "originalText": "potato water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 quart of cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cakes",
+      "originalText": "2 White Swan Yeast Cakes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take 12 large potatoes, peel boil and mash fine.",
+      "section": null
+    },
+    {
+      "text": "Take 2 3/4 cups flour and 2 tablespoons brown sugar and 1 tablespoon salt, and scald this with 1 quart boiling water.",
+      "section": null
+    },
+    {
+      "text": "Mix well, then add the potato water, then 1 quart of cold water.",
+      "section": null
+    },
+    {
+      "text": "Put 2 White Swan Yeast Cakes to soak in a little warm water and when the yeast is lukewarm, put the yeast cakes in and let rise.",
+      "section": null
+    },
+    {
+      "text": "One cup of yeast and 1 of water makes 1 loaf.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/five-hour-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take 12 large potatoes, peel boil and mash fine.\n2. Take 2 3/4 cups flour and 2 tablespoons brown sugar and 1 tablespoon salt, and scald this with 1 quart boiling water.\n3. Mix well, then add the potato water, then 1 quart of cold water.\n4. Put 2 White Swan Yeast Cakes to soak in a little warm water and when the yeast is lukewarm, put the yeast cakes in and let rise.\n5. One cup of yeast and 1 of water makes 1 loaf.",
+    "originalIngredients": [
+      "12 large potatoes",
+      "2 3/4 cups flour",
+      "2 tablespoons brown sugar",
+      "1 tablespoon salt",
+      "1 quart boiling water",
+      "potato water",
+      "1 quart of cold water",
+      "2 White Swan Yeast Cakes",
+      "warm water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "a016e72c-2430-5b21-b368-ca0d8df0fdb5",
+  "name": "Gravy",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "liquid from roasting pan",
+      "originalText": "liquid from roasting pan",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fat",
+      "originalText": "six tablespoons fat",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "six tablespoons flour",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stock",
+      "originalText": "three cups stock",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pour off liquid in pan in which turkey has been roasted.",
+      "section": null
+    },
+    {
+      "text": "From liquid skim off six tablespoons fat and return fat to pan.",
+      "section": null
+    },
+    {
+      "text": "Brown with six tablespoons flour.",
+      "section": null
+    },
+    {
+      "text": "Pour on gradually three cups stock in which giblets, neck, and tips of wings have been cooked, or use liquor left in pan.",
+      "section": null
+    },
+    {
+      "text": "Cook five minutes and season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Strain.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/gravy-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pour off liquid in pan in which turkey has been roasted.\n2. From liquid skim off six tablespoons fat and return fat to pan.\n3. Brown with six tablespoons flour.\n4. Pour on gradually three cups stock in which giblets, neck, and tips of wings have been cooked, or use liquor left in pan.\n5. Cook five minutes and season with salt and pepper.\n6. Strain.",
+    "originalIngredients": [
+      "liquid from roasting pan",
+      "six tablespoons fat",
+      "six tablespoons flour",
+      "three cups stock",
+      "salt and pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

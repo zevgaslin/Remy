@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "fb6ee764-d648-583e-85c6-e414e7d7402b",
+  "name": "Frozen Custard With The Fruit Frozen In",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 quart cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, and three cups of sugar beaten up with the yolks",
+      "originalText": "6 eggs, and three cups of sugar beaten up with the yolks",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 pint fresh peaches, cut up small, or fresh ripe berries",
+      "originalText": "1 pint fresh peaches, cut up small, or fresh ripe berries",
+      "quantity": null,
+      "quantityText": "1 pint fresh peaches, cut up small, or fresh ripe berries",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the quart of milk almost to boiling, and add gradually to the beaten yolks and sugar",
+      "section": null
+    },
+    {
+      "text": "Whip in the frothed whites, return to the custard-kettle, and stir until it is a thick, soft custard",
+      "section": null
+    },
+    {
+      "text": "Let it get perfectly cold, beat in the cream and freeze",
+      "section": null
+    },
+    {
+      "text": "If you let it freeze itself, stir in the fruit after the second beating; if you turn the freezer, when the custard is like congealed mush",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/frozen-custard-with-the-fruit-frozen-in.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the quart of milk almost to boiling, and add gradually to the beaten yolks and sugar\n2. Whip in the frothed whites, return to the custard-kettle, and stir until it is a thick, soft custard\n3. Let it get perfectly cold, beat in the cream and freeze\n4. If you let it freeze itself, stir in the fruit after the second beating; if you turn the freezer, when the custard is like congealed mush",
+    "originalIngredients": [
+      "1 quart milk",
+      "1 quart cream",
+      "6 eggs, and three cups of sugar beaten up with the yolks",
+      "1 pint fresh peaches, cut up small, or fresh ripe berries"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

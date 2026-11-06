@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "f88627a3-eaaf-521f-8709-cc75a0f77330",
+  "name": "Lobster à la Muisset",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one and one-half pound live lobsters",
+      "originalText": "2 one and one-half pound live lobsters",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped shallot",
+      "originalText": "1 tablespoon finely chopped shallot",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped carrot",
+      "originalText": "3 tablespoons chopped carrot",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs thyme",
+      "originalText": "2 sprigs thyme",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half bay leaf",
+      "originalText": "One-half bay leaf",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "red peppers from pepper sauce",
+      "originalText": "2 red peppers from pepper sauce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 and one-third cups Brown Stock",
+      "originalText": "1 and one-third cups Brown Stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thirds cup stewed and strained tomatoes",
+      "originalText": "2 thirds cup stewed and strained tomatoes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sherry wine",
+      "originalText": "3 tablespoons Sherry wine",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter",
+      "originalText": "Butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour",
+      "originalText": "Flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 and one-half tablespoons brandy",
+      "originalText": "1 and one-half tablespoons brandy",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Finely chopped chives",
+      "originalText": "Finely chopped chives",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook one tablespoon finely chopped shallot and three tablespoons chopped carrot in two tablespoons butter ten minutes, stirring constantly that carrots may not burn.",
+      "section": null
+    },
+    {
+      "text": "Add two sprigs thyme, one-half bay leaf, two red peppers from pepper sauce, one teaspoon salt, one and one-third cups Brown Stock, two-thirds cup stewed and strained tomatoes, and three tablespoons Sherry wine.",
+      "section": null
+    },
+    {
+      "text": "Add lobster and cook fifteen minutes.",
+      "section": null
+    },
+    {
+      "text": "Remove lobster to serving dish, thicken sauce with butter and flour cooked together, and add one and one-half tablespoons brandy.",
+      "section": null
+    },
+    {
+      "text": "Pour sauce around lobster, and sprinkle all with finely chopped chives.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lobster-la-muisset.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook one tablespoon finely chopped shallot and three tablespoons chopped carrot in two tablespoons butter ten minutes, stirring constantly that carrots may not burn.\n2. Add two sprigs thyme, one-half bay leaf, two red peppers from pepper sauce, one teaspoon salt, one and one-third cups Brown Stock, two-thirds cup stewed and strained tomatoes, and three tablespoons Sherry wine.\n3. Add lobster and cook fifteen minutes.\n4. Remove lobster to serving dish, thicken sauce with butter and flour cooked together, and add one and one-half tablespoons brandy.\n5. Pour sauce around lobster, and sprinkle all with finely chopped chives.",
+    "originalIngredients": [
+      "2 one and one-half pound live lobsters",
+      "1 tablespoon finely chopped shallot",
+      "3 tablespoons chopped carrot",
+      "2 tablespoons butter",
+      "2 sprigs thyme",
+      "One-half bay leaf",
+      "2 red peppers from pepper sauce",
+      "1 teaspoon salt",
+      "1 and one-third cups Brown Stock",
+      "2 thirds cup stewed and strained tomatoes",
+      "3 tablespoons Sherry wine",
+      "Butter",
+      "Flour",
+      "1 and one-half tablespoons brandy",
+      "Finely chopped chives"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

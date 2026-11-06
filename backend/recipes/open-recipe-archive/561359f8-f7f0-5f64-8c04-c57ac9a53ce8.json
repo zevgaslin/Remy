@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "561359f8-f7f0-5f64-8c04-c57ac9a53ce8",
+  "name": "Calf's Head Cheese",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "calf's head",
+      "originalText": "A calf's head",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water to cover",
+      "originalText": "Water to cover",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonful of salt",
+      "originalText": "A heaping tablespoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "A teaspoonful of pepper",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped sweet herbs",
+      "originalText": "A tablespoonful of finely chopped sweet herbs",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil a calf's head in water enough to cover it, until the meat leaves the bones",
+      "section": null
+    },
+    {
+      "text": "Take it with a skimmer into a wooden bowl or tray",
+      "section": null
+    },
+    {
+      "text": "Take from it every particle of bone",
+      "section": null
+    },
+    {
+      "text": "Chop it small",
+      "section": null
+    },
+    {
+      "text": "Season with pepper and salt, a heaping tablespoonful of salt and a teaspoonful of pepper",
+      "section": null
+    },
+    {
+      "text": "If liked, add a tablespoonful of finely chopped sweet herbs",
+      "section": null
+    },
+    {
+      "text": "Lay in a cloth in a colander, put the minced meat into it, then fold the cloth closely over it",
+      "section": null
+    },
+    {
+      "text": "Lay a plate over, and on it a gentle weight",
+      "section": null
+    },
+    {
+      "text": "When cold it may be sliced thin for supper or sandwiches",
+      "section": null
+    },
+    {
+      "text": "Spread each slice with made mustard",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/calf-s-head-cheese.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil a calf's head in water enough to cover it, until the meat leaves the bones\n2. Take it with a skimmer into a wooden bowl or tray\n3. Take from it every particle of bone\n4. Chop it small\n5. Season with pepper and salt, a heaping tablespoonful of salt and a teaspoonful of pepper\n6. If liked, add a tablespoonful of finely chopped sweet herbs\n7. Lay in a cloth in a colander, put the minced meat into it, then fold the cloth closely over it\n8. Lay a plate over, and on it a gentle weight\n9. When cold it may be sliced thin for supper or sandwiches\n10. Spread each slice with made mustard",
+    "originalIngredients": [
+      "A calf's head",
+      "Water to cover",
+      "Pepper and salt",
+      "A heaping tablespoonful of salt",
+      "A teaspoonful of pepper",
+      "A tablespoonful of finely chopped sweet herbs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

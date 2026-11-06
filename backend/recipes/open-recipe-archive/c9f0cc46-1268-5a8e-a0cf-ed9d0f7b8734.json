@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "c9f0cc46-1268-5a8e-a0cf-ed9d0f7b8734",
+  "name": "Jelly Sauce No. 2",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "½ cup currant jelly",
+      "originalText": "½ cup currant jelly",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "2 tablespoonfuls melted butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon—juice and half the grated peel",
+      "originalText": "1 lemon—juice and half the grated peel",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful nutmeg",
+      "originalText": "½ teaspoonful nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glasses wine, and a tablespoonful powdered sugar",
+      "originalText": "2 glasses wine, and a tablespoonful powdered sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the butter a little more than blood-warm; beat the jelly to a smooth batter and add gradually the butter, the lemon, and nutmeg.",
+      "section": null
+    },
+    {
+      "text": "Warm almost to a boil, stirring all the while; beat hard, put in the sugar, lastly the wine.",
+      "section": null
+    },
+    {
+      "text": "Set in a vessel of hot water stirring now and then, until it is wanted.",
+      "section": null
+    },
+    {
+      "text": "Keep it covered to hinder the escape of the wine flavor.",
+      "section": null
+    },
+    {
+      "text": "Stir well before pouring out.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/jelly-sauce-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the butter a little more than blood-warm; beat the jelly to a smooth batter and add gradually the butter, the lemon, and nutmeg.\n2. Warm almost to a boil, stirring all the while; beat hard, put in the sugar, lastly the wine.\n3. Set in a vessel of hot water stirring now and then, until it is wanted.\n4. Keep it covered to hinder the escape of the wine flavor.\n5. Stir well before pouring out.",
+    "originalIngredients": [
+      "½ cup currant jelly",
+      "2 tablespoonfuls melted butter",
+      "1 lemon—juice and half the grated peel",
+      "½ teaspoonful nutmeg",
+      "2 glasses wine, and a tablespoonful powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

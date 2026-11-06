@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "f07ed4f8-554b-59ed-86cd-29442f1353c5",
+  "name": "Election Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "Three cups milk",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "Two cups sugar",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "One cup yeast",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "Two cups sugar",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "Two cups butter",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "Three eggs",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "Half a nutmeg",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "One tablespoonful cinnamon",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "One pound raisins",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "A gill of brandy",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir three cups milk, two cups sugar, and one cup yeast to a batter and let stand over night",
+      "section": null
+    },
+    {
+      "text": "In the morning add two cups sugar, two cups butter, three eggs, half a nutmeg, one tablespoonful cinnamon, one pound raisins, and a gill of brandy",
+      "section": null
+    },
+    {
+      "text": "Dissolve a half-teaspoonful of soda in a tablespoonful of milk in the morning",
+      "section": null
+    },
+    {
+      "text": "Pour into greased pans and let rise until quite light before baking",
+      "section": null
+    },
+    {
+      "text": "Bake until done",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/election-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir three cups milk, two cups sugar, and one cup yeast to a batter and let stand over night\n2. In the morning add two cups sugar, two cups butter, three eggs, half a nutmeg, one tablespoonful cinnamon, one pound raisins, and a gill of brandy\n3. Dissolve a half-teaspoonful of soda in a tablespoonful of milk in the morning\n4. Pour into greased pans and let rise until quite light before baking\n5. Bake until done",
+    "originalIngredients": [
+      "Three cups milk",
+      "Two cups sugar",
+      "One cup yeast",
+      "Two cups sugar",
+      "Two cups butter",
+      "Three eggs",
+      "Half a nutmeg",
+      "One tablespoonful cinnamon",
+      "One pound raisins",
+      "A gill of brandy"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

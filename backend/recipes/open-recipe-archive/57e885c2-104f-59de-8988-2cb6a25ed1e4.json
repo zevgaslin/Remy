@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "57e885c2-104f-59de-8988-2cb6a25ed1e4",
+  "name": "Gingerbread Nuts",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of sifted flour",
+      "originalText": "a pound and a half of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "half a pound of brown sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "three table-spoonfuls of ginger",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cloves",
+      "originalText": "a tea-spoonful of powdered cloves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "a pint of molasses",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the grated peel of a large lemon",
+      "originalText": "the grated peel of a large lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very small tea-spoonful of pearl-ash",
+      "originalText": "a very small tea-spoonful of pearl-ash",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tepid water",
+      "originalText": "tepid water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub half a pound of butter into a pound and a half of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Mix in half a pound of brown sugar, crushed fine with the rolling-pin",
+      "section": null
+    },
+    {
+      "text": "Add three table-spoonfuls of ginger, a tea-spoonful of powdered cloves, and a tea-spoonful of powdered cinnamon",
+      "section": null
+    },
+    {
+      "text": "Stir in a pint of molasses, and the grated peel of a large lemon, but not the juice",
+      "section": null
+    },
+    {
+      "text": "Add at the last a very small tea-spoonful of pearl-ash dissolved in tepid water",
+      "section": null
+    },
+    {
+      "text": "Stir the whole mixture very hard with a spaddle or with a wooden spoon",
+      "section": null
+    },
+    {
+      "text": "Make it into a lump of dough just stiff enough to roll out into a sheet about half an inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut it out into small cakes about the size of a quarter dollar, or make it up with your hands well floured into little round balls, flattening them on the top",
+      "section": null
+    },
+    {
+      "text": "Lay them in buttered pans",
+      "section": null
+    },
+    {
+      "text": "Bake them in a moderate oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/gingerbread-nuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub half a pound of butter into a pound and a half of sifted flour\n2. Mix in half a pound of brown sugar, crushed fine with the rolling-pin\n3. Add three table-spoonfuls of ginger, a tea-spoonful of powdered cloves, and a tea-spoonful of powdered cinnamon\n4. Stir in a pint of molasses, and the grated peel of a large lemon, but not the juice\n5. Add at the last a very small tea-spoonful of pearl-ash dissolved in tepid water\n6. Stir the whole mixture very hard with a spaddle or with a wooden spoon\n7. Make it into a lump of dough just stiff enough to roll out into a sheet about half an inch thick\n8. Cut it out into small cakes about the size of a quarter dollar, or make it up with your hands well floured into little round balls, flattening them on the top\n9. Lay them in buttered pans\n10. Bake them in a moderate oven",
+    "originalIngredients": [
+      "half a pound of butter",
+      "a pound and a half of sifted flour",
+      "half a pound of brown sugar",
+      "three table-spoonfuls of ginger",
+      "a tea-spoonful of powdered cloves",
+      "a tea-spoonful of powdered cinnamon",
+      "a pint of molasses",
+      "the grated peel of a large lemon",
+      "a very small tea-spoonful of pearl-ash",
+      "tepid water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

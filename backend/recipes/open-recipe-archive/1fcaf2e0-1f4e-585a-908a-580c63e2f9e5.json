@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "1fcaf2e0-1f4e-585a-908a-580c63e2f9e5",
+  "name": "Veal Steak",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "veal steak",
+      "originalText": "veal steak",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "four or five young onions",
+      "originalText": "four or five young onions",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a great teaspoonful of tomato catsup or twice the quantity of stewed tomato",
+      "originalText": "a great teaspoonful of tomato catsup or twice the quantity of stewed tomato",
+      "quantity": null,
+      "quantityText": "a great teaspoonful of tomato catsup or twice the quantity of stewed tomato",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lump of butter the size of an egg",
+      "originalText": "a lump of butter the size of an egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a little thyme or parsley",
+      "originalText": "a little thyme or parsley",
+      "quantity": null,
+      "quantityText": "a little thyme or parsley",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small teacupful of hot water",
+      "originalText": "a small teacupful of hot water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "browned flour",
+      "originalText": "browned flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half-glass of wine",
+      "originalText": "a half-glass of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Broil upon a well-greased gridiron over a clear fire",
+      "section": null
+    },
+    {
+      "text": "Turn frequently while the steaks are cooking",
+      "section": null
+    },
+    {
+      "text": "Put into a saucepan four or five young onions minced fine, a great teaspoonful of tomato catsup, or twice the quantity of stewed tomato, a lump of butter the size of an egg, and a little thyme or parsley, with a small teacupful of hot water",
+      "section": null
+    },
+    {
+      "text": "Let them stew together while the steaks are broiling",
+      "section": null
+    },
+    {
+      "text": "Thicken before turning the gravy out with a spoonful of browned flour",
+      "section": null
+    },
+    {
+      "text": "Add a half-glass of wine if you please",
+      "section": null
+    },
+    {
+      "text": "Boil up once hard",
+      "section": null
+    },
+    {
+      "text": "When the steaks are dished with a small bit of butter upon each, pour the mixture over and around them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/veal-steak.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Broil upon a well-greased gridiron over a clear fire\n2. Turn frequently while the steaks are cooking\n3. Put into a saucepan four or five young onions minced fine, a great teaspoonful of tomato catsup, or twice the quantity of stewed tomato, a lump of butter the size of an egg, and a little thyme or parsley, with a small teacupful of hot water\n4. Let them stew together while the steaks are broiling\n5. Thicken before turning the gravy out with a spoonful of browned flour\n6. Add a half-glass of wine if you please\n7. Boil up once hard\n8. When the steaks are dished with a small bit of butter upon each, pour the mixture over and around them",
+    "originalIngredients": [
+      "veal steak",
+      "four or five young onions",
+      "a great teaspoonful of tomato catsup or twice the quantity of stewed tomato",
+      "a lump of butter the size of an egg",
+      "a little thyme or parsley",
+      "a small teacupful of hot water",
+      "browned flour",
+      "a half-glass of wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

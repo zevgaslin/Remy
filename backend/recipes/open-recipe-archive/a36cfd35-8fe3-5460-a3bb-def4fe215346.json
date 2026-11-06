@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "a36cfd35-8fe3-5460-a3bb-def4fe215346",
+  "name": "Simple Recipe for Marmalade",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bitter oranges",
+      "originalText": "12 bitter oranges",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon",
+      "originalText": "1 lemon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "6 qts. water",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "7 or 8 lbs. sugar",
+      "originalText": "7 or 8 lbs. sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut bitter oranges and one lemon very thin, and put into water",
+      "section": null
+    },
+    {
+      "text": "Let stand over night or thirty-six hours",
+      "section": null
+    },
+    {
+      "text": "Boil rather fast two and one-half hours",
+      "section": null
+    },
+    {
+      "text": "Add seven or eight pounds of white sugar and boil one hour longer",
+      "section": null
+    },
+    {
+      "text": "Take out all seeds and hard ends",
+      "section": null
+    },
+    {
+      "text": "If sweet oranges are used put in only the pulp",
+      "section": null
+    },
+    {
+      "text": "The addition of the pulp of two sweet oranges sometimes improves the marmalade",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/simple-recipe-for-marmalade-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut bitter oranges and one lemon very thin, and put into water\n2. Let stand over night or thirty-six hours\n3. Boil rather fast two and one-half hours\n4. Add seven or eight pounds of white sugar and boil one hour longer\n5. Take out all seeds and hard ends\n6. If sweet oranges are used put in only the pulp\n7. The addition of the pulp of two sweet oranges sometimes improves the marmalade",
+    "originalIngredients": [
+      "12 bitter oranges",
+      "1 lemon",
+      "6 qts. water",
+      "7 or 8 lbs. sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

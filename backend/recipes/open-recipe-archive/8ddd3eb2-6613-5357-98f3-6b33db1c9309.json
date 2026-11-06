@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "8ddd3eb2-6613-5357-98f3-6b33db1c9309",
+  "name": "Apple Pot Pie",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "a pound of butter or chopped suet",
+      "originalText": "a pound of butter or chopped suet",
+      "quantity": null,
+      "quantityText": "a pound of butter or chopped suet",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a quarter of flour",
+      "originalText": "two pounds and a quarter of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine juicy acid apples, pared, cored, and sliced",
+      "originalText": "fine juicy acid apples, pared, cored, and sliced",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "brown sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few cloves",
+      "originalText": "a few cloves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "slips of lemon-peel",
+      "originalText": "slips of lemon-peel",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very little water",
+      "originalText": "a very little water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a paste, allowing a pound of butter, or of chopped suet to two pounds and a quarter of flour.",
+      "section": null
+    },
+    {
+      "text": "Have ready a sufficient quantity of fine juicy acid apples, pared, cored, and sliced.",
+      "section": null
+    },
+    {
+      "text": "Mix with them brown sugar enough to sweeten them, a few cloves, and some slips of lemon-peel.",
+      "section": null
+    },
+    {
+      "text": "Butter the sides of an iron pot, and line them with paste.",
+      "section": null
+    },
+    {
+      "text": "Put in the apples, interspersing them with thin squares of paste, and add a very little water.",
+      "section": null
+    },
+    {
+      "text": "Cover the whole with a thick lid of paste, cutting a slit in the centre for the water to bubble up.",
+      "section": null
+    },
+    {
+      "text": "Let it boil two hours.",
+      "section": null
+    },
+    {
+      "text": "When done, serve it up on a large dish, and eat it with butter and sugar.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/apple-pot-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a paste, allowing a pound of butter, or of chopped suet to two pounds and a quarter of flour.\n2. Have ready a sufficient quantity of fine juicy acid apples, pared, cored, and sliced.\n3. Mix with them brown sugar enough to sweeten them, a few cloves, and some slips of lemon-peel.\n4. Butter the sides of an iron pot, and line them with paste.\n5. Put in the apples, interspersing them with thin squares of paste, and add a very little water.\n6. Cover the whole with a thick lid of paste, cutting a slit in the centre for the water to bubble up.\n7. Let it boil two hours.\n8. When done, serve it up on a large dish, and eat it with butter and sugar.",
+    "originalIngredients": [
+      "a pound of butter or chopped suet",
+      "two pounds and a quarter of flour",
+      "fine juicy acid apples, pared, cored, and sliced",
+      "brown sugar",
+      "a few cloves",
+      "slips of lemon-peel",
+      "a very little water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

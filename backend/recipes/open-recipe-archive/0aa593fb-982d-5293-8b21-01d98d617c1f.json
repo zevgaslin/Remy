@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "0aa593fb-982d-5293-8b21-01d98d617c1f",
+  "name": "Calves' Feet Broth",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "calves' feet",
+      "originalText": "2 calves' feet",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "2 quarts cold water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg, beaten up with two tablespoonfuls milk for each cupful of broth",
+      "originalText": "1 egg, beaten up with two tablespoonfuls milk for each cupful of broth",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thin, crisp toast",
+      "originalText": "thin, crisp toast",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon-juice (optional)",
+      "originalText": "lemon-juice (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the feet to shreds",
+      "section": null
+    },
+    {
+      "text": "Strain the liquor through a double muslin bag",
+      "section": null
+    },
+    {
+      "text": "Season to taste",
+      "section": null
+    },
+    {
+      "text": "Set by for use as needed",
+      "section": null
+    },
+    {
+      "text": "Warm by the small quantity, allowing to each cupful a beaten egg and two tablespoonfuls of milk",
+      "section": null
+    },
+    {
+      "text": "Give a good boil up to cook these",
+      "section": null
+    },
+    {
+      "text": "Serve with thin, crisp toast",
+      "section": null
+    },
+    {
+      "text": "If the patient can take it, a dash of lemon-juice improves the broth",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/calves-feet-broth.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the feet to shreds\n2. Strain the liquor through a double muslin bag\n3. Season to taste\n4. Set by for use as needed\n5. Warm by the small quantity, allowing to each cupful a beaten egg and two tablespoonfuls of milk\n6. Give a good boil up to cook these\n7. Serve with thin, crisp toast\n8. If the patient can take it, a dash of lemon-juice improves the broth",
+    "originalIngredients": [
+      "2 calves' feet",
+      "2 quarts cold water",
+      "1 egg, beaten up with two tablespoonfuls milk for each cupful of broth",
+      "Pepper and salt",
+      "thin, crisp toast",
+      "lemon-juice (optional)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

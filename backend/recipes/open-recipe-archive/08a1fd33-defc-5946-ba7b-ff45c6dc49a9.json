@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "08a1fd33-defc-5946-ba7b-ff45c6dc49a9",
+  "name": "Boiled Coffee",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "coffee",
+      "originalText": "1 cup coffee",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 cup cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "6 cups boiling water",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald granite-ware coffee-pot.",
+      "section": null
+    },
+    {
+      "text": "Wash egg, break, and beat slightly.",
+      "section": null
+    },
+    {
+      "text": "Dilute with one-half the cold water, add crushed shell, and mix with coffee.",
+      "section": null
+    },
+    {
+      "text": "Turn into coffee-pot, pour on boiling water, and stir thoroughly.",
+      "section": null
+    },
+    {
+      "text": "Place on front of range, and boil three minutes.",
+      "section": null
+    },
+    {
+      "text": "Cover spout of pot or stuff with soft paper to prevent escape of fragrant aroma.",
+      "section": null
+    },
+    {
+      "text": "Stir and pour some in a cup to be sure that spout is free from grounds.",
+      "section": null
+    },
+    {
+      "text": "Return to coffee-pot and repeat.",
+      "section": null
+    },
+    {
+      "text": "Add remaining cold water, which perfects clearing.",
+      "section": null
+    },
+    {
+      "text": "Place on back of range for ten minutes, where coffee will not boil.",
+      "section": null
+    },
+    {
+      "text": "Serve at once.",
+      "section": null
+    },
+    {
+      "text": "If any is left over, drain from grounds, and reserve for making of jelly or other dessert.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-coffee.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald granite-ware coffee-pot.\n2. Wash egg, break, and beat slightly.\n3. Dilute with one-half the cold water, add crushed shell, and mix with coffee.\n4. Turn into coffee-pot, pour on boiling water, and stir thoroughly.\n5. Place on front of range, and boil three minutes.\n6. Cover spout of pot or stuff with soft paper to prevent escape of fragrant aroma.\n7. Stir and pour some in a cup to be sure that spout is free from grounds.\n8. Return to coffee-pot and repeat.\n9. Add remaining cold water, which perfects clearing.\n10. Place on back of range for ten minutes, where coffee will not boil.\n11. Serve at once.\n12. If any is left over, drain from grounds, and reserve for making of jelly or other dessert.",
+    "originalIngredients": [
+      "1 cup coffee",
+      "1 egg",
+      "1 cup cold water",
+      "6 cups boiling water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

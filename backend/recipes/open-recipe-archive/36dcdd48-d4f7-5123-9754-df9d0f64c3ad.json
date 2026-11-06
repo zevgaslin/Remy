@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "36dcdd48-d4f7-5123-9754-df9d0f64c3ad",
+  "name": "Giblet Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Giblets of four chickens or two turkeys",
+      "originalText": "Giblets of four chickens or two turkeys",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "medium onion",
+      "originalText": "One medium onion",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "One carrot",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnip",
+      "originalText": "Half a turnip",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few sprigs of parsley",
+      "originalText": "A few sprigs of parsley",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter size of an egg",
+      "originalText": "Butter size of an egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "One tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "One tablespoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "One teaspoonful of pepper",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Three quarts of water or stock in part or any chicken bones",
+      "originalText": "Three quarts of water or stock in part or any chicken bones",
+      "quantity": null,
+      "quantityText": "Three quarts of water or stock in part or any chicken bones",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "A tablespoonful of melted butter",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "browned flour",
+      "originalText": "One tablespoonful browned flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of small lemon",
+      "originalText": "Juice of small lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks of three hard-boiled eggs",
+      "originalText": "Yolks of three hard-boiled eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat butter size of an egg in stew-pan, throw in the sliced onion",
+      "section": null
+    },
+    {
+      "text": "Add the minced carrot and turnip; when tender and a light brown, add the giblets, stirring in a tablespoonful of flour",
+      "section": null
+    },
+    {
+      "text": "Be careful to stir often that they do not burn",
+      "section": null
+    },
+    {
+      "text": "Cut up giblets and put with vegetables into soup kettle with tablespoonful of salt, teaspoonful of pepper and three quarts of water, or stock in part, if you have it, or any chicken bones",
+      "section": null
+    },
+    {
+      "text": "Let this simmer slowly for three hours or more; then strain it",
+      "section": null
+    },
+    {
+      "text": "Take all the livers, mash into them a tablespoonful of melted butter, tablespoonful browned flour; squeeze the juice of small lemon into this and add to the soup",
+      "section": null
+    },
+    {
+      "text": "Place in tureen yolks of three hard-boiled eggs cut in half-dozen pieces, pour over the soup; serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/giblet-soup-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat butter size of an egg in stew-pan, throw in the sliced onion\n2. Add the minced carrot and turnip; when tender and a light brown, add the giblets, stirring in a tablespoonful of flour\n3. Be careful to stir often that they do not burn\n4. Cut up giblets and put with vegetables into soup kettle with tablespoonful of salt, teaspoonful of pepper and three quarts of water, or stock in part, if you have it, or any chicken bones\n5. Let this simmer slowly for three hours or more; then strain it\n6. Take all the livers, mash into them a tablespoonful of melted butter, tablespoonful browned flour; squeeze the juice of small lemon into this and add to the soup\n7. Place in tureen yolks of three hard-boiled eggs cut in half-dozen pieces, pour over the soup; serve",
+    "originalIngredients": [
+      "Giblets of four chickens or two turkeys",
+      "One medium onion",
+      "One carrot",
+      "Half a turnip",
+      "A few sprigs of parsley",
+      "Butter size of an egg",
+      "One tablespoonful of flour",
+      "One tablespoonful of salt",
+      "One teaspoonful of pepper",
+      "Three quarts of water or stock in part or any chicken bones",
+      "A tablespoonful of melted butter",
+      "One tablespoonful browned flour",
+      "Juice of small lemon",
+      "Yolks of three hard-boiled eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "78020e34-5b3a-5905-883e-3c5bb33cf5c3",
+  "name": "Fine Puff Paste",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sifted flour",
+      "originalText": "one quart of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "two teaspoonfuls of baking powder",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of butter",
+      "originalText": "one teacupful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of lard, hard and cold",
+      "originalText": "one teacupful of lard, hard and cold",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ice-water, say half a cupful",
+      "originalText": "ice-water, say half a cupful",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten white of egg",
+      "originalText": "a beaten white of egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Into one quart of sifted flour mix two teaspoonfuls of baking powder and a teaspoonful of salt; then sift again.",
+      "section": null
+    },
+    {
+      "text": "Measure out one teacupful of butter and one of lard, hard and cold.",
+      "section": null
+    },
+    {
+      "text": "Take the lard and rub into the flour until a very fine smooth paste.",
+      "section": null
+    },
+    {
+      "text": "Put in just enough ice-water, say half a cupful, containing a beaten white of egg, to mix a very stiff dough.",
+      "section": null
+    },
+    {
+      "text": "Roll it out into a thin sheet, spread with one-fourth of the butter, sprinkle over with a little flour, then roll up closely in a long roll, like a scroll.",
+      "section": null
+    },
+    {
+      "text": "Double the ends towards the centre, flatten and re-roll, then spread again with another quarter of the butter.",
+      "section": null
+    },
+    {
+      "text": "Repeat this operation until the butter is used up.",
+      "section": null
+    },
+    {
+      "text": "Put it on an earthen dish, cover it with a cloth and set it in a cold place, in the ice box in summer.",
+      "section": null
+    },
+    {
+      "text": "Let it remain until cold; an hour or more before making out the crust.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fine-puff-paste-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Into one quart of sifted flour mix two teaspoonfuls of baking powder and a teaspoonful of salt; then sift again.\n2. Measure out one teacupful of butter and one of lard, hard and cold.\n3. Take the lard and rub into the flour until a very fine smooth paste.\n4. Put in just enough ice-water, say half a cupful, containing a beaten white of egg, to mix a very stiff dough.\n5. Roll it out into a thin sheet, spread with one-fourth of the butter, sprinkle over with a little flour, then roll up closely in a long roll, like a scroll.\n6. Double the ends towards the centre, flatten and re-roll, then spread again with another quarter of the butter.\n7. Repeat this operation until the butter is used up.\n8. Put it on an earthen dish, cover it with a cloth and set it in a cold place, in the ice box in summer.\n9. Let it remain until cold; an hour or more before making out the crust.",
+    "originalIngredients": [
+      "one quart of sifted flour",
+      "two teaspoonfuls of baking powder",
+      "a teaspoonful of salt",
+      "one teacupful of butter",
+      "one teacupful of lard, hard and cold",
+      "ice-water, say half a cupful",
+      "a beaten white of egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

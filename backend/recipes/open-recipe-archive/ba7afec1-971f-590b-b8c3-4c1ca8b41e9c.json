@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "ba7afec1-971f-590b-b8c3-4c1ca8b41e9c",
+  "name": "Stewed Hare or Rabbit",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hare",
+      "originalText": "1 hare",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "1 small onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice",
+      "originalText": "3/4 teaspoon allspice",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Skin and draw the hare, retaining only the heart",
+      "section": null
+    },
+    {
+      "text": "Wash in cold water",
+      "section": null
+    },
+    {
+      "text": "Separate the legs from the body, cut the body into sections and put the whole into cold water to cover, over a slow fire",
+      "section": null
+    },
+    {
+      "text": "Bring to a boil, skim off any scum that may gather and let boil slowly for 1 1/2 hours, adding boiling water if necessary from time to time",
+      "section": null
+    },
+    {
+      "text": "Then add 1 small onion, finely minced, and boil 3/4 hour longer",
+      "section": null
+    },
+    {
+      "text": "At the end of the 2 hours, lift the meat on to the platter",
+      "section": null
+    },
+    {
+      "text": "Add boiling water to the liquor to make 1 1/2 pints gravy approximately",
+      "section": null
+    },
+    {
+      "text": "Stir in thickening made with 1 tablespoon flour mixed with cold water to a thin paste",
+      "section": null
+    },
+    {
+      "text": "Add salt and pepper to taste, and 3/4 teaspoon allspice",
+      "section": null
+    },
+    {
+      "text": "Let boil up well, pour over the meat and serve at once",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/stewed-hare-or-rabbit.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Skin and draw the hare, retaining only the heart\n2. Wash in cold water\n3. Separate the legs from the body, cut the body into sections and put the whole into cold water to cover, over a slow fire\n4. Bring to a boil, skim off any scum that may gather and let boil slowly for 1 1/2 hours, adding boiling water if necessary from time to time\n5. Then add 1 small onion, finely minced, and boil 3/4 hour longer\n6. At the end of the 2 hours, lift the meat on to the platter\n7. Add boiling water to the liquor to make 1 1/2 pints gravy approximately\n8. Stir in thickening made with 1 tablespoon flour mixed with cold water to a thin paste\n9. Add salt and pepper to taste, and 3/4 teaspoon allspice\n10. Let boil up well, pour over the meat and serve at once",
+    "originalIngredients": [
+      "1 hare",
+      "cold water",
+      "1 small onion",
+      "boiling water",
+      "1 tablespoon flour",
+      "salt",
+      "pepper",
+      "3/4 teaspoon allspice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

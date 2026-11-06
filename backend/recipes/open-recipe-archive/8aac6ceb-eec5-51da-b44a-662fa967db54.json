@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "8aac6ceb-eec5-51da-b44a-662fa967db54",
+  "name": "Salad Cream Dressing No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh cream",
+      "originalText": "one cup fresh cream",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonful fine flour",
+      "originalText": "one spoonful fine flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the whites of two eggs",
+      "originalText": "the whites of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonfuls of vinegar",
+      "originalText": "three spoonfuls of vinegar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two spoonfuls of salad oil or soft butter",
+      "originalText": "two spoonfuls of salad oil or soft butter",
+      "quantity": null,
+      "quantityText": "two spoonfuls of salad oil or soft butter",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonfuls of powdered sugar",
+      "originalText": "two spoonfuls of powdered sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half teaspoonful pepper",
+      "originalText": "one-half teaspoonful pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "made mustard",
+      "originalText": "one teaspoonful of made mustard",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold milk",
+      "originalText": "cold milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat cream almost to boiling",
+      "section": null
+    },
+    {
+      "text": "Stir in the flour, previously wet with cold milk",
+      "section": null
+    },
+    {
+      "text": "Boil two minutes, stirring all the time",
+      "section": null
+    },
+    {
+      "text": "Add sugar and take from fire",
+      "section": null
+    },
+    {
+      "text": "When half cold, beat in whipped whites of egg",
+      "section": null
+    },
+    {
+      "text": "Set aside to cool",
+      "section": null
+    },
+    {
+      "text": "When quite cold, whip in the oil or butter, pepper, mustard and salt",
+      "section": null
+    },
+    {
+      "text": "If the salad is ready, add vinegar and pour at once over it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/salad-cream-dressing-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat cream almost to boiling\n2. Stir in the flour, previously wet with cold milk\n3. Boil two minutes, stirring all the time\n4. Add sugar and take from fire\n5. When half cold, beat in whipped whites of egg\n6. Set aside to cool\n7. When quite cold, whip in the oil or butter, pepper, mustard and salt\n8. If the salad is ready, add vinegar and pour at once over it",
+    "originalIngredients": [
+      "one cup fresh cream",
+      "one spoonful fine flour",
+      "the whites of two eggs",
+      "three spoonfuls of vinegar",
+      "two spoonfuls of salad oil or soft butter",
+      "two spoonfuls of powdered sugar",
+      "one teaspoonful salt",
+      "one-half teaspoonful pepper",
+      "one teaspoonful of made mustard",
+      "cold milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

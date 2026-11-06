@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "fff58f4a-17ef-5157-88d6-e6c618091038",
+  "name": "Scotch Broth",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the scraggy part of a neck of mutton",
+      "originalText": "Two pounds of the scraggy part of a neck of mutton",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large slice of turnip",
+      "originalText": "One large slice of turnip",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "Two slices of carrot",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "One onion",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalk of celery",
+      "originalText": "One stalk of celery",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "barley",
+      "originalText": "Half a cup of barley",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "Three pints of cold water",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "One pint of water",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "One tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped parsley",
+      "originalText": "One teaspoonful of chopped parsley",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the meat from the bones, and cut off all the fat",
+      "section": null
+    },
+    {
+      "text": "Cut meat into small pieces and put into soup pot with one large slice of turnip, two of carrot, one onion and a stalk of celery, all cut fine",
+      "section": null
+    },
+    {
+      "text": "Add half a cup of barley and three pints of cold water",
+      "section": null
+    },
+    {
+      "text": "Simmer gently two hours",
+      "section": null
+    },
+    {
+      "text": "On to the bones put one pint of water; simmer two hours and strain on the soup",
+      "section": null
+    },
+    {
+      "text": "Cook a tablespoonful of flour and one of butter together until perfectly smooth",
+      "section": null
+    },
+    {
+      "text": "Stir into the soup, and add a teaspoonful of chopped parsley",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scotch-broth-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the meat from the bones, and cut off all the fat\n2. Cut meat into small pieces and put into soup pot with one large slice of turnip, two of carrot, one onion and a stalk of celery, all cut fine\n3. Add half a cup of barley and three pints of cold water\n4. Simmer gently two hours\n5. On to the bones put one pint of water; simmer two hours and strain on the soup\n6. Cook a tablespoonful of flour and one of butter together until perfectly smooth\n7. Stir into the soup, and add a teaspoonful of chopped parsley\n8. Season with salt and pepper",
+    "originalIngredients": [
+      "Two pounds of the scraggy part of a neck of mutton",
+      "One large slice of turnip",
+      "Two slices of carrot",
+      "One onion",
+      "One stalk of celery",
+      "Half a cup of barley",
+      "Three pints of cold water",
+      "One pint of water",
+      "One tablespoonful of flour",
+      "One tablespoonful of butter",
+      "One teaspoonful of chopped parsley",
+      "Salt and pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

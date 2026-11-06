@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "03a9e0d8-7719-5dea-8c5e-dc1ed7252736",
+  "name": "London Hot-Cross Buns",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "three cups of milk",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one cup of yeast, or one cake of compressed yeast dissolved in a cup of tepid water",
+      "originalText": "one cup of yeast, or one cake of compressed yeast dissolved in a cup of tepid water",
+      "quantity": null,
+      "quantityText": "one cup of yeast, or one cake of compressed yeast dissolved in a cup of tepid water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "half a cup of melted butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg grated",
+      "originalText": "half a nutmeg grated",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful of salt",
+      "originalText": "one saltspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "half a teaspoonful of soda",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of egg",
+      "originalText": "white of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Use flour enough to make a thick batter with milk and yeast",
+      "section": null
+    },
+    {
+      "text": "Set this as a sponge over night",
+      "section": null
+    },
+    {
+      "text": "In the morning add half a cup of melted butter, one cup of sugar, half a nutmeg grated, one saltspoonful of salt, and half a teaspoonful of soda",
+      "section": null
+    },
+    {
+      "text": "Add flour enough to roll out like biscuit",
+      "section": null
+    },
+    {
+      "text": "Knead well and set to rise for five hours",
+      "section": null
+    },
+    {
+      "text": "Roll the dough half an inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut in round cakes and lay in rows in a buttered baking-pan",
+      "section": null
+    },
+    {
+      "text": "Let the cakes stand half an hour, or until light",
+      "section": null
+    },
+    {
+      "text": "Put them in the oven, having first made a deep cross on each with a knife",
+      "section": null
+    },
+    {
+      "text": "Bake a light brown and brush over with white of egg beaten stiff with powdered sugar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/london-hot-cross-buns.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Use flour enough to make a thick batter with milk and yeast\n2. Set this as a sponge over night\n3. In the morning add half a cup of melted butter, one cup of sugar, half a nutmeg grated, one saltspoonful of salt, and half a teaspoonful of soda\n4. Add flour enough to roll out like biscuit\n5. Knead well and set to rise for five hours\n6. Roll the dough half an inch thick\n7. Cut in round cakes and lay in rows in a buttered baking-pan\n8. Let the cakes stand half an hour, or until light\n9. Put them in the oven, having first made a deep cross on each with a knife\n10. Bake a light brown and brush over with white of egg beaten stiff with powdered sugar",
+    "originalIngredients": [
+      "three cups of milk",
+      "one cup of yeast, or one cake of compressed yeast dissolved in a cup of tepid water",
+      "flour",
+      "half a cup of melted butter",
+      "one cup of sugar",
+      "half a nutmeg grated",
+      "one saltspoonful of salt",
+      "half a teaspoonful of soda",
+      "white of egg",
+      "powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

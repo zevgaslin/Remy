@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "f3f9304f-0f85-5a78-a1cb-f1917788e613",
+  "name": "Boiled Batter Pudding",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "a pint of flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "a teaspoonful of baking powder",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "a tablespoonful of melted butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fruit",
+      "originalText": "fruit",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift together a pint of flour and a teaspoonful of baking powder into a deep dish",
+      "section": null
+    },
+    {
+      "text": "Sprinkle in a little salt, adding also a tablespoonful of melted butter",
+      "section": null
+    },
+    {
+      "text": "Stir into this gradually a pint of milk; when quite smooth, add four eggs, yolks and whites beaten separately",
+      "section": null
+    },
+    {
+      "text": "Add enough more flour to make a very stiff batter",
+      "section": null
+    },
+    {
+      "text": "If liked, any kind of fruit may be stirred into this; a pint of berries or sliced fruit",
+      "section": null
+    },
+    {
+      "text": "Boil two hours",
+      "section": null
+    },
+    {
+      "text": "Serve with cream and sugar, wine sauce, or any sweet sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-batter-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift together a pint of flour and a teaspoonful of baking powder into a deep dish\n2. Sprinkle in a little salt, adding also a tablespoonful of melted butter\n3. Stir into this gradually a pint of milk; when quite smooth, add four eggs, yolks and whites beaten separately\n4. Add enough more flour to make a very stiff batter\n5. If liked, any kind of fruit may be stirred into this; a pint of berries or sliced fruit\n6. Boil two hours\n7. Serve with cream and sugar, wine sauce, or any sweet sauce",
+    "originalIngredients": [
+      "a pint of flour",
+      "a teaspoonful of baking powder",
+      "salt",
+      "a tablespoonful of melted butter",
+      "a pint of milk",
+      "four eggs",
+      "fruit"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

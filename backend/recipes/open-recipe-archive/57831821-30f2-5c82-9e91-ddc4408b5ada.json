@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "57831821-30f2-5c82-9e91-ddc4408b5ada",
+  "name": "English Fruit Cake",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 lb. butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "light brown sugar",
+      "originalText": "1 lb. light brown sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "9 eggs",
+      "quantity": 9.0,
+      "quantityText": "9",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 lb. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace",
+      "originalText": "2 teaspoons mace",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "2 teaspoons cinnamon",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "2 tablespoons milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "3 lbs. currants",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins, seeded and finely chopped",
+      "originalText": "2 lbs. raisins, seeded and finely chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. almonds, blanched and shredded",
+      "originalText": "½ lb. almonds, blanched and shredded",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron, thinly sliced and cut in strips",
+      "originalText": "1 lb. citron, thinly sliced and cut in strips",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream the butter, add sugar gradually, and beat thoroughly.",
+      "section": null
+    },
+    {
+      "text": "Separate yolks from whites of eggs; beat yolks until thick and lemon-colored, whites until stiff and dry, and add to first mixture.",
+      "section": null
+    },
+    {
+      "text": "Then add milk, fruit, nuts, and flour mixed and sifted with mace, cinnamon, and soda.",
+      "section": null
+    },
+    {
+      "text": "Put in buttered deep pans, cover with buttered paper, steam three hours, and bake one and one half hours in a slow oven, or bake four hours in a very slow oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/english-fruit-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream the butter, add sugar gradually, and beat thoroughly.\n2. Separate yolks from whites of eggs; beat yolks until thick and lemon-colored, whites until stiff and dry, and add to first mixture.\n3. Then add milk, fruit, nuts, and flour mixed and sifted with mace, cinnamon, and soda.\n4. Put in buttered deep pans, cover with buttered paper, steam three hours, and bake one and one half hours in a slow oven, or bake four hours in a very slow oven.",
+    "originalIngredients": [
+      "1 lb. butter",
+      "1 lb. light brown sugar",
+      "9 eggs",
+      "1 lb. flour",
+      "2 teaspoons mace",
+      "2 teaspoons cinnamon",
+      "1 teaspoon soda",
+      "2 tablespoons milk",
+      "3 lbs. currants",
+      "2 lbs. raisins, seeded and finely chopped",
+      "½ lb. almonds, blanched and shredded",
+      "1 lb. citron, thinly sliced and cut in strips"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

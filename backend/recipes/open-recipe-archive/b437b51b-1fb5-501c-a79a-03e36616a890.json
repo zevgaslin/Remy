@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "b437b51b-1fb5-501c-a79a-03e36616a890",
+  "name": "Cocoanut Pie No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "grated cocoanut",
+      "originalText": "one pound of grated cocoanut",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a quart of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted white sugar",
+      "originalText": "four tablespoonfuls of sifted white sugar",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of wine",
+      "originalText": "a glass of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small cracker",
+      "originalText": "a small cracker",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonfuls of melted butter",
+      "originalText": "two spoonfuls of melted butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "half a nutmeg",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff paste",
+      "originalText": "puff paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut off the brown part of the cocoanut, grate the white part",
+      "section": null
+    },
+    {
+      "text": "Mix it with milk and set it on the fire and let it boil slowly eight or ten minutes",
+      "section": null
+    },
+    {
+      "text": "The eggs and sugar should be beaten together to a froth",
+      "section": null
+    },
+    {
+      "text": "Stir in the wine",
+      "section": null
+    },
+    {
+      "text": "Put them into the milk and cocoanut, which should be first allowed to get quite cool",
+      "section": null
+    },
+    {
+      "text": "Add the cracker and nutmeg",
+      "section": null
+    },
+    {
+      "text": "Turn the whole into deep pie plates, with a lining and rim of puff paste",
+      "section": null
+    },
+    {
+      "text": "Bake them as soon as turned into the plates",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cocoanut-pie-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut off the brown part of the cocoanut, grate the white part\n2. Mix it with milk and set it on the fire and let it boil slowly eight or ten minutes\n3. The eggs and sugar should be beaten together to a froth\n4. Stir in the wine\n5. Put them into the milk and cocoanut, which should be first allowed to get quite cool\n6. Add the cracker and nutmeg\n7. Turn the whole into deep pie plates, with a lining and rim of puff paste\n8. Bake them as soon as turned into the plates",
+    "originalIngredients": [
+      "one pound of grated cocoanut",
+      "a quart of milk",
+      "eight eggs",
+      "four tablespoonfuls of sifted white sugar",
+      "a glass of wine",
+      "a small cracker",
+      "two spoonfuls of melted butter",
+      "half a nutmeg",
+      "puff paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "e5b77af1-e60c-5af6-950b-6433d84b91f1",
+  "name": "Yeast (Hop)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "4 large potatoes, or six small",
+      "originalText": "4 large potatoes, or six small",
+      "quantity": null,
+      "quantityText": "4 large potatoes, or six small",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "2 quarts cold water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Double handful hops, tied in a coarse muslin bag",
+      "originalText": "Double handful hops, tied in a coarse muslin bag",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "4 tablespoonfuls flour",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "2 tablespoonfuls white sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lively yeast",
+      "originalText": "4 tablespoonfuls lively yeast",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel the potatoes, and put them with the hop-bag into a saucepan containing two quarts cold water.",
+      "section": null
+    },
+    {
+      "text": "Cover and boil until the potatoes break and fall apart.",
+      "section": null
+    },
+    {
+      "text": "Take these out with a perforated skimmer, leaving the water still boiling, mash them fine with a potato-beetle, and work in the flour and sugar.",
+      "section": null
+    },
+    {
+      "text": "Moisten this gradually with the boiling hop tea, stirring it to a smooth paste.",
+      "section": null
+    },
+    {
+      "text": "When all the tea has been mixed in, set it aside to cool.",
+      "section": null
+    },
+    {
+      "text": "While still slightly warm, add four tablespoonfuls of lively yeast, and turn all into a large open vessel to \"work.\"",
+      "section": null
+    },
+    {
+      "text": "Keep this in a warm place until it ceases to bubble up, or until next day.",
+      "section": null
+    },
+    {
+      "text": "In summer it will work well in a few hours.",
+      "section": null
+    },
+    {
+      "text": "When quite light, put in earthen jars with small mouths, in which fit corks, or bottle it, and remove to ice-house or cellar.",
+      "section": null
+    },
+    {
+      "text": "It will keep good for a fortnight—longer in winter.",
+      "section": null
+    },
+    {
+      "text": "When you wish to use it for baking, send a small vessel to the cellar for the desired quantity, and re-cork at once.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/yeast-hop.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel the potatoes, and put them with the hop-bag into a saucepan containing two quarts cold water.\n2. Cover and boil until the potatoes break and fall apart.\n3. Take these out with a perforated skimmer, leaving the water still boiling, mash them fine with a potato-beetle, and work in the flour and sugar.\n4. Moisten this gradually with the boiling hop tea, stirring it to a smooth paste.\n5. When all the tea has been mixed in, set it aside to cool.\n6. While still slightly warm, add four tablespoonfuls of lively yeast, and turn all into a large open vessel to \"work.\"\n7. Keep this in a warm place until it ceases to bubble up, or until next day.\n8. In summer it will work well in a few hours.\n9. When quite light, put in earthen jars with small mouths, in which fit corks, or bottle it, and remove to ice-house or cellar.\n10. It will keep good for a fortnight—longer in winter.\n11. When you wish to use it for baking, send a small vessel to the cellar for the desired quantity, and re-cork at once.",
+    "originalIngredients": [
+      "4 large potatoes, or six small",
+      "2 quarts cold water",
+      "Double handful hops, tied in a coarse muslin bag",
+      "4 tablespoonfuls flour",
+      "2 tablespoonfuls white sugar",
+      "4 tablespoonfuls lively yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "bc0840bb-5f1d-5b69-a755-f225fd471439",
+  "name": "Bread Panada",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "water",
+      "originalText": "three gills of water",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "gills",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "one tablespoonful of white sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the crumbs of stale white bread",
+      "originalText": "two tablespoonfuls of the crumbs of stale white bread",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of white wine",
+      "originalText": "one glass of white wine",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated lemon",
+      "originalText": "a grated lemon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put three gills of water and one tablespoonful of white sugar on the fire",
+      "section": null
+    },
+    {
+      "text": "Just before it boils add two tablespoonfuls of the crumbs of stale white bread, stir it well, and let it boil three or four minutes",
+      "section": null
+    },
+    {
+      "text": "Add one glass of white wine, a grated lemon and a little nutmeg",
+      "section": null
+    },
+    {
+      "text": "Let it boil up once, then remove it from the fire, and keep it closely covered until it is wanted for use",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bread-panada.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put three gills of water and one tablespoonful of white sugar on the fire\n2. Just before it boils add two tablespoonfuls of the crumbs of stale white bread, stir it well, and let it boil three or four minutes\n3. Add one glass of white wine, a grated lemon and a little nutmeg\n4. Let it boil up once, then remove it from the fire, and keep it closely covered until it is wanted for use",
+    "originalIngredients": [
+      "three gills of water",
+      "one tablespoonful of white sugar",
+      "two tablespoonfuls of the crumbs of stale white bread",
+      "one glass of white wine",
+      "a grated lemon",
+      "nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

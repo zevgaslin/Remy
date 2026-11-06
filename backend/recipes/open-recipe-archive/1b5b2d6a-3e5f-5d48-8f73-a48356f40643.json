@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "1b5b2d6a-3e5f-5d48-8f73-a48356f40643",
+  "name": "Candied Oranges",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oranges",
+      "originalText": "oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "one pint of water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel and quarter the oranges",
+      "section": null
+    },
+    {
+      "text": "Make a syrup in the proportion of one pound of sugar to one pint of water",
+      "section": null
+    },
+    {
+      "text": "Let it boil until it will harden in water",
+      "section": null
+    },
+    {
+      "text": "Take it from the fire and dip the quarters of orange in the syrup",
+      "section": null
+    },
+    {
+      "text": "Let them drain on a fine sieve placed over a platter so that the syrup will not be wasted",
+      "section": null
+    },
+    {
+      "text": "Let them drain thus until cool, when the sugar will crystallize",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/candied-oranges.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel and quarter the oranges\n2. Make a syrup in the proportion of one pound of sugar to one pint of water\n3. Let it boil until it will harden in water\n4. Take it from the fire and dip the quarters of orange in the syrup\n5. Let them drain on a fine sieve placed over a platter so that the syrup will not be wasted\n6. Let them drain thus until cool, when the sugar will crystallize",
+    "originalIngredients": [
+      "oranges",
+      "one pound of sugar",
+      "one pint of water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

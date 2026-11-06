@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "15adb4ae-4969-513b-92d7-739c19a34ca7",
+  "name": "A Crookneck, or Winter Squash Pudding",
+  "description": "Historical recipe from American Cookery (1796). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "good squash",
+      "originalText": "a good squash",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large apples",
+      "originalText": "6 large apples",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar and butter each",
+      "originalText": "2 ounces sugar and butter each",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon and rose water to your taste",
+      "originalText": "cinnamon and rose water to your taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoon flour",
+      "originalText": "one spoon flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg, salt and sugar to your taste",
+      "originalText": "nutmeg, salt and sugar to your taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "core, boil and skin a good squash",
+      "section": null
+    },
+    {
+      "text": "and bruize it well",
+      "section": null
+    },
+    {
+      "text": "take 6 large apples",
+      "section": null
+    },
+    {
+      "text": "pared, cored, and stewed tender",
+      "section": null
+    },
+    {
+      "text": "mix together",
+      "section": null
+    },
+    {
+      "text": "add 6 or 7 spoonsful of dry bread or biscuit",
+      "section": null
+    },
+    {
+      "text": "rendered fine as meal",
+      "section": null
+    },
+    {
+      "text": "half pint milk or cream",
+      "section": null
+    },
+    {
+      "text": "2 spoons of rose-water",
+      "section": null
+    },
+    {
+      "text": "2 do. wine",
+      "section": null
+    },
+    {
+      "text": "5 or 6 eggs beaten and strained",
+      "section": null
+    },
+    {
+      "text": "nutmeg, salt and sugar to your taste",
+      "section": null
+    },
+    {
+      "text": "one spoon flour",
+      "section": null
+    },
+    {
+      "text": "beat all smartly together",
+      "section": null
+    },
+    {
+      "text": "bake",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-crookneck-or-winter-squash-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Amelia Simmons",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. core, boil and skin a good squash\n2. and bruize it well\n3. take 6 large apples\n4. pared, cored, and stewed tender\n5. mix together\n6. add 6 or 7 spoonsful of dry bread or biscuit\n7. rendered fine as meal\n8. half pint milk or cream\n9. 2 spoons of rose-water\n10. 2 do. wine\n11. 5 or 6 eggs beaten and strained\n12. nutmeg, salt and sugar to your taste\n13. one spoon flour\n14. beat all smartly together\n15. bake",
+    "originalIngredients": [
+      "a good squash",
+      "6 large apples",
+      "5 eggs",
+      "2 ounces sugar and butter each",
+      "cinnamon and rose water to your taste",
+      "one spoon flour",
+      "nutmeg, salt and sugar to your taste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: American Cookery (1796), https://www.gutenberg.org/ebooks/12815. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

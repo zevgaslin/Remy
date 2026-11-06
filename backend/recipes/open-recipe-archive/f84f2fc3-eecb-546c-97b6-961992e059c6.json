@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "id": "f84f2fc3-eecb-546c-97b6-961992e059c6",
+  "name": "Mince Pie Meat I",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lean beef",
+      "originalText": "4 lbs. lean beef",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef suet",
+      "originalText": "2 lbs. beef suet",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Baldwin apples",
+      "originalText": "Baldwin apples",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quinces",
+      "originalText": "3 quinces",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 lbs. sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "2 cups molasses",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cider",
+      "originalText": "2 quarts cider",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins, seeded and cut in pieces",
+      "originalText": "4 lbs. raisins, seeded and cut in pieces",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "3 lbs. currants",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. finely cut citron",
+      "originalText": "½ lb. finely cut citron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cooking brandy",
+      "originalText": "1 quart cooking brandy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon and mace",
+      "originalText": "1 tablespoon cinnamon and mace",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered clove",
+      "originalText": "1 tablespoon powdered clove",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmegs",
+      "originalText": "2 grated nutmegs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "1 teaspoon pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt to taste",
+      "originalText": "Salt to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cover meat and suet with boiling water and cook until tender, cool in water in which they are cooked; the suet will rise to top, forming a cake of fat, which may be easily removed.",
+      "section": null
+    },
+    {
+      "text": "Finely chop meat, and add it to twice the amount of finely chopped apples.",
+      "section": null
+    },
+    {
+      "text": "The apples should be quartered, cored, and pared, previous to chopping, or skins may be left on, which is not an objection if apples are finely chopped.",
+      "section": null
+    },
+    {
+      "text": "Add quinces finely chopped, sugar, molasses, cider, raisins, currants, and citron; also suet, and stock in which meat and suet were cooked, reduced to one and one-half cups.",
+      "section": null
+    },
+    {
+      "text": "Heat gradually, stir occasionally, and cook slowly two hours; then add brandy and spices.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mince-pie-meat-i.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cover meat and suet with boiling water and cook until tender, cool in water in which they are cooked; the suet will rise to top, forming a cake of fat, which may be easily removed.\n2. Finely chop meat, and add it to twice the amount of finely chopped apples.\n3. The apples should be quartered, cored, and pared, previous to chopping, or skins may be left on, which is not an objection if apples are finely chopped.\n4. Add quinces finely chopped, sugar, molasses, cider, raisins, currants, and citron; also suet, and stock in which meat and suet were cooked, reduced to one and one-half cups.\n5. Heat gradually, stir occasionally, and cook slowly two hours; then add brandy and spices.",
+    "originalIngredients": [
+      "4 lbs. lean beef",
+      "2 lbs. beef suet",
+      "Baldwin apples",
+      "3 quinces",
+      "3 lbs. sugar",
+      "2 cups molasses",
+      "2 quarts cider",
+      "4 lbs. raisins, seeded and cut in pieces",
+      "3 lbs. currants",
+      "½ lb. finely cut citron",
+      "1 quart cooking brandy",
+      "1 tablespoon cinnamon and mace",
+      "1 tablespoon powdered clove",
+      "2 grated nutmegs",
+      "1 teaspoon pepper",
+      "Salt to taste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

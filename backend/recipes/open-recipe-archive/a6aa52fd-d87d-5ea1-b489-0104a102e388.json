@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "a6aa52fd-d87d-5ea1-b489-0104a102e388",
+  "name": "Salmon in a Mould",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "salmon",
+      "originalText": "One can of salmon",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "Four tablespoonfuls of melted butter",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt, pepper and minced parsley",
+      "originalText": "Salt, pepper and minced parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little celery, if liked",
+      "originalText": "A little celery, if liked",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "Four eggs",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cracker-crumbs",
+      "originalText": "Half a cupful of cracker-crumbs",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "One cupful of milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "One tablespoonful of cornstarch",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "One egg",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "catsup",
+      "originalText": "One teaspoonful of catsup",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Drain the liquor from one can of salmon, and remove the bones and skin",
+      "section": null
+    },
+    {
+      "text": "Chop fine and rub into it until smooth, four tablespoonfuls of melted butter, season with salt, pepper and minced parsley, also a little celery, if liked",
+      "section": null
+    },
+    {
+      "text": "Beat four eggs well, add half a cupful of cracker-crumbs, mix all well and thoroughly",
+      "section": null
+    },
+    {
+      "text": "Put into a buttered mould and steam one hour",
+      "section": null
+    },
+    {
+      "text": "For the sauce: Boil one cupful of milk and thicken with one tablespoonful of cornstarch",
+      "section": null
+    },
+    {
+      "text": "Add to the liquor from the salmon, one tablespoonful of butter, one egg, and one teaspoonful of catsup",
+      "section": null
+    },
+    {
+      "text": "Put the egg in last and very carefully",
+      "section": null
+    },
+    {
+      "text": "Boil one minute",
+      "section": null
+    },
+    {
+      "text": "Turn the salmon out of the mould and pour the sauce around",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salmon-in-a-mould.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Drain the liquor from one can of salmon, and remove the bones and skin\n2. Chop fine and rub into it until smooth, four tablespoonfuls of melted butter, season with salt, pepper and minced parsley, also a little celery, if liked\n3. Beat four eggs well, add half a cupful of cracker-crumbs, mix all well and thoroughly\n4. Put into a buttered mould and steam one hour\n5. For the sauce: Boil one cupful of milk and thicken with one tablespoonful of cornstarch\n6. Add to the liquor from the salmon, one tablespoonful of butter, one egg, and one teaspoonful of catsup\n7. Put the egg in last and very carefully\n8. Boil one minute\n9. Turn the salmon out of the mould and pour the sauce around",
+    "originalIngredients": [
+      "One can of salmon",
+      "Four tablespoonfuls of melted butter",
+      "Salt, pepper and minced parsley",
+      "A little celery, if liked",
+      "Four eggs",
+      "Half a cupful of cracker-crumbs",
+      "One cupful of milk",
+      "One tablespoonful of cornstarch",
+      "One tablespoonful of butter",
+      "One egg",
+      "One teaspoonful of catsup"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

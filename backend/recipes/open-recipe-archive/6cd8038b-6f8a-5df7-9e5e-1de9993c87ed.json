@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "6cd8038b-6f8a-5df7-9e5e-1de9993c87ed",
+  "name": "Rose Cordial",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh rose leaves",
+      "originalText": "a pound of fresh rose leaves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lukewarm water",
+      "originalText": "a quart of lukewarm water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar",
+      "originalText": "half a pound of loaf-sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white brandy",
+      "originalText": "half a pint of white brandy",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "broken cinnamon",
+      "originalText": "an ounce of broken cinnamon",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coriander seeds",
+      "originalText": "an ounce of coriander seeds",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a pound of fresh rose leaves into a tureen, with a quart of lukewarm water.",
+      "section": null
+    },
+    {
+      "text": "Cover the vessel, and let them infuse for twenty-four hours.",
+      "section": null
+    },
+    {
+      "text": "Then squeeze them through a linen bag till all the liquid is pressed out.",
+      "section": null
+    },
+    {
+      "text": "Put a fresh pound of rose leaves into the tureen, pour the liquid back into it, and let it infuse again for two days.",
+      "section": null
+    },
+    {
+      "text": "You may repeat this till you obtain a very strong infusion.",
+      "section": null
+    },
+    {
+      "text": "Then to a pint of the infusion add half a pound of loaf-sugar, half a pint of white brandy, an ounce of broken cinnamon, and an ounce of coriander seeds.",
+      "section": null
+    },
+    {
+      "text": "Put it into a glass jar, cover it well, and let it stand for two weeks.",
+      "section": null
+    },
+    {
+      "text": "Then filter it through a fine muslin or a blotting paper (which must be white) pinned on the bottom of a sieve; and bottle it for use.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rose-cordial.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a pound of fresh rose leaves into a tureen, with a quart of lukewarm water.\n2. Cover the vessel, and let them infuse for twenty-four hours.\n3. Then squeeze them through a linen bag till all the liquid is pressed out.\n4. Put a fresh pound of rose leaves into the tureen, pour the liquid back into it, and let it infuse again for two days.\n5. You may repeat this till you obtain a very strong infusion.\n6. Then to a pint of the infusion add half a pound of loaf-sugar, half a pint of white brandy, an ounce of broken cinnamon, and an ounce of coriander seeds.\n7. Put it into a glass jar, cover it well, and let it stand for two weeks.\n8. Then filter it through a fine muslin or a blotting paper (which must be white) pinned on the bottom of a sieve; and bottle it for use.",
+    "originalIngredients": [
+      "a pound of fresh rose leaves",
+      "a quart of lukewarm water",
+      "half a pound of loaf-sugar",
+      "half a pint of white brandy",
+      "an ounce of broken cinnamon",
+      "an ounce of coriander seeds"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

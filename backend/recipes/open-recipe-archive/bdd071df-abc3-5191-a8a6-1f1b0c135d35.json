@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "bdd071df-abc3-5191-a8a6-1f1b0c135d35",
+  "name": "Cream of Lettuce Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "heads of lettuce",
+      "originalText": "2 heads of lettuce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good stock",
+      "originalText": "1 quart of good stock",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white roux",
+      "originalText": "2 tablespoonfuls of white roux",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold boiled onion, minced fine",
+      "originalText": "1 tablespoonful of cold boiled onion, minced fine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "minced parsley",
+      "originalText": "1 tablespoonful of minced parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Shred finely two heads of lettuce — the greener the better.",
+      "section": null
+    },
+    {
+      "text": "Cook for half an hour in a quart of good stock, rub through a colander.",
+      "section": null
+    },
+    {
+      "text": "Return to the fire; stir into a cup of this two tablespoonfuls of white roux and a tablespoonful of cold boiled onion, minced fine, and one of minced parsley.",
+      "section": null
+    },
+    {
+      "text": "Heat a cup of milk in another vessel, season with pepper and salt, stir in a well-whipped egg, and pour this mixture into the tureen, adding finally the lettuce soup.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cream-of-lettuce-soup-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Shred finely two heads of lettuce — the greener the better.\n2. Cook for half an hour in a quart of good stock, rub through a colander.\n3. Return to the fire; stir into a cup of this two tablespoonfuls of white roux and a tablespoonful of cold boiled onion, minced fine, and one of minced parsley.\n4. Heat a cup of milk in another vessel, season with pepper and salt, stir in a well-whipped egg, and pour this mixture into the tureen, adding finally the lettuce soup.",
+    "originalIngredients": [
+      "2 heads of lettuce",
+      "1 quart of good stock",
+      "2 tablespoonfuls of white roux",
+      "1 tablespoonful of cold boiled onion, minced fine",
+      "1 tablespoonful of minced parsley",
+      "1 cup of milk",
+      "Pepper and salt",
+      "1 egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "e2f5e8a6-ded1-54b1-b534-bc173010f247",
+  "name": "Milk Punch",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oranges",
+      "originalText": "6 oranges",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemons",
+      "originalText": "6 lemons",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "4 qts. water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rum",
+      "originalText": "1 qt. rum",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "1 pt. brandy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 lbs. sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "new milk",
+      "originalText": "1 qt. new milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare oranges and lemons as thin as possible.",
+      "section": null
+    },
+    {
+      "text": "Steep the peels in rum and brandy in a close crock for twenty-four hours.",
+      "section": null
+    },
+    {
+      "text": "Squeeze the fruit on sugar; add water and boiling hot new milk; then stir the rum and brandy into the above and run it through a jelly bag until perfectly clear.",
+      "section": null
+    },
+    {
+      "text": "Bottle and cork at once. It will keep good for some weeks.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/milk-punch-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare oranges and lemons as thin as possible.\n2. Steep the peels in rum and brandy in a close crock for twenty-four hours.\n3. Squeeze the fruit on sugar; add water and boiling hot new milk; then stir the rum and brandy into the above and run it through a jelly bag until perfectly clear.\n4. Bottle and cork at once. It will keep good for some weeks.",
+    "originalIngredients": [
+      "6 oranges",
+      "6 lemons",
+      "4 qts. water",
+      "1 qt. rum",
+      "1 pt. brandy",
+      "2 lbs. sugar",
+      "1 qt. new milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "d9bd5f46-8511-5459-9ebd-548d42b49485",
+  "name": "Blanc Mange. No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "patent gelatine",
+      "originalText": "Two ounces of patent gelatine",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cold water",
+      "originalText": "Cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "Two quarts of rich milk",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of fine white sugar",
+      "originalText": "One teacupful of fine white sugar",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon, vanilla, or peach water for seasoning",
+      "originalText": "Lemon, vanilla, or peach water for seasoning",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Optional: cherries, peaches in halves, strawberries or sliced bananas",
+      "originalText": "Optional: cherries, peaches in halves, strawberries or sliced bananas",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dissolve two ounces of patent gelatine in cold water",
+      "section": null
+    },
+    {
+      "text": "When dissolved stir it into two quarts of rich milk with a teacupful of fine white sugar",
+      "section": null
+    },
+    {
+      "text": "Season to taste with lemon, vanilla, or peach water",
+      "section": null
+    },
+    {
+      "text": "Place over the fire and boil, stirring continually",
+      "section": null
+    },
+    {
+      "text": "Let it boil five minutes",
+      "section": null
+    },
+    {
+      "text": "Strain it through a cloth",
+      "section": null
+    },
+    {
+      "text": "Pour it into molds previously wet with cold water and salt",
+      "section": null
+    },
+    {
+      "text": "Let it stand on ice or in any cool place until it becomes hard and cold",
+      "section": null
+    },
+    {
+      "text": "Turn it out carefully upon dishes and serve, or half fill mold, and when set cover with cherries, peaches in halves, strawberries or sliced bananas, and add the remainder",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/blanc-mange-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dissolve two ounces of patent gelatine in cold water\n2. When dissolved stir it into two quarts of rich milk with a teacupful of fine white sugar\n3. Season to taste with lemon, vanilla, or peach water\n4. Place over the fire and boil, stirring continually\n5. Let it boil five minutes\n6. Strain it through a cloth\n7. Pour it into molds previously wet with cold water and salt\n8. Let it stand on ice or in any cool place until it becomes hard and cold\n9. Turn it out carefully upon dishes and serve, or half fill mold, and when set cover with cherries, peaches in halves, strawberries or sliced bananas, and add the remainder",
+    "originalIngredients": [
+      "Two ounces of patent gelatine",
+      "Cold water",
+      "Two quarts of rich milk",
+      "One teacupful of fine white sugar",
+      "Lemon, vanilla, or peach water for seasoning",
+      "Optional: cherries, peaches in halves, strawberries or sliced bananas"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

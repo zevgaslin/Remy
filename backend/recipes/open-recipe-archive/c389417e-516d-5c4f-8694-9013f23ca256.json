@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "c389417e-516d-5c4f-8694-9013f23ca256",
+  "name": "A Squash Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "yellow winter squash",
+      "originalText": "a yellow winter squash",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two pounded crackers, or an equal quantity of grated stale bread",
+      "originalText": "two pounded crackers, or an equal quantity of grated stale bread",
+      "quantity": null,
+      "quantityText": "two pounded crackers, or an equal quantity of grated stale bread",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of powdered sugar",
+      "originalText": "a quarter of a pound of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "a quart of rich milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "nine eggs",
+      "quantity": 9.0,
+      "quantityText": "nine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of white wine",
+      "originalText": "a glass of white wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of brandy",
+      "originalText": "a glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of rose water",
+      "originalText": "a glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed spice, nutmeg, mace, and cinnamon powdered",
+      "originalText": "a table-spoonful of mixed spice, nutmeg, mace, and cinnamon powdered",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare, cut in pieces, and stew in a very little water, a yellow winter squash",
+      "section": null
+    },
+    {
+      "text": "When it is quite soft, drain it dry, and mash it in a cullender",
+      "section": null
+    },
+    {
+      "text": "Put it into a pan, and mix with it a quarter of a pound of butter",
+      "section": null
+    },
+    {
+      "text": "Prepare two pounded crackers, or an equal quantity of grated stale bread",
+      "section": null
+    },
+    {
+      "text": "Stir gradually a quarter of a pound of powdered sugar into a quart of rich milk, and add by degrees, the squash, and the powdered biscuit",
+      "section": null
+    },
+    {
+      "text": "Beat nine eggs very light, and stir them gradually into the mixture",
+      "section": null
+    },
+    {
+      "text": "Add a glass of white wine, a glass of brandy, a glass of rose water, and a table-spoonful of mixed spice, nutmeg, mace, and cinnamon powdered",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard, till all the ingredients are thoroughly mixed",
+      "section": null
+    },
+    {
+      "text": "Bake it three quarters of an hour in a buttered dish",
+      "section": null
+    },
+    {
+      "text": "When cold, grate white sugar over it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-squash-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare, cut in pieces, and stew in a very little water, a yellow winter squash\n2. When it is quite soft, drain it dry, and mash it in a cullender\n3. Put it into a pan, and mix with it a quarter of a pound of butter\n4. Prepare two pounded crackers, or an equal quantity of grated stale bread\n5. Stir gradually a quarter of a pound of powdered sugar into a quart of rich milk, and add by degrees, the squash, and the powdered biscuit\n6. Beat nine eggs very light, and stir them gradually into the mixture\n7. Add a glass of white wine, a glass of brandy, a glass of rose water, and a table-spoonful of mixed spice, nutmeg, mace, and cinnamon powdered\n8. Stir the whole very hard, till all the ingredients are thoroughly mixed\n9. Bake it three quarters of an hour in a buttered dish\n10. When cold, grate white sugar over it",
+    "originalIngredients": [
+      "a yellow winter squash",
+      "a quarter of a pound of butter",
+      "two pounded crackers, or an equal quantity of grated stale bread",
+      "a quarter of a pound of powdered sugar",
+      "a quart of rich milk",
+      "nine eggs",
+      "a glass of white wine",
+      "a glass of brandy",
+      "a glass of rose water",
+      "a table-spoonful of mixed spice, nutmeg, mace, and cinnamon powdered"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

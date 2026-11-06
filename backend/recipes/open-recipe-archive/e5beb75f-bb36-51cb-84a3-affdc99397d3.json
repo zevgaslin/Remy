@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "e5beb75f-bb36-51cb-84a3-affdc99397d3",
+  "name": "Suet Dumplings for Soup",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sifted flour",
+      "originalText": "Three cups of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "Three teaspoonfuls of baking powder",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped suet",
+      "originalText": "One cup of finely chopped suet",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "One teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet milk",
+      "originalText": "Sweet milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift baking powder into the flour",
+      "section": null
+    },
+    {
+      "text": "Rub the finely chopped suet well into the flour with the salt",
+      "section": null
+    },
+    {
+      "text": "Wet all with sweet milk to make a dough as stiff as biscuit",
+      "section": null
+    },
+    {
+      "text": "Make into small balls as large as peaches, well floured",
+      "section": null
+    },
+    {
+      "text": "Drop into the soup three-quarters of an hour before being served",
+      "section": null
+    },
+    {
+      "text": "Require steady boiling, being closely covered, and the cover not to be removed until taken up to serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/suet-dumplings-for-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift baking powder into the flour\n2. Rub the finely chopped suet well into the flour with the salt\n3. Wet all with sweet milk to make a dough as stiff as biscuit\n4. Make into small balls as large as peaches, well floured\n5. Drop into the soup three-quarters of an hour before being served\n6. Require steady boiling, being closely covered, and the cover not to be removed until taken up to serve",
+    "originalIngredients": [
+      "Three cups of sifted flour",
+      "Three teaspoonfuls of baking powder",
+      "One cup of finely chopped suet",
+      "One teaspoonful of salt",
+      "Sweet milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

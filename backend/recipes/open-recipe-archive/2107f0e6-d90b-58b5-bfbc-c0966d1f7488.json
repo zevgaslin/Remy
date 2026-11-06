@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "2107f0e6-d90b-58b5-bfbc-c0966d1f7488",
+  "name": "Cream Cheese",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "small tub of fresh morning's milk",
+      "originalText": "a small tub of fresh morning's milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream skimmed from an equal quantity of last evening's milk",
+      "originalText": "cream skimmed from an equal quantity of last evening's milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of rennet",
+      "originalText": "a piece of rennet",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Add the cream skimmed from an equal quantity of last evening's milk to a small tub of fresh morning's milk",
+      "section": null
+    },
+    {
+      "text": "Mix the cream and the new milk together, and warm them to about blood-heat or 100 degrees of the thermometer",
+      "section": null
+    },
+    {
+      "text": "Have ready a cup of water in which has been soaking, since last night, a piece of rennet (the salt wiped off), about the length and breadth of two fingers",
+      "section": null
+    },
+    {
+      "text": "Stir the rennet-water into the vessel of mixed milk and cream, and set it in a warm place till the curd has completely formed",
+      "section": null
+    },
+    {
+      "text": "With a knife, cut the curd into squares",
+      "section": null
+    },
+    {
+      "text": "Take a large, thin, straining-cloth, and press it down on the curd so as to make the whey rise up through it",
+      "section": null
+    },
+    {
+      "text": "As the whey rises, dip it off with a saucer or skimming dish",
+      "section": null
+    },
+    {
+      "text": "When the whey is nearly all out, put the curd into the cloth, and squeeze and press it with your hands till it becomes dry",
+      "section": null
+    },
+    {
+      "text": "Crumble the curd very fine with your hands, and then salt it to your taste",
+      "section": null
+    },
+    {
+      "text": "Wash the straining-cloth clean, and lay it in the cheese-hoop",
+      "section": null
+    },
+    {
+      "text": "Put the crumbled curd into the cloth, and then fold the rest of the cloth closely over it",
+      "section": null
+    },
+    {
+      "text": "Set the cheese-hoop on a clean wooden bench or table",
+      "section": null
+    },
+    {
+      "text": "Place on it its round wooden cover so as to fit exactly, and lay on the top two bricks or a heavy stone",
+      "section": null
+    },
+    {
+      "text": "After it has stood six hours in the hoop or mould, turn it, and let it stand six hours longer",
+      "section": null
+    },
+    {
+      "text": "When you take out the cheese, rub it all over with a little fresh butter",
+      "section": null
+    },
+    {
+      "text": "Set it in a dark, dry place, turning it every day",
+      "section": null
+    },
+    {
+      "text": "In four or five days it will be fit for use",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cream-cheese-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Add the cream skimmed from an equal quantity of last evening's milk to a small tub of fresh morning's milk\n2. Mix the cream and the new milk together, and warm them to about blood-heat or 100 degrees of the thermometer\n3. Have ready a cup of water in which has been soaking, since last night, a piece of rennet (the salt wiped off), about the length and breadth of two fingers\n4. Stir the rennet-water into the vessel of mixed milk and cream, and set it in a warm place till the curd has completely formed\n5. With a knife, cut the curd into squares\n6. Take a large, thin, straining-cloth, and press it down on the curd so as to make the whey rise up through it\n7. As the whey rises, dip it off with a saucer or skimming dish\n8. When the whey is nearly all out, put the curd into the cloth, and squeeze and press it with your hands till it becomes dry\n9. Crumble the curd very fine with your hands, and then salt it to your taste\n10. Wash the straining-cloth clean, and lay it in the cheese-hoop\n11. Put the crumbled curd into the cloth, and then fold the rest of the cloth closely over it\n12. Set the cheese-hoop on a clean wooden bench or table\n13. Place on it its round wooden cover so as to fit exactly, and lay on the top two bricks or a heavy stone\n14. After it has stood six hours in the hoop or mould, turn it, and let it stand six hours longer\n15. When you take out the cheese, rub it all over with a little fresh butter\n16. Set it in a dark, dry place, turning it every day\n17. In four or five days it will be fit for use",
+    "originalIngredients": [
+      "a small tub of fresh morning's milk",
+      "cream skimmed from an equal quantity of last evening's milk",
+      "a piece of rennet",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

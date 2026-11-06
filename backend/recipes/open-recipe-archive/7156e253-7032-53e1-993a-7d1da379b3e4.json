@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "7156e253-7032-53e1-993a-7d1da379b3e4",
+  "name": "Sponge Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "half a pound of flour",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best loaf-sugar",
+      "originalText": "a pound of the best loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemons",
+      "originalText": "three lemons",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "twelve eggs",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar",
+      "originalText": "loaf-sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift half a pound of flour, and powder a pound of the best loaf-sugar",
+      "section": null
+    },
+    {
+      "text": "Grate the yellow rind and squeeze into a saucer the juice of three lemons",
+      "section": null
+    },
+    {
+      "text": "Beat twelve eggs; and when they are as light as possible, beat into them gradually and very hard the sugar, adding the lemon, and beating the whole for a long time",
+      "section": null
+    },
+    {
+      "text": "By degrees, stir in the flour slowly and lightly; for if the flour is stirred hard and fast into sponge cake, it will make it porous and tough",
+      "section": null
+    },
+    {
+      "text": "Have ready buttered, a sufficient number of little square tins, (the thinner they are the better,) half fill them with the mixture",
+      "section": null
+    },
+    {
+      "text": "Grate loaf-sugar over the top of each; put them immediately into a quick oven, and bake them about ten minutes; taking out one to try when you think they are done",
+      "section": null
+    },
+    {
+      "text": "Spread them on an inverted sieve to cool",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sponge-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift half a pound of flour, and powder a pound of the best loaf-sugar\n2. Grate the yellow rind and squeeze into a saucer the juice of three lemons\n3. Beat twelve eggs; and when they are as light as possible, beat into them gradually and very hard the sugar, adding the lemon, and beating the whole for a long time\n4. By degrees, stir in the flour slowly and lightly; for if the flour is stirred hard and fast into sponge cake, it will make it porous and tough\n5. Have ready buttered, a sufficient number of little square tins, (the thinner they are the better,) half fill them with the mixture\n6. Grate loaf-sugar over the top of each; put them immediately into a quick oven, and bake them about ten minutes; taking out one to try when you think they are done\n7. Spread them on an inverted sieve to cool",
+    "originalIngredients": [
+      "half a pound of flour",
+      "a pound of the best loaf-sugar",
+      "three lemons",
+      "twelve eggs",
+      "loaf-sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

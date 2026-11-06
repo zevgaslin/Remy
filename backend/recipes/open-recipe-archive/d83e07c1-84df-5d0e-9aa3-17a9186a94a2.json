@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "d83e07c1-84df-5d0e-9aa3-17a9186a94a2",
+  "name": "Cheese Souffle",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 oz. butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 oz. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan cheese",
+      "originalText": "3 oz. Parmesan cheese",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch cayenne",
+      "originalText": "a pinch cayenne",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch salt",
+      "originalText": "a pinch salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt butter in a saucepan; mix smoothly with it flour, salt and cayenne and milk; simmer the mixture gently over the fire, stirring it all the time, till it is as thick as melted butter.",
+      "section": null
+    },
+    {
+      "text": "Stir into it finely-grated cheese.",
+      "section": null
+    },
+    {
+      "text": "Turn it into a basin, and mix with it the yolks of two well-beaten eggs.",
+      "section": null
+    },
+    {
+      "text": "Whisk three whites to a solid froth, and just before the souffle is baked put them into it, and pour the mixture into a small round tin.",
+      "section": null
+    },
+    {
+      "text": "It should be only half filled, as the fondu will rise very high.",
+      "section": null
+    },
+    {
+      "text": "Pin a napkin around the dish in which it is baked, and serve the moment it is baked.",
+      "section": null
+    },
+    {
+      "text": "Have a metal cover strongly heated.",
+      "section": null
+    },
+    {
+      "text": "Bake twenty minutes. Sufficient for six persons.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cheese-souffle-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt butter in a saucepan; mix smoothly with it flour, salt and cayenne and milk; simmer the mixture gently over the fire, stirring it all the time, till it is as thick as melted butter.\n2. Stir into it finely-grated cheese.\n3. Turn it into a basin, and mix with it the yolks of two well-beaten eggs.\n4. Whisk three whites to a solid froth, and just before the souffle is baked put them into it, and pour the mixture into a small round tin.\n5. It should be only half filled, as the fondu will rise very high.\n6. Pin a napkin around the dish in which it is baked, and serve the moment it is baked.\n7. Have a metal cover strongly heated.\n8. Bake twenty minutes. Sufficient for six persons.",
+    "originalIngredients": [
+      "1 oz. butter",
+      "1 pt. milk",
+      "1 oz. flour",
+      "3 oz. Parmesan cheese",
+      "a pinch cayenne",
+      "a pinch salt",
+      "3 eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

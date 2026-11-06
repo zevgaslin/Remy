@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "6844d642-6662-5314-a2ad-4ce1a8c736a6",
+  "name": "Chicken Cheese",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "a plump chicken weighing about 4 or 5 pounds when dressed",
+      "originalText": "a plump chicken weighing about 4 or 5 pounds when dressed",
+      "quantity": null,
+      "quantityText": "a plump chicken weighing about 4 or 5 pounds when dressed",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small loaf of baker's bread",
+      "originalText": "1 small loaf of baker's bread",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lump of butter, cut fine, size of an egg",
+      "originalText": "a lump of butter, cut fine, size of an egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little sage",
+      "originalText": "a little sage",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten eggs",
+      "originalText": "2 beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put chicken on and boil till tender and well done",
+      "section": null
+    },
+    {
+      "text": "Remove all the bones and grisly parts and chop fine, with a little salt and pepper",
+      "section": null
+    },
+    {
+      "text": "Boil down the water it was cooked in to a pint, and it jellies, and stir it in with the chicken",
+      "section": null
+    },
+    {
+      "text": "Put bread through the meat grinder with a lump of butter, cut fine, size of an egg, a little sage, salt and pepper",
+      "section": null
+    },
+    {
+      "text": "Stir in 2 beaten eggs to hold it together",
+      "section": null
+    },
+    {
+      "text": "Put half of the chicken chopped in a deep earthen or granite dish, spread level",
+      "section": null
+    },
+    {
+      "text": "Put on the dressing, spread level, then the rest of the minced chicken",
+      "section": null
+    },
+    {
+      "text": "Set in the oven till hot, then set in a cool place over night",
+      "section": null
+    },
+    {
+      "text": "When cold slice and serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chicken-cheese.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put chicken on and boil till tender and well done\n2. Remove all the bones and grisly parts and chop fine, with a little salt and pepper\n3. Boil down the water it was cooked in to a pint, and it jellies, and stir it in with the chicken\n4. Put bread through the meat grinder with a lump of butter, cut fine, size of an egg, a little sage, salt and pepper\n5. Stir in 2 beaten eggs to hold it together\n6. Put half of the chicken chopped in a deep earthen or granite dish, spread level\n7. Put on the dressing, spread level, then the rest of the minced chicken\n8. Set in the oven till hot, then set in a cool place over night\n9. When cold slice and serve",
+    "originalIngredients": [
+      "a plump chicken weighing about 4 or 5 pounds when dressed",
+      "salt and pepper",
+      "1 small loaf of baker's bread",
+      "a lump of butter, cut fine, size of an egg",
+      "a little sage",
+      "2 beaten eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "37ba23c0-2820-5247-a777-3764fd81f5f8",
+  "name": "Floating Island",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "One quart of milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "Five eggs",
+      "quantity": 5.0,
+      "quantityText": "Five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "Five tablespoonfuls of sugar",
+      "quantity": 5.0,
+      "quantityText": "Five",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald the milk",
+      "section": null
+    },
+    {
+      "text": "Add the beaten yolks and one of the whites together with the sugar",
+      "section": null
+    },
+    {
+      "text": "Stir into them a little of the scalded milk to prevent curdling",
+      "section": null
+    },
+    {
+      "text": "Add all of the milk",
+      "section": null
+    },
+    {
+      "text": "Cook it the proper thickness",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire and when cool, flavor",
+      "section": null
+    },
+    {
+      "text": "Pour it into a glass dish and let it become very cold",
+      "section": null
+    },
+    {
+      "text": "Beat up the remaining four whites of the eggs to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "Beat into them three tablespoonfuls of sugar and two tablespoonfuls of currant jelly",
+      "section": null
+    },
+    {
+      "text": "Dip this over the top of the custard",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/floating-island-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald the milk\n2. Add the beaten yolks and one of the whites together with the sugar\n3. Stir into them a little of the scalded milk to prevent curdling\n4. Add all of the milk\n5. Cook it the proper thickness\n6. Remove from the fire and when cool, flavor\n7. Pour it into a glass dish and let it become very cold\n8. Beat up the remaining four whites of the eggs to a stiff froth\n9. Beat into them three tablespoonfuls of sugar and two tablespoonfuls of currant jelly\n10. Dip this over the top of the custard",
+    "originalIngredients": [
+      "One quart of milk",
+      "Five eggs",
+      "Five tablespoonfuls of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

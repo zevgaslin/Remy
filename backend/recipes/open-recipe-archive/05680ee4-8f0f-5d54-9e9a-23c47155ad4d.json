@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "05680ee4-8f0f-5d54-9e9a-23c47155ad4d",
+  "name": "Dinner Soup",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "3½ lbs. lean beef from round",
+      "originalText": "3½ lbs. lean beef from round",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "marrow-bone",
+      "originalText": "2 lbs. marrow-bone",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "2 qts. cold water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tomatoes",
+      "originalText": "1 can tomatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "1 teaspoon peppercorns",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean raw ham, finely chopped",
+      "originalText": "1 tablespoon lean raw ham, finely chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup carrot",
+      "originalText": "⅓ cup carrot",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup turnip",
+      "originalText": "⅓ cup turnip",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion cut in small pieces",
+      "originalText": "onion cut in small pieces",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery cut in small pieces",
+      "originalText": "celery cut in small pieces",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig parsley",
+      "originalText": "1 sprig parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ bay leaf",
+      "originalText": "½ bay leaf",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe meat and cut in inch cubes.",
+      "section": null
+    },
+    {
+      "text": "Put one-half in kettle with marrow-bone, water, and tomatoes.",
+      "section": null
+    },
+    {
+      "text": "Brown remaining half in hot frying-pan with some marrow from bone, then turn into kettle.",
+      "section": null
+    },
+    {
+      "text": "Heat slowly to boiling-point, and cook at temperature just below boiling-point five hours.",
+      "section": null
+    },
+    {
+      "text": "Cook ham and vegetables with butter five minutes, then add to soup with peppercorns, salt, parsley, and bay leaf.",
+      "section": null
+    },
+    {
+      "text": "Cook one and one-half hours, strain, cool quickly, remove fat, and clear.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/dinner-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe meat and cut in inch cubes.\n2. Put one-half in kettle with marrow-bone, water, and tomatoes.\n3. Brown remaining half in hot frying-pan with some marrow from bone, then turn into kettle.\n4. Heat slowly to boiling-point, and cook at temperature just below boiling-point five hours.\n5. Cook ham and vegetables with butter five minutes, then add to soup with peppercorns, salt, parsley, and bay leaf.\n6. Cook one and one-half hours, strain, cool quickly, remove fat, and clear.",
+    "originalIngredients": [
+      "3½ lbs. lean beef from round",
+      "2 lbs. marrow-bone",
+      "2 qts. cold water",
+      "1 can tomatoes",
+      "1 teaspoon peppercorns",
+      "1 tablespoon salt",
+      "1 tablespoon lean raw ham, finely chopped",
+      "2 tablespoons butter",
+      "⅓ cup carrot",
+      "⅓ cup turnip",
+      "onion cut in small pieces",
+      "celery cut in small pieces",
+      "1 sprig parsley",
+      "½ bay leaf"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

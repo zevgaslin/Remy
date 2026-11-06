@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "ff25f4aa-a871-5bdc-aa1f-a1fce310de95",
+  "name": "Royal Marmalade",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Seville oranges",
+      "originalText": "Twelve Seville oranges",
+      "quantity": 12.0,
+      "quantityText": "Twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water per pound of fruit",
+      "originalText": "three pints of cold water per pound of fruit",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and a half pounds of sugar per pound of boiled fruit",
+      "originalText": "one and a half pounds of sugar per pound of boiled fruit",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rind and juice of two lemons",
+      "originalText": "rind and juice of two lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut each orange into eight quarters and slice them very fine.",
+      "section": null
+    },
+    {
+      "text": "Take out the seeds and put them into a basin and cover with water.",
+      "section": null
+    },
+    {
+      "text": "To every pound of fruit add three pints of cold water.",
+      "section": null
+    },
+    {
+      "text": "Let it stand for twenty-four hours, then boil until tender.",
+      "section": null
+    },
+    {
+      "text": "Put the juice from the seeds in also.",
+      "section": null
+    },
+    {
+      "text": "Let it stand until the following day.",
+      "section": null
+    },
+    {
+      "text": "To every pound of boiled fruit add one and a half pounds of sugar and the rind and juice of two lemons.",
+      "section": null
+    },
+    {
+      "text": "Boil, stirring constantly until the syrup jellies.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/royal-marmalade.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut each orange into eight quarters and slice them very fine.\n2. Take out the seeds and put them into a basin and cover with water.\n3. To every pound of fruit add three pints of cold water.\n4. Let it stand for twenty-four hours, then boil until tender.\n5. Put the juice from the seeds in also.\n6. Let it stand until the following day.\n7. To every pound of boiled fruit add one and a half pounds of sugar and the rind and juice of two lemons.\n8. Boil, stirring constantly until the syrup jellies.",
+    "originalIngredients": [
+      "Twelve Seville oranges",
+      "three pints of cold water per pound of fruit",
+      "one and a half pounds of sugar per pound of boiled fruit",
+      "rind and juice of two lemons"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "97f4c25c-d272-5038-9ea8-d6927205a5ec",
+  "name": "Almond Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet almonds",
+      "originalText": "a pound of sweet almonds",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "hot water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange flower water or rose water",
+      "originalText": "orange flower water or rose water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "four crackers or two gills of rice flour",
+      "originalText": "four crackers or two gills of rice flour",
+      "quantity": null,
+      "quantityText": "four crackers or two gills of rice flour",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "a pint of cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "table-spoonsful of wine",
+      "originalText": "four table-spoonsful of wine",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "paste",
+      "originalText": "paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a pound of sweet almonds in hot water till the skin will slip off them",
+      "section": null
+    },
+    {
+      "text": "Pound them with a little orange flower or rose water, to keep them from oiling",
+      "section": null
+    },
+    {
+      "text": "Mix with them four crackers, finely pounded, or two gills of rice flour",
+      "section": null
+    },
+    {
+      "text": "Add six eggs, a pint of cream, a pound of sugar, half a pound of butter, and four table-spoonsful of wine",
+      "section": null
+    },
+    {
+      "text": "Put a nice paste in the bottom of your dish, garnish the edges",
+      "section": null
+    },
+    {
+      "text": "Pour in the pudding",
+      "section": null
+    },
+    {
+      "text": "Bake it in a moderate oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/almond-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a pound of sweet almonds in hot water till the skin will slip off them\n2. Pound them with a little orange flower or rose water, to keep them from oiling\n3. Mix with them four crackers, finely pounded, or two gills of rice flour\n4. Add six eggs, a pint of cream, a pound of sugar, half a pound of butter, and four table-spoonsful of wine\n5. Put a nice paste in the bottom of your dish, garnish the edges\n6. Pour in the pudding\n7. Bake it in a moderate oven",
+    "originalIngredients": [
+      "a pound of sweet almonds",
+      "hot water",
+      "orange flower water or rose water",
+      "four crackers or two gills of rice flour",
+      "six eggs",
+      "a pint of cream",
+      "a pound of sugar",
+      "half a pound of butter",
+      "four table-spoonsful of wine",
+      "paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

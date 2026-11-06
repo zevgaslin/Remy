@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "367d48fd-45ba-5128-a60f-eb3b96e77d86",
+  "name": "Buttermilk Bread",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "buttermilk",
+      "originalText": "1 pint buttermilk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "half a gill of yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "one tablespoonful white sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "one tablespoonful soda",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "hot water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "two tablespoonfuls melted butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the buttermilk to scalding",
+      "section": null
+    },
+    {
+      "text": "Stir in, while it is hot, enough flour to make a tolerably thick batter",
+      "section": null
+    },
+    {
+      "text": "Add half a gill of yeast and let it rise five or six hours",
+      "section": null
+    },
+    {
+      "text": "If you make it over night you need not add the yeast, but put in instead a tablespoonful of white sugar",
+      "section": null
+    },
+    {
+      "text": "In the morning, stir into the sponge a tablespoonful of soda dissolved in hot water and a little salt",
+      "section": null
+    },
+    {
+      "text": "Work in two tablespoonfuls melted butter",
+      "section": null
+    },
+    {
+      "text": "Work in just flour enough to enable you to handle the dough comfortably",
+      "section": null
+    },
+    {
+      "text": "Knead well and make into loaves",
+      "section": null
+    },
+    {
+      "text": "Let it rise until light",
+      "section": null
+    },
+    {
+      "text": "Bake",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/buttermilk-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the buttermilk to scalding\n2. Stir in, while it is hot, enough flour to make a tolerably thick batter\n3. Add half a gill of yeast and let it rise five or six hours\n4. If you make it over night you need not add the yeast, but put in instead a tablespoonful of white sugar\n5. In the morning, stir into the sponge a tablespoonful of soda dissolved in hot water and a little salt\n6. Work in two tablespoonfuls melted butter\n7. Work in just flour enough to enable you to handle the dough comfortably\n8. Knead well and make into loaves\n9. Let it rise until light\n10. Bake",
+    "originalIngredients": [
+      "1 pint buttermilk",
+      "flour",
+      "half a gill of yeast",
+      "one tablespoonful white sugar",
+      "one tablespoonful soda",
+      "hot water",
+      "salt",
+      "two tablespoonfuls melted butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

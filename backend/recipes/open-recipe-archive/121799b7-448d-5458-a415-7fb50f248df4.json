@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "121799b7-448d-5458-a415-7fb50f248df4",
+  "name": "Mince-Meat for Lent",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen eggs",
+      "originalText": "a dozen eggs",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen pippins",
+      "originalText": "a dozen pippins",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sultana raisins",
+      "originalText": "two pounds of sultana raisins",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "two pounds of currants",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a table-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten mace",
+      "originalText": "a tea-spoonful of beaten mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered nutmegs",
+      "originalText": "three powdered nutmegs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice and grated peel of three large lemons",
+      "originalText": "juice and grated peel of three large lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron",
+      "originalText": "half a pound of citron",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white wine",
+      "originalText": "a pint of white wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose-water",
+      "originalText": "half a pint of rose-water",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "half a pint of brandy",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the eggs quite hard, and chop the yolks very fine.",
+      "section": null
+    },
+    {
+      "text": "Chop the pippins and sultana raisins.",
+      "section": null
+    },
+    {
+      "text": "Add the currants, sugar, powdered cinnamon, beaten mace, powdered nutmegs, juice and grated peel of lemons, and citron cut in large strips.",
+      "section": null
+    },
+    {
+      "text": "Mix these ingredients thoroughly, and moisten the whole with a pint of white wine, half a pint of rose-water, and half a pint of brandy.",
+      "section": null
+    },
+    {
+      "text": "Bake it in very nice paste.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mince-meat-for-lent.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the eggs quite hard, and chop the yolks very fine.\n2. Chop the pippins and sultana raisins.\n3. Add the currants, sugar, powdered cinnamon, beaten mace, powdered nutmegs, juice and grated peel of lemons, and citron cut in large strips.\n4. Mix these ingredients thoroughly, and moisten the whole with a pint of white wine, half a pint of rose-water, and half a pint of brandy.\n5. Bake it in very nice paste.",
+    "originalIngredients": [
+      "a dozen eggs",
+      "a dozen pippins",
+      "two pounds of sultana raisins",
+      "two pounds of currants",
+      "a pound of sugar",
+      "a table-spoonful of powdered cinnamon",
+      "a tea-spoonful of beaten mace",
+      "three powdered nutmegs",
+      "juice and grated peel of three large lemons",
+      "half a pound of citron",
+      "a pint of white wine",
+      "half a pint of rose-water",
+      "half a pint of brandy"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

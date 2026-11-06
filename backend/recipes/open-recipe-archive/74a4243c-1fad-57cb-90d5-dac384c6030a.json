@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "74a4243c-1fad-57cb-90d5-dac384c6030a",
+  "name": "Franklin Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "molasses",
+      "originalText": "a pint of molasses",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "half a pint of milk",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "six ounces of brown sugar",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "three table-spoonfuls of ginger",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a table-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cloves",
+      "originalText": "a tea-spoonful of powdered cloves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "seven eggs",
+      "quantity": 7.0,
+      "quantityText": "seven",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and two ounces of flour",
+      "originalText": "a pound and two ounces of flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the grated peel and juice of two large lemons or oranges",
+      "originalText": "the grated peel and juice of two large lemons or oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together a pint of molasses, and half a pint of milk",
+      "section": null
+    },
+    {
+      "text": "Cut up in it half a pound of butter",
+      "section": null
+    },
+    {
+      "text": "Warm them just enough to melt the butter",
+      "section": null
+    },
+    {
+      "text": "Stir in six ounces of brown sugar",
+      "section": null
+    },
+    {
+      "text": "Add three table-spoonfuls of ginger, a table-spoonful of powdered cinnamon, a tea-spoonful of powdered cloves, and a grated nutmeg",
+      "section": null
+    },
+    {
+      "text": "Beat seven eggs very light",
+      "section": null
+    },
+    {
+      "text": "Stir them gradually into the mixture, in turn with a pound and two ounces of flour",
+      "section": null
+    },
+    {
+      "text": "Add, at the last, the grated peel and juice of two large lemons or oranges, the peel grated very fine",
+      "section": null
+    },
+    {
+      "text": "Stir the mixture very hard",
+      "section": null
+    },
+    {
+      "text": "Put it into little queen-cake tins, well buttered",
+      "section": null
+    },
+    {
+      "text": "Bake it in a moderate oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/franklin-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together a pint of molasses, and half a pint of milk\n2. Cut up in it half a pound of butter\n3. Warm them just enough to melt the butter\n4. Stir in six ounces of brown sugar\n5. Add three table-spoonfuls of ginger, a table-spoonful of powdered cinnamon, a tea-spoonful of powdered cloves, and a grated nutmeg\n6. Beat seven eggs very light\n7. Stir them gradually into the mixture, in turn with a pound and two ounces of flour\n8. Add, at the last, the grated peel and juice of two large lemons or oranges, the peel grated very fine\n9. Stir the mixture very hard\n10. Put it into little queen-cake tins, well buttered\n11. Bake it in a moderate oven",
+    "originalIngredients": [
+      "a pint of molasses",
+      "half a pint of milk",
+      "half a pound of butter",
+      "six ounces of brown sugar",
+      "three table-spoonfuls of ginger",
+      "a table-spoonful of powdered cinnamon",
+      "a tea-spoonful of powdered cloves",
+      "a grated nutmeg",
+      "seven eggs",
+      "a pound and two ounces of flour",
+      "the grated peel and juice of two large lemons or oranges"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

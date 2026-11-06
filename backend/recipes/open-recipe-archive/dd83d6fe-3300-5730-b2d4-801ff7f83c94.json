@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "dd83d6fe-3300-5730-b2d4-801ff7f83c94",
+  "name": "Hard Sauce",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 cup of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "3 cups of powdered sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup wine",
+      "originalText": "3/4 teacup wine",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of a lemon",
+      "originalText": "Juice of a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "2 teaspoonfuls nutmeg",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir to a cream the butter and powdered sugar.",
+      "section": null
+    },
+    {
+      "text": "When light, beat in the wine, lemon juice, and nutmeg.",
+      "section": null
+    },
+    {
+      "text": "Beat long and hard until several shades lighter in color than at first, and creamy in consistency.",
+      "section": null
+    },
+    {
+      "text": "Smooth into shape with a broad knife dipped in cold water, and stamp with a wooden mould, first scalded and then dipped in cold water.",
+      "section": null
+    },
+    {
+      "text": "Set upon the ice until the pudding is served.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/hard-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir to a cream the butter and powdered sugar.\n2. When light, beat in the wine, lemon juice, and nutmeg.\n3. Beat long and hard until several shades lighter in color than at first, and creamy in consistency.\n4. Smooth into shape with a broad knife dipped in cold water, and stamp with a wooden mould, first scalded and then dipped in cold water.\n5. Set upon the ice until the pudding is served.",
+    "originalIngredients": [
+      "1 cup of butter",
+      "3 cups of powdered sugar",
+      "3/4 teacup wine",
+      "Juice of a lemon",
+      "2 teaspoonfuls nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

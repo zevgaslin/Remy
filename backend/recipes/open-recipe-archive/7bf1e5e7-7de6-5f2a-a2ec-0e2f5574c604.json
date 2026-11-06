@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "7bf1e5e7-7de6-5f2a-a2ec-0e2f5574c604",
+  "name": "Salmon Souffle",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 pint milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion juice",
+      "originalText": "onion juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stale bread crumbs",
+      "originalText": "1 cup stale bread crumbs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salmon",
+      "originalText": "1 can salmon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a white sauce of milk, flour and butter with salt, pepper and onion juice",
+      "section": null
+    },
+    {
+      "text": "Cook the sauce",
+      "section": null
+    },
+    {
+      "text": "Add stale bread crumbs",
+      "section": null
+    },
+    {
+      "text": "Add salmon picked free from bones and rubbed smooth with a silver fork",
+      "section": null
+    },
+    {
+      "text": "Add beaten yolks of eggs and beat all",
+      "section": null
+    },
+    {
+      "text": "Fold in whites beaten very stiff",
+      "section": null
+    },
+    {
+      "text": "Turn into buttered dish",
+      "section": null
+    },
+    {
+      "text": "Bake in pan standing in water in oven for 25 minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salmon-souffle.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a white sauce of milk, flour and butter with salt, pepper and onion juice\n2. Cook the sauce\n3. Add stale bread crumbs\n4. Add salmon picked free from bones and rubbed smooth with a silver fork\n5. Add beaten yolks of eggs and beat all\n6. Fold in whites beaten very stiff\n7. Turn into buttered dish\n8. Bake in pan standing in water in oven for 25 minutes",
+    "originalIngredients": [
+      "1 pint milk",
+      "2 tablespoons flour",
+      "2 tablespoons butter",
+      "1 teaspoon salt",
+      "pepper",
+      "onion juice",
+      "1 cup stale bread crumbs",
+      "1 can salmon",
+      "3 eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

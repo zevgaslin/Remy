@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "ec9b9dcd-6db1-5658-ab09-ab80f91eea65",
+  "name": "Coffee Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bread sponge",
+      "originalText": "2 cups bread sponge",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "1/2 cup sweet milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "1 beaten egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "1/2 teaspoon cinnamon",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter size of walnut",
+      "originalText": "butter size of walnut",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 tablespoon cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix 2 cups bread sponge, 1/2 cup butter, 1/2 cup sugar, 1/2 cup sweet milk, 1 beaten egg, 1/2 teaspoon cinnamon with flour enough to mix stiff",
+      "section": null
+    },
+    {
+      "text": "Let rise a second time",
+      "section": null
+    },
+    {
+      "text": "Roll out over 1 inch thick",
+      "section": null
+    },
+    {
+      "text": "Cream butter size of walnut, 1/2 cup sugar, 1/2 teaspoon cinnamon, 1 tablespoon cream and mix",
+      "section": null
+    },
+    {
+      "text": "Spread over top",
+      "section": null
+    },
+    {
+      "text": "Let rise and bake",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/coffee-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix 2 cups bread sponge, 1/2 cup butter, 1/2 cup sugar, 1/2 cup sweet milk, 1 beaten egg, 1/2 teaspoon cinnamon with flour enough to mix stiff\n2. Let rise a second time\n3. Roll out over 1 inch thick\n4. Cream butter size of walnut, 1/2 cup sugar, 1/2 teaspoon cinnamon, 1 tablespoon cream and mix\n5. Spread over top\n6. Let rise and bake",
+    "originalIngredients": [
+      "2 cups bread sponge",
+      "1/2 cup butter",
+      "1/2 cup sugar",
+      "1/2 cup sweet milk",
+      "1 beaten egg",
+      "1/2 teaspoon cinnamon",
+      "flour",
+      "butter size of walnut",
+      "1 tablespoon cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

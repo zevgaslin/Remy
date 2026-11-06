@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "2e55cd62-fd8c-5e5f-8dd5-8c321b0c2a12",
+  "name": "Corn Chowder",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ears of corn",
+      "originalText": "Twelve ears of corn",
+      "quantity": 12.0,
+      "quantityText": "Twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions sliced",
+      "originalText": "Two onions sliced",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large potatoes parboiled",
+      "originalText": "Three large potatoes parboiled",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Boston crackers well buttered and soaked five minutes in hot water",
+      "originalText": "Six Boston crackers well buttered and soaked five minutes in hot water",
+      "quantity": 6.0,
+      "quantityText": "Six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "Three tablespoonfuls butter",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "One cup milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "One beaten egg",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "One quart boiling water",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "Parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of soda in the milk",
+      "originalText": "A pinch of soda in the milk",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Fry the onions in two tablespoonfuls of butter in the soup-kettle",
+      "section": null
+    },
+    {
+      "text": "Remove this to the table and take out the onions with a skimmer, leaving the browned butter in the bottom",
+      "section": null
+    },
+    {
+      "text": "Put into this a layer of corn cut from the cob, then of crackers, next of sliced parboiled potatoes, seasoning as you go, until all the ingredients are in",
+      "section": null
+    },
+    {
+      "text": "Cover with the hot water, and cook gently for about forty minutes after it begins to boil",
+      "section": null
+    },
+    {
+      "text": "Heat the milk in a separate vessel, stir into it a tablespoonful of butter rolled in flour, and at last a beaten egg",
+      "section": null
+    },
+    {
+      "text": "Pour the milk into the tureen, then the chowder, stirring all the while",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/corn-chowder-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Fry the onions in two tablespoonfuls of butter in the soup-kettle\n2. Remove this to the table and take out the onions with a skimmer, leaving the browned butter in the bottom\n3. Put into this a layer of corn cut from the cob, then of crackers, next of sliced parboiled potatoes, seasoning as you go, until all the ingredients are in\n4. Cover with the hot water, and cook gently for about forty minutes after it begins to boil\n5. Heat the milk in a separate vessel, stir into it a tablespoonful of butter rolled in flour, and at last a beaten egg\n6. Pour the milk into the tureen, then the chowder, stirring all the while",
+    "originalIngredients": [
+      "Twelve ears of corn",
+      "Two onions sliced",
+      "Three large potatoes parboiled",
+      "Six Boston crackers well buttered and soaked five minutes in hot water",
+      "Three tablespoonfuls butter",
+      "One cup milk",
+      "One beaten egg",
+      "One quart boiling water",
+      "Parsley",
+      "Pepper and salt",
+      "A pinch of soda in the milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

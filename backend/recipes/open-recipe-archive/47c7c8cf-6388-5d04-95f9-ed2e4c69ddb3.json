@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "47c7c8cf-6388-5d04-95f9-ed2e4c69ddb3",
+  "name": "Chicken Salad",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cooked chicken (cut in dice)",
+      "originalText": "2 qts. cooked chicken (cut in dice)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery (cut in 1/2-inch pieces)",
+      "originalText": "1 qt. celery (cut in 1/2-inch pieces)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "4 tablespoonfuls vinegar",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oil",
+      "originalText": "2 tablespoonfuls oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "1/4 teaspoonful pepper",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Place chicken in an earthen bowl, and season with vinegar, oil, salt and pepper",
+      "section": null
+    },
+    {
+      "text": "Set away in a cold place for two or three hours",
+      "section": null
+    },
+    {
+      "text": "Put minced celery in the ice-box until serving time",
+      "section": null
+    },
+    {
+      "text": "Make the mayonnaise dressing",
+      "section": null
+    },
+    {
+      "text": "Mix the chicken and celery together, and add half the dressing",
+      "section": null
+    },
+    {
+      "text": "Arrange in a salad bowl or on a flat dish, and pour the remainder of the dressing over it",
+      "section": null
+    },
+    {
+      "text": "Garnish with white celery leaves",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chicken-salad-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Place chicken in an earthen bowl, and season with vinegar, oil, salt and pepper\n2. Set away in a cold place for two or three hours\n3. Put minced celery in the ice-box until serving time\n4. Make the mayonnaise dressing\n5. Mix the chicken and celery together, and add half the dressing\n6. Arrange in a salad bowl or on a flat dish, and pour the remainder of the dressing over it\n7. Garnish with white celery leaves",
+    "originalIngredients": [
+      "2 qts. cooked chicken (cut in dice)",
+      "1 qt. celery (cut in 1/2-inch pieces)",
+      "4 tablespoonfuls vinegar",
+      "2 tablespoonfuls oil",
+      "1 teaspoonful salt",
+      "1/4 teaspoonful pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

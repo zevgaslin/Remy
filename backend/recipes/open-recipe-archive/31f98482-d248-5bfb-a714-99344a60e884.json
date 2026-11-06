@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "31f98482-d248-5bfb-a714-99344a60e884",
+  "name": "Standing Pies",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pint of water",
+      "originalText": "three quarters of a pint of water",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "two pounds of sifted flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of egg",
+      "originalText": "white of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "venison, game, or poultry",
+      "originalText": "venison, game, or poultry",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up the butter and put it into a sauce-pan with water",
+      "section": null
+    },
+    {
+      "text": "Cover it and set it on hot coals",
+      "section": null
+    },
+    {
+      "text": "Have ready two pounds of sifted flour in a pan and make a hole in the middle",
+      "section": null
+    },
+    {
+      "text": "Pour in the melted butter as soon as it boils",
+      "section": null
+    },
+    {
+      "text": "Gradually mix in the flour with a spoon",
+      "section": null
+    },
+    {
+      "text": "When well mixed, knead it with your hands into a stiff dough",
+      "section": null
+    },
+    {
+      "text": "Sprinkle your paste-board with flour and lay the dough upon it",
+      "section": null
+    },
+    {
+      "text": "Continue to knead it with your hands till it no longer sticks and is quite light",
+      "section": null
+    },
+    {
+      "text": "Let it stand an hour to cool",
+      "section": null
+    },
+    {
+      "text": "Cut off pieces for the bottom and top and roll them out thick",
+      "section": null
+    },
+    {
+      "text": "Roll out a long piece for the sides or walls and fix it on the bottom to stand up all round",
+      "section": null
+    },
+    {
+      "text": "Cement them together with white of egg, pinching and closing firmly",
+      "section": null
+    },
+    {
+      "text": "Put in the ingredients of your pie",
+      "section": null
+    },
+    {
+      "text": "Lay on the lid or top crust, pinching the edges closely together",
+      "section": null
+    },
+    {
+      "text": "Ornament the sides and top with leaves or flowers of paste shaped with a tin cutter",
+      "section": null
+    },
+    {
+      "text": "Notch or scollop the edges handsomely",
+      "section": null
+    },
+    {
+      "text": "Glaze it all over with white of egg",
+      "section": null
+    },
+    {
+      "text": "Bake it four hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/standing-pies.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up the butter and put it into a sauce-pan with water\n2. Cover it and set it on hot coals\n3. Have ready two pounds of sifted flour in a pan and make a hole in the middle\n4. Pour in the melted butter as soon as it boils\n5. Gradually mix in the flour with a spoon\n6. When well mixed, knead it with your hands into a stiff dough\n7. Sprinkle your paste-board with flour and lay the dough upon it\n8. Continue to knead it with your hands till it no longer sticks and is quite light\n9. Let it stand an hour to cool\n10. Cut off pieces for the bottom and top and roll them out thick\n11. Roll out a long piece for the sides or walls and fix it on the bottom to stand up all round\n12. Cement them together with white of egg, pinching and closing firmly\n13. Put in the ingredients of your pie\n14. Lay on the lid or top crust, pinching the edges closely together\n15. Ornament the sides and top with leaves or flowers of paste shaped with a tin cutter\n16. Notch or scollop the edges handsomely\n17. Glaze it all over with white of egg\n18. Bake it four hours",
+    "originalIngredients": [
+      "half a pound of butter",
+      "three quarters of a pint of water",
+      "two pounds of sifted flour",
+      "white of egg",
+      "venison, game, or poultry"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "8c8866f9-24ab-5810-b906-179c2258d42c",
+  "name": "Belgian Hare, Sour Cream Sauce",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hare",
+      "originalText": "A hare",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot, cut in small pieces",
+      "originalText": "Eight slices carrot, cut in small pieces",
+      "quantity": 8.0,
+      "quantityText": "Eight",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half small onion",
+      "originalText": "One-half small onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bacon fat",
+      "originalText": "Two tablespoons bacon fat",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Brown Stock",
+      "originalText": "One cup Brown Stock",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heavy cream",
+      "originalText": "One cup heavy cream",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of one lemon",
+      "originalText": "Juice of one lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Clean and split hare.",
+      "section": null
+    },
+    {
+      "text": "Lard back and hind legs, and season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Cook carrot and onion in bacon fat for five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add Brown Stock and pour around hare in pan.",
+      "section": null
+    },
+    {
+      "text": "Bake forty-five minutes, basting often.",
+      "section": null
+    },
+    {
+      "text": "Add heavy cream and juice of lemon.",
+      "section": null
+    },
+    {
+      "text": "Cook fifteen minutes longer, and baste every five minutes.",
+      "section": null
+    },
+    {
+      "text": "Remove to serving dish, strain sauce, thicken, season with salt and pepper, and pour around hare.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/belgian-hare-sour-cream-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Clean and split hare.\n2. Lard back and hind legs, and season with salt and pepper.\n3. Cook carrot and onion in bacon fat for five minutes.\n4. Add Brown Stock and pour around hare in pan.\n5. Bake forty-five minutes, basting often.\n6. Add heavy cream and juice of lemon.\n7. Cook fifteen minutes longer, and baste every five minutes.\n8. Remove to serving dish, strain sauce, thicken, season with salt and pepper, and pour around hare.",
+    "originalIngredients": [
+      "A hare",
+      "Salt",
+      "Pepper",
+      "Eight slices carrot, cut in small pieces",
+      "One-half small onion",
+      "Two tablespoons bacon fat",
+      "One cup Brown Stock",
+      "One cup heavy cream",
+      "Juice of one lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

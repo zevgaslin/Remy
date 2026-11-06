@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "f88a26ce-c036-5f09-8d6f-76fd9a0a64d7",
+  "name": "Bread Omelet No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "teacupful of milk",
+      "originalText": "one teacupful of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of bread crumbs",
+      "originalText": "one teacupful of bread crumbs",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large spoonful of butter",
+      "originalText": "a large spoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Let one teacupful of milk come to a boil",
+      "section": null
+    },
+    {
+      "text": "Pour it over one teacupful of bread crumbs and let it stand a few minutes",
+      "section": null
+    },
+    {
+      "text": "Break six eggs into a bowl, stir (not beat) till well mixed",
+      "section": null
+    },
+    {
+      "text": "Add the milk and bread, season with pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Mix all well together and turn into a hot frying pan, containing a large spoonful of butter boiling hot",
+      "section": null
+    },
+    {
+      "text": "Fry the omelet slowly, and when brown on the bottom cut in squares and turn again",
+      "section": null
+    },
+    {
+      "text": "Fry to a delicate brown and serve hot",
+      "section": null
+    },
+    {
+      "text": "Cracker omelet may be made by substituting three or four rolled crackers in place of bread",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bread-omelet-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Let one teacupful of milk come to a boil\n2. Pour it over one teacupful of bread crumbs and let it stand a few minutes\n3. Break six eggs into a bowl, stir (not beat) till well mixed\n4. Add the milk and bread, season with pepper and salt\n5. Mix all well together and turn into a hot frying pan, containing a large spoonful of butter boiling hot\n6. Fry the omelet slowly, and when brown on the bottom cut in squares and turn again\n7. Fry to a delicate brown and serve hot\n8. Cracker omelet may be made by substituting three or four rolled crackers in place of bread",
+    "originalIngredients": [
+      "one teacupful of milk",
+      "one teacupful of bread crumbs",
+      "six eggs",
+      "pepper and salt",
+      "a large spoonful of butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

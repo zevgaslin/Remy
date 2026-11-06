@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "5669de92-e71a-571a-9b69-8e736ff09659",
+  "name": "Fruit Jelly",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "box gelatine",
+      "originalText": "1 box gelatine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemons",
+      "originalText": "2 lemons",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "0.5 pt. cold water",
+      "quantity": 0.5,
+      "quantityText": "0.5",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1.5 pts. boiling water",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "pts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Peaches",
+      "originalText": "Peaches",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bananas",
+      "originalText": "Bananas",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Oranges, sliced",
+      "originalText": "Oranges, sliced",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dissolve gelatine in one-half pint cold water",
+      "section": null
+    },
+    {
+      "text": "Add sugar and lemon juice, with boiling water",
+      "section": null
+    },
+    {
+      "text": "Let this stand until the jelly begins to thicken",
+      "section": null
+    },
+    {
+      "text": "Pour a little into the mould",
+      "section": null
+    },
+    {
+      "text": "Place on it a layer of peaches, cut any shape desired",
+      "section": null
+    },
+    {
+      "text": "Put in more jelly and fruit, alternately until the mould is filled",
+      "section": null
+    },
+    {
+      "text": "Place on ice to set",
+      "section": null
+    },
+    {
+      "text": "Serve with whipped cream",
+      "section": null
+    },
+    {
+      "text": "Allow each layer of fruit and jelly to set before putting in another, so that the fruit will not fall together",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/fruit-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dissolve gelatine in one-half pint cold water\n2. Add sugar and lemon juice, with boiling water\n3. Let this stand until the jelly begins to thicken\n4. Pour a little into the mould\n5. Place on it a layer of peaches, cut any shape desired\n6. Put in more jelly and fruit, alternately until the mould is filled\n7. Place on ice to set\n8. Serve with whipped cream\n9. Allow each layer of fruit and jelly to set before putting in another, so that the fruit will not fall together",
+    "originalIngredients": [
+      "1 box gelatine",
+      "1 cup sugar",
+      "2 lemons",
+      "0.5 pt. cold water",
+      "1.5 pts. boiling water",
+      "Peaches",
+      "Bananas",
+      "Oranges, sliced"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

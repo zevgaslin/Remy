@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "2cadeb09-6a3f-5a25-9112-bcecb0337ee9",
+  "name": "Imperial Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "granulated sugar",
+      "originalText": "1/2 pound granulated sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 pound butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1/2 pound flour",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "blanched almonds (split)",
+      "originalText": "3/4 pound blanched almonds (split)",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins split while stoning",
+      "originalText": "1/2 pound raisins split while stoning",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron peel",
+      "originalText": "3/4 pound citron peel",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon",
+      "originalText": "1/2 lemon",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "extract nectarine in 1 teaspoon water",
+      "originalText": "1/2 teaspoon extract nectarine in 1 teaspoon water",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose water",
+      "originalText": "1 tablespoon rose water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "1 tablespoon brandy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream butter and sugar and yolks of eggs",
+      "section": null
+    },
+    {
+      "text": "Grate the rind of lemon and add the juice",
+      "section": null
+    },
+    {
+      "text": "Add the flour sifted in alternately with the whites of the eggs beaten stiff",
+      "section": null
+    },
+    {
+      "text": "Add the extracts",
+      "section": null
+    },
+    {
+      "text": "Dredge the fruit with a little flour",
+      "section": null
+    },
+    {
+      "text": "Put 1/2 the batter in the pan, then put all the fruit on top of that, then the rest of batter on top of the fruit",
+      "section": null
+    },
+    {
+      "text": "Bake in a very slow oven about 2 hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/imperial-cake-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream butter and sugar and yolks of eggs\n2. Grate the rind of lemon and add the juice\n3. Add the flour sifted in alternately with the whites of the eggs beaten stiff\n4. Add the extracts\n5. Dredge the fruit with a little flour\n6. Put 1/2 the batter in the pan, then put all the fruit on top of that, then the rest of batter on top of the fruit\n7. Bake in a very slow oven about 2 hours",
+    "originalIngredients": [
+      "1/2 pound granulated sugar",
+      "1/2 pound butter",
+      "1/2 pound flour",
+      "3/4 pound blanched almonds (split)",
+      "1/2 pound raisins split while stoning",
+      "3/4 pound citron peel",
+      "1/2 lemon",
+      "5 eggs",
+      "1/2 teaspoon extract nectarine in 1 teaspoon water",
+      "1 tablespoon rose water",
+      "1 tablespoon brandy"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

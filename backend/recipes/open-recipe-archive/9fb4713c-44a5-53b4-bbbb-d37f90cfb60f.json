@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "9fb4713c-44a5-53b4-bbbb-d37f90cfb60f",
+  "name": "Chocolate Fudge",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "1 cup brown sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "3/4 cup milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cowan's Perfection Chocolate",
+      "originalText": "2 ounces Cowan's Perfection Chocolate",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 tablespoon vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat sugar, milk and butter to boiling point",
+      "section": null
+    },
+    {
+      "text": "Add chocolate, stirring constantly until it is melted",
+      "section": null
+    },
+    {
+      "text": "Boil until mixture forms a soft ball in cold water",
+      "section": null
+    },
+    {
+      "text": "Remove from fire and cool slightly",
+      "section": null
+    },
+    {
+      "text": "Add vanilla and beat until creamy and until mixture begins to sugar slightly around edge of pan",
+      "section": null
+    },
+    {
+      "text": "Pour on buttered plate and when cool enough mark in squares",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chocolate-fudge-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat sugar, milk and butter to boiling point\n2. Add chocolate, stirring constantly until it is melted\n3. Boil until mixture forms a soft ball in cold water\n4. Remove from fire and cool slightly\n5. Add vanilla and beat until creamy and until mixture begins to sugar slightly around edge of pan\n6. Pour on buttered plate and when cool enough mark in squares",
+    "originalIngredients": [
+      "1 cup granulated sugar",
+      "1 cup brown sugar",
+      "3/4 cup milk",
+      "1 tablespoon butter",
+      "2 ounces Cowan's Perfection Chocolate",
+      "1 tablespoon vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

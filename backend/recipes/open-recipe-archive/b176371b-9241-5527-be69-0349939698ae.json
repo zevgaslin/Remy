@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "b176371b-9241-5527-be69-0349939698ae",
+  "name": "Puff Pastes for Tarts",
+  "description": "Historical recipe from American Cookery (1796). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "one pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one pound of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites",
+      "originalText": "two whites",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolk",
+      "originalText": "one yolk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "six pound of butter",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fourteen pound of flour",
+      "originalText": "fourteen pound of flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fourths of it's weight of butter",
+      "originalText": "three fourths of it's weight of butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs to a peck",
+      "originalText": "twelve eggs to a peck",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one third or half",
+      "originalText": "one third or half",
+      "quantity": null,
+      "quantityText": "one third or half",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour (salted)",
+      "originalText": "two quarts flour (salted)",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and half pound of butter",
+      "originalText": "one and half pound of butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one pound flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fourths of a pound of butter",
+      "originalText": "three fourths of a pound of butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fourth of a pound of butter",
+      "originalText": "one fourth of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "three eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub one pound of butter into one pound of flour, whip 2 whites and add with cold water and one yolk; make into paste, roll in in six or seven times one pound of butter, flowring it each roll. This is good for any small thing.",
+      "section": null
+    },
+    {
+      "text": "Rub six pound of butter into fourteen pound of flour, eight eggs, add cold water, make a stiff paste.",
+      "section": null
+    },
+    {
+      "text": "To any quantity of flour, rub in three fourths of it's weight of butter, (twelve eggs to a peck) rub in one third or half, and roll in the rest.",
+      "section": null
+    },
+    {
+      "text": "Into two quarts flour (salted) and wet stiff with cold water roll in, in nine or ten times one and half pound of butter.",
+      "section": null
+    },
+    {
+      "text": "One pound flour, three fourths of a pound of butter, beat well.",
+      "section": null
+    },
+    {
+      "text": "To one pound of flour rub in one fourth of a pound of butter wet with three eggs and rolled in a half pound of butter.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/puff-pastes-for-tarts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Amelia Simmons",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub one pound of butter into one pound of flour, whip 2 whites and add with cold water and one yolk; make into paste, roll in in six or seven times one pound of butter, flowring it each roll. This is good for any small thing.\n2. Rub six pound of butter into fourteen pound of flour, eight eggs, add cold water, make a stiff paste.\n3. To any quantity of flour, rub in three fourths of it's weight of butter, (twelve eggs to a peck) rub in one third or half, and roll in the rest.\n4. Into two quarts flour (salted) and wet stiff with cold water roll in, in nine or ten times one and half pound of butter.\n5. One pound flour, three fourths of a pound of butter, beat well.\n6. To one pound of flour rub in one fourth of a pound of butter wet with three eggs and rolled in a half pound of butter.",
+    "originalIngredients": [
+      "one pound of butter",
+      "one pound of flour",
+      "two whites",
+      "cold water",
+      "one yolk",
+      "six pound of butter",
+      "fourteen pound of flour",
+      "eight eggs",
+      "three fourths of it's weight of butter",
+      "twelve eggs to a peck",
+      "one third or half",
+      "two quarts flour (salted)",
+      "one and half pound of butter",
+      "one pound flour",
+      "three fourths of a pound of butter",
+      "one fourth of a pound of butter",
+      "three eggs",
+      "half pound of butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: American Cookery (1796), https://www.gutenberg.org/ebooks/12815. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

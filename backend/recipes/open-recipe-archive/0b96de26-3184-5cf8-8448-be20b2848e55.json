@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "0b96de26-3184-5cf8-8448-be20b2848e55",
+  "name": "Cutlets of Sweetbreads à la Victoria",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pairs parboiled sweetbreads",
+      "originalText": "2 pairs parboiled sweetbreads",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "2 teaspoons lemon juice",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon salt",
+      "originalText": "½ teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅛ teaspoon pepper",
+      "originalText": "⅛ teaspoon pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Slight grating nutmeg",
+      "originalText": "Slight grating nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped parsley",
+      "originalText": "1 teaspoon finely chopped parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Thick White Sauce",
+      "originalText": "1 cup Thick White Sauce",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped mushrooms (if needed to make two cups)",
+      "originalText": "chopped mushrooms (if needed to make two cups)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold boiled macaroni",
+      "originalText": "cold boiled macaroni",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop the sweetbreads, of which there should be two cups; if not enough, add chopped mushrooms to make two cups, then season.",
+      "section": null
+    },
+    {
+      "text": "Add egg, slightly beaten, to sauce, and combine mixtures.",
+      "section": null
+    },
+    {
+      "text": "Cool, shape, crumb, and fry.",
+      "section": null
+    },
+    {
+      "text": "Make a cut in small end of each cutlet, and insert in each a piece of cold boiled macaroni one and one-half inches long.",
+      "section": null
+    },
+    {
+      "text": "Serve with Allemande Sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cutlets-of-sweetbreads-la-victoria.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop the sweetbreads, of which there should be two cups; if not enough, add chopped mushrooms to make two cups, then season.\n2. Add egg, slightly beaten, to sauce, and combine mixtures.\n3. Cool, shape, crumb, and fry.\n4. Make a cut in small end of each cutlet, and insert in each a piece of cold boiled macaroni one and one-half inches long.\n5. Serve with Allemande Sauce.",
+    "originalIngredients": [
+      "2 pairs parboiled sweetbreads",
+      "2 teaspoons lemon juice",
+      "½ teaspoon salt",
+      "⅛ teaspoon pepper",
+      "Slight grating nutmeg",
+      "1 teaspoon finely chopped parsley",
+      "1 egg",
+      "1 cup Thick White Sauce",
+      "chopped mushrooms (if needed to make two cups)",
+      "cold boiled macaroni"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

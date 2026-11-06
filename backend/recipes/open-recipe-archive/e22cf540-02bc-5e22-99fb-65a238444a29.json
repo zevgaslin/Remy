@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "e22cf540-02bc-5e22-99fb-65a238444a29",
+  "name": "Ground Rice Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarter of a pound of ground rice",
+      "originalText": "a quarter of a pound of ground rice",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold milk",
+      "originalText": "a pint of cold milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one pint of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of white sugar",
+      "originalText": "a quarter of a pound of white sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of powdered cinnamon",
+      "originalText": "a small tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the juice and the grated peel of a lemon, or a small tea-spoonful of essence of lemon",
+      "originalText": "the juice and the grated peel of a lemon, or a small tea-spoonful of essence of lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "slips of citron",
+      "originalText": "slips of citron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix a quarter of a pound of ground rice with a pint of cold milk, till it is a smooth batter and free from lumps",
+      "section": null
+    },
+    {
+      "text": "Boil one pint of milk; and when it has boiled, stir in gradually the rice batter, alternately with a quarter of a pound of butter",
+      "section": null
+    },
+    {
+      "text": "Keep it over the fire, stirring all the time, till the whole is well mixed, and has boiled hard",
+      "section": null
+    },
+    {
+      "text": "Then take it off, add a quarter of a pound of white sugar; stir it well, and set it away to cool",
+      "section": null
+    },
+    {
+      "text": "Beat eight eggs very light, and stir them into the mixture when it is quite cold",
+      "section": null
+    },
+    {
+      "text": "Then strain it through a sieve, (this will make it more light and delicate,) add a grated nutmeg, and a small tea-spoonful of powdered cinnamon",
+      "section": null
+    },
+    {
+      "text": "Stir in the juice and the grated peel of a lemon, or a small tea-spoonful of essence of lemon",
+      "section": null
+    },
+    {
+      "text": "Put it into a deep dish or dishes, and bake it an hour",
+      "section": null
+    },
+    {
+      "text": "As soon as it comes out of the oven, lay slips of citron over the top; and when cold, strew powdered sugar on it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ground-rice-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix a quarter of a pound of ground rice with a pint of cold milk, till it is a smooth batter and free from lumps\n2. Boil one pint of milk; and when it has boiled, stir in gradually the rice batter, alternately with a quarter of a pound of butter\n3. Keep it over the fire, stirring all the time, till the whole is well mixed, and has boiled hard\n4. Then take it off, add a quarter of a pound of white sugar; stir it well, and set it away to cool\n5. Beat eight eggs very light, and stir them into the mixture when it is quite cold\n6. Then strain it through a sieve, (this will make it more light and delicate,) add a grated nutmeg, and a small tea-spoonful of powdered cinnamon\n7. Stir in the juice and the grated peel of a lemon, or a small tea-spoonful of essence of lemon\n8. Put it into a deep dish or dishes, and bake it an hour\n9. As soon as it comes out of the oven, lay slips of citron over the top; and when cold, strew powdered sugar on it",
+    "originalIngredients": [
+      "a quarter of a pound of ground rice",
+      "a pint of cold milk",
+      "one pint of milk",
+      "a quarter of a pound of butter",
+      "a quarter of a pound of white sugar",
+      "eight eggs",
+      "a grated nutmeg",
+      "a small tea-spoonful of powdered cinnamon",
+      "the juice and the grated peel of a lemon, or a small tea-spoonful of essence of lemon",
+      "slips of citron",
+      "powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "ece21e4d-fcf5-5b93-a270-34dfaae35c83",
+  "name": "Angel Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "tumbler of flour",
+      "originalText": "One tumbler of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream of tartar",
+      "originalText": "One teaspoonful of cream of tartar",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass and a half of white powdered sugar",
+      "originalText": "One glass and a half of white powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of eleven eggs",
+      "originalText": "Whites of eleven eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla extract",
+      "originalText": "Three teaspoonfuls of vanilla extract",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put cream of tartar into flour, then sift five times",
+      "section": null
+    },
+    {
+      "text": "Sift white powdered sugar separately",
+      "section": null
+    },
+    {
+      "text": "Beat whites of eleven eggs to stiff froth",
+      "section": null
+    },
+    {
+      "text": "Stir sugar into eggs by degrees, very lightly and carefully",
+      "section": null
+    },
+    {
+      "text": "Add vanilla extract",
+      "section": null
+    },
+    {
+      "text": "Add flour, stirring quickly and lightly",
+      "section": null
+    },
+    {
+      "text": "Pour into clean, bright tin cake-dish which should not be buttered or lined",
+      "section": null
+    },
+    {
+      "text": "Bake at once in a moderate oven about forty minutes, testing with a broom splint",
+      "section": null
+    },
+    {
+      "text": "When done, turn cake-tin upside down with sides resting on tops of two saucers so air will pass under and over it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/angel-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put cream of tartar into flour, then sift five times\n2. Sift white powdered sugar separately\n3. Beat whites of eleven eggs to stiff froth\n4. Stir sugar into eggs by degrees, very lightly and carefully\n5. Add vanilla extract\n6. Add flour, stirring quickly and lightly\n7. Pour into clean, bright tin cake-dish which should not be buttered or lined\n8. Bake at once in a moderate oven about forty minutes, testing with a broom splint\n9. When done, turn cake-tin upside down with sides resting on tops of two saucers so air will pass under and over it",
+    "originalIngredients": [
+      "One tumbler of flour",
+      "One teaspoonful of cream of tartar",
+      "One glass and a half of white powdered sugar",
+      "Whites of eleven eggs",
+      "Three teaspoonfuls of vanilla extract"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

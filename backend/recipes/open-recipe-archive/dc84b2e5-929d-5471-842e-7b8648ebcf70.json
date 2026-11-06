@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "dc84b2e5-929d-5471-842e-7b8648ebcf70",
+  "name": "Peanut Candy",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peanuts",
+      "originalText": "1 qt. peanuts",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup sugar",
+      "originalText": "1 large cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Shell and skin peanuts, and roll them until fine",
+      "section": null
+    },
+    {
+      "text": "Place granulated sugar in a saucepan",
+      "section": null
+    },
+    {
+      "text": "Set it over a hot fire and stir the contents quickly until it melts",
+      "section": null
+    },
+    {
+      "text": "Do this while the peanuts are being heated through in the oven, and after the pans are buttered and set on the back of the range to be kept hot",
+      "section": null
+    },
+    {
+      "text": "When the sugar has melted pour the hot peanuts into it",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire and pour into the hot buttered pans",
+      "section": null
+    },
+    {
+      "text": "When cold it can be broken into pieces",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/peanut-candy.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Shell and skin peanuts, and roll them until fine\n2. Place granulated sugar in a saucepan\n3. Set it over a hot fire and stir the contents quickly until it melts\n4. Do this while the peanuts are being heated through in the oven, and after the pans are buttered and set on the back of the range to be kept hot\n5. When the sugar has melted pour the hot peanuts into it\n6. Remove from the fire and pour into the hot buttered pans\n7. When cold it can be broken into pieces",
+    "originalIngredients": [
+      "1 qt. peanuts",
+      "1 large cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

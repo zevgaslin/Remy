@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "3744ac2d-a099-5ec2-877b-f09b61a9e062",
+  "name": "Plain Pastry for Pies",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 qt. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 cupful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 cupful cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Half butter and half lard or cottolene will do",
+      "originalText": "Half butter and half lard or cottolene will do",
+      "quantity": null,
+      "quantityText": "Half butter and half lard or cottolene will do",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift the salt and flour together, reserving a little flour for the board",
+      "section": null
+    },
+    {
+      "text": "With a knife, cut the butter into the flour",
+      "section": null
+    },
+    {
+      "text": "Add the water a little at a time, and mix it in lightly with the knife",
+      "section": null
+    },
+    {
+      "text": "Turn it on to the board, and roll it twice — that is, after it is rolled out once, fold it together and roll it again",
+      "section": null
+    },
+    {
+      "text": "If the paste is wanted richer for the top crust, put bits of butter over the paste when rolled; fold and roll it again several times",
+      "section": null
+    },
+    {
+      "text": "Fold the paste, and put it in the ice-box for an hour before using, keeping it covered",
+      "section": null
+    },
+    {
+      "text": "In making pastry everything should be cold, the handling light, and the hands used as little as possible",
+      "section": null
+    },
+    {
+      "text": "Paste will keep several days in a cool place, but should be rolled in a napkin, so it will not dry and form a crust",
+      "section": null
+    },
+    {
+      "text": "Roll the paste one-eighth inch thick, and a little larger than the tin",
+      "section": null
+    },
+    {
+      "text": "Dust the pan with flour; place the paste on it, letting it shrink all it will",
+      "section": null
+    },
+    {
+      "text": "Lift it from the sides to fit into place, and press it as little as possible",
+      "section": null
+    },
+    {
+      "text": "Cut a narrow strip of paste, and lay around the edge; moisten it so it will stick",
+      "section": null
+    },
+    {
+      "text": "Brush the top of the bottom crust with white of egg, so the filling will not soak in and make it heavy",
+      "section": null
+    },
+    {
+      "text": "Put in the filling, and cover with another sheet of pastry",
+      "section": null
+    },
+    {
+      "text": "Moisten the top of the strip of pastry so the top crust will adhere to it; this gives three layers around the edge",
+      "section": null
+    },
+    {
+      "text": "Trim and press them lightly together",
+      "section": null
+    },
+    {
+      "text": "Cut several slits in the top crust to let the steam escape in cooking",
+      "section": null
+    },
+    {
+      "text": "A thin piece of paste cut into fancy shape can be placed in the centre for ornament if desired",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/plain-pastry-for-pies.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift the salt and flour together, reserving a little flour for the board\n2. With a knife, cut the butter into the flour\n3. Add the water a little at a time, and mix it in lightly with the knife\n4. Turn it on to the board, and roll it twice — that is, after it is rolled out once, fold it together and roll it again\n5. If the paste is wanted richer for the top crust, put bits of butter over the paste when rolled; fold and roll it again several times\n6. Fold the paste, and put it in the ice-box for an hour before using, keeping it covered\n7. In making pastry everything should be cold, the handling light, and the hands used as little as possible\n8. Paste will keep several days in a cool place, but should be rolled in a napkin, so it will not dry and form a crust\n9. Roll the paste one-eighth inch thick, and a little larger than the tin\n10. Dust the pan with flour; place the paste on it, letting it shrink all it will\n11. Lift it from the sides to fit into place, and press it as little as possible\n12. Cut a narrow strip of paste, and lay around the edge; moisten it so it will stick\n13. Brush the top of the bottom crust with white of egg, so the filling will not soak in and make it heavy\n14. Put in the filling, and cover with another sheet of pastry\n15. Moisten the top of the strip of pastry so the top crust will adhere to it; this gives three layers around the edge\n16. Trim and press them lightly together\n17. Cut several slits in the top crust to let the steam escape in cooking\n18. A thin piece of paste cut into fancy shape can be placed in the centre for ornament if desired",
+    "originalIngredients": [
+      "1 qt. flour",
+      "1 cupful butter",
+      "1 cupful cold water",
+      "1 teaspoonful salt",
+      "Half butter and half lard or cottolene will do"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "05d8ff15-791f-5b42-9c2f-6f9def671956",
+  "name": "Transparent Crust",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 lb. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 lb. butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg—the yolk only",
+      "originalText": "1 egg—the yolk only",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash the butter, dry, and then melt it in a vessel set in another of boiling water, stirring gently all the while to prevent oiling.",
+      "section": null
+    },
+    {
+      "text": "Take off the salty scum from the top, and when almost cold beat up the butter little by little with the egg, which should be previously whipped light.",
+      "section": null
+    },
+    {
+      "text": "When these are thoroughly incorporated, work in the flour, roll out twice, sprinkling lightly with flour before you fold it up.",
+      "section": null
+    },
+    {
+      "text": "Let it stand folded five minutes in a cold place, and make out for tartlets or pâtés.",
+      "section": null
+    },
+    {
+      "text": "Bake before you fill them, and brush over with a beaten egg while hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/transparent-crust.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash the butter, dry, and then melt it in a vessel set in another of boiling water, stirring gently all the while to prevent oiling.\n2. Take off the salty scum from the top, and when almost cold beat up the butter little by little with the egg, which should be previously whipped light.\n3. When these are thoroughly incorporated, work in the flour, roll out twice, sprinkling lightly with flour before you fold it up.\n4. Let it stand folded five minutes in a cold place, and make out for tartlets or pâtés.\n5. Bake before you fill them, and brush over with a beaten egg while hot.",
+    "originalIngredients": [
+      "1 lb. flour",
+      "1 lb. butter",
+      "1 egg—the yolk only"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

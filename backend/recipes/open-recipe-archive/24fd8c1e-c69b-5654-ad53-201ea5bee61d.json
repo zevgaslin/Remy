@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "24fd8c1e-c69b-5654-ad53-201ea5bee61d",
+  "name": "Mullagatawny Soup",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "onions",
+      "originalText": "four onions",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "one carrot",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnips",
+      "originalText": "two turnips",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of celery",
+      "originalText": "one head of celery",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three quarts of liquor in which one or two fowls have been boiled",
+      "originalText": "three quarts of liquor in which one or two fowls have been boiled",
+      "quantity": null,
+      "quantityText": "three quarts of liquor in which one or two fowls have been boiled",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currie powder",
+      "originalText": "one tablespoonful of currie powder",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pieces of roast chicken",
+      "originalText": "pieces of roast chicken",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiled rice",
+      "originalText": "boiled rice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "a teaspoonful of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut four onions, one carrot, two turnips, and one head of celery into three quarts of liquor, in which one or two fowls have been boiled.",
+      "section": null
+    },
+    {
+      "text": "Keep it over a brisk fire till it boils.",
+      "section": null
+    },
+    {
+      "text": "Place it on a corner of the fire, and let it simmer twenty minutes.",
+      "section": null
+    },
+    {
+      "text": "Add one tablespoonful of currie powder, and one tablespoonful of flour.",
+      "section": null
+    },
+    {
+      "text": "Mix the whole well together.",
+      "section": null
+    },
+    {
+      "text": "Let it boil three minutes.",
+      "section": null
+    },
+    {
+      "text": "Pass it through a colander.",
+      "section": null
+    },
+    {
+      "text": "Serve with pieces of roast chicken in it.",
+      "section": null
+    },
+    {
+      "text": "Add boiled rice in a separate dish.",
+      "section": null
+    },
+    {
+      "text": "If too thick, add a little boiling water and a teaspoonful of sugar.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mullagatawny-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut four onions, one carrot, two turnips, and one head of celery into three quarts of liquor, in which one or two fowls have been boiled.\n2. Keep it over a brisk fire till it boils.\n3. Place it on a corner of the fire, and let it simmer twenty minutes.\n4. Add one tablespoonful of currie powder, and one tablespoonful of flour.\n5. Mix the whole well together.\n6. Let it boil three minutes.\n7. Pass it through a colander.\n8. Serve with pieces of roast chicken in it.\n9. Add boiled rice in a separate dish.\n10. If too thick, add a little boiling water and a teaspoonful of sugar.",
+    "originalIngredients": [
+      "four onions",
+      "one carrot",
+      "two turnips",
+      "one head of celery",
+      "three quarts of liquor in which one or two fowls have been boiled",
+      "one tablespoonful of currie powder",
+      "one tablespoonful of flour",
+      "pieces of roast chicken",
+      "boiled rice",
+      "a teaspoonful of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

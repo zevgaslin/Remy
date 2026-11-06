@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "98400e90-cba8-5964-af03-0ac403a948a9",
+  "name": "Cornstarch Blanc Mange",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet milk",
+      "originalText": "One quart of sweet milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonfuls of cornstarch",
+      "originalText": "Four heaping tablespoonfuls of cornstarch",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "Half a cupful of sugar",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon for flavoring",
+      "originalText": "Lemon for flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of three eggs",
+      "originalText": "Whites of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take one quart of sweet milk and put one pint upon the stove to heat",
+      "section": null
+    },
+    {
+      "text": "In the other pint mix four heaping tablespoonfuls of cornstarch and half a cupful of sugar",
+      "section": null
+    },
+    {
+      "text": "When the milk is hot, pour in the cold milk with the cornstarch and sugar thoroughly mixed in it",
+      "section": null
+    },
+    {
+      "text": "Stir altogether until there are no lumps and it is thick",
+      "section": null
+    },
+    {
+      "text": "Flavor with lemon",
+      "section": null
+    },
+    {
+      "text": "Take from the stove and add the whites of three eggs beaten to a stiff froth",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cornstarch-blanc-mange.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take one quart of sweet milk and put one pint upon the stove to heat\n2. In the other pint mix four heaping tablespoonfuls of cornstarch and half a cupful of sugar\n3. When the milk is hot, pour in the cold milk with the cornstarch and sugar thoroughly mixed in it\n4. Stir altogether until there are no lumps and it is thick\n5. Flavor with lemon\n6. Take from the stove and add the whites of three eggs beaten to a stiff froth",
+    "originalIngredients": [
+      "One quart of sweet milk",
+      "Four heaping tablespoonfuls of cornstarch",
+      "Half a cupful of sugar",
+      "Lemon for flavoring",
+      "Whites of three eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

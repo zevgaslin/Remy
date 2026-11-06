@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "adfe1d4d-7142-5a44-90e0-2b256e574eb6",
+  "name": "Boiled Pudding",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "grated bread crumbs",
+      "originalText": "1 pint grated bread crumbs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped suet",
+      "originalText": "1/2 cupful chopped suet",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "moist sugar",
+      "originalText": "1/2 cupful moist sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tablespoonful flour",
+      "originalText": "1 small tablespoonful flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated rind of 1 lemon",
+      "originalText": "grated rind of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites and yolks of 2 eggs",
+      "originalText": "whites and yolks of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of 1 lemon",
+      "originalText": "juice of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together bread crumbs, suet, sugar, salt, and flour, adding grated lemon rind",
+      "section": null
+    },
+    {
+      "text": "Moisten with well beaten egg whites and yolks and strained lemon juice",
+      "section": null
+    },
+    {
+      "text": "Stir well together and put mixture into small buttered cups",
+      "section": null
+    },
+    {
+      "text": "Tie down with cloth dipped in flour",
+      "section": null
+    },
+    {
+      "text": "Boil three-quarters of an hour",
+      "section": null
+    },
+    {
+      "text": "Turn out on a dish, strew sifted sugar over them and serve with wine sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together bread crumbs, suet, sugar, salt, and flour, adding grated lemon rind\n2. Moisten with well beaten egg whites and yolks and strained lemon juice\n3. Stir well together and put mixture into small buttered cups\n4. Tie down with cloth dipped in flour\n5. Boil three-quarters of an hour\n6. Turn out on a dish, strew sifted sugar over them and serve with wine sauce",
+    "originalIngredients": [
+      "1 pint grated bread crumbs",
+      "1/2 cupful chopped suet",
+      "1/2 cupful moist sugar",
+      "salt",
+      "1 small tablespoonful flour",
+      "grated rind of 1 lemon",
+      "whites and yolks of 2 eggs",
+      "juice of 1 lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

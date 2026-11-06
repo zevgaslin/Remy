@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "0e252e57-84b2-5b6c-887f-dab4eaf947a5",
+  "name": "Green Corn Muffins",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "corn, boiled",
+      "originalText": "corn, boiled",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one quart milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Having boiled the corn, grate it, as if for a pudding.",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs very light, and stir them gradually into a quart of milk.",
+      "section": null
+    },
+    {
+      "text": "Then stir in, by degrees, the grated corn, till you have a moderately thick batter.",
+      "section": null
+    },
+    {
+      "text": "Add a salt-spoon of salt.",
+      "section": null
+    },
+    {
+      "text": "Butter the inside of your muffin-rings.",
+      "section": null
+    },
+    {
+      "text": "Place them on a hot griddle, over a clear fire, and nearly fill them with the batter.",
+      "section": null
+    },
+    {
+      "text": "Bake the muffins well, and send them to table hot.",
+      "section": null
+    },
+    {
+      "text": "Eat them with butter.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/green-corn-muffins.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Having boiled the corn, grate it, as if for a pudding.\n2. Beat six eggs very light, and stir them gradually into a quart of milk.\n3. Then stir in, by degrees, the grated corn, till you have a moderately thick batter.\n4. Add a salt-spoon of salt.\n5. Butter the inside of your muffin-rings.\n6. Place them on a hot griddle, over a clear fire, and nearly fill them with the batter.\n7. Bake the muffins well, and send them to table hot.\n8. Eat them with butter.",
+    "originalIngredients": [
+      "corn, boiled",
+      "six eggs",
+      "one quart milk",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}
