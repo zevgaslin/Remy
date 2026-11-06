@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { MealEatenControl } from '../context/MealLogContext';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
@@ -190,17 +190,20 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
         className="recipe-picker-popup"
         style={{
           position: 'fixed',
-          top: Math.min(y, window.innerHeight - 300),
-          left: Math.min(x, window.innerWidth - 250),
-          background: 'white',
-          border: '1px solid #ccc',
+          top: Math.max(8, Math.min(y, window.innerHeight - 300)),
+          left: Math.max(8, Math.min(x, window.innerWidth - 250)),
+          background: 'var(--bg)',
+          color: 'var(--text-h)',
+          border: '1px solid var(--border)',
           zIndex: 1000,
           padding: '12px',
           borderRadius: '8px',
           width: '250px',
+          maxWidth: 'calc(100vw - 16px)',
+          boxSizing: 'border-box',
           maxHeight: '300px',
           overflowY: 'auto',
-          boxShadow: '0 8px 16px rgba(0,0,0,0.15)',
+          boxShadow: 'var(--shadow)',
         }}
       >
         <div
@@ -231,7 +234,7 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
               width: '100%',
               padding: '6px 8px',
               borderRadius: '4px',
-              border: '1px solid #ccc',
+              border: '1px solid var(--border)',
               boxSizing: 'border-box',
               fontSize: '0.85rem',
             }}
@@ -244,7 +247,7 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
         )}
 
         {loading ? (
-          <p style={{ fontSize: '0.9rem', color: 'gray' }}>Loading recipes...</p>
+          <p style={{ fontSize: '0.9rem', color: 'var(--text)' }}>Loading recipes...</p>
         ) : error ? (
           <div role="alert">
             <p>{error}</p>
@@ -263,12 +266,12 @@ function RecipePickerPopup({ x, y, onClose, onSelect }) {
                 key={r.id}
                 style={{
                   padding: '8px',
-                  borderBottom: '1px solid #eee',
+                  borderBottom: '1px solid var(--border)',
                   cursor: 'pointer',
                   fontSize: '0.9rem',
                 }}
                 onClick={() => onSelect(r)}
-                onMouseEnter={(e) => (e.currentTarget.style.background = '#f5f5f5')}
+                onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--code-bg)')}
                 onMouseLeave={(e) => (e.currentTarget.style.background = 'transparent')}
               >
                 {r.name}
@@ -308,7 +311,7 @@ function AddMealModal({ day, showApplyAllOption, onClose, onAdd }) {
         style={{
           position: 'fixed',
           inset: 0,
-          background: 'rgba(0, 0, 0, 0.3)',
+          background: 'var(--backdrop)',
           zIndex: 999,
         }}
         onClick={onClose}
@@ -323,13 +326,16 @@ function AddMealModal({ day, showApplyAllOption, onClose, onAdd }) {
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          background: 'white',
-          border: '1px solid #ccc',
+          background: 'var(--bg)',
+          color: 'var(--text-h)',
+          border: '1px solid var(--border)',
           borderRadius: '8px',
           padding: '16px',
           width: '300px',
+          maxWidth: 'calc(100vw - 32px)',
+          boxSizing: 'border-box',
           zIndex: 1000,
-          boxShadow: '0 8px 24px rgba(0,0,0,0.2)',
+          boxShadow: 'var(--shadow)',
         }}
       >
         <div
@@ -364,7 +370,7 @@ function AddMealModal({ day, showApplyAllOption, onClose, onAdd }) {
               onChange={(e) => setLabel(e.target.value)}
               autoFocus
               required
-              style={{ padding: '6px 8px', borderRadius: '4px', border: '1px solid #ccc' }}
+              style={{ padding: '6px 8px', borderRadius: '4px', border: '1px solid var(--border)' }}
             />
           </label>
 
@@ -375,7 +381,7 @@ function AddMealModal({ day, showApplyAllOption, onClose, onAdd }) {
               value={time}
               onChange={(e) => setTime(e.target.value)}
               required
-              style={{ padding: '6px 8px', borderRadius: '4px', border: '1px solid #ccc' }}
+              style={{ padding: '6px 8px', borderRadius: '4px', border: '1px solid var(--border)' }}
             />
           </label>
 
@@ -405,8 +411,9 @@ function AddMealModal({ day, showApplyAllOption, onClose, onAdd }) {
               style={{
                 padding: '6px 12px',
                 borderRadius: '4px',
-                border: '1px solid #ccc',
-                background: '#f5f5f5',
+                border: '1px solid var(--border)',
+                background: 'var(--code-bg)',
+                color: 'var(--text-h)',
                 cursor: 'pointer',
               }}
             >
@@ -418,8 +425,8 @@ function AddMealModal({ day, showApplyAllOption, onClose, onAdd }) {
                 padding: '6px 12px',
                 borderRadius: '4px',
                 border: 'none',
-                background: '#2563eb',
-                color: 'white',
+                background: 'var(--accent)',
+                color: 'var(--on-accent)',
                 cursor: 'pointer',
               }}
             >
@@ -466,7 +473,7 @@ function MealCell({
         fontSize: '0.85rem',
         lineHeight: 1,
         padding: '2px 4px',
-        color: '#888',
+        color: 'var(--text)',
         zIndex: 2,
       }}
     >
@@ -707,7 +714,6 @@ function DayViewStrategy({
       <div className="day-timeline-header">
         <div
           className="time-spacer"
-          style={{ width: '115px', minWidth: '115px', flexShrink: 0 }}
         />
         <div
           className="day-header-content today"
@@ -778,8 +784,6 @@ function DayViewStrategy({
                 <div
                   className="timeline-axis-label"
                   style={{
-                    width: '115px',
-                    minWidth: '115px',
                     flexShrink: 0,
                     display: 'flex',
                     alignItems: 'center',
@@ -828,7 +832,7 @@ function DayViewStrategy({
 
       <div
         className="day-nutrition-footer"
-        style={{ borderTop: '1px solid #eee', padding: '12px' }}
+        style={{ borderTop: '1px solid var(--border)', padding: '12px' }}
       >
         <DailyNutritionSummary
           totals={getDailyNutritionTotal(today, plannedMeals, mealSlots)}
@@ -850,13 +854,23 @@ function MultiDayMealGridStrategy({
   onClearMealForDay,
   onOpenPopup,
 }) {
+  const wrapperRef = useRef(null);
+  const firstDayKey = days.length ? dateKey(days[0]) : '';
+
+  // On a phone only a couple of days fit, so start the sideways scroll at today.
+  useEffect(() => {
+    const wrapper = wrapperRef.current;
+    const todayHeader = wrapper?.querySelector('.meal-day-header.today');
+    if (!wrapper || !todayHeader || wrapper.scrollWidth <= wrapper.clientWidth) return;
+    wrapper.scrollLeft = todayHeader.offsetLeft - wrapper.firstElementChild.offsetLeft;
+  }, [firstDayKey]);
+
   return (
-    <div className="meal-calendar-wrapper">
+    <div className="meal-calendar-wrapper" ref={wrapperRef}>
       <div
         className="meal-calendar"
         style={{
-          display: 'grid',
-          gridTemplateColumns: `repeat(${days.length}, minmax(0, 1fr))`,
+          '--day-count': days.length,
           alignItems: 'stretch',
         }}
       >
@@ -943,7 +957,7 @@ function MultiDayMealGridStrategy({
           <div
             key={`nutrition-${dateKey(day)}`}
             className="meal-cell nutrition-cell"
-            style={{ borderTop: '2px solid #ddd', padding: '4px' }}
+            style={{ borderTop: '2px solid var(--border)', padding: '4px' }}
           >
             <DailyNutritionSummary
               totals={getDailyNutritionTotal(day, plannedMeals, getDaySlots(day))}

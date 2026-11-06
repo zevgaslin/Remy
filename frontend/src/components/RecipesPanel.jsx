@@ -210,7 +210,7 @@ function RecipesPanel({ currentUser }) {
             </span>
           )}
         </div>
-        <div style={{ display: 'flex', gap: '0.5rem' }}>
+        <div className="recipes-panel-actions">
           <button type="button" className="auth-button" onClick={() => setShowAddModal(true)} disabled={loading}>
             + Add Recipe
           </button>
@@ -246,36 +246,29 @@ function RecipesPanel({ currentUser }) {
       </div>
 
       {showAddModal && (
-        <div style={{
-          position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, 
-          backgroundColor: 'rgba(0,0,0,0.7)', display: 'flex', 
-          justifyContent: 'center', alignItems: 'flex-start', zIndex: 1000, overflowY: 'auto', padding: '2rem 0'
-        }}>
-          <div style={{
-            background: '#fff', padding: '2rem', borderRadius: '8px', 
-            width: '90%', maxWidth: '800px', color: '#000', marginBottom: '2rem'
-          }}>
-            <h2 style={{ marginTop: 0, borderBottom: '1px solid #ccc', paddingBottom: '1rem' }}>Add Comprehensive Recipe</h2>
+        <div className="recipe-modal-backdrop">
+          <div className="recipe-modal" role="dialog" aria-modal="true" aria-labelledby="recipe-modal-title">
+            <h2 id="recipe-modal-title" className="recipe-modal-title">Add Comprehensive Recipe</h2>
             
             <form onSubmit={handleAddSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
               
-              <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '1rem', border: '1px solid #ddd', padding: '1rem', borderRadius: '4px' }}>
+              <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Basic Details</legend>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div className="recipe-modal-row">
                   <label style={{ flex: 1 }}>Name *<input type="text" name="name" value={recipeForm.name} onChange={handleFormChange} required style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Image URL<input type="url" name="imageUrl" value={recipeForm.imageUrl} onChange={handleFormChange} style={{ width: '100%', padding: '0.5rem' }}/></label>
                 </div>
                 <label>Description<textarea name="description" value={recipeForm.description} onChange={handleFormChange} rows="2" style={{ width: '100%', padding: '0.5rem' }}/></label>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div className="recipe-modal-row">
                   <label style={{ flex: 1 }}>Cuisine<input type="text" name="cuisine" value={recipeForm.cuisine} onChange={handleFormChange} style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Meal Type<input type="text" name="mealType" value={recipeForm.mealType} onChange={handleFormChange} style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Difficulty<input type="text" name="difficulty" value={recipeForm.difficulty} onChange={handleFormChange} style={{ width: '100%', padding: '0.5rem' }}/></label>
                 </div>
               </fieldset>
 
-              <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '1rem', border: '1px solid #ddd', padding: '1rem', borderRadius: '4px' }}>
+              <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Time & Servings</legend>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div className="recipe-modal-row">
                   <label style={{ flex: 1 }}>Prep (Mins)<input type="number" name="prepMinutes" value={recipeForm.prepMinutes} onChange={handleFormChange} min="0" style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Cook (Mins)<input type="number" name="cookMinutes" value={recipeForm.cookMinutes} onChange={handleFormChange} min="0" style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Total (Mins)<input type="number" name="totalMinutes" value={recipeForm.totalMinutes} onChange={handleFormChange} min="0" style={{ width: '100%', padding: '0.5rem' }}/></label>
@@ -285,10 +278,10 @@ function RecipesPanel({ currentUser }) {
                 <label>Yield Text (e.g., "1 9-inch pie")<input type="text" name="yieldText" value={recipeForm.yieldText} onChange={handleFormChange} style={{ width: '100%', padding: '0.5rem' }}/></label>
               </fieldset>
 
-              <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '1rem', border: '1px solid #ddd', padding: '1rem', borderRadius: '4px' }}>
+              <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Ingredients *</legend>
                 {recipeForm.ingredients.map((ing, i) => (
-                  <div key={i} style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'flex-end', background: '#f9f9f9', padding: '1rem', borderRadius: '4px' }}>
+                  <div key={i} className="recipe-modal-ingredient">
                     <label style={{ flex: '1 1 150px' }}>Name *<input type="text" required value={ing.name} onChange={e => handleArrayChange('ingredients', i, 'name', e.target.value)} style={{ width: '100%', padding: '0.25rem' }}/></label>
                     {/* CHANGED TO step="any" */}
                     <label style={{ flex: '0 0 80px' }}>Qty<input type="number" step="any" value={ing.quantity} onChange={e => handleArrayChange('ingredients', i, 'quantity', e.target.value)} style={{ width: '100%', padding: '0.25rem' }}/></label>
@@ -297,17 +290,17 @@ function RecipesPanel({ currentUser }) {
                     <label style={{ flex: '1 1 200px' }}>Original Text<input type="text" value={ing.originalText} onChange={e => handleArrayChange('ingredients', i, 'originalText', e.target.value)} placeholder="1 cup finely chopped onion" style={{ width: '100%', padding: '0.25rem' }}/></label>
                     <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}><input type="checkbox" checked={ing.optional} onChange={e => handleArrayChange('ingredients', i, 'optional', e.target.checked)}/> Optional</label>
                     {recipeForm.ingredients.length > 1 && (
-                      <button type="button" onClick={() => removeArrayItem('ingredients', i)} style={{ padding: '0.25rem 0.5rem', background: '#e53e3e', color: 'white', border: 'none', borderRadius: '4px' }}>X</button>
+                      <button type="button" onClick={() => removeArrayItem('ingredients', i)} className="recipe-modal-remove" aria-label={`Remove ingredient ${i + 1}`}>X</button>
                     )}
                   </div>
                 ))}
-                <button type="button" onClick={() => addArrayItem('ingredients', { name: '', originalText: '', quantity: '', quantityText: '', unit: '', preparation: '', section: '', optional: false })} style={{ padding: '0.5rem', background: '#edf2f7', border: '1px solid #cbd5e0', cursor: 'pointer' }}>+ Add Ingredient</button>
+                <button type="button" onClick={() => addArrayItem('ingredients', { name: '', originalText: '', quantity: '', quantityText: '', unit: '', preparation: '', section: '', optional: false })} className="recipe-modal-add">+ Add Ingredient</button>
               </fieldset>
 
-              <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '1rem', border: '1px solid #ddd', padding: '1rem', borderRadius: '4px' }}>
+              <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Instructions *</legend>
                 {recipeForm.instructions.map((inst, i) => (
-                  <div key={i} style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
+                  <div key={i} className="recipe-modal-step">
                     <label style={{ flex: 1 }}>Step {i + 1} *
                       <textarea required value={inst.text} onChange={e => handleArrayChange('instructions', i, 'text', e.target.value)} rows="2" style={{ width: '100%', padding: '0.5rem', marginTop: '0.25rem' }}/>
                     </label>
@@ -315,16 +308,16 @@ function RecipesPanel({ currentUser }) {
                       <input type="text" value={inst.section} onChange={e => handleArrayChange('instructions', i, 'section', e.target.value)} placeholder="e.g. For the Glaze" style={{ width: '100%', padding: '0.5rem', marginTop: '0.25rem' }}/>
                     </label>
                     {recipeForm.instructions.length > 1 && (
-                      <button type="button" onClick={() => removeArrayItem('instructions', i)} style={{ marginTop: '1.75rem', padding: '0.5rem', background: '#e53e3e', color: 'white', border: 'none', borderRadius: '4px' }}>X</button>
+                      <button type="button" onClick={() => removeArrayItem('instructions', i)} className="recipe-modal-remove recipe-modal-remove--step" aria-label={`Remove step ${i + 1}`}>X</button>
                     )}
                   </div>
                 ))}
-                <button type="button" onClick={() => addArrayItem('instructions', { text: '', section: '' })} style={{ padding: '0.5rem', background: '#edf2f7', border: '1px solid #cbd5e0', cursor: 'pointer' }}>+ Add Instruction Step</button>
+                <button type="button" onClick={() => addArrayItem('instructions', { text: '', section: '' })} className="recipe-modal-add">+ Add Instruction Step</button>
               </fieldset>
 
-              <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '1rem', border: '1px solid #ddd', padding: '1rem', borderRadius: '4px' }}>
+              <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Nutrition</legend>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div className="recipe-modal-row">
                   {/* CHANGED TO step="any" */}
                   <label style={{ flex: 1 }}>Calories<input type="number" step="any" value={recipeForm.nutrition.calories} onChange={e => handleNestedChange('nutrition', 'calories', e.target.value)} style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Protein (g)<input type="number" step="any" value={recipeForm.nutrition.protein} onChange={e => handleNestedChange('nutrition', 'protein', e.target.value)} style={{ width: '100%', padding: '0.5rem' }}/></label>
@@ -333,9 +326,9 @@ function RecipesPanel({ currentUser }) {
                 </div>
               </fieldset>
 
-              <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '1rem', border: '1px solid #ddd', padding: '1rem', borderRadius: '4px' }}>
+              <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Tags & Keywords</legend>
-                <div style={{ display: 'flex', gap: '2rem' }}>
+                <div className="recipe-modal-row recipe-modal-row--wide">
                   <div style={{ flex: 1 }}>
                     <strong>Preference Tags</strong>
                     {recipeForm.preferenceTags.map((tag, i) => (
@@ -360,9 +353,9 @@ function RecipesPanel({ currentUser }) {
                 </div>
               </fieldset>
 
-              <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '1rem', border: '1px solid #ddd', padding: '1rem', borderRadius: '4px' }}>
+              <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Source</legend>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div className="recipe-modal-row">
                   <label>Type
                     <select value={recipeForm.source.kind} onChange={e => handleNestedChange('source', 'kind', e.target.value)} style={{ width: '100%', padding: '0.5rem' }}>
                       <option value="manual">Manual</option>
@@ -375,9 +368,9 @@ function RecipesPanel({ currentUser }) {
                 <label>URL<input type="url" value={recipeForm.source.url} onChange={e => handleNestedChange('source', 'url', e.target.value)} style={{ width: '100%', padding: '0.5rem' }}/></label>
               </fieldset>
 
-              <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem', marginTop: '1rem', borderTop: '1px solid #ccc', paddingTop: '1rem' }}>
-                <button type="button" onClick={() => setShowAddModal(false)} style={{ padding: '0.75rem 1.5rem', background: '#ccc', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '1rem' }}>Cancel</button>
-                <button type="submit" style={{ padding: '0.75rem 1.5rem', background: '#ed8936', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '1rem', fontWeight: 'bold' }}>Save Recipe</button>
+              <div className="recipe-modal-actions">
+                <button type="button" className="recipe-modal-cancel" onClick={() => setShowAddModal(false)}>Cancel</button>
+                <button type="submit" className="recipe-modal-save">Save Recipe</button>
               </div>
             </form>
           </div>
@@ -401,8 +394,8 @@ function RecipesPanel({ currentUser }) {
           </label>
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem', width: '100%', alignItems: 'flex-end' }}>
-          <label className="recipe-search-field" style={{ flex: 1, margin: 0 }}>
+        <div className="recipe-search-row">
+          <label className="recipe-search-field recipe-ingredient-field" style={{ flex: 1, margin: 0 }}>
             <span>Ingredients</span>
             <input
               type="search"
@@ -423,7 +416,7 @@ function RecipesPanel({ currentUser }) {
             </select>
           </label>
 
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <div className="recipe-search-buttons">
             <button type="submit" className="recipe-search-submit" disabled={loading} style={{ margin: 0, height: '100%' }}>
               Search
             </button>

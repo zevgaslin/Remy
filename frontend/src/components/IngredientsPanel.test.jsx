@@ -1,15 +1,24 @@
 // @vitest-environment jsdom
 import '@testing-library/jest-dom/vitest';
-import { render, screen, fireEvent, act, cleanup, within } from '@testing-library/react';
+import { render, screen, fireEvent, act, cleanup } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import IngredientsPanel, { plannedMealsSubject, setSharedPlannedMeals } from './IngredientsPanel';
+import IngredientsPanel, { setSharedPlannedMeals } from './IngredientsPanel';
 import * as ingredientServices from '../services/ingredientServices';
 import * as trashSounds from '../utils/trashSounds';
+import * as groceryListServices from '../services/groceryListServices';
 
 vi.mock('../services/ingredientServices', () => ({
   getMyIngredients: vi.fn(),
   deleteIngredient: vi.fn(),
 }));
+
+vi.mock('../services/groceryListServices', () => ({
+  getGroceryList: vi.fn(),
+  setGroceryItemChecked: vi.fn(),
+  clearCheckedGroceryItems: vi.fn(),
+}));
+
+const emptyGroceryList = { from: '2030-01-01', to: '2030-01-07', plannedMeals: 0, items: [] };
 
 vi.mock('../utils/trashSounds', () => ({
   playLidSound: vi.fn(),
@@ -32,6 +41,7 @@ afterEach(() => {
 // so reset them before every test to keep tests independent.
 beforeEach(() => {
   setSharedPlannedMeals({});
+  groceryListServices.getGroceryList.mockResolvedValue(emptyGroceryList);
 });
 
 async function renderPanel() {
@@ -162,93 +172,23 @@ describe('IngredientsPanel pantry quantities', () => {
   });
 });
 
-describe('IngredientsPanel shopping cart (Observer)', () => {
+describe('IngredientsPanel grocery list (Observer)', () => {
   beforeEach(() => {
     vi.clearAllMocks();
     ingredientServices.getMyIngredients.mockResolvedValue(ingredients);
+    groceryListServices.getGroceryList.mockResolvedValue(emptyGroceryList);
   });
 
-  function getCart() {
-    return screen.getByRole('heading', { name: 'Shopping Cart' }).closest('section');
-  }
-
-  it('excludes cooking water but keeps purchased water products and other ingredients', async () => {
+  it('shows the grocery list under the pantry and reloads it when the calendar changes', async () => {
     await renderPanel();
-    const recipeIngredients = ['Boiling water', { name: 'Water, chilled', quantity: 2, unit: 'cup' },
-      'Pot of water', 'Very Hot Water', 'Water to thin peanut sauce', 'Coconut water', 'Water chestnuts',
-      'Sparkling water', 'Chicken broth or water', 'Rice'];
-    await act(async () => {
-      setSharedPlannedMeals({ dinner: { name: 'Water test recipe', ingredients: recipeIngredients } });
-    });
-    const cart = within(getCart());
-    for (const name of ['Boiling water', 'Water, chilled', 'Pot of water', 'Very Hot Water', 'Water to thin peanut sauce']) {
-      expect(cart.queryByText(name)).not.toBeInTheDocument();
-    }
-    for (const name of ['Coconut water', 'Water chestnuts', 'Sparkling water', 'Chicken broth or water', 'Rice']) {
-      expect(cart.getByText(name)).toBeInTheDocument();
-    }
-    expect(recipeIngredients).toHaveLength(10);
-  });
-
-  it('shows an empty message when no recipes are planned', async () => {
-    await renderPanel();
-
-    expect(within(getCart()).getByText(/Nothing to buy/i)).toBeInTheDocument();
-  });
-
-  it('lists ingredients that are not in the pantry, with the amount to buy', async () => {
-    await renderPanel();
+    expect(screen.getByRole('heading', { name: 'Grocery List' })).toBeInTheDocument();
+    expect(groceryListServices.getGroceryList).toHaveBeenCalledTimes(1);
+    expect(groceryListServices.getGroceryList).toHaveBeenCalledWith('abc', expect.any(String), expect.any(String));
 
     await act(async () => {
-      setSharedPlannedMeals({
-        '2026-10-18::dinner': {
-          name: 'Cheese Omelet',
-          ingredients: [{ name: 'Cheddar', quantity: 2, unit: 'cup' }],
-        },
-      });
+      setSharedPlannedMeals({ '2026-10-18::dinner': { id: 5, name: 'Cheese Omelet' } });
     });
 
-    const cart = within(getCart());
-    expect(cart.getByText('Cheddar')).toBeInTheDocument();
-    expect(cart.getByText('2 cup')).toBeInTheDocument();
-    expect(cart.getByText('Cheese Omelet')).toBeInTheDocument();
-  });
-
-  it('only lists the amount still needed when the pantry has part of it', async () => {
-    await renderPanel();
-
-    await act(async () => {
-      setSharedPlannedMeals({
-        '2026-10-18::breakfast': {
-          name: 'Milk Pudding',
-          ingredients: [{ name: 'Milk', quantity: 3, unit: 'bottle' }],
-        },
-      });
-    });
-
-    // Pantry has 1 bottle, recipe needs 3, so 2 are still needed
-    const cart = within(getCart());
-    expect(cart.getByText('Milk')).toBeInTheDocument();
-    expect(cart.getByText('2 bottle')).toBeInTheDocument();
-  });
-
-  it('converts units, so 0.25 cup owned and 0.5 cup needed leaves 0.25 cup', async () => {
-    ingredientServices.getMyIngredients.mockResolvedValue([
-      { id: 20, name: 'Onion', quantity: 0.25, unit: 'cup', expirationDate: '2099-01-01' },
-    ]);
-    await renderPanel();
-
-    await act(async () => {
-      setSharedPlannedMeals({
-        '2026-10-18::lunch': {
-          name: 'Onion Soup',
-          ingredients: [{ name: 'Onion', quantity: 0.5, unit: 'cup' }],
-        },
-      });
-    });
-
-    const cart = within(getCart());
-    expect(cart.getByText('Onion')).toBeInTheDocument();
-    expect(cart.getByText('0.25 cup')).toBeInTheDocument();
+    expect(groceryListServices.getGroceryList).toHaveBeenCalledTimes(2);
   });
 });

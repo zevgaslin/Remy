@@ -26,3 +26,10 @@
 .meal-eaten-control { padding: 6px; display: flex; flex-direction: column; gap: 6px; font-size: .75rem; }
 .meal-eaten-control label { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }.meal-eaten-control input { width: 58px; padding: 3px; }
 .meal-eaten-badge { color: var(--accent); font-weight: 600; }.meal-eaten-control p { color: var(--urgent); }
+@media (max-width: 720px) {
+  .weekly-recap { margin: 0; padding: 16px; }
+  .recap-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .recap-stats article { padding: 12px; }
+  .recap-stats strong { font-size: 1.25rem; }
+  .recap-days li { flex-wrap: wrap; }
+}

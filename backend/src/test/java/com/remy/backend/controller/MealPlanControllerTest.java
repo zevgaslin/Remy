@@ -2,6 +2,8 @@ package com.remy.backend.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.remy.backend.model.Role;
+import com.remy.backend.repository.UserRepository;
 import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
@@ -29,6 +31,9 @@ class MealPlanControllerTest {
 
     @Autowired
     private TestRestTemplate restTemplate;
+
+    @Autowired
+    private UserRepository userRepository;
 
     @Test
     void plannedMealsAreSavedPerUserAndReplaceable() {
@@ -89,7 +94,13 @@ class MealPlanControllerTest {
 
         Long toast = createRecipe("Avocado Toast");
         plan(user, DAY, "breakfast", toast);
-        restTemplate.exchange("/api/recipes/{id}", HttpMethod.DELETE, new HttpEntity<>(user), Map.class, toast);
+        HttpHeaders admin = login("plan_admin");
+        userRepository.findByUsername("plan_admin").ifPresent(account -> {
+            account.setRole(Role.ADMIN);
+            userRepository.save(account);
+        });
+        assertThat(restTemplate.exchange("/api/recipes/{id}", HttpMethod.DELETE, new HttpEntity<>(admin), Map.class, toast)
+                .getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat((List) getPlan(user, "2030-03-01").get("meals")).isEmpty();
     }
 

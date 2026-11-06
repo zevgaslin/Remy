@@ -20,13 +20,25 @@
   --recipe-accent-bg: rgba(221, 106, 53, 0.12);
   --recipe-accent-border: rgba(221, 106, 53, 0.5);
 
+  /* Text on solid accent, urgent, and recipe-accent fills. */
+  --on-accent: #fff;
+  --badge: #d95757;
+  --on-badge: #fff;
+  --danger: #e53e3e;
+  --notice-bg: #fff4f2;
+  --notice-border: #f4b6b6;
+  --notice-title: #9d2c2c;
+  --notice-text: #5c2d2d;
+  --now-line: #ea4335;
+  --backdrop: rgba(0, 0, 0, 0.4);
+
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: light;
   color: var(--text);
   background: var(--page-bg);
   font-synthesis: none;
@@ -39,8 +51,13 @@
   }
 }
 
+/*
+  Dark theme. "System" (no data-theme on <html>) follows the OS setting;
+  the theme toggle sets data-theme="light" or "dark" to override it.
+  The two blocks must stay identical.
+*/
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
@@ -61,11 +78,54 @@
     --recipe-accent: #ff9466;
     --recipe-accent-bg: rgba(255, 148, 102, 0.16);
     --recipe-accent-border: rgba(255, 148, 102, 0.5);
-  }
 
-  #social .button-icon {
-    filter: invert(1) brightness(2);
+    --on-accent: #16171d;
+    --badge: #e05d5d;
+    --on-badge: #fff;
+    --danger: #f56565;
+    --notice-bg: rgba(255, 122, 104, 0.1);
+    --notice-border: rgba(255, 122, 104, 0.35);
+    --notice-title: #ff9a8b;
+    --notice-text: #f1c7c0;
+    --now-line: #ff6b5e;
+    --backdrop: rgba(0, 0, 0, 0.6);
+    color-scheme: dark;
   }
+}
+
+:root[data-theme='dark'] {
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  --bg: #16171d;
+  --page-bg: #0d0e12;
+  --border: #2e303a;
+  --code-bg: #1f2028;
+  --accent: #c084fc;
+  --accent-bg: rgba(192, 132, 252, 0.15);
+  --accent-border: rgba(192, 132, 252, 0.5);
+  --social-bg: rgba(47, 48, 58, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+
+  --urgent: #ff7a68;
+  --urgent-bg: rgba(255, 122, 104, 0.16);
+  --warning: #e3a854;
+  --warning-bg: rgba(227, 168, 84, 0.16);
+  --recipe-accent: #ff9466;
+  --recipe-accent-bg: rgba(255, 148, 102, 0.16);
+  --recipe-accent-border: rgba(255, 148, 102, 0.5);
+
+  --on-accent: #16171d;
+  --badge: #e05d5d;
+  --on-badge: #fff;
+  --danger: #f56565;
+  --notice-bg: rgba(255, 122, 104, 0.1);
+  --notice-border: rgba(255, 122, 104, 0.35);
+  --notice-title: #ff9a8b;
+  --notice-text: #f1c7c0;
+  --now-line: #ff6b5e;
+  --backdrop: rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
 }
 
 body {

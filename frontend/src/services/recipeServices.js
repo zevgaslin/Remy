@@ -275,9 +275,11 @@ export async function updateRecipe(id, recipeData) {
   return data;
 }
 
-export async function deleteRecipe(id) {
+// Admin-only: the backend answers 401 without a token and 403 for non-admins.
+export async function deleteRecipe(id, token) {
   const response = await fetch(`${API_BASE}/recipes/${id}`, {
     method: 'DELETE',
+    headers: { Authorization: `Bearer ${token}` },
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
