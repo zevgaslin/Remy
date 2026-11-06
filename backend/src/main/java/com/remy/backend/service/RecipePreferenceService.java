@@ -87,10 +87,9 @@ public class RecipePreferenceService {
         return reactions;
     }
 
-    /** Liked recipes, most recently liked first. */
+    /** Favorited recipes, the user's highest-rated first, then most recently favorited. */
     @Transactional(readOnly = true)
     public List<Recipe> favorites(Long userId) {
-        return recipeReads.findInOrder(
-                recipePreferenceRepository.findRecipeIdsByUserIdAndPreference(userId, PreferenceType.LIKE));
+        return recipeReads.findInOrder(recipePreferenceRepository.findFavoriteIdsByRating(userId));
     }
 }

@@ -87,10 +87,12 @@ export async function searchRecipes({
   requireAllIngredients = false,
   limit = 20,
   random = false,
+  token,
 } = {}) {
+  // Signed-in searches send the token so the user's star ratings lift their favorites.
   const response = await fetch(`${API_BASE}/recipes/search`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}) },
     body: JSON.stringify({ query, ingredients, expiringIngredients, preferences, requireAllIngredients, limit, random }),
   });
   const data = await response.json().catch(() => []);
@@ -192,6 +194,44 @@ export async function getRecipeReactions(token) {
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
     throw new Error(data.error || 'Could not load your recipe ratings.');
+  }
+  return data;
+}
+
+// Every recipe the user rated, as { [recipeId]: 1-5 }.
+export async function getMyRatings(token) {
+  const response = await fetch(`${API_BASE}/recipes/ratings`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not load your recipe ratings.');
+  }
+  return data;
+}
+
+// Returns { recipeId, stars, average, count }.
+export async function rateRecipe(token, recipeId, stars) {
+  const response = await fetch(`${API_BASE}/recipes/${recipeId}/rating`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ stars }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not save your rating.');
+  }
+  return data;
+}
+
+export async function clearRecipeRating(token, recipeId) {
+  const response = await fetch(`${API_BASE}/recipes/${recipeId}/rating`, {
+    method: 'DELETE',
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not clear your rating.');
   }
   return data;
 }

@@ -8,6 +8,7 @@ vi.mock('../services/recipeServices', () => ({
   getAllRecipes: vi.fn(), getRecipeFeed: vi.fn(), searchRecipes: vi.fn(),
   likeRecipe: vi.fn(), dislikeRecipe: vi.fn(), clearRecipePreference: vi.fn(),
   getRecipeReactions: vi.fn(), getFavoriteRecipes: vi.fn(),
+  getMyRatings: vi.fn(), rateRecipe: vi.fn(), clearRecipeRating: vi.fn(),
 }));
 vi.mock('../services/ingredientServices', () => ({ getMyIngredients: vi.fn() }));
 
@@ -17,6 +18,7 @@ beforeEach(() => {
   recipes.getRecipeFeed.mockResolvedValue([]);
   getMyIngredients.mockResolvedValue([]);
   recipes.getRecipeReactions.mockResolvedValue({});
+  recipes.getMyRatings.mockResolvedValue({});
 });
 
 describe('useRecipes', () => {
@@ -130,5 +132,47 @@ describe('useRecipes', () => {
     await waitFor(() => expect(result.current.recipes[0]?.name).toBe('New user feed'));
     await act(async () => { finishOld([{ id: 5, name: 'Old user feed' }]); });
     expect(result.current.recipes).toEqual([{ id: 4, name: 'New user feed' }]);
+  });
+
+  it('loads saved star ratings and sends the token with searches', async () => {
+    recipes.getMyRatings.mockResolvedValue({ 4: 5 });
+    recipes.searchRecipes.mockResolvedValue([]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.ratings).toEqual({ 4: 5 }));
+    await act(async () => { await result.current.search({ query: 'soup' }); });
+    expect(recipes.searchRecipes).toHaveBeenCalledWith(expect.objectContaining({ query: 'soup', token: 'user-token' }));
+  });
+
+  it('rates a recipe, updates its average, and clears it when the same star is chosen again', async () => {
+    recipes.getRecipeFeed.mockResolvedValue([{ id: 3, name: 'Stew', ratingAverage: null, ratingCount: 0 }]);
+    recipes.rateRecipe.mockResolvedValue({ recipeId: 3, stars: 4, average: 4, count: 1 });
+    recipes.clearRecipeRating.mockResolvedValue({ recipeId: 3, stars: null, average: null, count: 0 });
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.recipes).toHaveLength(1));
+
+    await act(async () => { await result.current.setRecipeRating(3, 4); });
+    expect(recipes.rateRecipe).toHaveBeenCalledWith('user-token', 3, 4);
+    expect(result.current.ratings).toEqual({ 3: 4 });
+    expect(result.current.recipes[0]).toMatchObject({ ratingAverage: 4, ratingCount: 1 });
+
+    await act(async () => { await result.current.setRecipeRating(3, 4); });
+    expect(recipes.clearRecipeRating).toHaveBeenCalledWith('user-token', 3);
+    expect(result.current.ratings).toEqual({});
+    expect(result.current.recipes[0]).toMatchObject({ ratingAverage: null, ratingCount: 0 });
+  });
+
+  it('asks guests to log in before rating and keeps a failed rating unchanged', async () => {
+    const guest = renderHook(() => useRecipes());
+    await waitFor(() => expect(guest.result.current.loading).toBe(false));
+    await act(async () => { await guest.result.current.setRecipeRating(1, 3); });
+    expect(guest.result.current.error).toBe('Log in to rate recipes.');
+    expect(recipes.rateRecipe).not.toHaveBeenCalled();
+
+    recipes.rateRecipe.mockRejectedValue(new Error('Could not save your rating.'));
+    const user = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(user.result.current.loading).toBe(false));
+    await act(async () => { await user.result.current.setRecipeRating(1, 3); });
+    expect(user.result.current.error).toBe('Could not save your rating.');
+    expect(user.result.current.ratings).toEqual({});
   });
 });

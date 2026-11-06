@@ -9,6 +9,7 @@ import com.remy.backend.repository.RecipePreferenceRepository;
 import com.remy.backend.security.AdminOnly;
 import com.remy.backend.service.RecipeMatchingService;
 import com.remy.backend.service.RecipePreferenceService;
+import com.remy.backend.service.RecipeRatingService;
 import com.remy.backend.service.SessionTokenService;
 import java.util.List;
 import java.util.Map;
@@ -35,18 +36,21 @@ public class RecipeController {
     private final RecipePreferenceService recipePreferenceService;
     private final SessionTokenService tokenService;
     private final RecipeMatchingService recipeMatchingService;
+    private final RecipeRatingService recipeRatingService;
 
     public RecipeController(
             com.remy.backend.service.RecipeManagementService recipeManagementService,
             RecipePreferenceRepository recipePreferenceRepository,
             RecipePreferenceService recipePreferenceService,
             SessionTokenService tokenService,
-            RecipeMatchingService recipeMatchingService) {
+            RecipeMatchingService recipeMatchingService,
+            RecipeRatingService recipeRatingService) {
         this.recipeManagementService = recipeManagementService;
         this.recipePreferenceRepository = recipePreferenceRepository;
         this.recipePreferenceService = recipePreferenceService;
         this.tokenService = tokenService;
         this.recipeMatchingService = recipeMatchingService;
+        this.recipeRatingService = recipeRatingService;
     }
 
     @GetMapping
@@ -87,12 +91,57 @@ public class RecipeController {
         return ResponseEntity.ok(recipeMatchingService.findMatchesForUser(userId.get(), safeLimit));
     }
 
+    /** Works for guests; a logged-in user's star ratings also lift their top-rated recipes. */
     @PostMapping("/search")
-    public ResponseEntity<?> searchRecipes(@RequestBody RecipeSearchRequest request) {
+    public ResponseEntity<?> searchRecipes(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @RequestBody RecipeSearchRequest request) {
         if (request == null) {
             return ResponseEntity.badRequest().body(Map.of("error", "Search values are required."));
         }
-        return ResponseEntity.ok(recipeMatchingService.search(request));
+        Long userId = tokenService.resolveUserId(authHeader).orElse(null);
+        return ResponseEntity.ok(recipeMatchingService.search(request, userId));
+    }
+
+    /** Recipe ID to 1–5 stars for everything the logged-in user has rated. */
+    @GetMapping("/ratings")
+    public ResponseEntity<?> getMyRatings(
+            @RequestHeader(value = "Authorization", required = false) String authHeader) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to see your ratings."));
+        }
+        return ResponseEntity.ok(recipeRatingService.userRatings(userId.get()));
+    }
+
+    /** Body: { "stars": 1-5 }. */
+    @PutMapping("/{id}/rating")
+    public ResponseEntity<?> rateRecipe(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @PathVariable Long id,
+            @RequestBody(required = false) Map<String, Object> request) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to rate recipes."));
+        }
+        Object stars = request == null ? null : request.get("stars");
+        try {
+            return ResponseEntity.ok(recipeRatingService.rate(userId.get(), id,
+                    stars instanceof Integer whole ? whole : null));
+        } catch (IllegalArgumentException ex) {
+            return ResponseEntity.badRequest().body(Map.of("error", ex.getMessage()));
+        }
+    }
+
+    @DeleteMapping("/{id}/rating")
+    public ResponseEntity<?> clearRecipeRating(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @PathVariable Long id) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to rate recipes."));
+        }
+        return ResponseEntity.ok(recipeRatingService.clear(userId.get(), id));
     }
 
     @GetMapping("/preferences")

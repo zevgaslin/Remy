@@ -17,7 +17,9 @@ public class RecipeReadRepository {
             ORDER BY i.id) FROM recipe_ingredients i WHERE i.recipe_id=r.id), '[]'::jsonb) AS ingredient_rows,
           COALESCE((SELECT jsonb_agg(jsonb_build_object(
             'id', t.id, 'name', t.preference_name, 'value', t.preference_value)
-            ORDER BY t.id) FROM recipe_preference_tags t WHERE t.recipe_id=r.id), '[]'::jsonb) AS tag_rows
+            ORDER BY t.id) FROM recipe_preference_tags t WHERE t.recipe_id=r.id), '[]'::jsonb) AS tag_rows,
+          (SELECT round(avg(rr.stars)::numeric, 1) FROM recipe_ratings rr WHERE rr.recipe_id=r.id) AS rating_average,
+          (SELECT count(*) FROM recipe_ratings rr WHERE rr.recipe_id=r.id) AS rating_count
         FROM recipe r
         """;
     private final NamedParameterJdbcTemplate jdbc;
@@ -43,6 +45,8 @@ public class RecipeReadRepository {
         recipe.setCookMinutes(row.getObject("cook_minutes",Integer.class));
         recipe.setServings(row.getObject("servings",Integer.class));
         recipe.setLikes(row.getInt("likes")); recipe.setDislikes(row.getInt("dislikes"));
+        java.math.BigDecimal ratingAverage=row.getBigDecimal("rating_average");
+        recipe.setRatingSummary(ratingAverage==null?null:ratingAverage.doubleValue(), row.getLong("rating_count"));
         Integer calories=row.getObject("calories",Integer.class), protein=row.getObject("protein",Integer.class);
         Integer carbs=row.getObject("carbs",Integer.class), fat=row.getObject("fat",Integer.class);
         if (calories!=null || protein!=null || carbs!=null || fat!=null)

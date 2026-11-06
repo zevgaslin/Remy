@@ -30,4 +30,11 @@ public interface RecipePreferenceRepository extends JpaRepository<RecipePreferen
             + " and rp.preference = :preference order by rp.id desc")
     List<Long> findRecipeIdsByUserIdAndPreference(
             @Param("userId") Long userId, @Param("preference") com.remy.backend.model.PreferenceType preference);
+
+    /** Favorited recipe IDs, the user's highest-rated first (unrated counts as 3), then most recently favorited. */
+    @Query("select rp.recipe.id from RecipePreference rp"
+            + " left join RecipeRating rr on rr.recipe = rp.recipe and rr.user = rp.user"
+            + " where rp.user.id = :userId and rp.preference = com.remy.backend.model.PreferenceType.LIKE"
+            + " order by coalesce(rr.stars, 3) desc, rp.id desc")
+    List<Long> findFavoriteIdsByRating(@Param("userId") Long userId);
 }
