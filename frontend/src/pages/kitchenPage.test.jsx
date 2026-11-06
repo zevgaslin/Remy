@@ -38,15 +38,18 @@ describe('Kitchen day view', () => {
     getCalendar.mockRejectedValueOnce(new Error('Calendar unavailable')).mockResolvedValue({plannedMeals:{},dailyMealSlots:{}});
     renderPage();expect(await screen.findByRole('alert')).toHaveTextContent('Calendar unavailable');
     fireEvent.click(screen.getByRole('button',{name:'Retry'}));
-    expect(await screen.findByText('No recipes planned for this day')).toBeInTheDocument();
-    expect(screen.getByRole('link',{name:'Meal Planner'})).toHaveAttribute('href','/');
+    expect(await screen.findByText('No meals planned for this day.')).toBeInTheDocument();
+    expect(screen.getByRole('link',{name:'Add meals'})).toHaveAttribute('href',`/?date=${keyFor(new Date())}`);
+    fireEvent.click(screen.getByRole('button',{name:'Next day'}));
+    const tomorrow = new Date(); tomorrow.setDate(tomorrow.getDate()+1);
+    expect(screen.getByRole('link',{name:'Add meals'})).toHaveAttribute('href',`/?date=${keyFor(tomorrow)}`);
   });
   it('ignores an old account request after switching accounts', async () => {
     let resolveOld;
     getCalendar.mockImplementationOnce(() => new Promise(resolve => { resolveOld=resolve; })).mockResolvedValue({plannedMeals:{},dailyMealSlots:{}});
     const view=renderPage();
     useAuth.mockReturnValue({currentUser:{id:2,token:'new-token'}});view.rerender(<MemoryRouter><KitchenPage /></MemoryRouter>);
-    expect(await screen.findByText('No recipes planned for this day')).toBeInTheDocument();
+    expect(await screen.findByText('No meals planned for this day.')).toBeInTheDocument();
     await act(async () => resolveOld({plannedMeals:{[`${keyFor(new Date())}::breakfast`]:recipe('Private old meal')},dailyMealSlots:{}}));
     await waitFor(() => expect(screen.queryByText('Private old meal')).not.toBeInTheDocument());
   });
