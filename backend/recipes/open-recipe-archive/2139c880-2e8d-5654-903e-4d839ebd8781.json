@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "2139c880-2e8d-5654-903e-4d839ebd8781",
+  "name": "Eggs à la Goldenrod",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hard-boiled eggs",
+      "originalText": "3 hard-boiled eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "1/8 teaspoon pepper",
+      "quantity": 0.125,
+      "quantityText": "1/8",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "toast",
+      "originalText": "5 slices toast",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "Parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a thin white sauce with butter, flour, milk, and seasonings.",
+      "section": null
+    },
+    {
+      "text": "Separate yolks from whites of eggs.",
+      "section": null
+    },
+    {
+      "text": "Chop whites finely, and add them to the sauce.",
+      "section": null
+    },
+    {
+      "text": "Cut four slices of toast in halves lengthwise.",
+      "section": null
+    },
+    {
+      "text": "Arrange on platter, and pour over the sauce.",
+      "section": null
+    },
+    {
+      "text": "Force the yolks through a potato ricer or strainer, sprinkling over the top.",
+      "section": null
+    },
+    {
+      "text": "Garnish with parsley and remaining toast, cut in points.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/eggs-la-goldenrod.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a thin white sauce with butter, flour, milk, and seasonings.\n2. Separate yolks from whites of eggs.\n3. Chop whites finely, and add them to the sauce.\n4. Cut four slices of toast in halves lengthwise.\n5. Arrange on platter, and pour over the sauce.\n6. Force the yolks through a potato ricer or strainer, sprinkling over the top.\n7. Garnish with parsley and remaining toast, cut in points.",
+    "originalIngredients": [
+      "3 hard-boiled eggs",
+      "1 tablespoon butter",
+      "1 tablespoon flour",
+      "1 cup milk",
+      "1/2 teaspoon salt",
+      "1/8 teaspoon pepper",
+      "5 slices toast",
+      "Parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

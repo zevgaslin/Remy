@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "1975a10a-b6f9-5f13-9fa7-15612488e3b9",
+  "name": "Sweet Omelet No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "of sugar",
+      "originalText": "two of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "one cupful of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "creamy sauce",
+      "originalText": "creamy sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Let the milk come to a boil",
+      "section": null
+    },
+    {
+      "text": "Beat the flour and butter together",
+      "section": null
+    },
+    {
+      "text": "Add to them gradually the boiling milk and cook eight minutes, stirring often",
+      "section": null
+    },
+    {
+      "text": "Beat the sugar and the yolks of the eggs together",
+      "section": null
+    },
+    {
+      "text": "Add to the cooked mixture and set away to cool",
+      "section": null
+    },
+    {
+      "text": "When cool, beat the whites of the eggs to a stiff froth and add to the mixture",
+      "section": null
+    },
+    {
+      "text": "Bake in a buttered pudding-dish for twenty minutes in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Serve immediately with creamy sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sweet-omelet-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Let the milk come to a boil\n2. Beat the flour and butter together\n3. Add to them gradually the boiling milk and cook eight minutes, stirring often\n4. Beat the sugar and the yolks of the eggs together\n5. Add to the cooked mixture and set away to cool\n6. When cool, beat the whites of the eggs to a stiff froth and add to the mixture\n7. Bake in a buttered pudding-dish for twenty minutes in a moderate oven\n8. Serve immediately with creamy sauce",
+    "originalIngredients": [
+      "one tablespoonful of butter",
+      "two of sugar",
+      "one cupful of milk",
+      "four eggs",
+      "flour",
+      "creamy sauce"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

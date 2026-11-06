@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "9216356a-efce-5e8d-bde3-d5c082eedf94",
+  "name": "Cornstarch Pudding 2",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of 4 eggs",
+      "originalText": "yolks of 4 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "4 tablespoons cornstarch",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little milk",
+      "originalText": "a little milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 4 eggs",
+      "originalText": "whites of 4 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white powdered sugar",
+      "originalText": "4 tablespoons white powdered sugar",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "vanilla",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil 1 quart milk",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks of 4 eggs with 4 tablespoons cornstarch and a little milk",
+      "section": null
+    },
+    {
+      "text": "Stir into the boiling milk and let it boil up once",
+      "section": null
+    },
+    {
+      "text": "Turn into a pudding dish",
+      "section": null
+    },
+    {
+      "text": "Beat the whites of the eggs to a froth and add 4 tablespoons white powdered sugar",
+      "section": null
+    },
+    {
+      "text": "Cover the pudding with the mixture, set in the oven and let brown lightly",
+      "section": null
+    },
+    {
+      "text": "Flavor with vanilla",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cornstarch-pudding-2-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil 1 quart milk\n2. Beat the yolks of 4 eggs with 4 tablespoons cornstarch and a little milk\n3. Stir into the boiling milk and let it boil up once\n4. Turn into a pudding dish\n5. Beat the whites of the eggs to a froth and add 4 tablespoons white powdered sugar\n6. Cover the pudding with the mixture, set in the oven and let brown lightly\n7. Flavor with vanilla",
+    "originalIngredients": [
+      "1 quart milk",
+      "yolks of 4 eggs",
+      "4 tablespoons cornstarch",
+      "a little milk",
+      "whites of 4 eggs",
+      "4 tablespoons white powdered sugar",
+      "vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

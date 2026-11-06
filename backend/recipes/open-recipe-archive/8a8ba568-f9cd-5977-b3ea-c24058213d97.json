@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "8a8ba568-f9cd-5977-b3ea-c24058213d97",
+  "name": "Quick Puff Paste",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bread flour",
+      "originalText": "1 cup bread flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "1 tablespoon lard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cold water",
+      "originalText": "Cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅞ cup butter",
+      "originalText": "⅞ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Work lard into flour, first using knife then tips of fingers",
+      "section": null
+    },
+    {
+      "text": "Moisten to a dough with cold water",
+      "section": null
+    },
+    {
+      "text": "Pat and roll out same as Puff Paste",
+      "section": null
+    },
+    {
+      "text": "Dot paste with small pieces of butter, using one-third the quantity",
+      "section": null
+    },
+    {
+      "text": "Dredge with flour",
+      "section": null
+    },
+    {
+      "text": "Fold from ends toward centre, then double, making four layers",
+      "section": null
+    },
+    {
+      "text": "Pat and roll out",
+      "section": null
+    },
+    {
+      "text": "Repeat until butter is used",
+      "section": null
+    },
+    {
+      "text": "Roll, shape, chill, and bake in a hot oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/quick-puff-paste.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Work lard into flour, first using knife then tips of fingers\n2. Moisten to a dough with cold water\n3. Pat and roll out same as Puff Paste\n4. Dot paste with small pieces of butter, using one-third the quantity\n5. Dredge with flour\n6. Fold from ends toward centre, then double, making four layers\n7. Pat and roll out\n8. Repeat until butter is used\n9. Roll, shape, chill, and bake in a hot oven",
+    "originalIngredients": [
+      "1 cup bread flour",
+      "1 tablespoon lard",
+      "Cold water",
+      "⅞ cup butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

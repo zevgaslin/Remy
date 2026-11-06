@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "d96cb202-672b-5d3c-8826-2b7a6c361b97",
+  "name": "Savoy Biscuits",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the finest loaf-sugar, powdered and sifted",
+      "originalText": "half a pound of the finest loaf-sugar, powdered and sifted",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of a lemon or orange",
+      "originalText": "juice of a lemon or orange",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of sifted flour",
+      "originalText": "a quarter of a pound of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar for grating",
+      "originalText": "loaf-sugar for grating",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Separate the whites from the yolks of four eggs.",
+      "section": null
+    },
+    {
+      "text": "Beat the whites by themselves to a stiff froth.",
+      "section": null
+    },
+    {
+      "text": "Add gradually the yolks, and beat them both together for a long time.",
+      "section": null
+    },
+    {
+      "text": "Add by degrees half a pound of the finest loaf-sugar, powdered and sifted, beating it in very hard.",
+      "section": null
+    },
+    {
+      "text": "Add the juice of a lemon or orange.",
+      "section": null
+    },
+    {
+      "text": "Stir in a quarter of a pound of sifted flour, a little at a time.",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard, and then with a spoon lay it on sheets of white paper, forming it into thin cakes of an oblong or oval shape.",
+      "section": null
+    },
+    {
+      "text": "Take care not to place them too close to each other, lest they run.",
+      "section": null
+    },
+    {
+      "text": "Grate loaf-sugar over the top of each, to assist in keeping them in shape.",
+      "section": null
+    },
+    {
+      "text": "Have the oven quite ready to put them in immediately; it should be rather brisk.",
+      "section": null
+    },
+    {
+      "text": "Bake them in a few minutes, and they should be but slightly coloured.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/savoy-biscuits.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Separate the whites from the yolks of four eggs.\n2. Beat the whites by themselves to a stiff froth.\n3. Add gradually the yolks, and beat them both together for a long time.\n4. Add by degrees half a pound of the finest loaf-sugar, powdered and sifted, beating it in very hard.\n5. Add the juice of a lemon or orange.\n6. Stir in a quarter of a pound of sifted flour, a little at a time.\n7. Stir the whole very hard, and then with a spoon lay it on sheets of white paper, forming it into thin cakes of an oblong or oval shape.\n8. Take care not to place them too close to each other, lest they run.\n9. Grate loaf-sugar over the top of each, to assist in keeping them in shape.\n10. Have the oven quite ready to put them in immediately; it should be rather brisk.\n11. Bake them in a few minutes, and they should be but slightly coloured.",
+    "originalIngredients": [
+      "four eggs",
+      "half a pound of the finest loaf-sugar, powdered and sifted",
+      "juice of a lemon or orange",
+      "a quarter of a pound of sifted flour",
+      "loaf-sugar for grating"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

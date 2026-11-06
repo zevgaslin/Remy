@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "b0ff61aa-eed9-5482-8adf-cacaf39efde3",
+  "name": "Dripping Paste",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh beef-dripping",
+      "originalText": "one pound of fresh beef-dripping",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a quarter of flour",
+      "originalText": "two pounds and a quarter of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "To a pound of fresh beef-dripping that has been nicely clarified, allow two pounds and a quarter of flour.",
+      "section": null
+    },
+    {
+      "text": "Put the flour into a large pan, and mix the dripping with it, rubbing it into the flour with your hands till it is thoroughly incorporated.",
+      "section": null
+    },
+    {
+      "text": "Make it into a stiff dough with a little cold water.",
+      "section": null
+    },
+    {
+      "text": "Roll it out twice.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/dripping-paste.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. To a pound of fresh beef-dripping that has been nicely clarified, allow two pounds and a quarter of flour.\n2. Put the flour into a large pan, and mix the dripping with it, rubbing it into the flour with your hands till it is thoroughly incorporated.\n3. Make it into a stiff dough with a little cold water.\n4. Roll it out twice.",
+    "originalIngredients": [
+      "one pound of fresh beef-dripping",
+      "two pounds and a quarter of flour",
+      "cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

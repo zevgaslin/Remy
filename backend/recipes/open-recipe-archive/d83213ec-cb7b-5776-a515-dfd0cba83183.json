@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "d83213ec-cb7b-5776-a515-dfd0cba83183",
+  "name": "Lemon Water Ice, or Orange",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large juicy lemons",
+      "originalText": "Four large juicy lemons",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "One quart water",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange",
+      "originalText": "One orange",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One and one-quarter pounds sugar",
+      "originalText": "One and one-quarter pounds sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White of one egg",
+      "originalText": "White of one egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "One tablespoon sugar",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put sugar and water on to boil",
+      "section": null
+    },
+    {
+      "text": "Chip yellow rind from three lemons and the orange",
+      "section": null
+    },
+    {
+      "text": "Add to the syrup",
+      "section": null
+    },
+    {
+      "text": "Boil five minutes and stand to cool",
+      "section": null
+    },
+    {
+      "text": "Squeeze juice from lemons and orange",
+      "section": null
+    },
+    {
+      "text": "Add to cold syrup",
+      "section": null
+    },
+    {
+      "text": "Strain and freeze",
+      "section": null
+    },
+    {
+      "text": "Just before removing, add white of one egg beaten very stiff with one tablespoon sugar, to make white and frothy",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/lemon-water-ice-or-orange.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put sugar and water on to boil\n2. Chip yellow rind from three lemons and the orange\n3. Add to the syrup\n4. Boil five minutes and stand to cool\n5. Squeeze juice from lemons and orange\n6. Add to cold syrup\n7. Strain and freeze\n8. Just before removing, add white of one egg beaten very stiff with one tablespoon sugar, to make white and frothy",
+    "originalIngredients": [
+      "Four large juicy lemons",
+      "One quart water",
+      "One orange",
+      "One and one-quarter pounds sugar",
+      "White of one egg",
+      "One tablespoon sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "c20aea36-99be-58b4-b5ad-156be8d5727e",
+  "name": "Christmas Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "13 1/2 pounds flour",
+      "quantity": 13.5,
+      "quantityText": "13 1/2",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 pound butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "moist brown sugar",
+      "originalText": "12 ounces moist brown sugar",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "3 pounds currants",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron peel",
+      "originalText": "1/2 pound citron peel",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "2 teaspoons vinegar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ground almonds",
+      "originalText": "4 ounces ground almonds",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Warm the butter slightly to make it beat easily, but not oily",
+      "section": null
+    },
+    {
+      "text": "Put it into a bowl with the sugar and beat both to a cream",
+      "section": null
+    },
+    {
+      "text": "Sift the flour and mix it in, a tablespoon at a time",
+      "section": null
+    },
+    {
+      "text": "Add the currants washed and dried, the peel chopped fine, the ground almonds and the soda",
+      "section": null
+    },
+    {
+      "text": "When all these are mixed, add the yolks beaten to a froth",
+      "section": null
+    },
+    {
+      "text": "Mix for five minutes",
+      "section": null
+    },
+    {
+      "text": "Add the whites of the eggs beaten to a froth",
+      "section": null
+    },
+    {
+      "text": "Add lastly the vinegar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/christmas-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Warm the butter slightly to make it beat easily, but not oily\n2. Put it into a bowl with the sugar and beat both to a cream\n3. Sift the flour and mix it in, a tablespoon at a time\n4. Add the currants washed and dried, the peel chopped fine, the ground almonds and the soda\n5. When all these are mixed, add the yolks beaten to a froth\n6. Mix for five minutes\n7. Add the whites of the eggs beaten to a froth\n8. Add lastly the vinegar",
+    "originalIngredients": [
+      "13 1/2 pounds flour",
+      "1 pound butter",
+      "12 ounces moist brown sugar",
+      "3 pounds currants",
+      "1/2 pound citron peel",
+      "5 eggs",
+      "2 teaspoons vinegar",
+      "1 teaspoon soda",
+      "4 ounces ground almonds"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "a8f68279-1408-58a3-83e3-461a21db6c36",
+  "name": "Rusks with Yeast",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large coffeecup of warm milk",
+      "originalText": "one large coffeecup of warm milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a cake of compressed yeast, or three tablespoonfuls of home-made yeast",
+      "originalText": "half a cake of compressed yeast, or three tablespoonfuls of home-made yeast",
+      "quantity": null,
+      "quantityText": "half a cake of compressed yeast, or three tablespoonfuls of home-made yeast",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "three well-beaten eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small cup of sugar",
+      "originalText": "one small cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dried currants",
+      "originalText": "dried currants",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dissolve half a cake of compressed yeast, or three tablespoonfuls of home-made yeast, in one large coffeecup of warm milk",
+      "section": null
+    },
+    {
+      "text": "Add three well-beaten eggs, a small cup of sugar and a teaspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Beat these together",
+      "section": null
+    },
+    {
+      "text": "Use flour enough to make a smooth, light dough",
+      "section": null
+    },
+    {
+      "text": "Let it stand until very light",
+      "section": null
+    },
+    {
+      "text": "Knead it in the form of biscuits",
+      "section": null
+    },
+    {
+      "text": "Place them on buttered tins and let them rise until they are almost up to the edge of the tins",
+      "section": null
+    },
+    {
+      "text": "Pierce the top of each one",
+      "section": null
+    },
+    {
+      "text": "Glaze the top of each with sugar and milk, or the white of an egg, before baking",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rusks-with-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dissolve half a cake of compressed yeast, or three tablespoonfuls of home-made yeast, in one large coffeecup of warm milk\n2. Add three well-beaten eggs, a small cup of sugar and a teaspoonful of salt\n3. Beat these together\n4. Use flour enough to make a smooth, light dough\n5. Let it stand until very light\n6. Knead it in the form of biscuits\n7. Place them on buttered tins and let them rise until they are almost up to the edge of the tins\n8. Pierce the top of each one\n9. Glaze the top of each with sugar and milk, or the white of an egg, before baking\n10. Bake in a quick oven",
+    "originalIngredients": [
+      "one large coffeecup of warm milk",
+      "half a cake of compressed yeast, or three tablespoonfuls of home-made yeast",
+      "three well-beaten eggs",
+      "one small cup of sugar",
+      "one teaspoonful of salt",
+      "flour",
+      "dried currants"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

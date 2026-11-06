@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "1aac0169-1c82-57b0-9346-d740190240d8",
+  "name": "Four-Hour Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "potato water",
+      "originalText": "potato water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "potatoes",
+      "originalText": "6 potatoes",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 cups flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 cup salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "On the day before the baking is to be done, drain the water in which the potatoes for dinner have been boiled into a small pail or crock, add 6 potatoes mashed fine, and when it has cooled add 2 cups flour, 1 cup sugar, about 1/2 cup salt, and enough warm water to make three quarts.",
+      "section": null
+    },
+    {
+      "text": "Add a White Swan Yeast Cake and set away in a warm place until the next day.",
+      "section": null
+    },
+    {
+      "text": "When ready to bake set this pail or crock in a pan of warm water until it is warm (not hot), then add flour enough to knead into a stiff dough.",
+      "section": null
+    },
+    {
+      "text": "Let it rise; when light, knead again and put in tins.",
+      "section": null
+    },
+    {
+      "text": "Let it rise again and bake.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/four-hour-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. On the day before the baking is to be done, drain the water in which the potatoes for dinner have been boiled into a small pail or crock, add 6 potatoes mashed fine, and when it has cooled add 2 cups flour, 1 cup sugar, about 1/2 cup salt, and enough warm water to make three quarts.\n2. Add a White Swan Yeast Cake and set away in a warm place until the next day.\n3. When ready to bake set this pail or crock in a pan of warm water until it is warm (not hot), then add flour enough to knead into a stiff dough.\n4. Let it rise; when light, knead again and put in tins.\n5. Let it rise again and bake.",
+    "originalIngredients": [
+      "potato water",
+      "6 potatoes",
+      "2 cups flour",
+      "1 cup sugar",
+      "1/2 cup salt",
+      "warm water",
+      "1 White Swan Yeast Cake"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

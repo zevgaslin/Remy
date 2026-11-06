@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "df9a047e-ff85-5f7c-902d-0bae17bda3a9",
+  "name": "Almond Macaroons",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet almonds blanched and pounded fine",
+      "originalText": "6 ounces sweet almonds blanched and pounded fine",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 2 eggs",
+      "originalText": "whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "12 ounces powdered sugar",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Blanch and pound fine 6 ounces sweet almonds",
+      "section": null
+    },
+    {
+      "text": "Mix in a large bowl the whites of 2 eggs and 12 ounces powdered sugar",
+      "section": null
+    },
+    {
+      "text": "Beat with a wooden spoon for 5 minutes",
+      "section": null
+    },
+    {
+      "text": "Drop through pastry tube in pieces about the size of a quarter on sheets of buttered paper, in baking pans",
+      "section": null
+    },
+    {
+      "text": "Bake in a slow oven until cakes are golden brown",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/almond-macaroons-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Blanch and pound fine 6 ounces sweet almonds\n2. Mix in a large bowl the whites of 2 eggs and 12 ounces powdered sugar\n3. Beat with a wooden spoon for 5 minutes\n4. Drop through pastry tube in pieces about the size of a quarter on sheets of buttered paper, in baking pans\n5. Bake in a slow oven until cakes are golden brown",
+    "originalIngredients": [
+      "6 ounces sweet almonds blanched and pounded fine",
+      "whites of 2 eggs",
+      "12 ounces powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "8e660136-2656-5ede-9de0-9a79839980a4",
+  "name": "Beef Croquettes No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cold, cooked, lean beef",
+      "originalText": "one cup of cold, cooked, lean beef",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fat",
+      "originalText": "half a cup of fat",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a cup of cold boiled or fried ham or cold pork",
+      "originalText": "half a cup of cold boiled or fried ham or cold pork",
+      "quantity": null,
+      "quantityText": "half a cup of cold boiled or fried ham or cold pork",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "a slice of onion",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "half a teaspoonful of pepper",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a teaspoonful of powdered sage or parsley",
+      "originalText": "a teaspoonful of powdered sage or parsley",
+      "quantity": null,
+      "quantityText": "a teaspoonful of powdered sage or parsley",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a cup of stock or milk",
+      "originalText": "half a cup of stock or milk",
+      "quantity": null,
+      "quantityText": "half a cup of stock or milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "a beaten egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs or flour",
+      "originalText": "bread crumbs or flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot lard or beef drippings",
+      "originalText": "hot lard or beef drippings",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs of parsley",
+      "originalText": "sprigs of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop fine one cup of cold, cooked, lean beef",
+      "section": null
+    },
+    {
+      "text": "Chop fine half a cup of fat and half a cup of cold boiled or fried ham or cold pork",
+      "section": null
+    },
+    {
+      "text": "Mince up a slice of onion",
+      "section": null
+    },
+    {
+      "text": "Season all with a teaspoonful of salt, half a teaspoonful of pepper, and a teaspoonful of powdered sage or parsley if liked",
+      "section": null
+    },
+    {
+      "text": "Heat together with half a cup of stock or milk",
+      "section": null
+    },
+    {
+      "text": "When cool add a beaten egg",
+      "section": null
+    },
+    {
+      "text": "Form the mixture into balls, slightly flattened",
+      "section": null
+    },
+    {
+      "text": "Roll in egg and bread crumbs, or flour and egg",
+      "section": null
+    },
+    {
+      "text": "Fry in hot lard or beef drippings",
+      "section": null
+    },
+    {
+      "text": "Serve on a platter and garnish with sprigs of parsley",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/beef-croquettes-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop fine one cup of cold, cooked, lean beef\n2. Chop fine half a cup of fat and half a cup of cold boiled or fried ham or cold pork\n3. Mince up a slice of onion\n4. Season all with a teaspoonful of salt, half a teaspoonful of pepper, and a teaspoonful of powdered sage or parsley if liked\n5. Heat together with half a cup of stock or milk\n6. When cool add a beaten egg\n7. Form the mixture into balls, slightly flattened\n8. Roll in egg and bread crumbs, or flour and egg\n9. Fry in hot lard or beef drippings\n10. Serve on a platter and garnish with sprigs of parsley",
+    "originalIngredients": [
+      "one cup of cold, cooked, lean beef",
+      "half a cup of fat",
+      "half a cup of cold boiled or fried ham or cold pork",
+      "a slice of onion",
+      "a teaspoonful of salt",
+      "half a teaspoonful of pepper",
+      "a teaspoonful of powdered sage or parsley",
+      "half a cup of stock or milk",
+      "a beaten egg",
+      "bread crumbs or flour",
+      "hot lard or beef drippings",
+      "sprigs of parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "9b3d3da7-869c-5421-bdf5-bc5a084ac4ea",
+  "name": "Puree of Turnips",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen large turnips",
+      "originalText": "a dozen large turnips",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "four ounces of butter",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "veal gravy",
+      "originalText": "veal gravy",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare a dozen large turnips and slice them",
+      "section": null
+    },
+    {
+      "text": "Put them into a stew-pan with four ounces of butter and a little salt",
+      "section": null
+    },
+    {
+      "text": "Set the pan over a moderate fire",
+      "section": null
+    },
+    {
+      "text": "Turn them often with a wooden spoon",
+      "section": null
+    },
+    {
+      "text": "When they look white, add a ladle full of veal gravy",
+      "section": null
+    },
+    {
+      "text": "Stew them till it becomes thick",
+      "section": null
+    },
+    {
+      "text": "Skim it, and pass it through a sieve",
+      "section": null
+    },
+    {
+      "text": "Put the turnips in a dish, and pour the gravy over them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/puree-of-turnips.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare a dozen large turnips and slice them\n2. Put them into a stew-pan with four ounces of butter and a little salt\n3. Set the pan over a moderate fire\n4. Turn them often with a wooden spoon\n5. When they look white, add a ladle full of veal gravy\n6. Stew them till it becomes thick\n7. Skim it, and pass it through a sieve\n8. Put the turnips in a dish, and pour the gravy over them",
+    "originalIngredients": [
+      "a dozen large turnips",
+      "four ounces of butter",
+      "salt",
+      "veal gravy"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

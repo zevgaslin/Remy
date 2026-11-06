@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "4615f7e2-5fcc-5c45-9142-44b2f7d8db9d",
+  "name": "English Meat Pie",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Knuckle of veal",
+      "originalText": "Knuckle of veal",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "One slice onion",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "One slice carrot",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bit of bay leaf",
+      "originalText": "Bit of bay leaf",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sprig of parsley",
+      "originalText": "Sprig of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "Twelve peppercorns",
+      "quantity": 12.0,
+      "quantityText": "Twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Blade of mace",
+      "originalText": "Blade of mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "Two teaspoons salt",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half pound lean raw ham",
+      "originalText": "One-half pound lean raw ham",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "Four tablespoons flour",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "Four tablespoons butter",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen bearded oysters",
+      "originalText": "Two dozen bearded oysters",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Puff paste",
+      "originalText": "Puff paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Remove meat from bones.",
+      "section": null
+    },
+    {
+      "text": "Cover bones with cold water, add vegetables and seasonings, and heat slowly to boiling-point.",
+      "section": null
+    },
+    {
+      "text": "Add meat, boil five minutes, and let simmer until meat is tender; remove meat and reduce stock to two cups.",
+      "section": null
+    },
+    {
+      "text": "Put ham in frying-pan, cover with lukewarm water, and let stand on back of range one hour.",
+      "section": null
+    },
+    {
+      "text": "Brown butter, add flour, and when well browned add stock; then add veal and ham each cut into cubes.",
+      "section": null
+    },
+    {
+      "text": "Let simmer twenty minutes and add oysters.",
+      "section": null
+    },
+    {
+      "text": "Put in serving dish and cover with top made of puff paste.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/english-meat-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Remove meat from bones.\n2. Cover bones with cold water, add vegetables and seasonings, and heat slowly to boiling-point.\n3. Add meat, boil five minutes, and let simmer until meat is tender; remove meat and reduce stock to two cups.\n4. Put ham in frying-pan, cover with lukewarm water, and let stand on back of range one hour.\n5. Brown butter, add flour, and when well browned add stock; then add veal and ham each cut into cubes.\n6. Let simmer twenty minutes and add oysters.\n7. Put in serving dish and cover with top made of puff paste.",
+    "originalIngredients": [
+      "Knuckle of veal",
+      "One slice onion",
+      "One slice carrot",
+      "Bit of bay leaf",
+      "Sprig of parsley",
+      "Twelve peppercorns",
+      "Blade of mace",
+      "Two teaspoons salt",
+      "One-half pound lean raw ham",
+      "Four tablespoons flour",
+      "Four tablespoons butter",
+      "Two dozen bearded oysters",
+      "Puff paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "bc31cae9-fbd4-512a-9608-9ba9ad3f0dc6",
+  "name": "Boston Cream Pie",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pint of milk",
+      "originalText": "pint of milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "half a cup of flour",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ounce of butter",
+      "originalText": "ounce of butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla or lemon",
+      "originalText": "vanilla or lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs beaten separately",
+      "originalText": "three eggs beaten separately",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "one cup of granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and a half cups of sifted flour",
+      "originalText": "one and a half cups of sifted flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large teaspoonful of baking powder",
+      "originalText": "one large teaspoonful of baking powder",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two tablespoonfuls of milk or water",
+      "originalText": "two tablespoonfuls of milk or water",
+      "quantity": null,
+      "quantityText": "two tablespoonfuls of milk or water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put on a pint of milk to boil",
+      "section": null
+    },
+    {
+      "text": "Break two eggs into a dish and add one cup of sugar and half a cup of flour previously mixed after beating well",
+      "section": null
+    },
+    {
+      "text": "Stir it into the milk just as the milk commences to boil",
+      "section": null
+    },
+    {
+      "text": "Add an ounce of butter and keep on stirring one way until it thickens",
+      "section": null
+    },
+    {
+      "text": "Flavor with vanilla or lemon",
+      "section": null
+    },
+    {
+      "text": "Beat three eggs separately with one cup of granulated sugar, one and a half cups of sifted flour, one large teaspoonful of baking powder and two tablespoonfuls of milk or water",
+      "section": null
+    },
+    {
+      "text": "Divide the batter in half and bake on two medium-sized pie-tins in a rather quick oven to a straw color",
+      "section": null
+    },
+    {
+      "text": "When done and cool, split each one in half with a sharp broad-bladed knife",
+      "section": null
+    },
+    {
+      "text": "Spread half the cream between each",
+      "section": null
+    },
+    {
+      "text": "Serve cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boston-cream-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put on a pint of milk to boil\n2. Break two eggs into a dish and add one cup of sugar and half a cup of flour previously mixed after beating well\n3. Stir it into the milk just as the milk commences to boil\n4. Add an ounce of butter and keep on stirring one way until it thickens\n5. Flavor with vanilla or lemon\n6. Beat three eggs separately with one cup of granulated sugar, one and a half cups of sifted flour, one large teaspoonful of baking powder and two tablespoonfuls of milk or water\n7. Divide the batter in half and bake on two medium-sized pie-tins in a rather quick oven to a straw color\n8. When done and cool, split each one in half with a sharp broad-bladed knife\n9. Spread half the cream between each\n10. Serve cold",
+    "originalIngredients": [
+      "pint of milk",
+      "two eggs",
+      "one cup of sugar",
+      "half a cup of flour",
+      "ounce of butter",
+      "vanilla or lemon",
+      "three eggs beaten separately",
+      "one cup of granulated sugar",
+      "one and a half cups of sifted flour",
+      "one large teaspoonful of baking powder",
+      "two tablespoonfuls of milk or water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "9570bc20-2000-5d2d-84ea-056b1e6bd468",
+  "name": "Blackberry Wine No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ripe and plump berries",
+      "originalText": "ripe and plump berries",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar to every ten quarts of the liquor",
+      "originalText": "one pound of sugar to every ten quarts of the liquor",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "isinglass",
+      "originalText": "four ounces of isinglass",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine",
+      "originalText": "a pint of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put berries into a large wood or stone vessel with a tap",
+      "section": null
+    },
+    {
+      "text": "Pour on sufficient boiling water to cover them",
+      "section": null
+    },
+    {
+      "text": "When cool enough to bear your hand, bruise well until all the berries are broken",
+      "section": null
+    },
+    {
+      "text": "Cover up and let stand until berries begin to rise to top, which will occur in three or four days",
+      "section": null
+    },
+    {
+      "text": "Draw off the clear juice in another vessel",
+      "section": null
+    },
+    {
+      "text": "Add one pound of sugar to every ten quarts of the liquor and stir thoroughly",
+      "section": null
+    },
+    {
+      "text": "Let stand six to ten days in first vessel with top",
+      "section": null
+    },
+    {
+      "text": "Draw off through a jelly-bag",
+      "section": null
+    },
+    {
+      "text": "Steep four ounces of isinglass in a pint of wine for twelve hours",
+      "section": null
+    },
+    {
+      "text": "Boil it over a slow fire till all dissolved",
+      "section": null
+    },
+    {
+      "text": "Place dissolved isinglass in a gallon of blackberry juice and boil them together",
+      "section": null
+    },
+    {
+      "text": "Pour all into the vessel",
+      "section": null
+    },
+    {
+      "text": "Let stand a few days to ferment and settle",
+      "section": null
+    },
+    {
+      "text": "Draw off and keep in a cool place",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/blackberry-wine-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put berries into a large wood or stone vessel with a tap\n2. Pour on sufficient boiling water to cover them\n3. When cool enough to bear your hand, bruise well until all the berries are broken\n4. Cover up and let stand until berries begin to rise to top, which will occur in three or four days\n5. Draw off the clear juice in another vessel\n6. Add one pound of sugar to every ten quarts of the liquor and stir thoroughly\n7. Let stand six to ten days in first vessel with top\n8. Draw off through a jelly-bag\n9. Steep four ounces of isinglass in a pint of wine for twelve hours\n10. Boil it over a slow fire till all dissolved\n11. Place dissolved isinglass in a gallon of blackberry juice and boil them together\n12. Pour all into the vessel\n13. Let stand a few days to ferment and settle\n14. Draw off and keep in a cool place",
+    "originalIngredients": [
+      "ripe and plump berries",
+      "boiling water",
+      "one pound of sugar to every ten quarts of the liquor",
+      "four ounces of isinglass",
+      "a pint of wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

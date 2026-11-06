@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "ea530e4e-a82f-57fb-92ba-3e36d9272bff",
+  "name": "Common Ice Cream",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "vanilla bean",
+      "originalText": "a vanilla bean",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "arrow-root powder",
+      "originalText": "two table-spoonfuls of arrow-root powder",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine powdered starch",
+      "originalText": "fine powdered starch",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "a pint of cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "a pint of rich milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "half a pound of powdered loaf-sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ice",
+      "originalText": "ice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coarse salt",
+      "originalText": "coarse salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Split into pieces a vanilla bean and boil it in a very little milk till the flavour is well extracted.",
+      "section": null
+    },
+    {
+      "text": "Strain it.",
+      "section": null
+    },
+    {
+      "text": "Mix two table-spoonfuls of arrow-root powder or the same quantity of fine powdered starch with just sufficient cold milk to make it a thin paste, rubbing it till quite smooth.",
+      "section": null
+    },
+    {
+      "text": "Mix together a pint of cream and a pint of rich milk.",
+      "section": null
+    },
+    {
+      "text": "Stir in the preparation of arrow-root and the milk in which the vanilla has been boiled.",
+      "section": null
+    },
+    {
+      "text": "Beat it very hard and stir in half a pound of powdered loaf-sugar.",
+      "section": null
+    },
+    {
+      "text": "Beat it very hard again.",
+      "section": null
+    },
+    {
+      "text": "Strain it and put it into a freezer placed in a tub that has a hole in the bottom to let out the water.",
+      "section": null
+    },
+    {
+      "text": "Surround the freezer on all sides with ice broken finely and mixed with coarse salt.",
+      "section": null
+    },
+    {
+      "text": "Beat the cream hard for half an hour.",
+      "section": null
+    },
+    {
+      "text": "Let it rest, occasionally taking off the cover and scraping down with a long spoon the cream that sticks to the sides.",
+      "section": null
+    },
+    {
+      "text": "When it is well frozen, transfer it to a mould.",
+      "section": null
+    },
+    {
+      "text": "Surround it with fresh salt and ice and freeze it over again.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/common-ice-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Split into pieces a vanilla bean and boil it in a very little milk till the flavour is well extracted.\n2. Strain it.\n3. Mix two table-spoonfuls of arrow-root powder or the same quantity of fine powdered starch with just sufficient cold milk to make it a thin paste, rubbing it till quite smooth.\n4. Mix together a pint of cream and a pint of rich milk.\n5. Stir in the preparation of arrow-root and the milk in which the vanilla has been boiled.\n6. Beat it very hard and stir in half a pound of powdered loaf-sugar.\n7. Beat it very hard again.\n8. Strain it and put it into a freezer placed in a tub that has a hole in the bottom to let out the water.\n9. Surround the freezer on all sides with ice broken finely and mixed with coarse salt.\n10. Beat the cream hard for half an hour.\n11. Let it rest, occasionally taking off the cover and scraping down with a long spoon the cream that sticks to the sides.\n12. When it is well frozen, transfer it to a mould.\n13. Surround it with fresh salt and ice and freeze it over again.",
+    "originalIngredients": [
+      "a vanilla bean",
+      "milk",
+      "two table-spoonfuls of arrow-root powder",
+      "fine powdered starch",
+      "a pint of cream",
+      "a pint of rich milk",
+      "half a pound of powdered loaf-sugar",
+      "ice",
+      "coarse salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

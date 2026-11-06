@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "20d69d52-9492-5d0c-bf81-2d41191d67c4",
+  "name": "Apple Custard Puddings",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pared and quartered apples",
+      "originalText": "a quart of pared and quartered apples",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "half a cupful of water",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a cupful of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two tablespoonfuls of butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated rind and juice of a lemon",
+      "originalText": "grated rind and juice of a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated bread crumbs",
+      "originalText": "two cupfuls of grated bread crumbs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two tablespoonfuls of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "two well-beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hard sweet sauce",
+      "originalText": "hard sweet sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a quart of pared and quartered apples into a stewpan, with half a cupful of water and cook them until they are soft",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire and add half a cupful of sugar, two tablespoonfuls of butter and the grated rind and the juice of a lemon",
+      "section": null
+    },
+    {
+      "text": "Have ready mixed two cupfuls of grated bread crumbs and two tablespoonfuls of flour; add this also to the apple mixture",
+      "section": null
+    },
+    {
+      "text": "Stir in two well-beaten eggs",
+      "section": null
+    },
+    {
+      "text": "Turn all into a well-buttered pudding-dish and bake forty-five minutes in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Serve with sugar and cream or hard sweet sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/apple-custard-puddings.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a quart of pared and quartered apples into a stewpan, with half a cupful of water and cook them until they are soft\n2. Remove from the fire and add half a cupful of sugar, two tablespoonfuls of butter and the grated rind and the juice of a lemon\n3. Have ready mixed two cupfuls of grated bread crumbs and two tablespoonfuls of flour; add this also to the apple mixture\n4. Stir in two well-beaten eggs\n5. Turn all into a well-buttered pudding-dish and bake forty-five minutes in a moderate oven\n6. Serve with sugar and cream or hard sweet sauce",
+    "originalIngredients": [
+      "a quart of pared and quartered apples",
+      "half a cupful of water",
+      "half a cupful of sugar",
+      "two tablespoonfuls of butter",
+      "grated rind and juice of a lemon",
+      "two cupfuls of grated bread crumbs",
+      "two tablespoonfuls of flour",
+      "two well-beaten eggs",
+      "hard sweet sauce"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

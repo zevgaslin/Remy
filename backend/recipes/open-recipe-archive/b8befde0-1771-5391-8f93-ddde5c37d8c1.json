@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "b8befde0-1771-5391-8f93-ddde5c37d8c1",
+  "name": "Baked Omelet",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "four or six eggs",
+      "originalText": "four or six eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small cup of milk",
+      "originalText": "a small cup of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a tablespoonful of flour or cornstarch",
+      "originalText": "a tablespoonful of flour or cornstarch",
+      "quantity": null,
+      "quantityText": "a tablespoonful of flour or cornstarch",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "a teaspoonful of baking powder",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half teaspoonful of salt",
+      "originalText": "one-half teaspoonful of salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the whites and yolks of four or six eggs separately",
+      "section": null
+    },
+    {
+      "text": "Add to the yolks a small cup of milk, a tablespoonful of flour or cornstarch, a teaspoonful of baking powder, one-half teaspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Add lastly, the stiff-beaten whites",
+      "section": null
+    },
+    {
+      "text": "Bake in a well-buttered pie-tin or plate about half an hour in a steady oven",
+      "section": null
+    },
+    {
+      "text": "Serve the moment it is taken from the oven, as it is liable to fall",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/baked-omelet.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the whites and yolks of four or six eggs separately\n2. Add to the yolks a small cup of milk, a tablespoonful of flour or cornstarch, a teaspoonful of baking powder, one-half teaspoonful of salt\n3. Add lastly, the stiff-beaten whites\n4. Bake in a well-buttered pie-tin or plate about half an hour in a steady oven\n5. Serve the moment it is taken from the oven, as it is liable to fall",
+    "originalIngredients": [
+      "four or six eggs",
+      "a small cup of milk",
+      "a tablespoonful of flour or cornstarch",
+      "a teaspoonful of baking powder",
+      "one-half teaspoonful of salt",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

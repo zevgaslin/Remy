@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "54a4cc60-28cc-5013-abee-68c2b4f091c8",
+  "name": "Custard Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sifted flour",
+      "originalText": "a pound of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of powdered loaf-sugar",
+      "originalText": "a quarter of a pound of powdered loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "a pound of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the yolk only of eight eggs",
+      "originalText": "the yolk only of eight eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich cream",
+      "originalText": "a pint of rich cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered white sugar",
+      "originalText": "three ounces of powdered white sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ratafia, peach-water, or essence of lemon",
+      "originalText": "ratafia, peach-water, or essence of lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together a pound of sifted flour and a quarter of a pound of powdered loaf-sugar",
+      "section": null
+    },
+    {
+      "text": "Divide into four a pound of fresh butter",
+      "section": null
+    },
+    {
+      "text": "Mix one-fourth of it with the flour, and make it into a dough",
+      "section": null
+    },
+    {
+      "text": "Roll it out, and put in the three remaining divisions of the butter at three more rollings",
+      "section": null
+    },
+    {
+      "text": "Set the paste in a cool place till the custard is ready",
+      "section": null
+    },
+    {
+      "text": "Beat very light the yolk only of eight eggs",
+      "section": null
+    },
+    {
+      "text": "Stir them gradually into a pint of rich cream, adding three ounces of powdered white sugar, a grated nutmeg, and ratafia, peach-water, or essence of lemon, to your taste",
+      "section": null
+    },
+    {
+      "text": "Put the mixture into a deep dish",
+      "section": null
+    },
+    {
+      "text": "Set it in an iron baking pan or a Dutch oven half full of boiling water, and bake it a quarter of an hour",
+      "section": null
+    },
+    {
+      "text": "Put it to cool",
+      "section": null
+    },
+    {
+      "text": "Roll out the paste into a thin sheet",
+      "section": null
+    },
+    {
+      "text": "Cut it into little round cakes about the size of a dollar, and bake them on flat tins",
+      "section": null
+    },
+    {
+      "text": "When they are done, spread some of the cakes thickly with the custard, and lay others on the top of them, making them fit closely in the manner of lids",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/custard-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together a pound of sifted flour and a quarter of a pound of powdered loaf-sugar\n2. Divide into four a pound of fresh butter\n3. Mix one-fourth of it with the flour, and make it into a dough\n4. Roll it out, and put in the three remaining divisions of the butter at three more rollings\n5. Set the paste in a cool place till the custard is ready\n6. Beat very light the yolk only of eight eggs\n7. Stir them gradually into a pint of rich cream, adding three ounces of powdered white sugar, a grated nutmeg, and ratafia, peach-water, or essence of lemon, to your taste\n8. Put the mixture into a deep dish\n9. Set it in an iron baking pan or a Dutch oven half full of boiling water, and bake it a quarter of an hour\n10. Put it to cool\n11. Roll out the paste into a thin sheet\n12. Cut it into little round cakes about the size of a dollar, and bake them on flat tins\n13. When they are done, spread some of the cakes thickly with the custard, and lay others on the top of them, making them fit closely in the manner of lids",
+    "originalIngredients": [
+      "a pound of sifted flour",
+      "a quarter of a pound of powdered loaf-sugar",
+      "a pound of fresh butter",
+      "the yolk only of eight eggs",
+      "a pint of rich cream",
+      "three ounces of powdered white sugar",
+      "a grated nutmeg",
+      "ratafia, peach-water, or essence of lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

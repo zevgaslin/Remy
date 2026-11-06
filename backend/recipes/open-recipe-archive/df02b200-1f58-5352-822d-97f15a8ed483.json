@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "df02b200-1f58-5352-822d-97f15a8ed483",
+  "name": "Chocolate Tarts",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs, whites and yolks",
+      "originalText": "four eggs, whites and yolks",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cake of Baker's chocolate, grated",
+      "originalText": "one-half cake of Baker's chocolate, grated",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "one tablespoonful of cornstarch",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "three tablespoonfuls of milk",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "four tablespoonfuls of white sugar",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "two teaspoonfuls of vanilla",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful of salt",
+      "originalText": "one saltspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half teaspoonful of cinnamon",
+      "originalText": "one-half teaspoonful of cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter, melted",
+      "originalText": "one teaspoonful of butter, melted",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pastry shells",
+      "originalText": "pastry shells",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of two eggs",
+      "originalText": "whites of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two tablespoonfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "a teaspoonful of lemon juice",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "rub the chocolate smooth in the milk and heat to boiling over the fire",
+      "section": null
+    },
+    {
+      "text": "then stir in the cornstarch",
+      "section": null
+    },
+    {
+      "text": "Stir five minutes until well thickened, remove from the fire and pour into a bowl",
+      "section": null
+    },
+    {
+      "text": "Beat all the yolks and the whites of two eggs well with the sugar",
+      "section": null
+    },
+    {
+      "text": "when the chocolate mixture is almost cold, put all together with the flavoring and stir until light",
+      "section": null
+    },
+    {
+      "text": "Bake in open shells of pastry",
+      "section": null
+    },
+    {
+      "text": "When done, cover with a meringue made of the whites of two eggs and two tablespoonfuls of sugar flavored with a teaspoonful of lemon juice",
+      "section": null
+    },
+    {
+      "text": "Eat cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chocolate-tarts-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. rub the chocolate smooth in the milk and heat to boiling over the fire\n2. then stir in the cornstarch\n3. Stir five minutes until well thickened, remove from the fire and pour into a bowl\n4. Beat all the yolks and the whites of two eggs well with the sugar\n5. when the chocolate mixture is almost cold, put all together with the flavoring and stir until light\n6. Bake in open shells of pastry\n7. When done, cover with a meringue made of the whites of two eggs and two tablespoonfuls of sugar flavored with a teaspoonful of lemon juice\n8. Eat cold",
+    "originalIngredients": [
+      "four eggs, whites and yolks",
+      "one-half cake of Baker's chocolate, grated",
+      "one tablespoonful of cornstarch",
+      "water",
+      "three tablespoonfuls of milk",
+      "four tablespoonfuls of white sugar",
+      "two teaspoonfuls of vanilla",
+      "one saltspoonful of salt",
+      "one-half teaspoonful of cinnamon",
+      "one teaspoonful of butter, melted",
+      "pastry shells",
+      "whites of two eggs",
+      "two tablespoonfuls of sugar",
+      "a teaspoonful of lemon juice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

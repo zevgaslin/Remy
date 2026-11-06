@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "48f8a99d-b8a2-56d8-9782-db1d812f1227",
+  "name": "Bitter Orange Marmalade",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Seville oranges",
+      "originalText": "twelve Seville oranges",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water per pound of fruit",
+      "originalText": "three pints of cold water per pound of fruit",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar per pound of fruit and juice",
+      "originalText": "one pound granulated sugar per pound of fruit and juice",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Slice twelve Seville oranges into a large bowl, leaving out pips.",
+      "section": null
+    },
+    {
+      "text": "To each pound of fruit add three pints of cold water and let stand twelve or eighteen hours.",
+      "section": null
+    },
+    {
+      "text": "Then boil gently till soft, about thirty minutes.",
+      "section": null
+    },
+    {
+      "text": "Let stand again till next day.",
+      "section": null
+    },
+    {
+      "text": "Then weigh and to every pound of fruit and juice add one pound granulated sugar.",
+      "section": null
+    },
+    {
+      "text": "Boil till clear and thick.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/bitter-orange-marmalade.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Slice twelve Seville oranges into a large bowl, leaving out pips.\n2. To each pound of fruit add three pints of cold water and let stand twelve or eighteen hours.\n3. Then boil gently till soft, about thirty minutes.\n4. Let stand again till next day.\n5. Then weigh and to every pound of fruit and juice add one pound granulated sugar.\n6. Boil till clear and thick.",
+    "originalIngredients": [
+      "twelve Seville oranges",
+      "three pints of cold water per pound of fruit",
+      "one pound granulated sugar per pound of fruit and juice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

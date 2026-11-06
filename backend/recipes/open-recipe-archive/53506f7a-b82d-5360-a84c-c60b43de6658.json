@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "53506f7a-b82d-5360-a84c-c60b43de6658",
+  "name": "Lyonnaise Potatoes I",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "three tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "one small onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold boiled potatoes",
+      "originalText": "three cold boiled potatoes",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Brown Stock",
+      "originalText": "two tablespoons Brown Stock",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "parsley",
+      "originalText": "parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook five minutes three tablespoons butter with one small onion cut in thin slices; add three cold boiled potatoes cut in one-fourth inch slices and sprinkled with salt and pepper; stir until well mixed with onion and butter; let stand until potato is brown underneath, fold, and turn on a hot platter.",
+      "section": null
+    },
+    {
+      "text": "This dish is much improved and potatoes brown better by addition of two tablespoons Brown Stock.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle with finely chopped parsley if desired.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lyonnaise-potatoes-i.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook five minutes three tablespoons butter with one small onion cut in thin slices; add three cold boiled potatoes cut in one-fourth inch slices and sprinkled with salt and pepper; stir until well mixed with onion and butter; let stand until potato is brown underneath, fold, and turn on a hot platter.\n2. This dish is much improved and potatoes brown better by addition of two tablespoons Brown Stock.\n3. Sprinkle with finely chopped parsley if desired.",
+    "originalIngredients": [
+      "three tablespoons butter",
+      "one small onion",
+      "three cold boiled potatoes",
+      "salt",
+      "pepper",
+      "two tablespoons Brown Stock",
+      "parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

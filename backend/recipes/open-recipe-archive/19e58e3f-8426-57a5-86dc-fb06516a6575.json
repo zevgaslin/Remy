@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "19e58e3f-8426-57a5-86dc-fb06516a6575",
+  "name": "Alice's Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very fine dry bread-crumbs",
+      "originalText": "1 cup very fine dry bread-crumbs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup strawberry or other sweet jam",
+      "originalText": "½ cup strawberry or other sweet jam",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sugar",
+      "originalText": "½ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Butter a pudding-dish",
+      "section": null
+    },
+    {
+      "text": "Sprinkle the bottom with bread-crumbs",
+      "section": null
+    },
+    {
+      "text": "Pour over these half a cup jam, and cover this well with the rest of the crumbs, wet with a very little milk",
+      "section": null
+    },
+    {
+      "text": "Heat the quart of milk until near boiling, take it from the fire and add, gradually, the beaten yolks and sugar, stirring in the beaten whites lightly at the last",
+      "section": null
+    },
+    {
+      "text": "Heat this by degrees, stirring constantly until it begins to thicken",
+      "section": null
+    },
+    {
+      "text": "Put it, spoonful by spoonful, upon the layer of bread-crumbs, taking care not to disturb these",
+      "section": null
+    },
+    {
+      "text": "Bake until well \"set\" and very slightly browned",
+      "section": null
+    },
+    {
+      "text": "Eat cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/alice-s-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Butter a pudding-dish\n2. Sprinkle the bottom with bread-crumbs\n3. Pour over these half a cup jam, and cover this well with the rest of the crumbs, wet with a very little milk\n4. Heat the quart of milk until near boiling, take it from the fire and add, gradually, the beaten yolks and sugar, stirring in the beaten whites lightly at the last\n5. Heat this by degrees, stirring constantly until it begins to thicken\n6. Put it, spoonful by spoonful, upon the layer of bread-crumbs, taking care not to disturb these\n7. Bake until well \"set\" and very slightly browned\n8. Eat cold",
+    "originalIngredients": [
+      "1 quart of milk",
+      "4 eggs",
+      "1 cup very fine dry bread-crumbs",
+      "½ cup strawberry or other sweet jam",
+      "½ cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

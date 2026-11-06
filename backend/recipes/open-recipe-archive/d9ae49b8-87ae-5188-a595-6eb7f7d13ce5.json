@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "d9ae49b8-87ae-5188-a595-6eb7f7d13ce5",
+  "name": "Rusks",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "three pounds of flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a pound of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of milk",
+      "originalText": "a pint and a half of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose water",
+      "originalText": "two table-spoonfuls of rose water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best and strongest yeast",
+      "originalText": "three table-spoonfuls of the best and strongest yeast",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift three pounds of flour into a large pan, and rub into it half a pound of butter and half a pound of sugar.",
+      "section": null
+    },
+    {
+      "text": "Beat two eggs very light, and stir them into a pint and a half of milk, adding two table-spoonfuls of rose water and three table-spoonfuls of the best and strongest yeast.",
+      "section": null
+    },
+    {
+      "text": "Make a hole in the middle of the flour, pour in the liquid, and gradually mix the flour into it till you have a thick batter.",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it by the fire to rise.",
+      "section": null
+    },
+    {
+      "text": "When it is quite light, put it on your paste-board and knead it well.",
+      "section": null
+    },
+    {
+      "text": "Divide it into small round cakes and knead each separately.",
+      "section": null
+    },
+    {
+      "text": "Lay them very near each other in shallow iron pans that have been sprinkled with flour.",
+      "section": null
+    },
+    {
+      "text": "Prick the top of each rusk with a fork, and set them by the fire to rise again for half an hour or more.",
+      "section": null
+    },
+    {
+      "text": "When they are perfectly light, bake them in a moderate oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rusks.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift three pounds of flour into a large pan, and rub into it half a pound of butter and half a pound of sugar.\n2. Beat two eggs very light, and stir them into a pint and a half of milk, adding two table-spoonfuls of rose water and three table-spoonfuls of the best and strongest yeast.\n3. Make a hole in the middle of the flour, pour in the liquid, and gradually mix the flour into it till you have a thick batter.\n4. Cover it, and set it by the fire to rise.\n5. When it is quite light, put it on your paste-board and knead it well.\n6. Divide it into small round cakes and knead each separately.\n7. Lay them very near each other in shallow iron pans that have been sprinkled with flour.\n8. Prick the top of each rusk with a fork, and set them by the fire to rise again for half an hour or more.\n9. When they are perfectly light, bake them in a moderate oven.",
+    "originalIngredients": [
+      "three pounds of flour",
+      "half a pound of butter",
+      "half a pound of sugar",
+      "two eggs",
+      "a pint and a half of milk",
+      "two table-spoonfuls of rose water",
+      "three table-spoonfuls of the best and strongest yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

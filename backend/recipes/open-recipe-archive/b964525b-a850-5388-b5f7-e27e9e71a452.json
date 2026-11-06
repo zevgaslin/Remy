@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "b964525b-a850-5388-b5f7-e27e9e71a452",
+  "name": "Soles in Batter",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "pair of soles",
+      "originalText": "1 pair of soles",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1/4 lb. flour",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 oz. butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lard or drippings for frying",
+      "originalText": "Lard or drippings for frying",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/4 teaspoonful salt",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk to mix it",
+      "originalText": "Milk to mix it",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Fillet the soles, and cut each fillet in two pieces",
+      "section": null
+    },
+    {
+      "text": "Sprinkle them with pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Make a light batter with the above ingredients, taking care that it is not very thin",
+      "section": null
+    },
+    {
+      "text": "Dip each piece of fish into this, and fry quickly in boiling fat to a golden brown",
+      "section": null
+    },
+    {
+      "text": "Arrange them in a circle, one overlapping the other, on a hot dish",
+      "section": null
+    },
+    {
+      "text": "Garnish with fresh or fried parsley",
+      "section": null
+    },
+    {
+      "text": "Serve as soon as cooked",
+      "section": null
+    },
+    {
+      "text": "Melted butter may be sent to table with them in a tureen, if liked",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/soles-in-batter.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Fillet the soles, and cut each fillet in two pieces\n2. Sprinkle them with pepper and salt\n3. Make a light batter with the above ingredients, taking care that it is not very thin\n4. Dip each piece of fish into this, and fry quickly in boiling fat to a golden brown\n5. Arrange them in a circle, one overlapping the other, on a hot dish\n6. Garnish with fresh or fried parsley\n7. Serve as soon as cooked\n8. Melted butter may be sent to table with them in a tureen, if liked",
+    "originalIngredients": [
+      "1 pair of soles",
+      "1/4 lb. flour",
+      "Pepper and salt",
+      "2 oz. butter",
+      "Lard or drippings for frying",
+      "1/4 teaspoonful salt",
+      "2 eggs",
+      "Milk to mix it"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

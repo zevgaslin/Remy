@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "66a7b2a8-d8ff-5743-8b0b-c8693c2221ce",
+  "name": "A Bread and Butter Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "slices of bread and butter",
+      "originalText": "slices of bread and butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants, picked, washed and dried",
+      "originalText": "a pound of currants, picked, washed and dried",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "brown sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose water",
+      "originalText": "a wine glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut some slices of bread and butter moderately thick, omitting the crust; stale bread is best.",
+      "section": null
+    },
+    {
+      "text": "Butter a deep dish, and cover the bottom with slices of the buttered bread.",
+      "section": null
+    },
+    {
+      "text": "Spread one third of the currants thickly over the bread and butter, and strew on some brown sugar.",
+      "section": null
+    },
+    {
+      "text": "Put another layer of bread and butter, and cover it also with currants and sugar.",
+      "section": null
+    },
+    {
+      "text": "Finish with a third layer of each.",
+      "section": null
+    },
+    {
+      "text": "Beat four eggs very light and mix them with a pint of milk, and a wine glass of rose water.",
+      "section": null
+    },
+    {
+      "text": "Pour the mixture over the whole.",
+      "section": null
+    },
+    {
+      "text": "Bake the pudding an hour, and grate nutmeg over it when done.",
+      "section": null
+    },
+    {
+      "text": "Eat it warm, but not hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-bread-and-butter-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut some slices of bread and butter moderately thick, omitting the crust; stale bread is best.\n2. Butter a deep dish, and cover the bottom with slices of the buttered bread.\n3. Spread one third of the currants thickly over the bread and butter, and strew on some brown sugar.\n4. Put another layer of bread and butter, and cover it also with currants and sugar.\n5. Finish with a third layer of each.\n6. Beat four eggs very light and mix them with a pint of milk, and a wine glass of rose water.\n7. Pour the mixture over the whole.\n8. Bake the pudding an hour, and grate nutmeg over it when done.\n9. Eat it warm, but not hot.",
+    "originalIngredients": [
+      "slices of bread and butter",
+      "a pound of currants, picked, washed and dried",
+      "brown sugar",
+      "four eggs",
+      "a pint of milk",
+      "a wine glass of rose water",
+      "nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

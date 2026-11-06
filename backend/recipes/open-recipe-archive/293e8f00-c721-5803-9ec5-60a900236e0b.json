@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "293e8f00-c721-5803-9ec5-60a900236e0b",
+  "name": "Bakers' Ginger Snaps",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "brown sugar",
+      "originalText": "two cups of brown sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cooking molasses",
+      "originalText": "two cups of cooking molasses",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "shortening, part butter",
+      "originalText": "one cup of shortening, part butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tablespoonful of ginger",
+      "originalText": "one large tablespoonful of ginger",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ground cinnamon",
+      "originalText": "one tablespoonful of ground cinnamon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "one teaspoonful of cloves",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "four cups of flour",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "one teaspoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "one tablespoonful of warm water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil all together the brown sugar, molasses, shortening, ginger, cinnamon, and cloves",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire and let it cool",
+      "section": null
+    },
+    {
+      "text": "Sift four cups of flour and stir part of it into the mixture",
+      "section": null
+    },
+    {
+      "text": "Dissolve a teaspoonful of soda in a tablespoonful of warm water and beat into the mixture",
+      "section": null
+    },
+    {
+      "text": "Stir in the remainder of the flour and make stiff enough to roll",
+      "section": null
+    },
+    {
+      "text": "Roll into long rolls about an inch in diameter and cut into half-inch pieces",
+      "section": null
+    },
+    {
+      "text": "Place them on well-buttered tins, giving plenty of room to spread",
+      "section": null
+    },
+    {
+      "text": "Bake in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Let them cool before taking out of the tins",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bakers-ginger-snaps.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil all together the brown sugar, molasses, shortening, ginger, cinnamon, and cloves\n2. Remove from the fire and let it cool\n3. Sift four cups of flour and stir part of it into the mixture\n4. Dissolve a teaspoonful of soda in a tablespoonful of warm water and beat into the mixture\n5. Stir in the remainder of the flour and make stiff enough to roll\n6. Roll into long rolls about an inch in diameter and cut into half-inch pieces\n7. Place them on well-buttered tins, giving plenty of room to spread\n8. Bake in a moderate oven\n9. Let them cool before taking out of the tins",
+    "originalIngredients": [
+      "two cups of brown sugar",
+      "two cups of cooking molasses",
+      "one cup of shortening, part butter",
+      "one large tablespoonful of ginger",
+      "one tablespoonful of ground cinnamon",
+      "one teaspoonful of cloves",
+      "four cups of flour",
+      "one teaspoonful of soda",
+      "one tablespoonful of warm water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "c81c3bc2-b5fa-5d8f-a601-1ac30f72341f",
+  "name": "Maple Sugar Candy",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "maple sugar",
+      "originalText": "1 lb. maple sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Break the sugar into small pieces and put it into a double boiler with the milk",
+      "section": null
+    },
+    {
+      "text": "Put it on the stove and cook until the sugar melts",
+      "section": null
+    },
+    {
+      "text": "Set the inner vessel of the double boiler directly on the stove and boil, stirring constantly, until the syrup reaches the stage where a little dropped in cold water becomes brittle",
+      "section": null
+    },
+    {
+      "text": "Add your butter then, and when this is melted turn the syrup into greased pans",
+      "section": null
+    },
+    {
+      "text": "As it cools, mark it off in squares with a knife",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/maple-sugar-candy-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Break the sugar into small pieces and put it into a double boiler with the milk\n2. Put it on the stove and cook until the sugar melts\n3. Set the inner vessel of the double boiler directly on the stove and boil, stirring constantly, until the syrup reaches the stage where a little dropped in cold water becomes brittle\n4. Add your butter then, and when this is melted turn the syrup into greased pans\n5. As it cools, mark it off in squares with a knife",
+    "originalIngredients": [
+      "1 lb. maple sugar",
+      "1 pt. milk",
+      "1 tablespoonful butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

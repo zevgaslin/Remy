@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "c55071c2-3342-5cce-8c5f-19914c5d931a",
+  "name": "Creamed Onions",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "medium-sized onions",
+      "originalText": "1 quart of medium-sized onions",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 teaspoonful of sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoonfuls of butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1/2 tablespoonful of flour",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot milk",
+      "originalText": "1 cupful of hot milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole pepper",
+      "originalText": "whole pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel one quart of medium-sized onions, place them in a saucepan, cover with boiling water; add one teaspoonful of sugar, and boil until nearly done; add one teaspoonful salt; boil a few minutes longer, then drain in a colander.",
+      "section": null
+    },
+    {
+      "text": "Melt two tablespoonfuls of butter, add half a tablespoonful of flour.",
+      "section": null
+    },
+    {
+      "text": "Stir and cook two minutes; add one cupful of hot milk and cook two minutes longer, and season with whole pepper and salt.",
+      "section": null
+    },
+    {
+      "text": "Put the onions in a hot dish and pour the sauce over them.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/creamed-onions.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel one quart of medium-sized onions, place them in a saucepan, cover with boiling water; add one teaspoonful of sugar, and boil until nearly done; add one teaspoonful salt; boil a few minutes longer, then drain in a colander.\n2. Melt two tablespoonfuls of butter, add half a tablespoonful of flour.\n3. Stir and cook two minutes; add one cupful of hot milk and cook two minutes longer, and season with whole pepper and salt.\n4. Put the onions in a hot dish and pour the sauce over them.",
+    "originalIngredients": [
+      "1 quart of medium-sized onions",
+      "1 teaspoonful of sugar",
+      "1 teaspoonful salt",
+      "2 tablespoonfuls of butter",
+      "1/2 tablespoonful of flour",
+      "1 cupful of hot milk",
+      "whole pepper",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

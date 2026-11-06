@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "4fbc7536-6eb8-5339-b4fa-adfc93480865",
+  "name": "Banana Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "box gelatine",
+      "originalText": "1/2 box gelatine",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small bananas",
+      "originalText": "6 small bananas",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small cupful preserved ginger, chopped",
+      "originalText": "1 small cupful preserved ginger, chopped",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "walnuts, chopped fine",
+      "originalText": "1 cupful walnuts, chopped fine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 pt. milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whipped cream",
+      "originalText": "1/2 pt. whipped cream",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the gelatine for fifteen minutes in a cupful of cold milk.",
+      "section": null
+    },
+    {
+      "text": "Mash the bananas till smooth.",
+      "section": null
+    },
+    {
+      "text": "Mix in the chopped ginger and walnuts, add the sugar.",
+      "section": null
+    },
+    {
+      "text": "Pour the milk (boiling) on the gelatine, stir till dissolved, to which add the bananas, ginger, and walnuts.",
+      "section": null
+    },
+    {
+      "text": "Set in a bowl in a can of crushed ice or cold water.",
+      "section": null
+    },
+    {
+      "text": "Stir occasionally till the mixture begins to grow firm, then very gently fold in the whipped cream and pour into a mould which has been rubbed inside with sweet oil.",
+      "section": null
+    },
+    {
+      "text": "When firm turn out and serve with whipped cream.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/banana-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the gelatine for fifteen minutes in a cupful of cold milk.\n2. Mash the bananas till smooth.\n3. Mix in the chopped ginger and walnuts, add the sugar.\n4. Pour the milk (boiling) on the gelatine, stir till dissolved, to which add the bananas, ginger, and walnuts.\n5. Set in a bowl in a can of crushed ice or cold water.\n6. Stir occasionally till the mixture begins to grow firm, then very gently fold in the whipped cream and pour into a mould which has been rubbed inside with sweet oil.\n7. When firm turn out and serve with whipped cream.",
+    "originalIngredients": [
+      "1/2 box gelatine",
+      "6 small bananas",
+      "1 cup granulated sugar",
+      "1 small cupful preserved ginger, chopped",
+      "1 cupful walnuts, chopped fine",
+      "1 pt. milk",
+      "1/2 pt. whipped cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

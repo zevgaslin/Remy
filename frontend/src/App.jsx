@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router';
 import AppLayout from './components/AppLayout';
 import { AuthProvider } from './context/AuthProvider';
 import HomePage from './pages/homePage';
+import KitchenPage from './pages/kitchenPage';
 import PantryPage from './pages/pantryPage';
 import RecipesPage from './pages/recipesPage';
 import NotFoundPage from './pages/notFoundPage';
@@ -11,6 +12,7 @@ export function AppRoutes() {
     <Routes>
       <Route element={<AppLayout />}>
         <Route index element={<HomePage />} />
+        <Route path="kitchen" element={<KitchenPage />} />
         <Route path="pantry" element={<PantryPage />} />
         <Route path="recipes" element={<RecipesPage />} />
         <Route path="*" element={<NotFoundPage />} />

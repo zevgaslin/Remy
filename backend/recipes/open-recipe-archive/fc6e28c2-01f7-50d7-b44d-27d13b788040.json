@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "fc6e28c2-01f7-50d7-b44d-27d13b788040",
+  "name": "Braised Chicken",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "four-pound fowl",
+      "originalText": "one four-pound fowl",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fat salt pork",
+      "originalText": "two slices fat salt pork",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "five slices carrot",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half sliced onion",
+      "originalText": "one-half sliced onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs thyme",
+      "originalText": "two sprigs thyme",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig parsley",
+      "originalText": "one sprig parsley",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bay leaf",
+      "originalText": "one bay leaf",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two cups boiling water or Chicken Stock",
+      "originalText": "two cups boiling water or Chicken Stock",
+      "quantity": null,
+      "quantityText": "two cups boiling water or Chicken Stock",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dress, clean, and truss a four-pound fowl",
+      "section": null
+    },
+    {
+      "text": "Try out two slices fat salt pork cut one-fourth inch thick; remove scraps, and add to fat five slices carrot cut in small cubes, one-half sliced onion, two sprigs thyme, one sprig parsley, and one bay leaf, then cook ten minutes",
+      "section": null
+    },
+    {
+      "text": "Add two tablespoons butter, and fry fowl, turning often until surface is well browned",
+      "section": null
+    },
+    {
+      "text": "Place on trivet in a deep pan, pour over fat, and add two cups boiling water or Chicken Stock",
+      "section": null
+    },
+    {
+      "text": "Cover, and bake in slow oven until tender, basting often, and adding more water if needed",
+      "section": null
+    },
+    {
+      "text": "Serve with a sauce made from stock in pan, first straining and removing the fat",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/braised-chicken.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dress, clean, and truss a four-pound fowl\n2. Try out two slices fat salt pork cut one-fourth inch thick; remove scraps, and add to fat five slices carrot cut in small cubes, one-half sliced onion, two sprigs thyme, one sprig parsley, and one bay leaf, then cook ten minutes\n3. Add two tablespoons butter, and fry fowl, turning often until surface is well browned\n4. Place on trivet in a deep pan, pour over fat, and add two cups boiling water or Chicken Stock\n5. Cover, and bake in slow oven until tender, basting often, and adding more water if needed\n6. Serve with a sauce made from stock in pan, first straining and removing the fat",
+    "originalIngredients": [
+      "one four-pound fowl",
+      "two slices fat salt pork",
+      "five slices carrot",
+      "one-half sliced onion",
+      "two sprigs thyme",
+      "one sprig parsley",
+      "one bay leaf",
+      "two tablespoons butter",
+      "two cups boiling water or Chicken Stock"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

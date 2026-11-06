@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "2d0face9-0ae4-5a7e-a688-d190f199aa76",
+  "name": "Hot-Roll Biscuits",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "6 cups flour",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "3 teaspoons baking powder",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 tablespoons lard or butter",
+      "originalText": "2 tablespoons lard or butter",
+      "quantity": null,
+      "quantityText": "2 tablespoons lard or butter",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "a pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 cup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg beaten well",
+      "originalText": "1 egg beaten well",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix 6 cups flour, 3 teaspoons baking powder, 2 tablespoons lard or butter, a pinch of salt well to make a soft dough",
+      "section": null
+    },
+    {
+      "text": "Roll out thin",
+      "section": null
+    },
+    {
+      "text": "Spread with filling of 1 cup white sugar and 1 egg beaten well",
+      "section": null
+    },
+    {
+      "text": "Roll like a jelly roll",
+      "section": null
+    },
+    {
+      "text": "Cut in slices 1 inch thick",
+      "section": null
+    },
+    {
+      "text": "Flour the pans well and bake in a hot oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/hot-roll-biscuits.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix 6 cups flour, 3 teaspoons baking powder, 2 tablespoons lard or butter, a pinch of salt well to make a soft dough\n2. Roll out thin\n3. Spread with filling of 1 cup white sugar and 1 egg beaten well\n4. Roll like a jelly roll\n5. Cut in slices 1 inch thick\n6. Flour the pans well and bake in a hot oven",
+    "originalIngredients": [
+      "6 cups flour",
+      "3 teaspoons baking powder",
+      "2 tablespoons lard or butter",
+      "a pinch of salt",
+      "1 cup white sugar",
+      "1 egg beaten well"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

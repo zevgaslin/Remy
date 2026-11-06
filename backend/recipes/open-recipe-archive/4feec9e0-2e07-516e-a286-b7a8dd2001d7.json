@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "4feec9e0-2e07-516e-a286-b7a8dd2001d7",
+  "name": "Stewed Knuckle of Veal",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "veal knuckle",
+      "originalText": "veal knuckle",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "two quarts of boiling water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a pound of salt pork or ham",
+      "originalText": "half a pound of salt pork or ham",
+      "quantity": null,
+      "quantityText": "half a pound of salt pork or ham",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "a carrot",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "two onions",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of parsley",
+      "originalText": "a bunch of parsley",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of summer savory",
+      "originalText": "a bunch of summer savory",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen whole pepper-corns",
+      "originalText": "two dozen whole pepper-corns",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rice-flour",
+      "originalText": "rice-flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the meat into a pot with two quarts of boiling water half a pound of salt pork or ham cut into strips a carrot two onions a bunch of parsley and one of summer savory all cut fine two dozen whole pepper-corns",
+      "section": null
+    },
+    {
+      "text": "Stew closely covered for three hours",
+      "section": null
+    },
+    {
+      "text": "When done take the meat from the pot and lay in the dish",
+      "section": null
+    },
+    {
+      "text": "Strain the gravy thicken with rice-flour boil up once and pour over the meat",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/stewed-knuckle-of-veal.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the meat into a pot with two quarts of boiling water half a pound of salt pork or ham cut into strips a carrot two onions a bunch of parsley and one of summer savory all cut fine two dozen whole pepper-corns\n2. Stew closely covered for three hours\n3. When done take the meat from the pot and lay in the dish\n4. Strain the gravy thicken with rice-flour boil up once and pour over the meat",
+    "originalIngredients": [
+      "veal knuckle",
+      "two quarts of boiling water",
+      "half a pound of salt pork or ham",
+      "a carrot",
+      "two onions",
+      "a bunch of parsley",
+      "a bunch of summer savory",
+      "two dozen whole pepper-corns",
+      "rice-flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

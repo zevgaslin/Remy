@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "b7f8d6f5-8307-5f97-86e5-5dfe4ce7c489",
+  "name": "Yeast Cakes",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "water (cold)",
+      "originalText": "2 quarts water (cold)",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pared and sliced potatoes",
+      "originalText": "1 quart pared and sliced potatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Double-handful hops, tied in coarse muslin bag",
+      "originalText": "Double-handful hops, tied in coarse muslin bag",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour to make stiff batter",
+      "originalText": "Flour to make stiff batter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Indian meal",
+      "originalText": "1 cup Indian meal",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lively yeast",
+      "originalText": "2 tablespoonfuls lively yeast",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a pinch of soda or saleratus",
+      "originalText": "a pinch of soda or saleratus",
+      "quantity": null,
+      "quantityText": "a pinch of soda or saleratus",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the potatoes and hop-bag in two quarts of water for three-quarters of an hour.",
+      "section": null
+    },
+    {
+      "text": "Remove the hops, and while boiling hot, strain the potatoes and water through a cullender into a bowl.",
+      "section": null
+    },
+    {
+      "text": "Stir into the scalding liquor enough flour to make a stiff batter.",
+      "section": null
+    },
+    {
+      "text": "Beat all up well; add two tablespoonfuls lively yeast and set in a warm place to rise.",
+      "section": null
+    },
+    {
+      "text": "When light, stir in a cup of Indian meal, roll into a sheet a quarter of an inch thick, and cut into round cakes.",
+      "section": null
+    },
+    {
+      "text": "Dry these in the hot sun, or in a very moderate oven, taking care they do not heat to baking.",
+      "section": null
+    },
+    {
+      "text": "It is best to put them in after the fire has gone down for the night, and leave them in until morning.",
+      "section": null
+    },
+    {
+      "text": "When entirely dry and cold, hang them up in a bag in a cool, dry place.",
+      "section": null
+    },
+    {
+      "text": "Use one cake three inches in diameter for a loaf of fair size; soak in tepid water until soft, and add a pinch of soda or saleratus, then mix.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/yeast-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the potatoes and hop-bag in two quarts of water for three-quarters of an hour.\n2. Remove the hops, and while boiling hot, strain the potatoes and water through a cullender into a bowl.\n3. Stir into the scalding liquor enough flour to make a stiff batter.\n4. Beat all up well; add two tablespoonfuls lively yeast and set in a warm place to rise.\n5. When light, stir in a cup of Indian meal, roll into a sheet a quarter of an inch thick, and cut into round cakes.\n6. Dry these in the hot sun, or in a very moderate oven, taking care they do not heat to baking.\n7. It is best to put them in after the fire has gone down for the night, and leave them in until morning.\n8. When entirely dry and cold, hang them up in a bag in a cool, dry place.\n9. Use one cake three inches in diameter for a loaf of fair size; soak in tepid water until soft, and add a pinch of soda or saleratus, then mix.",
+    "originalIngredients": [
+      "2 quarts water (cold)",
+      "1 quart pared and sliced potatoes",
+      "Double-handful hops, tied in coarse muslin bag",
+      "Flour to make stiff batter",
+      "1 cup Indian meal",
+      "2 tablespoonfuls lively yeast",
+      "a pinch of soda or saleratus"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "91264cf4-eac9-5f0b-817d-4feebc835870",
+  "name": "Fruit Bread Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "2 tablespoonfuls melted butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "(heaping) sugar",
+      "originalText": "2 tablespoonfuls (heaping) sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ lb. raisins, seeded and chopped",
+      "originalText": "¼ lb. raisins, seeded and chopped",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ lb. currants, well washed and picked over",
+      "originalText": "¼ lb. currants, well washed and picked over",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Handful of shred citron",
+      "originalText": "Handful of shred citron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda, dissolved in hot water",
+      "originalText": "1 teaspoonful soda, dissolved in hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scant cups fine bread-crumbs, from a stale loaf",
+      "originalText": "2 scant cups fine bread-crumbs, from a stale loaf",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the yolks light with the sugar",
+      "section": null
+    },
+    {
+      "text": "Add the bread-crumbs when they have been well soaked in the milk, and stir until smooth",
+      "section": null
+    },
+    {
+      "text": "Put in the fruit, well dredged with flour, the soda, and finally the whites, whipped to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "Cover it if it threatens to harden too soon on top",
+      "section": null
+    },
+    {
+      "text": "Send to table hot in the dish in which it was baked, or turn out very carefully upon a hot plate",
+      "section": null
+    },
+    {
+      "text": "Eat warm, with pudding-sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fruit-bread-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the yolks light with the sugar\n2. Add the bread-crumbs when they have been well soaked in the milk, and stir until smooth\n3. Put in the fruit, well dredged with flour, the soda, and finally the whites, whipped to a stiff froth\n4. Cover it if it threatens to harden too soon on top\n5. Send to table hot in the dish in which it was baked, or turn out very carefully upon a hot plate\n6. Eat warm, with pudding-sauce",
+    "originalIngredients": [
+      "1 quart milk",
+      "5 eggs",
+      "2 tablespoonfuls melted butter",
+      "2 tablespoonfuls (heaping) sugar",
+      "¼ lb. raisins, seeded and chopped",
+      "¼ lb. currants, well washed and picked over",
+      "Handful of shred citron",
+      "1 teaspoonful soda, dissolved in hot water",
+      "2 scant cups fine bread-crumbs, from a stale loaf"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

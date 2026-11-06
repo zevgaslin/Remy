@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "38456953-02f5-57cd-a482-5b60308a3585",
+  "name": "Compote of Chestnuts",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "chestnuts",
+      "originalText": "50 chestnuts",
+      "quantity": 50.0,
+      "quantityText": "50",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk and water",
+      "originalText": "1 qt. milk and water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "12 oz. sugar",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oranges",
+      "originalText": "3 oranges",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "0.5 pt. cream",
+      "quantity": 0.5,
+      "quantityText": "0.5",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Maraschino",
+      "originalText": "Maraschino",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whipped cream",
+      "originalText": "Whipped cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla bean",
+      "originalText": "Vanilla bean",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Remove husks and skin from the chestnuts",
+      "section": null
+    },
+    {
+      "text": "Boil gently in the milk and water until like floury potatoes, and strain them",
+      "section": null
+    },
+    {
+      "text": "Boil the sugar until it purls on the surface and flavor with vanilla bean",
+      "section": null
+    },
+    {
+      "text": "Add the chestnuts and work all together vigorously",
+      "section": null
+    },
+    {
+      "text": "Rub through a potato masher on to a dish",
+      "section": null
+    },
+    {
+      "text": "Pile up whipped cream in the centre of a dish",
+      "section": null
+    },
+    {
+      "text": "Gently strew the chestnuts on top of the cream in a conical form",
+      "section": null
+    },
+    {
+      "text": "Garnish with orange quarters soaked in maraschino at the base of the cream and nuts",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/compote-of-chestnuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Remove husks and skin from the chestnuts\n2. Boil gently in the milk and water until like floury potatoes, and strain them\n3. Boil the sugar until it purls on the surface and flavor with vanilla bean\n4. Add the chestnuts and work all together vigorously\n5. Rub through a potato masher on to a dish\n6. Pile up whipped cream in the centre of a dish\n7. Gently strew the chestnuts on top of the cream in a conical form\n8. Garnish with orange quarters soaked in maraschino at the base of the cream and nuts",
+    "originalIngredients": [
+      "50 chestnuts",
+      "1 qt. milk and water",
+      "12 oz. sugar",
+      "3 oranges",
+      "0.5 pt. cream",
+      "Maraschino",
+      "Whipped cream",
+      "Vanilla bean"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

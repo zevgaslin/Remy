@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "f8159ae1-b5a7-525a-a14f-d3354e1e145d",
+  "name": "Lunch Cakes",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 qt. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonfuls butter",
+      "originalText": "2 heaping tablespoonfuls butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "1 cup currants",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "baking powder",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Into flour rub butter.",
+      "section": null
+    },
+    {
+      "text": "Add sugar, baking powder and currants.",
+      "section": null
+    },
+    {
+      "text": "Beat eggs, add to them one cupful of milk and stir into the dry mixture, adding more milk, if it is necessary, to mix to a soft dough.",
+      "section": null
+    },
+    {
+      "text": "Roll out as for biscuits; cut into three-inch squares.",
+      "section": null
+    },
+    {
+      "text": "Rub the top of each with a mixture of milk and sugar.",
+      "section": null
+    },
+    {
+      "text": "Bake in a hot oven.",
+      "section": null
+    },
+    {
+      "text": "Split, butter and serve while hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/lunch-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Into flour rub butter.\n2. Add sugar, baking powder and currants.\n3. Beat eggs, add to them one cupful of milk and stir into the dry mixture, adding more milk, if it is necessary, to mix to a soft dough.\n4. Roll out as for biscuits; cut into three-inch squares.\n5. Rub the top of each with a mixture of milk and sugar.\n6. Bake in a hot oven.\n7. Split, butter and serve while hot.",
+    "originalIngredients": [
+      "1 qt. flour",
+      "2 heaping tablespoonfuls butter",
+      "1/2 cup sugar",
+      "1 cup currants",
+      "2 eggs",
+      "1 cup milk",
+      "baking powder"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

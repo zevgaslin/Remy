@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "e7852e32-a921-5871-b150-27465c6cc2ad",
+  "name": "Pineapple Cream",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cream",
+      "originalText": "1 pint of cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup of sugar",
+      "originalText": "a large cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half box gelatine",
+      "originalText": "one-half box gelatine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tiny pinch of salt",
+      "originalText": "a tiny pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 pineapple (or 1 can of pineapple)",
+      "originalText": "1 pineapple (or 1 can of pineapple)",
+      "quantity": null,
+      "quantityText": "1 pineapple (or 1 can of pineapple)",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Whip one pint of cream to a stiff froth.",
+      "section": null
+    },
+    {
+      "text": "Add a large cup of sugar.",
+      "section": null
+    },
+    {
+      "text": "Add one-half box gelatine soaked in a cup of milk for one hour.",
+      "section": null
+    },
+    {
+      "text": "Add a tiny pinch of salt.",
+      "section": null
+    },
+    {
+      "text": "Scrape one pineapple with a silver fork until it is in fine shreds, and add it to the cream (or one can of pineapple).",
+      "section": null
+    },
+    {
+      "text": "Set mould on ice to stiffen.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/pineapple-cream-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Whip one pint of cream to a stiff froth.\n2. Add a large cup of sugar.\n3. Add one-half box gelatine soaked in a cup of milk for one hour.\n4. Add a tiny pinch of salt.\n5. Scrape one pineapple with a silver fork until it is in fine shreds, and add it to the cream (or one can of pineapple).\n6. Set mould on ice to stiffen.",
+    "originalIngredients": [
+      "1 pint of cream",
+      "a large cup of sugar",
+      "one-half box gelatine",
+      "1 cup of milk",
+      "a tiny pinch of salt",
+      "1 pineapple (or 1 can of pineapple)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

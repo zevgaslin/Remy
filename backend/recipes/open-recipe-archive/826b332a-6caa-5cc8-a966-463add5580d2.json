@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "826b332a-6caa-5cc8-a966-463add5580d2",
+  "name": "Melted or Drawn Butter, No. 3",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "3 ounces butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Half-pint water (hot)",
+      "originalText": "Half-pint water (hot)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "A beaten egg",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoonful flour",
+      "originalText": "1 heaping teaspoonful flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold milk",
+      "originalText": "cold milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wet the flour to a smooth paste with a little cold milk, and add to the hot water in the inner vessel, stirring until thick.",
+      "section": null
+    },
+    {
+      "text": "Have ready the beaten egg in a cup.",
+      "section": null
+    },
+    {
+      "text": "Take a teaspoonful of the mixture from the fire, and beat with this until light; then another, and still another.",
+      "section": null
+    },
+    {
+      "text": "Set aside the cup when this is done, and stir the butter into the contents of the inner saucepan gradually, until thoroughly mixed, then add the beaten egg in the same way.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/melted-or-drawn-butter-no-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wet the flour to a smooth paste with a little cold milk, and add to the hot water in the inner vessel, stirring until thick.\n2. Have ready the beaten egg in a cup.\n3. Take a teaspoonful of the mixture from the fire, and beat with this until light; then another, and still another.\n4. Set aside the cup when this is done, and stir the butter into the contents of the inner saucepan gradually, until thoroughly mixed, then add the beaten egg in the same way.",
+    "originalIngredients": [
+      "3 ounces butter",
+      "Half-pint water (hot)",
+      "A beaten egg",
+      "1 heaping teaspoonful flour",
+      "cold milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

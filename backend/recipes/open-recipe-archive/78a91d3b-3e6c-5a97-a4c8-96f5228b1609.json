@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "78a91d3b-3e6c-5a97-a4c8-96f5228b1609",
+  "name": "Florida Orange Wine",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oranges",
+      "originalText": "oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar to each gallon of juice",
+      "originalText": "three pounds of granulated sugar to each gallon of juice",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the white and shell of one egg to each gallon",
+      "originalText": "the white and shell of one egg to each gallon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-third of a gallon of cold water to each gallon",
+      "originalText": "one-third of a gallon of cold water to each gallon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small cake of compressed yeast to about ten gallons of wine",
+      "originalText": "a small cake of compressed yeast to about ten gallons of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of brandy to each gallon of wine",
+      "originalText": "a glass of brandy to each gallon of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe the oranges with a wet cloth",
+      "section": null
+    },
+    {
+      "text": "Peel off the yellow rind very thin",
+      "section": null
+    },
+    {
+      "text": "Squeeze the oranges and strain the juice through a hair-sieve",
+      "section": null
+    },
+    {
+      "text": "Measure the juice after it is strained and for each gallon allow three pounds of granulated sugar, the white and shell of one egg and one-third of a gallon of cold water",
+      "section": null
+    },
+    {
+      "text": "Put the sugar, the white and shell of the egg (crushed small) and the water over the fire and stir them every two minutes until the eggs begin to harden",
+      "section": null
+    },
+    {
+      "text": "Boil the syrup until it looks clear under the froth of egg which will form on the surface",
+      "section": null
+    },
+    {
+      "text": "Strain the syrup and pour it upon the orange rind",
+      "section": null
+    },
+    {
+      "text": "Let it stand over night",
+      "section": null
+    },
+    {
+      "text": "Next add the orange juice and again let it stand over night",
+      "section": null
+    },
+    {
+      "text": "Strain it the second day and put it into a tight cask with a small cake of compressed yeast to about ten gallons of wine",
+      "section": null
+    },
+    {
+      "text": "Leave the bung out of the cask until the wine ceases to ferment",
+      "section": null
+    },
+    {
+      "text": "When fermentation ceases, close the cask by driving in the bung",
+      "section": null
+    },
+    {
+      "text": "Let the wine stand about nine months before bottling it",
+      "section": null
+    },
+    {
+      "text": "Three months after it is bottled, it can be used",
+      "section": null
+    },
+    {
+      "text": "A glass of brandy may be added to each gallon of wine after fermentation ceases",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/florida-orange-wine.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe the oranges with a wet cloth\n2. Peel off the yellow rind very thin\n3. Squeeze the oranges and strain the juice through a hair-sieve\n4. Measure the juice after it is strained and for each gallon allow three pounds of granulated sugar, the white and shell of one egg and one-third of a gallon of cold water\n5. Put the sugar, the white and shell of the egg (crushed small) and the water over the fire and stir them every two minutes until the eggs begin to harden\n6. Boil the syrup until it looks clear under the froth of egg which will form on the surface\n7. Strain the syrup and pour it upon the orange rind\n8. Let it stand over night\n9. Next add the orange juice and again let it stand over night\n10. Strain it the second day and put it into a tight cask with a small cake of compressed yeast to about ten gallons of wine\n11. Leave the bung out of the cask until the wine ceases to ferment\n12. When fermentation ceases, close the cask by driving in the bung\n13. Let the wine stand about nine months before bottling it\n14. Three months after it is bottled, it can be used\n15. A glass of brandy may be added to each gallon of wine after fermentation ceases",
+    "originalIngredients": [
+      "oranges",
+      "three pounds of granulated sugar to each gallon of juice",
+      "the white and shell of one egg to each gallon",
+      "one-third of a gallon of cold water to each gallon",
+      "a small cake of compressed yeast to about ten gallons of wine",
+      "a glass of brandy to each gallon of wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

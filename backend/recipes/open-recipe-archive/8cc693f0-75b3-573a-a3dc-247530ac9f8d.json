@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "8cc693f0-75b3-573a-a3dc-247530ac9f8d",
+  "name": "Wine Whey",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a large glass of sherry or Madeira",
+      "originalText": "a large glass of sherry or Madeira",
+      "quantity": null,
+      "quantityText": "a large glass of sherry or Madeira",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of currant wine",
+      "originalText": "a glass of currant wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil a pint of milk; and when it rises to the top of the sauce-pan, pour in a large glass of sherry or Madeira.",
+      "section": null
+    },
+    {
+      "text": "Add a glass of currant wine also.",
+      "section": null
+    },
+    {
+      "text": "Let it again boil up, and then take the sauce-pan off the fire, and set it aside to stand for a few minutes, but do not stir it.",
+      "section": null
+    },
+    {
+      "text": "Remove the curd, (if it has completely formed,) and pour the clear whey into a bowl and sweeten it.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/wine-whey.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil a pint of milk; and when it rises to the top of the sauce-pan, pour in a large glass of sherry or Madeira.\n2. Add a glass of currant wine also.\n3. Let it again boil up, and then take the sauce-pan off the fire, and set it aside to stand for a few minutes, but do not stir it.\n4. Remove the curd, (if it has completely formed,) and pour the clear whey into a bowl and sweeten it.",
+    "originalIngredients": [
+      "a pint of milk",
+      "a large glass of sherry or Madeira",
+      "a glass of currant wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

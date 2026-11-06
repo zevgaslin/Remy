@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "76338533-a11d-56f4-97de-4f08aa610942",
+  "name": "Turkish Delight",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gelatine",
+      "originalText": "1 oz. gelatine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 lb. granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 cup cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of 1 lemon",
+      "originalText": "juice of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of 1 orange",
+      "originalText": "juice of 1 orange",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rum",
+      "originalText": "1 tablespoonful of rum",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak 1 oz. gelatine in 1/2 cup of cold water for two hours",
+      "section": null
+    },
+    {
+      "text": "Put 1 pound of granulated sugar in a pan with 1/2 cup of cold water",
+      "section": null
+    },
+    {
+      "text": "Stand the pan over the fire until the sugar is melted and comes to the boil",
+      "section": null
+    },
+    {
+      "text": "Add soaked gelatine and boil steadily for twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Flavor with the juice of one lemon and one orange and a tablespoonful of rum",
+      "section": null
+    },
+    {
+      "text": "Wet a tin in cold water and turn the mixture in, having it about one inch thick",
+      "section": null
+    },
+    {
+      "text": "When it is hard or jellied, spread icing sugar over the top and cut into inch square pieces",
+      "section": null
+    },
+    {
+      "text": "Roll in the icing sugar",
+      "section": null
+    },
+    {
+      "text": "Let the mixture stand in the pan over night before cutting, as it is very sticky",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/turkish-delight.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak 1 oz. gelatine in 1/2 cup of cold water for two hours\n2. Put 1 pound of granulated sugar in a pan with 1/2 cup of cold water\n3. Stand the pan over the fire until the sugar is melted and comes to the boil\n4. Add soaked gelatine and boil steadily for twenty minutes\n5. Flavor with the juice of one lemon and one orange and a tablespoonful of rum\n6. Wet a tin in cold water and turn the mixture in, having it about one inch thick\n7. When it is hard or jellied, spread icing sugar over the top and cut into inch square pieces\n8. Roll in the icing sugar\n9. Let the mixture stand in the pan over night before cutting, as it is very sticky",
+    "originalIngredients": [
+      "1 oz. gelatine",
+      "1 lb. granulated sugar",
+      "1 cup cold water",
+      "juice of 1 lemon",
+      "juice of 1 orange",
+      "1 tablespoonful of rum"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

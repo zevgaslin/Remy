@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "cf74d288-0c7f-5ac8-8323-402fe099d12d",
+  "name": "Prize Fruit Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "raisins",
+      "originalText": "4 cups raisins",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 cups sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "4 cups currants",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon peel",
+      "originalText": "1/2 pound lemon peel",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1 cup molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "buttermilk",
+      "originalText": "2 cups buttermilk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 pound butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "2 teaspoons cinnamon",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1 teaspoon cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "1 teaspoon nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoon salt",
+      "originalText": "a saltspoon salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter size of an egg",
+      "originalText": "butter size of an egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1/2 cup milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 1/2 cups flour",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 3 eggs",
+      "originalText": "whites of 3 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "1 teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Combine 4 cups raisins, 3 cups sugar, 4 cups currants, 1/2 pound lemon peel, 1 cup molasses, 2 cups buttermilk, 1 pound butter, 1 teaspoon soda, 2 teaspoons baking powder, 2 teaspoons cinnamon, 1 teaspoon cloves and 1 teaspoon nutmeg.",
+      "section": null
+    },
+    {
+      "text": "Bake with slow fire.",
+      "section": null
+    },
+    {
+      "text": "For White Part: beat 1 cup granulated sugar, a saltspoon salt, butter size of an egg, and 1/2 cup milk together.",
+      "section": null
+    },
+    {
+      "text": "Fold in 1 1/2 cups flour and the whites of 3 eggs beaten light with 1 teaspoon baking powder.",
+      "section": null
+    },
+    {
+      "text": "Bake in layers.",
+      "section": null
+    },
+    {
+      "text": "Put together with fruit part and ice with caramel frosting.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/prize-fruit-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Combine 4 cups raisins, 3 cups sugar, 4 cups currants, 1/2 pound lemon peel, 1 cup molasses, 2 cups buttermilk, 1 pound butter, 1 teaspoon soda, 2 teaspoons baking powder, 2 teaspoons cinnamon, 1 teaspoon cloves and 1 teaspoon nutmeg.\n2. Bake with slow fire.\n3. For White Part: beat 1 cup granulated sugar, a saltspoon salt, butter size of an egg, and 1/2 cup milk together.\n4. Fold in 1 1/2 cups flour and the whites of 3 eggs beaten light with 1 teaspoon baking powder.\n5. Bake in layers.\n6. Put together with fruit part and ice with caramel frosting.",
+    "originalIngredients": [
+      "4 cups raisins",
+      "3 cups sugar",
+      "4 cups currants",
+      "1/2 pound lemon peel",
+      "1 cup molasses",
+      "2 cups buttermilk",
+      "1 pound butter",
+      "1 teaspoon soda",
+      "2 teaspoons baking powder",
+      "2 teaspoons cinnamon",
+      "1 teaspoon cloves",
+      "1 teaspoon nutmeg",
+      "1 cup granulated sugar",
+      "a saltspoon salt",
+      "butter size of an egg",
+      "1/2 cup milk",
+      "1 1/2 cups flour",
+      "whites of 3 eggs",
+      "1 teaspoon baking powder"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

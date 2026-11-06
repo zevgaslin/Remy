@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "9ada23d2-0b2c-5d98-b5e0-a90181905879",
+  "name": "Cheese Fondu",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 oz. butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling milk",
+      "originalText": "1 pt. boiling milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoonfuls flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "1/4 teaspoonful pepper",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cheese",
+      "originalText": "5 oz. grated cheese",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt butter, and whisk into it the boiled milk",
+      "section": null
+    },
+    {
+      "text": "Dissolve flour in a gill of cold milk, add it to the boiled milk and let it cool",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks of eggs with salt, pepper, and grated cheese",
+      "section": null
+    },
+    {
+      "text": "Whip the whites of the eggs and add them",
+      "section": null
+    },
+    {
+      "text": "Pour the mixture into a deep tin lined with buttered paper, and allow for the rising, say four inches",
+      "section": null
+    },
+    {
+      "text": "Bake twenty minutes and serve the moment it leaves the oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cheese-fondu-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt butter, and whisk into it the boiled milk\n2. Dissolve flour in a gill of cold milk, add it to the boiled milk and let it cool\n3. Beat the yolks of eggs with salt, pepper, and grated cheese\n4. Whip the whites of the eggs and add them\n5. Pour the mixture into a deep tin lined with buttered paper, and allow for the rising, say four inches\n6. Bake twenty minutes and serve the moment it leaves the oven",
+    "originalIngredients": [
+      "1 oz. butter",
+      "1 pt. boiling milk",
+      "2 tablespoonfuls flour",
+      "4 eggs",
+      "1 teaspoonful salt",
+      "1/4 teaspoonful pepper",
+      "5 oz. grated cheese"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

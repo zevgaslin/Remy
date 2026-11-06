@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "934032cd-65a6-58cb-b93b-36a2974baac8",
+  "name": "Lee Cake",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "10 eggs",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 lb. sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. flour",
+      "originalText": "½ lb. flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemons",
+      "originalText": "2 lemons",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange",
+      "originalText": "1 orange",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a quarter powdered sugar",
+      "originalText": "1 lb. and a quarter powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat whites and yolks separately; add to all the yolks and the whites of seven eggs the sugar, the rind of two lemons, and juice of one. Bake as for jelly-cake.",
+      "section": null
+    },
+    {
+      "text": "To the whites of three eggs allow a pound and a quarter of powdered sugar; beat stiff as for icing, take out enough to cover the top of the cake and set aside.",
+      "section": null
+    },
+    {
+      "text": "Add to the rest the juice and half the grated rind of a large orange. When the cake is nearly cold, spread this between the layers.",
+      "section": null
+    },
+    {
+      "text": "Beat into the icing reserved for the top a little lemon-juice, and, if needed, more sugar. It should be thicker than that spread between the cakes.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lee-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat whites and yolks separately; add to all the yolks and the whites of seven eggs the sugar, the rind of two lemons, and juice of one. Bake as for jelly-cake.\n2. To the whites of three eggs allow a pound and a quarter of powdered sugar; beat stiff as for icing, take out enough to cover the top of the cake and set aside.\n3. Add to the rest the juice and half the grated rind of a large orange. When the cake is nearly cold, spread this between the layers.\n4. Beat into the icing reserved for the top a little lemon-juice, and, if needed, more sugar. It should be thicker than that spread between the cakes.",
+    "originalIngredients": [
+      "10 eggs",
+      "1 lb. sugar",
+      "½ lb. flour",
+      "2 lemons",
+      "1 orange",
+      "1 lb. and a quarter powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

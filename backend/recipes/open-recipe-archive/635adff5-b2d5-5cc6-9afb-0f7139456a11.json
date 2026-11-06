@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "635adff5-b2d5-5cc6-9afb-0f7139456a11",
+  "name": "Piccalilli",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peck of green tomatoes",
+      "originalText": "one peck of green tomatoes",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large onions",
+      "originalText": "eight large onions",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one cup of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "two quarts of water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "one quart of vinegar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "two quarts of vinegar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white mustard seed",
+      "originalText": "half a pound of white mustard seed",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ground pepper",
+      "originalText": "ground pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "cloves",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "ginger",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice",
+      "originalText": "allspice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne pepper",
+      "originalText": "cayenne pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop eight large onions fine and stir in one cup of salt with one peck of green tomatoes",
+      "section": null
+    },
+    {
+      "text": "Let it stand over night",
+      "section": null
+    },
+    {
+      "text": "In the morning drain off all the liquor",
+      "section": null
+    },
+    {
+      "text": "Take two quarts of water and one of vinegar and boil all together twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Drain all through a sieve or colander",
+      "section": null
+    },
+    {
+      "text": "Put it back into the kettle again and turn over it two quarts of vinegar, one pound of sugar, half a pound of white mustard seed, two tablespoonfuls of ground pepper, two of cinnamon, one of cloves, two of ginger, one of allspice, and half a teaspoonful of cayenne pepper",
+      "section": null
+    },
+    {
+      "text": "Boil all together fifteen minutes or until tender",
+      "section": null
+    },
+    {
+      "text": "Stir it often to prevent scorching",
+      "section": null
+    },
+    {
+      "text": "Seal in glass jars",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/piccalilli.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop eight large onions fine and stir in one cup of salt with one peck of green tomatoes\n2. Let it stand over night\n3. In the morning drain off all the liquor\n4. Take two quarts of water and one of vinegar and boil all together twenty minutes\n5. Drain all through a sieve or colander\n6. Put it back into the kettle again and turn over it two quarts of vinegar, one pound of sugar, half a pound of white mustard seed, two tablespoonfuls of ground pepper, two of cinnamon, one of cloves, two of ginger, one of allspice, and half a teaspoonful of cayenne pepper\n7. Boil all together fifteen minutes or until tender\n8. Stir it often to prevent scorching\n9. Seal in glass jars",
+    "originalIngredients": [
+      "one peck of green tomatoes",
+      "eight large onions",
+      "one cup of salt",
+      "two quarts of water",
+      "one quart of vinegar",
+      "two quarts of vinegar",
+      "one pound of sugar",
+      "half a pound of white mustard seed",
+      "ground pepper",
+      "cinnamon",
+      "cloves",
+      "ginger",
+      "allspice",
+      "cayenne pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

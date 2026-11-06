@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "b7bec090-1589-5fff-85d2-326e4d8f0845",
+  "name": "Scotch Marmalade",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Seville oranges",
+      "originalText": "2 doz. Seville oranges",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "doz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemons",
+      "originalText": "3 lemons",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "16 lbs. sugar",
+      "quantity": 16.0,
+      "quantityText": "16",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "8½ quarts cold water",
+      "originalText": "8½ quarts cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut fruit into thin slices and take out seeds",
+      "section": null
+    },
+    {
+      "text": "Put in an earthenware pan and cover with eight and one-half quarts of cold water",
+      "section": null
+    },
+    {
+      "text": "Let it stand for twenty-four hours",
+      "section": null
+    },
+    {
+      "text": "Boil quickly for two hours, then add sugar and boil again one and one-half hours",
+      "section": null
+    },
+    {
+      "text": "The seeds should be soaked for twenty-four hours in one pint of cold water; when ready to put in the sugar pour the liquid off them through a strainer and add to the oranges",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scotch-marmalade.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut fruit into thin slices and take out seeds\n2. Put in an earthenware pan and cover with eight and one-half quarts of cold water\n3. Let it stand for twenty-four hours\n4. Boil quickly for two hours, then add sugar and boil again one and one-half hours\n5. The seeds should be soaked for twenty-four hours in one pint of cold water; when ready to put in the sugar pour the liquid off them through a strainer and add to the oranges",
+    "originalIngredients": [
+      "2 doz. Seville oranges",
+      "3 lemons",
+      "16 lbs. sugar",
+      "8½ quarts cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

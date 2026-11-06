@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "c2242076-c506-52e5-bb96-e6db4bf672b8",
+  "name": "Maple Mousse",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "egg yolks",
+      "originalText": "4 egg yolks",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "maple syrup",
+      "originalText": "1 cup maple syrup",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 pt. cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Whip the cream very stiff",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs and place them in a double boiler",
+      "section": null
+    },
+    {
+      "text": "Pour in the maple syrup and stir constantly until the mixture gathers on the spoon",
+      "section": null
+    },
+    {
+      "text": "Take off the stove and beat till cold",
+      "section": null
+    },
+    {
+      "text": "Stir into the whipped cream",
+      "section": null
+    },
+    {
+      "text": "Put in a freezer that has been previously packed in ice and salt",
+      "section": null
+    },
+    {
+      "text": "Let stand four hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/maple-mousse.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Whip the cream very stiff\n2. Beat the eggs and place them in a double boiler\n3. Pour in the maple syrup and stir constantly until the mixture gathers on the spoon\n4. Take off the stove and beat till cold\n5. Stir into the whipped cream\n6. Put in a freezer that has been previously packed in ice and salt\n7. Let stand four hours",
+    "originalIngredients": [
+      "4 egg yolks",
+      "1 cup maple syrup",
+      "1 pt. cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

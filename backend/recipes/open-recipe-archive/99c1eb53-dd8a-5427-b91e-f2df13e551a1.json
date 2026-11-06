@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "99c1eb53-dd8a-5427-b91e-f2df13e551a1",
+  "name": "Cocoa-nut Jumbles",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large cocoa-nut, grated",
+      "originalText": "a large cocoa-nut, grated",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "a pound of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten eggs",
+      "originalText": "three beaten eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little rose water",
+      "originalText": "a little rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar for grating",
+      "originalText": "loaf-sugar for grating",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate a large cocoa-nut.",
+      "section": null
+    },
+    {
+      "text": "Rub half a pound of butter into a pound of sifted flour.",
+      "section": null
+    },
+    {
+      "text": "Wet it with three beaten eggs and a little rose water.",
+      "section": null
+    },
+    {
+      "text": "Add by degrees the cocoa-nut, so as to form a stiff dough.",
+      "section": null
+    },
+    {
+      "text": "Flour your hands and your paste-board.",
+      "section": null
+    },
+    {
+      "text": "Divide the dough into equal portions and make the jumbles with your hands into long rolls.",
+      "section": null
+    },
+    {
+      "text": "Curl them round and join the ends so as to form rings.",
+      "section": null
+    },
+    {
+      "text": "Grate loaf-sugar over them.",
+      "section": null
+    },
+    {
+      "text": "Lay them in buttered pans, not so near as to run into each other.",
+      "section": null
+    },
+    {
+      "text": "Bake them in a quick oven from five to ten minutes.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cocoa-nut-jumbles.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate a large cocoa-nut.\n2. Rub half a pound of butter into a pound of sifted flour.\n3. Wet it with three beaten eggs and a little rose water.\n4. Add by degrees the cocoa-nut, so as to form a stiff dough.\n5. Flour your hands and your paste-board.\n6. Divide the dough into equal portions and make the jumbles with your hands into long rolls.\n7. Curl them round and join the ends so as to form rings.\n8. Grate loaf-sugar over them.\n9. Lay them in buttered pans, not so near as to run into each other.\n10. Bake them in a quick oven from five to ten minutes.",
+    "originalIngredients": [
+      "a large cocoa-nut, grated",
+      "half a pound of butter",
+      "a pound of sifted flour",
+      "three beaten eggs",
+      "a little rose water",
+      "loaf-sugar for grating"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

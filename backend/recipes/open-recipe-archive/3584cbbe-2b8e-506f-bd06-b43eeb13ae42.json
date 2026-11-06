@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "3584cbbe-2b8e-506f-bd06-b43eeb13ae42",
+  "name": "Bologna Sausage (Uncooked)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lean pork",
+      "originalText": "6 lbs. lean pork",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean beef",
+      "originalText": "3 lbs. lean beef",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef suet",
+      "originalText": "2 lbs. beef suet",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "4 ounces salt",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black pepper",
+      "originalText": "6 tablespoonfuls black pepper",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne",
+      "originalText": "3 tablespoonfuls cayenne",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cloves",
+      "originalText": "2 teaspoonfuls powdered cloves",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice",
+      "originalText": "1 teaspoonful allspice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "minced onion, very finely chopped",
+      "originalText": "one minced onion, very finely chopped",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef-skins",
+      "originalText": "beef-skins",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brine",
+      "originalText": "brine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet oil",
+      "originalText": "sweet oil",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "fresh butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop or grind the meat and mix the seasoning well through it.",
+      "section": null
+    },
+    {
+      "text": "Pack it in beef-skins (or entrails) prepared as you do those of pork.",
+      "section": null
+    },
+    {
+      "text": "Tie both ends tightly and lay them in brine strong enough to bear up an egg.",
+      "section": null
+    },
+    {
+      "text": "Let them be in this for a week, then change the brine and let them remain in this a week longer.",
+      "section": null
+    },
+    {
+      "text": "Turn them over every day of the fortnight.",
+      "section": null
+    },
+    {
+      "text": "Take them out, wipe them, and send them to be smoked.",
+      "section": null
+    },
+    {
+      "text": "When well smoked, rub them over with sweet oil or fresh butter and hang them in a cool, dark place.",
+      "section": null
+    },
+    {
+      "text": "Cut in round, thick slices and toast on a gridiron, or fry in their own fat.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bologna-sausage-uncooked.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop or grind the meat and mix the seasoning well through it.\n2. Pack it in beef-skins (or entrails) prepared as you do those of pork.\n3. Tie both ends tightly and lay them in brine strong enough to bear up an egg.\n4. Let them be in this for a week, then change the brine and let them remain in this a week longer.\n5. Turn them over every day of the fortnight.\n6. Take them out, wipe them, and send them to be smoked.\n7. When well smoked, rub them over with sweet oil or fresh butter and hang them in a cool, dark place.\n8. Cut in round, thick slices and toast on a gridiron, or fry in their own fat.",
+    "originalIngredients": [
+      "6 lbs. lean pork",
+      "3 lbs. lean beef",
+      "2 lbs. beef suet",
+      "4 ounces salt",
+      "6 tablespoonfuls black pepper",
+      "3 tablespoonfuls cayenne",
+      "2 teaspoonfuls powdered cloves",
+      "1 teaspoonful allspice",
+      "one minced onion, very finely chopped",
+      "beef-skins",
+      "brine",
+      "sweet oil",
+      "fresh butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "7f605421-98a7-59b6-bc2b-1c27301986e1",
+  "name": "Rice Milk",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rice",
+      "originalText": "half a pint of rice",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "a quart of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "a quart of rich milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole raisins",
+      "originalText": "half a pound of whole raisins",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten eggs",
+      "originalText": "two beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonfuls of brown sugar",
+      "originalText": "four large table-spoonfuls of brown sugar",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pick and wash half a pint of rice, and boil it in a quart of water till it is quite soft.",
+      "section": null
+    },
+    {
+      "text": "Then drain it, and mix it with a quart of rich milk.",
+      "section": null
+    },
+    {
+      "text": "You may add half a pound of whole raisins.",
+      "section": null
+    },
+    {
+      "text": "Set it over hot coals, and stir it frequently till it boils.",
+      "section": null
+    },
+    {
+      "text": "When it boils hard, stir in alternately two beaten eggs, and four large table-spoonfuls of brown sugar.",
+      "section": null
+    },
+    {
+      "text": "Let it continue boiling five minutes longer; then take it off, and send it to table hot.",
+      "section": null
+    },
+    {
+      "text": "If you put in raisins you must let it boil till they are quite soft.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-milk.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pick and wash half a pint of rice, and boil it in a quart of water till it is quite soft.\n2. Then drain it, and mix it with a quart of rich milk.\n3. You may add half a pound of whole raisins.\n4. Set it over hot coals, and stir it frequently till it boils.\n5. When it boils hard, stir in alternately two beaten eggs, and four large table-spoonfuls of brown sugar.\n6. Let it continue boiling five minutes longer; then take it off, and send it to table hot.\n7. If you put in raisins you must let it boil till they are quite soft.",
+    "originalIngredients": [
+      "half a pint of rice",
+      "a quart of water",
+      "a quart of rich milk",
+      "half a pound of whole raisins",
+      "two beaten eggs",
+      "four large table-spoonfuls of brown sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

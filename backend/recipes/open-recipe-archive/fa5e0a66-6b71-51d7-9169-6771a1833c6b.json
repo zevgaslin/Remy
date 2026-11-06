@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "fa5e0a66-6b71-51d7-9169-6771a1833c6b",
+  "name": "Polka Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "arrow root",
+      "originalText": "4 tablespoonfuls arrow root",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "3 oz. fresh butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup white sugar",
+      "originalText": "1 teacup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dessertspoonful rose water",
+      "originalText": "1 dessertspoonful rose water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few drops essence of lemon",
+      "originalText": "a few drops essence of lemon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "3 pts. of milk",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix arrowroot in a pint of cold milk",
+      "section": null
+    },
+    {
+      "text": "Beat eggs well and add butter (cut into small bits), rose water, essence of lemon or ratafia, sugar",
+      "section": null
+    },
+    {
+      "text": "Boil two pints of milk in a double boiler",
+      "section": null
+    },
+    {
+      "text": "When boiling stir in the other ingredients, without taking the boiler off the stove",
+      "section": null
+    },
+    {
+      "text": "Let it boil till thick, then pour into a mould to cool",
+      "section": null
+    },
+    {
+      "text": "Turn it out and serve cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/polka-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix arrowroot in a pint of cold milk\n2. Beat eggs well and add butter (cut into small bits), rose water, essence of lemon or ratafia, sugar\n3. Boil two pints of milk in a double boiler\n4. When boiling stir in the other ingredients, without taking the boiler off the stove\n5. Let it boil till thick, then pour into a mould to cool\n6. Turn it out and serve cold",
+    "originalIngredients": [
+      "4 tablespoonfuls arrow root",
+      "4 eggs",
+      "3 oz. fresh butter",
+      "1 teacup white sugar",
+      "1 dessertspoonful rose water",
+      "a few drops essence of lemon",
+      "3 pts. of milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

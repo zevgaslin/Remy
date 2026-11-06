@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "c16636fa-b9b3-52f5-9208-1b762d30b2be",
+  "name": "Pineapple Jelly",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "package gelatine",
+      "originalText": "1 package gelatine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemons",
+      "originalText": "4 lemons",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1 cup cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pineapple juice",
+      "originalText": "1 cup pineapple juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2½ cups boiling water",
+      "originalText": "2½ cups boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup chopped pineapple",
+      "originalText": "¾ cup chopped pineapple",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak gelatine in one cup cold water for one-half hour",
+      "section": null
+    },
+    {
+      "text": "Add the grated rind of two lemons to this and soak for fifteen minutes",
+      "section": null
+    },
+    {
+      "text": "Add sugar, juice of four lemons, two and one-half cups boiling water and pineapple juice",
+      "section": null
+    },
+    {
+      "text": "Let come to a boil and strain into a mould which has been soaked in cold water",
+      "section": null
+    },
+    {
+      "text": "Drop three-quarters cup chopped pineapple into the mould and set away to cool",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/pineapple-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak gelatine in one cup cold water for one-half hour\n2. Add the grated rind of two lemons to this and soak for fifteen minutes\n3. Add sugar, juice of four lemons, two and one-half cups boiling water and pineapple juice\n4. Let come to a boil and strain into a mould which has been soaked in cold water\n5. Drop three-quarters cup chopped pineapple into the mould and set away to cool",
+    "originalIngredients": [
+      "1 package gelatine",
+      "4 lemons",
+      "1 cup sugar",
+      "1 cup cold water",
+      "1 cup pineapple juice",
+      "2½ cups boiling water",
+      "¾ cup chopped pineapple"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

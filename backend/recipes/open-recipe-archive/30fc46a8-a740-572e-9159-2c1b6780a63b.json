@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "30fc46a8-a740-572e-9159-2c1b6780a63b",
+  "name": "Mullagatawny Soup As Made in India",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarter of an ounce of China turmeric",
+      "originalText": "a quarter of an ounce of China turmeric",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the third of an ounce of cassia",
+      "originalText": "the third of an ounce of cassia",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "drachms of black pepper",
+      "originalText": "three drachms of black pepper",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "drachms of cayenne pepper",
+      "originalText": "two drachms of cayenne pepper",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coriander seeds",
+      "originalText": "an ounce of coriander seeds",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two large fowls, or three pounds of the lean of veal",
+      "originalText": "two large fowls, or three pounds of the lean of veal",
+      "quantity": null,
+      "quantityText": "two large fowls, or three pounds of the lean of veal",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "two quarts of water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large onions",
+      "originalText": "four large onions",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two ounces of butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rice flour",
+      "originalText": "rice flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "broth",
+      "originalText": "broth",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the juice of a lemon",
+      "originalText": "the juice of a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiled rice",
+      "originalText": "boiled rice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pound fine in a mortar a quarter of an ounce of China turmeric, the third of an ounce of cassia, three drachms of black pepper, two drachms of cayenne pepper, and an ounce of coriander seeds.",
+      "section": null
+    },
+    {
+      "text": "Mix and sift them well to make curry powder.",
+      "section": null
+    },
+    {
+      "text": "Take two large fowls, or three pounds of the lean of veal, and cut the flesh entirely from the bones in small pieces.",
+      "section": null
+    },
+    {
+      "text": "Put it into a stew-pan with two quarts of water.",
+      "section": null
+    },
+    {
+      "text": "Let it boil slowly for half an hour, skimming it well.",
+      "section": null
+    },
+    {
+      "text": "Prepare four large onions, minced, and fried in two ounces of butter.",
+      "section": null
+    },
+    {
+      "text": "Add to them the curry powder, and moisten the whole with broth from the stew-pan, mixed with a little rice flour.",
+      "section": null
+    },
+    {
+      "text": "When thoroughly mixed, stir the seasoning into the soup, and simmer it till it is as smooth and thick as cream, and till the chicken or veal is perfectly tender.",
+      "section": null
+    },
+    {
+      "text": "Stir into it the juice of a lemon.",
+      "section": null
+    },
+    {
+      "text": "Five minutes after take up the soup, with the meat in it, and serve it in the tureen.",
+      "section": null
+    },
+    {
+      "text": "Send to table separately, boiled rice on a hot water dish to keep it warm.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mullagatawny-soup-as-made-in-india.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pound fine in a mortar a quarter of an ounce of China turmeric, the third of an ounce of cassia, three drachms of black pepper, two drachms of cayenne pepper, and an ounce of coriander seeds.\n2. Mix and sift them well to make curry powder.\n3. Take two large fowls, or three pounds of the lean of veal, and cut the flesh entirely from the bones in small pieces.\n4. Put it into a stew-pan with two quarts of water.\n5. Let it boil slowly for half an hour, skimming it well.\n6. Prepare four large onions, minced, and fried in two ounces of butter.\n7. Add to them the curry powder, and moisten the whole with broth from the stew-pan, mixed with a little rice flour.\n8. When thoroughly mixed, stir the seasoning into the soup, and simmer it till it is as smooth and thick as cream, and till the chicken or veal is perfectly tender.\n9. Stir into it the juice of a lemon.\n10. Five minutes after take up the soup, with the meat in it, and serve it in the tureen.\n11. Send to table separately, boiled rice on a hot water dish to keep it warm.",
+    "originalIngredients": [
+      "a quarter of an ounce of China turmeric",
+      "the third of an ounce of cassia",
+      "three drachms of black pepper",
+      "two drachms of cayenne pepper",
+      "an ounce of coriander seeds",
+      "two large fowls, or three pounds of the lean of veal",
+      "two quarts of water",
+      "four large onions",
+      "two ounces of butter",
+      "rice flour",
+      "broth",
+      "the juice of a lemon",
+      "boiled rice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

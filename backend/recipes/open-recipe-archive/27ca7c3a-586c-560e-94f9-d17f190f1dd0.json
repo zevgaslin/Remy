@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "27ca7c3a-586c-560e-94f9-d17f190f1dd0",
+  "name": "Scalloped Cheese",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bread",
+      "originalText": "3 slices bread",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cheese",
+      "originalText": "1/4 lb. cheese",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "3 cups milk",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take three slices of bread, well buttered, first cutting off the brown outside crust.",
+      "section": null
+    },
+    {
+      "text": "Grate fine any kind of good cheese; lay the bread in layers in a buttered baking-dish, sprinkle over each the grated cheese, some salt and pepper to taste.",
+      "section": null
+    },
+    {
+      "text": "Mix well-beaten eggs with milk; pour it over the bread and cheese.",
+      "section": null
+    },
+    {
+      "text": "Bake it in a hot oven as you would cook a bread pudding. This makes an ample dish for four people.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scalloped-cheese-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take three slices of bread, well buttered, first cutting off the brown outside crust.\n2. Grate fine any kind of good cheese; lay the bread in layers in a buttered baking-dish, sprinkle over each the grated cheese, some salt and pepper to taste.\n3. Mix well-beaten eggs with milk; pour it over the bread and cheese.\n4. Bake it in a hot oven as you would cook a bread pudding. This makes an ample dish for four people.",
+    "originalIngredients": [
+      "3 slices bread",
+      "1/4 lb. cheese",
+      "4 eggs",
+      "3 cups milk",
+      "salt and pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

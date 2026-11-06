@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "01bc84f1-7db9-5468-b7d3-a068eaa486c1",
+  "name": "Sunnybank Shortcake",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "scant quarts flour",
+      "originalText": "2 scant quarts flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "2 tablespoonfuls lard",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoonfuls butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2½ cups sour or buttermilk",
+      "originalText": "2½ cups sour or buttermilk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, well beaten",
+      "originalText": "2 eggs, well beaten",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda, dissolved in hot water",
+      "originalText": "1 teaspoonful soda, dissolved in hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raspberries, blackberries, or huckleberries",
+      "originalText": "raspberries, blackberries, or huckleberries",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "4 or 5 tablespoonfuls sugar",
+      "originalText": "4 or 5 tablespoonfuls sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop up the shortening in the salted flour, as for pastry.",
+      "section": null
+    },
+    {
+      "text": "Add the eggs and soda to the milk; put all together, handling as little as may be.",
+      "section": null
+    },
+    {
+      "text": "Roll lightly and quickly into two sheets, the one intended for the upper crust half an inch thick, the lower less than this.",
+      "section": null
+    },
+    {
+      "text": "Lay the latter smoothly in a well-greased baking-pan, strew it thickly with raspberries, blackberries, or huckleberries.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle four or five tablespoonfuls of sugar over these.",
+      "section": null
+    },
+    {
+      "text": "Cover with the thicker crust, and bake from twenty to twenty-five minutes, until nicely browned, but not dried.",
+      "section": null
+    },
+    {
+      "text": "Eat hot for breakfast with butter and powdered sugar.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sunnybank-shortcake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop up the shortening in the salted flour, as for pastry.\n2. Add the eggs and soda to the milk; put all together, handling as little as may be.\n3. Roll lightly and quickly into two sheets, the one intended for the upper crust half an inch thick, the lower less than this.\n4. Lay the latter smoothly in a well-greased baking-pan, strew it thickly with raspberries, blackberries, or huckleberries.\n5. Sprinkle four or five tablespoonfuls of sugar over these.\n6. Cover with the thicker crust, and bake from twenty to twenty-five minutes, until nicely browned, but not dried.\n7. Eat hot for breakfast with butter and powdered sugar.",
+    "originalIngredients": [
+      "2 scant quarts flour",
+      "2 tablespoonfuls lard",
+      "3 tablespoonfuls butter",
+      "2½ cups sour or buttermilk",
+      "2 eggs, well beaten",
+      "1 teaspoonful soda, dissolved in hot water",
+      "1 teaspoonful salt",
+      "raspberries, blackberries, or huckleberries",
+      "4 or 5 tablespoonfuls sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

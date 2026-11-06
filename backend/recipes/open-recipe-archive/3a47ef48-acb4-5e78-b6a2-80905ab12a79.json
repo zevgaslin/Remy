@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "3a47ef48-acb4-5e78-b6a2-80905ab12a79",
+  "name": "Lemon Catchup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peel of a dozen large fresh lemons",
+      "originalText": "peel of a dozen large fresh lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard seed",
+      "originalText": "two ounces of mustard seed",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "black pepper",
+      "originalText": "half an ounce of black pepper",
+      "quantity": 0.5,
+      "quantityText": "half an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "half an ounce of nutmeg",
+      "quantity": 0.5,
+      "quantityText": "half an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of an ounce of mace",
+      "originalText": "a quarter of an ounce of mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of an ounce of cloves",
+      "originalText": "a quarter of an ounce of cloves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "horseradish",
+      "originalText": "two ounces of horseradish",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine salt",
+      "originalText": "one ounce of fine salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of the lemons",
+      "originalText": "juice of the lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate the peel of a dozen large fresh lemons.",
+      "section": null
+    },
+    {
+      "text": "Prepare, by pounding them in a mortar, two ounces of mustard seed, half an ounce of black pepper, half an ounce of nutmeg, a quarter of an ounce of mace, and a quarter of an ounce of cloves.",
+      "section": null
+    },
+    {
+      "text": "Slice thin two ounces of horseradish.",
+      "section": null
+    },
+    {
+      "text": "Put all these ingredients together.",
+      "section": null
+    },
+    {
+      "text": "Strew over them one ounce of fine salt.",
+      "section": null
+    },
+    {
+      "text": "Add the juice of the lemons.",
+      "section": null
+    },
+    {
+      "text": "Boil the whole twenty minutes.",
+      "section": null
+    },
+    {
+      "text": "Then put it warm into a jar, and let it stand three weeks closely covered.",
+      "section": null
+    },
+    {
+      "text": "Stir it up daily.",
+      "section": null
+    },
+    {
+      "text": "Then strain it through a sieve, and put it up in small bottles to flavour fish and other sauces.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-catchup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate the peel of a dozen large fresh lemons.\n2. Prepare, by pounding them in a mortar, two ounces of mustard seed, half an ounce of black pepper, half an ounce of nutmeg, a quarter of an ounce of mace, and a quarter of an ounce of cloves.\n3. Slice thin two ounces of horseradish.\n4. Put all these ingredients together.\n5. Strew over them one ounce of fine salt.\n6. Add the juice of the lemons.\n7. Boil the whole twenty minutes.\n8. Then put it warm into a jar, and let it stand three weeks closely covered.\n9. Stir it up daily.\n10. Then strain it through a sieve, and put it up in small bottles to flavour fish and other sauces.",
+    "originalIngredients": [
+      "peel of a dozen large fresh lemons",
+      "two ounces of mustard seed",
+      "half an ounce of black pepper",
+      "half an ounce of nutmeg",
+      "a quarter of an ounce of mace",
+      "a quarter of an ounce of cloves",
+      "two ounces of horseradish",
+      "one ounce of fine salt",
+      "juice of the lemons"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

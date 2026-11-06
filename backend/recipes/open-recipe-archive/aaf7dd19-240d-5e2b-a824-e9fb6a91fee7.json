@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "aaf7dd19-240d-5e2b-a824-e9fb6a91fee7",
+  "name": "Yankee Tea Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh butter",
+      "originalText": "half a pound of fresh butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered white sugar",
+      "originalText": "half a pound of powdered white sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "three well-beaten eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "a pound of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jill of strong fresh yeast",
+      "originalText": "half a jill of strong fresh yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up half a pound of fresh butter in a pint of milk and warm it a little, so as to soften but not melt the butter",
+      "section": null
+    },
+    {
+      "text": "Add, gradually, half a pound of powdered white sugar, in turn with three well-beaten eggs and a pound of sifted flour, finishing with half a jill of strong fresh yeast",
+      "section": null
+    },
+    {
+      "text": "Set the mixture in a warm place to rise",
+      "section": null
+    },
+    {
+      "text": "When it has risen high and the top is covered with bubbles, butter some cups and bake it in them about twenty minutes",
+      "section": null
+    },
+    {
+      "text": "When done, turn the cakes out on large plates, send them to table hot, and split and butter them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/yankee-tea-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up half a pound of fresh butter in a pint of milk and warm it a little, so as to soften but not melt the butter\n2. Add, gradually, half a pound of powdered white sugar, in turn with three well-beaten eggs and a pound of sifted flour, finishing with half a jill of strong fresh yeast\n3. Set the mixture in a warm place to rise\n4. When it has risen high and the top is covered with bubbles, butter some cups and bake it in them about twenty minutes\n5. When done, turn the cakes out on large plates, send them to table hot, and split and butter them",
+    "originalIngredients": [
+      "half a pound of fresh butter",
+      "a pint of milk",
+      "half a pound of powdered white sugar",
+      "three well-beaten eggs",
+      "a pound of sifted flour",
+      "half a jill of strong fresh yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

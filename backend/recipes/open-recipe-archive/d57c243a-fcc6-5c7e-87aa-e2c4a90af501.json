@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "d57c243a-fcc6-5c7e-87aa-e2c4a90af501",
+  "name": "Bean (Dried)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1 quart kidney beans, rice beans, field beans, or French mock-turtle soup beans",
+      "originalText": "1 quart kidney beans, rice beans, field beans, or French mock-turtle soup beans",
+      "quantity": null,
+      "quantityText": "1 quart kidney beans, rice beans, field beans, or French mock-turtle soup beans",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon of cold water",
+      "originalText": "1 gallon of cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt pork",
+      "originalText": "2 pounds of salt pork",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of celery",
+      "originalText": "1 head of celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne pepper",
+      "originalText": "cayenne pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon slices",
+      "originalText": "lemon slices",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak a quart of beans over night in soft lukewarm water.",
+      "section": null
+    },
+    {
+      "text": "Put them over the fire next morning, with one gallon of cold water and about two pounds of salt pork.",
+      "section": null
+    },
+    {
+      "text": "Boil slowly for three hours, keeping the pot well covered.",
+      "section": null
+    },
+    {
+      "text": "Shred into it a head of celery, add pepper—cayenne, if preferred.",
+      "section": null
+    },
+    {
+      "text": "Simmer half an hour longer, strain through a cullender, and serve, with slices of lemon passed to each guest.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bean-dried.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak a quart of beans over night in soft lukewarm water.\n2. Put them over the fire next morning, with one gallon of cold water and about two pounds of salt pork.\n3. Boil slowly for three hours, keeping the pot well covered.\n4. Shred into it a head of celery, add pepper—cayenne, if preferred.\n5. Simmer half an hour longer, strain through a cullender, and serve, with slices of lemon passed to each guest.",
+    "originalIngredients": [
+      "1 quart kidney beans, rice beans, field beans, or French mock-turtle soup beans",
+      "1 gallon of cold water",
+      "2 pounds of salt pork",
+      "1 head of celery",
+      "pepper",
+      "cayenne pepper",
+      "lemon slices"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

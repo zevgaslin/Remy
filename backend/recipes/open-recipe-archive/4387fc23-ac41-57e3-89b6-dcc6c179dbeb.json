@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "4387fc23-ac41-57e3-89b6-dcc6c179dbeb",
+  "name": "Four-Hour Bread Yeast",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "medium-sized potatoes",
+      "originalText": "12 medium-sized potatoes",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoons flour",
+      "originalText": "4 heaping tablespoons flour",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoons salt",
+      "originalText": "2 heaping tablespoons salt",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoons sugar",
+      "originalText": "2 heaping tablespoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "potato water",
+      "originalText": "potato water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cakes",
+      "originalText": "2 White Swan Yeast Cakes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil 12 medium-sized potatoes, have ready in a 2-gallon crock 4 heaping tablespoons flour, 2 heaping tablespoons salt, 2 heaping tablespoons sugar.",
+      "section": null
+    },
+    {
+      "text": "Scald with potato water, mash potatoes through colander, then add enough water to make about 1 1/2 gallons, lukewarm.",
+      "section": null
+    },
+    {
+      "text": "Add 2 White Swan Yeast Cakes which have been soaked in a little warm water.",
+      "section": null
+    },
+    {
+      "text": "Set in a warm place to rise.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/four-hour-bread-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil 12 medium-sized potatoes, have ready in a 2-gallon crock 4 heaping tablespoons flour, 2 heaping tablespoons salt, 2 heaping tablespoons sugar.\n2. Scald with potato water, mash potatoes through colander, then add enough water to make about 1 1/2 gallons, lukewarm.\n3. Add 2 White Swan Yeast Cakes which have been soaked in a little warm water.\n4. Set in a warm place to rise.",
+    "originalIngredients": [
+      "12 medium-sized potatoes",
+      "4 heaping tablespoons flour",
+      "2 heaping tablespoons salt",
+      "2 heaping tablespoons sugar",
+      "potato water",
+      "2 White Swan Yeast Cakes",
+      "warm water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

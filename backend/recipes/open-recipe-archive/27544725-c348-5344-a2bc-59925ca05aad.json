@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "27544725-c348-5344-a2bc-59925ca05aad",
+  "name": "Agra Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1.5 pts. milk",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "pts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 tablespoonful sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bread-and-butter marmalade",
+      "originalText": "Bread-and-butter marmalade",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiled custard",
+      "originalText": "1 pt. boiled custard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla to taste",
+      "originalText": "Vanilla to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Nutmeg",
+      "originalText": "Nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut thin slices of bread-and-butter",
+      "section": null
+    },
+    {
+      "text": "Spread them with the marmalade",
+      "section": null
+    },
+    {
+      "text": "Fit them neatly into a buttered pie-dish until it is half full",
+      "section": null
+    },
+    {
+      "text": "Pour over them gradually a hot custard made of the milk heated almost to boiling, then taken off the fire, and the beaten eggs and sugar stirred in with the flavoring",
+      "section": null
+    },
+    {
+      "text": "Place a small plate on the top to prevent the bread from rising",
+      "section": null
+    },
+    {
+      "text": "Let it soak for half an hour",
+      "section": null
+    },
+    {
+      "text": "Grate a little nutmeg on the top",
+      "section": null
+    },
+    {
+      "text": "Bake",
+      "section": null
+    },
+    {
+      "text": "When done turn it out of the dish",
+      "section": null
+    },
+    {
+      "text": "Pour over it a pint of boiled custard",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/agra-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut thin slices of bread-and-butter\n2. Spread them with the marmalade\n3. Fit them neatly into a buttered pie-dish until it is half full\n4. Pour over them gradually a hot custard made of the milk heated almost to boiling, then taken off the fire, and the beaten eggs and sugar stirred in with the flavoring\n5. Place a small plate on the top to prevent the bread from rising\n6. Let it soak for half an hour\n7. Grate a little nutmeg on the top\n8. Bake\n9. When done turn it out of the dish\n10. Pour over it a pint of boiled custard",
+    "originalIngredients": [
+      "4 eggs",
+      "1.5 pts. milk",
+      "1 tablespoonful sugar",
+      "Bread-and-butter marmalade",
+      "1 pt. boiled custard",
+      "Vanilla to taste",
+      "Nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

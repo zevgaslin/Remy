@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "5ef2833c-775c-541a-84d7-b9c429708ade",
+  "name": "Unrivaled Yeast",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the best hops",
+      "originalText": "two ounces of the best hops",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "four quarts of water",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "half a cupful of salt",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "half a cupful of brown sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one quart of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "medium-sized potatoes",
+      "originalText": "six medium-sized potatoes",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "On one morning boil two ounces of the best hops in four quarts of water half an hour",
+      "section": null
+    },
+    {
+      "text": "strain it, and let the liquor cool to the consistency of new milk",
+      "section": null
+    },
+    {
+      "text": "put it in an earthen bowl and add half a cupful of salt and half a cupful of brown sugar",
+      "section": null
+    },
+    {
+      "text": "beat up one quart of flour with some of the liquor",
+      "section": null
+    },
+    {
+      "text": "mix all well together, and let it stand till the third day after",
+      "section": null
+    },
+    {
+      "text": "add six medium-sized potatoes, boiled and mashed through a colander",
+      "section": null
+    },
+    {
+      "text": "let it stand a day, then strain and bottle and it is fit for use",
+      "section": null
+    },
+    {
+      "text": "It must be stirred frequently while it is making, and kept near a fire",
+      "section": null
+    },
+    {
+      "text": "if care be taken to let it ferment well in the bowl, it may immediately be corked tightly",
+      "section": null
+    },
+    {
+      "text": "keep it in a cool place",
+      "section": null
+    },
+    {
+      "text": "Before using it shake the bottle up well",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/unrivaled-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. On one morning boil two ounces of the best hops in four quarts of water half an hour\n2. strain it, and let the liquor cool to the consistency of new milk\n3. put it in an earthen bowl and add half a cupful of salt and half a cupful of brown sugar\n4. beat up one quart of flour with some of the liquor\n5. mix all well together, and let it stand till the third day after\n6. add six medium-sized potatoes, boiled and mashed through a colander\n7. let it stand a day, then strain and bottle and it is fit for use\n8. It must be stirred frequently while it is making, and kept near a fire\n9. if care be taken to let it ferment well in the bowl, it may immediately be corked tightly\n10. keep it in a cool place\n11. Before using it shake the bottle up well",
+    "originalIngredients": [
+      "two ounces of the best hops",
+      "four quarts of water",
+      "half a cupful of salt",
+      "half a cupful of brown sugar",
+      "one quart of flour",
+      "six medium-sized potatoes"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

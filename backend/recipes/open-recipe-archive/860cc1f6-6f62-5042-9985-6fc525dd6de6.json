@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "860cc1f6-6f62-5042-9985-6fc525dd6de6",
+  "name": "Cream for Fruit",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet milk",
+      "originalText": "One cupful of sweet milk",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "The whites of two eggs",
+      "originalText": "The whites of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "A tablespoonful of white sugar",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of butter the size of a nutmeg",
+      "originalText": "A piece of butter the size of a nutmeg",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold milk",
+      "originalText": "Half a cupful of cold milk",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "A teaspoonful of cornstarch",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat one cupful of sweet milk until boiling",
+      "section": null
+    },
+    {
+      "text": "Beat together the whites of two eggs, a tablespoonful of white sugar and a piece of butter the size of a nutmeg",
+      "section": null
+    },
+    {
+      "text": "Add half a cupful of cold milk and a teaspoonful of cornstarch",
+      "section": null
+    },
+    {
+      "text": "Stir well together until very light and smooth",
+      "section": null
+    },
+    {
+      "text": "Add it to the boiling milk",
+      "section": null
+    },
+    {
+      "text": "Cook it until it thickens; it must not boil",
+      "section": null
+    },
+    {
+      "text": "Set it aside to cool",
+      "section": null
+    },
+    {
+      "text": "Serve in a creamer",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cream-for-fruit.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat one cupful of sweet milk until boiling\n2. Beat together the whites of two eggs, a tablespoonful of white sugar and a piece of butter the size of a nutmeg\n3. Add half a cupful of cold milk and a teaspoonful of cornstarch\n4. Stir well together until very light and smooth\n5. Add it to the boiling milk\n6. Cook it until it thickens; it must not boil\n7. Set it aside to cool\n8. Serve in a creamer",
+    "originalIngredients": [
+      "One cupful of sweet milk",
+      "The whites of two eggs",
+      "A tablespoonful of white sugar",
+      "A piece of butter the size of a nutmeg",
+      "Half a cupful of cold milk",
+      "A teaspoonful of cornstarch"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

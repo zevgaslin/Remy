@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "ae8109a2-7917-5c1f-9b7b-1669b284e4d9",
+  "name": "Canadian Coffee",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ground coffee",
+      "originalText": "2 tablespoons ground coffee",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 cup boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "equal quantity of milk",
+      "originalText": "equal quantity of milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wet ground coffee with a little cold water",
+      "section": null
+    },
+    {
+      "text": "Pour over this a cup of boiling water",
+      "section": null
+    },
+    {
+      "text": "In another pan have an equal quantity of milk and allow it to scald, or until it begins to bubble around the edges of the pan",
+      "section": null
+    },
+    {
+      "text": "When the coffee boils, add the scalded milk",
+      "section": null
+    },
+    {
+      "text": "Allow to boil until it foams up",
+      "section": null
+    },
+    {
+      "text": "Add a few drops of cold water to settle the grounds",
+      "section": null
+    },
+    {
+      "text": "Serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/canadian-coffee.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wet ground coffee with a little cold water\n2. Pour over this a cup of boiling water\n3. In another pan have an equal quantity of milk and allow it to scald, or until it begins to bubble around the edges of the pan\n4. When the coffee boils, add the scalded milk\n5. Allow to boil until it foams up\n6. Add a few drops of cold water to settle the grounds\n7. Serve",
+    "originalIngredients": [
+      "2 tablespoons ground coffee",
+      "cold water",
+      "1 cup boiling water",
+      "equal quantity of milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

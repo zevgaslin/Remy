@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "1c9bb05e-c60c-50cf-93ad-782f1619a8de",
+  "name": "Bridesmaid's Cake",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1/2 lb. butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 lb. sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of 14 eggs",
+      "originalText": "Whites of 14 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "almonds",
+      "originalText": "1/2 lb. almonds",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass sherry",
+      "originalText": "1 glass sherry",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little rose water and mace",
+      "originalText": "A little rose water and mace",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3/4 lb. flour",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Butter and sugar beaten to a cream, the whites of eggs beaten to a stiff froth, almonds pounded fine, with rose water and sherry, and a little mace, are made into a paste; rub this into three-quarter pounds of flour, and add lightly and quickly to the other ingredients already mixed.",
+      "section": null
+    },
+    {
+      "text": "The almonds, paste, and flour should be prepared first.",
+      "section": null
+    },
+    {
+      "text": "Bake in moderate oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/bridesmaid-s-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Butter and sugar beaten to a cream, the whites of eggs beaten to a stiff froth, almonds pounded fine, with rose water and sherry, and a little mace, are made into a paste; rub this into three-quarter pounds of flour, and add lightly and quickly to the other ingredients already mixed.\n2. The almonds, paste, and flour should be prepared first.\n3. Bake in moderate oven.",
+    "originalIngredients": [
+      "1/2 lb. butter",
+      "1/2 lb. sugar",
+      "Whites of 14 eggs",
+      "1/2 lb. almonds",
+      "1 glass sherry",
+      "A little rose water and mace",
+      "3/4 lb. flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

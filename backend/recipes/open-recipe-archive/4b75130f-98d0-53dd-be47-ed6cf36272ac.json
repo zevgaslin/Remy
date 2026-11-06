@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "4b75130f-98d0-53dd-be47-ed6cf36272ac",
+  "name": "Arrow Root Blanc-Mange",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "tea-cup full of arrow root",
+      "originalText": "1 tea-cup full of arrow root",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "unskimmed milk",
+      "originalText": "1/2 pint of unskimmed milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten nutmeg",
+      "originalText": "1 beaten nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "8 or 9 blades of mace",
+      "originalText": "8 or 9 blades of mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice and grated peel of 1 lemon",
+      "originalText": "juice and grated peel of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 1/2 pints of very rich milk or cream",
+      "originalText": "1 1/2 pints of very rich milk or cream",
+      "quantity": null,
+      "quantityText": "1 1/2 pints of very rich milk or cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/4 pound of sugar",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a tea-cup full of arrow root, put it into a large bowl, and dissolve it in a little cold water.",
+      "section": null
+    },
+    {
+      "text": "When it is melted, pour off the water, and let the arrow root remain undisturbed.",
+      "section": null
+    },
+    {
+      "text": "Boil in half a pint of unskimmed milk, made very sweet with white sugar, a beaten nutmeg, and eight or nine blades of mace, mixed with the juice and grated peel of a lemon.",
+      "section": null
+    },
+    {
+      "text": "When it has boiled long enough to be highly flavoured, strain it into a pint and a half of very rich milk or cream, and add a quarter of a pound of sugar.",
+      "section": null
+    },
+    {
+      "text": "Boil the whole for ten minutes; then strain it, boiling hot, over the arrow root.",
+      "section": null
+    },
+    {
+      "text": "Stir it well and frequently till cold; then put it into moulds and let it set to congeal.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/arrow-root-blanc-mange.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a tea-cup full of arrow root, put it into a large bowl, and dissolve it in a little cold water.\n2. When it is melted, pour off the water, and let the arrow root remain undisturbed.\n3. Boil in half a pint of unskimmed milk, made very sweet with white sugar, a beaten nutmeg, and eight or nine blades of mace, mixed with the juice and grated peel of a lemon.\n4. When it has boiled long enough to be highly flavoured, strain it into a pint and a half of very rich milk or cream, and add a quarter of a pound of sugar.\n5. Boil the whole for ten minutes; then strain it, boiling hot, over the arrow root.\n6. Stir it well and frequently till cold; then put it into moulds and let it set to congeal.",
+    "originalIngredients": [
+      "1 tea-cup full of arrow root",
+      "cold water",
+      "1/2 pint of unskimmed milk",
+      "white sugar",
+      "1 beaten nutmeg",
+      "8 or 9 blades of mace",
+      "juice and grated peel of 1 lemon",
+      "1 1/2 pints of very rich milk or cream",
+      "1/4 pound of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

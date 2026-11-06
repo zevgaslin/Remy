@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "d393f826-d653-5317-89a4-6bc9c75a929d",
+  "name": "Baked Custard",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1/2 cup milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 tablespoon sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch salt",
+      "originalText": "pinch salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flavoring",
+      "originalText": "flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the egg just enough to mix it thoroughly",
+      "section": null
+    },
+    {
+      "text": "Stir in the sugar and salt",
+      "section": null
+    },
+    {
+      "text": "Add milk and flavoring",
+      "section": null
+    },
+    {
+      "text": "Stir until the sugar is dissolved",
+      "section": null
+    },
+    {
+      "text": "Turn into a baking dish",
+      "section": null
+    },
+    {
+      "text": "Set the baking dish in a pan and pour boiling water around it",
+      "section": null
+    },
+    {
+      "text": "Bake in a hot oven until the point of a knife will come out of the centre with nothing on it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/baked-custard-6.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the egg just enough to mix it thoroughly\n2. Stir in the sugar and salt\n3. Add milk and flavoring\n4. Stir until the sugar is dissolved\n5. Turn into a baking dish\n6. Set the baking dish in a pan and pour boiling water around it\n7. Bake in a hot oven until the point of a knife will come out of the centre with nothing on it",
+    "originalIngredients": [
+      "1 egg",
+      "1/2 cup milk",
+      "1 tablespoon sugar",
+      "pinch salt",
+      "flavoring"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

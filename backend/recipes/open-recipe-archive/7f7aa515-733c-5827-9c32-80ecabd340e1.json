@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "7f7aa515-733c-5827-9c32-80ecabd340e1",
+  "name": "Chocolate Cake",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 cup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup melted butter",
+      "originalText": "1/2 teacup melted butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Milk enough to make batter",
+      "originalText": "Milk enough to make batter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacups flour",
+      "originalText": "2 teacups flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoonfuls baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "A pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cake chocolate and 1 teacup water",
+      "originalText": "1 cake chocolate and 1 teacup water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Confectioner's sugar",
+      "originalText": "Confectioner's sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat whites and yolks separately first, and then together; beat into this sugar, and then melted butter.",
+      "section": null
+    },
+    {
+      "text": "Sift flour into which you have stirred two teaspoons baking powder and a pinch of salt.",
+      "section": null
+    },
+    {
+      "text": "Beat it gradually into the eggs, etc., and then add enough milk to make a moderately stiff batter.",
+      "section": null
+    },
+    {
+      "text": "Bake in two layer cake tins in quick oven.",
+      "section": null
+    },
+    {
+      "text": "Melt chocolate in teacup boiling water on stove; add sugar enough to stiffen it into a thick paste; put this between layers while they are hot and ice top of cake.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chocolate-cake-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat whites and yolks separately first, and then together; beat into this sugar, and then melted butter.\n2. Sift flour into which you have stirred two teaspoons baking powder and a pinch of salt.\n3. Beat it gradually into the eggs, etc., and then add enough milk to make a moderately stiff batter.\n4. Bake in two layer cake tins in quick oven.\n5. Melt chocolate in teacup boiling water on stove; add sugar enough to stiffen it into a thick paste; put this between layers while they are hot and ice top of cake.",
+    "originalIngredients": [
+      "3 eggs",
+      "1 cup white sugar",
+      "1/2 teacup melted butter",
+      "Milk enough to make batter",
+      "2 teacups flour",
+      "2 teaspoonfuls baking powder",
+      "A pinch of salt",
+      "1 cake chocolate and 1 teacup water",
+      "Confectioner's sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

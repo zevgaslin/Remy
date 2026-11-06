@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "cbf4b56f-fc56-5e4e-bf64-f5e65213b1b6",
+  "name": "Tomata Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fore-leg of beef",
+      "originalText": "one fore-leg of beef",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon of water",
+      "originalText": "one gallon of water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peck of ripe tomatas",
+      "originalText": "half a peck of ripe tomatas",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "six onions",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "crusts of bread",
+      "originalText": "crusts of bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread cut into dice",
+      "originalText": "bread cut into dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up the fore-leg of beef into small pieces",
+      "section": null
+    },
+    {
+      "text": "Put the meat with the bones into a soup-pot, and cover it with a gallon of water",
+      "section": null
+    },
+    {
+      "text": "Season it with pepper, and a little salt",
+      "section": null
+    },
+    {
+      "text": "Boil and skim it well",
+      "section": null
+    },
+    {
+      "text": "Have ready half a peck of ripe tomatas cut up small; and when the soup is boiling thoroughly, put them in with all their juice",
+      "section": null
+    },
+    {
+      "text": "Add six onions sliced, and some crusts of bread cut small",
+      "section": null
+    },
+    {
+      "text": "Boil the soup slowly for six hours or more",
+      "section": null
+    },
+    {
+      "text": "When done, strain it through a cullender",
+      "section": null
+    },
+    {
+      "text": "Put into the tureen some pieces of bread cut into dice or small squares, and pour the soup upon it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomata-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up the fore-leg of beef into small pieces\n2. Put the meat with the bones into a soup-pot, and cover it with a gallon of water\n3. Season it with pepper, and a little salt\n4. Boil and skim it well\n5. Have ready half a peck of ripe tomatas cut up small; and when the soup is boiling thoroughly, put them in with all their juice\n6. Add six onions sliced, and some crusts of bread cut small\n7. Boil the soup slowly for six hours or more\n8. When done, strain it through a cullender\n9. Put into the tureen some pieces of bread cut into dice or small squares, and pour the soup upon it",
+    "originalIngredients": [
+      "one fore-leg of beef",
+      "one gallon of water",
+      "pepper",
+      "salt",
+      "half a peck of ripe tomatas",
+      "six onions",
+      "crusts of bread",
+      "bread cut into dice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

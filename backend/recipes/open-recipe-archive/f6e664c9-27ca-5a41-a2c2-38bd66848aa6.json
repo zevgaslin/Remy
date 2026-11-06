@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "f6e664c9-27ca-5a41-a2c2-38bd66848aa6",
+  "name": "Stewed Duck",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "duck",
+      "originalText": "1 duck",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good dripping",
+      "originalText": "good dripping",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced onion",
+      "originalText": "1 sliced onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 cupful of stock or consomme",
+      "originalText": "1 cupful of stock or consomme",
+      "quantity": null,
+      "quantityText": "1 cupful of stock or consomme",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tomato catsup",
+      "originalText": "1 tablespoonful of tomato catsup",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dash of lemon-juice",
+      "originalText": "1 dash of lemon-juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown roux",
+      "originalText": "1 tablespoonful of brown roux",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of sherry",
+      "originalText": "1 glass of sherry",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Joint as for fricassee",
+      "section": null
+    },
+    {
+      "text": "Pepper, salt, and flour the duck",
+      "section": null
+    },
+    {
+      "text": "Heat good dripping in a frying-pan and fry a sliced onion to a light brown",
+      "section": null
+    },
+    {
+      "text": "Take out the onion, put in the duck, and cook ten minutes, turning two or three times",
+      "section": null
+    },
+    {
+      "text": "Put into a sauce-pan a cupful of stock or consomme, and while it is still cold lay in the jointed duck",
+      "section": null
+    },
+    {
+      "text": "Cover and stew slowly until tender",
+      "section": null
+    },
+    {
+      "text": "Season with pepper and salt, a tablespoonful of tomato catsup, and a dash of lemon-juice",
+      "section": null
+    },
+    {
+      "text": "Simmer three minutes",
+      "section": null
+    },
+    {
+      "text": "Stir in a tablespoonful of brown roux",
+      "section": null
+    },
+    {
+      "text": "Cook a minute to thicken it",
+      "section": null
+    },
+    {
+      "text": "Add a glass of sherry, and serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/stewed-duck-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Joint as for fricassee\n2. Pepper, salt, and flour the duck\n3. Heat good dripping in a frying-pan and fry a sliced onion to a light brown\n4. Take out the onion, put in the duck, and cook ten minutes, turning two or three times\n5. Put into a sauce-pan a cupful of stock or consomme, and while it is still cold lay in the jointed duck\n6. Cover and stew slowly until tender\n7. Season with pepper and salt, a tablespoonful of tomato catsup, and a dash of lemon-juice\n8. Simmer three minutes\n9. Stir in a tablespoonful of brown roux\n10. Cook a minute to thicken it\n11. Add a glass of sherry, and serve",
+    "originalIngredients": [
+      "1 duck",
+      "pepper",
+      "salt",
+      "flour",
+      "good dripping",
+      "1 sliced onion",
+      "1 cupful of stock or consomme",
+      "1 tablespoonful of tomato catsup",
+      "1 dash of lemon-juice",
+      "1 tablespoonful of brown roux",
+      "1 glass of sherry"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

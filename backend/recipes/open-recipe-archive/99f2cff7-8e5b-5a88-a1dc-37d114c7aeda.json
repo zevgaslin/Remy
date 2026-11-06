@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "99f2cff7-8e5b-5a88-a1dc-37d114c7aeda",
+  "name": "Banbury Tarts",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "raisins",
+      "originalText": "1 cup raisins",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cracker",
+      "originalText": "1 cracker",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice and grated rind 1 lemon",
+      "originalText": "Juice and grated rind 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pastry",
+      "originalText": "pastry",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stone and chop raisins, add sugar, egg slightly beaten, cracker finely rolled, and lemon juice and rind.",
+      "section": null
+    },
+    {
+      "text": "Roll pastry one-eighth inch thick, and cut pieces three and one-half inches long by three inches wide.",
+      "section": null
+    },
+    {
+      "text": "Put two teaspoons of mixture on each piece.",
+      "section": null
+    },
+    {
+      "text": "Moisten edge with cold water half-way round, fold over, press edges together with three-tined fork, first dipped in flour.",
+      "section": null
+    },
+    {
+      "text": "Bake twenty minutes in slow oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/banbury-tarts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stone and chop raisins, add sugar, egg slightly beaten, cracker finely rolled, and lemon juice and rind.\n2. Roll pastry one-eighth inch thick, and cut pieces three and one-half inches long by three inches wide.\n3. Put two teaspoons of mixture on each piece.\n4. Moisten edge with cold water half-way round, fold over, press edges together with three-tined fork, first dipped in flour.\n5. Bake twenty minutes in slow oven.",
+    "originalIngredients": [
+      "1 cup raisins",
+      "1 cup sugar",
+      "1 egg",
+      "1 cracker",
+      "Juice and grated rind 1 lemon",
+      "pastry"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

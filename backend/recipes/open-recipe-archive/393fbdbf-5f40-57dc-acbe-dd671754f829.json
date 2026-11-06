@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "393fbdbf-5f40-57dc-acbe-dd671754f829",
+  "name": "Mocha Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs beaten lightly",
+      "originalText": "2 eggs beaten lightly",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoon vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "1 teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scalded milk",
+      "originalText": "3/4 cup scalded milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter melted in the milk",
+      "originalText": "1 teaspoon butter melted in the milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "1 cup powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter creamed",
+      "originalText": "1/4 cup butter creamed",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoon vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cocoa",
+      "originalText": "2 teaspoons cocoa",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strong coffee",
+      "originalText": "2 teaspoons strong coffee",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix 1 cup sugar, 2 eggs beaten lightly, a little salt, 1 teaspoon vanilla, 1 cup flour, and 1 teaspoon baking powder",
+      "section": null
+    },
+    {
+      "text": "Last of all add 3/4 cup scalded milk with 1 teaspoon butter melted in the milk",
+      "section": null
+    },
+    {
+      "text": "Bake",
+      "section": null
+    },
+    {
+      "text": "For filling: Cream 1 cup powdered sugar, 1/4 cup butter, 1 teaspoon vanilla, 2 teaspoons cocoa, and 2 teaspoons strong coffee all together",
+      "section": null
+    },
+    {
+      "text": "Spread filling between layers",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/mocha-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix 1 cup sugar, 2 eggs beaten lightly, a little salt, 1 teaspoon vanilla, 1 cup flour, and 1 teaspoon baking powder\n2. Last of all add 3/4 cup scalded milk with 1 teaspoon butter melted in the milk\n3. Bake\n4. For filling: Cream 1 cup powdered sugar, 1/4 cup butter, 1 teaspoon vanilla, 2 teaspoons cocoa, and 2 teaspoons strong coffee all together\n5. Spread filling between layers",
+    "originalIngredients": [
+      "1 cup sugar",
+      "2 eggs beaten lightly",
+      "a little salt",
+      "1 teaspoon vanilla",
+      "1 cup flour",
+      "1 teaspoon baking powder",
+      "3/4 cup scalded milk",
+      "1 teaspoon butter melted in the milk",
+      "1 cup powdered sugar",
+      "1/4 cup butter creamed",
+      "1 teaspoon vanilla",
+      "2 teaspoons cocoa",
+      "2 teaspoons strong coffee"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

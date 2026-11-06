@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "57cd56a7-454f-55b4-97e2-82f265445b10",
+  "name": "Deviled Kidneys",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Kidneys",
+      "originalText": "Kidneys",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One quart of water or stock",
+      "originalText": "One quart of water or stock",
+      "quantity": null,
+      "quantityText": "One quart of water or stock",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clove",
+      "originalText": "One clove",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion-juice",
+      "originalText": "Four teaspoonfuls of onion-juice",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "One tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "One tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the kidneys in thin round slices",
+      "section": null
+    },
+    {
+      "text": "Cover them with cold water and let stand half an hour",
+      "section": null
+    },
+    {
+      "text": "Wash them clean and put in stew-pan with one quart of water or stock, a clove, four teaspoonfuls of onion-juice, salt and pepper",
+      "section": null
+    },
+    {
+      "text": "Simmer two hours or longer if not tender",
+      "section": null
+    },
+    {
+      "text": "Set away, and for breakfast put one tablespoonful of butter in frying-pan",
+      "section": null
+    },
+    {
+      "text": "When hot add one tablespoonful of flour",
+      "section": null
+    },
+    {
+      "text": "Stir till brown and smooth",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/deviled-kidneys.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the kidneys in thin round slices\n2. Cover them with cold water and let stand half an hour\n3. Wash them clean and put in stew-pan with one quart of water or stock, a clove, four teaspoonfuls of onion-juice, salt and pepper\n4. Simmer two hours or longer if not tender\n5. Set away, and for breakfast put one tablespoonful of butter in frying-pan\n6. When hot add one tablespoonful of flour\n7. Stir till brown and smooth",
+    "originalIngredients": [
+      "Kidneys",
+      "One quart of water or stock",
+      "One clove",
+      "Four teaspoonfuls of onion-juice",
+      "Salt and pepper",
+      "One tablespoonful of butter",
+      "One tablespoonful of flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

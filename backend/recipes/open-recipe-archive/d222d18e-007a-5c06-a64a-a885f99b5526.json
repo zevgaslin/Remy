@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "d222d18e-007a-5c06-a64a-a885f99b5526",
+  "name": "Flannel Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "a table-spoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a quart of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "five eggs",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "three pints of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of salt",
+      "originalText": "a small tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonful and a half of the best fresh yeast",
+      "originalText": "a large table-spoonful and a half of the best fresh yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a table-spoonful of butter into a quart of milk, and warm them together till the butter has melted.",
+      "section": null
+    },
+    {
+      "text": "Stir it well, and set it away to cool.",
+      "section": null
+    },
+    {
+      "text": "Beat five eggs as light as possible, and stir them into the milk in turn with three pints of sifted flour.",
+      "section": null
+    },
+    {
+      "text": "Add a small tea-spoonful of salt, and a large table-spoonful and a half of the best fresh yeast.",
+      "section": null
+    },
+    {
+      "text": "Set the pan of batter near the fire to rise; and if the yeast is good, it will be light in three hours.",
+      "section": null
+    },
+    {
+      "text": "Bake it on a griddle in the manner of buckwheat cakes.",
+      "section": null
+    },
+    {
+      "text": "Send them to table hot, and cut across into four pieces.",
+      "section": null
+    },
+    {
+      "text": "This batter may be baked in waffle-irons. If so, send to table with the cakes powdered white sugar and cinnamon.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/flannel-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a table-spoonful of butter into a quart of milk, and warm them together till the butter has melted.\n2. Stir it well, and set it away to cool.\n3. Beat five eggs as light as possible, and stir them into the milk in turn with three pints of sifted flour.\n4. Add a small tea-spoonful of salt, and a large table-spoonful and a half of the best fresh yeast.\n5. Set the pan of batter near the fire to rise; and if the yeast is good, it will be light in three hours.\n6. Bake it on a griddle in the manner of buckwheat cakes.\n7. Send them to table hot, and cut across into four pieces.\n8. This batter may be baked in waffle-irons. If so, send to table with the cakes powdered white sugar and cinnamon.",
+    "originalIngredients": [
+      "a table-spoonful of butter",
+      "a quart of milk",
+      "five eggs",
+      "three pints of sifted flour",
+      "a small tea-spoonful of salt",
+      "a large table-spoonful and a half of the best fresh yeast",
+      "white sugar",
+      "cinnamon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

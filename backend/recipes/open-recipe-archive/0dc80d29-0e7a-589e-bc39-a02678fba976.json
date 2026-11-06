@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "0dc80d29-0e7a-589e-bc39-a02678fba976",
+  "name": "Egg Custard for Decorating",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "two tablespoons milk",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Separate yolks from whites of two eggs.",
+      "section": null
+    },
+    {
+      "text": "Beat yolks slightly, add two tablespoons milk and few grains salt.",
+      "section": null
+    },
+    {
+      "text": "Strain into a buttered cup, put in a saucepan, surround with boiling water to one-half depth of cup, cover, put on back of range, and steam until custard is firm.",
+      "section": null
+    },
+    {
+      "text": "Beat whites slightly, add few grains salt, and cook as yolks.",
+      "section": null
+    },
+    {
+      "text": "Cool, turn from cups, cut in thin slices, then in desired shapes.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/egg-custard-for-decorating.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Separate yolks from whites of two eggs.\n2. Beat yolks slightly, add two tablespoons milk and few grains salt.\n3. Strain into a buttered cup, put in a saucepan, surround with boiling water to one-half depth of cup, cover, put on back of range, and steam until custard is firm.\n4. Beat whites slightly, add few grains salt, and cook as yolks.\n5. Cool, turn from cups, cut in thin slices, then in desired shapes.",
+    "originalIngredients": [
+      "two eggs",
+      "two tablespoons milk",
+      "salt",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

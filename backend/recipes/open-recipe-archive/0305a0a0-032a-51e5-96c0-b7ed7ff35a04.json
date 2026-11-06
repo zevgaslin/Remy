@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "0305a0a0-032a-51e5-96c0-b7ed7ff35a04",
+  "name": "Cocoa-Nut Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cocoa-nut",
+      "originalText": "a cocoa-nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cocoa-nut",
+      "originalText": "a pound of grated cocoa-nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "loaf-sugar",
+      "originalText": "a pound of loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fifteen eggs",
+      "originalText": "fifteen eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of sifted flour",
+      "originalText": "a handful of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up and wash a cocoa-nut, and grate as much of it as will weigh a pound",
+      "section": null
+    },
+    {
+      "text": "Powder a pound of loaf-sugar",
+      "section": null
+    },
+    {
+      "text": "Beat fifteen eggs very light; and then beat into them, gradually, the sugar",
+      "section": null
+    },
+    {
+      "text": "Add by degrees the cocoa-nut; and lastly, a handful of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard, and bake it either in a large tin pan, or in little tins",
+      "section": null
+    },
+    {
+      "text": "The oven should be rather quick",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cocoa-nut-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up and wash a cocoa-nut, and grate as much of it as will weigh a pound\n2. Powder a pound of loaf-sugar\n3. Beat fifteen eggs very light; and then beat into them, gradually, the sugar\n4. Add by degrees the cocoa-nut; and lastly, a handful of sifted flour\n5. Stir the whole very hard, and bake it either in a large tin pan, or in little tins\n6. The oven should be rather quick",
+    "originalIngredients": [
+      "a cocoa-nut",
+      "a pound of grated cocoa-nut",
+      "a pound of loaf-sugar",
+      "fifteen eggs",
+      "a handful of sifted flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

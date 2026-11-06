@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "6facd3ba-7dd2-51f6-a133-e18e0812a0c5",
+  "name": "Scalloped Beef and Tomatoes",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cold roast or boiled beef",
+      "originalText": "cold roast or boiled beef",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tomatoes",
+      "originalText": "1 can tomatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gravy",
+      "originalText": "1 cup gravy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "1 cup bread crumbs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 tablespoon sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Drain the juice from tomatoes and set on the fire with 1 tablespoon of sugar",
+      "section": null
+    },
+    {
+      "text": "Cut the beef into slices and place a layer in a greased baking dish",
+      "section": null
+    },
+    {
+      "text": "Over this put some tomato, moisten thoroughly with the juice and gravy",
+      "section": null
+    },
+    {
+      "text": "Season highly, sprinkle with bread crumbs, dot with bits of butter",
+      "section": null
+    },
+    {
+      "text": "Add a little pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Bake 3 1/2 hour, uncover, brown and serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scalloped-beef-and-tomatoes.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Drain the juice from tomatoes and set on the fire with 1 tablespoon of sugar\n2. Cut the beef into slices and place a layer in a greased baking dish\n3. Over this put some tomato, moisten thoroughly with the juice and gravy\n4. Season highly, sprinkle with bread crumbs, dot with bits of butter\n5. Add a little pepper and salt\n6. Bake 3 1/2 hour, uncover, brown and serve",
+    "originalIngredients": [
+      "cold roast or boiled beef",
+      "1 can tomatoes",
+      "1 cup gravy",
+      "1 tablespoon butter",
+      "1 cup bread crumbs",
+      "1 tablespoon sugar",
+      "salt",
+      "pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

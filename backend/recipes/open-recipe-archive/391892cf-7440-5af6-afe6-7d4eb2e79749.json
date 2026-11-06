@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "391892cf-7440-5af6-afe6-7d4eb2e79749",
+  "name": "Apple Meringue Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "stewed apples",
+      "originalText": "1 pt. stewed apples",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, whites and yolks beaten separately",
+      "originalText": "3 eggs, whites and yolks beaten separately",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Little cinnamon",
+      "originalText": "Little cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup sugar",
+      "originalText": "1 teacup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 teaspoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "essence of almond",
+      "originalText": "1 teaspoonful essence of almond",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "two tablespoonfuls of white sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Prepare the apples as for a pie, and stew till almost a pulp",
+      "section": null
+    },
+    {
+      "text": "Sweeten and spice",
+      "section": null
+    },
+    {
+      "text": "While hot stir in the yolks of the eggs gradually",
+      "section": null
+    },
+    {
+      "text": "Beat very light",
+      "section": null
+    },
+    {
+      "text": "Pour into a buttered dish and bake for ten minutes",
+      "section": null
+    },
+    {
+      "text": "Cover, without drawing it from the oven, with a meringue made of the beaten whites, two tablespoonfuls of white sugar, and the almond flavoring",
+      "section": null
+    },
+    {
+      "text": "Spread it over with a tablespoon, evenly and quickly",
+      "section": null
+    },
+    {
+      "text": "Close the oven again and brown very slightly",
+      "section": null
+    },
+    {
+      "text": "Serve either hot or cold, as preferred",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/apple-meringue-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Prepare the apples as for a pie, and stew till almost a pulp\n2. Sweeten and spice\n3. While hot stir in the yolks of the eggs gradually\n4. Beat very light\n5. Pour into a buttered dish and bake for ten minutes\n6. Cover, without drawing it from the oven, with a meringue made of the beaten whites, two tablespoonfuls of white sugar, and the almond flavoring\n7. Spread it over with a tablespoon, evenly and quickly\n8. Close the oven again and brown very slightly\n9. Serve either hot or cold, as preferred",
+    "originalIngredients": [
+      "1 pt. stewed apples",
+      "3 eggs, whites and yolks beaten separately",
+      "Little cinnamon",
+      "1 teacup sugar",
+      "1 teaspoonful butter",
+      "1 teaspoonful essence of almond",
+      "two tablespoonfuls of white sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

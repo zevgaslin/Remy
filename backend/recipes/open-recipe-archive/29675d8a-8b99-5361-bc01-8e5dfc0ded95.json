@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "29675d8a-8b99-5361-bc01-8e5dfc0ded95",
+  "name": "A Plain Rice Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rice",
+      "originalText": "half a pint of rice",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two ounces of butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "four ounces of sugar",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "a quart of rich milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "four or five eggs",
+      "originalText": "four or five eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg and cinnamon",
+      "originalText": "a table-spoonful of grated nutmeg and cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pick, wash, and boil half a pint of rice.",
+      "section": null
+    },
+    {
+      "text": "Then drain off the water, and let the rice dry, and get cold.",
+      "section": null
+    },
+    {
+      "text": "Afterwards mix with it two ounces of butter, and four ounces of sugar, and stir it into a quart of rich milk.",
+      "section": null
+    },
+    {
+      "text": "Beat four or five eggs very light, and add them gradually to the mixture.",
+      "section": null
+    },
+    {
+      "text": "Stir in at the last a table-spoonful of grated nutmeg and cinnamon.",
+      "section": null
+    },
+    {
+      "text": "Bake it an hour in a deep dish.",
+      "section": null
+    },
+    {
+      "text": "Eat it cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-plain-rice-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pick, wash, and boil half a pint of rice.\n2. Then drain off the water, and let the rice dry, and get cold.\n3. Afterwards mix with it two ounces of butter, and four ounces of sugar, and stir it into a quart of rich milk.\n4. Beat four or five eggs very light, and add them gradually to the mixture.\n5. Stir in at the last a table-spoonful of grated nutmeg and cinnamon.\n6. Bake it an hour in a deep dish.\n7. Eat it cold.",
+    "originalIngredients": [
+      "half a pint of rice",
+      "two ounces of butter",
+      "four ounces of sugar",
+      "a quart of rich milk",
+      "four or five eggs",
+      "a table-spoonful of grated nutmeg and cinnamon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "f8143271-7d37-5624-9834-54bd59ff79f6",
+  "name": "Boiled Currant Pudding",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sifted flour",
+      "originalText": "five cupfuls of sifted flour",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "two teaspoonfuls of baking powder",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half a cupful of chopped suet",
+      "originalText": "one-half a cupful of chopped suet",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "half a pound of currants",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "a pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift two teaspoonfuls of baking powder into five cupfuls of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Wash the currants, dry them thoroughly and pick away any stalks or grit",
+      "section": null
+    },
+    {
+      "text": "Chop the suet finely",
+      "section": null
+    },
+    {
+      "text": "Mix all the ingredients together and moisten with sufficient milk to make the pudding into a stiff batter",
+      "section": null
+    },
+    {
+      "text": "Tie it up in a floured cloth and put it into boiling water",
+      "section": null
+    },
+    {
+      "text": "Boil for three hours and a half",
+      "section": null
+    },
+    {
+      "text": "Serve with jelly sauce made very sweet",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-currant-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift two teaspoonfuls of baking powder into five cupfuls of sifted flour\n2. Wash the currants, dry them thoroughly and pick away any stalks or grit\n3. Chop the suet finely\n4. Mix all the ingredients together and moisten with sufficient milk to make the pudding into a stiff batter\n5. Tie it up in a floured cloth and put it into boiling water\n6. Boil for three hours and a half\n7. Serve with jelly sauce made very sweet",
+    "originalIngredients": [
+      "five cupfuls of sifted flour",
+      "two teaspoonfuls of baking powder",
+      "one-half a cupful of chopped suet",
+      "half a pound of currants",
+      "milk",
+      "a pinch of salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

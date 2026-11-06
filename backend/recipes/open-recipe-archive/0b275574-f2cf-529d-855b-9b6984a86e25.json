@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "0b275574-f2cf-529d-855b-9b6984a86e25",
+  "name": "Bean Salad",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "onions",
+      "originalText": "10 onions",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold cooked beans",
+      "originalText": "2 pints cold cooked beans",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "1 teaspoonful pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salad oil",
+      "originalText": "2 tablespoonfuls salad oil",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 teaspoonful sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scant cup vinegar",
+      "originalText": "1 scant cup vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Olives",
+      "originalText": "Olives",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hard-boiled eggs",
+      "originalText": "Two hard-boiled eggs",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lettuce leaves",
+      "originalText": "Lettuce leaves",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel and slice onions very fine. Pour cold water over them and press hard to remove the strong taste. Drain well.",
+      "section": null
+    },
+    {
+      "text": "Have ready in the salad bowl cold boiled or baked beans, preferably the latter.",
+      "section": null
+    },
+    {
+      "text": "Mix with them the minced onion, salt, pepper, salad oil, sugar and vinegar.",
+      "section": null
+    },
+    {
+      "text": "Toss and mix with a fork lightly, but thoroughly, and garnish with olives, two hard-boiled eggs sliced and lettuce leaves.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/bean-salad-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel and slice onions very fine. Pour cold water over them and press hard to remove the strong taste. Drain well.\n2. Have ready in the salad bowl cold boiled or baked beans, preferably the latter.\n3. Mix with them the minced onion, salt, pepper, salad oil, sugar and vinegar.\n4. Toss and mix with a fork lightly, but thoroughly, and garnish with olives, two hard-boiled eggs sliced and lettuce leaves.",
+    "originalIngredients": [
+      "10 onions",
+      "2 pints cold cooked beans",
+      "1 teaspoonful pepper",
+      "2 tablespoonfuls salad oil",
+      "1 teaspoonful sugar",
+      "1 scant cup vinegar",
+      "1 teaspoonful salt",
+      "Olives",
+      "Two hard-boiled eggs",
+      "Lettuce leaves"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

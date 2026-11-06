@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "418eecd6-d99d-5300-84dd-5a77bcd3753d",
+  "name": "Mock Clam Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "marrowfat beans",
+      "originalText": "1 pint of marrowfat beans",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water enough to cover them",
+      "originalText": "Water enough to cover them",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "1 small onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon of cold water",
+      "originalText": "1 gallon of cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little summer savory",
+      "originalText": "A little summer savory",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 ounces of butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 cup of cream or rich milk",
+      "originalText": "1 cup of cream or rich milk",
+      "quantity": null,
+      "quantityText": "1 cup of cream or rich milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "toast",
+      "originalText": "2 slices of toast",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hard-boiled eggs",
+      "originalText": "4 hard-boiled eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook marrowfat beans over night in water enough to cover them",
+      "section": null
+    },
+    {
+      "text": "In the morning drain and put them on the fire with a small onion and a gallon of cold water",
+      "section": null
+    },
+    {
+      "text": "Boil until tender and strain",
+      "section": null
+    },
+    {
+      "text": "Add to the stock a little summer savory, two ounces of butter and a cup of cream or rich milk, season with salt and pepper",
+      "section": null
+    },
+    {
+      "text": "When the soup comes to a boil, cut two slices of toast into dice, and four hard-boiled eggs in slices",
+      "section": null
+    },
+    {
+      "text": "Put these in the tureen and pour the soup over and serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/mock-clam-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook marrowfat beans over night in water enough to cover them\n2. In the morning drain and put them on the fire with a small onion and a gallon of cold water\n3. Boil until tender and strain\n4. Add to the stock a little summer savory, two ounces of butter and a cup of cream or rich milk, season with salt and pepper\n5. When the soup comes to a boil, cut two slices of toast into dice, and four hard-boiled eggs in slices\n6. Put these in the tureen and pour the soup over and serve",
+    "originalIngredients": [
+      "1 pint of marrowfat beans",
+      "Water enough to cover them",
+      "1 small onion",
+      "1 gallon of cold water",
+      "A little summer savory",
+      "2 ounces of butter",
+      "1 cup of cream or rich milk",
+      "Salt and pepper",
+      "2 slices of toast",
+      "4 hard-boiled eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

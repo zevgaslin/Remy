@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "a2ba7d8d-c648-5b47-bc1b-0a3168272013",
+  "name": "French Green Pea Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "shelled green peas",
+      "originalText": "four quarts of shelled green peas",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large onions sliced",
+      "originalText": "two large onions sliced",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a handful of leaves of sweet marjoram or a handful of sweet basil or a mixed handful of both",
+      "originalText": "a handful of leaves of sweet marjoram or a handful of sweet basil or a mixed handful of both",
+      "quantity": null,
+      "quantityText": "a handful of leaves of sweet marjoram or a handful of sweet basil or a mixed handful of both",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of green mint",
+      "originalText": "a handful of green mint",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "four quarts of water",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tea-cup full of the juice of spinach",
+      "originalText": "a tea-cup full of the juice of spinach",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of the best fresh butter",
+      "originalText": "a quarter of a pound of the best fresh butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half more of shelled young peas",
+      "originalText": "a pint and a half more of shelled young peas",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very little salt",
+      "originalText": "a very little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne",
+      "originalText": "cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put into a soup-pot four quarts of shelled green peas, two large onions sliced, a handful of leaves of sweet marjoram shred from the stalks, or a handful of sweet basil; or a mixed handful of both--also, if you like it, a handful of green mint.",
+      "section": null
+    },
+    {
+      "text": "Add four quarts of water, and boil the whole slowly till all the peas are entirely to pieces.",
+      "section": null
+    },
+    {
+      "text": "Take off the pot, and mash the peas well against its sides to extract from them all their flavour.",
+      "section": null
+    },
+    {
+      "text": "Strain off the liquid into a clean pot.",
+      "section": null
+    },
+    {
+      "text": "Prepare a tea-cup full of the juice of spinach by pounding some spinach in a mortar.",
+      "section": null
+    },
+    {
+      "text": "Add the spinach juice to give the soup a fine green colour.",
+      "section": null
+    },
+    {
+      "text": "Put in a quarter of a pound of the best fresh butter rolled whole in flour.",
+      "section": null
+    },
+    {
+      "text": "Add a pint and a half more of shelled young peas, or a quart of the additional peas if you wish the soup very thick.",
+      "section": null
+    },
+    {
+      "text": "Season it with a very little salt and cayenne.",
+      "section": null
+    },
+    {
+      "text": "Put it again over the fire, and boil it till the last peas are quite soft, but not till they go to pieces.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/french-green-pea-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put into a soup-pot four quarts of shelled green peas, two large onions sliced, a handful of leaves of sweet marjoram shred from the stalks, or a handful of sweet basil; or a mixed handful of both--also, if you like it, a handful of green mint.\n2. Add four quarts of water, and boil the whole slowly till all the peas are entirely to pieces.\n3. Take off the pot, and mash the peas well against its sides to extract from them all their flavour.\n4. Strain off the liquid into a clean pot.\n5. Prepare a tea-cup full of the juice of spinach by pounding some spinach in a mortar.\n6. Add the spinach juice to give the soup a fine green colour.\n7. Put in a quarter of a pound of the best fresh butter rolled whole in flour.\n8. Add a pint and a half more of shelled young peas, or a quart of the additional peas if you wish the soup very thick.\n9. Season it with a very little salt and cayenne.\n10. Put it again over the fire, and boil it till the last peas are quite soft, but not till they go to pieces.",
+    "originalIngredients": [
+      "four quarts of shelled green peas",
+      "two large onions sliced",
+      "a handful of leaves of sweet marjoram or a handful of sweet basil or a mixed handful of both",
+      "a handful of green mint",
+      "four quarts of water",
+      "a tea-cup full of the juice of spinach",
+      "a quarter of a pound of the best fresh butter",
+      "flour",
+      "a pint and a half more of shelled young peas",
+      "a very little salt",
+      "cayenne"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

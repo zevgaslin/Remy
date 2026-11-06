@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "8e313c8e-1847-55e7-844a-f0242b31da3a",
+  "name": "Tomato Fritters",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "tomatoes",
+      "originalText": "1 can tomatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "can",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "6 cloves",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅛ cup sugar",
+      "originalText": "⅛ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "3 slices onion",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Few grains cayenne",
+      "originalText": "Few grains cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup butter",
+      "originalText": "¼ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup corn-starch",
+      "originalText": "½ cup corn-starch",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook first four ingredients twenty minutes, rub all through a sieve except seeds, and season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Melt butter, and when bubbling, add corn-starch and tomato gradually; cook two minutes, then add egg slightly beaten.",
+      "section": null
+    },
+    {
+      "text": "Pour into a buttered shallow tin, and cool.",
+      "section": null
+    },
+    {
+      "text": "Turn on a board, cut in squares, diamonds, or strips.",
+      "section": null
+    },
+    {
+      "text": "Roll in crumbs, egg, and crumbs again, fry in deep fat, and drain.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomato-fritters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook first four ingredients twenty minutes, rub all through a sieve except seeds, and season with salt and pepper.\n2. Melt butter, and when bubbling, add corn-starch and tomato gradually; cook two minutes, then add egg slightly beaten.\n3. Pour into a buttered shallow tin, and cool.\n4. Turn on a board, cut in squares, diamonds, or strips.\n5. Roll in crumbs, egg, and crumbs again, fry in deep fat, and drain.",
+    "originalIngredients": [
+      "1 can tomatoes",
+      "6 cloves",
+      "⅛ cup sugar",
+      "3 slices onion",
+      "1 teaspoon salt",
+      "Few grains cayenne",
+      "¼ cup butter",
+      "½ cup corn-starch",
+      "1 egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

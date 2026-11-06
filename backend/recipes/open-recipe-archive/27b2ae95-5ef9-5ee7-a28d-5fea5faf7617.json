@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "27b2ae95-5ef9-5ee7-a28d-5fea5faf7617",
+  "name": "Yeast (Self-working)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "potatoes",
+      "originalText": "8 potatoes",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hops",
+      "originalText": "2 ounces hops",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "4 quarts cold water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 lb. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. white sugar",
+      "originalText": "½ lb. white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Tie the hops in a coarse muslin bag, and boil one hour in four quarts of water.",
+      "section": null
+    },
+    {
+      "text": "Let it cool to lukewarmness before removing the bag.",
+      "section": null
+    },
+    {
+      "text": "Wet with the tepid liquor—a little at a time—the flour, making to a smooth paste.",
+      "section": null
+    },
+    {
+      "text": "Put in the sugar and salt, beat up the batter three minutes before adding the rest of the tea.",
+      "section": null
+    },
+    {
+      "text": "Set it away for two days in an open bowl covered with a thin cloth, in a closet which is moderately and evenly warm.",
+      "section": null
+    },
+    {
+      "text": "On the third day peel, boil, and mash the potatoes, and when entirely free from lumps and specks, stir in gradually the thickened hop-liquor.",
+      "section": null
+    },
+    {
+      "text": "Let it stand twelve hours longer in the bowl, stirring often, and keeping it in the warm kitchen.",
+      "section": null
+    },
+    {
+      "text": "Then bottle or put away in corked jars, which must be perfectly sweet and freshly scalded.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/yeast-self-working.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Tie the hops in a coarse muslin bag, and boil one hour in four quarts of water.\n2. Let it cool to lukewarmness before removing the bag.\n3. Wet with the tepid liquor—a little at a time—the flour, making to a smooth paste.\n4. Put in the sugar and salt, beat up the batter three minutes before adding the rest of the tea.\n5. Set it away for two days in an open bowl covered with a thin cloth, in a closet which is moderately and evenly warm.\n6. On the third day peel, boil, and mash the potatoes, and when entirely free from lumps and specks, stir in gradually the thickened hop-liquor.\n7. Let it stand twelve hours longer in the bowl, stirring often, and keeping it in the warm kitchen.\n8. Then bottle or put away in corked jars, which must be perfectly sweet and freshly scalded.",
+    "originalIngredients": [
+      "8 potatoes",
+      "2 ounces hops",
+      "4 quarts cold water",
+      "1 lb. flour",
+      "½ lb. white sugar",
+      "1 tablespoonful salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

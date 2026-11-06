@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "f0b126a4-e2ca-5ab0-8f46-e3c810c192ac",
+  "name": "Mince-Meat",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lean",
+      "originalText": "two pounds of lean",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fat",
+      "originalText": "one pound of fat",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine juicy apples, three pounds",
+      "originalText": "fine juicy apples, three pounds",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "four pounds of raisins",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonful of powdered cloves",
+      "originalText": "a large table-spoonful of powdered cloves",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large table-spoonful of powdered cinnamon",
+      "originalText": "a large table-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "a pound of brown sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a quart of bottled or sweet cider",
+      "originalText": "a quart of bottled or sweet cider",
+      "quantity": null,
+      "quantityText": "a quart of bottled or sweet cider",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated peel and juice of an orange",
+      "originalText": "grated peel and juice of an orange",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the meat, and when it is quite cold, chop it fine. Or you may substitute cold roast beef.",
+      "section": null
+    },
+    {
+      "text": "Pare and core the apples, cut them in pieces, and chop them.",
+      "section": null
+    },
+    {
+      "text": "Stone the raisins, and chop them also.",
+      "section": null
+    },
+    {
+      "text": "Add the powdered cloves, powdered cinnamon, and brown sugar.",
+      "section": null
+    },
+    {
+      "text": "Mix all thoroughly, moistening it with a quart of bottled or sweet cider.",
+      "section": null
+    },
+    {
+      "text": "You may add the grated peel and the juice of an orange.",
+      "section": null
+    },
+    {
+      "text": "Bake it in good common paste.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mince-meat.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the meat, and when it is quite cold, chop it fine. Or you may substitute cold roast beef.\n2. Pare and core the apples, cut them in pieces, and chop them.\n3. Stone the raisins, and chop them also.\n4. Add the powdered cloves, powdered cinnamon, and brown sugar.\n5. Mix all thoroughly, moistening it with a quart of bottled or sweet cider.\n6. You may add the grated peel and the juice of an orange.\n7. Bake it in good common paste.",
+    "originalIngredients": [
+      "two pounds of lean",
+      "one pound of fat",
+      "fine juicy apples, three pounds",
+      "four pounds of raisins",
+      "a large table-spoonful of powdered cloves",
+      "a large table-spoonful of powdered cinnamon",
+      "a pound of brown sugar",
+      "a quart of bottled or sweet cider",
+      "grated peel and juice of an orange"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

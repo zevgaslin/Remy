@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "a030ff03-70bd-5f78-9ef2-dfae51aca7b2",
+  "name": "Chestnut Stuffing",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large French chestnuts",
+      "originalText": "one quart of large French chestnuts",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "hot water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a teaspoonful of pepper",
+      "originalText": "one quarter of a teaspoonful of pepper",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped parsley",
+      "originalText": "one tablespoonful of chopped parsley",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stock",
+      "originalText": "stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "breadcrumbs",
+      "originalText": "breadcrumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Shell a quart of large French chestnuts.",
+      "section": null
+    },
+    {
+      "text": "Put them in hot water and boil until the skins are softened.",
+      "section": null
+    },
+    {
+      "text": "Drain off the water and remove the skins.",
+      "section": null
+    },
+    {
+      "text": "Replace the blanched chestnuts in water, and boil until soft.",
+      "section": null
+    },
+    {
+      "text": "Take out a few at a time, and press them through a colander or a potato press.",
+      "section": null
+    },
+    {
+      "text": "Season the mashed chestnuts with a tablespoonful of butter, a teaspoonful of salt, and a quarter of a teaspoonful of pepper.",
+      "section": null
+    },
+    {
+      "text": "Some cooks add a tablespoonful of chopped parsley, and moisten it with a little stock, or add a few breadcrumbs.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chestnut-stuffing-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Shell a quart of large French chestnuts.\n2. Put them in hot water and boil until the skins are softened.\n3. Drain off the water and remove the skins.\n4. Replace the blanched chestnuts in water, and boil until soft.\n5. Take out a few at a time, and press them through a colander or a potato press.\n6. Season the mashed chestnuts with a tablespoonful of butter, a teaspoonful of salt, and a quarter of a teaspoonful of pepper.\n7. Some cooks add a tablespoonful of chopped parsley, and moisten it with a little stock, or add a few breadcrumbs.",
+    "originalIngredients": [
+      "one quart of large French chestnuts",
+      "hot water",
+      "one tablespoonful of butter",
+      "one teaspoonful of salt",
+      "one quarter of a teaspoonful of pepper",
+      "one tablespoonful of chopped parsley",
+      "stock",
+      "breadcrumbs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

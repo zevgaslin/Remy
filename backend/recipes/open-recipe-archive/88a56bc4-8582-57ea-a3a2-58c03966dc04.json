@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "88a56bc4-8582-57ea-a3a2-58c03966dc04",
+  "name": "Dorchester Cracker Plum Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "2 quarts milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Boston crackers—split and buttered",
+      "originalText": "6 Boston crackers—split and buttered",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs—beaten very light",
+      "originalText": "8 eggs—beaten very light",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 cups sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Nutmeg, cloves, and cinnamon to taste",
+      "originalText": "Nutmeg, cloves, and cinnamon to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins, seeded and cut in two",
+      "originalText": "1 lb. raisins, seeded and cut in two",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a custard of the milk, eggs, and sugar, seasoned with the spices, by heating the milk almost to boiling, then taking it from the fire and adding gradually the yolks, sugar, seasoning, and whites.",
+      "section": null
+    },
+    {
+      "text": "Do not boil it again.",
+      "section": null
+    },
+    {
+      "text": "Butter a pudding-dish; put a layer of crackers in the bottom, moistening with a few spoonfuls of the hot custard.",
+      "section": null
+    },
+    {
+      "text": "On this lay some of the raisins—a thick stratum; cover with crackers—the buttered side downward; moisten with the custard, and proceed in this order until your crackers and fruit are used up.",
+      "section": null
+    },
+    {
+      "text": "Pour in custard until only the top of the upper layer is visible, but not enough to float them.",
+      "section": null
+    },
+    {
+      "text": "Cover closely and set in the cellar over night.",
+      "section": null
+    },
+    {
+      "text": "In the morning add the rest of the custard, at intervals of five or six minutes between the cupfuls.",
+      "section": null
+    },
+    {
+      "text": "Bake two hours in a moderate oven.",
+      "section": null
+    },
+    {
+      "text": "Cover with paper if it should seem likely to harden too fast.",
+      "section": null
+    },
+    {
+      "text": "Eat hot, with sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/dorchester-cracker-plum-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a custard of the milk, eggs, and sugar, seasoned with the spices, by heating the milk almost to boiling, then taking it from the fire and adding gradually the yolks, sugar, seasoning, and whites.\n2. Do not boil it again.\n3. Butter a pudding-dish; put a layer of crackers in the bottom, moistening with a few spoonfuls of the hot custard.\n4. On this lay some of the raisins—a thick stratum; cover with crackers—the buttered side downward; moisten with the custard, and proceed in this order until your crackers and fruit are used up.\n5. Pour in custard until only the top of the upper layer is visible, but not enough to float them.\n6. Cover closely and set in the cellar over night.\n7. In the morning add the rest of the custard, at intervals of five or six minutes between the cupfuls.\n8. Bake two hours in a moderate oven.\n9. Cover with paper if it should seem likely to harden too fast.\n10. Eat hot, with sauce.",
+    "originalIngredients": [
+      "2 quarts milk",
+      "6 Boston crackers—split and buttered",
+      "8 eggs—beaten very light",
+      "2 cups sugar",
+      "Nutmeg, cloves, and cinnamon to taste",
+      "1 teaspoonful of salt",
+      "1 lb. raisins, seeded and cut in two"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

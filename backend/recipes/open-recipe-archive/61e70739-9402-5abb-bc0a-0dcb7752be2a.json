@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "61e70739-9402-5abb-bc0a-0dcb7752be2a",
+  "name": "Black Bean Soup",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "black beans",
+      "originalText": "1 pint black beans",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "2 quarts cold water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "1 small onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 stalks celery, or ¼ teaspoon celery salt",
+      "originalText": "2 stalks celery, or ¼ teaspoon celery salt",
+      "quantity": null,
+      "quantityText": "2 stalks celery, or ¼ teaspoon celery salt",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ tablespoon salt",
+      "originalText": "½ tablespoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅛ teaspoon pepper",
+      "originalText": "⅛ teaspoon pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ teaspoon mustard",
+      "originalText": "¼ teaspoon mustard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Few grains cayenne",
+      "originalText": "Few grains cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ tablespoons flour",
+      "originalText": "1½ tablespoons flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hard-boiled eggs",
+      "originalText": "2 hard-boiled eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon",
+      "originalText": "1 lemon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak beans over night; in the morning drain and add cold water.",
+      "section": null
+    },
+    {
+      "text": "Slice onion, and cook five minutes with half the butter, adding to beans, with celery stalks broken in pieces.",
+      "section": null
+    },
+    {
+      "text": "Simmer three or four hours, or until beans are soft; add more water as water boils away.",
+      "section": null
+    },
+    {
+      "text": "Rub through a sieve, reheat to the boiling-point, and add salt, pepper, mustard, and cayenne well mixed.",
+      "section": null
+    },
+    {
+      "text": "Bind with remaining butter and flour cooked together.",
+      "section": null
+    },
+    {
+      "text": "Cut eggs in thin slices, and lemon in thin slices, removing seeds.",
+      "section": null
+    },
+    {
+      "text": "Put in tureen, and strain the soup over them.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/black-bean-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak beans over night; in the morning drain and add cold water.\n2. Slice onion, and cook five minutes with half the butter, adding to beans, with celery stalks broken in pieces.\n3. Simmer three or four hours, or until beans are soft; add more water as water boils away.\n4. Rub through a sieve, reheat to the boiling-point, and add salt, pepper, mustard, and cayenne well mixed.\n5. Bind with remaining butter and flour cooked together.\n6. Cut eggs in thin slices, and lemon in thin slices, removing seeds.\n7. Put in tureen, and strain the soup over them.",
+    "originalIngredients": [
+      "1 pint black beans",
+      "2 quarts cold water",
+      "1 small onion",
+      "2 stalks celery, or ¼ teaspoon celery salt",
+      "½ tablespoon salt",
+      "⅛ teaspoon pepper",
+      "¼ teaspoon mustard",
+      "Few grains cayenne",
+      "3 tablespoons butter",
+      "1½ tablespoons flour",
+      "2 hard-boiled eggs",
+      "1 lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "d7606553-b3e6-5712-9ae3-0efc4755a86d",
+  "name": "\"Glenedyth\" Christmas Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "breadcrumbs",
+      "originalText": "1 1/2 lbs. breadcrumbs",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1/2 lb. flour",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped suet",
+      "originalText": "2 lbs. chopped suet",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins, chopped",
+      "originalText": "2 lbs. raisins, chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "2 lbs. currants",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 lbs. sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "18 eggs",
+      "quantity": 18.0,
+      "quantityText": "18",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "claret glass brandy",
+      "originalText": "1 claret glass brandy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass maraschino",
+      "originalText": "1 wine glass maraschino",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "almonds, blanched and sliced",
+      "originalText": "2 oz. almonds, blanched and sliced",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "candied peel",
+      "originalText": "2 oz. candied peel",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron",
+      "originalText": "2 oz. citron",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "preserved ginger finely chopped",
+      "originalText": "2 oz. preserved ginger finely chopped",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small nutmegs",
+      "originalText": "2 small nutmegs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "limes, juice and finely chopped rind",
+      "originalText": "2 limes, juice and finely chopped rind",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix all to a stiff paste, moistening with a little milk if necessary, but be careful, for milk will make the pudding heavy.",
+      "section": null
+    },
+    {
+      "text": "The eggs and milk should be stirred into the ingredients after they have been thoroughly mixed together, and last of all the brandy and liqueur.",
+      "section": null
+    },
+    {
+      "text": "This pudding will take ten hours to boil, and is large enough for a party of sixteen.",
+      "section": null
+    },
+    {
+      "text": "For sauce: Put ten yolks of eggs in a stew-pan, four ounces of sugar, one pint of milk.",
+      "section": null
+    },
+    {
+      "text": "Stir over the fire in a \"bain marie\" (double boiler) till a rich custard has been formed; add a claret glass of Noyeau; strain the sauce and serve hot.",
+      "section": null
+    },
+    {
+      "text": "Instead of Noyeau three-quarters of a pint of Madeira may be used.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/glenedyth-christmas-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix all to a stiff paste, moistening with a little milk if necessary, but be careful, for milk will make the pudding heavy.\n2. The eggs and milk should be stirred into the ingredients after they have been thoroughly mixed together, and last of all the brandy and liqueur.\n3. This pudding will take ten hours to boil, and is large enough for a party of sixteen.\n4. For sauce: Put ten yolks of eggs in a stew-pan, four ounces of sugar, one pint of milk.\n5. Stir over the fire in a \"bain marie\" (double boiler) till a rich custard has been formed; add a claret glass of Noyeau; strain the sauce and serve hot.\n6. Instead of Noyeau three-quarters of a pint of Madeira may be used.",
+    "originalIngredients": [
+      "1 1/2 lbs. breadcrumbs",
+      "1/2 lb. flour",
+      "2 lbs. chopped suet",
+      "2 lbs. raisins, chopped",
+      "2 lbs. currants",
+      "2 lbs. sugar",
+      "18 eggs",
+      "1 claret glass brandy",
+      "1 wine glass maraschino",
+      "2 oz. almonds, blanched and sliced",
+      "2 oz. candied peel",
+      "2 oz. citron",
+      "2 oz. preserved ginger finely chopped",
+      "2 small nutmegs",
+      "2 limes, juice and finely chopped rind",
+      "1 teaspoonful salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

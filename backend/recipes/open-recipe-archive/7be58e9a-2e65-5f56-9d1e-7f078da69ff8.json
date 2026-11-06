@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "7be58e9a-2e65-5f56-9d1e-7f078da69ff8",
+  "name": "Mushroom Catsup",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "mushrooms",
+      "originalText": "2 quarts of mushrooms",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ lb. of salt",
+      "originalText": "¼ lb. of salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice per quart of juice",
+      "originalText": "half an ounce of allspice per quart of juice",
+      "quantity": 0.5,
+      "quantityText": "half an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger per quart of juice",
+      "originalText": "ginger per quart of juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered mace per quart of juice",
+      "originalText": "half a teaspoonful of powdered mace per quart of juice",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne per quart of juice",
+      "originalText": "a teaspoonful of cayenne per quart of juice",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Lay in an earthenware pan, in alternate layers of mushrooms and salt",
+      "section": null
+    },
+    {
+      "text": "Let them lie six hours, then break into bits",
+      "section": null
+    },
+    {
+      "text": "Set in a cool place, three days, stirring thoroughly every morning",
+      "section": null
+    },
+    {
+      "text": "Measure the juice when you have strained it, and to every quart allow half an ounce of allspice, the same quantity of ginger, half a teaspoonful of powdered mace, a teaspoonful of cayenne",
+      "section": null
+    },
+    {
+      "text": "Put into a stone jar, cover closely, set in a saucepan of boiling water over the fire, and boil five hours hard",
+      "section": null
+    },
+    {
+      "text": "Take it off, empty into a porcelain kettle, and boil slowly half an hour longer",
+      "section": null
+    },
+    {
+      "text": "Let it stand all night in a cool place, until settled and clear",
+      "section": null
+    },
+    {
+      "text": "Pour off carefully from the sediment, and bottle, filling the flasks to the mouth",
+      "section": null
+    },
+    {
+      "text": "Dip the corks in melted rosin, and tie up with bladders",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mushroom-catsup-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Lay in an earthenware pan, in alternate layers of mushrooms and salt\n2. Let them lie six hours, then break into bits\n3. Set in a cool place, three days, stirring thoroughly every morning\n4. Measure the juice when you have strained it, and to every quart allow half an ounce of allspice, the same quantity of ginger, half a teaspoonful of powdered mace, a teaspoonful of cayenne\n5. Put into a stone jar, cover closely, set in a saucepan of boiling water over the fire, and boil five hours hard\n6. Take it off, empty into a porcelain kettle, and boil slowly half an hour longer\n7. Let it stand all night in a cool place, until settled and clear\n8. Pour off carefully from the sediment, and bottle, filling the flasks to the mouth\n9. Dip the corks in melted rosin, and tie up with bladders",
+    "originalIngredients": [
+      "2 quarts of mushrooms",
+      "¼ lb. of salt",
+      "half an ounce of allspice per quart of juice",
+      "ginger per quart of juice",
+      "half a teaspoonful of powdered mace per quart of juice",
+      "a teaspoonful of cayenne per quart of juice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "7c4a39f8-f3d1-5872-be41-a58331df38d2",
+  "name": "Ash Cake",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "corn-meal",
+      "originalText": "corn-meal",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "a tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix as for corn-meal pone",
+      "section": null
+    },
+    {
+      "text": "Sweep a clean spot upon the hot hearth",
+      "section": null
+    },
+    {
+      "text": "Put the bread down and cover with hot wood ashes",
+      "section": null
+    },
+    {
+      "text": "Wash and wipe dry before it is eaten",
+      "section": null
+    },
+    {
+      "text": "Alternatively lay a cabbage-leaf above and below the pone",
+      "section": null
+    },
+    {
+      "text": "The bread is thus steamed before it is baked, and is made ready for eating by stripping off the leaves",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ash-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix as for corn-meal pone\n2. Sweep a clean spot upon the hot hearth\n3. Put the bread down and cover with hot wood ashes\n4. Wash and wipe dry before it is eaten\n5. Alternatively lay a cabbage-leaf above and below the pone\n6. The bread is thus steamed before it is baked, and is made ready for eating by stripping off the leaves",
+    "originalIngredients": [
+      "corn-meal",
+      "boiling water",
+      "a little salt",
+      "a tablespoonful butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

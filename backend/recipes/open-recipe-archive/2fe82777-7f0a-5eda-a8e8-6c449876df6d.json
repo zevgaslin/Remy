@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "2fe82777-7f0a-5eda-a8e8-6c449876df6d",
+  "name": "Milk Biscuit",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarters of a pound of butter",
+      "originalText": "three quarters of a pound of butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a quart of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glasses of strong fresh yeast",
+      "originalText": "two wine glasses of strong fresh yeast",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "sifted flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up three quarters of a pound of butter in a quart of milk, and set it near the fire to warm, till the butter becomes soft.",
+      "section": null
+    },
+    {
+      "text": "With a knife, mix it thoroughly with the milk, and set it away to cool.",
+      "section": null
+    },
+    {
+      "text": "Stir in two wine glasses of strong fresh yeast, and add by degrees as much sifted flour as will make a dough just stiff enough to roll out.",
+      "section": null
+    },
+    {
+      "text": "As soon as it is mixed, roll it into a thick sheet, and cut it out into round cakes with the edge of a tumbler or a wine glass.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle a large iron pan with flour and lay the biscuits in it.",
+      "section": null
+    },
+    {
+      "text": "Cover it and set it to rise near the fire.",
+      "section": null
+    },
+    {
+      "text": "When the biscuits are quite light, knead each one separately.",
+      "section": null
+    },
+    {
+      "text": "Prick them with a fork, and set them again in a warm place for about half an hour.",
+      "section": null
+    },
+    {
+      "text": "When they are light again, bake them in a moderate oven.",
+      "section": null
+    },
+    {
+      "text": "They should be eaten fresh, and pulled open with the fingers.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/milk-biscuit.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up three quarters of a pound of butter in a quart of milk, and set it near the fire to warm, till the butter becomes soft.\n2. With a knife, mix it thoroughly with the milk, and set it away to cool.\n3. Stir in two wine glasses of strong fresh yeast, and add by degrees as much sifted flour as will make a dough just stiff enough to roll out.\n4. As soon as it is mixed, roll it into a thick sheet, and cut it out into round cakes with the edge of a tumbler or a wine glass.\n5. Sprinkle a large iron pan with flour and lay the biscuits in it.\n6. Cover it and set it to rise near the fire.\n7. When the biscuits are quite light, knead each one separately.\n8. Prick them with a fork, and set them again in a warm place for about half an hour.\n9. When they are light again, bake them in a moderate oven.\n10. They should be eaten fresh, and pulled open with the fingers.",
+    "originalIngredients": [
+      "three quarters of a pound of butter",
+      "a quart of milk",
+      "two wine glasses of strong fresh yeast",
+      "sifted flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

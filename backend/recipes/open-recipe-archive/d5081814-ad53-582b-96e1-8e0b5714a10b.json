@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "d5081814-ad53-582b-96e1-8e0b5714a10b",
+  "name": "Calf's-Foot Jelly",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "calf's feet, cleaned carefully",
+      "originalText": "4 calf's feet, cleaned carefully",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "4 quarts of water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine",
+      "originalText": "1 pint of wine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "3 cups of sugar—or sweeten to taste",
+      "originalText": "3 cups of sugar—or sweeten to taste",
+      "quantity": null,
+      "quantityText": "3 cups of sugar—or sweeten to taste",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites of 3 eggs, well beaten",
+      "originalText": "Whites of 3 eggs, well beaten",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "2 teaspoonfuls of nutmeg",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of 1 lemon, and half the grated peel",
+      "originalText": "Juice of 1 lemon, and half the grated peel",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the calf's feet in the water until it is reduced one half",
+      "section": null
+    },
+    {
+      "text": "Strain the liquor, and let it stand ten or twelve hours",
+      "section": null
+    },
+    {
+      "text": "Skim off every particle of the fat, and remove the dregs",
+      "section": null
+    },
+    {
+      "text": "Melt slowly in a porcelain or bell-metal kettle, add the seasoning, sugar, and the whipped whites of the eggs, and boil fast about twelve minutes, skimming well",
+      "section": null
+    },
+    {
+      "text": "Strain through a double flannel bag suspended between the four legs of an upturned high stool or backless chair, the bowl set beneath",
+      "section": null
+    },
+    {
+      "text": "Do not squeeze or shake it, until the jelly ceases to run freely",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/calf-s-foot-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the calf's feet in the water until it is reduced one half\n2. Strain the liquor, and let it stand ten or twelve hours\n3. Skim off every particle of the fat, and remove the dregs\n4. Melt slowly in a porcelain or bell-metal kettle, add the seasoning, sugar, and the whipped whites of the eggs, and boil fast about twelve minutes, skimming well\n5. Strain through a double flannel bag suspended between the four legs of an upturned high stool or backless chair, the bowl set beneath\n6. Do not squeeze or shake it, until the jelly ceases to run freely",
+    "originalIngredients": [
+      "4 calf's feet, cleaned carefully",
+      "4 quarts of water",
+      "1 pint of wine",
+      "3 cups of sugar—or sweeten to taste",
+      "Whites of 3 eggs, well beaten",
+      "2 teaspoonfuls of nutmeg",
+      "Juice of 1 lemon, and half the grated peel"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

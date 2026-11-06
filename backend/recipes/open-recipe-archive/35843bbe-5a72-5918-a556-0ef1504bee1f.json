@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "35843bbe-5a72-5918-a556-0ef1504bee1f",
+  "name": "Orange Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large smooth deep-coloured oranges",
+      "originalText": "two large smooth deep-coloured oranges",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered white sugar",
+      "originalText": "half a pound of powdered white sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine-glass of mixed wine and brandy",
+      "originalText": "a wine-glass of mixed wine and brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff-paste",
+      "originalText": "puff-paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate the yellow part of the rind, and squeeze the juice of the oranges.",
+      "section": null
+    },
+    {
+      "text": "Stir together to a cream half a pound of butter, and half a pound of powdered white sugar, and add a wine-glass of mixed wine and brandy.",
+      "section": null
+    },
+    {
+      "text": "Beat very light six eggs, and stir them gradually into the mixture.",
+      "section": null
+    },
+    {
+      "text": "Put it into a buttered dish with a broad edge, round which lay a border of puff-paste neatly notched.",
+      "section": null
+    },
+    {
+      "text": "Bake it half an hour, and when cool grate white sugar over it.",
+      "section": null
+    },
+    {
+      "text": "Send it to table quite cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/orange-pudding-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate the yellow part of the rind, and squeeze the juice of the oranges.\n2. Stir together to a cream half a pound of butter, and half a pound of powdered white sugar, and add a wine-glass of mixed wine and brandy.\n3. Beat very light six eggs, and stir them gradually into the mixture.\n4. Put it into a buttered dish with a broad edge, round which lay a border of puff-paste neatly notched.\n5. Bake it half an hour, and when cool grate white sugar over it.\n6. Send it to table quite cold.",
+    "originalIngredients": [
+      "two large smooth deep-coloured oranges",
+      "half a pound of butter",
+      "half a pound of powdered white sugar",
+      "a wine-glass of mixed wine and brandy",
+      "six eggs",
+      "puff-paste",
+      "white sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

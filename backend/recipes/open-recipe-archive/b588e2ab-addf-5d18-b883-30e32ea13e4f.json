@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "b588e2ab-addf-5d18-b883-30e32ea13e4f",
+  "name": "Lemon Pie II",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "¾ cup sugar",
+      "originalText": "¾ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup boiling water",
+      "originalText": "¾ cup boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "corn-starch",
+      "originalText": "2 tablespoons corn-starch",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg yolks",
+      "originalText": "2 egg yolks",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "3 tablespoons lemon juice",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Grated rind 1 lemon",
+      "originalText": "Grated rind 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 teaspoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix corn-starch, flour, and sugar, add boiling water, stirring constantly.",
+      "section": null
+    },
+    {
+      "text": "Cook two minutes, add butter, egg yolks, and rind and juice of lemon.",
+      "section": null
+    },
+    {
+      "text": "Line plate with paste same as for Custard Pie.",
+      "section": null
+    },
+    {
+      "text": "Turn in mixture which has been cooled, and bake until pastry is well browned.",
+      "section": null
+    },
+    {
+      "text": "Cool slightly, and cover with Meringue I; then return to oven and bake meringue.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-pie-ii.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix corn-starch, flour, and sugar, add boiling water, stirring constantly.\n2. Cook two minutes, add butter, egg yolks, and rind and juice of lemon.\n3. Line plate with paste same as for Custard Pie.\n4. Turn in mixture which has been cooled, and bake until pastry is well browned.\n5. Cool slightly, and cover with Meringue I; then return to oven and bake meringue.",
+    "originalIngredients": [
+      "¾ cup sugar",
+      "¾ cup boiling water",
+      "2 tablespoons corn-starch",
+      "2 tablespoons flour",
+      "2 egg yolks",
+      "3 tablespoons lemon juice",
+      "Grated rind 1 lemon",
+      "1 teaspoon butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

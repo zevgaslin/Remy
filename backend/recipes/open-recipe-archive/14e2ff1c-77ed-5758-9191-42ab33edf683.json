@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "14e2ff1c-77ed-5758-9191-42ab33edf683",
+  "name": "Cheese Straws (Variation 2)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoon salt",
+      "originalText": "1 saltspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoon paprika",
+      "originalText": "1 saltspoon paprika",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoon baking powder",
+      "originalText": "1 saltspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cheese",
+      "originalText": "1 cup grated cheese",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup butter",
+      "originalText": "¾ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ice-water",
+      "originalText": "ice-water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift into a bowl 1 cup flour, 1 saltspoon each of salt, paprika and baking powder",
+      "section": null
+    },
+    {
+      "text": "Add 1 cup grated cheese",
+      "section": null
+    },
+    {
+      "text": "Mix thoroughly",
+      "section": null
+    },
+    {
+      "text": "Add ¾ cup of butter and chop the ingredients together until of the consistency of meal",
+      "section": null
+    },
+    {
+      "text": "Mix to a paste with ice-water (use as little as possible)",
+      "section": null
+    },
+    {
+      "text": "Turn on to the pastry board and roll into a sheet about a quarter of an inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut with a sharp knife into narrow strips about six inches long",
+      "section": null
+    },
+    {
+      "text": "Bake to a pale yellow",
+      "section": null
+    },
+    {
+      "text": "Arrange cob-house fashion on a doiley-covered plate",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cheese-straws-variation-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift into a bowl 1 cup flour, 1 saltspoon each of salt, paprika and baking powder\n2. Add 1 cup grated cheese\n3. Mix thoroughly\n4. Add ¾ cup of butter and chop the ingredients together until of the consistency of meal\n5. Mix to a paste with ice-water (use as little as possible)\n6. Turn on to the pastry board and roll into a sheet about a quarter of an inch thick\n7. Cut with a sharp knife into narrow strips about six inches long\n8. Bake to a pale yellow\n9. Arrange cob-house fashion on a doiley-covered plate",
+    "originalIngredients": [
+      "1 cup flour",
+      "1 saltspoon salt",
+      "1 saltspoon paprika",
+      "1 saltspoon baking powder",
+      "1 cup grated cheese",
+      "¾ cup butter",
+      "ice-water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

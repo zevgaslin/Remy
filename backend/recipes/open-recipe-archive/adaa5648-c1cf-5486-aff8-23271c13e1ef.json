@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "adaa5648-c1cf-5486-aff8-23271c13e1ef",
+  "name": "Celery Soup I",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "celery (cut in one-half inch pieces)",
+      "originalText": "3 cups celery (cut in one-half inch pieces)",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 pint boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2½ cups milk",
+      "originalText": "2½ cups milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 slice onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup flour",
+      "originalText": "¼ cup flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash and scrape celery before cutting in pieces, cook in boiling water until soft, and rub through a sieve.",
+      "section": null
+    },
+    {
+      "text": "Scald milk with the onion, remove onion, and add milk to celery.",
+      "section": null
+    },
+    {
+      "text": "Bind with butter and flour cooked together.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Outer and old stalks of celery may be utilized for soups.",
+      "section": null
+    },
+    {
+      "text": "Serve with croûtons, crisp crackers, or pulled bread.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/celery-soup-i.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash and scrape celery before cutting in pieces, cook in boiling water until soft, and rub through a sieve.\n2. Scald milk with the onion, remove onion, and add milk to celery.\n3. Bind with butter and flour cooked together.\n4. Season with salt and pepper.\n5. Outer and old stalks of celery may be utilized for soups.\n6. Serve with croûtons, crisp crackers, or pulled bread.",
+    "originalIngredients": [
+      "3 cups celery (cut in one-half inch pieces)",
+      "1 pint boiling water",
+      "2½ cups milk",
+      "1 slice onion",
+      "3 tablespoons butter",
+      "¼ cup flour",
+      "Salt and pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

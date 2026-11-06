@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "4e0cb540-bdd4-573c-94b9-9f54af5556f6",
+  "name": "Cayenne Cheese Straws",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "2 oz. butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parmesan cheese",
+      "originalText": "2 oz. Parmesan cheese",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1/4 lb. flour",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "a pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little cayenne",
+      "originalText": "a little cayenne",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg yolk",
+      "originalText": "1 egg yolk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix into a paste with the yolk of an egg.",
+      "section": null
+    },
+    {
+      "text": "Roll out to the thickness of a silver quarter, about four or five inches long; cut into strips about a third of an inch wide, twist them as you would a paper spill, and lay them on a baking-sheet slightly floured.",
+      "section": null
+    },
+    {
+      "text": "Bake in a moderate oven until crisp, but they must not be the least brown.",
+      "section": null
+    },
+    {
+      "text": "If put away in a tin, these cheese straws will keep a long time.",
+      "section": null
+    },
+    {
+      "text": "Serve cold, piled tastefully on a glass dish. You can make the straws of remnants of puff-pastry, rolling in the grated cheese.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cayenne-cheese-straws-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix into a paste with the yolk of an egg.\n2. Roll out to the thickness of a silver quarter, about four or five inches long; cut into strips about a third of an inch wide, twist them as you would a paper spill, and lay them on a baking-sheet slightly floured.\n3. Bake in a moderate oven until crisp, but they must not be the least brown.\n4. If put away in a tin, these cheese straws will keep a long time.\n5. Serve cold, piled tastefully on a glass dish. You can make the straws of remnants of puff-pastry, rolling in the grated cheese.",
+    "originalIngredients": [
+      "2 oz. butter",
+      "2 oz. Parmesan cheese",
+      "1/4 lb. flour",
+      "a pinch of salt",
+      "a little cayenne",
+      "1 egg yolk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "51192653-5986-5875-a73f-4c89d2d69030",
+  "name": "Bird's Nest in Jelly",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1 quart of jelly, made according to either of the Wine Jelly or Cider Jelly receipts but with a cup less of boiling water, that it may be very firm",
+      "originalText": "1 quart of jelly, made according to either of the Wine Jelly or Cider Jelly receipts but with a cup less of boiling water, that it may be very firm",
+      "quantity": null,
+      "quantityText": "1 quart of jelly, made according to either of the Wine Jelly or Cider Jelly receipts but with a cup less of boiling water, that it may be very firm",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white blanc-mange",
+      "originalText": "3 cups of white blanc-mange",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "empty eggshells",
+      "originalText": "9 empty eggshells",
+      "quantity": 9.0,
+      "quantityText": "9",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Fresh rinds of two oranges",
+      "originalText": "Fresh rinds of two oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the rind from the oranges in long narrow strips, and stew these gently in enough water to cover them until they are tender",
+      "section": null
+    },
+    {
+      "text": "Add to them a cup of sugar, and simmer fifteen minutes longer in the syrup",
+      "section": null
+    },
+    {
+      "text": "Lay them out upon a dish to cool, taking care not to break them",
+      "section": null
+    },
+    {
+      "text": "The blanc-mange should be made the day before you want it, and the eggshells filled",
+      "section": null
+    },
+    {
+      "text": "Pour out the original contents through a hole, not larger than a half-dime, in the small end, and wash the interior with pure water, shaken around well in them",
+      "section": null
+    },
+    {
+      "text": "Fill with blanc-mange and set in a pan of flour or sugar—the open end up—that they may not be jostled or overturned",
+      "section": null
+    },
+    {
+      "text": "Next morning fill a glass dish two-thirds full of the jelly, which should be very clear, reserving a large cupful",
+      "section": null
+    },
+    {
+      "text": "Break the shells from about the blanc-mange, and lay the artificial eggs upon the jelly so soon as the latter is firm enough to bear them",
+      "section": null
+    },
+    {
+      "text": "Pile them neatly, but not too high in the middle, bearing in mind that what is the top now will be the bottom when the jelly is turned out",
+      "section": null
+    },
+    {
+      "text": "Lay the orange peel which represents straw, over these and around them",
+      "section": null
+    },
+    {
+      "text": "Warm the reserved jelly, so that it will flow readily, but do not get it hot",
+      "section": null
+    },
+    {
+      "text": "Pour over the straw and eggs, and set away in a cold place to form",
+      "section": null
+    },
+    {
+      "text": "When firm, turn out upon a glass dish or salver",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bird-s-nest-in-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the rind from the oranges in long narrow strips, and stew these gently in enough water to cover them until they are tender\n2. Add to them a cup of sugar, and simmer fifteen minutes longer in the syrup\n3. Lay them out upon a dish to cool, taking care not to break them\n4. The blanc-mange should be made the day before you want it, and the eggshells filled\n5. Pour out the original contents through a hole, not larger than a half-dime, in the small end, and wash the interior with pure water, shaken around well in them\n6. Fill with blanc-mange and set in a pan of flour or sugar—the open end up—that they may not be jostled or overturned\n7. Next morning fill a glass dish two-thirds full of the jelly, which should be very clear, reserving a large cupful\n8. Break the shells from about the blanc-mange, and lay the artificial eggs upon the jelly so soon as the latter is firm enough to bear them\n9. Pile them neatly, but not too high in the middle, bearing in mind that what is the top now will be the bottom when the jelly is turned out\n10. Lay the orange peel which represents straw, over these and around them\n11. Warm the reserved jelly, so that it will flow readily, but do not get it hot\n12. Pour over the straw and eggs, and set away in a cold place to form\n13. When firm, turn out upon a glass dish or salver",
+    "originalIngredients": [
+      "1 quart of jelly, made according to either of the Wine Jelly or Cider Jelly receipts but with a cup less of boiling water, that it may be very firm",
+      "3 cups of white blanc-mange",
+      "9 empty eggshells",
+      "Fresh rinds of two oranges",
+      "1 cup of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

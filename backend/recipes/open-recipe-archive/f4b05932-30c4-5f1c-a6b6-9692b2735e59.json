@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "f4b05932-30c4-5f1c-a6b6-9692b2735e59",
+  "name": "Quince Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large ripe quinces",
+      "originalText": "six large ripe quinces",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "half a pint of cream",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "half a pound of powdered sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "seven eggs",
+      "quantity": 7.0,
+      "quantityText": "seven",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glasses of rose water",
+      "originalText": "two wine glasses of rose water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare the quinces, and cut out all the blemishes.",
+      "section": null
+    },
+    {
+      "text": "Scrape them to a pulp, and mix the pulp with half a pint of cream, and half a pound of powdered sugar, stirring them together very hard.",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks of seven eggs, omitting all the whites except two, and stir them gradually into the mixture, adding two wine glasses of rose water.",
+      "section": null
+    },
+    {
+      "text": "Stir the whole well together, and bake it in a buttered dish three quarters of an hour.",
+      "section": null
+    },
+    {
+      "text": "Grate sugar over it when cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/quince-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare the quinces, and cut out all the blemishes.\n2. Scrape them to a pulp, and mix the pulp with half a pint of cream, and half a pound of powdered sugar, stirring them together very hard.\n3. Beat the yolks of seven eggs, omitting all the whites except two, and stir them gradually into the mixture, adding two wine glasses of rose water.\n4. Stir the whole well together, and bake it in a buttered dish three quarters of an hour.\n5. Grate sugar over it when cold.",
+    "originalIngredients": [
+      "six large ripe quinces",
+      "half a pint of cream",
+      "half a pound of powdered sugar",
+      "seven eggs",
+      "two wine glasses of rose water",
+      "sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

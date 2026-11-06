@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "f366cef1-3d2c-5fd0-beb6-e9f2026c4d3e",
+  "name": "Lambs' Kidneys II",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "kidneys",
+      "originalText": "six kidneys",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half tablespoon finely chopped onion",
+      "originalText": "one-half tablespoon finely chopped onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "three tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and one-half cups hot stock",
+      "originalText": "one and one-half cups hot stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Madeira wine",
+      "originalText": "one tablespoon Madeira wine",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak, pare, trim, and slice six kidneys.",
+      "section": null
+    },
+    {
+      "text": "Sprinkle with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Sauté in butter and remove to a hot dish.",
+      "section": null
+    },
+    {
+      "text": "Cook one-half tablespoon finely chopped onion in two tablespoons butter until brown.",
+      "section": null
+    },
+    {
+      "text": "Add three tablespoons flour and pour on slowly one and one-half cups hot stock.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper and strain.",
+      "section": null
+    },
+    {
+      "text": "Add kidneys and one tablespoon Madeira wine.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lambs-kidneys-ii.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak, pare, trim, and slice six kidneys.\n2. Sprinkle with salt and pepper.\n3. Sauté in butter and remove to a hot dish.\n4. Cook one-half tablespoon finely chopped onion in two tablespoons butter until brown.\n5. Add three tablespoons flour and pour on slowly one and one-half cups hot stock.\n6. Season with salt and pepper and strain.\n7. Add kidneys and one tablespoon Madeira wine.",
+    "originalIngredients": [
+      "six kidneys",
+      "salt and pepper",
+      "butter",
+      "one-half tablespoon finely chopped onion",
+      "two tablespoons butter",
+      "three tablespoons flour",
+      "one and one-half cups hot stock",
+      "one tablespoon Madeira wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

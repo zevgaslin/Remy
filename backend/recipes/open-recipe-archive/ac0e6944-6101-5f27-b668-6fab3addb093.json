@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "ac0e6944-6101-5f27-b668-6fab3addb093",
+  "name": "Asparagus (Green Soup)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "veal, cut into small pieces",
+      "originalText": "3 lbs. veal, cut into small pieces",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. salt pork",
+      "originalText": "½ lb. salt pork",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunches asparagus",
+      "originalText": "3 bunches asparagus",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon water",
+      "originalText": "1 gallon water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the entire stalk of the asparagus into pieces an inch long.",
+      "section": null
+    },
+    {
+      "text": "When the meat has boiled one hour, add half of the vegetable to the liquor in the pot.",
+      "section": null
+    },
+    {
+      "text": "Boil two hours longer and strain, pressing the asparagus pulp very hard to extract all the green coloring.",
+      "section": null
+    },
+    {
+      "text": "Add the other half of the asparagus—the heads only, which should be kept in cold water until you are ready for them, and boil twenty minutes more.",
+      "section": null
+    },
+    {
+      "text": "Proceed as with the asparagus white soup, omitting the milk, thickening, and salt.",
+      "section": null
+    },
+    {
+      "text": "The pork will supply the latter seasoning.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/asparagus-green-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the entire stalk of the asparagus into pieces an inch long.\n2. When the meat has boiled one hour, add half of the vegetable to the liquor in the pot.\n3. Boil two hours longer and strain, pressing the asparagus pulp very hard to extract all the green coloring.\n4. Add the other half of the asparagus—the heads only, which should be kept in cold water until you are ready for them, and boil twenty minutes more.\n5. Proceed as with the asparagus white soup, omitting the milk, thickening, and salt.\n6. The pork will supply the latter seasoning.",
+    "originalIngredients": [
+      "3 lbs. veal, cut into small pieces",
+      "½ lb. salt pork",
+      "3 bunches asparagus",
+      "1 gallon water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

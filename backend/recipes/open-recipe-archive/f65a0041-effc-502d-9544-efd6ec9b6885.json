@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "f65a0041-effc-502d-9544-efd6ec9b6885",
+  "name": "Yorkshire Pudding",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ teaspoon salt",
+      "originalText": "¼ teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef fat",
+      "originalText": "beef fat",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix salt and flour",
+      "section": null
+    },
+    {
+      "text": "Add milk gradually to form a smooth paste",
+      "section": null
+    },
+    {
+      "text": "Add eggs beaten until very light",
+      "section": null
+    },
+    {
+      "text": "Cover bottom of hot pan with some of beef fat tried out from roast",
+      "section": null
+    },
+    {
+      "text": "Pour mixture in pan one-half inch deep",
+      "section": null
+    },
+    {
+      "text": "Bake twenty minutes in hot oven",
+      "section": null
+    },
+    {
+      "text": "Baste after well risen, with some of the fat from pan in which meat is roasting",
+      "section": null
+    },
+    {
+      "text": "Cut in squares for serving",
+      "section": null
+    },
+    {
+      "text": "Bake, if preferred, in greased, hissing hot iron gem pans",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/yorkshire-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix salt and flour\n2. Add milk gradually to form a smooth paste\n3. Add eggs beaten until very light\n4. Cover bottom of hot pan with some of beef fat tried out from roast\n5. Pour mixture in pan one-half inch deep\n6. Bake twenty minutes in hot oven\n7. Baste after well risen, with some of the fat from pan in which meat is roasting\n8. Cut in squares for serving\n9. Bake, if preferred, in greased, hissing hot iron gem pans",
+    "originalIngredients": [
+      "1 cup milk",
+      "1 cup flour",
+      "2 eggs",
+      "¼ teaspoon salt",
+      "beef fat"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

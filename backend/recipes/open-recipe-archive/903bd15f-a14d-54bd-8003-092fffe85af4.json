@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "id": "903bd15f-a14d-54bd-8003-092fffe85af4",
+  "name": "Beef Pie",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dessertspoon dripping",
+      "originalText": "1 dessertspoon dripping",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion sliced",
+      "originalText": "1 onion sliced",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beefsteak",
+      "originalText": "3/4 pound beefsteak",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "2 pints water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "potato and carrot",
+      "originalText": "potato and carrot",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 cups flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "sweet milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put dripping in a pan and heat until smoking hot",
+      "section": null
+    },
+    {
+      "text": "Add sliced onion",
+      "section": null
+    },
+    {
+      "text": "Cut beefsteak into bits and brown",
+      "section": null
+    },
+    {
+      "text": "Shake in flour and brown",
+      "section": null
+    },
+    {
+      "text": "Add water and stir slowly",
+      "section": null
+    },
+    {
+      "text": "Season and cover",
+      "section": null
+    },
+    {
+      "text": "Simmer gently for 2 hours",
+      "section": null
+    },
+    {
+      "text": "Add bits of potato and carrot if liked",
+      "section": null
+    },
+    {
+      "text": "For biscuits: sift 3 cups flour with 2 teaspoons baking powder and 1/2 teaspoon salt",
+      "section": null
+    },
+    {
+      "text": "Rub in 1 tablespoon butter and make into dough with sweet milk",
+      "section": null
+    },
+    {
+      "text": "Divide dough in two and pat out (do not knead or roll)",
+      "section": null
+    },
+    {
+      "text": "Cut as you would pie and bake",
+      "section": null
+    },
+    {
+      "text": "Break open biscuits on a platter and pour meat mixture over",
+      "section": null
+    },
+    {
+      "text": "Serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/beef-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put dripping in a pan and heat until smoking hot\n2. Add sliced onion\n3. Cut beefsteak into bits and brown\n4. Shake in flour and brown\n5. Add water and stir slowly\n6. Season and cover\n7. Simmer gently for 2 hours\n8. Add bits of potato and carrot if liked\n9. For biscuits: sift 3 cups flour with 2 teaspoons baking powder and 1/2 teaspoon salt\n10. Rub in 1 tablespoon butter and make into dough with sweet milk\n11. Divide dough in two and pat out (do not knead or roll)\n12. Cut as you would pie and bake\n13. Break open biscuits on a platter and pour meat mixture over\n14. Serve",
+    "originalIngredients": [
+      "1 dessertspoon dripping",
+      "1 onion sliced",
+      "3/4 pound beefsteak",
+      "1 tablespoon flour",
+      "2 pints water",
+      "salt and pepper",
+      "potato and carrot",
+      "3 cups flour",
+      "2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1 tablespoon butter",
+      "sweet milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

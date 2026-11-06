@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "4abb4746-72bb-5562-857e-3ae8ddcbcbab",
+  "name": "Cream Puffs",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hot water",
+      "originalText": "1 cup hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 1/2 cups butter",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "1 cup sifted flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "unbeaten eggs",
+      "originalText": "3 unbeaten eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil water and butter together",
+      "section": null
+    },
+    {
+      "text": "While boiling stir in sifted flour",
+      "section": null
+    },
+    {
+      "text": "Take from stove and stir to a thin paste",
+      "section": null
+    },
+    {
+      "text": "After this cools stir in 3 unbeaten eggs",
+      "section": null
+    },
+    {
+      "text": "Stir 5 minutes",
+      "section": null
+    },
+    {
+      "text": "Drop in tablespoonfuls on buttered tins",
+      "section": null
+    },
+    {
+      "text": "Bake in quick oven 25 minutes, opening door not oftener than necessary",
+      "section": null
+    },
+    {
+      "text": "Be careful that they do not touch each other",
+      "section": null
+    },
+    {
+      "text": "Fill when cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cream-puffs-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil water and butter together\n2. While boiling stir in sifted flour\n3. Take from stove and stir to a thin paste\n4. After this cools stir in 3 unbeaten eggs\n5. Stir 5 minutes\n6. Drop in tablespoonfuls on buttered tins\n7. Bake in quick oven 25 minutes, opening door not oftener than necessary\n8. Be careful that they do not touch each other\n9. Fill when cold",
+    "originalIngredients": [
+      "1 cup hot water",
+      "1 1/2 cups butter",
+      "1 cup sifted flour",
+      "3 unbeaten eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "bf313cd8-5751-5063-a1ff-a6c59ffa8a0d",
+  "name": "Chicken Croquettes II",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "four-pound fowl",
+      "originalText": "A four-pound fowl",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "Six cups boiling water",
+      "quantity": 6.0,
+      "quantityText": "Six",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "Seven slices carrot",
+      "quantity": 7.0,
+      "quantityText": "Seven",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnip",
+      "originalText": "Two slices turnip",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "One small onion",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalk celery",
+      "originalText": "One stalk celery",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bay leaf",
+      "originalText": "One bay leaf",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs thyme",
+      "originalText": "Three sprigs thyme",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-fourth cup butter",
+      "originalText": "One-fourth cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-half cup flour",
+      "originalText": "One-half cup flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chicken stock",
+      "originalText": "One cup chicken stock",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "One-third cup cream",
+      "originalText": "One-third cup cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Cayenne",
+      "originalText": "Cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Nutmeg",
+      "originalText": "Nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "One beaten egg",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Clean and dress the fowl.",
+      "section": null
+    },
+    {
+      "text": "Put into a kettle with boiling water, carrot, turnip, onion, celery, bay leaf, and thyme.",
+      "section": null
+    },
+    {
+      "text": "Cook slowly until fowl is tender.",
+      "section": null
+    },
+    {
+      "text": "Remove fowl; strain liquor, cool, and skim off fat.",
+      "section": null
+    },
+    {
+      "text": "Make a thick sauce, using butter, flour, chicken stock, and cream.",
+      "section": null
+    },
+    {
+      "text": "Remove meat from chicken, chop, and moisten with sauce.",
+      "section": null
+    },
+    {
+      "text": "Season with salt, cayenne, and slight grating of nutmeg; then add beaten egg.",
+      "section": null
+    },
+    {
+      "text": "Cool, shape, crumb, and fry same as other croquettes.",
+      "section": null
+    },
+    {
+      "text": "Arrange around a mound of green peas, and serve with Cream Sauce or Wine Jelly.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chicken-croquettes-ii.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Clean and dress the fowl.\n2. Put into a kettle with boiling water, carrot, turnip, onion, celery, bay leaf, and thyme.\n3. Cook slowly until fowl is tender.\n4. Remove fowl; strain liquor, cool, and skim off fat.\n5. Make a thick sauce, using butter, flour, chicken stock, and cream.\n6. Remove meat from chicken, chop, and moisten with sauce.\n7. Season with salt, cayenne, and slight grating of nutmeg; then add beaten egg.\n8. Cool, shape, crumb, and fry same as other croquettes.\n9. Arrange around a mound of green peas, and serve with Cream Sauce or Wine Jelly.",
+    "originalIngredients": [
+      "A four-pound fowl",
+      "Six cups boiling water",
+      "Seven slices carrot",
+      "Two slices turnip",
+      "One small onion",
+      "One stalk celery",
+      "One bay leaf",
+      "Three sprigs thyme",
+      "One-fourth cup butter",
+      "One-half cup flour",
+      "One cup chicken stock",
+      "One-third cup cream",
+      "Salt",
+      "Cayenne",
+      "Nutmeg",
+      "One beaten egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

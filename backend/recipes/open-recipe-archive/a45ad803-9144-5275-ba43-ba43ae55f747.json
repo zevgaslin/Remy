@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "a45ad803-9144-5275-ba43-ba43ae55f747",
+  "name": "Lamb en Casserole",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lamb",
+      "originalText": "two slices of lamb",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three-fourths cup carrot",
+      "originalText": "three-fourths cup carrot",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bacon fat",
+      "originalText": "one tablespoon bacon fat",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped onion",
+      "originalText": "one tablespoon finely chopped onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "potato balls",
+      "originalText": "one cup potato balls",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thin Brown Sauce",
+      "originalText": "two cups thin Brown Sauce",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sherry wine",
+      "originalText": "three tablespoons Sherry wine",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onions",
+      "originalText": "twelve small onions",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one tablespoon sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe two slices of lamb cut one and one-fourth inches thick from centre of leg",
+      "section": null
+    },
+    {
+      "text": "Put in hot frying-pan and turn frequently until seared and browned on both sides",
+      "section": null
+    },
+    {
+      "text": "Brush over with melted butter",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper",
+      "section": null
+    },
+    {
+      "text": "Bake in casserole dish twenty minutes or until tender",
+      "section": null
+    },
+    {
+      "text": "Parboil carrot cut in strips fifteen minutes",
+      "section": null
+    },
+    {
+      "text": "Drain and sauté in bacon fat to which has been added finely chopped onion",
+      "section": null
+    },
+    {
+      "text": "Add to lamb with potato balls, Brown Sauce, and Sherry wine",
+      "section": null
+    },
+    {
+      "text": "Season with pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Cook until potatoes are soft",
+      "section": null
+    },
+    {
+      "text": "Add onions that have been cooked until soft, then drained and sautéd in butter to which sugar has been added",
+      "section": null
+    },
+    {
+      "text": "Serve from casserole dish",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lamb-en-casserole.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe two slices of lamb cut one and one-fourth inches thick from centre of leg\n2. Put in hot frying-pan and turn frequently until seared and browned on both sides\n3. Brush over with melted butter\n4. Season with salt and pepper\n5. Bake in casserole dish twenty minutes or until tender\n6. Parboil carrot cut in strips fifteen minutes\n7. Drain and sauté in bacon fat to which has been added finely chopped onion\n8. Add to lamb with potato balls, Brown Sauce, and Sherry wine\n9. Season with pepper to taste\n10. Cook until potatoes are soft\n11. Add onions that have been cooked until soft, then drained and sautéd in butter to which sugar has been added\n12. Serve from casserole dish",
+    "originalIngredients": [
+      "two slices of lamb",
+      "melted butter",
+      "salt",
+      "pepper",
+      "three-fourths cup carrot",
+      "one tablespoon bacon fat",
+      "one tablespoon finely chopped onion",
+      "one cup potato balls",
+      "two cups thin Brown Sauce",
+      "three tablespoons Sherry wine",
+      "twelve small onions",
+      "one tablespoon sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

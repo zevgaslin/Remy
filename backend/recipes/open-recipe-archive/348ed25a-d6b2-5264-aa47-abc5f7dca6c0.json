@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "348ed25a-d6b2-5264-aa47-abc5f7dca6c0",
+  "name": "Spanish Fritters",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "one quart of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg well beaten",
+      "originalText": "one egg well beaten",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large spoonful of yeast",
+      "originalText": "a large spoonful of yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonsful of melted butter",
+      "originalText": "two spoonsful of melted butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling lard",
+      "originalText": "boiling lard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine and sugar, or molasses",
+      "originalText": "wine and sugar, or molasses",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix flour with one egg well beaten, a large spoonful of yeast, and as much milk as will make it a little softer than muffin dough",
+      "section": null
+    },
+    {
+      "text": "Mix it early in the morning",
+      "section": null
+    },
+    {
+      "text": "When well risen, work in two spoonsful of melted butter",
+      "section": null
+    },
+    {
+      "text": "Make it in balls the size of a walnut",
+      "section": null
+    },
+    {
+      "text": "Fry them a light brown in boiling lard",
+      "section": null
+    },
+    {
+      "text": "Eat them with wine and sugar, or molasses",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/spanish-fritters-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix flour with one egg well beaten, a large spoonful of yeast, and as much milk as will make it a little softer than muffin dough\n2. Mix it early in the morning\n3. When well risen, work in two spoonsful of melted butter\n4. Make it in balls the size of a walnut\n5. Fry them a light brown in boiling lard\n6. Eat them with wine and sugar, or molasses",
+    "originalIngredients": [
+      "one quart of flour",
+      "one egg well beaten",
+      "a large spoonful of yeast",
+      "milk",
+      "two spoonsful of melted butter",
+      "boiling lard",
+      "wine and sugar, or molasses"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

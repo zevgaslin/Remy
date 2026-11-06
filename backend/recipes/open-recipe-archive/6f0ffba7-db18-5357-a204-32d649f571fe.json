@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "id": "6f0ffba7-db18-5357-a204-32d649f571fe",
+  "name": "Connecticut Loaf Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sifted flour",
+      "originalText": "three pounds of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered white sugar",
+      "originalText": "two pounds of powdered white sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmegs",
+      "originalText": "four nutmegs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of an ounce of mace powdered fine",
+      "originalText": "a quarter of an ounce of mace powdered fine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stoned raisins",
+      "originalText": "two pounds of stoned raisins",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants, picked, washed, and dried",
+      "originalText": "two pounds of currants, picked, washed, and dried",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron cut large",
+      "originalText": "half a pound of citron cut large",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white wine",
+      "originalText": "half a pint of white wine",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best fresh butter",
+      "originalText": "two pounds of the best fresh butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm new milk",
+      "originalText": "a pint of warm new milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh strong yeast",
+      "originalText": "half a pint of fresh strong yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Prepare the day before: sift flour, powdered white sugar, nutmegs, and mace powdered fine together",
+      "section": null
+    },
+    {
+      "text": "Prepare two pounds of stoned raisins, two pounds of currants, picked, washed, and dried, and half a pound of citron cut large",
+      "section": null
+    },
+    {
+      "text": "Spread the raisins, currants, and citron on a large dish, and dredge thickly over with flour, mixing well among them with your hands so as to coat them all completely",
+      "section": null
+    },
+    {
+      "text": "Put the spice into half a pint of white wine, cover it, and let it infuse all night",
+      "section": null
+    },
+    {
+      "text": "Next morning, cut two pounds of the best fresh butter into small pieces",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs well",
+      "section": null
+    },
+    {
+      "text": "Rub half the butter into the flour, adding half the sugar",
+      "section": null
+    },
+    {
+      "text": "Wet it with the milk, and add half of the eggs, and the wine, and the yeast",
+      "section": null
+    },
+    {
+      "text": "Stir and mix it thoroughly",
+      "section": null
+    },
+    {
+      "text": "Cover it and set it to rise until perfectly light by evening",
+      "section": null
+    },
+    {
+      "text": "Add the remainder of the butter and the sugar, and the rest of the egg",
+      "section": null
+    },
+    {
+      "text": "Mix it well, and set it again to rise till early next morning",
+      "section": null
+    },
+    {
+      "text": "Add gradually the fruit, setting it again to rise for two or three hours",
+      "section": null
+    },
+    {
+      "text": "When it is perfectly light for the last time, butter a large deep pan, and put in the mixture",
+      "section": null
+    },
+    {
+      "text": "Make the oven very hot, then allow it to cool down so as to bake rather slowly",
+      "section": null
+    },
+    {
+      "text": "Bake from three to four hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/connecticut-loaf-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Prepare the day before: sift flour, powdered white sugar, nutmegs, and mace powdered fine together\n2. Prepare two pounds of stoned raisins, two pounds of currants, picked, washed, and dried, and half a pound of citron cut large\n3. Spread the raisins, currants, and citron on a large dish, and dredge thickly over with flour, mixing well among them with your hands so as to coat them all completely\n4. Put the spice into half a pint of white wine, cover it, and let it infuse all night\n5. Next morning, cut two pounds of the best fresh butter into small pieces\n6. Beat six eggs well\n7. Rub half the butter into the flour, adding half the sugar\n8. Wet it with the milk, and add half of the eggs, and the wine, and the yeast\n9. Stir and mix it thoroughly\n10. Cover it and set it to rise until perfectly light by evening\n11. Add the remainder of the butter and the sugar, and the rest of the egg\n12. Mix it well, and set it again to rise till early next morning\n13. Add gradually the fruit, setting it again to rise for two or three hours\n14. When it is perfectly light for the last time, butter a large deep pan, and put in the mixture\n15. Make the oven very hot, then allow it to cool down so as to bake rather slowly\n16. Bake from three to four hours",
+    "originalIngredients": [
+      "three pounds of sifted flour",
+      "two pounds of powdered white sugar",
+      "four nutmegs",
+      "a quarter of an ounce of mace powdered fine",
+      "two pounds of stoned raisins",
+      "two pounds of currants, picked, washed, and dried",
+      "half a pound of citron cut large",
+      "half a pint of white wine",
+      "two pounds of the best fresh butter",
+      "six eggs",
+      "a pint of warm new milk",
+      "half a pint of fresh strong yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "162be2d3-7ad7-57a5-9ca6-1eae191af9a4",
+  "name": "French Puff Paste",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 lb. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ lb. butter",
+      "originalText": "¾ lb. butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg; use the yolk only",
+      "originalText": "1 egg; use the yolk only",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Ice-water",
+      "originalText": "Ice-water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop half the butter into the flour.",
+      "section": null
+    },
+    {
+      "text": "Stir the beaten egg into half a cup ice-water, and work the flour into a stiff dough.",
+      "section": null
+    },
+    {
+      "text": "Roll out thin, baste with one-third the remaining butter, fold closely, roll out again, and so on until the butter is used up.",
+      "section": null
+    },
+    {
+      "text": "Roll very thin, and set the last folded roll in a very cold place ten or fifteen minutes before making out the crust.",
+      "section": null
+    },
+    {
+      "text": "Wash with beaten egg while hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/french-puff-paste.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop half the butter into the flour.\n2. Stir the beaten egg into half a cup ice-water, and work the flour into a stiff dough.\n3. Roll out thin, baste with one-third the remaining butter, fold closely, roll out again, and so on until the butter is used up.\n4. Roll very thin, and set the last folded roll in a very cold place ten or fifteen minutes before making out the crust.\n5. Wash with beaten egg while hot.",
+    "originalIngredients": [
+      "1 lb. flour",
+      "¾ lb. butter",
+      "1 egg; use the yolk only",
+      "Ice-water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

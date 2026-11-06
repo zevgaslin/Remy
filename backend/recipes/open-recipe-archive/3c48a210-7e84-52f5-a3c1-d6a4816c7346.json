@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "3c48a210-7e84-52f5-a3c1-d6a4816c7346",
+  "name": "Breslin Potted Chicken",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "broiler",
+      "originalText": "a broiler",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two and one-half tablespoons melted butter",
+      "originalText": "two and one-half tablespoons melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stock",
+      "originalText": "one cup stock",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cup cooked potato balls",
+      "originalText": "one-half cup cooked potato balls",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-third cup canned string beans, cut in small pieces",
+      "originalText": "one-third cup canned string beans, cut in small pieces",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-third cup cooked carrot, cut in fancy shapes",
+      "originalText": "one-third cup cooked carrot, cut in fancy shapes",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sautéd mushroom caps",
+      "originalText": "six sautéd mushroom caps",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dress, clean, and truss a broiler.",
+      "section": null
+    },
+    {
+      "text": "Put in a casserole dish, brush over with two and one-half tablespoons melted butter, put on cover, and bake twenty minutes; then add one cup stock and cook until chicken is tender.",
+      "section": null
+    },
+    {
+      "text": "Thicken stock with one tablespoon, each, butter and flour cooked together, and add one-half cup cooked potato balls, one-third cup canned string beans, cut in small pieces, one-third cup cooked carrot, cut in fancy shapes, and six sautéd mushroom caps.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/breslin-potted-chicken-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dress, clean, and truss a broiler.\n2. Put in a casserole dish, brush over with two and one-half tablespoons melted butter, put on cover, and bake twenty minutes; then add one cup stock and cook until chicken is tender.\n3. Thicken stock with one tablespoon, each, butter and flour cooked together, and add one-half cup cooked potato balls, one-third cup canned string beans, cut in small pieces, one-third cup cooked carrot, cut in fancy shapes, and six sautéd mushroom caps.",
+    "originalIngredients": [
+      "a broiler",
+      "two and one-half tablespoons melted butter",
+      "one cup stock",
+      "one tablespoon butter",
+      "one tablespoon flour",
+      "one-half cup cooked potato balls",
+      "one-third cup canned string beans, cut in small pieces",
+      "one-third cup cooked carrot, cut in fancy shapes",
+      "six sautéd mushroom caps"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

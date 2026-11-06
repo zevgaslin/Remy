@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "e11f9118-88c1-5073-8902-785ed392c510",
+  "name": "Durable Ink",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "inches of lunar caustic",
+      "originalText": "two inches of lunar caustic",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soft water",
+      "originalText": "soft water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tea-spoonful of salt of tartar",
+      "originalText": "a large tea-spoonful of salt of tartar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lump of gum arabic the size of a hickory nut",
+      "originalText": "a lump of gum arabic the size of a hickory nut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clear rain water",
+      "originalText": "clear rain water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take one of the little bottles that has contained indelible ink and wash and rinse it clean",
+      "section": null
+    },
+    {
+      "text": "Put into it two inches of lunar caustic; fill it up with soft water and cork it tightly",
+      "section": null
+    },
+    {
+      "text": "Prepare the larger bottle that has contained the liquid used for the first wash by making it quite clean",
+      "section": null
+    },
+    {
+      "text": "Take a large tea-spoonful of salt of tartar, and a lump of gum arabic the size of a hickory nut",
+      "section": null
+    },
+    {
+      "text": "Put them into the wash bottle, and fill it up with clear rain water",
+      "section": null
+    },
+    {
+      "text": "Cork both bottles tightly, and set them three days in the sun",
+      "section": null
+    },
+    {
+      "text": "Iron the linen before you write on it",
+      "section": null
+    },
+    {
+      "text": "Dip a camel's hair pencil in the large bottle that contains the gum liquid, and wash over with it a small space on a corner of the linen",
+      "section": null
+    },
+    {
+      "text": "Dry it in the sun, and let it alone till next day",
+      "section": null
+    },
+    {
+      "text": "Take a very good pen, and with the ink from the smallest bottle, write the name you intend, on the place that has been prepared by the first liquid",
+      "section": null
+    },
+    {
+      "text": "Dry this also in the sun",
+      "section": null
+    },
+    {
+      "text": "See that the bottles are always well corked, and keep them in a covered box",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/durable-ink.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take one of the little bottles that has contained indelible ink and wash and rinse it clean\n2. Put into it two inches of lunar caustic; fill it up with soft water and cork it tightly\n3. Prepare the larger bottle that has contained the liquid used for the first wash by making it quite clean\n4. Take a large tea-spoonful of salt of tartar, and a lump of gum arabic the size of a hickory nut\n5. Put them into the wash bottle, and fill it up with clear rain water\n6. Cork both bottles tightly, and set them three days in the sun\n7. Iron the linen before you write on it\n8. Dip a camel's hair pencil in the large bottle that contains the gum liquid, and wash over with it a small space on a corner of the linen\n9. Dry it in the sun, and let it alone till next day\n10. Take a very good pen, and with the ink from the smallest bottle, write the name you intend, on the place that has been prepared by the first liquid\n11. Dry this also in the sun\n12. See that the bottles are always well corked, and keep them in a covered box",
+    "originalIngredients": [
+      "two inches of lunar caustic",
+      "soft water",
+      "a large tea-spoonful of salt of tartar",
+      "a lump of gum arabic the size of a hickory nut",
+      "clear rain water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

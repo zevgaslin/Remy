@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "22c9ff27-2df8-5a99-acc5-3b472467f7ef",
+  "name": "Lobster Salad No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "canned lobsters",
+      "originalText": "canned lobsters",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heads of celery",
+      "originalText": "six heads of celery",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "a teaspoonful of mustard",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of two fresh eggs",
+      "originalText": "yolks of two fresh eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "a tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small teaspoonful of salt",
+      "originalText": "a small teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small teaspoonful of pepper",
+      "originalText": "a small teaspoonful of pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a teaspoonful of cayenne pepper",
+      "originalText": "a quarter of a teaspoonful of cayenne pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "a gill of vinegar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mashed yolks of two hard-boiled eggs",
+      "originalText": "mashed yolks of two hard-boiled eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "green tops of celery",
+      "originalText": "green tops of celery",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hard-boiled egg",
+      "originalText": "a hard-boiled egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a can of lobster, skim off all the oil on the surface, and chop the meat up coarsely on a flat dish",
+      "section": null
+    },
+    {
+      "text": "Prepare the same way six heads of celery",
+      "section": null
+    },
+    {
+      "text": "Mix a teaspoonful of mustard into a smooth paste with a little vinegar",
+      "section": null
+    },
+    {
+      "text": "Add yolks of two fresh eggs and a tablespoonful of butter, creamed",
+      "section": null
+    },
+    {
+      "text": "Add a small teaspoonful of salt, the same of pepper, a quarter of a teaspoonful of cayenne pepper, a gill of vinegar, and the mashed yolks of two hard-boiled eggs",
+      "section": null
+    },
+    {
+      "text": "Mix a small portion of the dressing with the celery and meat",
+      "section": null
+    },
+    {
+      "text": "Turn the remainder over all",
+      "section": null
+    },
+    {
+      "text": "Garnish with the green tops of celery and a hard-boiled egg, cut into thin rings",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lobster-salad-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a can of lobster, skim off all the oil on the surface, and chop the meat up coarsely on a flat dish\n2. Prepare the same way six heads of celery\n3. Mix a teaspoonful of mustard into a smooth paste with a little vinegar\n4. Add yolks of two fresh eggs and a tablespoonful of butter, creamed\n5. Add a small teaspoonful of salt, the same of pepper, a quarter of a teaspoonful of cayenne pepper, a gill of vinegar, and the mashed yolks of two hard-boiled eggs\n6. Mix a small portion of the dressing with the celery and meat\n7. Turn the remainder over all\n8. Garnish with the green tops of celery and a hard-boiled egg, cut into thin rings",
+    "originalIngredients": [
+      "canned lobsters",
+      "six heads of celery",
+      "a teaspoonful of mustard",
+      "vinegar",
+      "yolks of two fresh eggs",
+      "a tablespoonful of butter",
+      "a small teaspoonful of salt",
+      "a small teaspoonful of pepper",
+      "a quarter of a teaspoonful of cayenne pepper",
+      "a gill of vinegar",
+      "mashed yolks of two hard-boiled eggs",
+      "green tops of celery",
+      "a hard-boiled egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

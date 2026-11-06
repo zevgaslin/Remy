@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "8eaafa4c-b3e5-5332-8e70-28e68b9a0ac0",
+  "name": "Frozen Custard",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "vanilla bean",
+      "originalText": "a vanilla bean",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "half a pint of milk",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "a quart of cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "a table-spoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "two table-spoonfuls of milk",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "half a pound of powdered loaf-sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Slice a vanilla bean and boil it slowly in half a pint of milk till all the strength is extracted and the milk highly flavoured with the vanilla.",
+      "section": null
+    },
+    {
+      "text": "Strain it and set it aside.",
+      "section": null
+    },
+    {
+      "text": "Mix a quart of cream and a pint of milk into a skillet or sauce-pan.",
+      "section": null
+    },
+    {
+      "text": "Set it on hot coals and boil it.",
+      "section": null
+    },
+    {
+      "text": "When it has come to a boil, mix a table-spoonful of flour in three table-spoonfuls of milk and stir it into the boiling liquid.",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs with two table-spoonfuls of milk and pour them slowly into the mixture.",
+      "section": null
+    },
+    {
+      "text": "Stir it all the time it is boiling.",
+      "section": null
+    },
+    {
+      "text": "Five minutes after, stir in gradually half a pound of powdered loaf-sugar and then the decoction of vanilla.",
+      "section": null
+    },
+    {
+      "text": "Stir it hard a few moments and take it off the fire.",
+      "section": null
+    },
+    {
+      "text": "Set it to cool.",
+      "section": null
+    },
+    {
+      "text": "When quite cold, put it into a mould and freeze it as you would ice-cream.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/frozen-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Slice a vanilla bean and boil it slowly in half a pint of milk till all the strength is extracted and the milk highly flavoured with the vanilla.\n2. Strain it and set it aside.\n3. Mix a quart of cream and a pint of milk into a skillet or sauce-pan.\n4. Set it on hot coals and boil it.\n5. When it has come to a boil, mix a table-spoonful of flour in three table-spoonfuls of milk and stir it into the boiling liquid.\n6. Beat six eggs with two table-spoonfuls of milk and pour them slowly into the mixture.\n7. Stir it all the time it is boiling.\n8. Five minutes after, stir in gradually half a pound of powdered loaf-sugar and then the decoction of vanilla.\n9. Stir it hard a few moments and take it off the fire.\n10. Set it to cool.\n11. When quite cold, put it into a mould and freeze it as you would ice-cream.",
+    "originalIngredients": [
+      "a vanilla bean",
+      "half a pint of milk",
+      "a quart of cream",
+      "a pint of milk",
+      "a table-spoonful of flour",
+      "six eggs",
+      "two table-spoonfuls of milk",
+      "half a pound of powdered loaf-sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

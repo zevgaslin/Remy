@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "20db7113-0b7f-53cc-abd4-4e8b5b93a7ed",
+  "name": "Pickled Beans (Variation 2)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peck butter beans",
+      "originalText": "1 peck butter beans",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "weak salt water",
+      "originalText": "weak salt water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cider vinegar",
+      "originalText": "3 pints cider vinegar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "3 pounds white sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup flour",
+      "originalText": "1 large cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1 cup mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery seed",
+      "originalText": "2 tablespoons celery seed",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turmeric powder",
+      "originalText": "2 teaspoons turmeric powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold vinegar",
+      "originalText": "cold vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut beans small, wash and put on to boil in weak salt water",
+      "section": null
+    },
+    {
+      "text": "boil 3 pints cider vinegar and 3 pounds white sugar together",
+      "section": null
+    },
+    {
+      "text": "prepare 1 large cup of flour, 1 cup mustard, 2 tablespoons celery seed, 2 teaspoons turmeric powder",
+      "section": null
+    },
+    {
+      "text": "mix to a paste with cold vinegar",
+      "section": null
+    },
+    {
+      "text": "stir into your boiling vinegar and sugar",
+      "section": null
+    },
+    {
+      "text": "pour over cooked beans",
+      "section": null
+    },
+    {
+      "text": "bottle and seal",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/pickled-beans-variation-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut beans small, wash and put on to boil in weak salt water\n2. boil 3 pints cider vinegar and 3 pounds white sugar together\n3. prepare 1 large cup of flour, 1 cup mustard, 2 tablespoons celery seed, 2 teaspoons turmeric powder\n4. mix to a paste with cold vinegar\n5. stir into your boiling vinegar and sugar\n6. pour over cooked beans\n7. bottle and seal",
+    "originalIngredients": [
+      "1 peck butter beans",
+      "weak salt water",
+      "3 pints cider vinegar",
+      "3 pounds white sugar",
+      "1 large cup flour",
+      "1 cup mustard",
+      "2 tablespoons celery seed",
+      "2 teaspoons turmeric powder",
+      "cold vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "4d4b568b-7978-5b7c-bf3f-c858afb7e803",
+  "name": "Chops à la Castillane",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lamb chops",
+      "originalText": "six lamb chops",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fried eggplant",
+      "originalText": "fried eggplant",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "three tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three and one-half tablespoons flour",
+      "originalText": "three and one-half tablespoons flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich Brown Stock",
+      "originalText": "one cup rich Brown Stock",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lean raw ham",
+      "originalText": "three tablespoons lean raw ham",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half tablespoon butter",
+      "originalText": "one-half tablespoon butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sherry wine",
+      "originalText": "two tablespoons Sherry wine",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely shredded green pepper",
+      "originalText": "two tablespoons finely shredded green pepper",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Broil six lamb chops, arrange on slices of fried eggplant.",
+      "section": null
+    },
+    {
+      "text": "Brown three tablespoons butter, add three and one-half tablespoons flour, and stir until well browned.",
+      "section": null
+    },
+    {
+      "text": "Add, gradually, one cup rich Brown Stock.",
+      "section": null
+    },
+    {
+      "text": "Cook three tablespoons lean raw ham cut in small cubes in one-half tablespoon butter two minutes.",
+      "section": null
+    },
+    {
+      "text": "Moisten with two tablespoons Sherry wine, and add to sauce with two tablespoons finely shredded green pepper.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Pour around the chops.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chops-la-castillane.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Broil six lamb chops, arrange on slices of fried eggplant.\n2. Brown three tablespoons butter, add three and one-half tablespoons flour, and stir until well browned.\n3. Add, gradually, one cup rich Brown Stock.\n4. Cook three tablespoons lean raw ham cut in small cubes in one-half tablespoon butter two minutes.\n5. Moisten with two tablespoons Sherry wine, and add to sauce with two tablespoons finely shredded green pepper.\n6. Season with salt and pepper.\n7. Pour around the chops.",
+    "originalIngredients": [
+      "six lamb chops",
+      "fried eggplant",
+      "three tablespoons butter",
+      "three and one-half tablespoons flour",
+      "one cup rich Brown Stock",
+      "three tablespoons lean raw ham",
+      "one-half tablespoon butter",
+      "two tablespoons Sherry wine",
+      "two tablespoons finely shredded green pepper",
+      "salt",
+      "pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

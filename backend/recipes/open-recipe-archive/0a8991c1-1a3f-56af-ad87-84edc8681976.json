@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "0a8991c1-1a3f-56af-ad87-84edc8681976",
+  "name": "Plum Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the best flour",
+      "originalText": "a pound of the best flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large spoonful of good yeast",
+      "originalText": "a large spoonful of good yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and a half pounds of raisins",
+      "originalText": "one and a half pounds of raisins",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour for cloth",
+      "originalText": "flour for cloth",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift a pound of the best flour",
+      "section": null
+    },
+    {
+      "text": "Make it up before sunrise, with six eggs beaten light",
+      "section": null
+    },
+    {
+      "text": "Add a large spoonful of good yeast, and as much milk as will make it the consistence of bread",
+      "section": null
+    },
+    {
+      "text": "Let it rise well",
+      "section": null
+    },
+    {
+      "text": "Knead into it half a pound of butter",
+      "section": null
+    },
+    {
+      "text": "Put in a grated nutmeg, with one and a half pounds of raisins stoned and cut up",
+      "section": null
+    },
+    {
+      "text": "Mix all well together",
+      "section": null
+    },
+    {
+      "text": "Wet the cloth, flour it, and tie it loosely, that the pudding may have room to rise",
+      "section": null
+    },
+    {
+      "text": "Raisins for puddings or cakes, should be rubbed in a little flour, to prevent their settling to the bottom",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/plum-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift a pound of the best flour\n2. Make it up before sunrise, with six eggs beaten light\n3. Add a large spoonful of good yeast, and as much milk as will make it the consistence of bread\n4. Let it rise well\n5. Knead into it half a pound of butter\n6. Put in a grated nutmeg, with one and a half pounds of raisins stoned and cut up\n7. Mix all well together\n8. Wet the cloth, flour it, and tie it loosely, that the pudding may have room to rise\n9. Raisins for puddings or cakes, should be rubbed in a little flour, to prevent their settling to the bottom",
+    "originalIngredients": [
+      "a pound of the best flour",
+      "six eggs",
+      "a large spoonful of good yeast",
+      "milk",
+      "half a pound of butter",
+      "a grated nutmeg",
+      "one and a half pounds of raisins",
+      "flour for cloth"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "d4cbf4c1-f910-5971-9571-3c1570e11e3f",
+  "name": "Rice Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rice",
+      "originalText": "half a pound of rice",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound of sugar",
+      "originalText": "three quarters of a pound of sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound of melted butter",
+      "originalText": "three quarters of a pound of melted butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "half a nutmeg",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine",
+      "originalText": "a gill of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated lemon peel",
+      "originalText": "grated lemon peel",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "paste",
+      "originalText": "paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil half a pound of rice in milk, until it is quite tender",
+      "section": null
+    },
+    {
+      "text": "Beat it well with a wooden spoon to mash the grains",
+      "section": null
+    },
+    {
+      "text": "Add three quarters of a pound of sugar, and the same of melted butter",
+      "section": null
+    },
+    {
+      "text": "Add half a nutmeg, six eggs, a gill of wine, and some grated lemon peel",
+      "section": null
+    },
+    {
+      "text": "Put a paste in the dish, and bake it",
+      "section": null
+    },
+    {
+      "text": "For change, it may be boiled, and eaten with butter, sugar, and wine",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-pudding-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil half a pound of rice in milk, until it is quite tender\n2. Beat it well with a wooden spoon to mash the grains\n3. Add three quarters of a pound of sugar, and the same of melted butter\n4. Add half a nutmeg, six eggs, a gill of wine, and some grated lemon peel\n5. Put a paste in the dish, and bake it\n6. For change, it may be boiled, and eaten with butter, sugar, and wine",
+    "originalIngredients": [
+      "half a pound of rice",
+      "milk",
+      "three quarters of a pound of sugar",
+      "three quarters of a pound of melted butter",
+      "half a nutmeg",
+      "six eggs",
+      "a gill of wine",
+      "grated lemon peel",
+      "paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

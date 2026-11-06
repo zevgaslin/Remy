@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "f6098f08-c5d6-5e84-a292-2696be68807a",
+  "name": "Butter Crackers",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 quart of flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoonfuls butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful soda, dissolved in hot water",
+      "originalText": "½ teaspoonful soda, dissolved in hot water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful salt",
+      "originalText": "1 saltspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "2 cups sweet milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub the butter into the flour, or cut it up with a knife or chopper, as you do in pastry",
+      "section": null
+    },
+    {
+      "text": "Add the salt, milk, and soda, mixing well",
+      "section": null
+    },
+    {
+      "text": "Work into a ball",
+      "section": null
+    },
+    {
+      "text": "Lay upon a floured board",
+      "section": null
+    },
+    {
+      "text": "Beat with a rolling-pin half an hour, turning and shifting the mass often",
+      "section": null
+    },
+    {
+      "text": "Roll into an even sheet, a quarter of an inch thick, or less",
+      "section": null
+    },
+    {
+      "text": "Prick deeply with a fork",
+      "section": null
+    },
+    {
+      "text": "Bake hard in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Hang them up in a muslin bag in the kitchen for two days to dry",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/butter-crackers.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub the butter into the flour, or cut it up with a knife or chopper, as you do in pastry\n2. Add the salt, milk, and soda, mixing well\n3. Work into a ball\n4. Lay upon a floured board\n5. Beat with a rolling-pin half an hour, turning and shifting the mass often\n6. Roll into an even sheet, a quarter of an inch thick, or less\n7. Prick deeply with a fork\n8. Bake hard in a moderate oven\n9. Hang them up in a muslin bag in the kitchen for two days to dry",
+    "originalIngredients": [
+      "1 quart of flour",
+      "3 tablespoonfuls butter",
+      "½ teaspoonful soda, dissolved in hot water",
+      "1 saltspoonful salt",
+      "2 cups sweet milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

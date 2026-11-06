@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "21195da9-7b32-5304-80f3-67511c5f2f36",
+  "name": "Pickled Cherries",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Morella or large red tart cherries",
+      "originalText": "Morella or large red tart cherries",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "To every quart: 1 large cup of vinegar",
+      "originalText": "To every quart: 1 large cup of vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoonfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen whole cloves",
+      "originalText": "1 dozen whole cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen blades of mace",
+      "originalText": "1/2 dozen blades of mace",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put the vinegar and sugar on to heat with the spices.",
+      "section": null
+    },
+    {
+      "text": "Boil five minutes.",
+      "section": null
+    },
+    {
+      "text": "Turn out into a covered stoneware vessel, cover, and let it get perfectly cold.",
+      "section": null
+    },
+    {
+      "text": "Strain out the spices.",
+      "section": null
+    },
+    {
+      "text": "Fill small jars three-quarters of the way to the top with fruit.",
+      "section": null
+    },
+    {
+      "text": "Pour the cold vinegar over them.",
+      "section": null
+    },
+    {
+      "text": "Cork or cover tightly.",
+      "section": null
+    },
+    {
+      "text": "Leave the stems on the cherries.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pickled-cherries.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put the vinegar and sugar on to heat with the spices.\n2. Boil five minutes.\n3. Turn out into a covered stoneware vessel, cover, and let it get perfectly cold.\n4. Strain out the spices.\n5. Fill small jars three-quarters of the way to the top with fruit.\n6. Pour the cold vinegar over them.\n7. Cork or cover tightly.\n8. Leave the stems on the cherries.",
+    "originalIngredients": [
+      "Morella or large red tart cherries",
+      "To every quart: 1 large cup of vinegar",
+      "2 tablespoonfuls of sugar",
+      "1 dozen whole cloves",
+      "1/2 dozen blades of mace"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

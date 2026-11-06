@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "100f63d5-043f-555d-bdaa-54d3b2efefb6",
+  "name": "Graham Biscuit",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1 pt. milk or water",
+      "originalText": "1 pt. milk or water",
+      "quantity": null,
+      "quantityText": "1 pt. milk or water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoonfuls sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1/2 cup or 1/2 cake of yeast",
+      "originalText": "1/2 cup or 1/2 cake of yeast",
+      "quantity": null,
+      "quantityText": "1/2 cup or 1/2 cake of yeast",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wheat flour to make thin batter",
+      "originalText": "wheat flour to make thin batter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "graham flour to make stiff as can be stirred with a spoon",
+      "originalText": "graham flour to make stiff as can be stirred with a spoon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "If dry yeast is used, take half cake of yeast dissolved in half cupful warm water.",
+      "section": null
+    },
+    {
+      "text": "Use enough of wheat flour to make a thin batter; add the remainder of the ingredients and as much graham flour as can be stirred in with a spoon.",
+      "section": null
+    },
+    {
+      "text": "Set away until morning.",
+      "section": null
+    },
+    {
+      "text": "In the morning butter a pan, and with floured hands tear off bits of dough the size of an egg, roll lightly between the palms, put in the pan, let rise twenty minutes and bake in a hot oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/graham-biscuit-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. If dry yeast is used, take half cake of yeast dissolved in half cupful warm water.\n2. Use enough of wheat flour to make a thin batter; add the remainder of the ingredients and as much graham flour as can be stirred in with a spoon.\n3. Set away until morning.\n4. In the morning butter a pan, and with floured hands tear off bits of dough the size of an egg, roll lightly between the palms, put in the pan, let rise twenty minutes and bake in a hot oven.",
+    "originalIngredients": [
+      "1 pt. milk or water",
+      "1 tablespoonful butter",
+      "2 tablespoonfuls sugar",
+      "1/2 cup or 1/2 cake of yeast",
+      "wheat flour to make thin batter",
+      "graham flour to make stiff as can be stirred with a spoon",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

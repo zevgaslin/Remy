@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "b281e2ce-48d6-5d92-af8d-202162544324",
+  "name": "Eels Stewed à l'American",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eels, skinned, cleaned, and fat removed from inside",
+      "originalText": "Three pounds eels, skinned, cleaned, and fat removed from inside",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "young onion chopped",
+      "originalText": "One young onion chopped",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "Four tablespoonfuls of butter",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper and salt",
+      "originalText": "Pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Little chopped parsley",
+      "originalText": "Little chopped parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the eels in pieces, about two inches in length",
+      "section": null
+    },
+    {
+      "text": "Season and lay in a saucepan containing the melted butter",
+      "section": null
+    },
+    {
+      "text": "Strew the onion and parsley over all",
+      "section": null
+    },
+    {
+      "text": "Cover the saucepan closely, and set in a pot of cold water",
+      "section": null
+    },
+    {
+      "text": "Bring this gradually to a boil, then cook very gently for an hour and a half, or until the eels are tender",
+      "section": null
+    },
+    {
+      "text": "Turn out into a deep dish",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/eels-stewed-l-american.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the eels in pieces, about two inches in length\n2. Season and lay in a saucepan containing the melted butter\n3. Strew the onion and parsley over all\n4. Cover the saucepan closely, and set in a pot of cold water\n5. Bring this gradually to a boil, then cook very gently for an hour and a half, or until the eels are tender\n6. Turn out into a deep dish",
+    "originalIngredients": [
+      "Three pounds eels, skinned, cleaned, and fat removed from inside",
+      "One young onion chopped",
+      "Four tablespoonfuls of butter",
+      "Pepper and salt",
+      "Little chopped parsley"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

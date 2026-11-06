@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "5443be05-cdbb-573e-80ee-5b875bff5e27",
+  "name": "A Boiled Rice Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarter of a pound of ground rice",
+      "originalText": "a quarter of a pound of ground rice",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of sugar",
+      "originalText": "a quarter of a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a pint of cream or very rich milk",
+      "originalText": "half a pint of cream or very rich milk",
+      "quantity": null,
+      "quantityText": "half a pint of cream or very rich milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered nutmeg",
+      "originalText": "a powdered nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the grated rind of two lemons",
+      "originalText": "the grated rind of two lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the juice of two lemons",
+      "originalText": "the juice of two lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the yolks of six eggs",
+      "originalText": "the yolks of six eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the whites of two eggs",
+      "originalText": "the whites of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweetened cream",
+      "originalText": "sweetened cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a glass of brandy or white wine",
+      "originalText": "a glass of brandy or white wine",
+      "quantity": null,
+      "quantityText": "a glass of brandy or white wine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix a quarter of a pound of ground rice with a pint of milk, and simmer it over hot coals; stirring it all the time to prevent its being lumpy, or burning at the bottom.",
+      "section": null
+    },
+    {
+      "text": "When it is thick and smooth, take it off, and pour it into an earthen pan.",
+      "section": null
+    },
+    {
+      "text": "Mix a quarter of a pound of sugar, and a quarter of a pound of butter with half a pint of cream or very rich milk, and stir it into the rice; adding a powdered nutmeg, and the grated rind of two lemons; also squeeze in their juice.",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks of six eggs with the whites of two only.",
+      "section": null
+    },
+    {
+      "text": "When the eggs are quite light, mix them gradually with the other ingredients, and stir the whole very hard.",
+      "section": null
+    },
+    {
+      "text": "Butter a large bowl, or a pudding mould.",
+      "section": null
+    },
+    {
+      "text": "Put in the mixture; tying a cloth tightly over the top, (so that no water can get in,) and boil it two hours.",
+      "section": null
+    },
+    {
+      "text": "When done, turn it out into a dish.",
+      "section": null
+    },
+    {
+      "text": "Send it to table warm, and eat it with sweetened cream, flavoured with a glass of brandy or white wine and a grated nutmeg.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-boiled-rice-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix a quarter of a pound of ground rice with a pint of milk, and simmer it over hot coals; stirring it all the time to prevent its being lumpy, or burning at the bottom.\n2. When it is thick and smooth, take it off, and pour it into an earthen pan.\n3. Mix a quarter of a pound of sugar, and a quarter of a pound of butter with half a pint of cream or very rich milk, and stir it into the rice; adding a powdered nutmeg, and the grated rind of two lemons; also squeeze in their juice.\n4. Beat the yolks of six eggs with the whites of two only.\n5. When the eggs are quite light, mix them gradually with the other ingredients, and stir the whole very hard.\n6. Butter a large bowl, or a pudding mould.\n7. Put in the mixture; tying a cloth tightly over the top, (so that no water can get in,) and boil it two hours.\n8. When done, turn it out into a dish.\n9. Send it to table warm, and eat it with sweetened cream, flavoured with a glass of brandy or white wine and a grated nutmeg.",
+    "originalIngredients": [
+      "a quarter of a pound of ground rice",
+      "a pint of milk",
+      "a quarter of a pound of sugar",
+      "a quarter of a pound of butter",
+      "half a pint of cream or very rich milk",
+      "a powdered nutmeg",
+      "the grated rind of two lemons",
+      "the juice of two lemons",
+      "the yolks of six eggs",
+      "the whites of two eggs",
+      "sweetened cream",
+      "a glass of brandy or white wine",
+      "a grated nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "c6135b04-7dd6-58ad-8567-863f645a60fb",
+  "name": "Brown Soup Stock",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "shin of beef",
+      "originalText": "6 lbs. shin of beef",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "3 quarts cold water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon peppercorns",
+      "originalText": "½ teaspoon peppercorns",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "6 cloves",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ bay leaf",
+      "originalText": "½ bay leaf",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs thyme",
+      "originalText": "3 sprigs thyme",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig marjoram",
+      "originalText": "1 sprig marjoram",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs parsley",
+      "originalText": "2 sprigs parsley",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup carrot, cut in dice",
+      "originalText": "½ cup carrot, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup turnip, cut in dice",
+      "originalText": "½ cup turnip, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup onion, cut in dice",
+      "originalText": "½ cup onion, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup celery, cut in dice",
+      "originalText": "½ cup celery, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe beef, and cut the lean meat in inch cubes.",
+      "section": null
+    },
+    {
+      "text": "Brown one-third of meat in hot frying-pan in marrow from a marrow-bone.",
+      "section": null
+    },
+    {
+      "text": "Put remaining two-thirds with bone and fat in soup kettle, add water, and let stand for thirty minutes.",
+      "section": null
+    },
+    {
+      "text": "Place on back of range, add browned meat, and heat gradually to boiling-point.",
+      "section": null
+    },
+    {
+      "text": "As scum rises it should be removed.",
+      "section": null
+    },
+    {
+      "text": "Cover, and cook slowly six hours, keeping below boiling-point during cooking.",
+      "section": null
+    },
+    {
+      "text": "Add vegetables and seasonings, cook one and one-half hours, strain, and cool as quickly as possible.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/brown-soup-stock.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe beef, and cut the lean meat in inch cubes.\n2. Brown one-third of meat in hot frying-pan in marrow from a marrow-bone.\n3. Put remaining two-thirds with bone and fat in soup kettle, add water, and let stand for thirty minutes.\n4. Place on back of range, add browned meat, and heat gradually to boiling-point.\n5. As scum rises it should be removed.\n6. Cover, and cook slowly six hours, keeping below boiling-point during cooking.\n7. Add vegetables and seasonings, cook one and one-half hours, strain, and cool as quickly as possible.",
+    "originalIngredients": [
+      "6 lbs. shin of beef",
+      "3 quarts cold water",
+      "½ teaspoon peppercorns",
+      "6 cloves",
+      "½ bay leaf",
+      "3 sprigs thyme",
+      "1 sprig marjoram",
+      "2 sprigs parsley",
+      "½ cup carrot, cut in dice",
+      "½ cup turnip, cut in dice",
+      "½ cup onion, cut in dice",
+      "½ cup celery, cut in dice",
+      "1 tablespoon salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

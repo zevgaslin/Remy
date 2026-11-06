@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "a2cbd2ec-9297-5a8d-ae25-870f682f0e17",
+  "name": "Candied Orange Peel",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "thin-skinned oranges",
+      "originalText": "four thin-skinned oranges",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half cup water",
+      "originalText": "one-half cup water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one cup sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Remove peel from four thin-skinned oranges in quarters.",
+      "section": null
+    },
+    {
+      "text": "Cover with cold water, bring to boiling-point, and cook slowly until soft.",
+      "section": null
+    },
+    {
+      "text": "Drain, remove white portion, using a spoon, and cut yellow portion in thin strips, using scissors.",
+      "section": null
+    },
+    {
+      "text": "Boil one-half cup water and one cup sugar until syrup will thread when dropped from tip of spoon.",
+      "section": null
+    },
+    {
+      "text": "Cook strips in syrup five minutes, drain, and coat with fine granulated sugar.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/candied-orange-peel.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Remove peel from four thin-skinned oranges in quarters.\n2. Cover with cold water, bring to boiling-point, and cook slowly until soft.\n3. Drain, remove white portion, using a spoon, and cut yellow portion in thin strips, using scissors.\n4. Boil one-half cup water and one cup sugar until syrup will thread when dropped from tip of spoon.\n5. Cook strips in syrup five minutes, drain, and coat with fine granulated sugar.",
+    "originalIngredients": [
+      "four thin-skinned oranges",
+      "cold water",
+      "one-half cup water",
+      "one cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

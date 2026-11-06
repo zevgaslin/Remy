@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "7a71815a-f877-590b-8dea-7ff6426623ea",
+  "name": "Pickled Peaches (Unpeeled)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peaches",
+      "originalText": "peaches",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "For every 7 lbs. of fruit: 3 lbs. of sugar",
+      "originalText": "For every 7 lbs. of fruit: 3 lbs. of sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "3 pints of vinegar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice",
+      "originalText": "1 tablespoonful allspice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace",
+      "originalText": "1 tablespoonful mace",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "1 tablespoonful cinnamon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery-seed",
+      "originalText": "1 teaspoonful celery-seed",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1 teaspoonful cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub the fur off with a coarse cloth, and prick each peach with a fork.",
+      "section": null
+    },
+    {
+      "text": "Heat in just enough water to cover them until they almost boil; take them out.",
+      "section": null
+    },
+    {
+      "text": "Add to the water sugar in the following proportions: for every 7 lbs. of fruit, 3 lbs. of sugar.",
+      "section": null
+    },
+    {
+      "text": "Boil fifteen minutes; skim, and add 3 pints of vinegar.",
+      "section": null
+    },
+    {
+      "text": "Add 1 tablespoonful (each) of allspice, mace, and cinnamon.",
+      "section": null
+    },
+    {
+      "text": "Add 1 teaspoonful celery-seed and 1 teaspoonful cloves.",
+      "section": null
+    },
+    {
+      "text": "Put the spices in thin muslin bags.",
+      "section": null
+    },
+    {
+      "text": "Boil all together ten minutes, then put in the fruit, and boil until they can be pierced with a straw.",
+      "section": null
+    },
+    {
+      "text": "Take out the fruit with a skimmer, and spread upon dishes to cool.",
+      "section": null
+    },
+    {
+      "text": "Boil the syrup until thick.",
+      "section": null
+    },
+    {
+      "text": "Pack the peaches in glass jars, and pour the syrup over them scalding hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pickled-peaches-unpeeled.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub the fur off with a coarse cloth, and prick each peach with a fork.\n2. Heat in just enough water to cover them until they almost boil; take them out.\n3. Add to the water sugar in the following proportions: for every 7 lbs. of fruit, 3 lbs. of sugar.\n4. Boil fifteen minutes; skim, and add 3 pints of vinegar.\n5. Add 1 tablespoonful (each) of allspice, mace, and cinnamon.\n6. Add 1 teaspoonful celery-seed and 1 teaspoonful cloves.\n7. Put the spices in thin muslin bags.\n8. Boil all together ten minutes, then put in the fruit, and boil until they can be pierced with a straw.\n9. Take out the fruit with a skimmer, and spread upon dishes to cool.\n10. Boil the syrup until thick.\n11. Pack the peaches in glass jars, and pour the syrup over them scalding hot.",
+    "originalIngredients": [
+      "peaches",
+      "water",
+      "For every 7 lbs. of fruit: 3 lbs. of sugar",
+      "3 pints of vinegar",
+      "1 tablespoonful allspice",
+      "1 tablespoonful mace",
+      "1 tablespoonful cinnamon",
+      "1 teaspoonful celery-seed",
+      "1 teaspoonful cloves"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

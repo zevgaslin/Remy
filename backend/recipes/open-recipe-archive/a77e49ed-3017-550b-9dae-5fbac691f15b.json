@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "a77e49ed-3017-550b-9dae-5fbac691f15b",
+  "name": "Oyster Soup (No. 1)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oysters",
+      "originalText": "2 qts. of oysters",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 qt. of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "qt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoonfuls butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful water",
+      "originalText": "1 teacupful water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced lemon",
+      "originalText": "sliced lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "oyster or cream crackers",
+      "originalText": "oyster or cream crackers",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Strain the liquor from the oysters, add to it the water, and set it over the fire to heat slowly in a covered vessel",
+      "section": null
+    },
+    {
+      "text": "When it is near boiling, season with pepper and salt; add the oysters, and let them stew until they ruffle on the edge, about five minutes",
+      "section": null
+    },
+    {
+      "text": "Put in the butter with the milk which has been heated in a separate vessel, and stir well for two minutes",
+      "section": null
+    },
+    {
+      "text": "Serve with sliced lemon and oyster or cream crackers",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/oyster-soup-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Strain the liquor from the oysters, add to it the water, and set it over the fire to heat slowly in a covered vessel\n2. When it is near boiling, season with pepper and salt; add the oysters, and let them stew until they ruffle on the edge, about five minutes\n3. Put in the butter with the milk which has been heated in a separate vessel, and stir well for two minutes\n4. Serve with sliced lemon and oyster or cream crackers",
+    "originalIngredients": [
+      "2 qts. of oysters",
+      "1 qt. of milk",
+      "2 tablespoonfuls butter",
+      "1 teacupful water",
+      "pepper and salt",
+      "sliced lemon",
+      "oyster or cream crackers"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

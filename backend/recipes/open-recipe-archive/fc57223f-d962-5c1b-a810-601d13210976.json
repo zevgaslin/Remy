@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "fc57223f-d962-5c1b-a810-601d13210976",
+  "name": "Turkish Sherbet",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "loaf-sugar",
+      "originalText": "1 1/2 pounds of loaf-sugar",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clear cold water",
+      "originalText": "1 quart of clear cold water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen large fine ripe oranges",
+      "originalText": "1 dozen large fine ripe oranges",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ice",
+      "originalText": "ice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put into a large pitcher a pound and a half of the best loaf-sugar, broken small",
+      "section": null
+    },
+    {
+      "text": "Pour on it a quart of clear cold water",
+      "section": null
+    },
+    {
+      "text": "Crush and stir the sugar till it is all melted",
+      "section": null
+    },
+    {
+      "text": "Take a dozen large fine ripe oranges, and roll every one under your hand on a table, to increase the juice",
+      "section": null
+    },
+    {
+      "text": "Take off the yellow rind in large thin pieces, and cut them neatly into round shapes, the size of a half-dollar",
+      "section": null
+    },
+    {
+      "text": "Squeeze the juice of the oranges through a strainer upon the melted sugar, and stir it well",
+      "section": null
+    },
+    {
+      "text": "Set the pitcher on ice till the sherbet is wanted",
+      "section": null
+    },
+    {
+      "text": "Serve it up in lemonade-glasses, placing in the bottom of each, one of the round pieces of orange-rind, and lay a lump of ice upon it",
+      "section": null
+    },
+    {
+      "text": "Fill the glasses with the sherbet",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/turkish-sherbet.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put into a large pitcher a pound and a half of the best loaf-sugar, broken small\n2. Pour on it a quart of clear cold water\n3. Crush and stir the sugar till it is all melted\n4. Take a dozen large fine ripe oranges, and roll every one under your hand on a table, to increase the juice\n5. Take off the yellow rind in large thin pieces, and cut them neatly into round shapes, the size of a half-dollar\n6. Squeeze the juice of the oranges through a strainer upon the melted sugar, and stir it well\n7. Set the pitcher on ice till the sherbet is wanted\n8. Serve it up in lemonade-glasses, placing in the bottom of each, one of the round pieces of orange-rind, and lay a lump of ice upon it\n9. Fill the glasses with the sherbet",
+    "originalIngredients": [
+      "1 1/2 pounds of loaf-sugar",
+      "1 quart of clear cold water",
+      "1 dozen large fine ripe oranges",
+      "ice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

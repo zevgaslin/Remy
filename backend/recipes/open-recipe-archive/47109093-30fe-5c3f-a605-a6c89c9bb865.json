@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "47109093-30fe-5c3f-a605-a6c89c9bb865",
+  "name": "Ox Tail Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ox tails",
+      "originalText": "three ox tails",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "four onions",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of parsley",
+      "originalText": "bunch of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrots",
+      "originalText": "two carrots",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnips",
+      "originalText": "two turnips",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen peppercorns",
+      "originalText": "two dozen peppercorns",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "three quarts of water",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mushroom catchup",
+      "originalText": "mushroom catchup",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen onions",
+      "originalText": "dozen onions",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Desire the butcher to divide them at the joints.",
+      "section": null
+    },
+    {
+      "text": "Rub them with salt, and put them to soak in warm water, while you prepare the vegetables.",
+      "section": null
+    },
+    {
+      "text": "Put into a large pot or stew-pan four onions peeled and quartered, a bunch of parsley, two sliced carrots, two sliced turnips, and two dozen peppercorns.",
+      "section": null
+    },
+    {
+      "text": "Then put in the tails, and pour on three quarts of water.",
+      "section": null
+    },
+    {
+      "text": "Cover the pot, and set it on hot coals by the side of the fire.",
+      "section": null
+    },
+    {
+      "text": "Keep it gently simmering for about three hours, supplying it well with fresh hot coals.",
+      "section": null
+    },
+    {
+      "text": "Skim it carefully.",
+      "section": null
+    },
+    {
+      "text": "When the meat is quite tender, and falls from the bones, strain the soup into another pot, and add to it a spoonful of mushroom catchup, and two spoonfuls of butter rubbed in flour.",
+      "section": null
+    },
+    {
+      "text": "You may thicken it also with the pulp of a dozen onions first fried soft, and then rubbed through a cullender.",
+      "section": null
+    },
+    {
+      "text": "After it is thickened, let it just boil up, and then send it to table, with small squares of toasted bread in the tureen.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ox-tail-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Desire the butcher to divide them at the joints.\n2. Rub them with salt, and put them to soak in warm water, while you prepare the vegetables.\n3. Put into a large pot or stew-pan four onions peeled and quartered, a bunch of parsley, two sliced carrots, two sliced turnips, and two dozen peppercorns.\n4. Then put in the tails, and pour on three quarts of water.\n5. Cover the pot, and set it on hot coals by the side of the fire.\n6. Keep it gently simmering for about three hours, supplying it well with fresh hot coals.\n7. Skim it carefully.\n8. When the meat is quite tender, and falls from the bones, strain the soup into another pot, and add to it a spoonful of mushroom catchup, and two spoonfuls of butter rubbed in flour.\n9. You may thicken it also with the pulp of a dozen onions first fried soft, and then rubbed through a cullender.\n10. After it is thickened, let it just boil up, and then send it to table, with small squares of toasted bread in the tureen.",
+    "originalIngredients": [
+      "three ox tails",
+      "salt",
+      "four onions",
+      "bunch of parsley",
+      "two carrots",
+      "two turnips",
+      "two dozen peppercorns",
+      "three quarts of water",
+      "mushroom catchup",
+      "butter",
+      "flour",
+      "dozen onions"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

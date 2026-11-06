@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "b2dc0e8e-e658-51fa-b69f-e7ec02cb5860",
+  "name": "Gooseberry Fool",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gooseberries, ripe",
+      "originalText": "1 quart of gooseberries, ripe",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks of four eggs",
+      "originalText": "Yolks of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Méringue of whites, and 3 tablespoonfuls sugar",
+      "originalText": "Méringue of whites, and 3 tablespoonfuls sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stew the gooseberries in just water enough to cover them",
+      "section": null
+    },
+    {
+      "text": "When soft and broken, rub them through a sieve to remove the skins",
+      "section": null
+    },
+    {
+      "text": "While still hot beat in the butter, sugar, and the whipped yolks of the eggs",
+      "section": null
+    },
+    {
+      "text": "Pile in a glass dish, or in small glasses, and heap upon the top a méringue of the whipped whites and sugar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/gooseberry-fool-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stew the gooseberries in just water enough to cover them\n2. When soft and broken, rub them through a sieve to remove the skins\n3. While still hot beat in the butter, sugar, and the whipped yolks of the eggs\n4. Pile in a glass dish, or in small glasses, and heap upon the top a méringue of the whipped whites and sugar",
+    "originalIngredients": [
+      "1 quart of gooseberries, ripe",
+      "1 tablespoonful butter",
+      "1 cup of sugar",
+      "Yolks of four eggs",
+      "Méringue of whites, and 3 tablespoonfuls sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

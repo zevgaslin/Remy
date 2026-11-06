@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "bdda27a5-c73a-5c19-b8f2-a92812c7dd7a",
+  "name": "Tomato Soup No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peeled tomatoes",
+      "originalText": "a quart of peeled tomatoes",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of soda",
+      "originalText": "a pinch of soda",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot boiled milk",
+      "originalText": "a quart of hot boiled milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of butter the size of an egg",
+      "originalText": "a piece of butter the size of an egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rolled cracker",
+      "originalText": "three tablespoonfuls of rolled cracker",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Place over the fire a quart of peeled tomatoes.",
+      "section": null
+    },
+    {
+      "text": "Stew them soft with a pinch of soda.",
+      "section": null
+    },
+    {
+      "text": "Strain it so that no seeds remain.",
+      "section": null
+    },
+    {
+      "text": "Set it over the fire again.",
+      "section": null
+    },
+    {
+      "text": "Add a quart of hot boiled milk.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Add a piece of butter the size of an egg.",
+      "section": null
+    },
+    {
+      "text": "Add three tablespoonfuls of rolled cracker.",
+      "section": null
+    },
+    {
+      "text": "Serve hot.",
+      "section": null
+    },
+    {
+      "text": "Canned tomatoes may be used in place of fresh ones.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomato-soup-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Place over the fire a quart of peeled tomatoes.\n2. Stew them soft with a pinch of soda.\n3. Strain it so that no seeds remain.\n4. Set it over the fire again.\n5. Add a quart of hot boiled milk.\n6. Season with salt and pepper.\n7. Add a piece of butter the size of an egg.\n8. Add three tablespoonfuls of rolled cracker.\n9. Serve hot.\n10. Canned tomatoes may be used in place of fresh ones.",
+    "originalIngredients": [
+      "a quart of peeled tomatoes",
+      "a pinch of soda",
+      "a quart of hot boiled milk",
+      "salt and pepper",
+      "a piece of butter the size of an egg",
+      "three tablespoonfuls of rolled cracker"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

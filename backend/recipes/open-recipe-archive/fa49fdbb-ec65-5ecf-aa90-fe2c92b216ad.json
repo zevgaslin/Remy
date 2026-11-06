@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "fa49fdbb-ec65-5ecf-aa90-fe2c92b216ad",
+  "name": "Tomato Catsup No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallon of choice ripe tomatoes",
+      "originalText": "one gallon of choice ripe tomatoes",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small level teaspoonful of cayenne pepper",
+      "originalText": "a small level teaspoonful of cayenne pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard seed",
+      "originalText": "one tablespoonful of mustard seed",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole cloves",
+      "originalText": "half a tablespoonful of whole cloves",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole allspice",
+      "originalText": "one tablespoonful of whole allspice",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonful of sugar",
+      "originalText": "one heaping tablespoonful of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of best vinegar",
+      "originalText": "one teacupful of best vinegar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt to suit the taste",
+      "originalText": "salt to suit the taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook one gallon of choice ripe tomatoes; strain them, and cook again until they become quite thick.",
+      "section": null
+    },
+    {
+      "text": "About fifteen minutes before taking up put into them a small level teaspoonful of cayenne pepper, one tablespoonful of mustard seed, half a tablespoonful of whole cloves, one tablespoonful of whole allspice, all tied in a thin muslin bag.",
+      "section": null
+    },
+    {
+      "text": "At the same time, add one heaping tablespoonful of sugar, and one teacupful of best vinegar and salt to suit the taste.",
+      "section": null
+    },
+    {
+      "text": "Seal up air-tight, either in bottles or jugs.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomato-catsup-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook one gallon of choice ripe tomatoes; strain them, and cook again until they become quite thick.\n2. About fifteen minutes before taking up put into them a small level teaspoonful of cayenne pepper, one tablespoonful of mustard seed, half a tablespoonful of whole cloves, one tablespoonful of whole allspice, all tied in a thin muslin bag.\n3. At the same time, add one heaping tablespoonful of sugar, and one teacupful of best vinegar and salt to suit the taste.\n4. Seal up air-tight, either in bottles or jugs.",
+    "originalIngredients": [
+      "one gallon of choice ripe tomatoes",
+      "a small level teaspoonful of cayenne pepper",
+      "one tablespoonful of mustard seed",
+      "half a tablespoonful of whole cloves",
+      "one tablespoonful of whole allspice",
+      "one heaping tablespoonful of sugar",
+      "one teacupful of best vinegar",
+      "salt to suit the taste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

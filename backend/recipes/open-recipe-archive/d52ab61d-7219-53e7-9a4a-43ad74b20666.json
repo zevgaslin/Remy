@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "d52ab61d-7219-53e7-9a4a-43ad74b20666",
+  "name": "Fruit Cake (Superior)",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dry flour",
+      "originalText": "three pounds dry flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet butter",
+      "originalText": "one pound sweet butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one pound sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stoned raisins",
+      "originalText": "three pounds stoned raisins",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "two pounds currants",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three-quarters of a pound sweet almonds blanched",
+      "originalText": "three-quarters of a pound sweet almonds blanched",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron",
+      "originalText": "one pound citron",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "twelve eggs",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice",
+      "originalText": "one tablespoonful allspice",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "one teaspoonful cloves",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "two tablespoonfuls cinnamon",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmegs",
+      "originalText": "two nutmegs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine-glass of wine",
+      "originalText": "one wine-glass of wine",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine-glass of brandy",
+      "originalText": "one wine-glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coffeecupful molasses",
+      "originalText": "one coffeecupful molasses",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "one teaspoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "one tablespoonful of water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "three teaspoonfuls of baking powder",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix molasses with the spices in it and steep gently twenty or thirty minutes, not boiling hot",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs very lightly",
+      "section": null
+    },
+    {
+      "text": "Flour the fruit well",
+      "section": null
+    },
+    {
+      "text": "Dissolve soda in water",
+      "section": null
+    },
+    {
+      "text": "Put the fruit in last, stirring it gradually and adding the dissolved soda",
+      "section": null
+    },
+    {
+      "text": "Add flour after the fruit is in if necessary",
+      "section": null
+    },
+    {
+      "text": "Butter a sheet of paper and lay it in the pan",
+      "section": null
+    },
+    {
+      "text": "Lay in some slices of citron, then a layer of the mixture, then of citron again, etc., till the pan is nearly full",
+      "section": null
+    },
+    {
+      "text": "Bake three or four hours, according to the thickness of the loaves, in a tolerably hot oven, and with steady heat",
+      "section": null
+    },
+    {
+      "text": "Let it cool in the oven gradually",
+      "section": null
+    },
+    {
+      "text": "Ice when cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fruit-cake-superior.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix molasses with the spices in it and steep gently twenty or thirty minutes, not boiling hot\n2. Beat the eggs very lightly\n3. Flour the fruit well\n4. Dissolve soda in water\n5. Put the fruit in last, stirring it gradually and adding the dissolved soda\n6. Add flour after the fruit is in if necessary\n7. Butter a sheet of paper and lay it in the pan\n8. Lay in some slices of citron, then a layer of the mixture, then of citron again, etc., till the pan is nearly full\n9. Bake three or four hours, according to the thickness of the loaves, in a tolerably hot oven, and with steady heat\n10. Let it cool in the oven gradually\n11. Ice when cold",
+    "originalIngredients": [
+      "three pounds dry flour",
+      "one pound sweet butter",
+      "one pound sugar",
+      "three pounds stoned raisins",
+      "two pounds currants",
+      "three-quarters of a pound sweet almonds blanched",
+      "one pound citron",
+      "twelve eggs",
+      "one tablespoonful allspice",
+      "one teaspoonful cloves",
+      "two tablespoonfuls cinnamon",
+      "two nutmegs",
+      "one wine-glass of wine",
+      "one wine-glass of brandy",
+      "one coffeecupful molasses",
+      "one teaspoonful of soda",
+      "one tablespoonful of water",
+      "three teaspoonfuls of baking powder"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

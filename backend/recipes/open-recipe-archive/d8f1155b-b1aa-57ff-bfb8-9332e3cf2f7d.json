@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "d8f1155b-b1aa-57ff-bfb8-9332e3cf2f7d",
+  "name": "Bread Sponge (Potato)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "potatoes, boiled and mashed fine while hot",
+      "originalText": "6 potatoes, boiled and mashed fine while hot",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baker's yeast",
+      "originalText": "6 tablespoonfuls baker's yeast",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "2 tablespoonfuls white sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "2 tablespoonfuls lard",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "even teaspoonful soda",
+      "originalText": "1 even teaspoonful soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "1 quart warm water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 cups flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mash the potatoes, and work in the lard and sugar.",
+      "section": null
+    },
+    {
+      "text": "Stir to a cream, mixing in gradually a quart of the water in which the potatoes were boiled, which should have been poured out to cool down to blood warmth.",
+      "section": null
+    },
+    {
+      "text": "Beat in the flour, already wet up with a little potato-water to prevent lumping, then the yeast, lastly the soda.",
+      "section": null
+    },
+    {
+      "text": "Cover lightly if the weather is warm, more closely in winter, and set to rise over night in a warm place.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bread-sponge-potato.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mash the potatoes, and work in the lard and sugar.\n2. Stir to a cream, mixing in gradually a quart of the water in which the potatoes were boiled, which should have been poured out to cool down to blood warmth.\n3. Beat in the flour, already wet up with a little potato-water to prevent lumping, then the yeast, lastly the soda.\n4. Cover lightly if the weather is warm, more closely in winter, and set to rise over night in a warm place.",
+    "originalIngredients": [
+      "6 potatoes, boiled and mashed fine while hot",
+      "6 tablespoonfuls baker's yeast",
+      "2 tablespoonfuls white sugar",
+      "2 tablespoonfuls lard",
+      "1 even teaspoonful soda",
+      "1 quart warm water",
+      "3 cups flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

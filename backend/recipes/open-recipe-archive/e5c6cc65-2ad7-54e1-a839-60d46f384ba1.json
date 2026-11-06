@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "e5c6cc65-2ad7-54e1-a839-60d46f384ba1",
+  "name": "Welsh Rarebit",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cheese",
+      "originalText": "1/2 lb. cheese",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1/4 cup cream or milk",
+      "originalText": "1/4 cup cream or milk",
+      "quantity": null,
+      "quantityText": "1/4 cup cream or milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1 teaspoonful mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1/2 teaspoonful salt",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 teaspoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and cayenne",
+      "originalText": "Salt and cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "toast",
+      "originalText": "4 slices of toast",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Break the cheese in small pieces, or if hard grate it",
+      "section": null
+    },
+    {
+      "text": "Put it with the milk in a double boiler",
+      "section": null
+    },
+    {
+      "text": "Toast the bread and keep it hot",
+      "section": null
+    },
+    {
+      "text": "Mix the mustard, salt and pepper; add the egg, and beat well",
+      "section": null
+    },
+    {
+      "text": "When the cheese is melted, stir in the egg and butter, and cook two minutes, or until it thickens a little, but do not let it curdle",
+      "section": null
+    },
+    {
+      "text": "Pour it over the toast",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/welsh-rarebit-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Break the cheese in small pieces, or if hard grate it\n2. Put it with the milk in a double boiler\n3. Toast the bread and keep it hot\n4. Mix the mustard, salt and pepper; add the egg, and beat well\n5. When the cheese is melted, stir in the egg and butter, and cook two minutes, or until it thickens a little, but do not let it curdle\n6. Pour it over the toast",
+    "originalIngredients": [
+      "1/2 lb. cheese",
+      "1/4 cup cream or milk",
+      "1 teaspoonful mustard",
+      "1/2 teaspoonful salt",
+      "1 egg",
+      "1 teaspoonful butter",
+      "Salt and cayenne",
+      "4 slices of toast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "4bbe235d-0931-5a14-9cfa-098ec01bee55",
+  "name": "Boston Cream Cakes",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "½ lb. butter",
+      "originalText": "½ lb. butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ lb. flour",
+      "originalText": "¾ lb. flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "8 eggs",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1 pint water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "corn-starch",
+      "originalText": "4 tablespoonfuls corn-starch",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 cups sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 teaspoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla or lemon seasoning",
+      "originalText": "vanilla or lemon seasoning",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir the butter into the water, which should be warm, set it on the fire in a saucepan, and slowly bring to a boil, stirring it often.",
+      "section": null
+    },
+    {
+      "text": "When it boils, put in the flour, boil one minute, stirring all the while.",
+      "section": null
+    },
+    {
+      "text": "Take from the fire, turn into a deep dish, and let it cool.",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs very light, and whip into this cooled paste, first the yolks, then the whites.",
+      "section": null
+    },
+    {
+      "text": "Drop, in great spoonfuls, upon buttered paper, taking care not to let them touch or run into each other, and bake ten minutes.",
+      "section": null
+    },
+    {
+      "text": "For the cream: Wet the corn-starch with enough milk to work it into a smooth paste.",
+      "section": null
+    },
+    {
+      "text": "Boil the rest of the milk.",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs, add the sugar and corn-starch to these, and so soon as the milk boils pour in the mixture gradually, stirring all the time until smooth and thick.",
+      "section": null
+    },
+    {
+      "text": "Drop in a teaspoonful of butter, and when this is mixed in, set the custard aside to cool.",
+      "section": null
+    },
+    {
+      "text": "Add vanilla or lemon seasoning.",
+      "section": null
+    },
+    {
+      "text": "Pass a sharp knife lightly around the puffs, split them, and fill with the mixture.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boston-cream-cakes-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir the butter into the water, which should be warm, set it on the fire in a saucepan, and slowly bring to a boil, stirring it often.\n2. When it boils, put in the flour, boil one minute, stirring all the while.\n3. Take from the fire, turn into a deep dish, and let it cool.\n4. Beat the eggs very light, and whip into this cooled paste, first the yolks, then the whites.\n5. Drop, in great spoonfuls, upon buttered paper, taking care not to let them touch or run into each other, and bake ten minutes.\n6. For the cream: Wet the corn-starch with enough milk to work it into a smooth paste.\n7. Boil the rest of the milk.\n8. Beat the eggs, add the sugar and corn-starch to these, and so soon as the milk boils pour in the mixture gradually, stirring all the time until smooth and thick.\n9. Drop in a teaspoonful of butter, and when this is mixed in, set the custard aside to cool.\n10. Add vanilla or lemon seasoning.\n11. Pass a sharp knife lightly around the puffs, split them, and fill with the mixture.",
+    "originalIngredients": [
+      "½ lb. butter",
+      "¾ lb. flour",
+      "8 eggs",
+      "1 pint water",
+      "1 quart milk",
+      "4 tablespoonfuls corn-starch",
+      "2 eggs",
+      "2 cups sugar",
+      "1 teaspoonful butter",
+      "vanilla or lemon seasoning"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

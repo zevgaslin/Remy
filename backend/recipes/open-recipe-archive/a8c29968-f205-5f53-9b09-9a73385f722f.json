@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "a8c29968-f205-5f53-9b09-9a73385f722f",
+  "name": "Curds and Whey",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "piece of rennet about three inches square",
+      "originalText": "a piece of rennet about three inches square",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "unskimmed milk",
+      "originalText": "a quart of unskimmed milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash the rennet in two or three cold waters to get off the salt",
+      "section": null
+    },
+    {
+      "text": "Wipe it dry, and fasten a string to one corner of it",
+      "section": null
+    },
+    {
+      "text": "Have ready in a deep dish or pan the quart of unskimmed milk that has been warmed but not boiled",
+      "section": null
+    },
+    {
+      "text": "Put the rennet into it, leaving the string hanging out over the side",
+      "section": null
+    },
+    {
+      "text": "Cover the pan, and set it by the fire-side or in some other warm place",
+      "section": null
+    },
+    {
+      "text": "When the milk becomes a firm mass of curd, and the whey looks clear and greenish, remove the rennet as gently as possible, pulling it out by the string",
+      "section": null
+    },
+    {
+      "text": "Set the pan in ice, or in a very cold place",
+      "section": null
+    },
+    {
+      "text": "Send to table with it a small pitcher of white wine, sugar and nutmeg mixed together; or a bowl of sweetened cream, with nutmeg grated over it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/curds-and-whey.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash the rennet in two or three cold waters to get off the salt\n2. Wipe it dry, and fasten a string to one corner of it\n3. Have ready in a deep dish or pan the quart of unskimmed milk that has been warmed but not boiled\n4. Put the rennet into it, leaving the string hanging out over the side\n5. Cover the pan, and set it by the fire-side or in some other warm place\n6. When the milk becomes a firm mass of curd, and the whey looks clear and greenish, remove the rennet as gently as possible, pulling it out by the string\n7. Set the pan in ice, or in a very cold place\n8. Send to table with it a small pitcher of white wine, sugar and nutmeg mixed together; or a bowl of sweetened cream, with nutmeg grated over it",
+    "originalIngredients": [
+      "a piece of rennet about three inches square",
+      "a quart of unskimmed milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

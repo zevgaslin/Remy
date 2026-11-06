@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "dbb14c46-3487-5643-b2ea-0fd6713486cb",
+  "name": "Veal Pudding",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "about two pounds of lean veal",
+      "originalText": "about two pounds of lean veal",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of butter the size of an egg",
+      "originalText": "a piece of butter the size of an egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few slices of bacon",
+      "originalText": "a few slices of bacon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small sprig of thyme",
+      "originalText": "a small sprig of thyme",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good suet crust",
+      "originalText": "a good suet crust",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of paste",
+      "originalText": "a piece of paste",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut about two pounds of lean veal into small collops a quarter of an inch in thickness",
+      "section": null
+    },
+    {
+      "text": "Put a piece of butter the size of an egg into a very clean frying pan to melt",
+      "section": null
+    },
+    {
+      "text": "Lay in the veal and a few slices of bacon, a small sprig of thyme and a seasoning of pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Place the pan over a slow fire for about ten minutes, then add two or three spoonfuls of warm water",
+      "section": null
+    },
+    {
+      "text": "Just boil it up and then let it stand to cool",
+      "section": null
+    },
+    {
+      "text": "Line a pudding-dish with a good suet crust",
+      "section": null
+    },
+    {
+      "text": "Lay in the veal and bacon, pour the gravy over it",
+      "section": null
+    },
+    {
+      "text": "Roll out a piece of paste to form a lid, place it over, press it close with the thumb",
+      "section": null
+    },
+    {
+      "text": "Tie the basin in a pudding cloth and put it into a saucepan of boiling water, keeping continually boiling until done, or about one hour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/veal-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut about two pounds of lean veal into small collops a quarter of an inch in thickness\n2. Put a piece of butter the size of an egg into a very clean frying pan to melt\n3. Lay in the veal and a few slices of bacon, a small sprig of thyme and a seasoning of pepper and salt\n4. Place the pan over a slow fire for about ten minutes, then add two or three spoonfuls of warm water\n5. Just boil it up and then let it stand to cool\n6. Line a pudding-dish with a good suet crust\n7. Lay in the veal and bacon, pour the gravy over it\n8. Roll out a piece of paste to form a lid, place it over, press it close with the thumb\n9. Tie the basin in a pudding cloth and put it into a saucepan of boiling water, keeping continually boiling until done, or about one hour",
+    "originalIngredients": [
+      "about two pounds of lean veal",
+      "a piece of butter the size of an egg",
+      "a few slices of bacon",
+      "a small sprig of thyme",
+      "pepper",
+      "salt",
+      "warm water",
+      "a good suet crust",
+      "a piece of paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

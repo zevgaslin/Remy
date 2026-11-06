@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "704e879a-c1c6-5e32-a238-e8b539245810",
+  "name": "Ginger Pudding (2)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "brown sugar",
+      "originalText": "1/2 cup brown sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1/2 cup molasses",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "1 teaspoon ginger",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1/4 teaspoon cloves",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "1/2 teaspoon cinnamon",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter melted",
+      "originalText": "1 tablespoon butter melted",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoon soda",
+      "originalText": "1 level teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put 1 level teaspoon soda in a cup and then half fill cup with boiling water",
+      "section": null
+    },
+    {
+      "text": "Mix 1/2 cup brown sugar, 1/2 cup molasses, 1 teaspoon ginger, 1/4 teaspoon cloves, 1/2 teaspoon cinnamon, 1 tablespoon butter melted, 1 egg, 1 cup flour",
+      "section": null
+    },
+    {
+      "text": "Stir in soda water quickly",
+      "section": null
+    },
+    {
+      "text": "Bake in angel cake tin",
+      "section": null
+    },
+    {
+      "text": "Do not move while baking",
+      "section": null
+    },
+    {
+      "text": "Serve with sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/ginger-pudding-2-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put 1 level teaspoon soda in a cup and then half fill cup with boiling water\n2. Mix 1/2 cup brown sugar, 1/2 cup molasses, 1 teaspoon ginger, 1/4 teaspoon cloves, 1/2 teaspoon cinnamon, 1 tablespoon butter melted, 1 egg, 1 cup flour\n3. Stir in soda water quickly\n4. Bake in angel cake tin\n5. Do not move while baking\n6. Serve with sauce",
+    "originalIngredients": [
+      "1/2 cup brown sugar",
+      "1/2 cup molasses",
+      "1 teaspoon ginger",
+      "1/4 teaspoon cloves",
+      "1/2 teaspoon cinnamon",
+      "1 tablespoon butter melted",
+      "1 egg",
+      "1 cup flour",
+      "1 level teaspoon soda",
+      "boiling water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

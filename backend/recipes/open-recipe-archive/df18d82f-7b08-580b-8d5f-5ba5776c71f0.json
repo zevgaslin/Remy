@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "df18d82f-7b08-580b-8d5f-5ba5776c71f0",
+  "name": "Fine Stewed Oysters",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hundred large oysters",
+      "originalText": "two hundred large oysters",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole mace",
+      "originalText": "a table-spoonful of whole mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "six ounces of fresh butter",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of very rich cream",
+      "originalText": "a pint and a half of very rich cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Strain the liquor from two hundred large oysters, and putting the half of it into a saucepan, add a table-spoonful of whole mace, and let it come to a hard boil, skimming it carefully",
+      "section": null
+    },
+    {
+      "text": "Have ready six ounces of fresh butter divided into six balls or lumps, and roll each slightly in a little flour",
+      "section": null
+    },
+    {
+      "text": "Add them to the boiling oyster liquor, and when the butter is all melted, stir the whole very hard, and then put in the oysters",
+      "section": null
+    },
+    {
+      "text": "As soon as they have come to a boil, take them out carefully, and lay them immediately in a pan of very cold water, to plump them and make them firm",
+      "section": null
+    },
+    {
+      "text": "Season the liquor with a grated nutmeg; and taking a pint and a half of very rich cream, add it gradually to the liquor, stirring it all the time",
+      "section": null
+    },
+    {
+      "text": "When it has boiled again, return the oysters to it, and simmer them in the creamed liquor about five minutes or just long enough to heat them thoroughly",
+      "section": null
+    },
+    {
+      "text": "Send them to the tea-table hot in a covered dish",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fine-stewed-oysters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Strain the liquor from two hundred large oysters, and putting the half of it into a saucepan, add a table-spoonful of whole mace, and let it come to a hard boil, skimming it carefully\n2. Have ready six ounces of fresh butter divided into six balls or lumps, and roll each slightly in a little flour\n3. Add them to the boiling oyster liquor, and when the butter is all melted, stir the whole very hard, and then put in the oysters\n4. As soon as they have come to a boil, take them out carefully, and lay them immediately in a pan of very cold water, to plump them and make them firm\n5. Season the liquor with a grated nutmeg; and taking a pint and a half of very rich cream, add it gradually to the liquor, stirring it all the time\n6. When it has boiled again, return the oysters to it, and simmer them in the creamed liquor about five minutes or just long enough to heat them thoroughly\n7. Send them to the tea-table hot in a covered dish",
+    "originalIngredients": [
+      "two hundred large oysters",
+      "a table-spoonful of whole mace",
+      "six ounces of fresh butter",
+      "flour",
+      "a grated nutmeg",
+      "a pint and a half of very rich cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "51671bce-9850-598e-911f-aa80b89b7ae2",
+  "name": "Rolls 2",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bread sponge",
+      "originalText": "one pint of bread sponge",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten whites of 2 eggs",
+      "originalText": "beaten whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/4 cup butter",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Add beaten whites of 2 eggs, 1/2 cup sugar, and 1/4 cup butter to one pint of bread sponge",
+      "section": null
+    },
+    {
+      "text": "Mix well and set in a warm place to rise",
+      "section": null
+    },
+    {
+      "text": "Roll out to a thickness of 1/4 inch",
+      "section": null
+    },
+    {
+      "text": "Cut out with cake cutter",
+      "section": null
+    },
+    {
+      "text": "Butter top of one and place another on top",
+      "section": null
+    },
+    {
+      "text": "Set aside to rise",
+      "section": null
+    },
+    {
+      "text": "Bake for one-half hour",
+      "section": null
+    },
+    {
+      "text": "Currants may be added if desired",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/rolls-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Add beaten whites of 2 eggs, 1/2 cup sugar, and 1/4 cup butter to one pint of bread sponge\n2. Mix well and set in a warm place to rise\n3. Roll out to a thickness of 1/4 inch\n4. Cut out with cake cutter\n5. Butter top of one and place another on top\n6. Set aside to rise\n7. Bake for one-half hour\n8. Currants may be added if desired",
+    "originalIngredients": [
+      "one pint of bread sponge",
+      "beaten whites of 2 eggs",
+      "1/2 cup sugar",
+      "1/4 cup butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

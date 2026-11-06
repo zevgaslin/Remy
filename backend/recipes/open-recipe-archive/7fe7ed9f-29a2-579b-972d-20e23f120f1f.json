@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "7fe7ed9f-29a2-579b-972d-20e23f120f1f",
+  "name": "Tomato Cream",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ripe tomatoes",
+      "originalText": "12 ripe tomatoes",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour apples",
+      "originalText": "12 sour apples",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large onions",
+      "originalText": "12 large onions",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good vinegar",
+      "originalText": "1 quart good vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 cups sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "1 teaspoon pepper",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ten cent can of mustard",
+      "originalText": "1 ten cent can of mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Bring tomatoes to a boil and then put through a sieve to take out seeds",
+      "section": null
+    },
+    {
+      "text": "Boil apples and onions till soft and put through sieve",
+      "section": null
+    },
+    {
+      "text": "Add all together",
+      "section": null
+    },
+    {
+      "text": "Add 1 quart good vinegar, 2 cups sugar, 1 teaspoon pepper, salt to taste, and 1 ten cent can of mustard",
+      "section": null
+    },
+    {
+      "text": "Dissolve mustard in a little cold vinegar before adding to the mixture",
+      "section": null
+    },
+    {
+      "text": "Boil till real thick, then bottle",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/tomato-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Bring tomatoes to a boil and then put through a sieve to take out seeds\n2. Boil apples and onions till soft and put through sieve\n3. Add all together\n4. Add 1 quart good vinegar, 2 cups sugar, 1 teaspoon pepper, salt to taste, and 1 ten cent can of mustard\n5. Dissolve mustard in a little cold vinegar before adding to the mixture\n6. Boil till real thick, then bottle",
+    "originalIngredients": [
+      "12 ripe tomatoes",
+      "12 sour apples",
+      "12 large onions",
+      "1 quart good vinegar",
+      "2 cups sugar",
+      "1 teaspoon pepper",
+      "salt",
+      "1 ten cent can of mustard"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "7df96999-5269-5d62-88ac-5c3208fde34b",
+  "name": "Lemon Pie",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lemon, grated",
+      "originalText": "1 lemon, grated",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "1 1/2 tablespoonfuls cornstarch",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3/4 cupful sugar",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks of 2 eggs",
+      "originalText": "Yolks of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter size of egg",
+      "originalText": "Butter size of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "1 cup hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook in double boiler",
+      "section": null
+    },
+    {
+      "text": "Let it cool a little, then put in yolks last, after the other ingredients are well cooked",
+      "section": null
+    },
+    {
+      "text": "To prepare the lemon, grate off the outside, taking care to get only the yellow (the white is bitter), then squeeze out the juice",
+      "section": null
+    },
+    {
+      "text": "Bake your pie crust first, then add lemon filling",
+      "section": null
+    },
+    {
+      "text": "Keep the whites for the meringue",
+      "section": null
+    },
+    {
+      "text": "Whip up the whites stiff, add a little pulverized sugar",
+      "section": null
+    },
+    {
+      "text": "Spread on top of pie, and put in the oven for a few minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/lemon-pie-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook in double boiler\n2. Let it cool a little, then put in yolks last, after the other ingredients are well cooked\n3. To prepare the lemon, grate off the outside, taking care to get only the yellow (the white is bitter), then squeeze out the juice\n4. Bake your pie crust first, then add lemon filling\n5. Keep the whites for the meringue\n6. Whip up the whites stiff, add a little pulverized sugar\n7. Spread on top of pie, and put in the oven for a few minutes",
+    "originalIngredients": [
+      "1 lemon, grated",
+      "1 1/2 tablespoonfuls cornstarch",
+      "3/4 cupful sugar",
+      "Yolks of 2 eggs",
+      "Butter size of egg",
+      "1 cup hot water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

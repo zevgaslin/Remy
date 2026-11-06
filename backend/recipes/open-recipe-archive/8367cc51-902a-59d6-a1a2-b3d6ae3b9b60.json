@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "8367cc51-902a-59d6-a1a2-b3d6ae3b9b60",
+  "name": "Clear Soup",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "heaping tablespoonful of butter",
+      "originalText": "A heaping tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "medium-sized onion",
+      "originalText": "A medium-sized onion",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped lean raw beef",
+      "originalText": "Two pounds of finely chopped lean raw beef",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "One quart cold water",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "The white and shell of an egg, well beaten, with a little cold water",
+      "originalText": "The white and shell of an egg, well beaten, with a little cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "Four peppercorns",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Teaspoonful of salt",
+      "originalText": "Teaspoonful of salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "Two cloves",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "blade of mace",
+      "originalText": "A blade of mace",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat a heaping tablespoonful of butter in a covered saucepan",
+      "section": null
+    },
+    {
+      "text": "Slice into it a medium-sized onion; stir until the onion is browned",
+      "section": null
+    },
+    {
+      "text": "Add two pounds of finely chopped lean raw beef, one quart cold water; cover closely and let it simmer three hours",
+      "section": null
+    },
+    {
+      "text": "Strain the soup, return to the kettle",
+      "section": null
+    },
+    {
+      "text": "Add the white and shell of an egg, well beaten, with a little cold water; add also four peppercorns, teaspoonful of salt, two cloves and a blade of mace",
+      "section": null
+    },
+    {
+      "text": "Boil five minutes, then drain and serve from a hot tureen",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/clear-soup-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat a heaping tablespoonful of butter in a covered saucepan\n2. Slice into it a medium-sized onion; stir until the onion is browned\n3. Add two pounds of finely chopped lean raw beef, one quart cold water; cover closely and let it simmer three hours\n4. Strain the soup, return to the kettle\n5. Add the white and shell of an egg, well beaten, with a little cold water; add also four peppercorns, teaspoonful of salt, two cloves and a blade of mace\n6. Boil five minutes, then drain and serve from a hot tureen",
+    "originalIngredients": [
+      "A heaping tablespoonful of butter",
+      "A medium-sized onion",
+      "Two pounds of finely chopped lean raw beef",
+      "One quart cold water",
+      "The white and shell of an egg, well beaten, with a little cold water",
+      "Four peppercorns",
+      "Teaspoonful of salt",
+      "Two cloves",
+      "A blade of mace"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "d584a22e-49e2-5b63-aa90-a7031737fcb6",
+  "name": "Corn-Starch Méringue",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 quart of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup sugar",
+      "originalText": "¾ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "corn-starch",
+      "originalText": "4 teaspoonfuls corn-starch",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup fruit-jelly or jam",
+      "originalText": "½ cup fruit-jelly or jam",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the milk to boiling, and stir in the corn-starch, which has previously been dissolved in a little cold milk",
+      "section": null
+    },
+    {
+      "text": "Boil fifteen minutes, stirring all the while",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire, and while still hot, add gradually the yolks of the eggs beaten up with the sugar and seasoned with vanilla, lemon, or bitter almond",
+      "section": null
+    },
+    {
+      "text": "Pour this into a buttered pudding-dish and bake fifteen minutes, or until the custard begins to \"set\"",
+      "section": null
+    },
+    {
+      "text": "Without withdrawing it further than the door of the oven, spread lightly and quickly upon this a méringue of the whites whipped up stiff with a half-cup jelly—added gradually",
+      "section": null
+    },
+    {
+      "text": "Use crab-apple jelly, if bitter almond has been put into the custard; currant, for vanilla; strawberry or other sweet conserve, if you season the custard with lemon",
+      "section": null
+    },
+    {
+      "text": "Bake, covered, for five minutes",
+      "section": null
+    },
+    {
+      "text": "Remove the lid, and brown the méringue very slightly",
+      "section": null
+    },
+    {
+      "text": "Eat cold, with powdered sugar sifted thickly over the top",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/corn-starch-m-ringue.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the milk to boiling, and stir in the corn-starch, which has previously been dissolved in a little cold milk\n2. Boil fifteen minutes, stirring all the while\n3. Remove from the fire, and while still hot, add gradually the yolks of the eggs beaten up with the sugar and seasoned with vanilla, lemon, or bitter almond\n4. Pour this into a buttered pudding-dish and bake fifteen minutes, or until the custard begins to \"set\"\n5. Without withdrawing it further than the door of the oven, spread lightly and quickly upon this a méringue of the whites whipped up stiff with a half-cup jelly—added gradually\n6. Use crab-apple jelly, if bitter almond has been put into the custard; currant, for vanilla; strawberry or other sweet conserve, if you season the custard with lemon\n7. Bake, covered, for five minutes\n8. Remove the lid, and brown the méringue very slightly\n9. Eat cold, with powdered sugar sifted thickly over the top",
+    "originalIngredients": [
+      "5 eggs",
+      "1 quart of milk",
+      "¾ cup sugar",
+      "4 teaspoonfuls corn-starch",
+      "½ cup fruit-jelly or jam"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

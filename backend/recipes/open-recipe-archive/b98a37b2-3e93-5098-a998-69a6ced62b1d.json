@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "b98a37b2-3e93-5098-a998-69a6ced62b1d",
+  "name": "Baked Batter Pudding",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 1/2 pints milk",
+      "quantity": 1.5,
+      "quantityText": "1 1/2",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "4 tablespoons flour",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 ounces butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet sauce or stewed fruit",
+      "originalText": "sweet sauce or stewed fruit",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix the flour with a little cold milk",
+      "section": null
+    },
+    {
+      "text": "Make the rest hot (but not too hot)",
+      "section": null
+    },
+    {
+      "text": "Pour it on the flour",
+      "section": null
+    },
+    {
+      "text": "Keep the mixture well stirred",
+      "section": null
+    },
+    {
+      "text": "Add butter, eggs and salt",
+      "section": null
+    },
+    {
+      "text": "Beat the whole well and put the pudding into a buttered pie dish",
+      "section": null
+    },
+    {
+      "text": "Bake 3/4 hour",
+      "section": null
+    },
+    {
+      "text": "Serve with a sweet sauce or stewed fruit, or add sugar to taste before cooking and serve with cream",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/baked-batter-pudding-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix the flour with a little cold milk\n2. Make the rest hot (but not too hot)\n3. Pour it on the flour\n4. Keep the mixture well stirred\n5. Add butter, eggs and salt\n6. Beat the whole well and put the pudding into a buttered pie dish\n7. Bake 3/4 hour\n8. Serve with a sweet sauce or stewed fruit, or add sugar to taste before cooking and serve with cream",
+    "originalIngredients": [
+      "1 1/2 pints milk",
+      "4 tablespoons flour",
+      "2 ounces butter",
+      "4 eggs",
+      "a little salt",
+      "sweet sauce or stewed fruit",
+      "sugar",
+      "cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

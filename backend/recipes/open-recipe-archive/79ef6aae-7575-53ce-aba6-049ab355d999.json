@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "79ef6aae-7575-53ce-aba6-049ab355d999",
+  "name": "Orange Salad",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "oranges",
+      "originalText": "oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pineapple",
+      "originalText": "pineapple",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bananas",
+      "originalText": "bananas",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "malmaga grapes",
+      "originalText": "malmaga grapes",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped nuts",
+      "originalText": "chopped nuts",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 teaspoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 2 eggs",
+      "originalText": "whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "2 tablespoons lemon juice",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "2 tablespoons melted butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoons sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small saltspoon salt",
+      "originalText": "small saltspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch cayenne pepper",
+      "originalText": "a pinch cayenne pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1 teaspoon mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut and dice oranges, pineapple, bananas",
+      "section": null
+    },
+    {
+      "text": "shred thin malmaga grapes and chopped nuts",
+      "section": null
+    },
+    {
+      "text": "beat the cream to boiling point, stir in flour previously wet with cold milk",
+      "section": null
+    },
+    {
+      "text": "When half cold beat in the whipped eggs, set aside to cool",
+      "section": null
+    },
+    {
+      "text": "when quite cold whip in melted butter, pepper, salt and mustard",
+      "section": null
+    },
+    {
+      "text": "When salad is ready to serve, whip in lemon juice",
+      "section": null
+    },
+    {
+      "text": "Fill in shells of oranges",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/orange-salad-5.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut and dice oranges, pineapple, bananas\n2. shred thin malmaga grapes and chopped nuts\n3. beat the cream to boiling point, stir in flour previously wet with cold milk\n4. When half cold beat in the whipped eggs, set aside to cool\n5. when quite cold whip in melted butter, pepper, salt and mustard\n6. When salad is ready to serve, whip in lemon juice\n7. Fill in shells of oranges",
+    "originalIngredients": [
+      "oranges",
+      "pineapple",
+      "bananas",
+      "malmaga grapes",
+      "chopped nuts",
+      "1 cup cream",
+      "1 teaspoon flour",
+      "whites of 2 eggs",
+      "2 tablespoons lemon juice",
+      "2 tablespoons melted butter",
+      "2 tablespoons sugar",
+      "small saltspoon salt",
+      "a pinch cayenne pepper",
+      "1 teaspoon mustard"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

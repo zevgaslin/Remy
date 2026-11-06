@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "052edd43-95c2-5229-9dc9-10a70d94cd8d",
+  "name": "To Boil Rice",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "full of rice",
+      "originalText": "two cups full of rice",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two and a half cups of cold water",
+      "originalText": "two and a half cups of cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put two cups full of rice in a bowl of water, rub it well with the hand, and pour off the water",
+      "section": null
+    },
+    {
+      "text": "Do this until the water ceases to be discoloured",
+      "section": null
+    },
+    {
+      "text": "Put the rice into two and a half cups of cold water",
+      "section": null
+    },
+    {
+      "text": "Add a tea-spoonful of salt, cover the pot close, and set it on a brisk fire",
+      "section": null
+    },
+    {
+      "text": "Let it boil ten minutes, pour off the greater part of the water, and remove the pot to a bed of coals, where it must remain a quarter of an hour to soak and dry",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/to-boil-rice-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put two cups full of rice in a bowl of water, rub it well with the hand, and pour off the water\n2. Do this until the water ceases to be discoloured\n3. Put the rice into two and a half cups of cold water\n4. Add a tea-spoonful of salt, cover the pot close, and set it on a brisk fire\n5. Let it boil ten minutes, pour off the greater part of the water, and remove the pot to a bed of coals, where it must remain a quarter of an hour to soak and dry",
+    "originalIngredients": [
+      "two cups full of rice",
+      "two and a half cups of cold water",
+      "a tea-spoonful of salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "feda0323-0411-5577-8172-252c249d1e59",
+  "name": "Boiled Custard",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks of five eggs and the whites of seven",
+      "originalText": "Yolks of five eggs and the whites of seven",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "6 tablespoonfuls sugar",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla flavoring—1 teaspoonful to the pint",
+      "originalText": "Vanilla flavoring—1 teaspoonful to the pint",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the milk almost to boiling",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks light and stir in the sugar",
+      "section": null
+    },
+    {
+      "text": "Add the milk in the manner described in general directions at head of this section",
+      "section": null
+    },
+    {
+      "text": "Stir in five whites whipped stiff",
+      "section": null
+    },
+    {
+      "text": "Return to the fire and stir until thick, but not until it breaks",
+      "section": null
+    },
+    {
+      "text": "Season it with vanilla",
+      "section": null
+    },
+    {
+      "text": "Pour into glass cups",
+      "section": null
+    },
+    {
+      "text": "Whip the whites of two eggs to a méringue with a heaping tablespoonful of powdered sugar",
+      "section": null
+    },
+    {
+      "text": "When the custard is cold, pile a little of this upon the top of each cup",
+      "section": null
+    },
+    {
+      "text": "You may lay a preserved strawberry or cherry, or a bit of melon sweetmeat, or a little bright jelly upon each",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the milk almost to boiling\n2. Beat the yolks light and stir in the sugar\n3. Add the milk in the manner described in general directions at head of this section\n4. Stir in five whites whipped stiff\n5. Return to the fire and stir until thick, but not until it breaks\n6. Season it with vanilla\n7. Pour into glass cups\n8. Whip the whites of two eggs to a méringue with a heaping tablespoonful of powdered sugar\n9. When the custard is cold, pile a little of this upon the top of each cup\n10. You may lay a preserved strawberry or cherry, or a bit of melon sweetmeat, or a little bright jelly upon each",
+    "originalIngredients": [
+      "1 quart of milk",
+      "Yolks of five eggs and the whites of seven",
+      "6 tablespoonfuls sugar",
+      "Vanilla flavoring—1 teaspoonful to the pint"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

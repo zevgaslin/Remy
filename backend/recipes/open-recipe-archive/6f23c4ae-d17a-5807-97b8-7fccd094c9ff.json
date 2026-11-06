@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "6f23c4ae-d17a-5807-97b8-7fccd094c9ff",
+  "name": "Cocoanut Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "½ lb. grated cocoanut",
+      "originalText": "½ lb. grated cocoanut",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup stale sponge cake, crumbed fine",
+      "originalText": "½ cup stale sponge cake, crumbed fine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup rich milk—cream, if you can get it",
+      "originalText": "1 large cup rich milk—cream, if you can get it",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "6 eggs",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 teaspoonfuls vanilla, or rose-water",
+      "originalText": "2 teaspoonfuls vanilla, or rose-water",
+      "quantity": null,
+      "quantityText": "2 teaspoonfuls vanilla, or rose-water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream the butter and sugar, and add the beaten yolks.",
+      "section": null
+    },
+    {
+      "text": "When these are well mixed, put in the cocoanut; stir well before adding the milk, cake-crumbs, flavoring; and lastly, the whites of three eggs.",
+      "section": null
+    },
+    {
+      "text": "Whip the other whites stiff with three tablespoonfuls of powdered sugar; flavor with vanilla, and just before taking the pudding from the oven, spread this méringue over the top, and close the oven until the icing is slightly browned.",
+      "section": null
+    },
+    {
+      "text": "Bake in all three-quarters of an hour.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cocoanut-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream the butter and sugar, and add the beaten yolks.\n2. When these are well mixed, put in the cocoanut; stir well before adding the milk, cake-crumbs, flavoring; and lastly, the whites of three eggs.\n3. Whip the other whites stiff with three tablespoonfuls of powdered sugar; flavor with vanilla, and just before taking the pudding from the oven, spread this méringue over the top, and close the oven until the icing is slightly browned.\n4. Bake in all three-quarters of an hour.",
+    "originalIngredients": [
+      "½ lb. grated cocoanut",
+      "½ cup stale sponge cake, crumbed fine",
+      "1 cup sugar",
+      "1 large cup rich milk—cream, if you can get it",
+      "6 eggs",
+      "2 teaspoonfuls vanilla, or rose-water",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

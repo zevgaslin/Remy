@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "df318c53-d964-553d-876e-98d20ba7cb85",
+  "name": "Potato Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fine potatoes",
+      "originalText": "a pound of fine potatoes",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound of sugar",
+      "originalText": "three quarters of a pound of sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound of butter",
+      "originalText": "three quarters of a pound of butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose water",
+      "originalText": "a wine glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of wine",
+      "originalText": "a glass of wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of brandy",
+      "originalText": "a glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered mace and cinnamon",
+      "originalText": "a tea-spoonful of powdered mace and cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the juice and grated peel of a large lemon",
+      "originalText": "the juice and grated peel of a large lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil a pound of fine potatoes, peel them, mash them, and rub them through a cullender",
+      "section": null
+    },
+    {
+      "text": "Stir together to a cream, three quarters of a pound of sugar, and the same quantity of butter",
+      "section": null
+    },
+    {
+      "text": "Add to them gradually, a wine glass of rose water, a glass of wine, and a glass of brandy; a tea-spoonful of powdered mace and cinnamon, a grated nutmeg, and the juice and grated peel of a large lemon",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs very light, and add them by degrees to the mixture, alternately with the potato",
+      "section": null
+    },
+    {
+      "text": "Bake it three quarters of an hour in a buttered dish",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/potato-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil a pound of fine potatoes, peel them, mash them, and rub them through a cullender\n2. Stir together to a cream, three quarters of a pound of sugar, and the same quantity of butter\n3. Add to them gradually, a wine glass of rose water, a glass of wine, and a glass of brandy; a tea-spoonful of powdered mace and cinnamon, a grated nutmeg, and the juice and grated peel of a large lemon\n4. Beat six eggs very light, and add them by degrees to the mixture, alternately with the potato\n5. Bake it three quarters of an hour in a buttered dish",
+    "originalIngredients": [
+      "a pound of fine potatoes",
+      "three quarters of a pound of sugar",
+      "three quarters of a pound of butter",
+      "a wine glass of rose water",
+      "a glass of wine",
+      "a glass of brandy",
+      "a tea-spoonful of powdered mace and cinnamon",
+      "a grated nutmeg",
+      "the juice and grated peel of a large lemon",
+      "six eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

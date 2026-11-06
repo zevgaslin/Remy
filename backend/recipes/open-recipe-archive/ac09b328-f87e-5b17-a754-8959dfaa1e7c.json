@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "ac09b328-f87e-5b17-a754-8959dfaa1e7c",
+  "name": "Cracker And Jam Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup cracker-crumbs",
+      "originalText": "½ cup cracker-crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sugar",
+      "originalText": "½ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup milk",
+      "originalText": "1 teacup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lemon—juice and grated rind",
+      "originalText": "½ lemon—juice and grated rind",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jam",
+      "originalText": "3 tablespoonfuls jam",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the cracker in the milk; rub the butter and sugar together, adding the lemon, and beating to a cream; then stir in the beaten yolks; next the cracker and milk; lastly, the whites.",
+      "section": null
+    },
+    {
+      "text": "Butter a deep dish, and put the jam, which should be pretty stiff, at the bottom.",
+      "section": null
+    },
+    {
+      "text": "Fill up with the mixture, and bake about half an hour.",
+      "section": null
+    },
+    {
+      "text": "Eat cold, with sugar sifted over the top.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cracker-and-jam-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the cracker in the milk; rub the butter and sugar together, adding the lemon, and beating to a cream; then stir in the beaten yolks; next the cracker and milk; lastly, the whites.\n2. Butter a deep dish, and put the jam, which should be pretty stiff, at the bottom.\n3. Fill up with the mixture, and bake about half an hour.\n4. Eat cold, with sugar sifted over the top.",
+    "originalIngredients": [
+      "3 eggs",
+      "½ cup cracker-crumbs",
+      "½ cup sugar",
+      "1 tablespoonful butter",
+      "1 teacup milk",
+      "½ lemon—juice and grated rind",
+      "3 tablespoonfuls jam"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

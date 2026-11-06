@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "3373fd88-7208-50cd-9f48-0c75cf3e340c",
+  "name": "Italian Cream",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cream",
+      "originalText": "two pints of cream",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "six ounces of powdered loaf-sugar",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of two large lemons",
+      "originalText": "juice of two large lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glasses of white wine",
+      "originalText": "two glasses of white wine",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "isinglass",
+      "originalText": "two ounces of isinglass",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-cups full of water",
+      "originalText": "four small tea-cups full of water",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put two pints of cream into two bowls.",
+      "section": null
+    },
+    {
+      "text": "With one bowl mix six ounces of powdered loaf-sugar, the juice of two large lemons, and two glasses of white wine.",
+      "section": null
+    },
+    {
+      "text": "Add the other pint of cream, and stir the whole very hard.",
+      "section": null
+    },
+    {
+      "text": "Boil two ounces of isinglass with four small tea-cups full of water, till it is reduced to one half.",
+      "section": null
+    },
+    {
+      "text": "Stir the isinglass lukewarm into the other ingredients, and put them into a glass dish to congeal.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/italian-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put two pints of cream into two bowls.\n2. With one bowl mix six ounces of powdered loaf-sugar, the juice of two large lemons, and two glasses of white wine.\n3. Add the other pint of cream, and stir the whole very hard.\n4. Boil two ounces of isinglass with four small tea-cups full of water, till it is reduced to one half.\n5. Stir the isinglass lukewarm into the other ingredients, and put them into a glass dish to congeal.",
+    "originalIngredients": [
+      "two pints of cream",
+      "six ounces of powdered loaf-sugar",
+      "juice of two large lemons",
+      "two glasses of white wine",
+      "two ounces of isinglass",
+      "four small tea-cups full of water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

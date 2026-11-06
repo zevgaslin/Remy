@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "a0949117-1063-582f-a7c8-36f2657d29df",
+  "name": "Braised Veal",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "piece of the shoulder weighing about five pounds",
+      "originalText": "A piece of the shoulder weighing about five pounds",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of butter the size of half an egg",
+      "originalText": "A piece of butter the size of half an egg",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few shavings of onion",
+      "originalText": "A few shavings of onion",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "About two tablespoonfuls of hot water",
+      "originalText": "About two tablespoonfuls of hot water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Have the bone removed and tie up the meat to make it firm",
+      "section": null
+    },
+    {
+      "text": "Put a piece of butter the size of half an egg, together with a few shavings of onion, into a kettle or stone crock and let it get hot",
+      "section": null
+    },
+    {
+      "text": "Salt and pepper the veal and put it into the kettle, cover it tightly and put it over a medium fire until the meat is brown on both sides, turning it occasionally",
+      "section": null
+    },
+    {
+      "text": "Set the kettle back on the stove, where it will simmer slowly for about two hours and a half",
+      "section": null
+    },
+    {
+      "text": "Before setting the meat back on the stove, see if the juice of the meat together with the butter do not make gravy enough, and if not, put in about two tablespoonfuls of hot water",
+      "section": null
+    },
+    {
+      "text": "When the gravy is cold it will be like jelly",
+      "section": null
+    },
+    {
+      "text": "It can be served hot with the hot meat, or cold with the cold meat",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/braised-veal.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Have the bone removed and tie up the meat to make it firm\n2. Put a piece of butter the size of half an egg, together with a few shavings of onion, into a kettle or stone crock and let it get hot\n3. Salt and pepper the veal and put it into the kettle, cover it tightly and put it over a medium fire until the meat is brown on both sides, turning it occasionally\n4. Set the kettle back on the stove, where it will simmer slowly for about two hours and a half\n5. Before setting the meat back on the stove, see if the juice of the meat together with the butter do not make gravy enough, and if not, put in about two tablespoonfuls of hot water\n6. When the gravy is cold it will be like jelly\n7. It can be served hot with the hot meat, or cold with the cold meat",
+    "originalIngredients": [
+      "A piece of the shoulder weighing about five pounds",
+      "A piece of butter the size of half an egg",
+      "A few shavings of onion",
+      "Salt and pepper",
+      "About two tablespoonfuls of hot water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "9ea6faf5-ba37-57a3-9032-7e8d70478c8c",
+  "name": "Chicken Croquettes",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "finely chopped chicken",
+      "originalText": "2 cups finely chopped chicken",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chicken stock",
+      "originalText": "1 cup chicken stock",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1/2 cup cream or milk",
+      "originalText": "1/2 cup cream or milk",
+      "quantity": null,
+      "quantityText": "1/2 cup cream or milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoonful flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little mace, nutmeg, pepper, and salt",
+      "originalText": "a little mace, nutmeg, pepper, and salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix the butter and flour together",
+      "section": null
+    },
+    {
+      "text": "When the milk and stock have come to a boil add them to the butter and flour",
+      "section": null
+    },
+    {
+      "text": "Add the meat, and let all simmer together ten minutes",
+      "section": null
+    },
+    {
+      "text": "Add eggs pretty well beaten",
+      "section": null
+    },
+    {
+      "text": "Leave on the back of stove for a few minutes, but do not allow it to simmer",
+      "section": null
+    },
+    {
+      "text": "Pour in a dish to cool",
+      "section": null
+    },
+    {
+      "text": "When quite cool form into small rolls and roll in bread-crumbs, then in egg, and again in bread-crumbs",
+      "section": null
+    },
+    {
+      "text": "Cook in boiling lard",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chicken-croquettes-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix the butter and flour together\n2. When the milk and stock have come to a boil add them to the butter and flour\n3. Add the meat, and let all simmer together ten minutes\n4. Add eggs pretty well beaten\n5. Leave on the back of stove for a few minutes, but do not allow it to simmer\n6. Pour in a dish to cool\n7. When quite cool form into small rolls and roll in bread-crumbs, then in egg, and again in bread-crumbs\n8. Cook in boiling lard",
+    "originalIngredients": [
+      "2 cups finely chopped chicken",
+      "1 cup chicken stock",
+      "1/2 cup cream or milk",
+      "2 eggs",
+      "1 tablespoonful butter",
+      "1 tablespoonful flour",
+      "a little mace, nutmeg, pepper, and salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "cadf9c37-2bdd-5c21-b956-b01ec8f4aa83",
+  "name": "Fillet of Beef with Vegetables",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fillet of beef",
+      "originalText": "3 pound fillet of beef",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 pound butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cooked peas",
+      "originalText": "1 cup cooked peas",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrots cut in fancy shapes",
+      "originalText": "1 cup carrots cut in fancy shapes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "1/2 cup raisins",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh mushrooms",
+      "originalText": "1/2 pound fresh mushrooms",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fat from frying-pan",
+      "originalText": "1/4 cup fat from frying-pan",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "5 tablespoons flour",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Brown Soup Stock",
+      "originalText": "1 cup Brown Soup Stock",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mushroom liquor",
+      "originalText": "1/3 cup mushroom liquor",
+      "quantity": 0.3333333333333333,
+      "quantityText": "1/3",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe a three-pound fillet, trim, and remove fat.",
+      "section": null
+    },
+    {
+      "text": "Put one-half pound butter in hot frying-pan and when melted add fillet, and turn frequently until the entire surface is seared and well browned; then turn occasionally until done, the time required being about thirty minutes.",
+      "section": null
+    },
+    {
+      "text": "Remove to serving dish and garnish with one cup each cooked peas and carrots cut in fancy shapes, both well seasoned, one-half cup raisins seeded and cooked in boiling water until soft, and the caps from one-half pound fresh mushrooms sautéd in butter five minutes.",
+      "section": null
+    },
+    {
+      "text": "Pour off one-fourth cup fat from frying-pan, add five tablespoons flour, and stir until well browned; then add one cup Brown Soup Stock, one-third cup mushroom liquor, and the caps from one-half pound mushrooms cut in slices and sautéd in butter three minutes.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper, and just before serving add gradually, while stirring constantly, the butter remaining in frying-pan.",
+      "section": null
+    },
+    {
+      "text": "To obtain mushroom liquor, scrape stems of mushrooms, break in pieces, cover with cold water, and cook slowly until liquid is reduced to one-third cup.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fillet-of-beef-with-vegetables.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe a three-pound fillet, trim, and remove fat.\n2. Put one-half pound butter in hot frying-pan and when melted add fillet, and turn frequently until the entire surface is seared and well browned; then turn occasionally until done, the time required being about thirty minutes.\n3. Remove to serving dish and garnish with one cup each cooked peas and carrots cut in fancy shapes, both well seasoned, one-half cup raisins seeded and cooked in boiling water until soft, and the caps from one-half pound fresh mushrooms sautéd in butter five minutes.\n4. Pour off one-fourth cup fat from frying-pan, add five tablespoons flour, and stir until well browned; then add one cup Brown Soup Stock, one-third cup mushroom liquor, and the caps from one-half pound mushrooms cut in slices and sautéd in butter three minutes.\n5. Season with salt and pepper, and just before serving add gradually, while stirring constantly, the butter remaining in frying-pan.\n6. To obtain mushroom liquor, scrape stems of mushrooms, break in pieces, cover with cold water, and cook slowly until liquid is reduced to one-third cup.",
+    "originalIngredients": [
+      "3 pound fillet of beef",
+      "1/2 pound butter",
+      "1 cup cooked peas",
+      "1 cup carrots cut in fancy shapes",
+      "1/2 cup raisins",
+      "1/2 pound fresh mushrooms",
+      "1/4 cup fat from frying-pan",
+      "5 tablespoons flour",
+      "1 cup Brown Soup Stock",
+      "1/3 cup mushroom liquor",
+      "salt",
+      "pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

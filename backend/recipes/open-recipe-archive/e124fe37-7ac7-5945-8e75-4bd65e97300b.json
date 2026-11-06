@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "e124fe37-7ac7-5945-8e75-4bd65e97300b",
+  "name": "Plain Apple Jelly",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "a bushel of sound, firm greening apples",
+      "originalText": "1/2 a bushel of sound, firm greening apples",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh lemon",
+      "originalText": "1 fresh lemon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "granulated sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut apples from core, skin left on",
+      "section": null
+    },
+    {
+      "text": "Wash clean",
+      "section": null
+    },
+    {
+      "text": "Put in a granite kettle with water to not quite cover",
+      "section": null
+    },
+    {
+      "text": "Cook till all are broken up",
+      "section": null
+    },
+    {
+      "text": "Empty in a jelly bag made with thin cotton",
+      "section": null
+    },
+    {
+      "text": "Let drip over night",
+      "section": null
+    },
+    {
+      "text": "Return to the fire",
+      "section": null
+    },
+    {
+      "text": "Cut up one fresh lemon and tie loosely in a thin cloth",
+      "section": null
+    },
+    {
+      "text": "Put in the juice and let boil briskly half an hour",
+      "section": null
+    },
+    {
+      "text": "Skim and take out the lemon",
+      "section": null
+    },
+    {
+      "text": "Add pound for pound granulated sugar",
+      "section": null
+    },
+    {
+      "text": "Heat sugar in the oven before adding",
+      "section": null
+    },
+    {
+      "text": "Let boil 10 or 15 minutes",
+      "section": null
+    },
+    {
+      "text": "Pour up in glasses",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/plain-apple-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut apples from core, skin left on\n2. Wash clean\n3. Put in a granite kettle with water to not quite cover\n4. Cook till all are broken up\n5. Empty in a jelly bag made with thin cotton\n6. Let drip over night\n7. Return to the fire\n8. Cut up one fresh lemon and tie loosely in a thin cloth\n9. Put in the juice and let boil briskly half an hour\n10. Skim and take out the lemon\n11. Add pound for pound granulated sugar\n12. Heat sugar in the oven before adding\n13. Let boil 10 or 15 minutes\n14. Pour up in glasses",
+    "originalIngredients": [
+      "1/2 a bushel of sound, firm greening apples",
+      "cold water",
+      "1 fresh lemon",
+      "granulated sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

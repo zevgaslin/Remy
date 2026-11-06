@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "f6926ecd-22e5-5fc3-b3a5-1ec9e5315e4e",
+  "name": "Graham Biscuits With Yeast",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one pint of water or milk",
+      "originalText": "one pint of water or milk",
+      "quantity": null,
+      "quantityText": "one pint of water or milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tablespoonful of butter",
+      "originalText": "one large tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "two tablespoonfuls of sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half cup of yeast",
+      "originalText": "a half cup of yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "a pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wheat flour",
+      "originalText": "wheat flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Graham flour",
+      "originalText": "Graham flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take enough wheat flour to use up the water, making it the consistency of batter-cakes",
+      "section": null
+    },
+    {
+      "text": "Add butter, sugar, yeast, and salt",
+      "section": null
+    },
+    {
+      "text": "Add as much Graham flour as can be stirred in with a spoon",
+      "section": null
+    },
+    {
+      "text": "Set it away till morning",
+      "section": null
+    },
+    {
+      "text": "In the morning grease a pan and flour your hands",
+      "section": null
+    },
+    {
+      "text": "Take a lump of dough the size of an egg and roll it lightly between the palms of your hands",
+      "section": null
+    },
+    {
+      "text": "Let them rise twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Bake in a tolerably hot oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/graham-biscuits-with-yeast.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take enough wheat flour to use up the water, making it the consistency of batter-cakes\n2. Add butter, sugar, yeast, and salt\n3. Add as much Graham flour as can be stirred in with a spoon\n4. Set it away till morning\n5. In the morning grease a pan and flour your hands\n6. Take a lump of dough the size of an egg and roll it lightly between the palms of your hands\n7. Let them rise twenty minutes\n8. Bake in a tolerably hot oven",
+    "originalIngredients": [
+      "one pint of water or milk",
+      "one large tablespoonful of butter",
+      "two tablespoonfuls of sugar",
+      "a half cup of yeast",
+      "a pinch of salt",
+      "wheat flour",
+      "Graham flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

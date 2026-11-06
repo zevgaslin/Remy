@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "395bb02b-9d5c-59e7-acd3-8eb20eb6fdc2",
+  "name": "Rice Omelet",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cold boiled rice",
+      "originalText": "a cup of cold boiled rice",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm milk",
+      "originalText": "a cupful of warm milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter melted",
+      "originalText": "a tablespoonful of butter melted",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoonful of salt",
+      "originalText": "a level teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dash of pepper",
+      "originalText": "a dash of pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "three well-beaten eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "a tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a cup of cold boiled rice, turn over it a cupful of warm milk",
+      "section": null
+    },
+    {
+      "text": "Add a tablespoonful of butter melted, a level teaspoonful of salt, a dash of pepper",
+      "section": null
+    },
+    {
+      "text": "Mix well, then add three well-beaten eggs",
+      "section": null
+    },
+    {
+      "text": "Put a tablespoonful of butter in a hot frying pan, and when it begins to boil pour in the omelet",
+      "section": null
+    },
+    {
+      "text": "Set the pan in a hot oven",
+      "section": null
+    },
+    {
+      "text": "As soon as it is cooked through, fold it double",
+      "section": null
+    },
+    {
+      "text": "Turn it out on a hot dish, and serve at once",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-omelet.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a cup of cold boiled rice, turn over it a cupful of warm milk\n2. Add a tablespoonful of butter melted, a level teaspoonful of salt, a dash of pepper\n3. Mix well, then add three well-beaten eggs\n4. Put a tablespoonful of butter in a hot frying pan, and when it begins to boil pour in the omelet\n5. Set the pan in a hot oven\n6. As soon as it is cooked through, fold it double\n7. Turn it out on a hot dish, and serve at once",
+    "originalIngredients": [
+      "a cup of cold boiled rice",
+      "a cupful of warm milk",
+      "a tablespoonful of butter melted",
+      "a level teaspoonful of salt",
+      "a dash of pepper",
+      "three well-beaten eggs",
+      "a tablespoonful of butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

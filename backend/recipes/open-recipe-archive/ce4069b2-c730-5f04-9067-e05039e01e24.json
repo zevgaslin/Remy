@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "ce4069b2-c730-5f04-9067-e05039e01e24",
+  "name": "Fricassee Salmon",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one and one-half pounds of salmon",
+      "originalText": "one and one-half pounds of salmon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "half a cupful of water",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little white pepper",
+      "originalText": "a little white pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "clove",
+      "originalText": "one clove",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "blade of mace",
+      "originalText": "one blade of mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pieces of sugar",
+      "originalText": "three pieces of sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "shallot",
+      "originalText": "one shallot",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoonful of mustard",
+      "originalText": "a heaping teaspoonful of mustard",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of vinegar",
+      "originalText": "half a teacupful of vinegar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tomatoes",
+      "originalText": "six tomatoes",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few sprigs of parsley",
+      "originalText": "a few sprigs of parsley",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine-glassful of sherry",
+      "originalText": "one wine-glassful of sherry",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut one and one-half pounds of salmon into pieces one inch square",
+      "section": null
+    },
+    {
+      "text": "Put the pieces in a stewpan with half a cupful of water, a little salt, a little white pepper, one clove, one blade of mace, three pieces of sugar, one shallot and a heaping teaspoonful of mustard mixed smoothly with half a teacupful of vinegar",
+      "section": null
+    },
+    {
+      "text": "Let this boil up once and add six tomatoes peeled and cut into tiny pieces, a few sprigs of parsley finely minced, and one wine-glassful of sherry",
+      "section": null
+    },
+    {
+      "text": "Let all simmer gently for three-quarters of an hour",
+      "section": null
+    },
+    {
+      "text": "Serve very hot, and garnish with dry toast cut in triangular pieces",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fricassee-salmon.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut one and one-half pounds of salmon into pieces one inch square\n2. Put the pieces in a stewpan with half a cupful of water, a little salt, a little white pepper, one clove, one blade of mace, three pieces of sugar, one shallot and a heaping teaspoonful of mustard mixed smoothly with half a teacupful of vinegar\n3. Let this boil up once and add six tomatoes peeled and cut into tiny pieces, a few sprigs of parsley finely minced, and one wine-glassful of sherry\n4. Let all simmer gently for three-quarters of an hour\n5. Serve very hot, and garnish with dry toast cut in triangular pieces",
+    "originalIngredients": [
+      "one and one-half pounds of salmon",
+      "half a cupful of water",
+      "a little salt",
+      "a little white pepper",
+      "one clove",
+      "one blade of mace",
+      "three pieces of sugar",
+      "one shallot",
+      "a heaping teaspoonful of mustard",
+      "half a teacupful of vinegar",
+      "six tomatoes",
+      "a few sprigs of parsley",
+      "one wine-glassful of sherry"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

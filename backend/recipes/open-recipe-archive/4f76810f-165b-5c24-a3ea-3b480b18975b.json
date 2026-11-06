@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "4f76810f-165b-5c24-a3ea-3b480b18975b",
+  "name": "Meat Pie",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "left-over meat",
+      "originalText": "left-over meat",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "meat gravy",
+      "originalText": "meat gravy",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoon baking powder",
+      "originalText": "1 heaping teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoon salt",
+      "originalText": "1 saltspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 pint flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "1 tablespoon lard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scant cup milk",
+      "originalText": "1 scant cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take left-over meat and place in baking dish",
+      "section": null
+    },
+    {
+      "text": "Add salt and pepper and dredge with flour",
+      "section": null
+    },
+    {
+      "text": "Pour over this meat gravy and heat",
+      "section": null
+    },
+    {
+      "text": "While this is heating, make a rich biscuit dough by sifting 1 heaping teaspoon baking powder and 1 saltspoon salt into 1 pint flour",
+      "section": null
+    },
+    {
+      "text": "Rub in 1 tablespoon lard",
+      "section": null
+    },
+    {
+      "text": "Wet with 1 scant cup milk",
+      "section": null
+    },
+    {
+      "text": "Drop this by the spoonful on the hot meat from the oven and spread to cover the pie",
+      "section": null
+    },
+    {
+      "text": "Bake 3/4 hour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/meat-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take left-over meat and place in baking dish\n2. Add salt and pepper and dredge with flour\n3. Pour over this meat gravy and heat\n4. While this is heating, make a rich biscuit dough by sifting 1 heaping teaspoon baking powder and 1 saltspoon salt into 1 pint flour\n5. Rub in 1 tablespoon lard\n6. Wet with 1 scant cup milk\n7. Drop this by the spoonful on the hot meat from the oven and spread to cover the pie\n8. Bake 3/4 hour",
+    "originalIngredients": [
+      "left-over meat",
+      "salt and pepper",
+      "flour",
+      "meat gravy",
+      "1 heaping teaspoon baking powder",
+      "1 saltspoon salt",
+      "1 pint flour",
+      "1 tablespoon lard",
+      "1 scant cup milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

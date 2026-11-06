@@ -13,3 +13,6 @@ frontend/dist/
 # IDE / OS
 .DS_Store
 *.log
+
+# Python importer bytecode
+__pycache__/

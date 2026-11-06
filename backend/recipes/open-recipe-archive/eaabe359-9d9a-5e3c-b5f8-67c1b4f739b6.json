@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "eaabe359-9d9a-5e3c-b5f8-67c1b4f739b6",
+  "name": "Citron Pound Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "two cups of butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "one pint of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one quart of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine-glass of brandy",
+      "originalText": "a wine-glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of citron",
+      "originalText": "a quarter of a pound of citron",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir two cups of butter to a cream.",
+      "section": null
+    },
+    {
+      "text": "Beat in the following ingredients each one in succession: one pint of powdered sugar, one quart of flour, a teaspoonful of salt.",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks and whites of eight eggs separately and add them.",
+      "section": null
+    },
+    {
+      "text": "Add a wine-glass of brandy.",
+      "section": null
+    },
+    {
+      "text": "Then last of all add a quarter of a pound of citron cut into thin slices and floured.",
+      "section": null
+    },
+    {
+      "text": "Line two cake pans with buttered paper and turn the cake batter in.",
+      "section": null
+    },
+    {
+      "text": "Bake in a moderate oven about three-quarters of an hour.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/citron-pound-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir two cups of butter to a cream.\n2. Beat in the following ingredients each one in succession: one pint of powdered sugar, one quart of flour, a teaspoonful of salt.\n3. Beat the yolks and whites of eight eggs separately and add them.\n4. Add a wine-glass of brandy.\n5. Then last of all add a quarter of a pound of citron cut into thin slices and floured.\n6. Line two cake pans with buttered paper and turn the cake batter in.\n7. Bake in a moderate oven about three-quarters of an hour.",
+    "originalIngredients": [
+      "two cups of butter",
+      "one pint of powdered sugar",
+      "one quart of flour",
+      "a teaspoonful of salt",
+      "eight eggs",
+      "a wine-glass of brandy",
+      "a quarter of a pound of citron"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

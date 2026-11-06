@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "id": "4e5cf277-f76a-5307-a0d9-485e55686ab9",
+  "name": "Fine Calves' Head Soup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "calf's head with the skin on",
+      "originalText": "a calf's head with the skin on",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fore-leg of beef",
+      "originalText": "a fore-leg of beef",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "knuckle of veal",
+      "originalText": "a knuckle of veal",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen sliced carrots",
+      "originalText": "half a dozen sliced carrots",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dozen sliced onions",
+      "originalText": "half a dozen sliced onions",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large head of celery",
+      "originalText": "a large head of celery",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of sweet herbs",
+      "originalText": "a bunch of sweet herbs",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt-spoonful of cayenne pepper",
+      "originalText": "a salt-spoonful of cayenne pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "more than a pint of the liquid",
+      "originalText": "more than a pint of the liquid",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "two ounces of fresh butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of sweet marjoram",
+      "originalText": "a bunch of sweet marjoram",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few sprigs of parsley",
+      "originalText": "a few sprigs of parsley",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions minced fine",
+      "originalText": "two onions minced fine",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large slice of the lean of some cold boiled ham",
+      "originalText": "a large slice of the lean of some cold boiled ham",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tea-cupful (half a pint) of grated bread-crumbs",
+      "originalText": "a large tea-cupful (half a pint) of grated bread-crumbs",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "meat of the calves' head",
+      "originalText": "meat of the calves' head",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sweet-majoram",
+      "originalText": "powdered sweet-majoram",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper",
+      "originalText": "salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten yolk of egg",
+      "originalText": "beaten yolk of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large lemon",
+      "originalText": "a large lemon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a pint of good madeira or sherry",
+      "originalText": "a pint of good madeira or sherry",
+      "quantity": null,
+      "quantityText": "a pint of good madeira or sherry",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of some hard-boiled eggs",
+      "originalText": "yolks of some hard-boiled eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil in as much water as will cover it, a calf's head with the skin on, till you can slip out the bones",
+      "section": null
+    },
+    {
+      "text": "Take a fore-leg of beef, and a knuckle of veal; cut them up, and put them (bones and all) into the liquid the calf's head was boiled in; adding as much more water as will cover the meat",
+      "section": null
+    },
+    {
+      "text": "Skim it well; and after it has thoroughly come to a boil, add half a dozen sliced carrots; half a dozen sliced onions; a large head of celery cut small; a bunch of sweet herbs; and a salt-spoonful of cayenne pepper",
+      "section": null
+    },
+    {
+      "text": "Boil the whole slowly during five hours; then strain it into a large pan",
+      "section": null
+    },
+    {
+      "text": "Take rather more than a pint of the liquid, (after all the fat has been carefully skimmed off,) and put it into a saucepan with two ounces of fresh butter, a bunch of sweet marjoram, a few sprigs of parsley, two onions minced fine, and a large slice of the lean of some cold boiled ham, cut into little bits",
+      "section": null
+    },
+    {
+      "text": "Keep it closely covered, and let it simmer over the fire for an hour",
+      "section": null
+    },
+    {
+      "text": "Then press it through a sieve into the pan that contains the rest of the soup",
+      "section": null
+    },
+    {
+      "text": "Thicken it with a large tea-cupful (half a pint) of grated bread-crumbs; return it to the soup-pot, and boil it half an hour",
+      "section": null
+    },
+    {
+      "text": "Make the force-meat balls of the meat of the calves' head, finely minced, and mixed with grated bread-crumbs, butter, powdered sweet-majoram, a very little salt and pepper, and some beaten yolk of egg to cement these ingredients together",
+      "section": null
+    },
+    {
+      "text": "Roll each ball in flour, and fry in fresh butter before it is put into the soup",
+      "section": null
+    },
+    {
+      "text": "Shortly before you send it to table, add a large lemon sliced thin without peeling, and a pint of good madeira or sherry",
+      "section": null
+    },
+    {
+      "text": "Add also the yolks of some hard-boiled eggs cut in half",
+      "section": null
+    },
+    {
+      "text": "After the wine, lemon, and eggs are all in, give the soup one boil up, but not more",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fine-calves-head-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil in as much water as will cover it, a calf's head with the skin on, till you can slip out the bones\n2. Take a fore-leg of beef, and a knuckle of veal; cut them up, and put them (bones and all) into the liquid the calf's head was boiled in; adding as much more water as will cover the meat\n3. Skim it well; and after it has thoroughly come to a boil, add half a dozen sliced carrots; half a dozen sliced onions; a large head of celery cut small; a bunch of sweet herbs; and a salt-spoonful of cayenne pepper\n4. Boil the whole slowly during five hours; then strain it into a large pan\n5. Take rather more than a pint of the liquid, (after all the fat has been carefully skimmed off,) and put it into a saucepan with two ounces of fresh butter, a bunch of sweet marjoram, a few sprigs of parsley, two onions minced fine, and a large slice of the lean of some cold boiled ham, cut into little bits\n6. Keep it closely covered, and let it simmer over the fire for an hour\n7. Then press it through a sieve into the pan that contains the rest of the soup\n8. Thicken it with a large tea-cupful (half a pint) of grated bread-crumbs; return it to the soup-pot, and boil it half an hour\n9. Make the force-meat balls of the meat of the calves' head, finely minced, and mixed with grated bread-crumbs, butter, powdered sweet-majoram, a very little salt and pepper, and some beaten yolk of egg to cement these ingredients together\n10. Roll each ball in flour, and fry in fresh butter before it is put into the soup\n11. Shortly before you send it to table, add a large lemon sliced thin without peeling, and a pint of good madeira or sherry\n12. Add also the yolks of some hard-boiled eggs cut in half\n13. After the wine, lemon, and eggs are all in, give the soup one boil up, but not more",
+    "originalIngredients": [
+      "a calf's head with the skin on",
+      "a fore-leg of beef",
+      "a knuckle of veal",
+      "water",
+      "half a dozen sliced carrots",
+      "half a dozen sliced onions",
+      "a large head of celery",
+      "a bunch of sweet herbs",
+      "a salt-spoonful of cayenne pepper",
+      "more than a pint of the liquid",
+      "two ounces of fresh butter",
+      "a bunch of sweet marjoram",
+      "a few sprigs of parsley",
+      "two onions minced fine",
+      "a large slice of the lean of some cold boiled ham",
+      "a large tea-cupful (half a pint) of grated bread-crumbs",
+      "meat of the calves' head",
+      "powdered sweet-majoram",
+      "salt and pepper",
+      "beaten yolk of egg",
+      "flour",
+      "a large lemon",
+      "a pint of good madeira or sherry",
+      "yolks of some hard-boiled eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

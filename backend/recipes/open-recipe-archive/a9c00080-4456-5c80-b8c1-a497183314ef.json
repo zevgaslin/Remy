@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "a9c00080-4456-5c80-b8c1-a497183314ef",
+  "name": "Egg Soufflé",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Few grains cayenne",
+      "originalText": "Few grains cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream the butter, add flour, and pour on gradually scalded milk and cream.",
+      "section": null
+    },
+    {
+      "text": "Cook in double boiler five minutes, and add yolks of eggs, beaten until thick and lemon-colored.",
+      "section": null
+    },
+    {
+      "text": "Remove from fire, add seasonings, and fold in whites of eggs beaten until stiff and dry.",
+      "section": null
+    },
+    {
+      "text": "Turn into a buttered dish, or buttered individual moulds, set in pan of hot water, and bake in a slow oven until firm.",
+      "section": null
+    },
+    {
+      "text": "Egg Soufflé may be served with White Sauce I, highly seasoned with celery salt, paprika, and onion juice.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/egg-souffl.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream the butter, add flour, and pour on gradually scalded milk and cream.\n2. Cook in double boiler five minutes, and add yolks of eggs, beaten until thick and lemon-colored.\n3. Remove from fire, add seasonings, and fold in whites of eggs beaten until stiff and dry.\n4. Turn into a buttered dish, or buttered individual moulds, set in pan of hot water, and bake in a slow oven until firm.\n5. Egg Soufflé may be served with White Sauce I, highly seasoned with celery salt, paprika, and onion juice.",
+    "originalIngredients": [
+      "2 tablespoons butter",
+      "2 tablespoons flour",
+      "1 cup milk",
+      "1 cup cream",
+      "4 eggs",
+      "1 teaspoon salt",
+      "Few grains cayenne"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

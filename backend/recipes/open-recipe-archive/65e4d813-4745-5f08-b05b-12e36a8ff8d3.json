@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "65e4d813-4745-5f08-b05b-12e36a8ff8d3",
+  "name": "Short Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "quarters of a pound of fresh butter",
+      "originalText": "three quarters of a pound of fresh butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of sifted flour",
+      "originalText": "a pound and a half of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little cold water",
+      "originalText": "a little cold water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub three quarters of a pound of fresh butter into a pound and a half of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Make it into a dough with a little cold water",
+      "section": null
+    },
+    {
+      "text": "Roll it out into a sheet half an inch thick, and cut it into round cakes with the edge of a tumbler",
+      "section": null
+    },
+    {
+      "text": "Prick them with a fork; lay them in a shallow iron pan sprinkled with flour",
+      "section": null
+    },
+    {
+      "text": "Bake them in a moderate oven till they are brown",
+      "section": null
+    },
+    {
+      "text": "Send them to table hot; split and butter them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/short-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub three quarters of a pound of fresh butter into a pound and a half of sifted flour\n2. Make it into a dough with a little cold water\n3. Roll it out into a sheet half an inch thick, and cut it into round cakes with the edge of a tumbler\n4. Prick them with a fork; lay them in a shallow iron pan sprinkled with flour\n5. Bake them in a moderate oven till they are brown\n6. Send them to table hot; split and butter them",
+    "originalIngredients": [
+      "three quarters of a pound of fresh butter",
+      "a pound and a half of sifted flour",
+      "a little cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

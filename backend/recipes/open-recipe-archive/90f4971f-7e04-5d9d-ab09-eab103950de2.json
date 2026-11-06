@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "90f4971f-7e04-5d9d-ab09-eab103950de2",
+  "name": "Johnnie Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Indian meal",
+      "originalText": "one quart of Indian meal",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "a pint of warm water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift one quart of Indian meal into a pan",
+      "section": null
+    },
+    {
+      "text": "make a hole in the middle and pour in a pint of warm water, adding one teaspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "with a spoon mix the meal and water gradually into a soft dough",
+      "section": null
+    },
+    {
+      "text": "stir it very briskly for a quarter of an hour or more, till it becomes light and spongy",
+      "section": null
+    },
+    {
+      "text": "spread the dough smoothly and evenly on a straight, flat board (a piece of the head of a flour-barrel will serve for this purpose)",
+      "section": null
+    },
+    {
+      "text": "place the board nearly upright before an open fire and put an iron against the back to support it",
+      "section": null
+    },
+    {
+      "text": "bake it well",
+      "section": null
+    },
+    {
+      "text": "when done, cut it in squares",
+      "section": null
+    },
+    {
+      "text": "send it hot to table, split and buttered",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/johnnie-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift one quart of Indian meal into a pan\n2. make a hole in the middle and pour in a pint of warm water, adding one teaspoonful of salt\n3. with a spoon mix the meal and water gradually into a soft dough\n4. stir it very briskly for a quarter of an hour or more, till it becomes light and spongy\n5. spread the dough smoothly and evenly on a straight, flat board (a piece of the head of a flour-barrel will serve for this purpose)\n6. place the board nearly upright before an open fire and put an iron against the back to support it\n7. bake it well\n8. when done, cut it in squares\n9. send it hot to table, split and buttered",
+    "originalIngredients": [
+      "one quart of Indian meal",
+      "a pint of warm water",
+      "one teaspoonful of salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

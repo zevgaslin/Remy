@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "bd8b63cb-a945-5286-b576-52e5cb6b60d5",
+  "name": "A Sally Lunn",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "and a half of flour",
+      "originalText": "a pound and a half of flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two ounces of butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt-spoonful of salt",
+      "originalText": "a salt-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "three well-beaten eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best fresh yeast",
+      "originalText": "two table-spoonfuls of the best fresh yeast",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift into a pan a pound and a half of flour",
+      "section": null
+    },
+    {
+      "text": "Make a hole in the middle, and put in two ounces of butter warmed in a pint of milk, a salt-spoonful of salt, three well-beaten eggs, and two table-spoonfuls of the best fresh yeast",
+      "section": null
+    },
+    {
+      "text": "Mix the flour well into the other ingredients, and put the whole into a square tin pan that has been greased with butter",
+      "section": null
+    },
+    {
+      "text": "Cover it, set it in a warm place, and when it is quite light, bake it in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Send it to table hot, and eat it with butter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-sally-lunn.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift into a pan a pound and a half of flour\n2. Make a hole in the middle, and put in two ounces of butter warmed in a pint of milk, a salt-spoonful of salt, three well-beaten eggs, and two table-spoonfuls of the best fresh yeast\n3. Mix the flour well into the other ingredients, and put the whole into a square tin pan that has been greased with butter\n4. Cover it, set it in a warm place, and when it is quite light, bake it in a moderate oven\n5. Send it to table hot, and eat it with butter",
+    "originalIngredients": [
+      "a pound and a half of flour",
+      "two ounces of butter",
+      "a pint of milk",
+      "a salt-spoonful of salt",
+      "three well-beaten eggs",
+      "two table-spoonfuls of the best fresh yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

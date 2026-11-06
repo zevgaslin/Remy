@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "6e1727f5-8d3a-51a7-ac35-77ace0bcb2b3",
+  "name": "Common Rolls",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "two pounds of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jill of water",
+      "originalText": "a jill of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jill of milk",
+      "originalText": "a jill of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jill of the best yeast",
+      "originalText": "a jill of the best yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift two pounds of flour into a pan, and mix with it a tea-spoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Warm together a jill of water and a jill of milk",
+      "section": null
+    },
+    {
+      "text": "Make a hole in the middle of the pan of flour; mix with the milk and water a jill of the best yeast, and pour it into the hole",
+      "section": null
+    },
+    {
+      "text": "Mix into the liquid enough of the surrounding flour to make a thin batter, which you must stir till quite smooth and free from lumps",
+      "section": null
+    },
+    {
+      "text": "Strew a handful of flour over the top, and set it in a warm place to rise for two hours or more",
+      "section": null
+    },
+    {
+      "text": "When it is quite light, and has cracked on the top, make it into a dough with some more milk and water",
+      "section": null
+    },
+    {
+      "text": "Knead it well for ten minutes",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it again to rise for twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Make the dough into rolls or round balls",
+      "section": null
+    },
+    {
+      "text": "Bake them in a square pan, and send them to table hot, cut in three, buttered and put together again",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/common-rolls.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift two pounds of flour into a pan, and mix with it a tea-spoonful of salt\n2. Warm together a jill of water and a jill of milk\n3. Make a hole in the middle of the pan of flour; mix with the milk and water a jill of the best yeast, and pour it into the hole\n4. Mix into the liquid enough of the surrounding flour to make a thin batter, which you must stir till quite smooth and free from lumps\n5. Strew a handful of flour over the top, and set it in a warm place to rise for two hours or more\n6. When it is quite light, and has cracked on the top, make it into a dough with some more milk and water\n7. Knead it well for ten minutes\n8. Cover it, and set it again to rise for twenty minutes\n9. Make the dough into rolls or round balls\n10. Bake them in a square pan, and send them to table hot, cut in three, buttered and put together again",
+    "originalIngredients": [
+      "two pounds of flour",
+      "a tea-spoonful of salt",
+      "a jill of water",
+      "a jill of milk",
+      "a jill of the best yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

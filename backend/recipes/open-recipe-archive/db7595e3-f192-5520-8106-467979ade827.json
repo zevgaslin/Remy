@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "db7595e3-f192-5520-8106-467979ade827",
+  "name": "Mutton or Lamb Broth",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "4 lbs. mutton or lamb, lean, cut into small pieces",
+      "originalText": "4 lbs. mutton or lamb, lean, cut into small pieces",
+      "quantity": null,
+      "quantityText": "4 lbs. mutton or lamb, lean, cut into small pieces",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon water",
+      "originalText": "1 gallon water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teacupful rice",
+      "originalText": "½ teacupful rice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold milk",
+      "originalText": "1 cup of cold milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 tablespoonful rice or wheat flour",
+      "originalText": "1 tablespoonful rice or wheat flour",
+      "quantity": null,
+      "quantityText": "1 tablespoonful rice or wheat flour",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "parsley",
+      "originalText": "parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thyme",
+      "originalText": "thyme",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the unsalted meat for two hours, slowly, in a covered vessel",
+      "section": null
+    },
+    {
+      "text": "Soak the rice in enough warm water to cover it, and at the end of this time add it, water and all, to the boiling soup",
+      "section": null
+    },
+    {
+      "text": "Cook an hour longer, stirring watchfully from time to time, lest the rice should settle and adhere to the bottom of the pot",
+      "section": null
+    },
+    {
+      "text": "Beat an egg to a froth and stir into a cup of cold milk, into which has been rubbed smoothly a tablespoonful rice or wheat flour",
+      "section": null
+    },
+    {
+      "text": "Mix with this, a little at a time, some of the scalding liquor, until the egg is so far cooked that there is no danger of curdling in the soup",
+      "section": null
+    },
+    {
+      "text": "Pour into the pot, when you have taken out the meat, season with parsley, thyme, pepper, and salt",
+      "section": null
+    },
+    {
+      "text": "Boil up fairly, and serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mutton-or-lamb-broth.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the unsalted meat for two hours, slowly, in a covered vessel\n2. Soak the rice in enough warm water to cover it, and at the end of this time add it, water and all, to the boiling soup\n3. Cook an hour longer, stirring watchfully from time to time, lest the rice should settle and adhere to the bottom of the pot\n4. Beat an egg to a froth and stir into a cup of cold milk, into which has been rubbed smoothly a tablespoonful rice or wheat flour\n5. Mix with this, a little at a time, some of the scalding liquor, until the egg is so far cooked that there is no danger of curdling in the soup\n6. Pour into the pot, when you have taken out the meat, season with parsley, thyme, pepper, and salt\n7. Boil up fairly, and serve",
+    "originalIngredients": [
+      "4 lbs. mutton or lamb, lean, cut into small pieces",
+      "1 gallon water",
+      "½ teacupful rice",
+      "1 egg",
+      "1 cup of cold milk",
+      "1 tablespoonful rice or wheat flour",
+      "parsley",
+      "thyme",
+      "pepper",
+      "salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

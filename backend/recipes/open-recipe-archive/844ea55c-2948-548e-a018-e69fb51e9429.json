@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "844ea55c-2948-548e-a018-e69fb51e9429",
+  "name": "Soda Biscuits",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "half a pound of butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm milk",
+      "originalText": "a pint of warm milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "a tea-spoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a pound of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "two pounds of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt half a pound of butter in a pint of warm milk, adding a tea-spoonful of soda",
+      "section": null
+    },
+    {
+      "text": "Stir in by degrees half a pound of sugar",
+      "section": null
+    },
+    {
+      "text": "Sift into a pan two pounds of flour; make a hole in the middle; pour in the milk, &c., and mix it with the flour into a dough",
+      "section": null
+    },
+    {
+      "text": "Put it on your paste-board, and knead it long and hard till it becomes very light",
+      "section": null
+    },
+    {
+      "text": "Roll it out into a sheet half an inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut it into little round cakes with the top of a wine glass, or with a tin cutter of that size; prick the tops",
+      "section": null
+    },
+    {
+      "text": "Lay them on tins sprinkled with flour, or in shallow iron pans",
+      "section": null
+    },
+    {
+      "text": "Bake them of a light brown in a quick oven; they will be done in a few minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/soda-biscuits.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt half a pound of butter in a pint of warm milk, adding a tea-spoonful of soda\n2. Stir in by degrees half a pound of sugar\n3. Sift into a pan two pounds of flour; make a hole in the middle; pour in the milk, &c., and mix it with the flour into a dough\n4. Put it on your paste-board, and knead it long and hard till it becomes very light\n5. Roll it out into a sheet half an inch thick\n6. Cut it into little round cakes with the top of a wine glass, or with a tin cutter of that size; prick the tops\n7. Lay them on tins sprinkled with flour, or in shallow iron pans\n8. Bake them of a light brown in a quick oven; they will be done in a few minutes",
+    "originalIngredients": [
+      "half a pound of butter",
+      "a pint of warm milk",
+      "a tea-spoonful of soda",
+      "half a pound of sugar",
+      "two pounds of flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

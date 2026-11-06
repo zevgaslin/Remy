@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "fc370b4c-b01e-5ce6-9136-c8ea945f2e0b",
+  "name": "Cinnamon Bars",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ozs. almond paste",
+      "originalText": "10 ozs. almond paste",
+      "quantity": 10.0,
+      "quantityText": "10",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ozs. confectioners' sugar",
+      "originalText": "5 ozs. confectioners' sugar",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White 1 egg",
+      "originalText": "White 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon cinnamon",
+      "originalText": "½ teaspoon cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix same as Macaroons.",
+      "section": null
+    },
+    {
+      "text": "Dredge a board with sugar, knead mixture slightly, and shape in a long roll.",
+      "section": null
+    },
+    {
+      "text": "Pat, and roll one-fourth inch thick, using a rolling-pin.",
+      "section": null
+    },
+    {
+      "text": "After rolling the piece should be four inches wide.",
+      "section": null
+    },
+    {
+      "text": "Spread with frosting made of white of one egg and two-thirds cup confectioners' sugar beaten together until stiff enough to spread.",
+      "section": null
+    },
+    {
+      "text": "Cut in strips four inches long by three-fourths inch wide.",
+      "section": null
+    },
+    {
+      "text": "This must be quickly done, as a crust soon forms over frosting.",
+      "section": null
+    },
+    {
+      "text": "To accomplish this, use two knives, one placed through mixture where dividing line is to be made, and the other used to make a clean sharp cut on both sides of first knife.",
+      "section": null
+    },
+    {
+      "text": "Knives should be kept clean by wiping on a damp cloth.",
+      "section": null
+    },
+    {
+      "text": "Remove strips as soon as cut, to a tin sheet, greased with lard and then floured.",
+      "section": null
+    },
+    {
+      "text": "Bake twenty minutes on centre grate in a slow oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cinnamon-bars.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix same as Macaroons.\n2. Dredge a board with sugar, knead mixture slightly, and shape in a long roll.\n3. Pat, and roll one-fourth inch thick, using a rolling-pin.\n4. After rolling the piece should be four inches wide.\n5. Spread with frosting made of white of one egg and two-thirds cup confectioners' sugar beaten together until stiff enough to spread.\n6. Cut in strips four inches long by three-fourths inch wide.\n7. This must be quickly done, as a crust soon forms over frosting.\n8. To accomplish this, use two knives, one placed through mixture where dividing line is to be made, and the other used to make a clean sharp cut on both sides of first knife.\n9. Knives should be kept clean by wiping on a damp cloth.\n10. Remove strips as soon as cut, to a tin sheet, greased with lard and then floured.\n11. Bake twenty minutes on centre grate in a slow oven.",
+    "originalIngredients": [
+      "10 ozs. almond paste",
+      "5 ozs. confectioners' sugar",
+      "White 1 egg",
+      "½ teaspoon cinnamon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

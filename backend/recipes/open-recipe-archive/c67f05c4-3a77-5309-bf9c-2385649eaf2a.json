@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "c67f05c4-3a77-5309-bf9c-2385649eaf2a",
+  "name": "Spring Vegetable Soup",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "green peas",
+      "originalText": "half pint green peas",
+      "quantity": 0.5,
+      "quantityText": "half",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "shredded lettuces",
+      "originalText": "two shredded lettuces",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "one onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small bunch of parsley",
+      "originalText": "a small bunch of parsley",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two ounces butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the yolks of three eggs",
+      "originalText": "the yolks of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "one pint of water",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and a half quarts of soup stock",
+      "originalText": "one and a half quarts of soup stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put in a stewpan the lettuce, onion, parsley and butter, with one pint of water, and let them simmer till tender.",
+      "section": null
+    },
+    {
+      "text": "Season with salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "When done, strain off the vegetables, and put two-thirds of the liquor with the stock.",
+      "section": null
+    },
+    {
+      "text": "Beat up the yolks of the eggs with the other third, toss it over the fire.",
+      "section": null
+    },
+    {
+      "text": "At the moment of serving add this with the vegetables to the strained-off soup.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/spring-vegetable-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put in a stewpan the lettuce, onion, parsley and butter, with one pint of water, and let them simmer till tender.\n2. Season with salt and pepper.\n3. When done, strain off the vegetables, and put two-thirds of the liquor with the stock.\n4. Beat up the yolks of the eggs with the other third, toss it over the fire.\n5. At the moment of serving add this with the vegetables to the strained-off soup.",
+    "originalIngredients": [
+      "half pint green peas",
+      "two shredded lettuces",
+      "one onion",
+      "a small bunch of parsley",
+      "two ounces butter",
+      "the yolks of three eggs",
+      "one pint of water",
+      "one and a half quarts of soup stock"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

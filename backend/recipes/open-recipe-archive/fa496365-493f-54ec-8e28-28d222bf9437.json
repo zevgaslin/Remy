@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "fa496365-493f-54ec-8e28-28d222bf9437",
+  "name": "Vienna Bread",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk, scalded",
+      "originalText": "1 cup milk, scalded",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "1 cup hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast cake",
+      "originalText": "1 yeast cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour to knead (about 4 cups)",
+      "originalText": "Flour to knead (about 4 cups)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In three tablespoons milk and water dissolve the yeast thoroughly and add to remaining milk and water.",
+      "section": null
+    },
+    {
+      "text": "Add salt and sufficient flour (warmed) to make a light dough (about four cups).",
+      "section": null
+    },
+    {
+      "text": "Turn out and knead until thoroughly smooth and does not stick to the hands.",
+      "section": null
+    },
+    {
+      "text": "Put in a greased basin, cover, and stand in a warm place to rise, for three hours.",
+      "section": null
+    },
+    {
+      "text": "When risen, turn out and cut into small rolls, knead each roll a little and put in a greased tin.",
+      "section": null
+    },
+    {
+      "text": "Grease over tops with melted butter, cover and stand in a warm place till twice their original size.",
+      "section": null
+    },
+    {
+      "text": "Grease again and bake in a hot oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/vienna-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. In three tablespoons milk and water dissolve the yeast thoroughly and add to remaining milk and water.\n2. Add salt and sufficient flour (warmed) to make a light dough (about four cups).\n3. Turn out and knead until thoroughly smooth and does not stick to the hands.\n4. Put in a greased basin, cover, and stand in a warm place to rise, for three hours.\n5. When risen, turn out and cut into small rolls, knead each roll a little and put in a greased tin.\n6. Grease over tops with melted butter, cover and stand in a warm place till twice their original size.\n7. Grease again and bake in a hot oven.",
+    "originalIngredients": [
+      "1 cup milk, scalded",
+      "1 cup hot water",
+      "1 yeast cake",
+      "1 teaspoonful salt",
+      "Flour to knead (about 4 cups)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ec43b0d2-11ab-54f7-abd6-81486e92f2bd",
+  "name": "Steamed Rice",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rice",
+      "originalText": "1 cup rice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2¾ to 3¼ cups boiling water (according to age of rice)",
+      "originalText": "2¾ to 3¼ cups boiling water (according to age of rice)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put salt and water in top of double boiler, place on range, and add gradually well-washed rice, stirring with a fork to prevent adhering to boiler.",
+      "section": null
+    },
+    {
+      "text": "Boil five minutes, cover, place over under part double boiler, and steam forty-five minutes, or until kernels are soft; uncover, that steam may escape.",
+      "section": null
+    },
+    {
+      "text": "When rice is steamed for a simple dessert, use one-half quantity of water given in recipe, and steam until rice has absorbed water; then add scalded milk for remaining liquid.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/steamed-rice-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put salt and water in top of double boiler, place on range, and add gradually well-washed rice, stirring with a fork to prevent adhering to boiler.\n2. Boil five minutes, cover, place over under part double boiler, and steam forty-five minutes, or until kernels are soft; uncover, that steam may escape.\n3. When rice is steamed for a simple dessert, use one-half quantity of water given in recipe, and steam until rice has absorbed water; then add scalded milk for remaining liquid.",
+    "originalIngredients": [
+      "1 cup rice",
+      "1 teaspoon salt",
+      "2¾ to 3¼ cups boiling water (according to age of rice)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

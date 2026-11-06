@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "5fe16c72-17c4-52f0-9b04-9a06c0f5554d",
+  "name": "Washington Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1 pound butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 pound sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 pound flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "6 eggs",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 pint rich milk or cream",
+      "originalText": "1 pint rich milk or cream",
+      "quantity": null,
+      "quantityText": "1 pint rich milk or cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass wine",
+      "originalText": "1 glass wine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass brandy",
+      "originalText": "1 glass brandy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered nutmeg",
+      "originalText": "1 powdered nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "1 table-spoonful powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 small tea-spoonful soda or sal-aratus",
+      "originalText": "1 small tea-spoonful soda or sal-aratus",
+      "quantity": null,
+      "quantityText": "1 small tea-spoonful soda or sal-aratus",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir together a pound of butter and a pound of sugar",
+      "section": null
+    },
+    {
+      "text": "Sift into another pan a pound of flour",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs very light, and stir them into the butter and sugar, alternately with the flour and a pint of rich milk or cream",
+      "section": null
+    },
+    {
+      "text": "Add a glass of wine, a glass of brandy, a powdered nutmeg, and a table-spoonful of powdered cinnamon",
+      "section": null
+    },
+    {
+      "text": "Stir in a small tea-spoonful of soda, or sal-aratus, that has been melted in tepid water",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard; put it into a buttered tin pan",
+      "section": null
+    },
+    {
+      "text": "Bake it in a brisk oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/washington-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir together a pound of butter and a pound of sugar\n2. Sift into another pan a pound of flour\n3. Beat six eggs very light, and stir them into the butter and sugar, alternately with the flour and a pint of rich milk or cream\n4. Add a glass of wine, a glass of brandy, a powdered nutmeg, and a table-spoonful of powdered cinnamon\n5. Stir in a small tea-spoonful of soda, or sal-aratus, that has been melted in tepid water\n6. Stir the whole very hard; put it into a buttered tin pan\n7. Bake it in a brisk oven",
+    "originalIngredients": [
+      "1 pound butter",
+      "1 pound sugar",
+      "1 pound flour",
+      "6 eggs",
+      "1 pint rich milk or cream",
+      "1 glass wine",
+      "1 glass brandy",
+      "1 powdered nutmeg",
+      "1 table-spoonful powdered cinnamon",
+      "1 small tea-spoonful soda or sal-aratus"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

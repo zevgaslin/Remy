@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "e0d5451a-9424-503a-9aca-3628dc69a6b0",
+  "name": "Honey Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "strained honey",
+      "originalText": "one quart of strained honey",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "half a pound of fresh butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of pearl-ash dissolved in a little sour milk",
+      "originalText": "a small tea-spoonful of pearl-ash dissolved in a little sour milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "sifted flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a quart of strained honey and half a pound of fresh butter",
+      "section": null
+    },
+    {
+      "text": "Add a small tea-spoonful of pearl-ash dissolved in a little sour milk",
+      "section": null
+    },
+    {
+      "text": "Add by degrees as much sifted flour as will make a stiff paste",
+      "section": null
+    },
+    {
+      "text": "Work the whole well together",
+      "section": null
+    },
+    {
+      "text": "Roll it out about half an inch thick",
+      "section": null
+    },
+    {
+      "text": "Cut it into cakes with the edge of a tumbler or with a tin cake-cutter",
+      "section": null
+    },
+    {
+      "text": "Lay them on buttered tins",
+      "section": null
+    },
+    {
+      "text": "Bake them with rather a brisk fire, but see that they do not burn",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/honey-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a quart of strained honey and half a pound of fresh butter\n2. Add a small tea-spoonful of pearl-ash dissolved in a little sour milk\n3. Add by degrees as much sifted flour as will make a stiff paste\n4. Work the whole well together\n5. Roll it out about half an inch thick\n6. Cut it into cakes with the edge of a tumbler or with a tin cake-cutter\n7. Lay them on buttered tins\n8. Bake them with rather a brisk fire, but see that they do not burn",
+    "originalIngredients": [
+      "one quart of strained honey",
+      "half a pound of fresh butter",
+      "a small tea-spoonful of pearl-ash dissolved in a little sour milk",
+      "sifted flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

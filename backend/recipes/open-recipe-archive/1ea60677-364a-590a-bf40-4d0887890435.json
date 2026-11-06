@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "1ea60677-364a-590a-bf40-4d0887890435",
+  "name": "Orange Pie",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "juice and grated yellow rind of 1 orange",
+      "originalText": "juice and grated yellow rind of 1 orange",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cupful sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoonful flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cupful milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful salt",
+      "originalText": "1 saltspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the yolks and the sugar together.",
+      "section": null
+    },
+    {
+      "text": "Add the flour, the milk, and the grated rind and juice of the orange.",
+      "section": null
+    },
+    {
+      "text": "Place it on the fire in a double boiler, and stir until it is a little thickened.",
+      "section": null
+    },
+    {
+      "text": "Pour it into an open or tart pie, and bake thirty minutes.",
+      "section": null
+    },
+    {
+      "text": "The crust of the pie should be brushed with white of egg before adding the thickened mixture.",
+      "section": null
+    },
+    {
+      "text": "Cover the top with meringue made with the whites of the eggs and sweetened with three tablespoonfuls of sugar.",
+      "section": null
+    },
+    {
+      "text": "Pile it on irregularly, or press it through a pastry-bag into fancy shapes.",
+      "section": null
+    },
+    {
+      "text": "Place it in the oven a moment to brown.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/orange-pie-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the yolks and the sugar together.\n2. Add the flour, the milk, and the grated rind and juice of the orange.\n3. Place it on the fire in a double boiler, and stir until it is a little thickened.\n4. Pour it into an open or tart pie, and bake thirty minutes.\n5. The crust of the pie should be brushed with white of egg before adding the thickened mixture.\n6. Cover the top with meringue made with the whites of the eggs and sweetened with three tablespoonfuls of sugar.\n7. Pile it on irregularly, or press it through a pastry-bag into fancy shapes.\n8. Place it in the oven a moment to brown.",
+    "originalIngredients": [
+      "juice and grated yellow rind of 1 orange",
+      "1 cupful sugar",
+      "1 tablespoonful flour",
+      "1 cupful milk",
+      "1 saltspoonful salt",
+      "3 eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

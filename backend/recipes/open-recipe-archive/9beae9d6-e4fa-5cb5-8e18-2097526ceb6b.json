@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "id": "9beae9d6-e4fa-5cb5-8e18-2097526ceb6b",
+  "name": "Fruit Cake by Measure",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "scant teacupfuls of butter",
+      "originalText": "Two scant teacupfuls of butter",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dark brown sugar",
+      "originalText": "three cupfuls of dark brown sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, whites and yolks beaten separately",
+      "originalText": "six eggs, whites and yolks beaten separately",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins, seeded",
+      "originalText": "one pound of raisins, seeded",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants, washed and dried",
+      "originalText": "one pound of currants, washed and dried",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron cut in thin strips",
+      "originalText": "half a pound of citron cut in thin strips",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cooking molasses",
+      "originalText": "half a cupful of cooking molasses",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour milk",
+      "originalText": "half a cupful of sour milk",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "half a grated nutmeg",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ground cinnamon",
+      "originalText": "one tablespoonful of ground cinnamon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "one teaspoonful of cloves",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace",
+      "originalText": "one teaspoonful of mace",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine-glass of brandy",
+      "originalText": "a wine-glass of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "four cupfuls of sifted flour",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level teaspoonful of soda",
+      "originalText": "one level teaspoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir the butter and sugar to a cream",
+      "section": null
+    },
+    {
+      "text": "add to that half a grated nutmeg, one tablespoonful of ground cinnamon, one teaspoonful of cloves, one teaspoonful of mace",
+      "section": null
+    },
+    {
+      "text": "add the molasses and sour milk",
+      "section": null
+    },
+    {
+      "text": "Stir all well; then put in the beaten yolks of eggs, a wine-glass of brandy",
+      "section": null
+    },
+    {
+      "text": "stir again all thoroughly, and then add four cupfuls of sifted flour alternately with the beaten whites of eggs",
+      "section": null
+    },
+    {
+      "text": "Dissolve a level teaspoonful of soda and stir in thoroughly",
+      "section": null
+    },
+    {
+      "text": "Mix the fruit together and stir into it two heaping tablespoonfuls of flour",
+      "section": null
+    },
+    {
+      "text": "stir it in the cake",
+      "section": null
+    },
+    {
+      "text": "Butter two common-sized baking tins carefully, line them with letter paper well buttered",
+      "section": null
+    },
+    {
+      "text": "bake in a moderate oven two hours",
+      "section": null
+    },
+    {
+      "text": "After it is baked, let it cool in the pan",
+      "section": null
+    },
+    {
+      "text": "Afterward put it into a tight can, or let it remain in the pans and cover tightly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fruit-cake-by-measure.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir the butter and sugar to a cream\n2. add to that half a grated nutmeg, one tablespoonful of ground cinnamon, one teaspoonful of cloves, one teaspoonful of mace\n3. add the molasses and sour milk\n4. Stir all well; then put in the beaten yolks of eggs, a wine-glass of brandy\n5. stir again all thoroughly, and then add four cupfuls of sifted flour alternately with the beaten whites of eggs\n6. Dissolve a level teaspoonful of soda and stir in thoroughly\n7. Mix the fruit together and stir into it two heaping tablespoonfuls of flour\n8. stir it in the cake\n9. Butter two common-sized baking tins carefully, line them with letter paper well buttered\n10. bake in a moderate oven two hours\n11. After it is baked, let it cool in the pan\n12. Afterward put it into a tight can, or let it remain in the pans and cover tightly",
+    "originalIngredients": [
+      "Two scant teacupfuls of butter",
+      "three cupfuls of dark brown sugar",
+      "six eggs, whites and yolks beaten separately",
+      "one pound of raisins, seeded",
+      "one pound of currants, washed and dried",
+      "half a pound of citron cut in thin strips",
+      "half a cupful of cooking molasses",
+      "half a cupful of sour milk",
+      "half a grated nutmeg",
+      "one tablespoonful of ground cinnamon",
+      "one teaspoonful of cloves",
+      "one teaspoonful of mace",
+      "a wine-glass of brandy",
+      "four cupfuls of sifted flour",
+      "one level teaspoonful of soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "167ecce2-8125-59e3-84a7-907388ef9d0f",
+  "name": "Queen of Puddings 2",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bread crumbs",
+      "originalText": "4 cups bread crumbs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "4 cups milk",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs yolks",
+      "originalText": "4 eggs yolks",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 teaspoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon grated rind only",
+      "originalText": "1 lemon grated rind only",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jelly",
+      "originalText": "jelly",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs whites",
+      "originalText": "4 eggs whites",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "1 lemon juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3/4 cup sugar",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak bread crumbs in milk until soft",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs, sugar and a little salt together",
+      "section": null
+    },
+    {
+      "text": "Add to the bread and milk with the butter and lemon",
+      "section": null
+    },
+    {
+      "text": "Mix thoroughly",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven, but do not let it get watery",
+      "section": null
+    },
+    {
+      "text": "After it is cooked spread with jelly",
+      "section": null
+    },
+    {
+      "text": "Frost with whites of eggs, lemon juice and sugar mixed together and whipped until light",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/queen-of-puddings-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak bread crumbs in milk until soft\n2. Beat the eggs, sugar and a little salt together\n3. Add to the bread and milk with the butter and lemon\n4. Mix thoroughly\n5. Bake in a quick oven, but do not let it get watery\n6. After it is cooked spread with jelly\n7. Frost with whites of eggs, lemon juice and sugar mixed together and whipped until light",
+    "originalIngredients": [
+      "4 cups bread crumbs",
+      "4 cups milk",
+      "4 eggs yolks",
+      "1 teaspoon butter",
+      "1 lemon grated rind only",
+      "1 cup sugar",
+      "jelly",
+      "4 eggs whites",
+      "1 lemon juice",
+      "3/4 cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

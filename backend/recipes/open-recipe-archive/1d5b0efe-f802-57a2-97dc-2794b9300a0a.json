@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "1d5b0efe-f802-57a2-97dc-2794b9300a0a",
+  "name": "A Charlotte Russe",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "half a pint of milk",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "split vanilla bean",
+      "originalText": "one split vanilla bean",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of four eggs",
+      "originalText": "yolks of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of powdered loaf-sugar",
+      "originalText": "a quarter of a pound of powdered loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Russian isinglass",
+      "originalText": "an ounce of Russian isinglass",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "a pint of water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich cream",
+      "originalText": "a quart of rich cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "almond sponge-cake",
+      "originalText": "an almond sponge-cake",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of egg",
+      "originalText": "white of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pounded ice",
+      "originalText": "pounded ice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coarse salt",
+      "originalText": "coarse salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten white of egg",
+      "originalText": "beaten white of egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "essence of lemon",
+      "originalText": "essence of lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil in half a pint of milk a split vanilla bean, till all the flavour is extracted.",
+      "section": null
+    },
+    {
+      "text": "Strain the milk, and when it is cold stir into it the yolks of four beaten eggs, and a quarter of a pound of powdered loaf-sugar.",
+      "section": null
+    },
+    {
+      "text": "Simmer this custard five minutes over hot coals, but do not let it come to a boil.",
+      "section": null
+    },
+    {
+      "text": "Set it away to cool.",
+      "section": null
+    },
+    {
+      "text": "Boil an ounce of the best Russian isinglass in a pint of water till it is entirely dissolved and the water reduced to one-half.",
+      "section": null
+    },
+    {
+      "text": "Strain it into the custard, stir it hard, and set it aside to get quite cold.",
+      "section": null
+    },
+    {
+      "text": "Whip to a stiff froth a quart of rich cream, taking it off in spoonfuls as you do it, and putting it to drain on an inverted sieve.",
+      "section": null
+    },
+    {
+      "text": "When the custard is quite cold, (but not yet set or congealing,) stir the whipt cream gradually into it.",
+      "section": null
+    },
+    {
+      "text": "Take a circular mould of the shape of a drum, the sides being straight.",
+      "section": null
+    },
+    {
+      "text": "Cut to fit it two round slices from the top and bottom of an almond sponge-cake; glaze them with white of egg, and lay one on at the bottom of the mould.",
+      "section": null
+    },
+    {
+      "text": "Line the sides of the mould with more of the sponge-cake, cut into long squares and glazed all over with white of egg, placing them so as to stand up all round with each wrapping a little over the other.",
+      "section": null
+    },
+    {
+      "text": "Cut them exactly the height of the mould, and trim evenly.",
+      "section": null
+    },
+    {
+      "text": "Fill up with the custard and cream when it is just beginning to congeal; and cover the top with the other round slice of cake.",
+      "section": null
+    },
+    {
+      "text": "Set the mould in a tub of pounded ice mixed with coarse salt; and let it remain forty minutes, or near an hour.",
+      "section": null
+    },
+    {
+      "text": "Turn out the Charlotte on a china dish.",
+      "section": null
+    },
+    {
+      "text": "Make an icing in the usual manner of beaten white of egg and powdered sugar, flavoured with essence of lemon.",
+      "section": null
+    },
+    {
+      "text": "Spread it smoothly over the top of the Charlotte.",
+      "section": null
+    },
+    {
+      "text": "When the icing is dry it will be ready to serve.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-charlotte-russe.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil in half a pint of milk a split vanilla bean, till all the flavour is extracted.\n2. Strain the milk, and when it is cold stir into it the yolks of four beaten eggs, and a quarter of a pound of powdered loaf-sugar.\n3. Simmer this custard five minutes over hot coals, but do not let it come to a boil.\n4. Set it away to cool.\n5. Boil an ounce of the best Russian isinglass in a pint of water till it is entirely dissolved and the water reduced to one-half.\n6. Strain it into the custard, stir it hard, and set it aside to get quite cold.\n7. Whip to a stiff froth a quart of rich cream, taking it off in spoonfuls as you do it, and putting it to drain on an inverted sieve.\n8. When the custard is quite cold, (but not yet set or congealing,) stir the whipt cream gradually into it.\n9. Take a circular mould of the shape of a drum, the sides being straight.\n10. Cut to fit it two round slices from the top and bottom of an almond sponge-cake; glaze them with white of egg, and lay one on at the bottom of the mould.\n11. Line the sides of the mould with more of the sponge-cake, cut into long squares and glazed all over with white of egg, placing them so as to stand up all round with each wrapping a little over the other.\n12. Cut them exactly the height of the mould, and trim evenly.\n13. Fill up with the custard and cream when it is just beginning to congeal; and cover the top with the other round slice of cake.\n14. Set the mould in a tub of pounded ice mixed with coarse salt; and let it remain forty minutes, or near an hour.\n15. Turn out the Charlotte on a china dish.\n16. Make an icing in the usual manner of beaten white of egg and powdered sugar, flavoured with essence of lemon.\n17. Spread it smoothly over the top of the Charlotte.\n18. When the icing is dry it will be ready to serve.",
+    "originalIngredients": [
+      "half a pint of milk",
+      "one split vanilla bean",
+      "yolks of four eggs",
+      "a quarter of a pound of powdered loaf-sugar",
+      "an ounce of Russian isinglass",
+      "a pint of water",
+      "a quart of rich cream",
+      "an almond sponge-cake",
+      "white of egg",
+      "pounded ice",
+      "coarse salt",
+      "beaten white of egg",
+      "powdered sugar",
+      "essence of lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

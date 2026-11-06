@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "16b069f8-8aa6-5a92-84c4-a2c899c4199e",
+  "name": "Cocoanut Jumbles",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large cupful of cocoanut",
+      "originalText": "one large cupful of cocoanut",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one cupful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and a half cupfuls of sugar",
+      "originalText": "one and a half cupfuls of sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "three eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "two tablespoonfuls of milk",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "five cupfuls of sifted flour",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate one large cupful of cocoanut",
+      "section": null
+    },
+    {
+      "text": "Rub one cupful of butter with one and a half cupfuls of sugar",
+      "section": null
+    },
+    {
+      "text": "Add three beaten eggs, whites and yolks separately, two tablespoonfuls of milk and five cupfuls of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Add by degrees the grated nut, so as to make a stiff dough",
+      "section": null
+    },
+    {
+      "text": "Roll thin and cut with a round cutter, having a hole in the middle",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven from five to ten minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cocoanut-jumbles.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate one large cupful of cocoanut\n2. Rub one cupful of butter with one and a half cupfuls of sugar\n3. Add three beaten eggs, whites and yolks separately, two tablespoonfuls of milk and five cupfuls of sifted flour\n4. Add by degrees the grated nut, so as to make a stiff dough\n5. Roll thin and cut with a round cutter, having a hole in the middle\n6. Bake in a quick oven from five to ten minutes",
+    "originalIngredients": [
+      "one large cupful of cocoanut",
+      "one cupful of butter",
+      "one and a half cupfuls of sugar",
+      "three eggs",
+      "two tablespoonfuls of milk",
+      "five cupfuls of sifted flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

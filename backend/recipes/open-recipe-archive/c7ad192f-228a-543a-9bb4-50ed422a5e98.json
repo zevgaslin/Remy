@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "c7ad192f-228a-543a-9bb4-50ed422a5e98",
+  "name": "Coffee Cream",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "raw coffee",
+      "originalText": "two gills raw coffee",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "gills",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich, perfectly sweet milk",
+      "originalText": "one quart rich, perfectly sweet milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg yelks",
+      "originalText": "eight egg yelks",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Toast two gills of raw coffee till it is a light brown, and not a grain burnt",
+      "section": null
+    },
+    {
+      "text": "Put it hot from the toaster without grinding it, into a quart of rich, and perfectly sweet milk",
+      "section": null
+    },
+    {
+      "text": "Boil it, and add the yelks of eight eggs",
+      "section": null
+    },
+    {
+      "text": "When done, strain it through a sieve, and sweeten it",
+      "section": null
+    },
+    {
+      "text": "If properly done, it will not be discoloured",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/coffee-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Toast two gills of raw coffee till it is a light brown, and not a grain burnt\n2. Put it hot from the toaster without grinding it, into a quart of rich, and perfectly sweet milk\n3. Boil it, and add the yelks of eight eggs\n4. When done, strain it through a sieve, and sweeten it\n5. If properly done, it will not be discoloured",
+    "originalIngredients": [
+      "two gills raw coffee",
+      "one quart rich, perfectly sweet milk",
+      "eight egg yelks"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

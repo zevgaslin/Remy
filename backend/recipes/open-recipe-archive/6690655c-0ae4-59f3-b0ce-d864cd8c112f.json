@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "6690655c-0ae4-59f3-b0ce-d864cd8c112f",
+  "name": "Currant Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "new milk",
+      "originalText": "1 cup new milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cakes",
+      "originalText": "2 White Swan Yeast Cakes",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "1 cup brown sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "1 cup currants",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "2 well-beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little nutmeg",
+      "originalText": "a little nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald 1 cup new milk and let it cool",
+      "section": null
+    },
+    {
+      "text": "Add 2 White Swan Yeast Cakes and flour enough to make soft batter",
+      "section": null
+    },
+    {
+      "text": "Set in a warm place to rise until light",
+      "section": null
+    },
+    {
+      "text": "Add 1 cup brown sugar, half a cup butter, 1 cup currants, 2 well-beaten eggs, and a little nutmeg",
+      "section": null
+    },
+    {
+      "text": "Add flour enough to knead soft",
+      "section": null
+    },
+    {
+      "text": "Let rise again",
+      "section": null
+    },
+    {
+      "text": "Tuck into tins and set in a warm place",
+      "section": null
+    },
+    {
+      "text": "Let rise about 2 hours",
+      "section": null
+    },
+    {
+      "text": "Bake in a moderate oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/currant-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald 1 cup new milk and let it cool\n2. Add 2 White Swan Yeast Cakes and flour enough to make soft batter\n3. Set in a warm place to rise until light\n4. Add 1 cup brown sugar, half a cup butter, 1 cup currants, 2 well-beaten eggs, and a little nutmeg\n5. Add flour enough to knead soft\n6. Let rise again\n7. Tuck into tins and set in a warm place\n8. Let rise about 2 hours\n9. Bake in a moderate oven",
+    "originalIngredients": [
+      "1 cup new milk",
+      "2 White Swan Yeast Cakes",
+      "flour",
+      "1 cup brown sugar",
+      "1/2 cup butter",
+      "1 cup currants",
+      "2 well-beaten eggs",
+      "a little nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "1cbebc40-b03d-514f-acfd-e3c2cb01bcbb",
+  "name": "Fish Left Over",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "minced onion",
+      "originalText": "one teaspoonful of minced onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one teaspoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level tablespoonful of flour",
+      "originalText": "one level tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot stewed tomatoes",
+      "originalText": "one cup of hot stewed tomatoes",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "part cold boiled fish",
+      "originalText": "one part cold boiled fish",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "part macaroni",
+      "originalText": "one part macaroni",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-quarter cup of cheese",
+      "originalText": "one-quarter cup of cheese",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold egg",
+      "originalText": "one cold egg",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-quarter cup of fine cracker crumbs",
+      "originalText": "one-quarter cup of fine cracker crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-third cup of melted butter",
+      "originalText": "one-third cup of melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook minced onion in butter until yellow",
+      "section": null
+    },
+    {
+      "text": "Add flour and when well mixed and bubbling, stir it into a cup of hot stewed tomatoes",
+      "section": null
+    },
+    {
+      "text": "When it has cooked a little and is thick, season to taste",
+      "section": null
+    },
+    {
+      "text": "Take one part each of cold boiled fish and macaroni with one-quarter cup of cheese",
+      "section": null
+    },
+    {
+      "text": "Cut into small bits one cold egg",
+      "section": null
+    },
+    {
+      "text": "Strain the tomato sauce over them and one-quarter cup of fine cracker crumbs, moistened in one-third cup of melted butter on the top",
+      "section": null
+    },
+    {
+      "text": "Bake till brown",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/fish-left-over.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook minced onion in butter until yellow\n2. Add flour and when well mixed and bubbling, stir it into a cup of hot stewed tomatoes\n3. When it has cooked a little and is thick, season to taste\n4. Take one part each of cold boiled fish and macaroni with one-quarter cup of cheese\n5. Cut into small bits one cold egg\n6. Strain the tomato sauce over them and one-quarter cup of fine cracker crumbs, moistened in one-third cup of melted butter on the top\n7. Bake till brown",
+    "originalIngredients": [
+      "one teaspoonful of minced onion",
+      "one teaspoonful of butter",
+      "one level tablespoonful of flour",
+      "one cup of hot stewed tomatoes",
+      "one part cold boiled fish",
+      "one part macaroni",
+      "one-quarter cup of cheese",
+      "one cold egg",
+      "one-quarter cup of fine cracker crumbs",
+      "one-third cup of melted butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

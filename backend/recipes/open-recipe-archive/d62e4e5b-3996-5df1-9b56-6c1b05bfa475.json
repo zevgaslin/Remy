@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "d62e4e5b-3996-5df1-9b56-6c1b05bfa475",
+  "name": "Ribbon Cake",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "2 cups sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup butter",
+      "originalText": "½ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 cups flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "A pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1 teaspoonful saleratus or 3 of baking powder",
+      "originalText": "1 teaspoonful saleratus or 3 of baking powder",
+      "quantity": null,
+      "quantityText": "1 teaspoonful saleratus or 3 of baking powder",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flavor with lemon or almond",
+      "originalText": "Flavor with lemon or almond",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "one tablespoon of molasses",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup of raisins stoned and chopped",
+      "originalText": "one large cup of raisins stoned and chopped",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "one teaspoon of cinnamon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "each of cloves and allspice",
+      "originalText": "half a teaspoon each of cloves and allspice",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonful of flour",
+      "originalText": "one spoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jelly or raspberry jam",
+      "originalText": "jelly or raspberry jam",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put half the above in two oblong pans",
+      "section": null
+    },
+    {
+      "text": "To the remainder add one tablespoon of molasses, one large cup of raisins stoned and chopped, one teaspoon of cinnamon, half a teaspoon each of cloves and allspice, grate in a little nutmeg, then add one spoonful of flour",
+      "section": null
+    },
+    {
+      "text": "Put into two pans of the same size and shape as those above",
+      "section": null
+    },
+    {
+      "text": "Put the sheets together while warm, alternately, with a little jelly or raspberry jam between",
+      "section": null
+    },
+    {
+      "text": "Cut in thin slices for the table",
+      "section": null
+    },
+    {
+      "text": "It will cut most easily the day after it is baked",
+      "section": null
+    },
+    {
+      "text": "It may be baked in one large pan without the fruit, pouring in the dark and light in alternate layers",
+      "section": null
+    },
+    {
+      "text": "When baked thus it is a handsome marble cake",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/ribbon-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put half the above in two oblong pans\n2. To the remainder add one tablespoon of molasses, one large cup of raisins stoned and chopped, one teaspoon of cinnamon, half a teaspoon each of cloves and allspice, grate in a little nutmeg, then add one spoonful of flour\n3. Put into two pans of the same size and shape as those above\n4. Put the sheets together while warm, alternately, with a little jelly or raspberry jam between\n5. Cut in thin slices for the table\n6. It will cut most easily the day after it is baked\n7. It may be baked in one large pan without the fruit, pouring in the dark and light in alternate layers\n8. When baked thus it is a handsome marble cake",
+    "originalIngredients": [
+      "2 cups sugar",
+      "3 eggs",
+      "½ cup butter",
+      "1 cup milk",
+      "3 cups flour",
+      "A pinch of salt",
+      "1 teaspoonful saleratus or 3 of baking powder",
+      "Flavor with lemon or almond",
+      "one tablespoon of molasses",
+      "one large cup of raisins stoned and chopped",
+      "one teaspoon of cinnamon",
+      "half a teaspoon each of cloves and allspice",
+      "nutmeg",
+      "one spoonful of flour",
+      "jelly or raspberry jam"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

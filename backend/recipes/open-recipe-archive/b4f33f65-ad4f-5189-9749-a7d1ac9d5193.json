@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "b4f33f65-ad4f-5189-9749-a7d1ac9d5193",
+  "name": "Pine-Apple Ice-Cream",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "cream",
+      "originalText": "1 quart of cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large ripe pine-apple",
+      "originalText": "1 large ripe pine-apple",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "1 lb. powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Slice the pine-apple thin, and scatter the sugar between the slices",
+      "section": null
+    },
+    {
+      "text": "Cover it, and let the fruit steep three hours",
+      "section": null
+    },
+    {
+      "text": "Then cut, or chop it up in the syrup, and strain it through a hair sieve or bag of double coarse lace",
+      "section": null
+    },
+    {
+      "text": "Beat gradually into the cream, and freeze as rapidly as possible",
+      "section": null
+    },
+    {
+      "text": "You may, if you like, reserve a few pieces of pine-apple, unsugared, cut into square bits, and stir them through the cream when half frozen",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pine-apple-ice-cream-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Slice the pine-apple thin, and scatter the sugar between the slices\n2. Cover it, and let the fruit steep three hours\n3. Then cut, or chop it up in the syrup, and strain it through a hair sieve or bag of double coarse lace\n4. Beat gradually into the cream, and freeze as rapidly as possible\n5. You may, if you like, reserve a few pieces of pine-apple, unsugared, cut into square bits, and stir them through the cream when half frozen",
+    "originalIngredients": [
+      "1 quart of cream",
+      "1 large ripe pine-apple",
+      "1 lb. powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

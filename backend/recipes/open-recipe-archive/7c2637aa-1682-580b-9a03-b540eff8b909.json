@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "7c2637aa-1682-580b-9a03-b540eff8b909",
+  "name": "Bath Buns",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "saffron",
+      "originalText": "saffron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "half a pound of fresh butter",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "a pound of sifted flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large wine glass of yeast",
+      "originalText": "a large wine glass of yeast",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of powdered and sifted loaf-sugar",
+      "originalText": "a quarter of a pound of powdered and sifted loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two or three spoonfuls of carraway seeds",
+      "originalText": "two or three spoonfuls of carraway seeds",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carraway comfits",
+      "originalText": "carraway comfits",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil a little saffron in sufficient water to cover it, till the liquid is of a bright yellow",
+      "section": null
+    },
+    {
+      "text": "Strain it, and set it to cool",
+      "section": null
+    },
+    {
+      "text": "Rub half a pound of fresh butter into a pound of sifted flour, and make it into a paste with four eggs that have been well beaten, and a large wine glass of the best and strongest yeast",
+      "section": null
+    },
+    {
+      "text": "Add the infusion of saffron to colour it yellow",
+      "section": null
+    },
+    {
+      "text": "Put the dough into a pan, cover it with a cloth, and set it before the fire to rise",
+      "section": null
+    },
+    {
+      "text": "When it is quite light, mix into it a quarter of a pound of powdered and sifted loaf-sugar; a grated nutmeg; and, if you choose, two or three spoonfuls of carraway seeds",
+      "section": null
+    },
+    {
+      "text": "Roll out the dough into a thick sheet, and divide it into round cakes with a cutter",
+      "section": null
+    },
+    {
+      "text": "Strew the top of each bun with carraway comfits, and bake them on flat tins buttered well",
+      "section": null
+    },
+    {
+      "text": "They should be eaten the day they are baked",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bath-buns.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil a little saffron in sufficient water to cover it, till the liquid is of a bright yellow\n2. Strain it, and set it to cool\n3. Rub half a pound of fresh butter into a pound of sifted flour, and make it into a paste with four eggs that have been well beaten, and a large wine glass of the best and strongest yeast\n4. Add the infusion of saffron to colour it yellow\n5. Put the dough into a pan, cover it with a cloth, and set it before the fire to rise\n6. When it is quite light, mix into it a quarter of a pound of powdered and sifted loaf-sugar; a grated nutmeg; and, if you choose, two or three spoonfuls of carraway seeds\n7. Roll out the dough into a thick sheet, and divide it into round cakes with a cutter\n8. Strew the top of each bun with carraway comfits, and bake them on flat tins buttered well\n9. They should be eaten the day they are baked",
+    "originalIngredients": [
+      "saffron",
+      "water",
+      "half a pound of fresh butter",
+      "a pound of sifted flour",
+      "four eggs",
+      "a large wine glass of yeast",
+      "a quarter of a pound of powdered and sifted loaf-sugar",
+      "a grated nutmeg",
+      "two or three spoonfuls of carraway seeds",
+      "carraway comfits"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

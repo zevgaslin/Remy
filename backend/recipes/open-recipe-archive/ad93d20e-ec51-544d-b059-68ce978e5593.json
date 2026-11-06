@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "ad93d20e-ec51-544d-b059-68ce978e5593",
+  "name": "Cocoa Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "brown sugar",
+      "originalText": "2 cups brown sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs well-beaten",
+      "originalText": "2 eggs well-beaten",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour milk",
+      "originalText": "1/2 cup sour milk",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1/2 teaspoon soda",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "3 1/2 cups sifted flour",
+      "quantity": 3.5,
+      "quantityText": "3 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "1 teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cocoa",
+      "originalText": "1 1/4 cup cocoa",
+      "quantity": 1.25,
+      "quantityText": "1 1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1/4 cup milk",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/4 cup butter",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brown sugar",
+      "originalText": "1 cup brown sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "granulated sugar",
+      "originalText": "1 cup granulated sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "4 tablespoons boiling water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream brown sugar and butter",
+      "section": null
+    },
+    {
+      "text": "Add well-beaten eggs and sour milk in which soda has been dissolved",
+      "section": null
+    },
+    {
+      "text": "Beat in gradually flour, baking powder and cocoa thoroughly mixed",
+      "section": null
+    },
+    {
+      "text": "Bake in 3 layers",
+      "section": null
+    },
+    {
+      "text": "For Caramel Filling: boil together milk, butter, brown sugar and granulated sugar until thickening slightly",
+      "section": null
+    },
+    {
+      "text": "Remove from fire and stir until thick enough to spread",
+      "section": null
+    },
+    {
+      "text": "For icing: boil together granulated sugar and boiling water until syrup hairs",
+      "section": null
+    },
+    {
+      "text": "Beat into frosting",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/cocoa-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream brown sugar and butter\n2. Add well-beaten eggs and sour milk in which soda has been dissolved\n3. Beat in gradually flour, baking powder and cocoa thoroughly mixed\n4. Bake in 3 layers\n5. For Caramel Filling: boil together milk, butter, brown sugar and granulated sugar until thickening slightly\n6. Remove from fire and stir until thick enough to spread\n7. For icing: boil together granulated sugar and boiling water until syrup hairs\n8. Beat into frosting",
+    "originalIngredients": [
+      "2 cups brown sugar",
+      "1/2 cup butter",
+      "2 eggs well-beaten",
+      "1/2 cup sour milk",
+      "1/2 teaspoon soda",
+      "3 1/2 cups sifted flour",
+      "1 teaspoon baking powder",
+      "1 1/4 cup cocoa",
+      "1/4 cup milk",
+      "1/4 cup butter",
+      "1 cup brown sugar",
+      "1 cup granulated sugar",
+      "1 cup granulated sugar",
+      "4 tablespoons boiling water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

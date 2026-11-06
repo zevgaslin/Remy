@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "adbfa335-3005-5dc1-8b5c-803adc7669fa",
+  "name": "English Pound Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "one pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and one-quarter pounds of flour",
+      "originalText": "one and one-quarter pounds of flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pounded loaf sugar",
+      "originalText": "one pound of pounded loaf sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "one pound of currants",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "nine eggs",
+      "quantity": 9.0,
+      "quantityText": "nine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "candied peel",
+      "originalText": "two ounces of candied peel",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half ounce of citron",
+      "originalText": "one-half ounce of citron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half ounce of sweet almonds",
+      "originalText": "one-half ounce of sweet almonds",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little pounded mace",
+      "originalText": "a little pounded mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Work the butter to a cream; add the sugar, then the well-beaten yolks of eggs.",
+      "section": null
+    },
+    {
+      "text": "Next add the flour, currants, candied peel which should be cut into neat slices, and the almonds which should be blanched and chopped, and mix all these well together.",
+      "section": null
+    },
+    {
+      "text": "Whisk the whites of eggs and let them be thoroughly blended with the other ingredients.",
+      "section": null
+    },
+    {
+      "text": "Beat the cake well for twenty minutes and put it into a round tin, lined at the bottom and sides with strips of white buttered paper.",
+      "section": null
+    },
+    {
+      "text": "Bake it from two hours to two and a half, and let the oven be well heated when the cake is first put in.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/english-pound-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Work the butter to a cream; add the sugar, then the well-beaten yolks of eggs.\n2. Next add the flour, currants, candied peel which should be cut into neat slices, and the almonds which should be blanched and chopped, and mix all these well together.\n3. Whisk the whites of eggs and let them be thoroughly blended with the other ingredients.\n4. Beat the cake well for twenty minutes and put it into a round tin, lined at the bottom and sides with strips of white buttered paper.\n5. Bake it from two hours to two and a half, and let the oven be well heated when the cake is first put in.",
+    "originalIngredients": [
+      "one pound of butter",
+      "one and one-quarter pounds of flour",
+      "one pound of pounded loaf sugar",
+      "one pound of currants",
+      "nine eggs",
+      "two ounces of candied peel",
+      "one-half ounce of citron",
+      "one-half ounce of sweet almonds",
+      "a little pounded mace"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

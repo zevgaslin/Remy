@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "293d2eed-b687-5cf6-a40d-3de38b06370e",
+  "name": "Boiled Lemon Pudding",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "chopped suet",
+      "originalText": "half a cupful of chopped suet",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread crumbs",
+      "originalText": "one pint of bread crumbs",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon",
+      "originalText": "one lemon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "one cupful of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one cupful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix the suet, bread crumbs, sugar and flour well together",
+      "section": null
+    },
+    {
+      "text": "Add the lemon peel, which should be the yellow grated from the outside, and the juice, which should be strained",
+      "section": null
+    },
+    {
+      "text": "When these ingredients are well mixed, moisten with the eggs and sufficient milk to make the pudding of the consistency of thick batter",
+      "section": null
+    },
+    {
+      "text": "Put it into a well-buttered mold and boil for three and a half hours",
+      "section": null
+    },
+    {
+      "text": "Turn it out, strew sifted sugar over and serve warm with the lemon sauce, or not, at pleasure",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/boiled-lemon-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix the suet, bread crumbs, sugar and flour well together\n2. Add the lemon peel, which should be the yellow grated from the outside, and the juice, which should be strained\n3. When these ingredients are well mixed, moisten with the eggs and sufficient milk to make the pudding of the consistency of thick batter\n4. Put it into a well-buttered mold and boil for three and a half hours\n5. Turn it out, strew sifted sugar over and serve warm with the lemon sauce, or not, at pleasure",
+    "originalIngredients": [
+      "half a cupful of chopped suet",
+      "one pint of bread crumbs",
+      "one lemon",
+      "one cupful of sugar",
+      "one cupful of flour",
+      "one teaspoonful of salt",
+      "two eggs",
+      "milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

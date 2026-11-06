@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "b5cf4ebe-eab0-5af9-b4e6-aea454b5a789",
+  "name": "To Make a Small Pot of Coffee",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ground coffee",
+      "originalText": "1 cup ground coffee",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1/3 cup cold water",
+      "quantity": 0.3333333333333333,
+      "quantityText": "1/3",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 pint boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix one cup ground coffee with one egg, slightly beaten, and crushed shell.",
+      "section": null
+    },
+    {
+      "text": "To one-third of this amount add one-third cup cold water.",
+      "section": null
+    },
+    {
+      "text": "Turn into a scalded coffee-pot, add one pint boiling water, and boil three minutes.",
+      "section": null
+    },
+    {
+      "text": "Let stand on back of range ten minutes.",
+      "section": null
+    },
+    {
+      "text": "Serve.",
+      "section": null
+    },
+    {
+      "text": "Keep remaining coffee and egg closely covered, in a cool place, to use two successive mornings.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/to-make-a-small-pot-of-coffee.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix one cup ground coffee with one egg, slightly beaten, and crushed shell.\n2. To one-third of this amount add one-third cup cold water.\n3. Turn into a scalded coffee-pot, add one pint boiling water, and boil three minutes.\n4. Let stand on back of range ten minutes.\n5. Serve.\n6. Keep remaining coffee and egg closely covered, in a cool place, to use two successive mornings.",
+    "originalIngredients": [
+      "1 cup ground coffee",
+      "1 egg",
+      "1/3 cup cold water",
+      "1 pint boiling water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "39ed1c56-2691-5834-a87e-696fecf8eaab",
+  "name": "Salt-Rising Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "water",
+      "originalText": "1/2 pint water",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornmeal",
+      "originalText": "2 tablespoons cornmeal",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 tablespoons flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1/2 pint fresh sweet milk or warm water",
+      "originalText": "1/2 pint fresh sweet milk or warm water",
+      "quantity": null,
+      "quantityText": "1/2 pint fresh sweet milk or warm water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh morning's milk",
+      "originalText": "2 quarts fresh morning's milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "lard",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pour half a pint of water on 2 tablespoons of cornmeal and a generous pinch of salt.",
+      "section": null
+    },
+    {
+      "text": "Let it stand for 10 minutes, then stir in 2 tablespoons of flour and set it in a warm place to rise over night.",
+      "section": null
+    },
+    {
+      "text": "In the morning add half a pint of fresh, sweet milk, or warm water — either must be lukewarm — and just flour enough to make the yeast smooth.",
+      "section": null
+    },
+    {
+      "text": "Put the vessel containing it in a pan or kettle of hot water, hot enough to bear your hand in and be very careful to keep it the same temperature.",
+      "section": null
+    },
+    {
+      "text": "When this rises pour it into a batter made of 2 quarts of fresh morning's milk, scalded, then cooled to lukewarm, and mixed with flour enough to make a batter.",
+      "section": null
+    },
+    {
+      "text": "Beat this well, using a long spoon, then set the whole to rise again in a warm place.",
+      "section": null
+    },
+    {
+      "text": "This will be about twenty-five or thirty minutes if it has been well managed.",
+      "section": null
+    },
+    {
+      "text": "Now stir in enough flour to make a batter so stiff it cannot be stirred with a spoon.",
+      "section": null
+    },
+    {
+      "text": "Turn it out on a moulding board well dredged with flour, and before kneading it add a piece of lard the size of a large apple.",
+      "section": null
+    },
+    {
+      "text": "Mix this well into the dough.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salt-rising-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pour half a pint of water on 2 tablespoons of cornmeal and a generous pinch of salt.\n2. Let it stand for 10 minutes, then stir in 2 tablespoons of flour and set it in a warm place to rise over night.\n3. In the morning add half a pint of fresh, sweet milk, or warm water — either must be lukewarm — and just flour enough to make the yeast smooth.\n4. Put the vessel containing it in a pan or kettle of hot water, hot enough to bear your hand in and be very careful to keep it the same temperature.\n5. When this rises pour it into a batter made of 2 quarts of fresh morning's milk, scalded, then cooled to lukewarm, and mixed with flour enough to make a batter.\n6. Beat this well, using a long spoon, then set the whole to rise again in a warm place.\n7. This will be about twenty-five or thirty minutes if it has been well managed.\n8. Now stir in enough flour to make a batter so stiff it cannot be stirred with a spoon.\n9. Turn it out on a moulding board well dredged with flour, and before kneading it add a piece of lard the size of a large apple.\n10. Mix this well into the dough.",
+    "originalIngredients": [
+      "1/2 pint water",
+      "2 tablespoons cornmeal",
+      "salt",
+      "2 tablespoons flour",
+      "1/2 pint fresh sweet milk or warm water",
+      "2 quarts fresh morning's milk",
+      "flour",
+      "lard"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

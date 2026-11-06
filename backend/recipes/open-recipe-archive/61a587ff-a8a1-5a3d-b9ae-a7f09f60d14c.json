@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "61a587ff-a8a1-5a3d-b9ae-a7f09f60d14c",
+  "name": "To Make Jelly from Feet",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "calfs' feet",
+      "originalText": "four calfs' feet",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white wine",
+      "originalText": "one quart of white wine",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice of six fresh lemons",
+      "originalText": "juice of six fresh lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of powdered loaf sugar",
+      "originalText": "one pound and a half of powdered loaf sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pounded cinnamon",
+      "originalText": "pounded cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pounded mace",
+      "originalText": "pounded mace",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rind from two lemons",
+      "originalText": "rind from two lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil four calfs' feet, that have been nicely cleaned, and the hoofs taken off",
+      "section": null
+    },
+    {
+      "text": "When the feet are boiled to pieces, strain the liquor through a colander, and when cold, take all the grease off, and put the jelly in a skillet, leaving the dregs which will be at the bottom",
+      "section": null
+    },
+    {
+      "text": "There should be from four feet, about two quarts of jelly",
+      "section": null
+    },
+    {
+      "text": "Pour into it one quart of white wine, the juice of six fresh lemons strained from the seeds, one pound and a half of powdered loaf sugar, a little pounded cinnamon and mace, and the rind thinly pared from two of the lemons",
+      "section": null
+    },
+    {
+      "text": "Wash eight eggs very clean, whip up the whites to a froth, crush the shells and put with them",
+      "section": null
+    },
+    {
+      "text": "Mix it with the jelly, set it on the fire, stir it occasionally till the jelly is melted, but do not touch it afterwards",
+      "section": null
+    },
+    {
+      "text": "When it has boiled till it looks quite clear on one side, and the dross accumulates on the other, take off carefully the thickest part of the dross, and pour the jelly in the bag",
+      "section": null
+    },
+    {
+      "text": "Put back what runs through, until it becomes quite transparent",
+      "section": null
+    },
+    {
+      "text": "Then set a pitcher under the bag, and put a cover all over to keep out the dust",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/to-make-jelly-from-feet.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil four calfs' feet, that have been nicely cleaned, and the hoofs taken off\n2. When the feet are boiled to pieces, strain the liquor through a colander, and when cold, take all the grease off, and put the jelly in a skillet, leaving the dregs which will be at the bottom\n3. There should be from four feet, about two quarts of jelly\n4. Pour into it one quart of white wine, the juice of six fresh lemons strained from the seeds, one pound and a half of powdered loaf sugar, a little pounded cinnamon and mace, and the rind thinly pared from two of the lemons\n5. Wash eight eggs very clean, whip up the whites to a froth, crush the shells and put with them\n6. Mix it with the jelly, set it on the fire, stir it occasionally till the jelly is melted, but do not touch it afterwards\n7. When it has boiled till it looks quite clear on one side, and the dross accumulates on the other, take off carefully the thickest part of the dross, and pour the jelly in the bag\n8. Put back what runs through, until it becomes quite transparent\n9. Then set a pitcher under the bag, and put a cover all over to keep out the dust",
+    "originalIngredients": [
+      "four calfs' feet",
+      "one quart of white wine",
+      "juice of six fresh lemons",
+      "one pound and a half of powdered loaf sugar",
+      "pounded cinnamon",
+      "pounded mace",
+      "rind from two lemons",
+      "eight eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

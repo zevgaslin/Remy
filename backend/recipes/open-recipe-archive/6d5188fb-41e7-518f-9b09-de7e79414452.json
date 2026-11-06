@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "6d5188fb-41e7-518f-9b09-de7e79414452",
+  "name": "A Beef-Steak Pie",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "one pound of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "two pounds of sifted flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best beef-steak, cut thin and well beaten",
+      "originalText": "two pounds of the best beef-steak, cut thin and well beaten",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sliced potato",
+      "originalText": "sliced potato",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small bits of butter rolled in flour",
+      "originalText": "small bits of butter rolled in flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mushrooms, or chopped clams or oysters (optional)",
+      "originalText": "mushrooms, or chopped clams or oysters (optional)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    },
+    {
+      "name": "cold water",
+      "originalText": "half a pint of cold water",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a good paste in the proportion of a pound of butter to two pounds of sifted flour.",
+      "section": null
+    },
+    {
+      "text": "Divide it in half, and line with one sheet of it the bottom and sides of a deep dish, which must first be well buttered.",
+      "section": null
+    },
+    {
+      "text": "Have ready two pounds of the best beef-steak, cut thin, and well beaten; the bone and fat being omitted.",
+      "section": null
+    },
+    {
+      "text": "Season it with pepper and salt.",
+      "section": null
+    },
+    {
+      "text": "Spread a layer of the steak at the bottom of the pie, and on it a layer of sliced potato, and a few small bits of butter rolled in flour.",
+      "section": null
+    },
+    {
+      "text": "Then another layer of meat, potato, &c., till the dish is full.",
+      "section": null
+    },
+    {
+      "text": "Add mushrooms, or chopped clams or oysters if desired, leaving out the hard parts.",
+      "section": null
+    },
+    {
+      "text": "If you use clams or oysters, moisten the other ingredients with a little of their liquor. If not, pour in, at the last, half a pint of cold water, or less if the pie is small.",
+      "section": null
+    },
+    {
+      "text": "Cover the pie with the other sheet of paste as a lid, and notch the edges handsomely, having reserved a little of the paste to make a flower or tulip to stick in the slit at the top.",
+      "section": null
+    },
+    {
+      "text": "Bake it in a quick oven an hour and a quarter, or longer, in proportion to its size.",
+      "section": null
+    },
+    {
+      "text": "Send it to table hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-beef-steak-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a good paste in the proportion of a pound of butter to two pounds of sifted flour.\n2. Divide it in half, and line with one sheet of it the bottom and sides of a deep dish, which must first be well buttered.\n3. Have ready two pounds of the best beef-steak, cut thin, and well beaten; the bone and fat being omitted.\n4. Season it with pepper and salt.\n5. Spread a layer of the steak at the bottom of the pie, and on it a layer of sliced potato, and a few small bits of butter rolled in flour.\n6. Then another layer of meat, potato, &c., till the dish is full.\n7. Add mushrooms, or chopped clams or oysters if desired, leaving out the hard parts.\n8. If you use clams or oysters, moisten the other ingredients with a little of their liquor. If not, pour in, at the last, half a pint of cold water, or less if the pie is small.\n9. Cover the pie with the other sheet of paste as a lid, and notch the edges handsomely, having reserved a little of the paste to make a flower or tulip to stick in the slit at the top.\n10. Bake it in a quick oven an hour and a quarter, or longer, in proportion to its size.\n11. Send it to table hot.",
+    "originalIngredients": [
+      "one pound of butter",
+      "two pounds of sifted flour",
+      "two pounds of the best beef-steak, cut thin and well beaten",
+      "pepper and salt",
+      "sliced potato",
+      "small bits of butter rolled in flour",
+      "mushrooms, or chopped clams or oysters (optional)",
+      "half a pint of cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

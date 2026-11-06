@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "1df2481b-acfd-53cc-8731-1fc7a1934dfe",
+  "name": "Plain Fritters",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "seven eggs",
+      "quantity": 7.0,
+      "quantityText": "seven",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a quart of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three quarters of a pound or a pint and a half of sifted flour",
+      "originalText": "three quarters of a pound or a pint and a half of sifted flour",
+      "quantity": null,
+      "quantityText": "three quarters of a pound or a pint and a half of sifted flour",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large quantity of lard",
+      "originalText": "a large quantity of lard",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "powdered cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white wine",
+      "originalText": "white wine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat seven eggs very light, and stir them gradually into a quart of milk",
+      "section": null
+    },
+    {
+      "text": "Add, by degrees, three quarters of a pound, or a pint and a half of sifted flour",
+      "section": null
+    },
+    {
+      "text": "Beat the whole very hard",
+      "section": null
+    },
+    {
+      "text": "Have ready in a frying-pan over the fire, a large quantity of lard",
+      "section": null
+    },
+    {
+      "text": "When the lard has come to a hard boil, begin to put in the fritters; allowing for each about a jill of batter, or half a large tea-cup full",
+      "section": null
+    },
+    {
+      "text": "They do not require turning, and will be done in a few minutes",
+      "section": null
+    },
+    {
+      "text": "Fry as many at a time as the pan will hold",
+      "section": null
+    },
+    {
+      "text": "Send them to table hot, and eat them with powdered cinnamon, sugar, and white wine",
+      "section": null
+    },
+    {
+      "text": "Let fresh hot ones be sent in as they are wanted; they chill and become heavy immediately",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/plain-fritters.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat seven eggs very light, and stir them gradually into a quart of milk\n2. Add, by degrees, three quarters of a pound, or a pint and a half of sifted flour\n3. Beat the whole very hard\n4. Have ready in a frying-pan over the fire, a large quantity of lard\n5. When the lard has come to a hard boil, begin to put in the fritters; allowing for each about a jill of batter, or half a large tea-cup full\n6. They do not require turning, and will be done in a few minutes\n7. Fry as many at a time as the pan will hold\n8. Send them to table hot, and eat them with powdered cinnamon, sugar, and white wine\n9. Let fresh hot ones be sent in as they are wanted; they chill and become heavy immediately",
+    "originalIngredients": [
+      "seven eggs",
+      "a quart of milk",
+      "three quarters of a pound or a pint and a half of sifted flour",
+      "a large quantity of lard",
+      "powdered cinnamon",
+      "sugar",
+      "white wine"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

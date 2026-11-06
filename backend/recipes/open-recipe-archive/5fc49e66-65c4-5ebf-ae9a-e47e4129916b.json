@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "5fc49e66-65c4-5ebf-ae9a-e47e4129916b",
+  "name": "Rice Dumplings",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rice boiled without stirring, until soft, and at the top dry",
+      "originalText": "1 lb. rice boiled without stirring, until soft, and at the top dry",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pippins, pared and cored",
+      "originalText": "12 pippins, pared and cored",
+      "quantity": 12.0,
+      "quantityText": "12",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strawberry marmalade or crab-apple jelly",
+      "originalText": "strawberry marmalade or crab-apple jelly",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Let the rice cool upon a sieve or coarse cloth, that it may dry at the same time",
+      "section": null
+    },
+    {
+      "text": "Dip your dumpling cloths in hot water; wring them out and flour well inside",
+      "section": null
+    },
+    {
+      "text": "Put a handful of the cold rice upon each, spreading it out into a smooth sheet",
+      "section": null
+    },
+    {
+      "text": "Lay in the centre an apple",
+      "section": null
+    },
+    {
+      "text": "Fill the hole left by the core with marmalade or jelly",
+      "section": null
+    },
+    {
+      "text": "Draw up the cloth carefully to enclose the apple with a coating of rice",
+      "section": null
+    },
+    {
+      "text": "Tie and boil one hour",
+      "section": null
+    },
+    {
+      "text": "Turn over with care",
+      "section": null
+    },
+    {
+      "text": "Pour sweet sauce or rich sweetened cream over them, and send around more in a boat with them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rice-dumplings-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Let the rice cool upon a sieve or coarse cloth, that it may dry at the same time\n2. Dip your dumpling cloths in hot water; wring them out and flour well inside\n3. Put a handful of the cold rice upon each, spreading it out into a smooth sheet\n4. Lay in the centre an apple\n5. Fill the hole left by the core with marmalade or jelly\n6. Draw up the cloth carefully to enclose the apple with a coating of rice\n7. Tie and boil one hour\n8. Turn over with care\n9. Pour sweet sauce or rich sweetened cream over them, and send around more in a boat with them",
+    "originalIngredients": [
+      "1 lb. rice boiled without stirring, until soft, and at the top dry",
+      "12 pippins, pared and cored",
+      "strawberry marmalade or crab-apple jelly"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

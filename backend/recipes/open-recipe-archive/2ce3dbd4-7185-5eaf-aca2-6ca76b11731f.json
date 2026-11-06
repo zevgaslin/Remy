@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "2ce3dbd4-7185-5eaf-aca2-6ca76b11731f",
+  "name": "Souffle de Volaille",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "raw chicken",
+      "originalText": "1 lb. raw chicken",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 oz. butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "double cream",
+      "originalText": "1.5 pts. double cream",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "pts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt to taste",
+      "originalText": "pepper and salt to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good white sauce made with butter, flour, milk, good chicken stock and a little cream",
+      "originalText": "good white sauce made with butter, flour, milk, good chicken stock and a little cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pound meat in a mortar (or pass twice through fine mincer), add gradually three ounces butter, four yolks and two whites of eggs.",
+      "section": null
+    },
+    {
+      "text": "Season to taste and then pass through a hair sieve.",
+      "section": null
+    },
+    {
+      "text": "Whip the remaining two whites of eggs to a stiff froth.",
+      "section": null
+    },
+    {
+      "text": "Half whip the cream and stir these in very gently to the chicken mixture.",
+      "section": null
+    },
+    {
+      "text": "Steam very gently in mould for three-quarters of an hour.",
+      "section": null
+    },
+    {
+      "text": "Turn out and serve with good white sauce made with butter, flour, milk, good chicken stock and a little cream.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/souffle-de-volaille.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pound meat in a mortar (or pass twice through fine mincer), add gradually three ounces butter, four yolks and two whites of eggs.\n2. Season to taste and then pass through a hair sieve.\n3. Whip the remaining two whites of eggs to a stiff froth.\n4. Half whip the cream and stir these in very gently to the chicken mixture.\n5. Steam very gently in mould for three-quarters of an hour.\n6. Turn out and serve with good white sauce made with butter, flour, milk, good chicken stock and a little cream.",
+    "originalIngredients": [
+      "1 lb. raw chicken",
+      "3 oz. butter",
+      "4 eggs",
+      "1.5 pts. double cream",
+      "pepper and salt to taste",
+      "good white sauce made with butter, flour, milk, good chicken stock and a little cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

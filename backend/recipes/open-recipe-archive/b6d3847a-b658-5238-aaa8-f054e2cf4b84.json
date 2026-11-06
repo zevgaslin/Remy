@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "b6d3847a-b658-5238-aaa8-f054e2cf4b84",
+  "name": "Tapioca Pudding",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "hot milk",
+      "originalText": "1 quart hot milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoons tapioca",
+      "originalText": "2 heaping tablespoons tapioca",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of 2 eggs",
+      "originalText": "yolks of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 2 eggs",
+      "originalText": "whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "any flavoring",
+      "originalText": "any flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook in double boiler for 15 minutes, hot milk, tapioca, and salt, stirring often",
+      "section": null
+    },
+    {
+      "text": "Beat yolks of eggs and sugar",
+      "section": null
+    },
+    {
+      "text": "At the end of 15 minutes stir into milk and tapioca",
+      "section": null
+    },
+    {
+      "text": "Let cook till it thickens like custard",
+      "section": null
+    },
+    {
+      "text": "Pour into dish",
+      "section": null
+    },
+    {
+      "text": "Whip in the whites, beaten till no whites are seen",
+      "section": null
+    },
+    {
+      "text": "Add any flavoring",
+      "section": null
+    },
+    {
+      "text": "This is delicious if poured over, when cold, any fresh fruit such as strawberries, raspberries, peaches or oranges",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/tapioca-pudding-6.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook in double boiler for 15 minutes, hot milk, tapioca, and salt, stirring often\n2. Beat yolks of eggs and sugar\n3. At the end of 15 minutes stir into milk and tapioca\n4. Let cook till it thickens like custard\n5. Pour into dish\n6. Whip in the whites, beaten till no whites are seen\n7. Add any flavoring\n8. This is delicious if poured over, when cold, any fresh fruit such as strawberries, raspberries, peaches or oranges",
+    "originalIngredients": [
+      "1 quart hot milk",
+      "2 heaping tablespoons tapioca",
+      "a little salt",
+      "yolks of 2 eggs",
+      "1/2 cup sugar",
+      "whites of 2 eggs",
+      "any flavoring"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "f1e5ed7e-6ced-57dd-821d-ee547dade526",
+  "name": "Baked Salmon With Cream Sauce",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "middle cut of salmon",
+      "originalText": "A middle cut of salmon",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter, melted in hot water",
+      "originalText": "4 tablespoonfuls of butter, melted in hot water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 cup of cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornflour",
+      "originalText": "1 teaspoonful of cornflour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Parsley",
+      "originalText": "Parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter for paper",
+      "originalText": "Butter for paper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Soda",
+      "originalText": "Soda",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Butter a sheet of foolscap paper on both sides",
+      "section": null
+    },
+    {
+      "text": "Wrap the fish up in it, pinning the ends securely together",
+      "section": null
+    },
+    {
+      "text": "Lay it in the baking-pan",
+      "section": null
+    },
+    {
+      "text": "Pour six or seven spoonfuls of butter-and-water over it",
+      "section": null
+    },
+    {
+      "text": "Turn another pan over all",
+      "section": null
+    },
+    {
+      "text": "Steam in a moderate oven from three-quarters of an hour to an hour",
+      "section": null
+    },
+    {
+      "text": "Lift the cover from time to time to baste and assure yourself that the paper is not burning",
+      "section": null
+    },
+    {
+      "text": "Meanwhile have ready in a saucepan a cup of cream",
+      "section": null
+    },
+    {
+      "text": "Dissolve a bit of soda a little larger than a pea in the cream",
+      "section": null
+    },
+    {
+      "text": "Heat this in a double boiler",
+      "section": null
+    },
+    {
+      "text": "Thicken with a heaping teaspoonful of cornflour",
+      "section": null
+    },
+    {
+      "text": "Add a tablespoonful of butter, pepper and salt to taste",
+      "section": null
+    },
+    {
+      "text": "Add a liberal pinch of minced parsley",
+      "section": null
+    },
+    {
+      "text": "When the fish is unwrapped and dished pour half slowly over it",
+      "section": null
+    },
+    {
+      "text": "Send the rest to table in a boat",
+      "section": null
+    },
+    {
+      "text": "If you have no cream use milk and add a beaten egg to the thickening",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/baked-salmon-with-cream-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Butter a sheet of foolscap paper on both sides\n2. Wrap the fish up in it, pinning the ends securely together\n3. Lay it in the baking-pan\n4. Pour six or seven spoonfuls of butter-and-water over it\n5. Turn another pan over all\n6. Steam in a moderate oven from three-quarters of an hour to an hour\n7. Lift the cover from time to time to baste and assure yourself that the paper is not burning\n8. Meanwhile have ready in a saucepan a cup of cream\n9. Dissolve a bit of soda a little larger than a pea in the cream\n10. Heat this in a double boiler\n11. Thicken with a heaping teaspoonful of cornflour\n12. Add a tablespoonful of butter, pepper and salt to taste\n13. Add a liberal pinch of minced parsley\n14. When the fish is unwrapped and dished pour half slowly over it\n15. Send the rest to table in a boat\n16. If you have no cream use milk and add a beaten egg to the thickening",
+    "originalIngredients": [
+      "A middle cut of salmon",
+      "4 tablespoonfuls of butter, melted in hot water",
+      "1 cup of cream",
+      "1 teaspoonful of cornflour",
+      "1 tablespoonful of butter",
+      "Pepper",
+      "Salt",
+      "Parsley",
+      "Butter for paper",
+      "Soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

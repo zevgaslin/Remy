@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "624897b5-9016-5108-bc1b-8122ec0d9035",
+  "name": "Glacé Nuts",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "2 cups sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "1 cup boiling water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅛ teaspoon cream of tartar",
+      "originalText": "⅛ teaspoon cream of tartar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nuts",
+      "originalText": "nuts",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put ingredients in a smooth saucepan, stir, place on range, and heat to boiling-point.",
+      "section": null
+    },
+    {
+      "text": "Boil without stirring until syrup begins to discolor, which is 310° F.",
+      "section": null
+    },
+    {
+      "text": "Wash off sugar which adheres to sides of saucepan, as in making fondant.",
+      "section": null
+    },
+    {
+      "text": "Remove saucepan from fire, and place in larger pan of cold water to instantly stop boiling.",
+      "section": null
+    },
+    {
+      "text": "Remove from cold water and place in a saucepan of hot water during dipping.",
+      "section": null
+    },
+    {
+      "text": "Take nuts separately on a long pin, dip in syrup to cover, remove from syrup, and place on oiled paper.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/glac-nuts.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put ingredients in a smooth saucepan, stir, place on range, and heat to boiling-point.\n2. Boil without stirring until syrup begins to discolor, which is 310° F.\n3. Wash off sugar which adheres to sides of saucepan, as in making fondant.\n4. Remove saucepan from fire, and place in larger pan of cold water to instantly stop boiling.\n5. Remove from cold water and place in a saucepan of hot water during dipping.\n6. Take nuts separately on a long pin, dip in syrup to cover, remove from syrup, and place on oiled paper.",
+    "originalIngredients": [
+      "2 cups sugar",
+      "1 cup boiling water",
+      "⅛ teaspoon cream of tartar",
+      "nuts"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

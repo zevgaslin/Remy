@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "715063b8-e0a1-5f90-a5b4-420092ccb199",
+  "name": "Maids of Honor",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sour milk",
+      "originalText": "one cupful of sour milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "one cupful of sweet milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "a tablespoonful of melted butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of four eggs",
+      "originalText": "yolks of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juice and rind of one lemon",
+      "originalText": "juice and rind of one lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small cupful of white pounded sugar",
+      "originalText": "a small cupful of white pounded sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff paste",
+      "originalText": "puff paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put both kinds of milk together in a vessel, which is set in another and let it become sufficiently heated to set the curd",
+      "section": null
+    },
+    {
+      "text": "strain off the milk, rub the curd through a strainer",
+      "section": null
+    },
+    {
+      "text": "add butter to the curd, the sugar, well-beaten eggs and lemon",
+      "section": null
+    },
+    {
+      "text": "Line the little pans with the richest of puff paste and fill with the mixture",
+      "section": null
+    },
+    {
+      "text": "bake until firm in the centre, from ten to fifteen minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/maids-of-honor.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put both kinds of milk together in a vessel, which is set in another and let it become sufficiently heated to set the curd\n2. strain off the milk, rub the curd through a strainer\n3. add butter to the curd, the sugar, well-beaten eggs and lemon\n4. Line the little pans with the richest of puff paste and fill with the mixture\n5. bake until firm in the centre, from ten to fifteen minutes",
+    "originalIngredients": [
+      "one cupful of sour milk",
+      "one cupful of sweet milk",
+      "a tablespoonful of melted butter",
+      "yolks of four eggs",
+      "juice and rind of one lemon",
+      "a small cupful of white pounded sugar",
+      "puff paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

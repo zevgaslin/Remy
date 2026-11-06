@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "7622c8c1-a4dc-51ca-b020-566229271155",
+  "name": "Cocoanut Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "three-quarters of a cup of butter",
+      "originalText": "three-quarters of a cup of butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "two cups of white sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "one cup of sweet milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, whites and yolks separately beaten",
+      "originalText": "four eggs, whites and yolks separately beaten",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon or vanilla (flavoring)",
+      "originalText": "lemon or vanilla (flavoring)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping teaspoonfuls of baking powder",
+      "originalText": "three heaping teaspoonfuls of baking powder",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "three cups of sifted flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "For Filling: whites of three eggs",
+      "originalText": "For Filling: whites of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "one cup of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cocoanut",
+      "originalText": "grated cocoanut",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream together three-quarters of a cup of butter and two cups of white sugar",
+      "section": null
+    },
+    {
+      "text": "Add one cup of sweet milk",
+      "section": null
+    },
+    {
+      "text": "Add the yolks of four eggs first",
+      "section": null
+    },
+    {
+      "text": "Add the whites of four eggs",
+      "section": null
+    },
+    {
+      "text": "Flavor with lemon or vanilla",
+      "section": null
+    },
+    {
+      "text": "Mix three heaping teaspoonfuls of baking powder in three cups of sifted flour and add last",
+      "section": null
+    },
+    {
+      "text": "Bake in jelly pans",
+      "section": null
+    },
+    {
+      "text": "For filling, make an icing by beating the whites of three eggs and a cup of powdered sugar to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "When the cake is cooled, spread a thick layer of this frosting over each cake",
+      "section": null
+    },
+    {
+      "text": "Sprinkle very thickly with grated cocoanut",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cocoanut-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream together three-quarters of a cup of butter and two cups of white sugar\n2. Add one cup of sweet milk\n3. Add the yolks of four eggs first\n4. Add the whites of four eggs\n5. Flavor with lemon or vanilla\n6. Mix three heaping teaspoonfuls of baking powder in three cups of sifted flour and add last\n7. Bake in jelly pans\n8. For filling, make an icing by beating the whites of three eggs and a cup of powdered sugar to a stiff froth\n9. When the cake is cooled, spread a thick layer of this frosting over each cake\n10. Sprinkle very thickly with grated cocoanut",
+    "originalIngredients": [
+      "three-quarters of a cup of butter",
+      "two cups of white sugar",
+      "one cup of sweet milk",
+      "four eggs, whites and yolks separately beaten",
+      "lemon or vanilla (flavoring)",
+      "three heaping teaspoonfuls of baking powder",
+      "three cups of sifted flour",
+      "For Filling: whites of three eggs",
+      "one cup of powdered sugar",
+      "grated cocoanut"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

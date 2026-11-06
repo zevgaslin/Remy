@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "1be8cc3d-9efa-5c4a-a200-4cf0481bb3bc",
+  "name": "Milk Punch (Second Recipe)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "10 or 12 lemons",
+      "originalText": "10 or 12 lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bottles rum",
+      "originalText": "2 bottles rum",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bottle brandy",
+      "originalText": "1 bottle brandy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lime juice",
+      "originalText": "1 pt. lime juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "1 grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bottle fresh milk",
+      "originalText": "1 bottle fresh milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 lbs. sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and one-half bottles water",
+      "originalText": "one and one-half bottles water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Steep rinds cut from lemons in brandy for three days with a grated nutmeg; shake frequently.",
+      "section": null
+    },
+    {
+      "text": "Dissolve sugar in one and one-half bottles water, add rum, lime juice and the above lemon brandy.",
+      "section": null
+    },
+    {
+      "text": "Bring one bottle of fresh milk to a boil, and that instant pour it into the other ingredients, stirring constantly.",
+      "section": null
+    },
+    {
+      "text": "Let stand twenty-four hours and strain through double flannel; cork well. Will keep any time.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/milk-punch-second-recipe.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Steep rinds cut from lemons in brandy for three days with a grated nutmeg; shake frequently.\n2. Dissolve sugar in one and one-half bottles water, add rum, lime juice and the above lemon brandy.\n3. Bring one bottle of fresh milk to a boil, and that instant pour it into the other ingredients, stirring constantly.\n4. Let stand twenty-four hours and strain through double flannel; cork well. Will keep any time.",
+    "originalIngredients": [
+      "10 or 12 lemons",
+      "2 bottles rum",
+      "1 bottle brandy",
+      "1 pt. lime juice",
+      "1 grated nutmeg",
+      "1 bottle fresh milk",
+      "2 lbs. sugar",
+      "one and one-half bottles water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

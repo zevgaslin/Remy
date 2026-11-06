@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "55514d90-132f-5c88-8038-91ff1440cdb8",
+  "name": "Bread Omelet No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated and sifted bread",
+      "originalText": "a tablespoonful of grated and sifted bread",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk, water, cream, white wine, gravy, lemon juice, brandy or rum",
+      "originalText": "milk, water, cream, white wine, gravy, lemon juice, brandy or rum",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little nutmeg",
+      "originalText": "a little nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Break four eggs into a basin and carefully remove the treadles",
+      "section": null
+    },
+    {
+      "text": "Have ready a tablespoonful of grated and sifted bread",
+      "section": null
+    },
+    {
+      "text": "Soak it in either milk, water, cream, white wine, gravy, lemon juice, brandy or rum, according as the omelet is intended to be sweet or savory",
+      "section": null
+    },
+    {
+      "text": "Well beat the eggs together with a little nutmeg, pepper and salt",
+      "section": null
+    },
+    {
+      "text": "Add the bread, and, beating constantly, get ready a frying pan, buttered and made thoroughly hot",
+      "section": null
+    },
+    {
+      "text": "Put in the omelet and do it on one side only",
+      "section": null
+    },
+    {
+      "text": "Turn it upon a dish, and fold it double to prevent the steam from condensing",
+      "section": null
+    },
+    {
+      "text": "Stale sponge-cake, grated biscuit, or pound cake, may replace the bread for a sweet omelet, when pounded loaf sugar should be sifted over it, and the dish decorated with lumps of currant jelly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bread-omelet-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Break four eggs into a basin and carefully remove the treadles\n2. Have ready a tablespoonful of grated and sifted bread\n3. Soak it in either milk, water, cream, white wine, gravy, lemon juice, brandy or rum, according as the omelet is intended to be sweet or savory\n4. Well beat the eggs together with a little nutmeg, pepper and salt\n5. Add the bread, and, beating constantly, get ready a frying pan, buttered and made thoroughly hot\n6. Put in the omelet and do it on one side only\n7. Turn it upon a dish, and fold it double to prevent the steam from condensing\n8. Stale sponge-cake, grated biscuit, or pound cake, may replace the bread for a sweet omelet, when pounded loaf sugar should be sifted over it, and the dish decorated with lumps of currant jelly",
+    "originalIngredients": [
+      "four eggs",
+      "a tablespoonful of grated and sifted bread",
+      "milk, water, cream, white wine, gravy, lemon juice, brandy or rum",
+      "a little nutmeg",
+      "pepper and salt",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

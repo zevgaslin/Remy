@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "11485ef4-6387-5fd3-bba1-87f1bce391ab",
+  "name": "Scotch Mutton Broth",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "neck of mutton",
+      "originalText": "Six pounds neck of mutton",
+      "quantity": 6.0,
+      "quantityText": "Six",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "Three quarts water",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrots",
+      "originalText": "Five carrots",
+      "quantity": 5.0,
+      "quantityText": "Five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnips",
+      "originalText": "Five turnips",
+      "quantity": 5.0,
+      "quantityText": "Five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "Two onions",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "barley",
+      "originalText": "Four tablespoonfuls barley",
+      "quantity": 4.0,
+      "quantityText": "Four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "A little salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chopped parsley",
+      "originalText": "Chopped parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Rice or barley soaked in cold water",
+      "originalText": "Rice or barley soaked in cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Green peas",
+      "originalText": "Green peas",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Young corn",
+      "originalText": "Young corn",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tomatoes",
+      "originalText": "Tomatoes",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak mutton in water for an hour",
+      "section": null
+    },
+    {
+      "text": "Cut off scrag, and put it in stewpan with three quarts of water",
+      "section": null
+    },
+    {
+      "text": "As soon as it boils, skim well, and then simmer for one and one-half hours",
+      "section": null
+    },
+    {
+      "text": "Cut best end of mutton into cutlets, dividing it with two bones in each",
+      "section": null
+    },
+    {
+      "text": "Take off nearly all fat before you put it into broth",
+      "section": null
+    },
+    {
+      "text": "Skim the moment the meat boils, and every ten minutes afterwards",
+      "section": null
+    },
+    {
+      "text": "Add carrots, turnips and onions, all cut into two or three pieces, then put them into soup soon enough to be thoroughly done",
+      "section": null
+    },
+    {
+      "text": "Stir in barley",
+      "section": null
+    },
+    {
+      "text": "Add salt to taste",
+      "section": null
+    },
+    {
+      "text": "Let all stew together for three and one-half hours",
+      "section": null
+    },
+    {
+      "text": "About one-half hour before sending it to table, put in little chopped parsley and serve",
+      "section": null
+    },
+    {
+      "text": "Cut the meat off the scrag into small pieces, and send it to table in the tureen with the soup",
+      "section": null
+    },
+    {
+      "text": "The other half of the mutton should be served on a separate dish, with whole turnips boiled and laid round it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/scotch-mutton-broth.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak mutton in water for an hour\n2. Cut off scrag, and put it in stewpan with three quarts of water\n3. As soon as it boils, skim well, and then simmer for one and one-half hours\n4. Cut best end of mutton into cutlets, dividing it with two bones in each\n5. Take off nearly all fat before you put it into broth\n6. Skim the moment the meat boils, and every ten minutes afterwards\n7. Add carrots, turnips and onions, all cut into two or three pieces, then put them into soup soon enough to be thoroughly done\n8. Stir in barley\n9. Add salt to taste\n10. Let all stew together for three and one-half hours\n11. About one-half hour before sending it to table, put in little chopped parsley and serve\n12. Cut the meat off the scrag into small pieces, and send it to table in the tureen with the soup\n13. The other half of the mutton should be served on a separate dish, with whole turnips boiled and laid round it",
+    "originalIngredients": [
+      "Six pounds neck of mutton",
+      "Three quarts water",
+      "Five carrots",
+      "Five turnips",
+      "Two onions",
+      "Four tablespoonfuls barley",
+      "A little salt",
+      "Chopped parsley",
+      "Rice or barley soaked in cold water",
+      "Green peas",
+      "Young corn",
+      "Tomatoes"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

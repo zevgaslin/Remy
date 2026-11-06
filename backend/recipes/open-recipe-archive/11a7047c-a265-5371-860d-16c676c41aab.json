@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "11a7047c-a265-5371-860d-16c676c41aab",
+  "name": "German Ice Cream",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one and one-fourth cups sugar",
+      "originalText": "one and one-fourth cups sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-fourth teaspoon salt",
+      "originalText": "one-fourth teaspoon salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs slightly beaten",
+      "originalText": "two eggs slightly beaten",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scalded milk",
+      "originalText": "two cups scalded milk",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "squares melted chocolate",
+      "originalText": "two squares melted chocolate",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "three cups cream",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "one tablespoon vanilla",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "zweiback dried and broken in small pieces",
+      "originalText": "three cups zweiback dried and broken in small pieces",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix one and one-fourth cups sugar, one tablespoon flour, and one-fourth teaspoon salt",
+      "section": null
+    },
+    {
+      "text": "Add two eggs slightly beaten and two cups scalded milk",
+      "section": null
+    },
+    {
+      "text": "Cook over hot water until mixture thickens",
+      "section": null
+    },
+    {
+      "text": "Add two squares melted chocolate, and cool",
+      "section": null
+    },
+    {
+      "text": "Add three cups cream and one tablespoon vanilla",
+      "section": null
+    },
+    {
+      "text": "Strain and freeze",
+      "section": null
+    },
+    {
+      "text": "Just before serving add three cups zweiback dried and broken in small pieces",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/german-ice-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix one and one-fourth cups sugar, one tablespoon flour, and one-fourth teaspoon salt\n2. Add two eggs slightly beaten and two cups scalded milk\n3. Cook over hot water until mixture thickens\n4. Add two squares melted chocolate, and cool\n5. Add three cups cream and one tablespoon vanilla\n6. Strain and freeze\n7. Just before serving add three cups zweiback dried and broken in small pieces",
+    "originalIngredients": [
+      "one and one-fourth cups sugar",
+      "one tablespoon flour",
+      "one-fourth teaspoon salt",
+      "two eggs slightly beaten",
+      "two cups scalded milk",
+      "two squares melted chocolate",
+      "three cups cream",
+      "one tablespoon vanilla",
+      "three cups zweiback dried and broken in small pieces"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

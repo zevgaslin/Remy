@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "2cba29c3-2735-511d-b629-35041a2e8bd4",
+  "name": "Carita Pudding",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "figs",
+      "originalText": "1 lb. figs",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, slightly beaten",
+      "originalText": "3 eggs, slightly beaten",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "2 cups milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 tablespoonfuls sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla",
+      "originalText": "Vanilla",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grease a plain-sided oval mould with butter, and line it with figs, which are split through the centre lengthwise",
+      "section": null
+    },
+    {
+      "text": "Place the skin side next to the mould",
+      "section": null
+    },
+    {
+      "text": "Make a custard of milk, eggs and sugar",
+      "section": null
+    },
+    {
+      "text": "place the bowl containing this custard in a saucepan of boiling water and stir gently until it thickens to the consistency of cream (it must on no account boil)",
+      "section": null
+    },
+    {
+      "text": "add three drops vanilla and set it aside to cool",
+      "section": null
+    },
+    {
+      "text": "When cool pour it into the lined mould and steam till it is set, which will probably be in twenty minutes",
+      "section": null
+    },
+    {
+      "text": "Take care that the top of the mould is covered to prevent the steam settling",
+      "section": null
+    },
+    {
+      "text": "Turn out of the mould to serve",
+      "section": null
+    },
+    {
+      "text": "To be eaten with cream and sugar",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/carita-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grease a plain-sided oval mould with butter, and line it with figs, which are split through the centre lengthwise\n2. Place the skin side next to the mould\n3. Make a custard of milk, eggs and sugar\n4. place the bowl containing this custard in a saucepan of boiling water and stir gently until it thickens to the consistency of cream (it must on no account boil)\n5. add three drops vanilla and set it aside to cool\n6. When cool pour it into the lined mould and steam till it is set, which will probably be in twenty minutes\n7. Take care that the top of the mould is covered to prevent the steam settling\n8. Turn out of the mould to serve\n9. To be eaten with cream and sugar",
+    "originalIngredients": [
+      "1 lb. figs",
+      "3 eggs, slightly beaten",
+      "2 cups milk",
+      "2 tablespoonfuls sugar",
+      "Vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

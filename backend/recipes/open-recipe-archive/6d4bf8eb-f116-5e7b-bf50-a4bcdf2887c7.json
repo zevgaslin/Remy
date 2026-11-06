@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "6d4bf8eb-f116-5e7b-bf50-a4bcdf2887c7",
+  "name": "Bortchock Soup",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "shin of beef",
+      "originalText": "6 lbs. shin of beef",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "3 qts. cold water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot cubes",
+      "originalText": "1 cup carrot cubes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sliced onion",
+      "originalText": "½ cup sliced onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "6 cloves",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "allspice berry",
+      "originalText": "1 allspice berry",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs parsley",
+      "originalText": "2 sprigs parsley",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalks celery",
+      "originalText": "2 stalks celery",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beet finely cut",
+      "originalText": "1 beet finely cut",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "1 teaspoon peppercorns",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped raw beet",
+      "originalText": "1 cup finely chopped raw beet",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup vinegar",
+      "originalText": "¼ cup vinegar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Prepare and cook beef same as for Bouillon.",
+      "section": null
+    },
+    {
+      "text": "Cook vegetables in butter five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add to soup with remaining seasonings.",
+      "section": null
+    },
+    {
+      "text": "Cook one and one-half hours, strain, cool quickly, remove fat, and clear.",
+      "section": null
+    },
+    {
+      "text": "When ready to clear, add one cup finely chopped raw beet and one-fourth cup vinegar.",
+      "section": null
+    },
+    {
+      "text": "Select red beets for this soup, and serve as soon as possible after clearing, otherwise it will lose its bright red color, which makes the dish especially appropriate for an American Beauty Dinner.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bortchock-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Prepare and cook beef same as for Bouillon.\n2. Cook vegetables in butter five minutes.\n3. Add to soup with remaining seasonings.\n4. Cook one and one-half hours, strain, cool quickly, remove fat, and clear.\n5. When ready to clear, add one cup finely chopped raw beet and one-fourth cup vinegar.\n6. Select red beets for this soup, and serve as soon as possible after clearing, otherwise it will lose its bright red color, which makes the dish especially appropriate for an American Beauty Dinner.",
+    "originalIngredients": [
+      "6 lbs. shin of beef",
+      "3 qts. cold water",
+      "1 cup carrot cubes",
+      "½ cup sliced onion",
+      "6 cloves",
+      "1 allspice berry",
+      "2 sprigs parsley",
+      "2 stalks celery",
+      "1 beet finely cut",
+      "1 tablespoon salt",
+      "1 teaspoon peppercorns",
+      "2 tablespoons butter",
+      "1 cup finely chopped raw beet",
+      "¼ cup vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

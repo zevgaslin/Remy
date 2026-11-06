@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "de1d5a4a-1f32-5f2e-93fd-10e82bfbdc4a",
+  "name": "Omelette Soufflée (Baked)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "6 eggs",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "6 tablespoonfuls of powdered sugar",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of a lemon and half the peel, grated",
+      "originalText": "Juice of a lemon and half the peel, grated",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat yolks and whites separately and very well",
+      "section": null
+    },
+    {
+      "text": "Add to the yolks by degrees the powdered sugar, and beat until it ceases to froth, and is thick and smooth",
+      "section": null
+    },
+    {
+      "text": "The whites should be stiff enough to cut with a knife",
+      "section": null
+    },
+    {
+      "text": "Stir together lightly with the seasoning",
+      "section": null
+    },
+    {
+      "text": "Pour into a well-buttered dish",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven five or six minutes",
+      "section": null
+    },
+    {
+      "text": "The dish should be warmed when it is buttered, not to chill the eggs",
+      "section": null
+    },
+    {
+      "text": "Send around with a spoon, and let each one help himself before it can fall",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/omelette-souffl-e-baked.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat yolks and whites separately and very well\n2. Add to the yolks by degrees the powdered sugar, and beat until it ceases to froth, and is thick and smooth\n3. The whites should be stiff enough to cut with a knife\n4. Stir together lightly with the seasoning\n5. Pour into a well-buttered dish\n6. Bake in a quick oven five or six minutes\n7. The dish should be warmed when it is buttered, not to chill the eggs\n8. Send around with a spoon, and let each one help himself before it can fall",
+    "originalIngredients": [
+      "6 eggs",
+      "6 tablespoonfuls of powdered sugar",
+      "Juice of a lemon and half the peel, grated",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

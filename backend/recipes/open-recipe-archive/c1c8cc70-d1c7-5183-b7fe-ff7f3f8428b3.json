@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "c1c8cc70-d1c7-5183-b7fe-ff7f3f8428b3",
+  "name": "Tongue Sandwiches",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "finely chopped tongue",
+      "originalText": "1 cup finely chopped tongue",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped boiled ham",
+      "originalText": "1/4 cup chopped boiled ham",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "3 tablespoonfuls melted butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salad oil",
+      "originalText": "3 tablespoonfuls salad oil",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "made mustard",
+      "originalText": "1/4 teaspoonful made mustard",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "paprica",
+      "originalText": "1/4 teaspoonful paprica",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolk of 1 egg",
+      "originalText": "Yolk of 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bread slices",
+      "originalText": "bread slices",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix tongue with ham",
+      "section": null
+    },
+    {
+      "text": "Stir in melted butter beaten light with salad oil, mustard, and paprica",
+      "section": null
+    },
+    {
+      "text": "When the mixture is smooth and light set in a saucepan of boiling water over the fire and cook until it is thoroughly heated",
+      "section": null
+    },
+    {
+      "text": "Beat in the yolk of a whipped egg",
+      "section": null
+    },
+    {
+      "text": "Take from the fire and set by until perfectly cold",
+      "section": null
+    },
+    {
+      "text": "Spread between thin slices of bread",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/tongue-sandwiches.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix tongue with ham\n2. Stir in melted butter beaten light with salad oil, mustard, and paprica\n3. When the mixture is smooth and light set in a saucepan of boiling water over the fire and cook until it is thoroughly heated\n4. Beat in the yolk of a whipped egg\n5. Take from the fire and set by until perfectly cold\n6. Spread between thin slices of bread",
+    "originalIngredients": [
+      "1 cup finely chopped tongue",
+      "1/4 cup chopped boiled ham",
+      "3 tablespoonfuls melted butter",
+      "3 tablespoonfuls salad oil",
+      "1/4 teaspoonful made mustard",
+      "1/4 teaspoonful paprica",
+      "Yolk of 1 egg",
+      "bread slices"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

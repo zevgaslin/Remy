@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "99855873-718f-55c8-8d77-df0f6086545b",
+  "name": "Fried Raw Potatoes",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen medium-sized potatoes",
+      "originalText": "1/2 dozen medium-sized potatoes",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet lard",
+      "originalText": "1 tablespoonful sweet lard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel half a dozen medium-sized potatoes very evenly, cut them in slices as thin as an egg-shell, and be sure to cut them from the breadth, not the length, of the potato.",
+      "section": null
+    },
+    {
+      "text": "Put a tablespoonful each of butter and sweet lard into the frying pan, and as soon as it boils add the sliced potatoes, sprinkling over them salt and pepper to season them.",
+      "section": null
+    },
+    {
+      "text": "Cover them with a tight-fitting lid, and let the steam partly cook them.",
+      "section": null
+    },
+    {
+      "text": "Remove it, and let them fry a bright gold color, shaking and turning them carefully, so as to brown equally.",
+      "section": null
+    },
+    {
+      "text": "Serve very hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fried-raw-potatoes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel half a dozen medium-sized potatoes very evenly, cut them in slices as thin as an egg-shell, and be sure to cut them from the breadth, not the length, of the potato.\n2. Put a tablespoonful each of butter and sweet lard into the frying pan, and as soon as it boils add the sliced potatoes, sprinkling over them salt and pepper to season them.\n3. Cover them with a tight-fitting lid, and let the steam partly cook them.\n4. Remove it, and let them fry a bright gold color, shaking and turning them carefully, so as to brown equally.\n5. Serve very hot.",
+    "originalIngredients": [
+      "1/2 dozen medium-sized potatoes",
+      "1 tablespoonful butter",
+      "1 tablespoonful sweet lard",
+      "salt",
+      "pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

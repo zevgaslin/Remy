@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "3c3e9774-7e6b-5053-bcc7-f0efe1a996c7",
+  "name": "Three-Hour Bread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "3 1/2 cup flour",
+      "quantity": 3.5,
+      "quantityText": "3 1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "3/4 cup white sugar",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "3/4 cup salt",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "potato water",
+      "originalText": "potato water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mashed potatoes",
+      "originalText": "1 quart of mashed potatoes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "3 quarts of boiling water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1 White Swan Yeast Cake",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald flour, white sugar and salt with the water of the potatoes, add 1 quart of mashed potatoes and 3 quarts of boiling water and when cool enough add 1 White Swan Yeast Cake.",
+      "section": null
+    },
+    {
+      "text": "Set in a warm place to rise over night.",
+      "section": null
+    },
+    {
+      "text": "In the morning put this yeast into your flour (have the flour warm), mix stiff, let rise 1 hour, mix down, let rise 1 hour, then put in pans.",
+      "section": null
+    },
+    {
+      "text": "Let rise and bake.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/three-hour-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald flour, white sugar and salt with the water of the potatoes, add 1 quart of mashed potatoes and 3 quarts of boiling water and when cool enough add 1 White Swan Yeast Cake.\n2. Set in a warm place to rise over night.\n3. In the morning put this yeast into your flour (have the flour warm), mix stiff, let rise 1 hour, mix down, let rise 1 hour, then put in pans.\n4. Let rise and bake.",
+    "originalIngredients": [
+      "3 1/2 cup flour",
+      "3/4 cup white sugar",
+      "3/4 cup salt",
+      "potato water",
+      "1 quart of mashed potatoes",
+      "3 quarts of boiling water",
+      "1 White Swan Yeast Cake"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

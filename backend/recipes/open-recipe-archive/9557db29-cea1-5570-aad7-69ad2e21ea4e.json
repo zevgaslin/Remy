@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "9557db29-cea1-5570-aad7-69ad2e21ea4e",
+  "name": "Celery Relish",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen bunches celery cut fine",
+      "originalText": "1 dozen bunches celery cut fine",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "2 quarts vinegar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tin mustard (1/2 pound)",
+      "originalText": "1 small tin mustard (1/2 pound)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "curry powder",
+      "originalText": "2 ounces curry powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1.5 pounds sugar",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "red peppers",
+      "originalText": "2 red peppers",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt to taste",
+      "originalText": "salt to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Let vinegar come to the boil and keep simmering",
+      "section": null
+    },
+    {
+      "text": "Mix mustard, curry powder, and flour separately in a little vinegar",
+      "section": null
+    },
+    {
+      "text": "Be sure they are very smooth",
+      "section": null
+    },
+    {
+      "text": "Put the flour in the hot vinegar first",
+      "section": null
+    },
+    {
+      "text": "Then add the mustard and curry powder and chopped peppers",
+      "section": null
+    },
+    {
+      "text": "Add the celery and boil all for 10 minutes",
+      "section": null
+    },
+    {
+      "text": "Be sure it is not lumpy before adding the celery",
+      "section": null
+    },
+    {
+      "text": "Put away in jars",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/celery-relish.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Let vinegar come to the boil and keep simmering\n2. Mix mustard, curry powder, and flour separately in a little vinegar\n3. Be sure they are very smooth\n4. Put the flour in the hot vinegar first\n5. Then add the mustard and curry powder and chopped peppers\n6. Add the celery and boil all for 10 minutes\n7. Be sure it is not lumpy before adding the celery\n8. Put away in jars",
+    "originalIngredients": [
+      "1 dozen bunches celery cut fine",
+      "2 quarts vinegar",
+      "1 small tin mustard (1/2 pound)",
+      "2 ounces curry powder",
+      "1.5 pounds sugar",
+      "3 tablespoons flour",
+      "2 red peppers",
+      "salt to taste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

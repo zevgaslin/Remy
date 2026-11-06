@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "a5c691ed-cb60-5ae8-a781-c598844d17fc",
+  "name": "To Roast Beef",
+  "description": "Historical recipe from American Cookery (1796). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "brisk hot fire",
+      "originalText": "a brisk hot fire",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and water for basting",
+      "originalText": "salt and water for basting",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of an hour to every pound of beef",
+      "originalText": "one quarter of an hour to every pound of beef",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pricking with a fork to determine doneness",
+      "originalText": "pricking with a fork to determine doneness",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Have a brisk hot fire.",
+      "section": null
+    },
+    {
+      "text": "Hang down rather than to spit.",
+      "section": null
+    },
+    {
+      "text": "Baste with salt and water.",
+      "section": null
+    },
+    {
+      "text": "One quarter of an hour to every pound of beef, though tender beef will require less, while old tough beef will require more roasting.",
+      "section": null
+    },
+    {
+      "text": "Pricking with a fork will determine you whether done or not.",
+      "section": null
+    },
+    {
+      "text": "Rare done is the healthiest and the taste of this age.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/to-roast-beef.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Amelia Simmons",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Have a brisk hot fire.\n2. Hang down rather than to spit.\n3. Baste with salt and water.\n4. One quarter of an hour to every pound of beef, though tender beef will require less, while old tough beef will require more roasting.\n5. Pricking with a fork will determine you whether done or not.\n6. Rare done is the healthiest and the taste of this age.",
+    "originalIngredients": [
+      "a brisk hot fire",
+      "salt and water for basting",
+      "one quarter of an hour to every pound of beef",
+      "pricking with a fork to determine doneness"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: American Cookery (1796), https://www.gutenberg.org/ebooks/12815. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "314ca382-7224-5a44-96c2-3a571023572c",
+  "name": "Custard Pudding No. 2",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "one quart of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine sugar",
+      "originalText": "six tablespoonfuls of fine sugar",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "a teaspoon of flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a tablespoonful of peach-water or other flavor",
+      "originalText": "a tablespoonful of peach-water or other flavor",
+      "quantity": null,
+      "quantityText": "a tablespoonful of peach-water or other flavor",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pour one quart of milk in a deep pan and let the pan stand in a kettle of boiling water",
+      "section": null
+    },
+    {
+      "text": "Beat to a cream eight eggs and six tablespoonfuls of fine sugar and a teaspoon of flour",
+      "section": null
+    },
+    {
+      "text": "Stir the eggs and sugar into the milk and continue stirring until it begins to thicken",
+      "section": null
+    },
+    {
+      "text": "Remove the pan from the boiling water, scrape down the sides, stir to the bottom until it begins to cool",
+      "section": null
+    },
+    {
+      "text": "Add a tablespoonful of peach-water, or any other flavor you may prefer",
+      "section": null
+    },
+    {
+      "text": "Pour into little cups and, when cold, serve",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/custard-pudding-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pour one quart of milk in a deep pan and let the pan stand in a kettle of boiling water\n2. Beat to a cream eight eggs and six tablespoonfuls of fine sugar and a teaspoon of flour\n3. Stir the eggs and sugar into the milk and continue stirring until it begins to thicken\n4. Remove the pan from the boiling water, scrape down the sides, stir to the bottom until it begins to cool\n5. Add a tablespoonful of peach-water, or any other flavor you may prefer\n6. Pour into little cups and, when cold, serve",
+    "originalIngredients": [
+      "one quart of milk",
+      "eight eggs",
+      "six tablespoonfuls of fine sugar",
+      "a teaspoon of flour",
+      "a tablespoonful of peach-water or other flavor"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

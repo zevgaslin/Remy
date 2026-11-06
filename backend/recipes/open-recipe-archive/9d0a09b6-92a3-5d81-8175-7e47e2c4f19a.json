@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "9d0a09b6-92a3-5d81-8175-7e47e2c4f19a",
+  "name": "Gateaux aux Prunes",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "prunes",
+      "originalText": "1 lb. prunes",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 oz. sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gelatine",
+      "originalText": "1/2 oz. gelatine",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "oz.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass brandy",
+      "originalText": "1 glass brandy",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1 pt. water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pt.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few drops cochineal",
+      "originalText": "A few drops cochineal",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice and rind of 1 lemon",
+      "originalText": "Juice and rind of 1 lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil the prunes in the water and sugar until quite soft.",
+      "section": null
+    },
+    {
+      "text": "Take them out and take the stones out, crack the kernels.",
+      "section": null
+    },
+    {
+      "text": "Add kernels with the brandy, lemon juice and peel, a little cochineal and the gelatine dissolved in a little water.",
+      "section": null
+    },
+    {
+      "text": "Boil all for twenty minutes.",
+      "section": null
+    },
+    {
+      "text": "Pour into a border mould.",
+      "section": null
+    },
+    {
+      "text": "When set, turn out, and serve with whipped cream in the centre.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/gateaux-aux-prunes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil the prunes in the water and sugar until quite soft.\n2. Take them out and take the stones out, crack the kernels.\n3. Add kernels with the brandy, lemon juice and peel, a little cochineal and the gelatine dissolved in a little water.\n4. Boil all for twenty minutes.\n5. Pour into a border mould.\n6. When set, turn out, and serve with whipped cream in the centre.",
+    "originalIngredients": [
+      "1 lb. prunes",
+      "3 oz. sugar",
+      "1/2 oz. gelatine",
+      "1 glass brandy",
+      "1 pt. water",
+      "A few drops cochineal",
+      "Juice and rind of 1 lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

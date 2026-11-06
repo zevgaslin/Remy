@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "ddaaa284-a273-51ca-aeae-82c0fa649c75",
+  "name": "Asparagus Soup",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large bunches of asparagus",
+      "originalText": "four large bunches of asparagus",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "inch of the tops of asparagus",
+      "originalText": "one inch of the tops of asparagus",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of bacon",
+      "originalText": "a piece of bacon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large onion cut up",
+      "originalText": "a large onion cut up",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "two quarts of water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chicken cut up",
+      "originalText": "a chicken cut up",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the tops of asparagus which had been laid by",
+      "originalText": "the tops of asparagus which had been laid by",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scrape the asparagus nicely, cut off one inch of the tops, and lay them in water.",
+      "section": null
+    },
+    {
+      "text": "Chop the stalks and put them on the fire with a piece of bacon, a large onion cut up, and pepper and salt;",
+      "section": null
+    },
+    {
+      "text": "Add two quarts of water, boil them till the stalks are quite soft, then pulp them through a sieve, and strain the water to it, which must be put back in the pot;",
+      "section": null
+    },
+    {
+      "text": "Put into it a chicken cut up, with the tops of asparagus which had been laid by, boil it until these last articles are sufficiently done, thicken with flour, butter and milk, and serve it up.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/asparagus-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scrape the asparagus nicely, cut off one inch of the tops, and lay them in water.\n2. Chop the stalks and put them on the fire with a piece of bacon, a large onion cut up, and pepper and salt;\n3. Add two quarts of water, boil them till the stalks are quite soft, then pulp them through a sieve, and strain the water to it, which must be put back in the pot;\n4. Put into it a chicken cut up, with the tops of asparagus which had been laid by, boil it until these last articles are sufficiently done, thicken with flour, butter and milk, and serve it up.",
+    "originalIngredients": [
+      "four large bunches of asparagus",
+      "one inch of the tops of asparagus",
+      "a piece of bacon",
+      "a large onion cut up",
+      "pepper and salt",
+      "two quarts of water",
+      "a chicken cut up",
+      "the tops of asparagus which had been laid by"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

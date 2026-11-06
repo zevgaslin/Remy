@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "5fe1a12a-f28a-5fb0-a51a-c041c4acc26f",
+  "name": "Common Pie Crust",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "superfine flour",
+      "originalText": "two quarts of superfine flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "one pound of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift two quarts of superfine flour into a pan.",
+      "section": null
+    },
+    {
+      "text": "Divide one pound of fresh butter into two equal parts, and cut up one half in the flour, rubbing it fine.",
+      "section": null
+    },
+    {
+      "text": "Mix it with a very little cold water, and make it into a round lump.",
+      "section": null
+    },
+    {
+      "text": "Knead it a little.",
+      "section": null
+    },
+    {
+      "text": "Flour your paste-board, and roll the dough out into a large thin sheet.",
+      "section": null
+    },
+    {
+      "text": "Spread it all over with the remainder of the butter.",
+      "section": null
+    },
+    {
+      "text": "Flour it, fold it up, and roll it out again.",
+      "section": null
+    },
+    {
+      "text": "Then fold it again, or roll it into a scroll.",
+      "section": null
+    },
+    {
+      "text": "Cut it into as many pieces as you want sheets of paste, and roll each not quite an inch thick.",
+      "section": null
+    },
+    {
+      "text": "Butter your pie-dish.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/common-pie-crust.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift two quarts of superfine flour into a pan.\n2. Divide one pound of fresh butter into two equal parts, and cut up one half in the flour, rubbing it fine.\n3. Mix it with a very little cold water, and make it into a round lump.\n4. Knead it a little.\n5. Flour your paste-board, and roll the dough out into a large thin sheet.\n6. Spread it all over with the remainder of the butter.\n7. Flour it, fold it up, and roll it out again.\n8. Then fold it again, or roll it into a scroll.\n9. Cut it into as many pieces as you want sheets of paste, and roll each not quite an inch thick.\n10. Butter your pie-dish.",
+    "originalIngredients": [
+      "two quarts of superfine flour",
+      "one pound of fresh butter",
+      "cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

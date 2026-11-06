@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "f1af2e98-cf2f-55f1-a08c-013d4c52e506",
+  "name": "Cream Méringues",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs (the whites only), whipped stiff, with 1 lb. powdered sugar",
+      "originalText": "4 eggs (the whites only), whipped stiff, with 1 lb. powdered sugar",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Lemon or vanilla flavoring",
+      "originalText": "Lemon or vanilla flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "arrowroot",
+      "originalText": "1 teaspoonful arrowroot",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "When very stiff, heap in the shape of half an egg upon stiff letter-paper lining the bottom of your baking-pan",
+      "section": null
+    },
+    {
+      "text": "Have them half an inch apart",
+      "section": null
+    },
+    {
+      "text": "Do not shut the oven-door closely, but leave a space through which you can watch them",
+      "section": null
+    },
+    {
+      "text": "When they are a light yellow-brown, take them out and cool quickly",
+      "section": null
+    },
+    {
+      "text": "Slip a thin-bladed knife under each; scoop out the soft inside, and fill with cream whipped as for Charlotte Russe",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cream-m-ringues.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. When very stiff, heap in the shape of half an egg upon stiff letter-paper lining the bottom of your baking-pan\n2. Have them half an inch apart\n3. Do not shut the oven-door closely, but leave a space through which you can watch them\n4. When they are a light yellow-brown, take them out and cool quickly\n5. Slip a thin-bladed knife under each; scoop out the soft inside, and fill with cream whipped as for Charlotte Russe",
+    "originalIngredients": [
+      "4 eggs (the whites only), whipped stiff, with 1 lb. powdered sugar",
+      "Lemon or vanilla flavoring",
+      "1 teaspoonful arrowroot"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

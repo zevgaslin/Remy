@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "ce766747-3b6c-5c1f-946b-d73dc9573dbb",
+  "name": "Mushrooms On Toast",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "mushrooms",
+      "originalText": "a quart of mushrooms",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "an ounce of butter",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raw minced steak",
+      "originalText": "half a pound of raw minced steak",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cayenne",
+      "originalText": "cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot water",
+      "originalText": "a gill of hot water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot toast",
+      "originalText": "hot toast",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Peel a quart of mushrooms and cut off a little of the root end.",
+      "section": null
+    },
+    {
+      "text": "Melt an ounce of butter in the frying pan and fry in it half a pound of raw minced steak; add two saltspoonfuls of salt, a pinch of cayenne and a gill of hot water; fry until the juices are extracted from the meat.",
+      "section": null
+    },
+    {
+      "text": "Tilt the pan and squeeze the meat with the back of the spoon until there is nothing left but dry meat, then remove it.",
+      "section": null
+    },
+    {
+      "text": "Add the mushrooms to the liquid and if there is not enough of it, add more butter; toss them about a moment and pour out on hot toast.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mushrooms-on-toast.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Peel a quart of mushrooms and cut off a little of the root end.\n2. Melt an ounce of butter in the frying pan and fry in it half a pound of raw minced steak; add two saltspoonfuls of salt, a pinch of cayenne and a gill of hot water; fry until the juices are extracted from the meat.\n3. Tilt the pan and squeeze the meat with the back of the spoon until there is nothing left but dry meat, then remove it.\n4. Add the mushrooms to the liquid and if there is not enough of it, add more butter; toss them about a moment and pour out on hot toast.",
+    "originalIngredients": [
+      "a quart of mushrooms",
+      "an ounce of butter",
+      "half a pound of raw minced steak",
+      "salt",
+      "cayenne",
+      "a gill of hot water",
+      "hot toast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

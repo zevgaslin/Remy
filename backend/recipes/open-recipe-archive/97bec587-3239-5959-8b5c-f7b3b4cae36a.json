@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "97bec587-3239-5959-8b5c-f7b3b4cae36a",
+  "name": "A Baked Bread Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "stale five cent loaf of bread",
+      "originalText": "a stale five cent loaf of bread",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich milk",
+      "originalText": "a quart of rich milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of sugar",
+      "originalText": "a quarter of a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a glass of wine and brandy mixed, or a glass of rose water, or the grated peel of a large lemon",
+      "originalText": "a glass of wine and brandy mixed, or a glass of rose water, or the grated peel of a large lemon",
+      "quantity": null,
+      "quantityText": "a glass of wine and brandy mixed, or a glass of rose water, or the grated peel of a large lemon",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed cinnamon and nutmeg powdered",
+      "originalText": "a table-spoonful of mixed cinnamon and nutmeg powdered",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "seven or eight eggs",
+      "originalText": "seven or eight eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a stale five cent loaf of bread; cut off all the crust, and grate or rub the crumb as fine as possible.",
+      "section": null
+    },
+    {
+      "text": "Boil a quart of rich milk, and pour it hot over the bread.",
+      "section": null
+    },
+    {
+      "text": "Stir in a quarter of a pound of butter, and the same quantity of sugar, a glass of wine and brandy mixed, or a glass of rose water, or the grated peel of a large lemon.",
+      "section": null
+    },
+    {
+      "text": "Add a table-spoonful of mixed cinnamon and nutmeg powdered.",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very well, cover it, and set it away for half an hour.",
+      "section": null
+    },
+    {
+      "text": "Let it cool.",
+      "section": null
+    },
+    {
+      "text": "Beat seven or eight eggs very light, and stir them gradually into the mixture after it is cold.",
+      "section": null
+    },
+    {
+      "text": "Butter a deep dish, and bake the pudding an hour.",
+      "section": null
+    },
+    {
+      "text": "Send it to table cool.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-baked-bread-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a stale five cent loaf of bread; cut off all the crust, and grate or rub the crumb as fine as possible.\n2. Boil a quart of rich milk, and pour it hot over the bread.\n3. Stir in a quarter of a pound of butter, and the same quantity of sugar, a glass of wine and brandy mixed, or a glass of rose water, or the grated peel of a large lemon.\n4. Add a table-spoonful of mixed cinnamon and nutmeg powdered.\n5. Stir the whole very well, cover it, and set it away for half an hour.\n6. Let it cool.\n7. Beat seven or eight eggs very light, and stir them gradually into the mixture after it is cold.\n8. Butter a deep dish, and bake the pudding an hour.\n9. Send it to table cool.",
+    "originalIngredients": [
+      "a stale five cent loaf of bread",
+      "a quart of rich milk",
+      "a quarter of a pound of butter",
+      "a quarter of a pound of sugar",
+      "a glass of wine and brandy mixed, or a glass of rose water, or the grated peel of a large lemon",
+      "a table-spoonful of mixed cinnamon and nutmeg powdered",
+      "seven or eight eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "64a18855-ae91-5034-9985-442ac5a46bbd",
+  "name": "Excelsior Lobster Salad with Cream Dressing",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "1 fine lobster, boiled and when cold picked to pieces, or two small ones",
+      "originalText": "1 fine lobster, boiled and when cold picked to pieces, or two small ones",
+      "quantity": null,
+      "quantityText": "1 fine lobster, boiled and when cold picked to pieces, or two small ones",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "best salad oil",
+      "originalText": "1 cup of best salad oil",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup sweet cream, whipped light to a cupful of froth",
+      "originalText": "½ cup sweet cream, whipped light to a cupful of froth",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon—the juice strained",
+      "originalText": "1 lemon—the juice strained",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard wet up with vinegar",
+      "originalText": "1 teaspoonful mustard wet up with vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "1 tablespoonful powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of cayenne pepper",
+      "originalText": "A pinch of cayenne pepper",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "4 tablespoonfuls vinegar",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Beaten yolks of two eggs",
+      "originalText": "Beaten yolks of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat eggs, sugar, salt, mustard, and pepper until light; then, and very gradually, the oil.",
+      "section": null
+    },
+    {
+      "text": "When the mixture is quite thick, whip in the lemon.",
+      "section": null
+    },
+    {
+      "text": "Beat five minutes before putting in the vinegar.",
+      "section": null
+    },
+    {
+      "text": "Just before the salad goes to table add half the whipped cream to this dressing and stir well into the lobster.",
+      "section": null
+    },
+    {
+      "text": "Line the salad-bowl with lettuce-leaves; put in the seasoned meat and cover with the rest of the whipped cream.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/excelsior-lobster-salad-with-cream-dressing.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat eggs, sugar, salt, mustard, and pepper until light; then, and very gradually, the oil.\n2. When the mixture is quite thick, whip in the lemon.\n3. Beat five minutes before putting in the vinegar.\n4. Just before the salad goes to table add half the whipped cream to this dressing and stir well into the lobster.\n5. Line the salad-bowl with lettuce-leaves; put in the seasoned meat and cover with the rest of the whipped cream.",
+    "originalIngredients": [
+      "1 fine lobster, boiled and when cold picked to pieces, or two small ones",
+      "1 cup of best salad oil",
+      "½ cup sweet cream, whipped light to a cupful of froth",
+      "1 lemon—the juice strained",
+      "1 teaspoonful mustard wet up with vinegar",
+      "1 tablespoonful powdered sugar",
+      "1 teaspoonful salt",
+      "A pinch of cayenne pepper",
+      "4 tablespoonfuls vinegar",
+      "Beaten yolks of two eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

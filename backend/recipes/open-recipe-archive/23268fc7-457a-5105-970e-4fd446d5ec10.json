@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "23268fc7-457a-5105-970e-4fd446d5ec10",
+  "name": "Ribbon Cake (Second Recipe)",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet milk",
+      "originalText": "1 cup sweet milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup butter",
+      "originalText": "½ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 cups flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream tartar",
+      "originalText": "1 teaspoon cream tartar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon soda",
+      "originalText": "½ teaspoon soda",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1 teaspoon molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon each cinnamon, cloves, allspice and nutmeg",
+      "originalText": "½ teaspoon each cinnamon, cloves, allspice and nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup each raisins and currants",
+      "originalText": "½ cup each raisins and currants",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "jelly for putting together",
+      "originalText": "jelly for putting together",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dissolve the soda in the milk",
+      "section": null
+    },
+    {
+      "text": "Mix the cream tartar in the flour",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs, sugar and butter well together",
+      "section": null
+    },
+    {
+      "text": "Add the milk and flour",
+      "section": null
+    },
+    {
+      "text": "Take 1 cup of this mixture, 1 teaspoon molasses, ½ teaspoon each cinnamon, cloves, allspice and nutmeg, ½ cup each raisins and currants",
+      "section": null
+    },
+    {
+      "text": "Dredge the raisins and currants with flour, mix with the molasses and spices into the cup batter taken from the first",
+      "section": null
+    },
+    {
+      "text": "Bake in oblong tins in 3 layers, put together with jelly, the dark part between the light parts",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/ribbon-cake-second-recipe.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dissolve the soda in the milk\n2. Mix the cream tartar in the flour\n3. Beat the eggs, sugar and butter well together\n4. Add the milk and flour\n5. Take 1 cup of this mixture, 1 teaspoon molasses, ½ teaspoon each cinnamon, cloves, allspice and nutmeg, ½ cup each raisins and currants\n6. Dredge the raisins and currants with flour, mix with the molasses and spices into the cup batter taken from the first\n7. Bake in oblong tins in 3 layers, put together with jelly, the dark part between the light parts",
+    "originalIngredients": [
+      "1 cup sweet milk",
+      "½ cup butter",
+      "3 eggs",
+      "2 cups flour",
+      "1 teaspoon cream tartar",
+      "½ teaspoon soda",
+      "1 cup sugar",
+      "1 teaspoon molasses",
+      "½ teaspoon each cinnamon, cloves, allspice and nutmeg",
+      "½ cup each raisins and currants",
+      "jelly for putting together"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

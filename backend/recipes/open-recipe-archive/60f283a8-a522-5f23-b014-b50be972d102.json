@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "60f283a8-a522-5f23-b014-b50be972d102",
+  "name": "Self-Freezing Ice-Cream",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rich milk",
+      "originalText": "1 quart rich milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs—whites and yolks beaten separately and very light",
+      "originalText": "8 eggs—whites and yolks beaten separately and very light",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "4 cups sugar",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich sweet cream",
+      "originalText": "3 pints rich sweet cream",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "5 teaspoonfuls vanilla or other seasoning, or 1 vanilla bean, broken in two, boiled in the custard, and left in until it is cold",
+      "originalText": "5 teaspoonfuls vanilla or other seasoning, or 1 vanilla bean, broken in two, boiled in the custard, and left in until it is cold",
+      "quantity": null,
+      "quantityText": "5 teaspoonfuls vanilla or other seasoning, or 1 vanilla bean, broken in two, boiled in the custard, and left in until it is cold",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the milk almost to boiling, beat the eggs light, add the sugar, and stir up well.",
+      "section": null
+    },
+    {
+      "text": "Pour the hot milk to this, little by little, beating all the while, and return to the fire—boiling in a pail or saucepan set within one of hot water.",
+      "section": null
+    },
+    {
+      "text": "Stir the mixture steadily about fifteen minutes, or until it is thick as boiled custard.",
+      "section": null
+    },
+    {
+      "text": "Pour into a bowl and set aside to cool.",
+      "section": null
+    },
+    {
+      "text": "When quite cold, beat in the cream, and the flavoring, unless you have used the bean.",
+      "section": null
+    },
+    {
+      "text": "Have ready a quantity of ice, cracked in pieces not larger than a pigeon egg—the smaller the better. You can manage this easily by laying a great lump of ice between two folds of coarse sacking or an old carpet, tucking it in snugly, and battering it, through the cloth, with a sledge-hammer or mallet until fine enough.",
+      "section": null
+    },
+    {
+      "text": "Use an ordinary old-fashioned upright freezer, set in a deep pail; pack around it closely, first, a layer of pounded ice, then one of rock salt—common salt will not do so well. In this order fill the pail.",
+      "section": null
+    },
+    {
+      "text": "Before covering the freezer-lid, remove it carefully that none of the salt may get in, and, with a long wooden ladle or flat stick, beat the custard as you would batter, for five minutes, without stay or stint.",
+      "section": null
+    },
+    {
+      "text": "Replace the lid, pack the ice and salt upon it, patting it down hard on top; cover all with several folds of blanket or carpet, and leave it for one hour.",
+      "section": null
+    },
+    {
+      "text": "Remove the cover of the freezer when you have wiped it carefully outside.",
+      "section": null
+    },
+    {
+      "text": "Dislodge the frozen custard from the bottom and sides with your ladle or a long carving-knife, working every particle of it clear.",
+      "section": null
+    },
+    {
+      "text": "Beat again hard and long until the custard is a smooth, half-congealed paste.",
+      "section": null
+    },
+    {
+      "text": "Put on the cover, pack in more ice and salt, and turn off the brine.",
+      "section": null
+    },
+    {
+      "text": "Spread the double carpet over all once more, having buried the freezer out of sight in ice, and leave it for three or four hours.",
+      "section": null
+    },
+    {
+      "text": "If the water has accumulated in such quantity as to buoy up the freezer, pour it off, fill up with ice and salt, but do not open the freezer.",
+      "section": null
+    },
+    {
+      "text": "In two hours more you may take it from the ice, open it, wrap a towel wrung out in boiling water about the lower part, and turn out a solid column of cream, firm, close-grained, and smooth as velvet to the tongue.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/self-freezing-ice-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the milk almost to boiling, beat the eggs light, add the sugar, and stir up well.\n2. Pour the hot milk to this, little by little, beating all the while, and return to the fire—boiling in a pail or saucepan set within one of hot water.\n3. Stir the mixture steadily about fifteen minutes, or until it is thick as boiled custard.\n4. Pour into a bowl and set aside to cool.\n5. When quite cold, beat in the cream, and the flavoring, unless you have used the bean.\n6. Have ready a quantity of ice, cracked in pieces not larger than a pigeon egg—the smaller the better. You can manage this easily by laying a great lump of ice between two folds of coarse sacking or an old carpet, tucking it in snugly, and battering it, through the cloth, with a sledge-hammer or mallet until fine enough.\n7. Use an ordinary old-fashioned upright freezer, set in a deep pail; pack around it closely, first, a layer of pounded ice, then one of rock salt—common salt will not do so well. In this order fill the pail.\n8. Before covering the freezer-lid, remove it carefully that none of the salt may get in, and, with a long wooden ladle or flat stick, beat the custard as you would batter, for five minutes, without stay or stint.\n9. Replace the lid, pack the ice and salt upon it, patting it down hard on top; cover all with several folds of blanket or carpet, and leave it for one hour.\n10. Remove the cover of the freezer when you have wiped it carefully outside.\n11. Dislodge the frozen custard from the bottom and sides with your ladle or a long carving-knife, working every particle of it clear.\n12. Beat again hard and long until the custard is a smooth, half-congealed paste.\n13. Put on the cover, pack in more ice and salt, and turn off the brine.\n14. Spread the double carpet over all once more, having buried the freezer out of sight in ice, and leave it for three or four hours.\n15. If the water has accumulated in such quantity as to buoy up the freezer, pour it off, fill up with ice and salt, but do not open the freezer.\n16. In two hours more you may take it from the ice, open it, wrap a towel wrung out in boiling water about the lower part, and turn out a solid column of cream, firm, close-grained, and smooth as velvet to the tongue.",
+    "originalIngredients": [
+      "1 quart rich milk",
+      "8 eggs—whites and yolks beaten separately and very light",
+      "4 cups sugar",
+      "3 pints rich sweet cream",
+      "5 teaspoonfuls vanilla or other seasoning, or 1 vanilla bean, broken in two, boiled in the custard, and left in until it is cold"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

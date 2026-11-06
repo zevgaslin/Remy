@@ -1,5 +1,7 @@
 # Prepared recipe catalog
 
+The `open-recipe-archive/` folder contains 1,000 attributed historical recipes prepared by the [automated archive importer](../../docs/recipes/open-recipe-archive.md). This batch preserves source methods and has not received individual beginner-method review. Unknown nutrition and timings remain null.
+
 The 13 JSON files at this folder's root rewrite the existing sample recipes using the [version 1 format](../../docs/recipes/README.md). The `web-import-2026-10-16/` subfolder contains 100 additional website-sourced recipes; see the [source catalog](../../docs/recipes/website-batch-2026-10-16.md). Run the loader explicitly after adding or changing files; files are not watched automatically.
 
 ## Importing into Supabase

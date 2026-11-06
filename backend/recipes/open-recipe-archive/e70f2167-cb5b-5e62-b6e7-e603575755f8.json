@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "e70f2167-cb5b-5e62-b6e7-e603575755f8",
+  "name": "Lemon Pudding",
+  "description": "Historical recipe from American Cookery (1796). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "grated yellow of the peals of three lemons",
+      "originalText": "grated yellow of the peals of three lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whole lemons",
+      "originalText": "two whole lemons",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soft wheat bread",
+      "originalText": "ten ounces soft wheat bread",
+      "quantity": 10.0,
+      "quantityText": "ten",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "scalded white wine",
+      "originalText": "a pint of scalded white wine",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites and eight yolks",
+      "originalText": "four whites and eight yolks",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound of melted butter",
+      "originalText": "three quarters of a pound of melted butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine sugar",
+      "originalText": "one pound fine sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate the yellow of the peals of three lemons, then take two whole lemons, roll under your hand on the table till soft, taking care not to burst them, cut and squeeze them into the grated peals.",
+      "section": null
+    },
+    {
+      "text": "Take ten ounces soft wheat bread, and put a pint of scalded white wine thereto, let soak and put to No. 1.",
+      "section": null
+    },
+    {
+      "text": "Beat four whites and eight yolks, and put to above, adding three quarters of a pound of melted butter, (which let be very fresh and good) one pound fine sugar, beat all together till thoroughly mixed.",
+      "section": null
+    },
+    {
+      "text": "Lay paste No. 7 or 9 on a dish, plate or saucers, and fill with above composition.",
+      "section": null
+    },
+    {
+      "text": "Bake near 1 hour, and when baked--stick on pieces of paste, cut with a jagging iron or a doughspur to your fancy, baked lightly on a floured paper; garnished thus, they may be served hot or cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Amelia Simmons",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate the yellow of the peals of three lemons, then take two whole lemons, roll under your hand on the table till soft, taking care not to burst them, cut and squeeze them into the grated peals.\n2. Take ten ounces soft wheat bread, and put a pint of scalded white wine thereto, let soak and put to No. 1.\n3. Beat four whites and eight yolks, and put to above, adding three quarters of a pound of melted butter, (which let be very fresh and good) one pound fine sugar, beat all together till thoroughly mixed.\n4. Lay paste No. 7 or 9 on a dish, plate or saucers, and fill with above composition.\n5. Bake near 1 hour, and when baked--stick on pieces of paste, cut with a jagging iron or a doughspur to your fancy, baked lightly on a floured paper; garnished thus, they may be served hot or cold.",
+    "originalIngredients": [
+      "grated yellow of the peals of three lemons",
+      "two whole lemons",
+      "ten ounces soft wheat bread",
+      "a pint of scalded white wine",
+      "four whites and eight yolks",
+      "three quarters of a pound of melted butter",
+      "one pound fine sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: American Cookery (1796), https://www.gutenberg.org/ebooks/12815. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

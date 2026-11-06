@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "f32fc8bb-2def-5f79-8352-e2b3c0035b59",
+  "name": "Johnny Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Indian meal",
+      "originalText": "a quart of Indian meal",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "a pint of warm water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of salt",
+      "originalText": "a small tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift a quart of Indian meal into a pan; make a hole in the middle, and pour in a pint of warm water.",
+      "section": null
+    },
+    {
+      "text": "Mix the meal and water gradually into a batter, adding a small tea-spoonful of salt.",
+      "section": null
+    },
+    {
+      "text": "Beat it very hard, and for a long time, till it becomes quite light.",
+      "section": null
+    },
+    {
+      "text": "Spread it thick and even on a stout piece of smooth board.",
+      "section": null
+    },
+    {
+      "text": "Place it upright on the hearth before a clear fire, with a flat iron or something of the sort to support the board behind, and bake it well.",
+      "section": null
+    },
+    {
+      "text": "Cut it into squares, and split and butter them hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/johnny-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift a quart of Indian meal into a pan; make a hole in the middle, and pour in a pint of warm water.\n2. Mix the meal and water gradually into a batter, adding a small tea-spoonful of salt.\n3. Beat it very hard, and for a long time, till it becomes quite light.\n4. Spread it thick and even on a stout piece of smooth board.\n5. Place it upright on the hearth before a clear fire, with a flat iron or something of the sort to support the board behind, and bake it well.\n6. Cut it into squares, and split and butter them hot.",
+    "originalIngredients": [
+      "a quart of Indian meal",
+      "a pint of warm water",
+      "a small tea-spoonful of salt",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "66609f73-e68d-5186-9c92-ceb920fc57c0",
+  "name": "Potato Biscuit",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "good-sized potatoes",
+      "originalText": "six good-sized potatoes",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "one egg",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "one pint of sweet milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "half a cup of yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil six good-sized potatoes with their jackets on",
+      "section": null
+    },
+    {
+      "text": "Take them out with a skimmer, drain and squeeze with a towel to ensure being dry",
+      "section": null
+    },
+    {
+      "text": "Remove the skin and mash them perfectly free from lumps",
+      "section": null
+    },
+    {
+      "text": "Add a tablespoonful of butter, one egg and a pint of sweet milk",
+      "section": null
+    },
+    {
+      "text": "When cool, beat in half a cup of yeast",
+      "section": null
+    },
+    {
+      "text": "Put in just enough flour to make a stiff dough",
+      "section": null
+    },
+    {
+      "text": "When this rises, make into small cakes",
+      "section": null
+    },
+    {
+      "text": "Let them rise the same as biscuit and bake a delicate brown",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/potato-biscuit-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil six good-sized potatoes with their jackets on\n2. Take them out with a skimmer, drain and squeeze with a towel to ensure being dry\n3. Remove the skin and mash them perfectly free from lumps\n4. Add a tablespoonful of butter, one egg and a pint of sweet milk\n5. When cool, beat in half a cup of yeast\n6. Put in just enough flour to make a stiff dough\n7. When this rises, make into small cakes\n8. Let them rise the same as biscuit and bake a delicate brown",
+    "originalIngredients": [
+      "six good-sized potatoes",
+      "one tablespoonful of butter",
+      "one egg",
+      "one pint of sweet milk",
+      "half a cup of yeast",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

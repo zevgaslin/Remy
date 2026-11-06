@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "b0caba34-7439-5f5f-81ce-a9314f76b122",
+  "name": "Hot Potato Salad",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "medium-sized potatoes",
+      "originalText": "six medium-sized potatoes",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "celery",
+      "originalText": "celery",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "parsley",
+      "originalText": "parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tarragon vinegar",
+      "originalText": "two tablespoons tarragon vinegar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cider vinegar",
+      "originalText": "two tablespoons cider vinegar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "olive oil",
+      "originalText": "four tablespoons olive oil",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon",
+      "originalText": "one slice lemon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash six medium-sized potatoes, and cook in boiling salted water until soft.",
+      "section": null
+    },
+    {
+      "text": "Cool, remove skins, and cut in very thin slices.",
+      "section": null
+    },
+    {
+      "text": "Cover bottom of baking-dish with potatoes, season with salt and pepper, sprinkle with finely chopped celery, then with finely chopped parsley.",
+      "section": null
+    },
+    {
+      "text": "Mix two tablespoons each tarragon and cider vinegar and four tablespoons olive oil, and add one slice lemon cut one-third inch thick.",
+      "section": null
+    },
+    {
+      "text": "Bring to boiling-point, pour over potatoes, cover, and let stand in oven until thoroughly warmed.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/hot-potato-salad.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash six medium-sized potatoes, and cook in boiling salted water until soft.\n2. Cool, remove skins, and cut in very thin slices.\n3. Cover bottom of baking-dish with potatoes, season with salt and pepper, sprinkle with finely chopped celery, then with finely chopped parsley.\n4. Mix two tablespoons each tarragon and cider vinegar and four tablespoons olive oil, and add one slice lemon cut one-third inch thick.\n5. Bring to boiling-point, pour over potatoes, cover, and let stand in oven until thoroughly warmed.",
+    "originalIngredients": [
+      "six medium-sized potatoes",
+      "salt",
+      "pepper",
+      "celery",
+      "parsley",
+      "two tablespoons tarragon vinegar",
+      "two tablespoons cider vinegar",
+      "four tablespoons olive oil",
+      "one slice lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

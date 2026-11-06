@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "ebcd53f5-6856-5791-8f35-6e4948c174c0",
+  "name": "Bran Batter-Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bran",
+      "originalText": "a quart of bran",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of wheat flour",
+      "originalText": "a handful of wheat flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "level tea-spoonful of salt",
+      "originalText": "a level tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk-warm water",
+      "originalText": "milk-warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two table-spoonfuls of brewer's yeast or three if home-made",
+      "originalText": "two table-spoonfuls of brewer's yeast or three if home-made",
+      "quantity": null,
+      "quantityText": "two table-spoonfuls of brewer's yeast or three if home-made",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt-spoonful of soda",
+      "originalText": "a salt-spoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm water",
+      "originalText": "warm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix a quart of bran with a handful of wheat flour, and a level tea-spoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Pour in sufficient milk-warm water to make a thick batter",
+      "section": null
+    },
+    {
+      "text": "Add two table-spoonfuls of brewer's yeast, or three, if home-made",
+      "section": null
+    },
+    {
+      "text": "Stir it very hard",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it by the fire to rise",
+      "section": null
+    },
+    {
+      "text": "Half an hour before you begin to bake, you may add a salt-spoonful of soda, melted in a little warm water",
+      "section": null
+    },
+    {
+      "text": "Bake it like buckwheat cakes, on a griddle",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bran-batter-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix a quart of bran with a handful of wheat flour, and a level tea-spoonful of salt\n2. Pour in sufficient milk-warm water to make a thick batter\n3. Add two table-spoonfuls of brewer's yeast, or three, if home-made\n4. Stir it very hard\n5. Cover it, and set it by the fire to rise\n6. Half an hour before you begin to bake, you may add a salt-spoonful of soda, melted in a little warm water\n7. Bake it like buckwheat cakes, on a griddle",
+    "originalIngredients": [
+      "a quart of bran",
+      "a handful of wheat flour",
+      "a level tea-spoonful of salt",
+      "milk-warm water",
+      "two table-spoonfuls of brewer's yeast or three if home-made",
+      "a salt-spoonful of soda",
+      "warm water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

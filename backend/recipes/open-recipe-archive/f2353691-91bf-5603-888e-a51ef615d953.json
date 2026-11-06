@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "f2353691-91bf-5603-888e-a51ef615d953",
+  "name": "Cold Fruit Pudding",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "new milk",
+      "originalText": "a pint of new milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thin rind of a lemon",
+      "originalText": "thin rind of a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small pinch of salt",
+      "originalText": "a small pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three-quarters of an ounce of the finest isinglass or gelatine",
+      "originalText": "three-quarters of an ounce of the finest isinglass or gelatine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "five ounces of powdered sugar",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich cream",
+      "originalText": "half a pint of rich cream",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of five eggs",
+      "originalText": "yolks of five eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange-flower water or vanilla",
+      "originalText": "orange-flower water or vanilla",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron cut in thin strips",
+      "originalText": "two ounces of citron cut in thin strips",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "candied cherries",
+      "originalText": "two ounces of candied cherries",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Throw into a pint of new milk the thin rind of a lemon, heat it slowly by the side of the fire and keep at the boiling point until strongly flavored",
+      "section": null
+    },
+    {
+      "text": "Sprinkle in a small pinch of salt and three-quarters of an ounce of the finest isinglass or gelatine",
+      "section": null
+    },
+    {
+      "text": "When dissolved, strain through muslin into a clean saucepan with five ounces of powdered sugar and half a pint of rich cream",
+      "section": null
+    },
+    {
+      "text": "Give the whole one boil, stir it briskly and add by degrees the well-beaten yolks of five eggs",
+      "section": null
+    },
+    {
+      "text": "Thicken the mixture as a custard over a slow fire, taking care not to keep it over the fire a moment longer than necessary",
+      "section": null
+    },
+    {
+      "text": "Pour it into a basin and flavor with orange-flower water or vanilla",
+      "section": null
+    },
+    {
+      "text": "Stir until nearly cold, then add two ounces of citron cut in thin strips and two ounces of candied cherries",
+      "section": null
+    },
+    {
+      "text": "Pour into a buttered mold",
+      "section": null
+    },
+    {
+      "text": "Use any kind of fruit syrup for sauce",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cold-fruit-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Throw into a pint of new milk the thin rind of a lemon, heat it slowly by the side of the fire and keep at the boiling point until strongly flavored\n2. Sprinkle in a small pinch of salt and three-quarters of an ounce of the finest isinglass or gelatine\n3. When dissolved, strain through muslin into a clean saucepan with five ounces of powdered sugar and half a pint of rich cream\n4. Give the whole one boil, stir it briskly and add by degrees the well-beaten yolks of five eggs\n5. Thicken the mixture as a custard over a slow fire, taking care not to keep it over the fire a moment longer than necessary\n6. Pour it into a basin and flavor with orange-flower water or vanilla\n7. Stir until nearly cold, then add two ounces of citron cut in thin strips and two ounces of candied cherries\n8. Pour into a buttered mold\n9. Use any kind of fruit syrup for sauce",
+    "originalIngredients": [
+      "a pint of new milk",
+      "thin rind of a lemon",
+      "a small pinch of salt",
+      "three-quarters of an ounce of the finest isinglass or gelatine",
+      "five ounces of powdered sugar",
+      "half a pint of rich cream",
+      "yolks of five eggs",
+      "orange-flower water or vanilla",
+      "two ounces of citron cut in thin strips",
+      "two ounces of candied cherries"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

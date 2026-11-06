@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "cce7c8d2-ffdb-531b-8b41-8c13216c5801",
+  "name": "Baked Apple Dumplings",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 quart flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 tablespoonfuls lard, or half butter",
+      "originalText": "2 tablespoonfuls lard, or half butter",
+      "quantity": null,
+      "quantityText": "2 tablespoonfuls lard, or half butter",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "2 cups of milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda, dissolved in hot water",
+      "originalText": "1 teaspoonful soda, dissolved in hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream-tartar",
+      "originalText": "2 teaspoonfuls cream-tartar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful salt",
+      "originalText": "1 saltspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "juicy, tart apples, pared and cored",
+      "originalText": "juicy, tart apples, pared and cored",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beaten egg",
+      "originalText": "beaten egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Chop the shortening into the flour after you have sifted this and the cream-tartar together; put in the soda and wet up quickly—just stiff enough to roll into a paste less than half an inch thick.",
+      "section": null
+    },
+    {
+      "text": "Cut into squares, and lay in the centre of each a juicy, tart apple, pared and cored; bring the corners of the square neatly together and pinch them slightly.",
+      "section": null
+    },
+    {
+      "text": "Lay in a buttered baking-pan, the joined edges downward, and bake to a fine brown.",
+      "section": null
+    },
+    {
+      "text": "When done, brush over with beaten egg, and set back in the oven to glaze for two or three minutes.",
+      "section": null
+    },
+    {
+      "text": "Sift powdered sugar over them, and eat hot with rich sweet sauce.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/baked-apple-dumplings-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Chop the shortening into the flour after you have sifted this and the cream-tartar together; put in the soda and wet up quickly—just stiff enough to roll into a paste less than half an inch thick.\n2. Cut into squares, and lay in the centre of each a juicy, tart apple, pared and cored; bring the corners of the square neatly together and pinch them slightly.\n3. Lay in a buttered baking-pan, the joined edges downward, and bake to a fine brown.\n4. When done, brush over with beaten egg, and set back in the oven to glaze for two or three minutes.\n5. Sift powdered sugar over them, and eat hot with rich sweet sauce.",
+    "originalIngredients": [
+      "1 quart flour",
+      "2 tablespoonfuls lard, or half butter",
+      "2 cups of milk",
+      "1 teaspoonful soda, dissolved in hot water",
+      "2 teaspoonfuls cream-tartar",
+      "1 saltspoonful salt",
+      "juicy, tart apples, pared and cored",
+      "beaten egg",
+      "powdered sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

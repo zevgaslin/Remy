@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "adbb0033-c314-5beb-9b98-951779205325",
+  "name": "To Make Puff Paste",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "a quart of flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift a quart of flour, leave out a little for rolling the paste, make up the remainder with cold water into a stiff paste",
+      "section": null
+    },
+    {
+      "text": "Knead it well, and roll it out several times",
+      "section": null
+    },
+    {
+      "text": "Wash the salt from a pound of butter, divide it into four parts",
+      "section": null
+    },
+    {
+      "text": "Put one of them on the paste in little bits, fold it up, and continue to roll it till the butter is well mixed",
+      "section": null
+    },
+    {
+      "text": "Put another portion of butter, roll it in the same manner",
+      "section": null
+    },
+    {
+      "text": "Do this till all the butter is mingled with the paste",
+      "section": null
+    },
+    {
+      "text": "Touch it very lightly with the hands in making",
+      "section": null
+    },
+    {
+      "text": "Bake it in a moderate oven, that will permit it to rise, but will not make it brown",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/to-make-puff-paste.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift a quart of flour, leave out a little for rolling the paste, make up the remainder with cold water into a stiff paste\n2. Knead it well, and roll it out several times\n3. Wash the salt from a pound of butter, divide it into four parts\n4. Put one of them on the paste in little bits, fold it up, and continue to roll it till the butter is well mixed\n5. Put another portion of butter, roll it in the same manner\n6. Do this till all the butter is mingled with the paste\n7. Touch it very lightly with the hands in making\n8. Bake it in a moderate oven, that will permit it to rise, but will not make it brown",
+    "originalIngredients": [
+      "a quart of flour",
+      "cold water",
+      "a pound of butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "41e7cc9d-9c13-543b-8832-90d92e2b6a34",
+  "name": "Plain Suet Dumplings",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "two pounds of flour",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "beef suet",
+      "originalText": "one pound of beef suet",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift two pounds of flour into a pan, and add a salt-spoon of salt",
+      "section": null
+    },
+    {
+      "text": "Mince very fine one pound of beef suet, and rub it into the flour",
+      "section": null
+    },
+    {
+      "text": "Make it into a stiff dough with a little cold water",
+      "section": null
+    },
+    {
+      "text": "Roll it out an inch thick or rather more",
+      "section": null
+    },
+    {
+      "text": "Cut it into dumplings with the edge of a tumbler",
+      "section": null
+    },
+    {
+      "text": "Put them into a pot of boiling water, and let them boil an hour and a half",
+      "section": null
+    },
+    {
+      "text": "Send them to table hot, to eat with boiled loin of mutton, or with molasses after the meat is removed",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/plain-suet-dumplings.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift two pounds of flour into a pan, and add a salt-spoon of salt\n2. Mince very fine one pound of beef suet, and rub it into the flour\n3. Make it into a stiff dough with a little cold water\n4. Roll it out an inch thick or rather more\n5. Cut it into dumplings with the edge of a tumbler\n6. Put them into a pot of boiling water, and let them boil an hour and a half\n7. Send them to table hot, to eat with boiled loin of mutton, or with molasses after the meat is removed",
+    "originalIngredients": [
+      "two pounds of flour",
+      "salt",
+      "one pound of beef suet",
+      "cold water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

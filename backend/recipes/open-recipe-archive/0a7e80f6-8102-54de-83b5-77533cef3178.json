@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "0a7e80f6-8102-54de-83b5-77533cef3178",
+  "name": "Wheat Gems",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 quart flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "(small) butter",
+      "originalText": "2 teaspoonfuls (small) butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift the flour with the salt",
+      "section": null
+    },
+    {
+      "text": "Stir the milk in smoothly",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks and whites well and separately",
+      "section": null
+    },
+    {
+      "text": "Stir first the yolks in the milk and flour, then the whites, then the melted butter",
+      "section": null
+    },
+    {
+      "text": "Half fill the gem-pans and bake in a deep pan or on a baking-sheet in a moderate oven for twenty-five minutes; if baked in earthen cups, forty-five minutes",
+      "section": null
+    },
+    {
+      "text": "Let them be thoroughly baked, or they will fall on being taken from the oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/wheat-gems.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift the flour with the salt\n2. Stir the milk in smoothly\n3. Beat the yolks and whites well and separately\n4. Stir first the yolks in the milk and flour, then the whites, then the melted butter\n5. Half fill the gem-pans and bake in a deep pan or on a baking-sheet in a moderate oven for twenty-five minutes; if baked in earthen cups, forty-five minutes\n6. Let them be thoroughly baked, or they will fall on being taken from the oven",
+    "originalIngredients": [
+      "1 quart flour",
+      "1 quart milk",
+      "4 eggs",
+      "1 teaspoonful salt",
+      "2 teaspoonfuls (small) butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

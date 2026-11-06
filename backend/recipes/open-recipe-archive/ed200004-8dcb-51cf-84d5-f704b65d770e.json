@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "ed200004-8dcb-51cf-84d5-f704b65d770e",
+  "name": "Country Syllabub",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "white sugar",
+      "originalText": "half a pound of white sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one pint of fine sweet cider or of white wine",
+      "originalText": "one pint of fine sweet cider or of white wine",
+      "quantity": null,
+      "quantityText": "one pint of fine sweet cider or of white wine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "one nutmeg",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "three pints milk",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy (optional if using cider)",
+      "originalText": "brandy (optional if using cider)",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix half a pound of white sugar with a pint of fine sweet cider or of white wine and grate in a nutmeg",
+      "section": null
+    },
+    {
+      "text": "Prepare them in a large bowl just before milking time",
+      "section": null
+    },
+    {
+      "text": "Have about three pints milked into it, stirring it occasionally with a spoon",
+      "section": null
+    },
+    {
+      "text": "Let it be eaten before the froth subsides",
+      "section": null
+    },
+    {
+      "text": "If you use cider, a little brandy will improve it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/country-syllabub.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix half a pound of white sugar with a pint of fine sweet cider or of white wine and grate in a nutmeg\n2. Prepare them in a large bowl just before milking time\n3. Have about three pints milked into it, stirring it occasionally with a spoon\n4. Let it be eaten before the froth subsides\n5. If you use cider, a little brandy will improve it",
+    "originalIngredients": [
+      "half a pound of white sugar",
+      "one pint of fine sweet cider or of white wine",
+      "one nutmeg",
+      "three pints milk",
+      "brandy (optional if using cider)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "2eede88a-165d-5ef6-a453-19734e5604db",
+  "name": "Omelet Soufflé",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one teaspoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "three tablespoonfuls of powdered sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "very little salt",
+      "originalText": "very little salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "extract lemon or other flavors",
+      "originalText": "extract lemon or other flavors",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pulverized sugar",
+      "originalText": "pulverized sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Break six eggs into separate cups",
+      "section": null
+    },
+    {
+      "text": "Beat four of the yolks, mix with them one teaspoonful of flour, three tablespoonfuls of powdered sugar, very little salt",
+      "section": null
+    },
+    {
+      "text": "Flavor with extract lemon or any other of the flavors that may be preferred",
+      "section": null
+    },
+    {
+      "text": "Whisk the whites of six eggs to a firm froth",
+      "section": null
+    },
+    {
+      "text": "Mix them lightly with the yolks",
+      "section": null
+    },
+    {
+      "text": "Pour the mixture into a greased pan or dish",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven",
+      "section": null
+    },
+    {
+      "text": "When well-risen and lightly browned on the top, it is done",
+      "section": null
+    },
+    {
+      "text": "Roll out in warm dish, sift pulverized sugar over, and send to table",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/omelet-souffl.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Break six eggs into separate cups\n2. Beat four of the yolks, mix with them one teaspoonful of flour, three tablespoonfuls of powdered sugar, very little salt\n3. Flavor with extract lemon or any other of the flavors that may be preferred\n4. Whisk the whites of six eggs to a firm froth\n5. Mix them lightly with the yolks\n6. Pour the mixture into a greased pan or dish\n7. Bake in a quick oven\n8. When well-risen and lightly browned on the top, it is done\n9. Roll out in warm dish, sift pulverized sugar over, and send to table",
+    "originalIngredients": [
+      "six eggs",
+      "one teaspoonful of flour",
+      "three tablespoonfuls of powdered sugar",
+      "very little salt",
+      "extract lemon or other flavors",
+      "pulverized sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

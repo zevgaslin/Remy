@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "bc4c7e69-53b0-52ab-9d5d-a9dc348886ac",
+  "name": "Yam Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "roasted yam",
+      "originalText": "one pound of roasted yam",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "half a pound of white sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a pint of cream or half a pound of butter",
+      "originalText": "a pint of cream or half a pound of butter",
+      "quantity": null,
+      "quantityText": "a pint of cream or half a pound of butter",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose water",
+      "originalText": "a wine glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of wine",
+      "originalText": "one glass of wine",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mashed potato",
+      "originalText": "half a pound of mashed potato",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take one pound of roasted yam, and rub it through a cullender",
+      "section": null
+    },
+    {
+      "text": "Mix with it half a pound of white sugar, a pint of cream or half a pound of butter, a tea-spoonful of powdered cinnamon, a grated nutmeg, and a wine glass of rose water, and one of wine",
+      "section": null
+    },
+    {
+      "text": "Set it away to get cold",
+      "section": null
+    },
+    {
+      "text": "Beat eight eggs very light, and add them by degrees to the mixture, alternately with half a pound of the mashed potato",
+      "section": null
+    },
+    {
+      "text": "Bake it three-quarters of an hour in a buttered dish",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/yam-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take one pound of roasted yam, and rub it through a cullender\n2. Mix with it half a pound of white sugar, a pint of cream or half a pound of butter, a tea-spoonful of powdered cinnamon, a grated nutmeg, and a wine glass of rose water, and one of wine\n3. Set it away to get cold\n4. Beat eight eggs very light, and add them by degrees to the mixture, alternately with half a pound of the mashed potato\n5. Bake it three-quarters of an hour in a buttered dish",
+    "originalIngredients": [
+      "one pound of roasted yam",
+      "half a pound of white sugar",
+      "a pint of cream or half a pound of butter",
+      "a tea-spoonful of powdered cinnamon",
+      "a grated nutmeg",
+      "a wine glass of rose water",
+      "one glass of wine",
+      "eight eggs",
+      "half a pound of mashed potato"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

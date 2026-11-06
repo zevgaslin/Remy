@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "09799379-7487-5f5e-b039-6356f5978e41",
+  "name": "Potatoes Baked In The Half Shell",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "medium-sized potatoes",
+      "originalText": "6 medium-sized potatoes",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot milk",
+      "originalText": "3 tablespoons hot milk",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated cheese or finely chopped ham",
+      "originalText": "grated cheese or finely chopped ham",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Bake 6 medium-sized potatoes",
+      "section": null
+    },
+    {
+      "text": "Remove from oven and cut slice from top of each",
+      "section": null
+    },
+    {
+      "text": "Scoop out inside",
+      "section": null
+    },
+    {
+      "text": "Mash and add 2 tablespoons butter, 3 tablespoons hot milk, salt and pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Add whites of 2 eggs well beaten",
+      "section": null
+    },
+    {
+      "text": "Refill skins and brown in a hot oven",
+      "section": null
+    },
+    {
+      "text": "Grated cheese may be sprinkled over the top or finely chopped ham may be added to the potato mixture",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/potatoes-baked-in-the-half-shell.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Bake 6 medium-sized potatoes\n2. Remove from oven and cut slice from top of each\n3. Scoop out inside\n4. Mash and add 2 tablespoons butter, 3 tablespoons hot milk, salt and pepper to taste\n5. Add whites of 2 eggs well beaten\n6. Refill skins and brown in a hot oven\n7. Grated cheese may be sprinkled over the top or finely chopped ham may be added to the potato mixture",
+    "originalIngredients": [
+      "6 medium-sized potatoes",
+      "2 tablespoons butter",
+      "3 tablespoons hot milk",
+      "salt",
+      "pepper",
+      "2 eggs",
+      "grated cheese or finely chopped ham"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

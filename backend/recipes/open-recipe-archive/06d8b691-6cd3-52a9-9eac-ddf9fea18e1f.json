@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "06d8b691-6cd3-52a9-9eac-ddf9fea18e1f",
+  "name": "Bavarian Cream",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet cream",
+      "originalText": "1 quart sweet cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolks only of four eggs",
+      "originalText": "Yolks only of four eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ oz. of gelatine or isinglass",
+      "originalText": "½ oz. of gelatine or isinglass",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "(small) of sugar",
+      "originalText": "1 cup (small) of sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 teaspoonfuls vanilla or bitter almond extract",
+      "originalText": "2 teaspoonfuls vanilla or bitter almond extract",
+      "quantity": null,
+      "quantityText": "2 teaspoonfuls vanilla or bitter almond extract",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the gelatine in just enough cold water to cover it, for an hour",
+      "section": null
+    },
+    {
+      "text": "Drain, and stir into a pint of the cream made boiling hot",
+      "section": null
+    },
+    {
+      "text": "Beat the yolks smooth with the sugar, and add the boiling mixture, beaten in a little at a time",
+      "section": null
+    },
+    {
+      "text": "Heat until it begins to thicken, but do not actually boil",
+      "section": null
+    },
+    {
+      "text": "Remove it from the fire, flavor, and while it is still hot stir in the other pint of cream, whipped or churned in a syllabub churn to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "Beat in this whip, a spoonful at a time, into the custard until it is the consistency of sponge-cake batter",
+      "section": null
+    },
+    {
+      "text": "Dip a mould in cold water, pour in the mixture, and set on the ice to form",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bavarian-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the gelatine in just enough cold water to cover it, for an hour\n2. Drain, and stir into a pint of the cream made boiling hot\n3. Beat the yolks smooth with the sugar, and add the boiling mixture, beaten in a little at a time\n4. Heat until it begins to thicken, but do not actually boil\n5. Remove it from the fire, flavor, and while it is still hot stir in the other pint of cream, whipped or churned in a syllabub churn to a stiff froth\n6. Beat in this whip, a spoonful at a time, into the custard until it is the consistency of sponge-cake batter\n7. Dip a mould in cold water, pour in the mixture, and set on the ice to form",
+    "originalIngredients": [
+      "1 quart sweet cream",
+      "Yolks only of four eggs",
+      "½ oz. of gelatine or isinglass",
+      "1 cup (small) of sugar",
+      "2 teaspoonfuls vanilla or bitter almond extract"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

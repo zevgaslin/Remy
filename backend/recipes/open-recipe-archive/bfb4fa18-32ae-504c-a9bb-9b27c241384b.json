@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "bfb4fa18-32ae-504c-a9bb-9b27c241384b",
+  "name": "Transparent Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pounded sugar",
+      "originalText": "half a pound of pounded sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter melted",
+      "originalText": "half a pound of fresh butter melted",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg grated",
+      "originalText": "half a nutmeg grated",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff paste",
+      "originalText": "puff paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat eight eggs very light",
+      "section": null
+    },
+    {
+      "text": "Add half a pound of pounded sugar, the same of fresh butter melted, and half a nutmeg grated",
+      "section": null
+    },
+    {
+      "text": "Sit it on a stove, and keep stirring till it is as thick as buttered eggs",
+      "section": null
+    },
+    {
+      "text": "Put a puff paste in a shallow dish, pour in the ingredients, and bake it half an hour in a moderate oven",
+      "section": null
+    },
+    {
+      "text": "Sift sugar over it, and serve it up hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/transparent-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat eight eggs very light\n2. Add half a pound of pounded sugar, the same of fresh butter melted, and half a nutmeg grated\n3. Sit it on a stove, and keep stirring till it is as thick as buttered eggs\n4. Put a puff paste in a shallow dish, pour in the ingredients, and bake it half an hour in a moderate oven\n5. Sift sugar over it, and serve it up hot",
+    "originalIngredients": [
+      "eight eggs",
+      "half a pound of pounded sugar",
+      "half a pound of fresh butter melted",
+      "half a nutmeg grated",
+      "puff paste",
+      "sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "eb19ee47-1d32-52e2-9da4-901badf97665",
+  "name": "Nougat",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet almonds",
+      "originalText": "1 lb. sweet almonds",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ lb. fine white sugar",
+      "originalText": "¾ lb. fine white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose-water",
+      "originalText": "1 tablespoonful rose-water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Blanch the almonds in boiling water.",
+      "section": null
+    },
+    {
+      "text": "When stripped of their skins, throw them into ice-water for five minutes.",
+      "section": null
+    },
+    {
+      "text": "Take them out and dry between two cloths.",
+      "section": null
+    },
+    {
+      "text": "Shave with a small knife into thin slips.",
+      "section": null
+    },
+    {
+      "text": "Put them into a slow oven until they are very slightly colored.",
+      "section": null
+    },
+    {
+      "text": "Meanwhile, melt the sugar without adding water in a farina kettle over the fire, stirring it all the while.",
+      "section": null
+    },
+    {
+      "text": "When it bubbles up and is quite melted take off the kettle and instantly stir in the hot almonds.",
+      "section": null
+    },
+    {
+      "text": "Have ready a tin pan or mould, well buttered and slightly warmed.",
+      "section": null
+    },
+    {
+      "text": "Pour in the nougat; press it thin and flat to the bottom of the pan if you mean to cut into strips; to all sides of the mould if you intend to fill it with syllabub or macaroons.",
+      "section": null
+    },
+    {
+      "text": "Let it cool in the mould, for the latter purpose, withdrawing it carefully when you want it.",
+      "section": null
+    },
+    {
+      "text": "If you cut it up, do it while it is still warm—not hot.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/nougat-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Blanch the almonds in boiling water.\n2. When stripped of their skins, throw them into ice-water for five minutes.\n3. Take them out and dry between two cloths.\n4. Shave with a small knife into thin slips.\n5. Put them into a slow oven until they are very slightly colored.\n6. Meanwhile, melt the sugar without adding water in a farina kettle over the fire, stirring it all the while.\n7. When it bubbles up and is quite melted take off the kettle and instantly stir in the hot almonds.\n8. Have ready a tin pan or mould, well buttered and slightly warmed.\n9. Pour in the nougat; press it thin and flat to the bottom of the pan if you mean to cut into strips; to all sides of the mould if you intend to fill it with syllabub or macaroons.\n10. Let it cool in the mould, for the latter purpose, withdrawing it carefully when you want it.\n11. If you cut it up, do it while it is still warm—not hot.",
+    "originalIngredients": [
+      "1 lb. sweet almonds",
+      "¾ lb. fine white sugar",
+      "1 tablespoonful rose-water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

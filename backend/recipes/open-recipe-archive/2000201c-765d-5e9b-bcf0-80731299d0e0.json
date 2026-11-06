@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "2000201c-765d-5e9b-bcf0-80731299d0e0",
+  "name": "Buckwheat Cakes",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "buckwheat meal",
+      "originalText": "a quart of buckwheat meal",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of Indian meal",
+      "originalText": "a handful of Indian meal",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the best brewer's yeast",
+      "originalText": "two table-spoonfuls of the best brewer's yeast",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lukewarm water",
+      "originalText": "lukewarm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a quart of buckwheat meal, mix with it a tea-spoonful of salt, and add a handful of Indian meal.",
+      "section": null
+    },
+    {
+      "text": "Pour two table-spoonfuls of the best brewer's yeast into the centre of the meal.",
+      "section": null
+    },
+    {
+      "text": "Mix it with lukewarm water till it becomes a batter.",
+      "section": null
+    },
+    {
+      "text": "Cover it, put it in a warm place and set it to rise; it will take about three hours.",
+      "section": null
+    },
+    {
+      "text": "When it is quite light, and covered with bubbles, it is fit to bake.",
+      "section": null
+    },
+    {
+      "text": "Put your griddle over the fire, and let it get quite hot before you begin.",
+      "section": null
+    },
+    {
+      "text": "Grease it well with a piece of butter tied in a rag.",
+      "section": null
+    },
+    {
+      "text": "Dip out a large ladle full of the batter and bake it on the griddle; turning it with a broad wooden paddle.",
+      "section": null
+    },
+    {
+      "text": "Let the cakes be of large size, and even at the edges.",
+      "section": null
+    },
+    {
+      "text": "Butter them as you take them off the griddle.",
+      "section": null
+    },
+    {
+      "text": "Put several on a plate, and cut them across in six pieces.",
+      "section": null
+    },
+    {
+      "text": "Grease the griddle anew, between baking each cake.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/buckwheat-cakes-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a quart of buckwheat meal, mix with it a tea-spoonful of salt, and add a handful of Indian meal.\n2. Pour two table-spoonfuls of the best brewer's yeast into the centre of the meal.\n3. Mix it with lukewarm water till it becomes a batter.\n4. Cover it, put it in a warm place and set it to rise; it will take about three hours.\n5. When it is quite light, and covered with bubbles, it is fit to bake.\n6. Put your griddle over the fire, and let it get quite hot before you begin.\n7. Grease it well with a piece of butter tied in a rag.\n8. Dip out a large ladle full of the batter and bake it on the griddle; turning it with a broad wooden paddle.\n9. Let the cakes be of large size, and even at the edges.\n10. Butter them as you take them off the griddle.\n11. Put several on a plate, and cut them across in six pieces.\n12. Grease the griddle anew, between baking each cake.",
+    "originalIngredients": [
+      "a quart of buckwheat meal",
+      "a tea-spoonful of salt",
+      "a handful of Indian meal",
+      "two table-spoonfuls of the best brewer's yeast",
+      "lukewarm water",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

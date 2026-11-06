@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "42d1b8db-9866-5ea6-92e1-5fd26484a661",
+  "name": "Buttercups",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "molasses",
+      "originalText": "2 cups molasses",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup boiling water",
+      "originalText": "½ cup boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ teaspoon cream of tartar",
+      "originalText": "⅓ teaspoon cream of tartar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Fondant flavored with vanilla",
+      "originalText": "Fondant flavored with vanilla",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil ingredients (except fondant) until, when tried in cold water, a firm ball may be formed in the fingers, not stirring until the last few minutes of cooking.",
+      "section": null
+    },
+    {
+      "text": "Pour on a buttered platter, and when cool enough to handle, pull until light-colored.",
+      "section": null
+    },
+    {
+      "text": "Shape on a floured board, having strip wide enough to enclose a roll of fondant one inch in diameter.",
+      "section": null
+    },
+    {
+      "text": "Place fondant on candy, bring edges of candy together, and press firmly over fondant.",
+      "section": null
+    },
+    {
+      "text": "With both hands pull candy into a long strip.",
+      "section": null
+    },
+    {
+      "text": "Cut in small pieces; each piece will consist of fondant encircled with molasses candy.",
+      "section": null
+    },
+    {
+      "text": "Care must be taken that candy is not cooked too long, as it should be soft rather than brittle.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/buttercups.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil ingredients (except fondant) until, when tried in cold water, a firm ball may be formed in the fingers, not stirring until the last few minutes of cooking.\n2. Pour on a buttered platter, and when cool enough to handle, pull until light-colored.\n3. Shape on a floured board, having strip wide enough to enclose a roll of fondant one inch in diameter.\n4. Place fondant on candy, bring edges of candy together, and press firmly over fondant.\n5. With both hands pull candy into a long strip.\n6. Cut in small pieces; each piece will consist of fondant encircled with molasses candy.\n7. Care must be taken that candy is not cooked too long, as it should be soft rather than brittle.",
+    "originalIngredients": [
+      "2 cups molasses",
+      "1 cup sugar",
+      "½ cup boiling water",
+      "2 tablespoons butter",
+      "⅓ teaspoon cream of tartar",
+      "Fondant flavored with vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

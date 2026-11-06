@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "a3926b18-dd87-5f4f-b456-e4a3e6a661d8",
+  "name": "Hot Cross Buns",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "White Swan Yeast Cake",
+      "originalText": "1/2 White Swan Yeast Cake",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter and lard mixed",
+      "originalText": "3/4 cup butter and lard mixed",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak 1/2 White Swan Yeast Cake at noon",
+      "section": null
+    },
+    {
+      "text": "Stir in a thin batter about 3 o'clock",
+      "section": null
+    },
+    {
+      "text": "In the evening add a quart of water and flour enough to make a thin batter",
+      "section": null
+    },
+    {
+      "text": "Set in a warm place to rise over night",
+      "section": null
+    },
+    {
+      "text": "At 4 in the morning add eggs, butter and lard mixed, salt, and sugar",
+      "section": null
+    },
+    {
+      "text": "Mix in a stiff dough the same as bread",
+      "section": null
+    },
+    {
+      "text": "Let rise again, then knead",
+      "section": null
+    },
+    {
+      "text": "When it rises make into loaves and put in pans",
+      "section": null
+    },
+    {
+      "text": "Let rise and bake in hot oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/hot-cross-buns-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak 1/2 White Swan Yeast Cake at noon\n2. Stir in a thin batter about 3 o'clock\n3. In the evening add a quart of water and flour enough to make a thin batter\n4. Set in a warm place to rise over night\n5. At 4 in the morning add eggs, butter and lard mixed, salt, and sugar\n6. Mix in a stiff dough the same as bread\n7. Let rise again, then knead\n8. When it rises make into loaves and put in pans\n9. Let rise and bake in hot oven",
+    "originalIngredients": [
+      "1/2 White Swan Yeast Cake",
+      "water",
+      "flour",
+      "2 eggs",
+      "3/4 cup butter and lard mixed",
+      "1 tablespoon salt",
+      "1/2 cup sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

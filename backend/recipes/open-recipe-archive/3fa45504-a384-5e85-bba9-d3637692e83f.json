@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "3fa45504-a384-5e85-bba9-d3637692e83f",
+  "name": "Waffles",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "A quart of flour",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet milk that has been boiled and cooled",
+      "originalText": "Sweet milk that has been boiled and cooled",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "A tablespoonful of melted butter",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "A teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yeast to raise it",
+      "originalText": "Yeast to raise it",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "Two well-beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "Two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wet the flour with a little sweet milk that has been boiled and cooled",
+      "section": null
+    },
+    {
+      "text": "Stir in enough of the milk to form a thick batter",
+      "section": null
+    },
+    {
+      "text": "Add a tablespoonful of melted butter, a teaspoonful of salt, and yeast to raise it",
+      "section": null
+    },
+    {
+      "text": "When light add two well-beaten eggs",
+      "section": null
+    },
+    {
+      "text": "Heat your waffle-iron, grease it well and fill it with the batter",
+      "section": null
+    },
+    {
+      "text": "Bake two or three minutes on one side",
+      "section": null
+    },
+    {
+      "text": "Turn the iron over, and when brown on both sides the cake is done",
+      "section": null
+    },
+    {
+      "text": "Serve immediately",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/waffles-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wet the flour with a little sweet milk that has been boiled and cooled\n2. Stir in enough of the milk to form a thick batter\n3. Add a tablespoonful of melted butter, a teaspoonful of salt, and yeast to raise it\n4. When light add two well-beaten eggs\n5. Heat your waffle-iron, grease it well and fill it with the batter\n6. Bake two or three minutes on one side\n7. Turn the iron over, and when brown on both sides the cake is done\n8. Serve immediately",
+    "originalIngredients": [
+      "A quart of flour",
+      "Sweet milk that has been boiled and cooled",
+      "A tablespoonful of melted butter",
+      "A teaspoonful of salt",
+      "Yeast to raise it",
+      "Two well-beaten eggs"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

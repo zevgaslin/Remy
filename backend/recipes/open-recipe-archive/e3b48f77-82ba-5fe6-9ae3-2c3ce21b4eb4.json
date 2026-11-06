@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "e3b48f77-82ba-5fe6-9ae3-2c3ce21b4eb4",
+  "name": "Made In Canada Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1/4 cup milk",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 cups flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 tablespoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Butter size of a large egg",
+      "originalText": "Butter size of a large egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar",
+      "originalText": "Sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sweet cream, sweetened",
+      "originalText": "Sweet cream, sweetened",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little vanilla",
+      "originalText": "A little vanilla",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Chopped walnuts",
+      "originalText": "Chopped walnuts",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream butter and sugar and mix in the usual way",
+      "section": null
+    },
+    {
+      "text": "Bake in a large flat tin",
+      "section": null
+    },
+    {
+      "text": "When cold, cut in small squares",
+      "section": null
+    },
+    {
+      "text": "For icing: Cream butter size of a large egg",
+      "section": null
+    },
+    {
+      "text": "Add as much sugar as will cream in well",
+      "section": null
+    },
+    {
+      "text": "Add sweet cream, sweetened and a little vanilla, until proper stiffness has been obtained",
+      "section": null
+    },
+    {
+      "text": "Ice the squares and roll in chopped walnuts",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/made-in-canada-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream butter and sugar and mix in the usual way\n2. Bake in a large flat tin\n3. When cold, cut in small squares\n4. For icing: Cream butter size of a large egg\n5. Add as much sugar as will cream in well\n6. Add sweet cream, sweetened and a little vanilla, until proper stiffness has been obtained\n7. Ice the squares and roll in chopped walnuts",
+    "originalIngredients": [
+      "1 cup sugar",
+      "1/2 cup butter",
+      "1/4 cup milk",
+      "2 cups flour",
+      "2 eggs",
+      "2 tablespoons baking powder",
+      "Butter size of a large egg",
+      "Sugar",
+      "Sweet cream, sweetened",
+      "A little vanilla",
+      "Chopped walnuts"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

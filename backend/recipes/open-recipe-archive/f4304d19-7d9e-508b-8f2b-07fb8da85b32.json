@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "f4304d19-7d9e-508b-8f2b-07fb8da85b32",
+  "name": "Ornamental Frosting I",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "2 cups sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1 cup water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Whites 3 eggs",
+      "originalText": "Whites 3 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ teaspoon tartaric acid",
+      "originalText": "¼ teaspoon tartaric acid",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil sugar and water until syrup when dropped from tip of spoon forms a long thread.",
+      "section": null
+    },
+    {
+      "text": "Pour syrup gradually on beaten whites of eggs, beating constantly; then add acid and continue beating.",
+      "section": null
+    },
+    {
+      "text": "When stiff enough to spread, put a thin coating over cake.",
+      "section": null
+    },
+    {
+      "text": "Beat remaining frosting until cold and stiff enough to keep in shape after being forced through a pastry tube.",
+      "section": null
+    },
+    {
+      "text": "After first coating on cake has hardened, cover with a thicker layer, and crease for cutting.",
+      "section": null
+    },
+    {
+      "text": "If frosting is too stiff to spread smoothly, thin with a few drops of water.",
+      "section": null
+    },
+    {
+      "text": "With a pastry bag and variety of tubes, cake may be ornamented as desired.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ornamental-frosting-i.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil sugar and water until syrup when dropped from tip of spoon forms a long thread.\n2. Pour syrup gradually on beaten whites of eggs, beating constantly; then add acid and continue beating.\n3. When stiff enough to spread, put a thin coating over cake.\n4. Beat remaining frosting until cold and stiff enough to keep in shape after being forced through a pastry tube.\n5. After first coating on cake has hardened, cover with a thicker layer, and crease for cutting.\n6. If frosting is too stiff to spread smoothly, thin with a few drops of water.\n7. With a pastry bag and variety of tubes, cake may be ornamented as desired.",
+    "originalIngredients": [
+      "2 cups sugar",
+      "1 cup water",
+      "Whites 3 eggs",
+      "¼ teaspoon tartaric acid"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

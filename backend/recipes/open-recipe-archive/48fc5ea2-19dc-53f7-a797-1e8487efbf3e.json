@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "48fc5ea2-19dc-53f7-a797-1e8487efbf3e",
+  "name": "Indian Dumplings",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted Indian meal",
+      "originalText": "sifted Indian meal",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a pint of milk, and four eggs well beaten",
+      "section": null
+    },
+    {
+      "text": "Stir them together, and add a salt-spoon of salt",
+      "section": null
+    },
+    {
+      "text": "Mix in as much sifted Indian meal as will make a stiff dough",
+      "section": null
+    },
+    {
+      "text": "Flour your hands, divide the dough into equal portions, and make it into balls about the size of a goose egg",
+      "section": null
+    },
+    {
+      "text": "Flatten each with the rolling-pin, tie them in cloths, and put them into a pot of boiling water",
+      "section": null
+    },
+    {
+      "text": "They will boil in a short time",
+      "section": null
+    },
+    {
+      "text": "Take care not to let them go to pieces by keeping them too long in the pot",
+      "section": null
+    },
+    {
+      "text": "Serve them up hot, and eat them with corned pork, or with bacon",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/indian-dumplings.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a pint of milk, and four eggs well beaten\n2. Stir them together, and add a salt-spoon of salt\n3. Mix in as much sifted Indian meal as will make a stiff dough\n4. Flour your hands, divide the dough into equal portions, and make it into balls about the size of a goose egg\n5. Flatten each with the rolling-pin, tie them in cloths, and put them into a pot of boiling water\n6. They will boil in a short time\n7. Take care not to let them go to pieces by keeping them too long in the pot\n8. Serve them up hot, and eat them with corned pork, or with bacon",
+    "originalIngredients": [
+      "a pint of milk",
+      "four eggs",
+      "salt",
+      "sifted Indian meal"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

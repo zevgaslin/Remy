@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "1a44ac75-a2c7-5ca7-be71-2bcd0e531c39",
+  "name": "Lemon Pie No. 1 (Superior)",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "the outside of the rind of two lemons",
+      "originalText": "the outside of the rind of two lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a half of white sugar",
+      "originalText": "a cup and a half of white sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "two heaping tablespoonfuls of unsifted flour or one of cornstarch",
+      "originalText": "two heaping tablespoonfuls of unsifted flour or one of cornstarch",
+      "quantity": null,
+      "quantityText": "two heaping tablespoonfuls of unsifted flour or one of cornstarch",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the yolks of three eggs",
+      "originalText": "the yolks of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the juice of the lemons",
+      "originalText": "the juice of the lemons",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "two cups of water",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of butter the size of a walnut",
+      "originalText": "a piece of butter the size of a walnut",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pastry",
+      "originalText": "pastry",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the whites of three eggs",
+      "originalText": "the whites of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tablespoonfuls of sugar",
+      "originalText": "three small tablespoonfuls of sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a deep dish, grate into it the outside of the rind of two lemons",
+      "section": null
+    },
+    {
+      "text": "Add to that a cup and a half of white sugar, two heaping tablespoonfuls of unsifted flour, or one of cornstarch",
+      "section": null
+    },
+    {
+      "text": "Stir it well together",
+      "section": null
+    },
+    {
+      "text": "Add the yolks of three well-beaten eggs, beat this thoroughly",
+      "section": null
+    },
+    {
+      "text": "Add the juice of the lemons, two cups of water and a piece of butter the size of a walnut",
+      "section": null
+    },
+    {
+      "text": "Set this on the fire in another dish containing boiling water and cook it until it thickens, and will dip up on the spoon like cold honey",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire, and when cooled, pour it into a deep pie-tin, lined with pastry",
+      "section": null
+    },
+    {
+      "text": "Bake",
+      "section": null
+    },
+    {
+      "text": "When done, have ready the whites, beaten stiff, with three small tablespoonfuls of sugar",
+      "section": null
+    },
+    {
+      "text": "Spread this over the top and return to the oven, to set and brown slightly",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lemon-pie-no-1-superior.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a deep dish, grate into it the outside of the rind of two lemons\n2. Add to that a cup and a half of white sugar, two heaping tablespoonfuls of unsifted flour, or one of cornstarch\n3. Stir it well together\n4. Add the yolks of three well-beaten eggs, beat this thoroughly\n5. Add the juice of the lemons, two cups of water and a piece of butter the size of a walnut\n6. Set this on the fire in another dish containing boiling water and cook it until it thickens, and will dip up on the spoon like cold honey\n7. Remove from the fire, and when cooled, pour it into a deep pie-tin, lined with pastry\n8. Bake\n9. When done, have ready the whites, beaten stiff, with three small tablespoonfuls of sugar\n10. Spread this over the top and return to the oven, to set and brown slightly",
+    "originalIngredients": [
+      "the outside of the rind of two lemons",
+      "a cup and a half of white sugar",
+      "two heaping tablespoonfuls of unsifted flour or one of cornstarch",
+      "the yolks of three eggs",
+      "the juice of the lemons",
+      "two cups of water",
+      "a piece of butter the size of a walnut",
+      "pastry",
+      "the whites of three eggs",
+      "three small tablespoonfuls of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "8882a8ac-f838-5622-b69a-8cfc141f40d8",
+  "name": "Spider Corn-Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-fourth cup sugar",
+      "originalText": "one-fourth cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "one cup sweet milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour milk",
+      "originalText": "one cup of sour milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "one teaspoonful soda",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one and two-thirds cups of granulated corn meal",
+      "originalText": "one and two-thirds cups of granulated corn meal",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-third cup flour",
+      "originalText": "one-third cup flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "two tablespoonfuls of butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "more cup of sweet milk",
+      "originalText": "one more cup of sweet milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat two eggs and one-fourth cup sugar together",
+      "section": null
+    },
+    {
+      "text": "add one cup sweet milk and one cup of sour milk in which you have dissolved one teaspoonful soda",
+      "section": null
+    },
+    {
+      "text": "Add a teaspoonful of salt",
+      "section": null
+    },
+    {
+      "text": "mix one and two-thirds cups of granulated corn meal and one-third cup flour with this",
+      "section": null
+    },
+    {
+      "text": "Put a spider or skillet on the range and when it is hot melt in two tablespoonfuls of butter",
+      "section": null
+    },
+    {
+      "text": "Turn the spider so that the butter can run up on the sides of the pan",
+      "section": null
+    },
+    {
+      "text": "Pour in the corn-cake mixture and add one more cup of sweet milk, but do not stir afterwards",
+      "section": null
+    },
+    {
+      "text": "Put this in the oven and bake from twenty to thirty-five minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/spider-corn-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat two eggs and one-fourth cup sugar together\n2. add one cup sweet milk and one cup of sour milk in which you have dissolved one teaspoonful soda\n3. Add a teaspoonful of salt\n4. mix one and two-thirds cups of granulated corn meal and one-third cup flour with this\n5. Put a spider or skillet on the range and when it is hot melt in two tablespoonfuls of butter\n6. Turn the spider so that the butter can run up on the sides of the pan\n7. Pour in the corn-cake mixture and add one more cup of sweet milk, but do not stir afterwards\n8. Put this in the oven and bake from twenty to thirty-five minutes",
+    "originalIngredients": [
+      "two eggs",
+      "one-fourth cup sugar",
+      "one cup sweet milk",
+      "one cup of sour milk",
+      "one teaspoonful soda",
+      "a teaspoonful of salt",
+      "one and two-thirds cups of granulated corn meal",
+      "one-third cup flour",
+      "two tablespoonfuls of butter",
+      "one more cup of sweet milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "54add99a-445e-567a-9d8f-e7993a327cb2",
+  "name": "Creamy Sauce",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "1/4 cup butter",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "1/4 cup powdered sugar",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine",
+      "originalText": "2 tablespoonfuls wine",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "2 tablespoonfuls cream",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream butter, add sugar slowly, then wine and cream.",
+      "section": null
+    },
+    {
+      "text": "Beat well and just before using, place bowl over hot water and stir till creamy, but not enough to melt the butter.",
+      "section": null
+    },
+    {
+      "text": "When the wine and cream are added, the sauce has a curdled appearance. This is removed by beating and heating enough to blend materials.",
+      "section": null
+    },
+    {
+      "text": "Sauce should be cold when served.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/creamy-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream butter, add sugar slowly, then wine and cream.\n2. Beat well and just before using, place bowl over hot water and stir till creamy, but not enough to melt the butter.\n3. When the wine and cream are added, the sauce has a curdled appearance. This is removed by beating and heating enough to blend materials.\n4. Sauce should be cold when served.",
+    "originalIngredients": [
+      "1/4 cup butter",
+      "1/4 cup powdered sugar",
+      "2 tablespoonfuls wine",
+      "2 tablespoonfuls cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

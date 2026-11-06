@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "b0631d7e-55d0-5cea-a6cd-20f30935fb1e",
+  "name": "Tapioca Cream Custard",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "heaping tablespoonfuls of tapioca",
+      "originalText": "Three heaping tablespoonfuls of tapioca",
+      "quantity": 3.0,
+      "quantityText": "Three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of water",
+      "originalText": "A teacupful of water",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "A quart of milk",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good pinch of salt",
+      "originalText": "A good pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "A cupful of sugar",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "The beaten yolks of three eggs",
+      "originalText": "The beaten yolks of three eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "The whites beaten stiff",
+      "originalText": "The whites beaten stiff",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak three heaping tablespoonfuls of tapioca in a teacupful of water over night",
+      "section": null
+    },
+    {
+      "text": "Place over the fire a quart of milk; let it come to a boil",
+      "section": null
+    },
+    {
+      "text": "Stir in the tapioca and a good pinch of salt, stir until it thickens",
+      "section": null
+    },
+    {
+      "text": "Add a cupful of sugar and the beaten yolks of three eggs",
+      "section": null
+    },
+    {
+      "text": "Stir it quickly and pour it into a dish",
+      "section": null
+    },
+    {
+      "text": "Stir gently into the mixture the whites beaten stiff, the flavoring and set it on ice, or in an ice chest",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tapioca-cream-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak three heaping tablespoonfuls of tapioca in a teacupful of water over night\n2. Place over the fire a quart of milk; let it come to a boil\n3. Stir in the tapioca and a good pinch of salt, stir until it thickens\n4. Add a cupful of sugar and the beaten yolks of three eggs\n5. Stir it quickly and pour it into a dish\n6. Stir gently into the mixture the whites beaten stiff, the flavoring and set it on ice, or in an ice chest",
+    "originalIngredients": [
+      "Three heaping tablespoonfuls of tapioca",
+      "A teacupful of water",
+      "A quart of milk",
+      "A good pinch of salt",
+      "A cupful of sugar",
+      "The beaten yolks of three eggs",
+      "The whites beaten stiff"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

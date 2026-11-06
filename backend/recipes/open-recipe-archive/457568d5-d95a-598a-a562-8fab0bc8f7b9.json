@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "457568d5-d95a-598a-a562-8fab0bc8f7b9",
+  "name": "An English Plum Pudding",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour sifted",
+      "originalText": "a pound of flour sifted",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered sugar",
+      "originalText": "a pound of powdered sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "suet finely shred",
+      "originalText": "a pound of suet finely shred",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg grated",
+      "originalText": "a nutmeg grated",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "brandy",
+      "originalText": "a gill of brandy",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "gill",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants washed, picked, and dried",
+      "originalText": "a pound of currants washed, picked, and dried",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins stoned and floured",
+      "originalText": "a pound of raisins stoned and floured",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat eight eggs very light",
+      "section": null
+    },
+    {
+      "text": "Add to them a pound of flour sifted, and a pound of powdered sugar",
+      "section": null
+    },
+    {
+      "text": "When it looks quite light, put in a pound of suet finely shred, a pint of milk, a nutmeg grated, and a gill of brandy",
+      "section": null
+    },
+    {
+      "text": "Mix with it a pound of currants, washed, picked, and dried, and a pound of raisins stoned and floured",
+      "section": null
+    },
+    {
+      "text": "Tie it in a thick cloth, and boil it steadily eight hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/an-english-plum-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat eight eggs very light\n2. Add to them a pound of flour sifted, and a pound of powdered sugar\n3. When it looks quite light, put in a pound of suet finely shred, a pint of milk, a nutmeg grated, and a gill of brandy\n4. Mix with it a pound of currants, washed, picked, and dried, and a pound of raisins stoned and floured\n5. Tie it in a thick cloth, and boil it steadily eight hours",
+    "originalIngredients": [
+      "eight eggs",
+      "a pound of flour sifted",
+      "a pound of powdered sugar",
+      "a pound of suet finely shred",
+      "a pint of milk",
+      "a nutmeg grated",
+      "a gill of brandy",
+      "a pound of currants washed, picked, and dried",
+      "a pound of raisins stoned and floured"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

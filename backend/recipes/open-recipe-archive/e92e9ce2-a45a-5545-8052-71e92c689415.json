@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "e92e9ce2-a45a-5545-8052-71e92c689415",
+  "name": "Parker House Rolls",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "egg, well beaten",
+      "originalText": "1 egg, well beaten",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 tablespoonful sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cake yeast",
+      "originalText": "1 cake yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "A little salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Flour to make light dough",
+      "originalText": "Flour to make light dough",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat egg and salt, add sugar, dissolve yeast in a little milk, and add to egg and salt and sugar.",
+      "section": null
+    },
+    {
+      "text": "Add flour and set to rise for an hour or an hour and one-half.",
+      "section": null
+    },
+    {
+      "text": "Turn out and knead.",
+      "section": null
+    },
+    {
+      "text": "Roll out with a rolling pin about one-half inch thick.",
+      "section": null
+    },
+    {
+      "text": "Cut with a ring, brush over with water, fold in two and brush over with egg.",
+      "section": null
+    },
+    {
+      "text": "Set to rise to twice original size and bake.",
+      "section": null
+    },
+    {
+      "text": "Use same amount of yeast for twice the quantity.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/parker-house-rolls-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat egg and salt, add sugar, dissolve yeast in a little milk, and add to egg and salt and sugar.\n2. Add flour and set to rise for an hour or an hour and one-half.\n3. Turn out and knead.\n4. Roll out with a rolling pin about one-half inch thick.\n5. Cut with a ring, brush over with water, fold in two and brush over with egg.\n6. Set to rise to twice original size and bake.\n7. Use same amount of yeast for twice the quantity.",
+    "originalIngredients": [
+      "1 egg, well beaten",
+      "1 tablespoonful sugar",
+      "1 cup milk",
+      "1 cake yeast",
+      "A little salt",
+      "Flour to make light dough"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

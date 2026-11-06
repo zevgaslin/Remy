@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "6a705a91-1ab4-5994-aedf-79e5401f3a2c",
+  "name": "Tomato and Mushroom Sauce",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "2 slices chopped bacon or small quantity uncooked ham",
+      "originalText": "2 slices chopped bacon or small quantity uncooked ham",
+      "quantity": null,
+      "quantityText": "2 slices chopped bacon or small quantity uncooked ham",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "1 slice onion",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "6 slices carrot",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bay leaf",
+      "originalText": "1 bay leaf",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs thyme",
+      "originalText": "2 sprigs thyme",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sprig of parsley",
+      "originalText": "Sprig of parsley",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "2 cloves",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon peppercorns",
+      "originalText": "½ teaspoon peppercorns",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Few gratings nutmeg",
+      "originalText": "Few gratings nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ can tomatoes",
+      "originalText": "½ can tomatoes",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ cups Brown Stock",
+      "originalText": "1½ cups Brown Stock",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ can mushrooms",
+      "originalText": "½ can mushrooms",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook bacon, onion, and carrot five minutes; add bay leaf, thyme, parsley, cloves, peppercorns, nutmeg, and tomatoes, and cook five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add flour diluted with enough cold water to pour; as it thickens, dilute with stock.",
+      "section": null
+    },
+    {
+      "text": "Cover, and cook in oven one hour.",
+      "section": null
+    },
+    {
+      "text": "Strain, add salt and pepper to taste, and one-half can mushrooms, drained from their liquor, rinsed, and cut in quarters; then cook two minutes.",
+      "section": null
+    },
+    {
+      "text": "Use fresh mushrooms in place of canned ones when possible.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/tomato-and-mushroom-sauce.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook bacon, onion, and carrot five minutes; add bay leaf, thyme, parsley, cloves, peppercorns, nutmeg, and tomatoes, and cook five minutes.\n2. Add flour diluted with enough cold water to pour; as it thickens, dilute with stock.\n3. Cover, and cook in oven one hour.\n4. Strain, add salt and pepper to taste, and one-half can mushrooms, drained from their liquor, rinsed, and cut in quarters; then cook two minutes.\n5. Use fresh mushrooms in place of canned ones when possible.",
+    "originalIngredients": [
+      "2 slices chopped bacon or small quantity uncooked ham",
+      "1 slice onion",
+      "6 slices carrot",
+      "1 bay leaf",
+      "2 sprigs thyme",
+      "Sprig of parsley",
+      "2 cloves",
+      "½ teaspoon peppercorns",
+      "Few gratings nutmeg",
+      "3 tablespoons flour",
+      "½ can tomatoes",
+      "1½ cups Brown Stock",
+      "Salt and pepper",
+      "½ can mushrooms"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

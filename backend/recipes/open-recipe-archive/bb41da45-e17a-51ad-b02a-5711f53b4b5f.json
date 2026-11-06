@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "bb41da45-e17a-51ad-b02a-5711f53b4b5f",
+  "name": "Anchovy Catchup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "dozen anchovies",
+      "originalText": "two dozen anchovies",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ten shalots, or very small onions",
+      "originalText": "ten shalots, or very small onions",
+      "quantity": null,
+      "quantityText": "ten shalots, or very small onions",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of scraped horseradish",
+      "originalText": "a handful of scraped horseradish",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of an ounce of mace",
+      "originalText": "a quarter of an ounce of mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon",
+      "originalText": "a lemon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "twelve cloves",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper-corns",
+      "originalText": "twelve pepper-corns",
+      "quantity": 12.0,
+      "quantityText": "twelve",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "port",
+      "originalText": "a pint of port",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "madeira",
+      "originalText": "a pint of madeira",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "anchovy liquor",
+      "originalText": "a pint of anchovy liquor",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Bone two dozen anchovies, and then chop them",
+      "section": null
+    },
+    {
+      "text": "Put to them ten shalots, or very small onions, cut fine, and a handful of scraped horseradish, with a quarter of an ounce of mace",
+      "section": null
+    },
+    {
+      "text": "Add a lemon, cut into slices, twelve cloves, and twelve pepper-corns",
+      "section": null
+    },
+    {
+      "text": "Mix together a pint of port, a pint of madeira, and a pint of anchovy liquor",
+      "section": null
+    },
+    {
+      "text": "Put the other ingredients into the liquid, and boil it slowly till reduced one-half",
+      "section": null
+    },
+    {
+      "text": "Then strain it, and when cold put it into small bottles, securing the corks with leather",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/anchovy-catchup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Bone two dozen anchovies, and then chop them\n2. Put to them ten shalots, or very small onions, cut fine, and a handful of scraped horseradish, with a quarter of an ounce of mace\n3. Add a lemon, cut into slices, twelve cloves, and twelve pepper-corns\n4. Mix together a pint of port, a pint of madeira, and a pint of anchovy liquor\n5. Put the other ingredients into the liquid, and boil it slowly till reduced one-half\n6. Then strain it, and when cold put it into small bottles, securing the corks with leather",
+    "originalIngredients": [
+      "two dozen anchovies",
+      "ten shalots, or very small onions",
+      "a handful of scraped horseradish",
+      "a quarter of an ounce of mace",
+      "a lemon",
+      "twelve cloves",
+      "twelve pepper-corns",
+      "a pint of port",
+      "a pint of madeira",
+      "a pint of anchovy liquor"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "a1b6941c-18ea-5313-8c6e-08f0c72a8553",
+  "name": "A Rice Plum Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "jills of whole rice",
+      "originalText": "three jills of whole rice",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "a pint of milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of butter",
+      "originalText": "a quarter of a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "another pint of milk",
+      "originalText": "another pint of milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a pound and a half of raisins or currants",
+      "originalText": "a pound and a half of raisins or currants",
+      "quantity": null,
+      "quantityText": "a pound and a half of raisins or currants",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered nutmeg",
+      "originalText": "a powdered nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed mace and cinnamon powdered",
+      "originalText": "a table-spoonful of mixed mace and cinnamon powdered",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose water",
+      "originalText": "a wine glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a wine glass of brandy or white wine",
+      "originalText": "a wine glass of brandy or white wine",
+      "quantity": null,
+      "quantityText": "a wine glass of brandy or white wine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of sugar",
+      "originalText": "a quarter of a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take three jills of whole rice; wash it, and boil it in a pint of milk.",
+      "section": null
+    },
+    {
+      "text": "When it is soft, mix in a quarter of a pound of butter, and set it aside to cool.",
+      "section": null
+    },
+    {
+      "text": "When it is quite cold, stir it into another pint of milk.",
+      "section": null
+    },
+    {
+      "text": "Prepare a pound and a half of raisins or currants; if currants, wash and dry them; if raisins, seed them and cut them in half.",
+      "section": null
+    },
+    {
+      "text": "Dredge them well with flour, to prevent their sinking.",
+      "section": null
+    },
+    {
+      "text": "Prepare also a powdered nutmeg; a table-spoonful of mixed mace and cinnamon powdered; a wine glass of rose water; and a wine glass of brandy or white wine.",
+      "section": null
+    },
+    {
+      "text": "Beat six eggs very light, and stir them into the mixture, alternately with a quarter of a pound of sugar.",
+      "section": null
+    },
+    {
+      "text": "Then add by degrees the spice and the liquor, and lastly, stir in, a few at a time, the raisins or currants.",
+      "section": null
+    },
+    {
+      "text": "Put the pudding into a buttered dish and bake it an hour and a half.",
+      "section": null
+    },
+    {
+      "text": "Send it to table cool.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-rice-plum-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take three jills of whole rice; wash it, and boil it in a pint of milk.\n2. When it is soft, mix in a quarter of a pound of butter, and set it aside to cool.\n3. When it is quite cold, stir it into another pint of milk.\n4. Prepare a pound and a half of raisins or currants; if currants, wash and dry them; if raisins, seed them and cut them in half.\n5. Dredge them well with flour, to prevent their sinking.\n6. Prepare also a powdered nutmeg; a table-spoonful of mixed mace and cinnamon powdered; a wine glass of rose water; and a wine glass of brandy or white wine.\n7. Beat six eggs very light, and stir them into the mixture, alternately with a quarter of a pound of sugar.\n8. Then add by degrees the spice and the liquor, and lastly, stir in, a few at a time, the raisins or currants.\n9. Put the pudding into a buttered dish and bake it an hour and a half.\n10. Send it to table cool.",
+    "originalIngredients": [
+      "three jills of whole rice",
+      "a pint of milk",
+      "a quarter of a pound of butter",
+      "another pint of milk",
+      "a pound and a half of raisins or currants",
+      "flour",
+      "a powdered nutmeg",
+      "a table-spoonful of mixed mace and cinnamon powdered",
+      "a wine glass of rose water",
+      "a wine glass of brandy or white wine",
+      "six eggs",
+      "a quarter of a pound of sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

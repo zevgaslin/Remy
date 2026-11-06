@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "3e2c85bf-6f2e-5c1e-8a90-758271423315",
+  "name": "Steamed Corn Bread",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Indian meal",
+      "originalText": "2 cups Indian meal",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "2 tablespoonfuls white sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2½ cups loppered milk or buttermilk",
+      "originalText": "2½ cups loppered milk or buttermilk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoonful soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonful lard, melted",
+      "originalText": "1 heaping tablespoonful lard, melted",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat very hard and long",
+      "section": null
+    },
+    {
+      "text": "Put in buttered mould",
+      "section": null
+    },
+    {
+      "text": "Tie a coarse cloth tightly over it",
+      "section": null
+    },
+    {
+      "text": "If you have no steamer, fit the mould in the top of a pot of boiling water, taking care it does not touch the surface of the liquid",
+      "section": null
+    },
+    {
+      "text": "Lay a close cover over the cloth tied about the mould, to keep in all the heat",
+      "section": null
+    },
+    {
+      "text": "Steam one hour and a half",
+      "section": null
+    },
+    {
+      "text": "Set in an oven ten minutes",
+      "section": null
+    },
+    {
+      "text": "Turn out upon a hot plate, and eat while warm",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/steamed-corn-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat very hard and long\n2. Put in buttered mould\n3. Tie a coarse cloth tightly over it\n4. If you have no steamer, fit the mould in the top of a pot of boiling water, taking care it does not touch the surface of the liquid\n5. Lay a close cover over the cloth tied about the mould, to keep in all the heat\n6. Steam one hour and a half\n7. Set in an oven ten minutes\n8. Turn out upon a hot plate, and eat while warm",
+    "originalIngredients": [
+      "2 cups Indian meal",
+      "1 cup flour",
+      "2 tablespoonfuls white sugar",
+      "2½ cups loppered milk or buttermilk",
+      "1 teaspoonful soda",
+      "1 teaspoonful salt",
+      "1 heaping tablespoonful lard, melted"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

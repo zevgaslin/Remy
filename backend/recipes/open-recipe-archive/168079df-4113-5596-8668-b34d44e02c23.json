@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "168079df-4113-5596-8668-b34d44e02c23",
+  "name": "Salad Dressing",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "2 tablespoonfuls butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 tablespoonful sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mustard",
+      "originalText": "1 teaspoonful mustard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper to taste",
+      "originalText": "Pepper to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 cups milk or cream",
+      "originalText": "2 cups milk or cream",
+      "quantity": null,
+      "quantityText": "2 cups milk or cream",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vinegar to thicken",
+      "originalText": "Vinegar to thicken",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil eggs hard and take the yolks",
+      "section": null
+    },
+    {
+      "text": "Rub smooth with melted butter, salt, mustard, sugar, and pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Add to this mixture milk or cream, stirring it in gradually",
+      "section": null
+    },
+    {
+      "text": "Add enough vinegar to thicken it",
+      "section": null
+    },
+    {
+      "text": "Boil all together, stirring briskly",
+      "section": null
+    },
+    {
+      "text": "Do not mind if it curdles, go on stirring till it gets quite smooth",
+      "section": null
+    },
+    {
+      "text": "If no cream is used a tablespoonful of cornstarch dissolved in the milk will help to thicken it to the consistency of batter",
+      "section": null
+    },
+    {
+      "text": "Use whites of eggs to garnish salad",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/salad-dressing-4.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil eggs hard and take the yolks\n2. Rub smooth with melted butter, salt, mustard, sugar, and pepper to taste\n3. Add to this mixture milk or cream, stirring it in gradually\n4. Add enough vinegar to thicken it\n5. Boil all together, stirring briskly\n6. Do not mind if it curdles, go on stirring till it gets quite smooth\n7. If no cream is used a tablespoonful of cornstarch dissolved in the milk will help to thicken it to the consistency of batter\n8. Use whites of eggs to garnish salad",
+    "originalIngredients": [
+      "4 eggs",
+      "2 tablespoonfuls butter",
+      "1 tablespoonful sugar",
+      "1 teaspoonful salt",
+      "1 teaspoonful mustard",
+      "Pepper to taste",
+      "2 cups milk or cream",
+      "Vinegar to thicken"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

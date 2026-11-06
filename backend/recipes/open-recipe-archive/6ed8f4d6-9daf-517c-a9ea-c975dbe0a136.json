@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "6ed8f4d6-9daf-517c-a9ea-c975dbe0a136",
+  "name": "Noodles",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "4 cups flour",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little salt",
+      "originalText": "a little salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a little milk or water",
+      "originalText": "a little milk or water",
+      "quantity": null,
+      "quantityText": "a little milk or water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chicken broth",
+      "originalText": "chicken broth",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix flour, eggs and salt all together and make very stiff with flour",
+      "section": null
+    },
+    {
+      "text": "If 4 eggs does not wet the flour enough, add a little milk (sweet) or water, so as to mix like pie dough, only very stiff",
+      "section": null
+    },
+    {
+      "text": "Roll in a sheet or two, let lay 1 or 2 hours",
+      "section": null
+    },
+    {
+      "text": "Cut in long strips 2 inches wide, put 2 or 3 on top of each other and use a very sharp knife to cut in thin strips about 1/8 inch or less wide",
+      "section": null
+    },
+    {
+      "text": "Have chicken broth boiling hot, drop by handsful in kettle and stir with other hand",
+      "section": null
+    },
+    {
+      "text": "Let it boil 1/2 hour, add a little pepper and 1 tablespoon butter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/noodles-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix flour, eggs and salt all together and make very stiff with flour\n2. If 4 eggs does not wet the flour enough, add a little milk (sweet) or water, so as to mix like pie dough, only very stiff\n3. Roll in a sheet or two, let lay 1 or 2 hours\n4. Cut in long strips 2 inches wide, put 2 or 3 on top of each other and use a very sharp knife to cut in thin strips about 1/8 inch or less wide\n5. Have chicken broth boiling hot, drop by handsful in kettle and stir with other hand\n6. Let it boil 1/2 hour, add a little pepper and 1 tablespoon butter",
+    "originalIngredients": [
+      "4 cups flour",
+      "4 eggs",
+      "a little salt",
+      "a little milk or water",
+      "chicken broth",
+      "pepper",
+      "1 tablespoon butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

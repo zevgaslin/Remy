@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "eff253d5-e50b-55e1-82f0-922788707e79",
+  "name": "Cup Custard",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "six eggs",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "half a cupful of sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "new milk",
+      "originalText": "one quart of new milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "extract or flavoring",
+      "originalText": "extract or flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg or cinnamon",
+      "originalText": "nutmeg or cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat the eggs and the sugar and milk, and any extract or flavoring you like.",
+      "section": null
+    },
+    {
+      "text": "Fill your custard cups, sift a little nutmeg or cinnamon over the tops.",
+      "section": null
+    },
+    {
+      "text": "Set them in a moderate oven in a shallow pan half filled with hot water.",
+      "section": null
+    },
+    {
+      "text": "In about twenty minutes try them with the handle of a teaspoon to see if they are firm.",
+      "section": null
+    },
+    {
+      "text": "Serve cold with fresh fruit sugared and placed on top of each. Strawberries, peaches or raspberries, as preferred.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cup-custard-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat the eggs and the sugar and milk, and any extract or flavoring you like.\n2. Fill your custard cups, sift a little nutmeg or cinnamon over the tops.\n3. Set them in a moderate oven in a shallow pan half filled with hot water.\n4. In about twenty minutes try them with the handle of a teaspoon to see if they are firm.\n5. Serve cold with fresh fruit sugared and placed on top of each. Strawberries, peaches or raspberries, as preferred.",
+    "originalIngredients": [
+      "six eggs",
+      "half a cupful of sugar",
+      "one quart of new milk",
+      "extract or flavoring",
+      "nutmeg or cinnamon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

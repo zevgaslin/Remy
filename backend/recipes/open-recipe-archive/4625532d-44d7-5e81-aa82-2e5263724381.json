@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "4625532d-44d7-5e81-aa82-2e5263724381",
+  "name": "Sponge Drops",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "three eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup of sugar",
+      "originalText": "one teacup of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping coffeecup of flour",
+      "originalText": "one heaping coffeecup of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream of tartar",
+      "originalText": "one teaspoonful of cream of tartar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saleratus",
+      "originalText": "half a teaspoonful of saleratus",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon flavoring",
+      "originalText": "lemon flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "washed butter",
+      "originalText": "washed butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat three eggs and sugar to a froth",
+      "section": null
+    },
+    {
+      "text": "Mix one teaspoonful of cream of tartar and half a teaspoonful of saleratus thoroughly into the flour",
+      "section": null
+    },
+    {
+      "text": "Stir the flour mixture into the eggs and sugar",
+      "section": null
+    },
+    {
+      "text": "Flavor with lemon",
+      "section": null
+    },
+    {
+      "text": "Butter tin sheets with washed butter",
+      "section": null
+    },
+    {
+      "text": "Drop in teaspoonfuls about three inches apart",
+      "section": null
+    },
+    {
+      "text": "Bake instantly in a very quick oven",
+      "section": null
+    },
+    {
+      "text": "Watch closely as they will burn easily",
+      "section": null
+    },
+    {
+      "text": "Serve with ice cream",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sponge-drops.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat three eggs and sugar to a froth\n2. Mix one teaspoonful of cream of tartar and half a teaspoonful of saleratus thoroughly into the flour\n3. Stir the flour mixture into the eggs and sugar\n4. Flavor with lemon\n5. Butter tin sheets with washed butter\n6. Drop in teaspoonfuls about three inches apart\n7. Bake instantly in a very quick oven\n8. Watch closely as they will burn easily\n9. Serve with ice cream",
+    "originalIngredients": [
+      "three eggs",
+      "one teacup of sugar",
+      "one heaping coffeecup of flour",
+      "one teaspoonful of cream of tartar",
+      "half a teaspoonful of saleratus",
+      "lemon flavoring",
+      "washed butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

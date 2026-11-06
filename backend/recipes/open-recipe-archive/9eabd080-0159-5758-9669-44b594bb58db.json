@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "9eabd080-0159-5758-9669-44b594bb58db",
+  "name": "New England Pumpkin Pie",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "stewed pumpkin",
+      "originalText": "a quart of stewed pumpkin",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich cream",
+      "originalText": "a quart of rich cream",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "a pound of sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of an ounce of powdered mace",
+      "originalText": "a quarter of an ounce of powdered mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered nutmegs",
+      "originalText": "two powdered nutmegs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ground ginger",
+      "originalText": "a table-spoonful of ground ginger",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thin paste",
+      "originalText": "thin paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "puff-paste",
+      "originalText": "puff-paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a quart of stewed pumpkin and put it into a sieve and press and strain it as dry as possible",
+      "section": null
+    },
+    {
+      "text": "Set it away to get cold",
+      "section": null
+    },
+    {
+      "text": "Beat eight eggs very light and stir them gradually into the pumpkin, a little at a time, in turn with a quart of rich cream and a pound of sugar",
+      "section": null
+    },
+    {
+      "text": "Mix together a quarter of an ounce of powdered mace, two powdered nutmegs, and a table-spoonful of ground ginger and stir them into the other ingredients",
+      "section": null
+    },
+    {
+      "text": "When all is mixed, stir the whole very hard",
+      "section": null
+    },
+    {
+      "text": "Cover the bottom of your pie-dishes with a thin paste and fill them nearly to the top with the mixture",
+      "section": null
+    },
+    {
+      "text": "Cut out narrow stripes of paste with your jagging-iron and lay them across the tops of your pies",
+      "section": null
+    },
+    {
+      "text": "Bake them from an hour to an hour and a quarter",
+      "section": null
+    },
+    {
+      "text": "Send them to table cool",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/new-england-pumpkin-pie.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a quart of stewed pumpkin and put it into a sieve and press and strain it as dry as possible\n2. Set it away to get cold\n3. Beat eight eggs very light and stir them gradually into the pumpkin, a little at a time, in turn with a quart of rich cream and a pound of sugar\n4. Mix together a quarter of an ounce of powdered mace, two powdered nutmegs, and a table-spoonful of ground ginger and stir them into the other ingredients\n5. When all is mixed, stir the whole very hard\n6. Cover the bottom of your pie-dishes with a thin paste and fill them nearly to the top with the mixture\n7. Cut out narrow stripes of paste with your jagging-iron and lay them across the tops of your pies\n8. Bake them from an hour to an hour and a quarter\n9. Send them to table cool",
+    "originalIngredients": [
+      "a quart of stewed pumpkin",
+      "eight eggs",
+      "a quart of rich cream",
+      "a pound of sugar",
+      "a quarter of an ounce of powdered mace",
+      "two powdered nutmegs",
+      "a table-spoonful of ground ginger",
+      "thin paste",
+      "puff-paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

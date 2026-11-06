@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "14328858-56a0-5fb7-9b53-f2b066e1ee60",
+  "name": "Raised Muffins",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "4 cups flour",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1.5 pts milk",
+      "quantity": 1.5,
+      "quantityText": "1.5",
+      "unit": "pts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup yeast",
+      "originalText": "0.25 teacup yeast",
+      "quantity": 0.25,
+      "quantityText": "0.25",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lard",
+      "originalText": "1 teaspoonful lard",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "a pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift the flour into a pan with a pinch of salt",
+      "section": null
+    },
+    {
+      "text": "Warm the milk and add lard, and stir into the flour",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs light, add to the mixture",
+      "section": null
+    },
+    {
+      "text": "When thoroughly mixed add yeast",
+      "section": null
+    },
+    {
+      "text": "Set to rise about three hours before using",
+      "section": null
+    },
+    {
+      "text": "When very light bake in muffin rings in a quick oven",
+      "section": null
+    },
+    {
+      "text": "Serve the instant they come from the oven",
+      "section": null
+    },
+    {
+      "text": "Tear the muffins open when done, put a bit of butter in each and keep warm until served",
+      "section": null
+    },
+    {
+      "text": "Never cut them",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/raised-muffins-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift the flour into a pan with a pinch of salt\n2. Warm the milk and add lard, and stir into the flour\n3. Beat the eggs light, add to the mixture\n4. When thoroughly mixed add yeast\n5. Set to rise about three hours before using\n6. When very light bake in muffin rings in a quick oven\n7. Serve the instant they come from the oven\n8. Tear the muffins open when done, put a bit of butter in each and keep warm until served\n9. Never cut them",
+    "originalIngredients": [
+      "4 cups flour",
+      "2 eggs",
+      "1.5 pts milk",
+      "0.25 teacup yeast",
+      "1 teaspoonful lard",
+      "a pinch of salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

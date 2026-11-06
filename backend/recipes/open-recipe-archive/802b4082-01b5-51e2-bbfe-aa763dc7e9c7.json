@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "802b4082-01b5-51e2-bbfe-aa763dc7e9c7",
+  "name": "Strawberry Ice Cream",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ripe strawberries",
+      "originalText": "two quarts of ripe strawberries",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "half a pound of powdered loaf-sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "more of powdered sugar",
+      "originalText": "half a pound more of powdered sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rich cream",
+      "originalText": "two quarts of rich cream",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take two quarts of ripe strawberries; hull them, and put them into a deep dish, strewing among them half a pound of powdered loaf-sugar",
+      "section": null
+    },
+    {
+      "text": "Cover them, and let them stand an hour or two",
+      "section": null
+    },
+    {
+      "text": "Then mash them through a sieve till you have pressed out all the juice, and stir into it half a pound more of powdered sugar, or enough to make it very sweet, and like a thick syrup",
+      "section": null
+    },
+    {
+      "text": "Then mix it by degrees with two quarts of rich cream, beating it in very hard",
+      "section": null
+    },
+    {
+      "text": "Put it into a freezer, and proceed as in the foregoing receipt",
+      "section": null
+    },
+    {
+      "text": "In two hours, remove it to a mould, or take it out and return it again to the freezer with fresh salt and ice, that it may be frozen a second time",
+      "section": null
+    },
+    {
+      "text": "In one hour more, it should be ready to turn out",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/strawberry-ice-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take two quarts of ripe strawberries; hull them, and put them into a deep dish, strewing among them half a pound of powdered loaf-sugar\n2. Cover them, and let them stand an hour or two\n3. Then mash them through a sieve till you have pressed out all the juice, and stir into it half a pound more of powdered sugar, or enough to make it very sweet, and like a thick syrup\n4. Then mix it by degrees with two quarts of rich cream, beating it in very hard\n5. Put it into a freezer, and proceed as in the foregoing receipt\n6. In two hours, remove it to a mould, or take it out and return it again to the freezer with fresh salt and ice, that it may be frozen a second time\n7. In one hour more, it should be ready to turn out",
+    "originalIngredients": [
+      "two quarts of ripe strawberries",
+      "half a pound of powdered loaf-sugar",
+      "half a pound more of powdered sugar",
+      "two quarts of rich cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

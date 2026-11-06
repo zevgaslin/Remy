@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "d8dfae0f-e8c5-5693-a07b-9d8f3261955b",
+  "name": "Chicken Curry",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "chicken",
+      "originalText": "3 lb. chicken",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup butter",
+      "originalText": "⅓ cup butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "2 onions",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "curry powder",
+      "originalText": "1 tablespoon curry powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "2 teaspoons salt",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "1 teaspoon vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "boiling water",
+      "originalText": "boiling water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rice or Turkish Pilaf",
+      "originalText": "rice or Turkish Pilaf",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Clean, dress, and cut chicken in pieces for serving.",
+      "section": null
+    },
+    {
+      "text": "Put butter in a hot frying-pan, add chicken, and cook ten minutes; then add liver and gizzard and cook ten minutes longer.",
+      "section": null
+    },
+    {
+      "text": "Cut onions in thin slices, and add to chicken with curry powder and salt.",
+      "section": null
+    },
+    {
+      "text": "Add enough boiling water to cover, and simmer until chicken is tender.",
+      "section": null
+    },
+    {
+      "text": "Remove chicken; strain, and thicken liquor with flour diluted with enough cold water to pour easily.",
+      "section": null
+    },
+    {
+      "text": "Pour gravy over chicken, and serve with a border of rice or Turkish Pilaf.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chicken-curry-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Clean, dress, and cut chicken in pieces for serving.\n2. Put butter in a hot frying-pan, add chicken, and cook ten minutes; then add liver and gizzard and cook ten minutes longer.\n3. Cut onions in thin slices, and add to chicken with curry powder and salt.\n4. Add enough boiling water to cover, and simmer until chicken is tender.\n5. Remove chicken; strain, and thicken liquor with flour diluted with enough cold water to pour easily.\n6. Pour gravy over chicken, and serve with a border of rice or Turkish Pilaf.",
+    "originalIngredients": [
+      "3 lb. chicken",
+      "⅓ cup butter",
+      "2 onions",
+      "1 tablespoon curry powder",
+      "2 teaspoons salt",
+      "1 teaspoon vinegar",
+      "boiling water",
+      "flour",
+      "cold water",
+      "rice or Turkish Pilaf"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

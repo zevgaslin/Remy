@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "8ea57663-6280-54ff-a19b-b6817298d372",
+  "name": "Ginger Pound Cakes",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "half pound butter",
+      "originalText": "one half pound butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half pound sugar",
+      "originalText": "one-half pound sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "three-fourths pound flour",
+      "originalText": "three-fourths pound flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "two teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "four eggs",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one-half pound Canton ginger",
+      "originalText": "one-half pound Canton ginger",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream one half pound butter and add gradually one-half pound sugar, continuing the beating.",
+      "section": null
+    },
+    {
+      "text": "Add three-fourths pound flour, mixed and sifted with two teaspoons baking powder alternately with four eggs beaten until thick and lemon-colored.",
+      "section": null
+    },
+    {
+      "text": "Then add one-half pound Canton ginger cut in small pieces.",
+      "section": null
+    },
+    {
+      "text": "Bake in small buttered and floured individual cake pans in a slow oven.",
+      "section": null
+    },
+    {
+      "text": "Cover with White Mountain Cream (see p. 528).",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/ginger-pound-cakes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream one half pound butter and add gradually one-half pound sugar, continuing the beating.\n2. Add three-fourths pound flour, mixed and sifted with two teaspoons baking powder alternately with four eggs beaten until thick and lemon-colored.\n3. Then add one-half pound Canton ginger cut in small pieces.\n4. Bake in small buttered and floured individual cake pans in a slow oven.\n5. Cover with White Mountain Cream (see p. 528).",
+    "originalIngredients": [
+      "one half pound butter",
+      "one-half pound sugar",
+      "three-fourths pound flour",
+      "two teaspoons baking powder",
+      "four eggs",
+      "one-half pound Canton ginger"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

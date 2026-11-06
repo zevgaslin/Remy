@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "4bb17073-4c61-58da-8189-e503d332e694",
+  "name": "Lenten Croquettes",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "½ cup lentils",
+      "originalText": "½ cup lentils",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup dried lima beans",
+      "originalText": "¼ cup dried lima beans",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "3 pints water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ small onion",
+      "originalText": "½ small onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalk celery",
+      "originalText": "1 stalk celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "3 slices carrot",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprig parsley",
+      "originalText": "1 sprig parsley",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup stale bread crumbs",
+      "originalText": "½ cup stale bread crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg slightly beaten",
+      "originalText": "1 egg slightly beaten",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and pepper to taste",
+      "originalText": "salt and pepper to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoon flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup hot cream",
+      "originalText": "⅓ cup hot cream",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak lentils and dried lima beans overnight in cold water to cover; drain, add three pints water, one-half small onion, one stalk celery, three slices carrot, and a sprig of parsley.",
+      "section": null
+    },
+    {
+      "text": "Cook until lentils are soft, remove seasonings, drain, and rub through a sieve.",
+      "section": null
+    },
+    {
+      "text": "To pulp add one-half cup stale bread crumbs, one egg slightly beaten, and salt and pepper to taste.",
+      "section": null
+    },
+    {
+      "text": "Melt one tablespoon butter, add one tablespoon flour, and pour on gradually one-third cup hot cream; combine mixtures, and cool.",
+      "section": null
+    },
+    {
+      "text": "Shape, dip in crumbs, egg, and crumbs again, fry in deep fat, and drain on brown paper.",
+      "section": null
+    },
+    {
+      "text": "Serve with Tomato Sauce I.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lenten-croquettes.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak lentils and dried lima beans overnight in cold water to cover; drain, add three pints water, one-half small onion, one stalk celery, three slices carrot, and a sprig of parsley.\n2. Cook until lentils are soft, remove seasonings, drain, and rub through a sieve.\n3. To pulp add one-half cup stale bread crumbs, one egg slightly beaten, and salt and pepper to taste.\n4. Melt one tablespoon butter, add one tablespoon flour, and pour on gradually one-third cup hot cream; combine mixtures, and cool.\n5. Shape, dip in crumbs, egg, and crumbs again, fry in deep fat, and drain on brown paper.\n6. Serve with Tomato Sauce I.",
+    "originalIngredients": [
+      "½ cup lentils",
+      "¼ cup dried lima beans",
+      "3 pints water",
+      "½ small onion",
+      "1 stalk celery",
+      "3 slices carrot",
+      "1 sprig parsley",
+      "½ cup stale bread crumbs",
+      "1 egg slightly beaten",
+      "salt and pepper to taste",
+      "1 tablespoon butter",
+      "1 tablespoon flour",
+      "⅓ cup hot cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

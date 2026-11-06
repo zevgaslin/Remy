@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "e680a8e1-6646-51ee-89e8-d0f2bb5957f5",
+  "name": "Molasses Gingerbread",
+  "description": "Historical recipe from American Cookery (1796). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "table spoon of cinnamon",
+      "originalText": "one table spoon of cinnamon",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "some coriander or allspice",
+      "originalText": "some coriander or allspice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tea spoons pearl ash",
+      "originalText": "four tea spoons pearl ash",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "dissolved in half pint water",
+      "originalText": "dissolved in half pint water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "four pound flour",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "one quart molasses",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "four ounces butter",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites and sugar beat together",
+      "originalText": "whites and sugar beat together",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "put to four tea spoons pearl ash, dissolved in half pint water",
+      "section": null
+    },
+    {
+      "text": "four pound flour, one quart molasses, four ounces butter",
+      "section": null
+    },
+    {
+      "text": "(if in summer rub in the butter, if in winter, warm the butter and molasses and pour to the spiced flour)",
+      "section": null
+    },
+    {
+      "text": "knead well 'till stiff, the more the better, the lighter and whiter it will be",
+      "section": null
+    },
+    {
+      "text": "bake brisk fifteen minutes",
+      "section": null
+    },
+    {
+      "text": "don't scorch",
+      "section": null
+    },
+    {
+      "text": "before it is put in, wash it with whites and sugar beat together",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/molasses-gingerbread-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Amelia Simmons",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. put to four tea spoons pearl ash, dissolved in half pint water\n2. four pound flour, one quart molasses, four ounces butter\n3. (if in summer rub in the butter, if in winter, warm the butter and molasses and pour to the spiced flour)\n4. knead well 'till stiff, the more the better, the lighter and whiter it will be\n5. bake brisk fifteen minutes\n6. don't scorch\n7. before it is put in, wash it with whites and sugar beat together",
+    "originalIngredients": [
+      "one table spoon of cinnamon",
+      "some coriander or allspice",
+      "four tea spoons pearl ash",
+      "dissolved in half pint water",
+      "four pound flour",
+      "one quart molasses",
+      "four ounces butter",
+      "whites and sugar beat together"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: American Cookery (1796), https://www.gutenberg.org/ebooks/12815. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

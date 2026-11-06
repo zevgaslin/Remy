@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "7fed07ca-2a25-57ac-8fec-7e47fcf19ee9",
+  "name": "Sardine Savoy",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "bread",
+      "originalText": "three slices of bread",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "slices",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sardines",
+      "originalText": "sardines",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter ounce of butter",
+      "originalText": "one quarter ounce of butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Tarragon vinegar",
+      "originalText": "one teaspoon Tarragon vinegar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter teaspoon made mustard",
+      "originalText": "one quarter teaspoon made mustard",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcester sauce",
+      "originalText": "Worcester sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut three slices of bread a little larger than the size of a sardine",
+      "section": null
+    },
+    {
+      "text": "Fry a delicate brown on both sides",
+      "section": null
+    },
+    {
+      "text": "Place a sardine on each and make them hot in the oven",
+      "section": null
+    },
+    {
+      "text": "Beat up two eggs and mix with a quarter ounce of butter, one teaspoon Tarragon vinegar, quarter teaspoon made mustard, salt to taste, and a little Worcester sauce",
+      "section": null
+    },
+    {
+      "text": "Put these in a small saucepan and stir over the fire until it thickens (not boils)",
+      "section": null
+    },
+    {
+      "text": "Pour over the bread and sardines",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/sardine-savoy.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut three slices of bread a little larger than the size of a sardine\n2. Fry a delicate brown on both sides\n3. Place a sardine on each and make them hot in the oven\n4. Beat up two eggs and mix with a quarter ounce of butter, one teaspoon Tarragon vinegar, quarter teaspoon made mustard, salt to taste, and a little Worcester sauce\n5. Put these in a small saucepan and stir over the fire until it thickens (not boils)\n6. Pour over the bread and sardines",
+    "originalIngredients": [
+      "three slices of bread",
+      "sardines",
+      "two eggs",
+      "one quarter ounce of butter",
+      "one teaspoon Tarragon vinegar",
+      "one quarter teaspoon made mustard",
+      "salt",
+      "Worcester sauce"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

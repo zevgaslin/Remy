@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "bc8f57a3-278e-59c8-946e-2c49864ee1df",
+  "name": "Nut and Spice Layer Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "2 eggs",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter (scant)",
+      "originalText": "1/4 cup butter (scant)",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1/4 cup molasses",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small teaspoon soda",
+      "originalText": "1 small teaspoon soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "1/4 cup cold water",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "1/4 teaspoon cinnamon",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1/4 teaspoon cloves",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream eggs, sugar and butter",
+      "section": null
+    },
+    {
+      "text": "Mix milk and baking powder in flour",
+      "section": null
+    },
+    {
+      "text": "Add chopped nuts",
+      "section": null
+    },
+    {
+      "text": "For filling: Chop 1 cup raisins and 1 cup sugar with a few chopped walnuts",
+      "section": null
+    },
+    {
+      "text": "Beat white of 1 egg",
+      "section": null
+    },
+    {
+      "text": "Moisten sugar with a little water and boil until it strings",
+      "section": null
+    },
+    {
+      "text": "Add nuts and raisins",
+      "section": null
+    },
+    {
+      "text": "Add beaten white of egg last",
+      "section": null
+    },
+    {
+      "text": "Beat until creamy and spread between layers and on top",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/nut-and-spice-layer-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream eggs, sugar and butter\n2. Mix milk and baking powder in flour\n3. Add chopped nuts\n4. For filling: Chop 1 cup raisins and 1 cup sugar with a few chopped walnuts\n5. Beat white of 1 egg\n6. Moisten sugar with a little water and boil until it strings\n7. Add nuts and raisins\n8. Add beaten white of egg last\n9. Beat until creamy and spread between layers and on top",
+    "originalIngredients": [
+      "2 eggs",
+      "1 cup sugar",
+      "1/4 cup butter (scant)",
+      "1/4 cup molasses",
+      "1 small teaspoon soda",
+      "1/4 cup cold water",
+      "1/4 teaspoon cinnamon",
+      "1/4 teaspoon cloves",
+      "flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

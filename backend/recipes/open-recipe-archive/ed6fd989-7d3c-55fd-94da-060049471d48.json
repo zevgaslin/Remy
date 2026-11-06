@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "ed6fd989-7d3c-55fd-94da-060049471d48",
+  "name": "Roast Beef with Yorkshire Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "piece of beef",
+      "originalText": "piece of beef",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 pint of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, whites and yolks beaten separately",
+      "originalText": "4 eggs, whites and yolks beaten separately",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "prepared flour",
+      "originalText": "2 cups of prepared flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Set a piece of beef to roast upon a grating, or several sticks laid across a dripping-pan",
+      "section": null
+    },
+    {
+      "text": "Three-quarters of an hour before it is done, mix the pudding and pour into the pan",
+      "section": null
+    },
+    {
+      "text": "Continue to roast the beef, the dripping meanwhile falling upon the latter below",
+      "section": null
+    },
+    {
+      "text": "For the pudding: mix together 1 pint of milk, 4 eggs with whites and yolks beaten separately, 2 cups of prepared flour, and 1 teaspoonful salt",
+      "section": null
+    },
+    {
+      "text": "Be careful, in mixing, not to get the batter too stiff",
+      "section": null
+    },
+    {
+      "text": "If there is much fat in the dripping-pan before the pudding is ready to be put in, drain it off, leaving just enough to prevent the batter from sticking to the bottom",
+      "section": null
+    },
+    {
+      "text": "When both are done, cut the pudding into squares, and lay around the meat when dished",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/roast-beef-with-yorkshire-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Set a piece of beef to roast upon a grating, or several sticks laid across a dripping-pan\n2. Three-quarters of an hour before it is done, mix the pudding and pour into the pan\n3. Continue to roast the beef, the dripping meanwhile falling upon the latter below\n4. For the pudding: mix together 1 pint of milk, 4 eggs with whites and yolks beaten separately, 2 cups of prepared flour, and 1 teaspoonful salt\n5. Be careful, in mixing, not to get the batter too stiff\n6. If there is much fat in the dripping-pan before the pudding is ready to be put in, drain it off, leaving just enough to prevent the batter from sticking to the bottom\n7. When both are done, cut the pudding into squares, and lay around the meat when dished",
+    "originalIngredients": [
+      "piece of beef",
+      "1 pint of milk",
+      "4 eggs, whites and yolks beaten separately",
+      "2 cups of prepared flour",
+      "1 teaspoonful salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

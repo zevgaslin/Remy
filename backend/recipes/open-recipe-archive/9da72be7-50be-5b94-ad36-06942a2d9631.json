@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "9da72be7-50be-5b94-ad36-06942a2d9631",
+  "name": "Whipped Cream Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "one cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soft butter",
+      "originalText": "two tablespoonfuls of soft butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of two eggs",
+      "originalText": "yolks of two eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "four tablespoonfuls of milk",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flavoring",
+      "originalText": "flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of eggs",
+      "originalText": "whites of eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream of tartar",
+      "originalText": "one teaspoonful of cream of tartar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "half a teaspoon of soda",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "one cup of flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "of a pint of sweet cream",
+      "originalText": "half of a pint of sweet cream",
+      "quantity": 0.5,
+      "quantityText": "half",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir sugar and butter together",
+      "section": null
+    },
+    {
+      "text": "Add the yolks of two eggs well beaten",
+      "section": null
+    },
+    {
+      "text": "Add four tablespoonfuls of milk and some flavoring",
+      "section": null
+    },
+    {
+      "text": "Add the beaten whites of the eggs",
+      "section": null
+    },
+    {
+      "text": "Mix cream of tartar and soda in a cup of flour, sift it into the cake batter and stir lightly",
+      "section": null
+    },
+    {
+      "text": "Bake in a small whipping-pan",
+      "section": null
+    },
+    {
+      "text": "When the cake is cool, have ready half a pint of sweet cream sweetened and whipped to a stiff froth, also flavored",
+      "section": null
+    },
+    {
+      "text": "Spread it over the cake while fresh",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/whipped-cream-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir sugar and butter together\n2. Add the yolks of two eggs well beaten\n3. Add four tablespoonfuls of milk and some flavoring\n4. Add the beaten whites of the eggs\n5. Mix cream of tartar and soda in a cup of flour, sift it into the cake batter and stir lightly\n6. Bake in a small whipping-pan\n7. When the cake is cool, have ready half a pint of sweet cream sweetened and whipped to a stiff froth, also flavored\n8. Spread it over the cake while fresh",
+    "originalIngredients": [
+      "one cup of sugar",
+      "two tablespoonfuls of soft butter",
+      "yolks of two eggs",
+      "four tablespoonfuls of milk",
+      "flavoring",
+      "whites of eggs",
+      "one teaspoonful of cream of tartar",
+      "half a teaspoon of soda",
+      "one cup of flour",
+      "half of a pint of sweet cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

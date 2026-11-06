@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "68371964-e405-5c93-a911-bf6b79af4cc7",
+  "name": "Entire Wheat Bread",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "scalded milk",
+      "originalText": "2 cups scalded milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ cup sugar or ⅓ cup molasses",
+      "originalText": "¼ cup sugar or ⅓ cup molasses",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast cake dissolved in ¼ cup lukewarm water",
+      "originalText": "1 yeast cake dissolved in ¼ cup lukewarm water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "4⅔ cups coarse entire wheat flour",
+      "originalText": "4⅔ cups coarse entire wheat flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Add sweetening and salt to milk; cool, and when lukewarm add dissolved yeast cake and flour",
+      "section": null
+    },
+    {
+      "text": "Beat well, cover, and let rise to double its bulk",
+      "section": null
+    },
+    {
+      "text": "Again beat, and turn into greased bread pans, having pans one-half full",
+      "section": null
+    },
+    {
+      "text": "Let rise, and bake",
+      "section": null
+    },
+    {
+      "text": "Entire Wheat Bread should not quite double its bulk during last rising",
+      "section": null
+    },
+    {
+      "text": "This mixture may be baked in gem pans",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/entire-wheat-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Add sweetening and salt to milk; cool, and when lukewarm add dissolved yeast cake and flour\n2. Beat well, cover, and let rise to double its bulk\n3. Again beat, and turn into greased bread pans, having pans one-half full\n4. Let rise, and bake\n5. Entire Wheat Bread should not quite double its bulk during last rising\n6. This mixture may be baked in gem pans",
+    "originalIngredients": [
+      "2 cups scalded milk",
+      "¼ cup sugar or ⅓ cup molasses",
+      "1 teaspoon salt",
+      "1 yeast cake dissolved in ¼ cup lukewarm water",
+      "4⅔ cups coarse entire wheat flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

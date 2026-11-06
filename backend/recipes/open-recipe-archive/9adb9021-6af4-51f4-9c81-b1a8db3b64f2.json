@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "9adb9021-6af4-51f4-9c81-b1a8db3b64f2",
+  "name": "Beef Pudding",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "beef",
+      "originalText": "1/4 pound beef",
+      "quantity": 0.25,
+      "quantityText": "1/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 quart flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "suet",
+      "originalText": "1/2 pound suet",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 teaspoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little water",
+      "originalText": "a little water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the beef into small pieces",
+      "section": null
+    },
+    {
+      "text": "Chop suet very fine, and add to flour, and salt and mix into a stiff paste with a knife",
+      "section": null
+    },
+    {
+      "text": "Roll out and line a bowl with the paste",
+      "section": null
+    },
+    {
+      "text": "Fill in the beef, with salt and pepper to taste",
+      "section": null
+    },
+    {
+      "text": "Dust with flour",
+      "section": null
+    },
+    {
+      "text": "Put in a little water",
+      "section": null
+    },
+    {
+      "text": "Cover the top with paste, and join the edges well",
+      "section": null
+    },
+    {
+      "text": "Tie down into a cloth and plunge into boiling water",
+      "section": null
+    },
+    {
+      "text": "Keep boiling for 4 hours",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/beef-pudding-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the beef into small pieces\n2. Chop suet very fine, and add to flour, and salt and mix into a stiff paste with a knife\n3. Roll out and line a bowl with the paste\n4. Fill in the beef, with salt and pepper to taste\n5. Dust with flour\n6. Put in a little water\n7. Cover the top with paste, and join the edges well\n8. Tie down into a cloth and plunge into boiling water\n9. Keep boiling for 4 hours",
+    "originalIngredients": [
+      "1/4 pound beef",
+      "1 quart flour",
+      "1/2 pound suet",
+      "1 teaspoon salt",
+      "salt",
+      "pepper",
+      "flour",
+      "a little water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

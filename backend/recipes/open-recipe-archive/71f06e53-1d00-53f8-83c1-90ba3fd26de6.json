@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "71f06e53-1d00-53f8-83c1-90ba3fd26de6",
+  "name": "Vermicelli Soup",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lamb, from which every particle of fat has been removed",
+      "originalText": "4 lbs. lamb, from which every particle of fat has been removed",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "veal",
+      "originalText": "1 lb. veal",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "corned ham",
+      "originalText": "A slice of corned ham",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": "slice",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "5 qts. water",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet herbs",
+      "originalText": "sweet herbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped shallot",
+      "originalText": "a chopped shallot",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Worcestershire sauce",
+      "originalText": "2 teaspoonfuls Worcestershire sauce",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "about a third of a pound of vermicelli or macaroni",
+      "originalText": "about a third of a pound of vermicelli or macaroni",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut up the meat, cover it with a quart of water, and set it back on the range to heat very gradually, keeping it covered closely",
+      "section": null
+    },
+    {
+      "text": "At the end of an hour, add four quarts of boiling water, and cook until the meat is in shreds",
+      "section": null
+    },
+    {
+      "text": "Season with salt, sweet herbs, a chopped shallot, and two teaspoonfuls Worcestershire sauce",
+      "section": null
+    },
+    {
+      "text": "When these have boiled in the soup for ten minutes, strain and return to the fire",
+      "section": null
+    },
+    {
+      "text": "Have ready about a third of a pound of vermicelli which has been boiled tender in clear water",
+      "section": null
+    },
+    {
+      "text": "Add this; boil up once, and pour out",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/vermicelli-soup-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut up the meat, cover it with a quart of water, and set it back on the range to heat very gradually, keeping it covered closely\n2. At the end of an hour, add four quarts of boiling water, and cook until the meat is in shreds\n3. Season with salt, sweet herbs, a chopped shallot, and two teaspoonfuls Worcestershire sauce\n4. When these have boiled in the soup for ten minutes, strain and return to the fire\n5. Have ready about a third of a pound of vermicelli which has been boiled tender in clear water\n6. Add this; boil up once, and pour out",
+    "originalIngredients": [
+      "4 lbs. lamb, from which every particle of fat has been removed",
+      "1 lb. veal",
+      "A slice of corned ham",
+      "5 qts. water",
+      "salt",
+      "sweet herbs",
+      "a chopped shallot",
+      "2 teaspoonfuls Worcestershire sauce",
+      "about a third of a pound of vermicelli or macaroni"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

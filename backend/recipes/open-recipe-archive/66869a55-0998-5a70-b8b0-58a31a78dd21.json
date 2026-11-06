@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "66869a55-0998-5a70-b8b0-58a31a78dd21",
+  "name": "Chaud-froid of Chicken",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "butter",
+      "originalText": "2 tablespoons butter",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "White Stock",
+      "originalText": "1 cup White Stock",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Yolk one egg",
+      "originalText": "Yolk one egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "2 tablespoons cream",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lemon juice",
+      "originalText": "1 tablespoon lemon juice",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt and pepper",
+      "originalText": "Salt and pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ teaspoon granulated gelatine dissolved in one tablespoon hot water",
+      "originalText": "¾ teaspoon granulated gelatine dissolved in one tablespoon hot water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Aspic jelly",
+      "originalText": "Aspic jelly",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Truffles",
+      "originalText": "Truffles",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pieces cooked chicken, shaped in form of cutlets",
+      "originalText": "6 pieces cooked chicken, shaped in form of cutlets",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a sauce of butter, flour, and stock; add egg yolk diluted with cream, lemon juice, salt and pepper; then add dissolved gelatine.",
+      "section": null
+    },
+    {
+      "text": "Dip chicken in sauce which has been allowed to cool.",
+      "section": null
+    },
+    {
+      "text": "When chicken has cooled, garnish upper side with truffles cut in shapes.",
+      "section": null
+    },
+    {
+      "text": "Brush over with aspic jelly mixture, and chill.",
+      "section": null
+    },
+    {
+      "text": "Arrange a bed of lettuce; in centre pile cold cooked asparagus tips or celery cut in small pieces, marinated with French Dressing, and place chicken at base of salad.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chaud-froid-of-chicken.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a sauce of butter, flour, and stock; add egg yolk diluted with cream, lemon juice, salt and pepper; then add dissolved gelatine.\n2. Dip chicken in sauce which has been allowed to cool.\n3. When chicken has cooled, garnish upper side with truffles cut in shapes.\n4. Brush over with aspic jelly mixture, and chill.\n5. Arrange a bed of lettuce; in centre pile cold cooked asparagus tips or celery cut in small pieces, marinated with French Dressing, and place chicken at base of salad.",
+    "originalIngredients": [
+      "2 tablespoons butter",
+      "3 tablespoons flour",
+      "1 cup White Stock",
+      "Yolk one egg",
+      "2 tablespoons cream",
+      "1 tablespoon lemon juice",
+      "Salt and pepper",
+      "¾ teaspoon granulated gelatine dissolved in one tablespoon hot water",
+      "Aspic jelly",
+      "Truffles",
+      "6 pieces cooked chicken, shaped in form of cutlets"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

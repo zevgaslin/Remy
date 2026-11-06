@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "28e7153d-58b6-5863-a837-6716272be95e",
+  "name": "Raspberry Vinegar",
+  "description": "Historical recipe from The Virginia Housewife; Or, Methodical Cook (1824). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "ripe red raspberries",
+      "originalText": "1 quart ripe red raspberries",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strong well flavoured vinegar",
+      "originalText": "1 quart strong well flavoured vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pounded loaf sugar",
+      "originalText": "pounded loaf sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put a quart of ripe red raspberries in a bowl",
+      "section": null
+    },
+    {
+      "text": "Pour on them a quart of strong well flavoured vinegar",
+      "section": null
+    },
+    {
+      "text": "Let them stand twenty-four hours",
+      "section": null
+    },
+    {
+      "text": "Strain them through a bag",
+      "section": null
+    },
+    {
+      "text": "Put this liquid on another quart of fresh raspberries",
+      "section": null
+    },
+    {
+      "text": "Strain in the same manner",
+      "section": null
+    },
+    {
+      "text": "Then on a third quart",
+      "section": null
+    },
+    {
+      "text": "When this last is prepared, make it very sweet with pounded loaf sugar",
+      "section": null
+    },
+    {
+      "text": "Refine and bottle it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/raspberry-vinegar-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Mary Randolph",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put a quart of ripe red raspberries in a bowl\n2. Pour on them a quart of strong well flavoured vinegar\n3. Let them stand twenty-four hours\n4. Strain them through a bag\n5. Put this liquid on another quart of fresh raspberries\n6. Strain in the same manner\n7. Then on a third quart\n8. When this last is prepared, make it very sweet with pounded loaf sugar\n9. Refine and bottle it",
+    "originalIngredients": [
+      "1 quart ripe red raspberries",
+      "1 quart strong well flavoured vinegar",
+      "pounded loaf sugar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Virginia Housewife; Or, Methodical Cook (1824), https://www.gutenberg.org/ebooks/12519. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

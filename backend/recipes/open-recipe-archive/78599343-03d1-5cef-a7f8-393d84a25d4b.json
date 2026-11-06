@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "78599343-03d1-5cef-a7f8-393d84a25d4b",
+  "name": "French Rolls (No. 2)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk (new, warm milk is best)",
+      "originalText": "1 quart milk (new, warm milk is best)",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacup yeast",
+      "originalText": "1 teacup yeast",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "and a pint of flour",
+      "originalText": "1 quart and a pint of flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten egg",
+      "originalText": "well-beaten egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "two tablespoonfuls melted butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teaspoonful of salt",
+      "originalText": "teaspoonful of salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda dissolved in hot water",
+      "originalText": "half a teaspoonful soda dissolved in hot water",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "one tablespoonful white sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white flour",
+      "originalText": "white flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make a sponge with milk, yeast, and flour",
+      "section": null
+    },
+    {
+      "text": "When this sponge is light, work in a well-beaten egg and two tablespoonfuls melted butter, with a teaspoonful of salt, half a teaspoonful soda dissolved in hot water, one tablespoonful white sugar and enough white flour to make a soft dough",
+      "section": null
+    },
+    {
+      "text": "Let this stand four or five hours",
+      "section": null
+    },
+    {
+      "text": "Roll out into round cakes and fold as in No. 1, or shape with your hands into balls",
+      "section": null
+    },
+    {
+      "text": "Set these closely together in the baking-pan",
+      "section": null
+    },
+    {
+      "text": "Let them rise one hour",
+      "section": null
+    },
+    {
+      "text": "Just before putting them into the oven, cut deeply across each ball with a sharp knife",
+      "section": null
+    },
+    {
+      "text": "Bake half an hour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/french-rolls-no-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make a sponge with milk, yeast, and flour\n2. When this sponge is light, work in a well-beaten egg and two tablespoonfuls melted butter, with a teaspoonful of salt, half a teaspoonful soda dissolved in hot water, one tablespoonful white sugar and enough white flour to make a soft dough\n3. Let this stand four or five hours\n4. Roll out into round cakes and fold as in No. 1, or shape with your hands into balls\n5. Set these closely together in the baking-pan\n6. Let them rise one hour\n7. Just before putting them into the oven, cut deeply across each ball with a sharp knife\n8. Bake half an hour",
+    "originalIngredients": [
+      "1 quart milk (new, warm milk is best)",
+      "1 teacup yeast",
+      "1 quart and a pint of flour",
+      "well-beaten egg",
+      "two tablespoonfuls melted butter",
+      "teaspoonful of salt",
+      "half a teaspoonful soda dissolved in hot water",
+      "one tablespoonful white sugar",
+      "white flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "4d2bf417-d4a0-5d90-9ce5-b0dc84c29f2d",
+  "name": "Corn-Starch Pudding",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "corn-starch",
+      "originalText": "4 tablespoonfuls corn-starch",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 quart milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs—whites and yolks separate",
+      "originalText": "4 eggs—whites and yolks separate",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¾ cup sugar",
+      "originalText": "¾ cup sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Nutmeg and cinnamon",
+      "originalText": "Nutmeg and cinnamon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Dissolve the corn-starch in a little cold milk, and having heated the rest of the milk to boiling, stir this in and boil three minutes, stirring all the time",
+      "section": null
+    },
+    {
+      "text": "Remove from the fire, and while still very hot, put in the butter",
+      "section": null
+    },
+    {
+      "text": "Set away until cold",
+      "section": null
+    },
+    {
+      "text": "Beat the eggs very light—the sugar and seasoning with them, and stir into the corn-starch, beating thoroughly to a smooth custard",
+      "section": null
+    },
+    {
+      "text": "Turn into a buttered dish, and bake half an hour",
+      "section": null
+    },
+    {
+      "text": "Eat cold, with powdered sugar sifted over it",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/corn-starch-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Dissolve the corn-starch in a little cold milk, and having heated the rest of the milk to boiling, stir this in and boil three minutes, stirring all the time\n2. Remove from the fire, and while still very hot, put in the butter\n3. Set away until cold\n4. Beat the eggs very light—the sugar and seasoning with them, and stir into the corn-starch, beating thoroughly to a smooth custard\n5. Turn into a buttered dish, and bake half an hour\n6. Eat cold, with powdered sugar sifted over it",
+    "originalIngredients": [
+      "4 tablespoonfuls corn-starch",
+      "1 quart milk",
+      "4 eggs—whites and yolks separate",
+      "¾ cup sugar",
+      "Nutmeg and cinnamon",
+      "1 tablespoonful butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

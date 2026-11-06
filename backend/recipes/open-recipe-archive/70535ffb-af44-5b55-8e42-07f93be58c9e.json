@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "70535ffb-af44-5b55-8e42-07f93be58c9e",
+  "name": "Stuffed Green Peppers",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sweet green peppers",
+      "originalText": "sweet green peppers",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppers",
+      "originalText": "two peppers",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small onion",
+      "originalText": "one small onion",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tomato",
+      "originalText": "one large tomato",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stale breadcrumbs",
+      "originalText": "stale breadcrumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "one teaspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "melted butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cut the tops off the sweet green peppers and carefully remove the seeds",
+      "section": null
+    },
+    {
+      "text": "Chop together very fine two peppers, one small onion and one large tomato (peeled)",
+      "section": null
+    },
+    {
+      "text": "Add an equal amount of stale breadcrumbs, one teaspoonful of salt and sufficient melted butter to moisten the mixture",
+      "section": null
+    },
+    {
+      "text": "Fill the peppers with the mixture, replace the tops and bake for half an hour in a moderate oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/stuffed-green-peppers.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cut the tops off the sweet green peppers and carefully remove the seeds\n2. Chop together very fine two peppers, one small onion and one large tomato (peeled)\n3. Add an equal amount of stale breadcrumbs, one teaspoonful of salt and sufficient melted butter to moisten the mixture\n4. Fill the peppers with the mixture, replace the tops and bake for half an hour in a moderate oven",
+    "originalIngredients": [
+      "sweet green peppers",
+      "two peppers",
+      "one small onion",
+      "one large tomato",
+      "stale breadcrumbs",
+      "one teaspoonful salt",
+      "melted butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

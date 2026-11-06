@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "a46d5d2a-1d3a-5e0f-979d-4fb71fc09a01",
+  "name": "Rye and Indian Bread",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rye",
+      "originalText": "two quarts of rye",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Indian meal",
+      "originalText": "two quarts of Indian meal",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "three pints of milk",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "two tea-spoonfuls of salt",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tea-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "good fresh yeast",
+      "originalText": "half a pint of good fresh yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Sift the rye and Indian meal",
+      "section": null
+    },
+    {
+      "text": "Mix them well together",
+      "section": null
+    },
+    {
+      "text": "Boil the milk",
+      "section": null
+    },
+    {
+      "text": "Pour it boiling hot upon the meal",
+      "section": null
+    },
+    {
+      "text": "Add two tea-spoonfuls of salt",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard",
+      "section": null
+    },
+    {
+      "text": "Let it stand till it becomes of only a lukewarm heat",
+      "section": null
+    },
+    {
+      "text": "Stir in half a pint of good fresh yeast",
+      "section": null
+    },
+    {
+      "text": "Knead the mixture into a stiff dough",
+      "section": null
+    },
+    {
+      "text": "Set it to rise in a pan",
+      "section": null
+    },
+    {
+      "text": "Cover it with a thick cloth that has been previously warmed, and set it near the fire",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rye-and-indian-bread.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Sift the rye and Indian meal\n2. Mix them well together\n3. Boil the milk\n4. Pour it boiling hot upon the meal\n5. Add two tea-spoonfuls of salt\n6. Stir the whole very hard\n7. Let it stand till it becomes of only a lukewarm heat\n8. Stir in half a pint of good fresh yeast\n9. Knead the mixture into a stiff dough\n10. Set it to rise in a pan\n11. Cover it with a thick cloth that has been previously warmed, and set it near the fire",
+    "originalIngredients": [
+      "two quarts of rye",
+      "two quarts of Indian meal",
+      "three pints of milk",
+      "two tea-spoonfuls of salt",
+      "half a pint of good fresh yeast"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

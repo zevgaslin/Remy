@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "39cfeda5-f7cc-588d-9efb-6eedba3c97ac",
+  "name": "Boiled Ham (Virginia Style)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "twelve-pound ham",
+      "originalText": "A twelve-pound ham",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1 cup of molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "1 cup of vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "few pieces of stick cinnamon",
+      "originalText": "A few pieces of stick cinnamon",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Water",
+      "originalText": "Water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Breadcrumbs",
+      "originalText": "Breadcrumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vinegar",
+      "originalText": "1 cup of vinegar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take a cup of molasses, one cup of vinegar and a few pieces of stick cinnamon, and stir these ingredients into the water in which the ham is to be boiled",
+      "section": null
+    },
+    {
+      "text": "Put in the ham and boil slowly three hours",
+      "section": null
+    },
+    {
+      "text": "Leave the ham in the water until it is lukewarm",
+      "section": null
+    },
+    {
+      "text": "Take it out and skin",
+      "section": null
+    },
+    {
+      "text": "Cover with breadcrumbs and put in a pan in the oven, with one cup of vinegar",
+      "section": null
+    },
+    {
+      "text": "Bake one hour",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/boiled-ham-virginia-style.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take a cup of molasses, one cup of vinegar and a few pieces of stick cinnamon, and stir these ingredients into the water in which the ham is to be boiled\n2. Put in the ham and boil slowly three hours\n3. Leave the ham in the water until it is lukewarm\n4. Take it out and skin\n5. Cover with breadcrumbs and put in a pan in the oven, with one cup of vinegar\n6. Bake one hour",
+    "originalIngredients": [
+      "A twelve-pound ham",
+      "1 cup of molasses",
+      "1 cup of vinegar",
+      "A few pieces of stick cinnamon",
+      "Water",
+      "Breadcrumbs",
+      "1 cup of vinegar"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

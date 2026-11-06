@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "e73aea46-7242-53e1-b407-d8dba2bd7664",
+  "name": "Rennet Whey",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "small bit of rennet about two inches square",
+      "originalText": "a small bit of rennet about two inches square",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lukewarm water",
+      "originalText": "lukewarm water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pitcher of warm milk",
+      "originalText": "a quart pitcher of warm milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash a small bit of rennet about two inches square, in cold water, to get off the salt.",
+      "section": null
+    },
+    {
+      "text": "Put it into a tea-cup and pour on it sufficient lukewarm water to cover it.",
+      "section": null
+    },
+    {
+      "text": "Let it stand all night, and in the morning stir the rennet water into a quart pitcher of warm milk.",
+      "section": null
+    },
+    {
+      "text": "Cover it, and set it near the fire till a firm curd is formed.",
+      "section": null
+    },
+    {
+      "text": "Pour off the whey from it, and it will be found an excellent and cooling drink.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/rennet-whey.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash a small bit of rennet about two inches square, in cold water, to get off the salt.\n2. Put it into a tea-cup and pour on it sufficient lukewarm water to cover it.\n3. Let it stand all night, and in the morning stir the rennet water into a quart pitcher of warm milk.\n4. Cover it, and set it near the fire till a firm curd is formed.\n5. Pour off the whey from it, and it will be found an excellent and cooling drink.",
+    "originalIngredients": [
+      "a small bit of rennet about two inches square",
+      "cold water",
+      "lukewarm water",
+      "a quart pitcher of warm milk"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

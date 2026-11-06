@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "42cc0468-8853-5934-9da6-ee0d60373da2",
+  "name": "Corn-Starch Blanc-Mange",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "1 quart of milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "corn-starch, wet in a little cold water",
+      "originalText": "4 tablespoonfuls corn-starch, wet in a little cold water",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs, well beaten—whites and yolks separately",
+      "originalText": "3 eggs, well beaten—whites and yolks separately",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 cup of sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla, lemon, or other essence",
+      "originalText": "Vanilla, lemon, or other essence",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful salt",
+      "originalText": "1 saltspoonful salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the milk to boiling; stir in the corn-starch and salt, and boil together five minutes (in a farina-kettle), then add the yolks, beaten light, with the sugar; boil two minutes longer, stirring all the while; remove the mixture from the fire, and beat in the whipped whites while it is boiling hot.",
+      "section": null
+    },
+    {
+      "text": "Pour into a mould wet with cold water, and set in a cold place.",
+      "section": null
+    },
+    {
+      "text": "Eat with sugar and cream.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/corn-starch-blanc-mange.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the milk to boiling; stir in the corn-starch and salt, and boil together five minutes (in a farina-kettle), then add the yolks, beaten light, with the sugar; boil two minutes longer, stirring all the while; remove the mixture from the fire, and beat in the whipped whites while it is boiling hot.\n2. Pour into a mould wet with cold water, and set in a cold place.\n3. Eat with sugar and cream.",
+    "originalIngredients": [
+      "1 quart of milk",
+      "4 tablespoonfuls corn-starch, wet in a little cold water",
+      "3 eggs, well beaten—whites and yolks separately",
+      "1 cup of sugar",
+      "Vanilla, lemon, or other essence",
+      "1 saltspoonful salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

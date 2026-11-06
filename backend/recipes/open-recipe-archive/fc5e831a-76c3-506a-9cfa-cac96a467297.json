@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "fc5e831a-76c3-506a-9cfa-cac96a467297",
+  "name": "Pudding Catchup",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "noyau",
+      "originalText": "half a pint of noyau",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a pint of sherry or other white wine",
+      "originalText": "a pint of sherry or other white wine",
+      "quantity": null,
+      "quantityText": "a pint of sherry or other white wine",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the yellow peel of four lemons, pared thin",
+      "originalText": "the yellow peel of four lemons, pared thin",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mace",
+      "originalText": "half an ounce of mace",
+      "quantity": 0.5,
+      "quantityText": "half an",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half a pint of capillaire or strong sugar syrup or Curaçoa",
+      "originalText": "half a pint of capillaire or strong sugar syrup or Curaçoa",
+      "quantity": null,
+      "quantityText": "half a pint of capillaire or strong sugar syrup or Curaçoa",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together half a pint of noyau; a pint of sherry or other white wine; the yellow peel of four lemons, pared thin; and half an ounce of mace.",
+      "section": null
+    },
+    {
+      "text": "Put the whole into a large bottle, and let it stand for two or three weeks.",
+      "section": null
+    },
+    {
+      "text": "Strain it, and add half a pint of capillaire or strong sugar syrup; or of Curaçoa.",
+      "section": null
+    },
+    {
+      "text": "Bottle it, and it will keep two or three years.",
+      "section": null
+    },
+    {
+      "text": "It may be used for various sweet dishes, but chiefly for pudding-sauce mixed with melted butter.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pudding-catchup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together half a pint of noyau; a pint of sherry or other white wine; the yellow peel of four lemons, pared thin; and half an ounce of mace.\n2. Put the whole into a large bottle, and let it stand for two or three weeks.\n3. Strain it, and add half a pint of capillaire or strong sugar syrup; or of Curaçoa.\n4. Bottle it, and it will keep two or three years.\n5. It may be used for various sweet dishes, but chiefly for pudding-sauce mixed with melted butter.",
+    "originalIngredients": [
+      "half a pint of noyau",
+      "a pint of sherry or other white wine",
+      "the yellow peel of four lemons, pared thin",
+      "half an ounce of mace",
+      "half a pint of capillaire or strong sugar syrup or Curaçoa"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

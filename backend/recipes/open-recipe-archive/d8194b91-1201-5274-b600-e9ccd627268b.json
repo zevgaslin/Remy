@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "d8194b91-1201-5274-b600-e9ccd627268b",
+  "name": "Pork and Beans (Baked)",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "white beans",
+      "originalText": "two quarts of white beans",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of salt pork",
+      "originalText": "a piece of salt pork",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "a tablespoonful of molasses",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "half a teaspoonful of soda",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pick over the beans the night before, put to soak in cold water.",
+      "section": null
+    },
+    {
+      "text": "In the morning put them in fresh water and let them scald.",
+      "section": null
+    },
+    {
+      "text": "Turn off the water and put on more, hot.",
+      "section": null
+    },
+    {
+      "text": "Put to cook with them a piece of salt pork, gashed, as much as would make five or six slices.",
+      "section": null
+    },
+    {
+      "text": "Boil slowly till soft (not mashed).",
+      "section": null
+    },
+    {
+      "text": "Add a tablespoonful of molasses and half a teaspoonful of soda, stir in well.",
+      "section": null
+    },
+    {
+      "text": "Put in a deep pan, and bake one hour and a half.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/pork-and-beans-baked.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pick over the beans the night before, put to soak in cold water.\n2. In the morning put them in fresh water and let them scald.\n3. Turn off the water and put on more, hot.\n4. Put to cook with them a piece of salt pork, gashed, as much as would make five or six slices.\n5. Boil slowly till soft (not mashed).\n6. Add a tablespoonful of molasses and half a teaspoonful of soda, stir in well.\n7. Put in a deep pan, and bake one hour and a half.",
+    "originalIngredients": [
+      "two quarts of white beans",
+      "a piece of salt pork",
+      "a tablespoonful of molasses",
+      "half a teaspoonful of soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

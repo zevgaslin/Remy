@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "99953e7a-acd3-51ea-99bb-529cb7ac9a77",
+  "name": "Scotch Shortbread",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "baking powder",
+      "originalText": "1 teaspoon baking powder",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 pound flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "8 ounces butter",
+      "quantity": 8.0,
+      "quantityText": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "coffee sugar",
+      "originalText": "4 ounces coffee sugar",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolk of one egg",
+      "originalText": "yolk of one egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Measure out the ingredients, put the butter and sugar in a basin, beat to a cream",
+      "section": null
+    },
+    {
+      "text": "Make a hole in the centre of the mixture and add the yolk of the egg",
+      "section": null
+    },
+    {
+      "text": "Mix flour and baking powder well together and add gradually to the butter and sugar, mixing well",
+      "section": null
+    },
+    {
+      "text": "Turn out on a floured pastry board and work the mixture into flat, round shapes about as large as saucers",
+      "section": null
+    },
+    {
+      "text": "Notch the edges or place on a wooden shape or earthenware mould and bake in a slow oven for twenty minutes till a nice brown color",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scotch-shortbread-3.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Measure out the ingredients, put the butter and sugar in a basin, beat to a cream\n2. Make a hole in the centre of the mixture and add the yolk of the egg\n3. Mix flour and baking powder well together and add gradually to the butter and sugar, mixing well\n4. Turn out on a floured pastry board and work the mixture into flat, round shapes about as large as saucers\n5. Notch the edges or place on a wooden shape or earthenware mould and bake in a slow oven for twenty minutes till a nice brown color",
+    "originalIngredients": [
+      "1 teaspoon baking powder",
+      "1 pound flour",
+      "8 ounces butter",
+      "4 ounces coffee sugar",
+      "yolk of one egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

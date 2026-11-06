@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "666d1e4d-b84c-5104-8fea-d07f093f2081",
+  "name": "Prince of Wales Cake",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "brown sugar",
+      "originalText": "1 cup brown sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3/4 cup butter",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sour milk",
+      "originalText": "3/4 cup sour milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "2 cups flour",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "chopped raisins",
+      "originalText": "1 cup chopped raisins",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda dissolved in warm water",
+      "originalText": "1 teaspoon soda dissolved in warm water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1 tablespoon molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yolks of 3 eggs",
+      "originalText": "yolks of 3 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "1 teaspoon cloves",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "1 teaspoon nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 cup flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "3/4 cup cornstarch",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet milk",
+      "originalText": "3/4 cup sweet milk",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3/4 cup butter",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 cup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "baking powder",
+      "originalText": "2 teaspoons baking powder",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white sugar",
+      "originalText": "1 cup white sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "white of 1 egg",
+      "originalText": "white of 1 egg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "For dark part: mix brown sugar, butter, and sour milk",
+      "section": null
+    },
+    {
+      "text": "Add flour, raisins, soda dissolved in warm water, molasses, yolks of 3 eggs, cloves, and nutmeg",
+      "section": null
+    },
+    {
+      "text": "For white part: mix flour, cornstarch, sweet milk, butter, white sugar, and baking powder",
+      "section": null
+    },
+    {
+      "text": "Bake all in four layers",
+      "section": null
+    },
+    {
+      "text": "For boiled icing: boil 1 cup white sugar in water enough to dissolve it till it will hair",
+      "section": null
+    },
+    {
+      "text": "Beat the white of 1 egg to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "Pour the hot sugar on the froth",
+      "section": null
+    },
+    {
+      "text": "Flavor to suit the taste and beat till cool enough to stay on the cake",
+      "section": null
+    },
+    {
+      "text": "Put layers together with boiled icing",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/prince-of-wales-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. For dark part: mix brown sugar, butter, and sour milk\n2. Add flour, raisins, soda dissolved in warm water, molasses, yolks of 3 eggs, cloves, and nutmeg\n3. For white part: mix flour, cornstarch, sweet milk, butter, white sugar, and baking powder\n4. Bake all in four layers\n5. For boiled icing: boil 1 cup white sugar in water enough to dissolve it till it will hair\n6. Beat the white of 1 egg to a stiff froth\n7. Pour the hot sugar on the froth\n8. Flavor to suit the taste and beat till cool enough to stay on the cake\n9. Put layers together with boiled icing",
+    "originalIngredients": [
+      "1 cup brown sugar",
+      "3/4 cup butter",
+      "3/4 cup sour milk",
+      "2 cups flour",
+      "1 cup chopped raisins",
+      "1 teaspoon soda dissolved in warm water",
+      "1 tablespoon molasses",
+      "yolks of 3 eggs",
+      "1 teaspoon cloves",
+      "1 teaspoon nutmeg",
+      "1 cup flour",
+      "3/4 cup cornstarch",
+      "3/4 cup sweet milk",
+      "3/4 cup butter",
+      "1 cup white sugar",
+      "2 teaspoons baking powder",
+      "1 cup white sugar",
+      "water",
+      "white of 1 egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

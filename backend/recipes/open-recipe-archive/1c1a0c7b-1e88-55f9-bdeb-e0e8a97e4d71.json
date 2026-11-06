@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "1c1a0c7b-1e88-55f9-bdeb-e0e8a97e4d71",
+  "name": "New York Cookies",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "a half-pint or a tumbler full of cold water",
+      "originalText": "a half-pint or a tumbler full of cold water",
+      "quantity": null,
+      "quantityText": "a half-pint or a tumbler full of cold water",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered white sugar",
+      "originalText": "half a pound of powdered white sugar",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "three pounds of flour",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "a pound of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wine glass of rose water",
+      "originalText": "a wine glass of rose water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "a tea-spoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tepid water",
+      "originalText": "tepid water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix a half-pint or a tumbler full of cold water with half a pound of powdered white sugar.",
+      "section": null
+    },
+    {
+      "text": "Sift three pounds of flour into a large pan, and cut up in it a pound of butter.",
+      "section": null
+    },
+    {
+      "text": "Rub the butter very fine into the flour.",
+      "section": null
+    },
+    {
+      "text": "Add a grated nutmeg and a tea-spoonful of powdered cinnamon, with a wine glass of rose water.",
+      "section": null
+    },
+    {
+      "text": "Work in the sugar, and make the whole into a stiff dough, adding, if necessary, a little cold water.",
+      "section": null
+    },
+    {
+      "text": "Dissolve a tea-spoonful of soda in just enough tepid water to cover it and mix it in at the last.",
+      "section": null
+    },
+    {
+      "text": "Take the lump of dough out of the pan, and knead it on the paste-board till it becomes quite light.",
+      "section": null
+    },
+    {
+      "text": "Roll it out rather more than half an inch thick, and cut it into square cakes with a jagging iron or with a sharp knife.",
+      "section": null
+    },
+    {
+      "text": "Stamp the surface of each with a cake print.",
+      "section": null
+    },
+    {
+      "text": "Lay them in buttered pans, and bake them of a light brown in a brisk oven.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/new-york-cookies.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix a half-pint or a tumbler full of cold water with half a pound of powdered white sugar.\n2. Sift three pounds of flour into a large pan, and cut up in it a pound of butter.\n3. Rub the butter very fine into the flour.\n4. Add a grated nutmeg and a tea-spoonful of powdered cinnamon, with a wine glass of rose water.\n5. Work in the sugar, and make the whole into a stiff dough, adding, if necessary, a little cold water.\n6. Dissolve a tea-spoonful of soda in just enough tepid water to cover it and mix it in at the last.\n7. Take the lump of dough out of the pan, and knead it on the paste-board till it becomes quite light.\n8. Roll it out rather more than half an inch thick, and cut it into square cakes with a jagging iron or with a sharp knife.\n9. Stamp the surface of each with a cake print.\n10. Lay them in buttered pans, and bake them of a light brown in a brisk oven.",
+    "originalIngredients": [
+      "a half-pint or a tumbler full of cold water",
+      "half a pound of powdered white sugar",
+      "three pounds of flour",
+      "a pound of butter",
+      "a grated nutmeg",
+      "a tea-spoonful of powdered cinnamon",
+      "a wine glass of rose water",
+      "a tea-spoonful of soda",
+      "tepid water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "bd343337-d0ed-579a-b5f4-f8251293f785",
+  "name": "Caramel Cake",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "3 cups sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ cups butter",
+      "originalText": "1½ cups butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 cup milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "4½ cups prepared flour",
+      "originalText": "4½ cups prepared flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "5 eggs",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ cup brown sugar",
+      "originalText": "1½ cup brown sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup milk",
+      "originalText": "½ cup milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "1 cup molasses",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 teaspoonful butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 tablespoonful flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "2 tablespoonfuls cold water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cake Baker's chocolate (grated)",
+      "originalText": "half a cake Baker's chocolate (grated)",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of soda",
+      "originalText": "a pinch of soda",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large teaspoonful vanilla",
+      "originalText": "a large teaspoonful vanilla",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "For the cake: Combine 3 cups sugar, 1½ cups butter, 1 cup milk, 4½ cups prepared flour, and 5 eggs and bake as for jelly-cake.",
+      "section": null
+    },
+    {
+      "text": "For the caramel filling: Boil together 1½ cup brown sugar, ½ cup milk, 1 cup molasses, 1 teaspoonful butter, 1 tablespoonful flour, and 2 tablespoonfuls cold water for five minutes.",
+      "section": null
+    },
+    {
+      "text": "Add half a cake Baker's chocolate (grated), and boil until it is the consistency of rich custard.",
+      "section": null
+    },
+    {
+      "text": "Add a pinch of soda, stir well, and remove from fire.",
+      "section": null
+    },
+    {
+      "text": "When cold, flavor with a large teaspoonful vanilla, and spread between the layers of cake.",
+      "section": null
+    },
+    {
+      "text": "Cover the top with the same, and set in an open, sunny window to dry.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/caramel-cake-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. For the cake: Combine 3 cups sugar, 1½ cups butter, 1 cup milk, 4½ cups prepared flour, and 5 eggs and bake as for jelly-cake.\n2. For the caramel filling: Boil together 1½ cup brown sugar, ½ cup milk, 1 cup molasses, 1 teaspoonful butter, 1 tablespoonful flour, and 2 tablespoonfuls cold water for five minutes.\n3. Add half a cake Baker's chocolate (grated), and boil until it is the consistency of rich custard.\n4. Add a pinch of soda, stir well, and remove from fire.\n5. When cold, flavor with a large teaspoonful vanilla, and spread between the layers of cake.\n6. Cover the top with the same, and set in an open, sunny window to dry.",
+    "originalIngredients": [
+      "3 cups sugar",
+      "1½ cups butter",
+      "1 cup milk",
+      "4½ cups prepared flour",
+      "5 eggs",
+      "1½ cup brown sugar",
+      "½ cup milk",
+      "1 cup molasses",
+      "1 teaspoonful butter",
+      "1 tablespoonful flour",
+      "2 tablespoonfuls cold water",
+      "half a cake Baker's chocolate (grated)",
+      "a pinch of soda",
+      "a large teaspoonful vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

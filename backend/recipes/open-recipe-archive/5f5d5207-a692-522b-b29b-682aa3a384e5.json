@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "5f5d5207-a692-522b-b29b-682aa3a384e5",
+  "name": "Consomme",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "shin of beef",
+      "originalText": "4 lbs. shin of beef",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "knuckle of veal",
+      "originalText": "4 lbs. knuckle of veal",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water (cold)",
+      "originalText": "4 qts. of water (cold)",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "qts.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 oz. lean ham or bacon",
+      "originalText": "2 oz. lean ham or bacon",
+      "quantity": null,
+      "quantityText": "2 oz. lean ham or bacon",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cloves",
+      "originalText": "6 cloves",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "6 peppercorns",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "stalks of celery",
+      "originalText": "2 stalks of celery",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Bouquet of herbs",
+      "originalText": "Bouquet of herbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions",
+      "originalText": "3 onions",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "1 carrot",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnip",
+      "originalText": "1 turnip",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sprigs of parsley",
+      "originalText": "2 sprigs of parsley",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs (whites and shells)",
+      "originalText": "3 eggs (whites and shells)",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe and cut the meat and bones into small pieces",
+      "section": null
+    },
+    {
+      "text": "Put the marrow, bones, and part of the meat in the kettle, with four quarts of cold water",
+      "section": null
+    },
+    {
+      "text": "Heat slowly; cut the onions and vegetables fine, and fry them in the ham fat or in drippings, then brown the remainder of the meat",
+      "section": null
+    },
+    {
+      "text": "Add onions, meat, herbs, spices and vegetables",
+      "section": null
+    },
+    {
+      "text": "Simmer until the meat is in rags; it will take about seven hours",
+      "section": null
+    },
+    {
+      "text": "Strain, and when cold remove the fat and add the whites and shells of the eggs, lemon and salt and pepper, if needed",
+      "section": null
+    },
+    {
+      "text": "When well mixed heat it, and boil ten minutes",
+      "section": null
+    },
+    {
+      "text": "Strain through fine strainer, and heat again to the boiling point before serving",
+      "section": null
+    },
+    {
+      "text": "Serve clear, or with wine or lemon",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/consomme.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe and cut the meat and bones into small pieces\n2. Put the marrow, bones, and part of the meat in the kettle, with four quarts of cold water\n3. Heat slowly; cut the onions and vegetables fine, and fry them in the ham fat or in drippings, then brown the remainder of the meat\n4. Add onions, meat, herbs, spices and vegetables\n5. Simmer until the meat is in rags; it will take about seven hours\n6. Strain, and when cold remove the fat and add the whites and shells of the eggs, lemon and salt and pepper, if needed\n7. When well mixed heat it, and boil ten minutes\n8. Strain through fine strainer, and heat again to the boiling point before serving\n9. Serve clear, or with wine or lemon",
+    "originalIngredients": [
+      "4 lbs. shin of beef",
+      "4 lbs. knuckle of veal",
+      "4 qts. of water (cold)",
+      "2 oz. lean ham or bacon",
+      "6 cloves",
+      "6 peppercorns",
+      "2 stalks of celery",
+      "Bouquet of herbs",
+      "1 tablespoonful of salt",
+      "3 onions",
+      "1 carrot",
+      "1 turnip",
+      "2 sprigs of parsley",
+      "3 eggs (whites and shells)"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

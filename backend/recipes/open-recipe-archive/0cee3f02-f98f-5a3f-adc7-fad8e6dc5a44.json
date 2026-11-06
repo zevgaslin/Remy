@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "0cee3f02-f98f-5a3f-adc7-fad8e6dc5a44",
+  "name": "Bouillon",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "lean beef from middle of round",
+      "originalText": "5 lbs. lean beef from middle of round",
+      "quantity": 5.0,
+      "quantityText": "5",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "marrow-bone",
+      "originalText": "2 lbs. marrow-bone",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "3 quarts cold water",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "peppercorns",
+      "originalText": "1 teaspoon peppercorns",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "1 tablespoon salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup carrot, cut in dice",
+      "originalText": "⅓ cup carrot, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup turnip, cut in dice",
+      "originalText": "⅓ cup turnip, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup onion, cut in dice",
+      "originalText": "⅓ cup onion, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "⅓ cup celery, cut in dice",
+      "originalText": "⅓ cup celery, cut in dice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wipe, and cut meat in inch cubes.",
+      "section": null
+    },
+    {
+      "text": "Put two-thirds of meat in soup kettle, and soak in water thirty minutes.",
+      "section": null
+    },
+    {
+      "text": "Brown remainder in hot frying-pan with marrow from marrow-bone.",
+      "section": null
+    },
+    {
+      "text": "Put browned meat and bone in kettle.",
+      "section": null
+    },
+    {
+      "text": "Heat to boiling-point; skim thoroughly, and cook at temperature below boiling-point five hours.",
+      "section": null
+    },
+    {
+      "text": "Add seasonings and vegetables, cook one hour, strain, and cool.",
+      "section": null
+    },
+    {
+      "text": "Remove fat, and clear.",
+      "section": null
+    },
+    {
+      "text": "Serve in bouillon cups.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/bouillon.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wipe, and cut meat in inch cubes.\n2. Put two-thirds of meat in soup kettle, and soak in water thirty minutes.\n3. Brown remainder in hot frying-pan with marrow from marrow-bone.\n4. Put browned meat and bone in kettle.\n5. Heat to boiling-point; skim thoroughly, and cook at temperature below boiling-point five hours.\n6. Add seasonings and vegetables, cook one hour, strain, and cool.\n7. Remove fat, and clear.\n8. Serve in bouillon cups.",
+    "originalIngredients": [
+      "5 lbs. lean beef from middle of round",
+      "2 lbs. marrow-bone",
+      "3 quarts cold water",
+      "1 teaspoon peppercorns",
+      "1 tablespoon salt",
+      "⅓ cup carrot, cut in dice",
+      "⅓ cup turnip, cut in dice",
+      "⅓ cup onion, cut in dice",
+      "⅓ cup celery, cut in dice"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

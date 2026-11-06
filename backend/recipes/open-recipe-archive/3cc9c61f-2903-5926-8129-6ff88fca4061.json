@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "3cc9c61f-2903-5926-8129-6ff88fca4061",
+  "name": "Orange Cream",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs (omitting the whites of two)",
+      "originalText": "six eggs (omitting the whites of two)",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange juice",
+      "originalText": "one pint of orange juice",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered loaf-sugar",
+      "originalText": "one pound of powdered loaf-sugar",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yellow rind of one orange",
+      "originalText": "yellow rind of one orange",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat very light six eggs, omitting the whites of two",
+      "section": null
+    },
+    {
+      "text": "Have ready a pint of orange juice and stir it gradually into the beaten egg, alternately with a pound of powdered loaf-sugar",
+      "section": null
+    },
+    {
+      "text": "Put into a porcelain skillet the yellow rind of one orange, pared very thin",
+      "section": null
+    },
+    {
+      "text": "Pour the mixture upon it and set it over a slow fire",
+      "section": null
+    },
+    {
+      "text": "Simmer it steadily, stirring it all the time",
+      "section": null
+    },
+    {
+      "text": "When nearly ready to boil, take it off and remove the orange-peel",
+      "section": null
+    },
+    {
+      "text": "Put the mixture into glasses to get cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/orange-cream.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat very light six eggs, omitting the whites of two\n2. Have ready a pint of orange juice and stir it gradually into the beaten egg, alternately with a pound of powdered loaf-sugar\n3. Put into a porcelain skillet the yellow rind of one orange, pared very thin\n4. Pour the mixture upon it and set it over a slow fire\n5. Simmer it steadily, stirring it all the time\n6. When nearly ready to boil, take it off and remove the orange-peel\n7. Put the mixture into glasses to get cold",
+    "originalIngredients": [
+      "six eggs (omitting the whites of two)",
+      "one pint of orange juice",
+      "one pound of powdered loaf-sugar",
+      "yellow rind of one orange"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "5f6fe956-65d6-5bc7-ba31-a07bee2bbfd8",
+  "name": "Sautéd Fillets of Beef with Stuffed Mushroom Caps",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fillets of beef",
+      "originalText": "six fillets of beef",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sautéd stuffed mushroom caps",
+      "originalText": "sautéd stuffed mushroom caps",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "buttered crumbs",
+      "originalText": "buttered crumbs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Espagnole Sauce",
+      "originalText": "Espagnole Sauce",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strips of red and green pepper",
+      "originalText": "strips of red and green pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mushroom caps",
+      "originalText": "six mushroom caps",
+      "quantity": 6.0,
+      "quantityText": "six",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "parsley finely chopped",
+      "originalText": "one tablespoon parsley finely chopped",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion finely chopped",
+      "originalText": "one tablespoon onion finely chopped",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoon butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Prepare and cook six fillets same as Sautéd Fillets of Beef à la Moelle.",
+      "section": null
+    },
+    {
+      "text": "Put a sautéd stuffed mushroom cap on each, sprinkle with buttered crumbs, and bake until crumbs are browned.",
+      "section": null
+    },
+    {
+      "text": "Clean and finely chop six mushroom caps; add one tablespoon each of parsley and onion finely chopped, and one tablespoon butter.",
+      "section": null
+    },
+    {
+      "text": "Moisten with Espagnole Sauce.",
+      "section": null
+    },
+    {
+      "text": "Remove to serving dish, pour around Espagnole Sauce, and garnish caps with strips of red and green pepper cut in fancy shapes.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/saut-d-fillets-of-beef-with-stuffed-mushroom-caps.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Prepare and cook six fillets same as Sautéd Fillets of Beef à la Moelle.\n2. Put a sautéd stuffed mushroom cap on each, sprinkle with buttered crumbs, and bake until crumbs are browned.\n3. Clean and finely chop six mushroom caps; add one tablespoon each of parsley and onion finely chopped, and one tablespoon butter.\n4. Moisten with Espagnole Sauce.\n5. Remove to serving dish, pour around Espagnole Sauce, and garnish caps with strips of red and green pepper cut in fancy shapes.",
+    "originalIngredients": [
+      "six fillets of beef",
+      "sautéd stuffed mushroom caps",
+      "buttered crumbs",
+      "Espagnole Sauce",
+      "strips of red and green pepper",
+      "six mushroom caps",
+      "one tablespoon parsley finely chopped",
+      "one tablespoon onion finely chopped",
+      "one tablespoon butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "21eb3165-3bb7-5c99-b1eb-6e4b804cf622",
+  "name": "New England Corn Cake",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "one quart of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "corn meal",
+      "originalText": "one pint of corn meal",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "teacupful of wheat flour",
+      "originalText": "one teacupful of wheat flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a teaspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "melted butter",
+      "originalText": "two tablespoonfuls of melted butter",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "yeast",
+      "originalText": "half cup of yeast",
+      "quantity": 0.5,
+      "quantityText": "half",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "well-beaten eggs",
+      "originalText": "two well-beaten eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half teaspoonful of soda",
+      "originalText": "a half teaspoonful of soda",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald the milk and gradually pour it on the meal",
+      "section": null
+    },
+    {
+      "text": "when cool add the butter and salt, also a half cup of yeast and let stand overnight",
+      "section": null
+    },
+    {
+      "text": "in the morning beat thoroughly and add two well-beaten eggs and a half teaspoonful of soda dissolved in a spoonful of water",
+      "section": null
+    },
+    {
+      "text": "Pour the mixture into buttered deep earthen plates",
+      "section": null
+    },
+    {
+      "text": "let it stand fifteen minutes to rise again",
+      "section": null
+    },
+    {
+      "text": "bake from twenty to thirty minutes",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/new-england-corn-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald the milk and gradually pour it on the meal\n2. when cool add the butter and salt, also a half cup of yeast and let stand overnight\n3. in the morning beat thoroughly and add two well-beaten eggs and a half teaspoonful of soda dissolved in a spoonful of water\n4. Pour the mixture into buttered deep earthen plates\n5. let it stand fifteen minutes to rise again\n6. bake from twenty to thirty minutes",
+    "originalIngredients": [
+      "one quart of milk",
+      "one pint of corn meal",
+      "one teacupful of wheat flour",
+      "a teaspoonful of salt",
+      "two tablespoonfuls of melted butter",
+      "half cup of yeast",
+      "two well-beaten eggs",
+      "a half teaspoonful of soda"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

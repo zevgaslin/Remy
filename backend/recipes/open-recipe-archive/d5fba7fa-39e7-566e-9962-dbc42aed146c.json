@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "d5fba7fa-39e7-566e-9962-dbc42aed146c",
+  "name": "Chocolate Pie",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "Cowan's Perfection Chocolate",
+      "originalText": "1 teaspoon Cowan's Perfection Chocolate",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little boiling water",
+      "originalText": "a little boiling water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small cups of new milk",
+      "originalText": "2 small cups of new milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "3 tablespoons flour",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup white sugar",
+      "originalText": "½ cup white sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "1 egg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little cold milk",
+      "originalText": "a little cold milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2½ teaspoons of sugar",
+      "originalText": "2½ teaspoons of sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoon vanilla",
+      "originalText": "½ teaspoon vanilla",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Grate Cowan's Perfection Chocolate",
+      "section": null
+    },
+    {
+      "text": "Dissolve in a cup with a little boiling water",
+      "section": null
+    },
+    {
+      "text": "Have in your dish 2 small cups of new milk, then add the melted chocolate",
+      "section": null
+    },
+    {
+      "text": "When this boils add 3 tablespoons flour, ½ cup white sugar, yolk of 1 egg",
+      "section": null
+    },
+    {
+      "text": "Make smooth with a little of the cold milk",
+      "section": null
+    },
+    {
+      "text": "Beat white of the egg for the top with 2½ teaspoons of sugar and ½ teaspoon vanilla",
+      "section": null
+    },
+    {
+      "text": "Place on pie and brown",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/chocolate-pie-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Grate Cowan's Perfection Chocolate\n2. Dissolve in a cup with a little boiling water\n3. Have in your dish 2 small cups of new milk, then add the melted chocolate\n4. When this boils add 3 tablespoons flour, ½ cup white sugar, yolk of 1 egg\n5. Make smooth with a little of the cold milk\n6. Beat white of the egg for the top with 2½ teaspoons of sugar and ½ teaspoon vanilla\n7. Place on pie and brown",
+    "originalIngredients": [
+      "1 teaspoon Cowan's Perfection Chocolate",
+      "a little boiling water",
+      "2 small cups of new milk",
+      "3 tablespoons flour",
+      "½ cup white sugar",
+      "1 egg",
+      "a little cold milk",
+      "2½ teaspoons of sugar",
+      "½ teaspoon vanilla"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "0f9a7122-d210-556e-b2e4-c106f92d8f6c",
+  "name": "Fricassee Rabbit",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "young rabbits",
+      "originalText": "two young rabbits",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt and water",
+      "originalText": "salt and water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold water",
+      "originalText": "a pint of cold water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bunch of sweet herbs",
+      "originalText": "a bunch of sweet herbs",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "an onion",
+      "quantity": 1.0,
+      "quantityText": "an",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of mace",
+      "originalText": "a pinch of mace",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nutmeg",
+      "originalText": "half a nutmeg",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of pepper",
+      "originalText": "a pinch of pepper",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt pork",
+      "originalText": "half a pound of salt pork",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a cup of cream or milk",
+      "originalText": "a cup of cream or milk",
+      "quantity": null,
+      "quantityText": "a cup of cream or milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "two eggs",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "a tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "a tablespoonful of flour",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "little milk",
+      "originalText": "a little milk",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "the juice of a lemon",
+      "originalText": "the juice of a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Clean two young rabbits and cut into joints",
+      "section": null
+    },
+    {
+      "text": "Soak in salt and water for half an hour",
+      "section": null
+    },
+    {
+      "text": "Put into a saucepan with a pint of cold water, a bunch of sweet herbs, an onion finely minced, a pinch of mace, half a nutmeg, a pinch of pepper and half a pound of salt pork cut in small thin slices",
+      "section": null
+    },
+    {
+      "text": "Cover and stew until tender",
+      "section": null
+    },
+    {
+      "text": "Take out the rabbits and set in a dish where they will keep warm",
+      "section": null
+    },
+    {
+      "text": "Add to the gravy a cup of cream or milk, two well-beaten eggs stirred in a little at a time, a tablespoonful of butter, and a thickening made of a tablespoonful of flour and a little milk",
+      "section": null
+    },
+    {
+      "text": "Boil up once and remove the saucepan from the fire",
+      "section": null
+    },
+    {
+      "text": "Squeeze in the juice of a lemon while stirring",
+      "section": null
+    },
+    {
+      "text": "Pour over the rabbits",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/fricassee-rabbit.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Clean two young rabbits and cut into joints\n2. Soak in salt and water for half an hour\n3. Put into a saucepan with a pint of cold water, a bunch of sweet herbs, an onion finely minced, a pinch of mace, half a nutmeg, a pinch of pepper and half a pound of salt pork cut in small thin slices\n4. Cover and stew until tender\n5. Take out the rabbits and set in a dish where they will keep warm\n6. Add to the gravy a cup of cream or milk, two well-beaten eggs stirred in a little at a time, a tablespoonful of butter, and a thickening made of a tablespoonful of flour and a little milk\n7. Boil up once and remove the saucepan from the fire\n8. Squeeze in the juice of a lemon while stirring\n9. Pour over the rabbits",
+    "originalIngredients": [
+      "two young rabbits",
+      "salt and water",
+      "a pint of cold water",
+      "a bunch of sweet herbs",
+      "an onion",
+      "a pinch of mace",
+      "half a nutmeg",
+      "a pinch of pepper",
+      "half a pound of salt pork",
+      "a cup of cream or milk",
+      "two eggs",
+      "a tablespoonful of butter",
+      "a tablespoonful of flour",
+      "a little milk",
+      "the juice of a lemon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

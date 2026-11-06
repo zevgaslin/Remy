@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "4dfcef32-8ed1-5b67-8410-b5f1a4ddb636",
+  "name": "Scotch Currant Bun (Glenoechy)",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 lb. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 lb. sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "2 lbs. currants",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "raisins",
+      "originalText": "2 lbs. raisins",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange peel",
+      "originalText": "1 lb. orange peel",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. almonds",
+      "originalText": "½ lb. almonds",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large cup of buttermilk",
+      "originalText": "1 large cup of buttermilk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "ginger",
+      "originalText": "2 teaspoonfuls ginger",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cinnamon",
+      "originalText": "2 teaspoonfuls cinnamon",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Jamaica pepper",
+      "originalText": "2 teaspoonfuls Jamaica pepper",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoonful soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream tartar",
+      "originalText": "1 teaspoonful cream tartar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful black pepper",
+      "originalText": "½ teaspoonful black pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "1½ lbs. flour for paste",
+      "originalText": "1½ lbs. flour for paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. butter for paste",
+      "originalText": "½ lb. butter for paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ teaspoonful baking powder for paste",
+      "originalText": "½ teaspoonful baking powder for paste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stone raisins, clean currants, blanch almonds",
+      "section": null
+    },
+    {
+      "text": "Cut up orange-peel fine",
+      "section": null
+    },
+    {
+      "text": "Put all fruit, flour, sugar, and spices into a big basin; set aside",
+      "section": null
+    },
+    {
+      "text": "Make paste by rubbing butter into flour with baking powder, making into a stiff dough with water",
+      "section": null
+    },
+    {
+      "text": "Roll out thin",
+      "section": null
+    },
+    {
+      "text": "Grease tin, line it with paste; keep piece for top of bun",
+      "section": null
+    },
+    {
+      "text": "Pour milk into flour and mix also fruit all well together with the hand",
+      "section": null
+    },
+    {
+      "text": "It must be just moist, not too thin",
+      "section": null
+    },
+    {
+      "text": "Pour all into the tin and lay on top sheet",
+      "section": null
+    },
+    {
+      "text": "Dot with fork",
+      "section": null
+    },
+    {
+      "text": "Bake for three hours in moderate oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/scotch-currant-bun-glenoechy.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stone raisins, clean currants, blanch almonds\n2. Cut up orange-peel fine\n3. Put all fruit, flour, sugar, and spices into a big basin; set aside\n4. Make paste by rubbing butter into flour with baking powder, making into a stiff dough with water\n5. Roll out thin\n6. Grease tin, line it with paste; keep piece for top of bun\n7. Pour milk into flour and mix also fruit all well together with the hand\n8. It must be just moist, not too thin\n9. Pour all into the tin and lay on top sheet\n10. Dot with fork\n11. Bake for three hours in moderate oven",
+    "originalIngredients": [
+      "1 lb. flour",
+      "1 lb. sugar",
+      "2 lbs. currants",
+      "2 lbs. raisins",
+      "1 lb. orange peel",
+      "½ lb. almonds",
+      "1 large cup of buttermilk",
+      "2 teaspoonfuls ginger",
+      "2 teaspoonfuls cinnamon",
+      "2 teaspoonfuls Jamaica pepper",
+      "1 teaspoonful soda",
+      "1 teaspoonful cream tartar",
+      "½ teaspoonful black pepper",
+      "1½ lbs. flour for paste",
+      "½ lb. butter for paste",
+      "½ teaspoonful baking powder for paste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

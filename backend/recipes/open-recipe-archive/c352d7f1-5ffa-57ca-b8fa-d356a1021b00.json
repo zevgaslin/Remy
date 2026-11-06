@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "c352d7f1-5ffa-57ca-b8fa-d356a1021b00",
+  "name": "Lemon Mincemeat",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large lemons",
+      "originalText": "2 large lemons",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large apples",
+      "originalText": "6 large apples",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "suet",
+      "originalText": "3/4 pound suet",
+      "quantity": 0.75,
+      "quantityText": "3/4",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "currants",
+      "originalText": "1 pound currants",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "3 1/2 pound sugar",
+      "quantity": 3.5,
+      "quantityText": "3 1/2",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "candied lemon peel",
+      "originalText": "2 ounces candied lemon peel",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "citron peel",
+      "originalText": "1 ounce citron peel",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "ounce",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed spice to taste",
+      "originalText": "mixed spice to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Pare the lemons and squeeze them",
+      "section": null
+    },
+    {
+      "text": "Boil the peel tender enough to mash",
+      "section": null
+    },
+    {
+      "text": "Add to the mashed lemon peel the apples minced, then the chopped suet, currants, sugar, peel and spice",
+      "section": null
+    },
+    {
+      "text": "Strain the lemon juice to these ingredients",
+      "section": null
+    },
+    {
+      "text": "Stir the mixture well, put in a jar with a closely fitting lid",
+      "section": null
+    },
+    {
+      "text": "Stir occasionally",
+      "section": null
+    },
+    {
+      "text": "In one week it will be ready for use",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/lemon-mincemeat-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Pare the lemons and squeeze them\n2. Boil the peel tender enough to mash\n3. Add to the mashed lemon peel the apples minced, then the chopped suet, currants, sugar, peel and spice\n4. Strain the lemon juice to these ingredients\n5. Stir the mixture well, put in a jar with a closely fitting lid\n6. Stir occasionally\n7. In one week it will be ready for use",
+    "originalIngredients": [
+      "2 large lemons",
+      "6 large apples",
+      "3/4 pound suet",
+      "1 pound currants",
+      "3 1/2 pound sugar",
+      "2 ounces candied lemon peel",
+      "1 ounce citron peel",
+      "mixed spice to taste"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

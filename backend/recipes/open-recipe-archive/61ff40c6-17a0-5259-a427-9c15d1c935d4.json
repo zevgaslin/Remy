@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "61ff40c6-17a0-5259-a427-9c15d1c935d4",
+  "name": "Chocolate Charlotte Russe",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "½ oz. Cooper's gelatine, soaked in a very little cold water",
+      "originalText": "½ oz. Cooper's gelatine, soaked in a very little cold water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated chocolate rubbed smooth in a little milk",
+      "originalText": "3 tablespoonfuls grated chocolate rubbed smooth in a little milk",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ cup powdered sugar",
+      "originalText": "½ cup powdered sugar",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "4 eggs",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "½ lb. sponge-cake",
+      "originalText": "½ lb. sponge-cake",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla",
+      "originalText": "1 teaspoonful vanilla",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "1 pint cream",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Heat the cream to boiling, slowly, stirring frequently",
+      "section": null
+    },
+    {
+      "text": "Add the sugar, chocolate, and gelatine, and, when these are dissolved, add, a spoonful at a time, to the beaten yolks",
+      "section": null
+    },
+    {
+      "text": "Set back in the saucepan of boiling water, and stir five minutes, until very hot, but do not let it boil",
+      "section": null
+    },
+    {
+      "text": "Take it off, flavor, and whip or churn to a standing froth, adding the beaten whites toward the last",
+      "section": null
+    },
+    {
+      "text": "Line a mould with cake, fill with the mixture, and set upon the ice",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chocolate-charlotte-russe.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Heat the cream to boiling, slowly, stirring frequently\n2. Add the sugar, chocolate, and gelatine, and, when these are dissolved, add, a spoonful at a time, to the beaten yolks\n3. Set back in the saucepan of boiling water, and stir five minutes, until very hot, but do not let it boil\n4. Take it off, flavor, and whip or churn to a standing froth, adding the beaten whites toward the last\n5. Line a mould with cake, fill with the mixture, and set upon the ice",
+    "originalIngredients": [
+      "½ oz. Cooper's gelatine, soaked in a very little cold water",
+      "3 tablespoonfuls grated chocolate rubbed smooth in a little milk",
+      "½ cup powdered sugar",
+      "4 eggs",
+      "½ lb. sponge-cake",
+      "1 teaspoonful vanilla",
+      "1 pint cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

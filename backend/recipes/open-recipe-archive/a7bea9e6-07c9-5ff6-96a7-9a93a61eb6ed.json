@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "a7bea9e6-07c9-5ff6-96a7-9a93a61eb6ed",
+  "name": "Common Muffins",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh butter",
+      "originalText": "three table-spoonfuls of fresh butter",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "warm milk",
+      "originalText": "three pints of warm milk",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "pints",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "three eggs",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "a tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "tea-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "sifted flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strong fresh yeast from the brewery",
+      "originalText": "two table-spoonfuls of strong fresh yeast from the brewery",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Melt three table-spoonfuls of fresh butter in three pints of warm milk, set it away to cool",
+      "section": null
+    },
+    {
+      "text": "Beat three eggs as light as possible, and stir them gradually into the milk when it is quite cold; adding a tea-spoonful of salt",
+      "section": null
+    },
+    {
+      "text": "Stir in by degrees enough of sifted flour to make a batter as thick as you can conveniently beat it",
+      "section": null
+    },
+    {
+      "text": "Add two table-spoonfuls of strong fresh yeast from the brewery",
+      "section": null
+    },
+    {
+      "text": "Cover the batter and set it in a warm place to rise. It should be light in about three hours",
+      "section": null
+    },
+    {
+      "text": "Heat your griddle, grease it with some butter tied in a rag; grease your muffin rings round the inside, and set them on the griddle",
+      "section": null
+    },
+    {
+      "text": "Take some batter out of the pan with a ladle or a large spoon, pour it lightly into the rings, and bake the muffins of a light brown",
+      "section": null
+    },
+    {
+      "text": "When done, break or split them open with your fingers; butter them and send them to table hot",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/common-muffins.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Melt three table-spoonfuls of fresh butter in three pints of warm milk, set it away to cool\n2. Beat three eggs as light as possible, and stir them gradually into the milk when it is quite cold; adding a tea-spoonful of salt\n3. Stir in by degrees enough of sifted flour to make a batter as thick as you can conveniently beat it\n4. Add two table-spoonfuls of strong fresh yeast from the brewery\n5. Cover the batter and set it in a warm place to rise. It should be light in about three hours\n6. Heat your griddle, grease it with some butter tied in a rag; grease your muffin rings round the inside, and set them on the griddle\n7. Take some batter out of the pan with a ladle or a large spoon, pour it lightly into the rings, and bake the muffins of a light brown\n8. When done, break or split them open with your fingers; butter them and send them to table hot",
+    "originalIngredients": [
+      "three table-spoonfuls of fresh butter",
+      "three pints of warm milk",
+      "three eggs",
+      "a tea-spoonful of salt",
+      "sifted flour",
+      "two table-spoonfuls of strong fresh yeast from the brewery"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

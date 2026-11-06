@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "3e62aeec-5d83-5dfb-9529-edcf19022012",
+  "name": "Apple Butter Without Cider",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallons of water",
+      "originalText": "ten gallons of water",
+      "quantity": 10.0,
+      "quantityText": "ten",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallons of the best West India molasses",
+      "originalText": "ten gallons of the best West India molasses",
+      "quantity": 10.0,
+      "quantityText": "ten",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "bushels of fine sound apples",
+      "originalText": "eight bushels of fine sound apples",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mixed spice cloves, mace, cinnamon, and nutmeg",
+      "originalText": "a pound of mixed spice cloves, mace, cinnamon, and nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Mix together ten gallons of water, and ten gallons of the best West India molasses.",
+      "section": null
+    },
+    {
+      "text": "Put it into a large kettle over a good fire; let it come to a hard boil, and skim it as long as any scum continues to rise.",
+      "section": null
+    },
+    {
+      "text": "Then take out half the liquid, and put it into a tub.",
+      "section": null
+    },
+    {
+      "text": "Have ready eight bushels of fine sound apples, pared, cored and quartered.",
+      "section": null
+    },
+    {
+      "text": "Throw them gradually into the liquid that is still boiling on the fire.",
+      "section": null
+    },
+    {
+      "text": "Let it continue to boil hard, and as it thickens, add by degrees the other half of the molasses and water, (that which has been put into the tub.)",
+      "section": null
+    },
+    {
+      "text": "Stir it frequently to prevent its scorching, and to make it of equal consistence throughout.",
+      "section": null
+    },
+    {
+      "text": "Boil it ten or twelve hours, continuing to stir it.",
+      "section": null
+    },
+    {
+      "text": "At night take it out of the kettle, and set it in tubs to cool; covering it carefully.",
+      "section": null
+    },
+    {
+      "text": "Wash out the kettle and wipe it very dry.",
+      "section": null
+    },
+    {
+      "text": "Next morning boil the apple butter six or eight hours longer; it should boil eighteen hours altogether.",
+      "section": null
+    },
+    {
+      "text": "Then an hour before you take it finally out, stir in a pound of mixed spice cloves, mace, cinnamon, and nutmeg, all finely powdered.",
+      "section": null
+    },
+    {
+      "text": "When entirely done, put up the apple butter in stone or earthen jars.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/apple-butter-without-cider.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Mix together ten gallons of water, and ten gallons of the best West India molasses.\n2. Put it into a large kettle over a good fire; let it come to a hard boil, and skim it as long as any scum continues to rise.\n3. Then take out half the liquid, and put it into a tub.\n4. Have ready eight bushels of fine sound apples, pared, cored and quartered.\n5. Throw them gradually into the liquid that is still boiling on the fire.\n6. Let it continue to boil hard, and as it thickens, add by degrees the other half of the molasses and water, (that which has been put into the tub.)\n7. Stir it frequently to prevent its scorching, and to make it of equal consistence throughout.\n8. Boil it ten or twelve hours, continuing to stir it.\n9. At night take it out of the kettle, and set it in tubs to cool; covering it carefully.\n10. Wash out the kettle and wipe it very dry.\n11. Next morning boil the apple butter six or eight hours longer; it should boil eighteen hours altogether.\n12. Then an hour before you take it finally out, stir in a pound of mixed spice cloves, mace, cinnamon, and nutmeg, all finely powdered.\n13. When entirely done, put up the apple butter in stone or earthen jars.",
+    "originalIngredients": [
+      "ten gallons of water",
+      "ten gallons of the best West India molasses",
+      "eight bushels of fine sound apples",
+      "a pound of mixed spice cloves, mace, cinnamon, and nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

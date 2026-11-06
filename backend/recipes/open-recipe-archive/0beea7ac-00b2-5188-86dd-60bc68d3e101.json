@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "0beea7ac-00b2-5188-86dd-60bc68d3e101",
+  "name": "Cider Vinegar",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "rye meal",
+      "originalText": "6 quarts of rye meal",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "quarts",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "barrel of strong hard cider",
+      "originalText": "1 barrel of strong hard cider",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "gallon of whiskey",
+      "originalText": "1 gallon of whiskey",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Take six quarts of rye meal",
+      "section": null
+    },
+    {
+      "text": "Stir and mix it well into a barrel of strong hard cider of the best kind",
+      "section": null
+    },
+    {
+      "text": "Add a gallon of whiskey",
+      "section": null
+    },
+    {
+      "text": "Cover the cask, leaving the bung loosely in it",
+      "section": null
+    },
+    {
+      "text": "Set it in the part of your yard that is most exposed to the sun and air",
+      "section": null
+    },
+    {
+      "text": "In the course of four weeks, if the weather is warm and dry, you will have good vinegar fit for use",
+      "section": null
+    },
+    {
+      "text": "When you draw off a gallon or more, replenish the cask with the same quantity of cider, and add about a pint of whiskey",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/cider-vinegar.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Take six quarts of rye meal\n2. Stir and mix it well into a barrel of strong hard cider of the best kind\n3. Add a gallon of whiskey\n4. Cover the cask, leaving the bung loosely in it\n5. Set it in the part of your yard that is most exposed to the sun and air\n6. In the course of four weeks, if the weather is warm and dry, you will have good vinegar fit for use\n7. When you draw off a gallon or more, replenish the cask with the same quantity of cider, and add about a pint of whiskey",
+    "originalIngredients": [
+      "6 quarts of rye meal",
+      "1 barrel of strong hard cider",
+      "1 gallon of whiskey"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "51449370-f7fa-5f14-8a1b-806f21444803",
+  "name": "Brown Gravy Soup",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "beef",
+      "originalText": "3 lbs. beef",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "lbs.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "carrot",
+      "originalText": "1 carrot",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "turnip",
+      "originalText": "1 turnip",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "head of celery",
+      "originalText": "1 head of celery",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onions, if small button onions—one, if large",
+      "originalText": "6 onions, if small button onions—one, if large",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "3½ qts. water",
+      "originalText": "3½ qts. water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nice dripping",
+      "originalText": "nice dripping",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "handful of vermicelli",
+      "originalText": "handful of vermicelli",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "glass of pale Sherry",
+      "originalText": "half a glass of pale Sherry",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Have ready some nice dripping in a frying-pan.",
+      "section": null
+    },
+    {
+      "text": "Slice the onions and fry them brown.",
+      "section": null
+    },
+    {
+      "text": "Take them out and set them by in a covered pan to keep warm.",
+      "section": null
+    },
+    {
+      "text": "Cut the beef into bits an inch long and half an inch thick, and fry them brown also, turning frequently lest they should burn.",
+      "section": null
+    },
+    {
+      "text": "Chop the vegetables and put them with the meat and onions into a covered pot.",
+      "section": null
+    },
+    {
+      "text": "Pour on the water and let all stew together for two hours.",
+      "section": null
+    },
+    {
+      "text": "Throw in salt and pepper and boil one hour longer, skimming very carefully.",
+      "section": null
+    },
+    {
+      "text": "Strain; put back over the fire; boil up once more to make the liquid perfectly clear, skim.",
+      "section": null
+    },
+    {
+      "text": "Add a handful of vermicelli that has been boiled separately and drained dry, or put in the vermicelli after the soup is poured into the tureen.",
+      "section": null
+    },
+    {
+      "text": "Do not stir before it goes to table.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/brown-gravy-soup.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Have ready some nice dripping in a frying-pan.\n2. Slice the onions and fry them brown.\n3. Take them out and set them by in a covered pan to keep warm.\n4. Cut the beef into bits an inch long and half an inch thick, and fry them brown also, turning frequently lest they should burn.\n5. Chop the vegetables and put them with the meat and onions into a covered pot.\n6. Pour on the water and let all stew together for two hours.\n7. Throw in salt and pepper and boil one hour longer, skimming very carefully.\n8. Strain; put back over the fire; boil up once more to make the liquid perfectly clear, skim.\n9. Add a handful of vermicelli that has been boiled separately and drained dry, or put in the vermicelli after the soup is poured into the tureen.\n10. Do not stir before it goes to table.",
+    "originalIngredients": [
+      "3 lbs. beef",
+      "1 carrot",
+      "1 turnip",
+      "1 head of celery",
+      "6 onions, if small button onions—one, if large",
+      "3½ qts. water",
+      "nice dripping",
+      "salt",
+      "pepper",
+      "handful of vermicelli",
+      "half a glass of pale Sherry"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

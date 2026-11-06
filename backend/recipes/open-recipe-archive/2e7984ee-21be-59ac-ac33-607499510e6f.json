@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "2e7984ee-21be-59ac-ac33-607499510e6f",
+  "name": "Prune Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "prunes",
+      "originalText": "a pound of prunes",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pound",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "one jill or eight large table-spoonfuls from a quart of rich milk",
+      "originalText": "one jill or eight large table-spoonfuls from a quart of rich milk",
+      "quantity": null,
+      "quantityText": "one jill or eight large table-spoonfuls from a quart of rich milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "spoonfuls of sifted flour",
+      "originalText": "eight spoonfuls of sifted flour",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream sauce or butter, sugar, and nutmeg",
+      "originalText": "cream sauce or butter, sugar, and nutmeg",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Scald a pound of prunes; cover them, and let them swell in the hot water till they are soft.",
+      "section": null
+    },
+    {
+      "text": "Drain them, and extract the stones; spread the prunes on a large dish, and dredge them with flour.",
+      "section": null
+    },
+    {
+      "text": "Take one jill or eight large table-spoonfuls from a quart of rich milk, and stir into it, gradually, eight spoonfuls of sifted flour.",
+      "section": null
+    },
+    {
+      "text": "Mix it to a smooth batter, pressing out all the lumps with the back of the spoon.",
+      "section": null
+    },
+    {
+      "text": "Beat eight eggs light, and stir them, by degrees, into the remainder of the milk, alternately with the batter that you have just mixed.",
+      "section": null
+    },
+    {
+      "text": "Add the prunes one at a time, stirring the whole very hard.",
+      "section": null
+    },
+    {
+      "text": "Tie the pudding in a cloth that has been previously dipped in boiling water and then dredged with flour.",
+      "section": null
+    },
+    {
+      "text": "Leave room for it to swell, but secure it firmly, so that no water can get in.",
+      "section": null
+    },
+    {
+      "text": "Put it into a pot of boiling water, and boil it two hours.",
+      "section": null
+    },
+    {
+      "text": "Send it to table hot, not taking it out of the pot till a moment before it is wanted, and eat it with cream sauce; or with butter, sugar, and nutmeg beaten together, and served up in a little tureen.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/prune-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Scald a pound of prunes; cover them, and let them swell in the hot water till they are soft.\n2. Drain them, and extract the stones; spread the prunes on a large dish, and dredge them with flour.\n3. Take one jill or eight large table-spoonfuls from a quart of rich milk, and stir into it, gradually, eight spoonfuls of sifted flour.\n4. Mix it to a smooth batter, pressing out all the lumps with the back of the spoon.\n5. Beat eight eggs light, and stir them, by degrees, into the remainder of the milk, alternately with the batter that you have just mixed.\n6. Add the prunes one at a time, stirring the whole very hard.\n7. Tie the pudding in a cloth that has been previously dipped in boiling water and then dredged with flour.\n8. Leave room for it to swell, but secure it firmly, so that no water can get in.\n9. Put it into a pot of boiling water, and boil it two hours.\n10. Send it to table hot, not taking it out of the pot till a moment before it is wanted, and eat it with cream sauce; or with butter, sugar, and nutmeg beaten together, and served up in a little tureen.",
+    "originalIngredients": [
+      "a pound of prunes",
+      "flour",
+      "one jill or eight large table-spoonfuls from a quart of rich milk",
+      "eight spoonfuls of sifted flour",
+      "eight eggs",
+      "cream sauce or butter, sugar, and nutmeg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

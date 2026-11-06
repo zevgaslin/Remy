@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "94d9eada-c712-5692-83cc-e024b04ddea8",
+  "name": "Snow Custard",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "½ package Coxe's gelatine",
+      "originalText": "½ package Coxe's gelatine",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "3 eggs",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "1 pint milk",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "2 cups of sugar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of one lemon",
+      "originalText": "Juice of one lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Vanilla or bitter almond for flavoring",
+      "originalText": "Vanilla or bitter almond for flavoring",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Soak the gelatine one hour in a teacupful of cold water",
+      "section": null
+    },
+    {
+      "text": "At the end of this time, add one pint boiling water",
+      "section": null
+    },
+    {
+      "text": "Stir until the gelatine is thoroughly dissolved",
+      "section": null
+    },
+    {
+      "text": "Add two-thirds of the sugar and the lemon-juice",
+      "section": null
+    },
+    {
+      "text": "Beat the whites of the eggs to a stiff froth",
+      "section": null
+    },
+    {
+      "text": "When the gelatine is quite cold, whip it into the whites, a spoonful at a time, for an hour",
+      "section": null
+    },
+    {
+      "text": "Whip steadily and evenly, and when all is stiff, pour into a mould, previously wet with cold water, and set in a cold place",
+      "section": null
+    },
+    {
+      "text": "In four or five hours turn into a glass dish",
+      "section": null
+    },
+    {
+      "text": "Make a custard of the milk, eggs, and remainder of the sugar, flavor with vanilla or bitter almond, and when the méringue is turned out of the mould, pour this around the base",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/snow-custard.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Soak the gelatine one hour in a teacupful of cold water\n2. At the end of this time, add one pint boiling water\n3. Stir until the gelatine is thoroughly dissolved\n4. Add two-thirds of the sugar and the lemon-juice\n5. Beat the whites of the eggs to a stiff froth\n6. When the gelatine is quite cold, whip it into the whites, a spoonful at a time, for an hour\n7. Whip steadily and evenly, and when all is stiff, pour into a mould, previously wet with cold water, and set in a cold place\n8. In four or five hours turn into a glass dish\n9. Make a custard of the milk, eggs, and remainder of the sugar, flavor with vanilla or bitter almond, and when the méringue is turned out of the mould, pour this around the base",
+    "originalIngredients": [
+      "½ package Coxe's gelatine",
+      "3 eggs",
+      "1 pint milk",
+      "2 cups of sugar",
+      "Juice of one lemon",
+      "Vanilla or bitter almond for flavoring"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

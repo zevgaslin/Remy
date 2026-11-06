@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "fd2629f2-b9eb-5982-bf4f-3053547444fe",
+  "name": "White Cup Cake",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "one large coffee cup of cream or rich milk",
+      "originalText": "one large coffee cup of cream or rich milk",
+      "quantity": null,
+      "quantityText": "one large coffee cup of cream or rich milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fresh butter",
+      "originalText": "one cup of fresh butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered white sugar",
+      "originalText": "two cups of powdered white sugar",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "four cups of sifted flour",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "five eggs",
+      "quantity": 5.0,
+      "quantityText": "five",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "a grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large tea-spoonful of powdered cinnamon",
+      "originalText": "a large tea-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose water",
+      "originalText": "rose water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a very small tea-spoonful of sal-aratus or pearl-ash",
+      "originalText": "a very small tea-spoonful of sal-aratus or pearl-ash",
+      "quantity": null,
+      "quantityText": "a very small tea-spoonful of sal-aratus or pearl-ash",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "tepid water",
+      "originalText": "tepid water",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Stir the butter and sugar together till quite light.",
+      "section": null
+    },
+    {
+      "text": "By degrees add the cream, alternately with half the flour.",
+      "section": null
+    },
+    {
+      "text": "Beat five eggs as light as possible, and stir them into the mixture, alternately with the remainder of the flour.",
+      "section": null
+    },
+    {
+      "text": "Add a grated nutmeg and a large tea-spoonful of powdered cinnamon, with rose water to your taste.",
+      "section": null
+    },
+    {
+      "text": "Stir in a very small tea-spoonful of sal-aratus or pearl-ash, melted in a little tepid water.",
+      "section": null
+    },
+    {
+      "text": "Stir the whole very hard.",
+      "section": null
+    },
+    {
+      "text": "Put it into little tins.",
+      "section": null
+    },
+    {
+      "text": "Set them in a moderate oven.",
+      "section": null
+    },
+    {
+      "text": "Bake them about twenty minutes.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/white-cup-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Stir the butter and sugar together till quite light.\n2. By degrees add the cream, alternately with half the flour.\n3. Beat five eggs as light as possible, and stir them into the mixture, alternately with the remainder of the flour.\n4. Add a grated nutmeg and a large tea-spoonful of powdered cinnamon, with rose water to your taste.\n5. Stir in a very small tea-spoonful of sal-aratus or pearl-ash, melted in a little tepid water.\n6. Stir the whole very hard.\n7. Put it into little tins.\n8. Set them in a moderate oven.\n9. Bake them about twenty minutes.",
+    "originalIngredients": [
+      "one large coffee cup of cream or rich milk",
+      "one cup of fresh butter",
+      "two cups of powdered white sugar",
+      "four cups of sifted flour",
+      "five eggs",
+      "a grated nutmeg",
+      "a large tea-spoonful of powdered cinnamon",
+      "rose water",
+      "a very small tea-spoonful of sal-aratus or pearl-ash",
+      "tepid water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

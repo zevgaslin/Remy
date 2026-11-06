@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "673bc813-5bad-52c0-b99a-61c719eccd3b",
+  "name": "Mrs. E——'s Biscuit (Soda)",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "flour",
+      "originalText": "1 quart flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "heaping tablespoonfuls of lard",
+      "originalText": "2 heaping tablespoonfuls of lard",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sweet (if you can get it) new milk",
+      "originalText": "2 cups sweet (if you can get it) new milk",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "cups",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda",
+      "originalText": "1 teaspoonful soda",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream-tartar",
+      "originalText": "2 teaspoonful cream-tartar",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "saltspoonful of salt",
+      "originalText": "1 saltspoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Rub the soda and cream-tartar into the flour and sift all together before they are wet",
+      "section": null
+    },
+    {
+      "text": "Put in the salt",
+      "section": null
+    },
+    {
+      "text": "Add the lard, rubbed into the prepared flour quickly and lightly",
+      "section": null
+    },
+    {
+      "text": "Pour in the milk",
+      "section": null
+    },
+    {
+      "text": "Work out the dough rapidly, kneading with as few strokes as possible",
+      "section": null
+    },
+    {
+      "text": "If the flour stiffen it too much, add more milk",
+      "section": null
+    },
+    {
+      "text": "Roll out lightly",
+      "section": null
+    },
+    {
+      "text": "Cut into cakes at least half an inch thick",
+      "section": null
+    },
+    {
+      "text": "Bake in a quick oven",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/mrs-e-s-biscuit-soda.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Rub the soda and cream-tartar into the flour and sift all together before they are wet\n2. Put in the salt\n3. Add the lard, rubbed into the prepared flour quickly and lightly\n4. Pour in the milk\n5. Work out the dough rapidly, kneading with as few strokes as possible\n6. If the flour stiffen it too much, add more milk\n7. Roll out lightly\n8. Cut into cakes at least half an inch thick\n9. Bake in a quick oven",
+    "originalIngredients": [
+      "1 quart flour",
+      "2 heaping tablespoonfuls of lard",
+      "2 cups sweet (if you can get it) new milk",
+      "1 teaspoonful soda",
+      "2 teaspoonful cream-tartar",
+      "1 saltspoonful of salt"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

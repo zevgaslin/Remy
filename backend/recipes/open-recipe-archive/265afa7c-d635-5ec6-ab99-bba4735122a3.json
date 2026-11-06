@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "265afa7c-d635-5ec6-ab99-bba4735122a3",
+  "name": "Lincoln Cake",
+  "description": "Historical recipe from Common Sense in the Household (1871). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "¾ lb. butter",
+      "originalText": "¾ lb. butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1 lb. sugar",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "flour",
+      "originalText": "1 lb. flour",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "lb.",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "eggs",
+      "originalText": "6 eggs",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "2 cups sour cream or milk",
+      "originalText": "2 cups sour cream or milk",
+      "quantity": null,
+      "quantityText": "2 cups sour cream or milk",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "grated nutmeg",
+      "originalText": "1 grated nutmeg",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "1 teaspoonful powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "¼ lb. citron",
+      "originalText": "¼ lb. citron",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "rose-water",
+      "originalText": "1 tablespoonful rose-water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "soda dissolved in hot water",
+      "originalText": "1 teaspoonful soda dissolved in hot water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cream the butter and sugar",
+      "section": null
+    },
+    {
+      "text": "Put with them the yolks whipped light",
+      "section": null
+    },
+    {
+      "text": "Add the cream and spice",
+      "section": null
+    },
+    {
+      "text": "Next add the flour",
+      "section": null
+    },
+    {
+      "text": "Stir in the rose-water",
+      "section": null
+    },
+    {
+      "text": "Add a double-handful of citron cut in slips and dredged",
+      "section": null
+    },
+    {
+      "text": "Finally stir in the beaten whites of the eggs",
+      "section": null
+    },
+    {
+      "text": "Stir all well",
+      "section": null
+    },
+    {
+      "text": "Bake in a loaf or in a card, using a square shallow baking-pan",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/lincoln-cake.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Marion Harland",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cream the butter and sugar\n2. Put with them the yolks whipped light\n3. Add the cream and spice\n4. Next add the flour\n5. Stir in the rose-water\n6. Add a double-handful of citron cut in slips and dredged\n7. Finally stir in the beaten whites of the eggs\n8. Stir all well\n9. Bake in a loaf or in a card, using a square shallow baking-pan",
+    "originalIngredients": [
+      "¾ lb. butter",
+      "1 lb. sugar",
+      "1 lb. flour",
+      "6 eggs",
+      "2 cups sour cream or milk",
+      "1 grated nutmeg",
+      "1 teaspoonful powdered cinnamon",
+      "¼ lb. citron",
+      "1 tablespoonful rose-water",
+      "1 teaspoonful soda dissolved in hot water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Common Sense in the Household (1871), https://www.gutenberg.org/ebooks/48804. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "3d681ed2-2790-53ed-96d1-835cb99ae39c",
+  "name": "Water Muffins",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "fresh strong yeast",
+      "originalText": "four table-spoonfuls of fresh strong yeast",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "table-spoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "lukewarm water",
+      "originalText": "a pint of lukewarm water",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small tea-spoonful of salt",
+      "originalText": "a small tea-spoonful of salt",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sifted flour",
+      "originalText": "sifted flour",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put four table-spoonfuls of fresh strong yeast into a pint of lukewarm water",
+      "section": null
+    },
+    {
+      "text": "Add a little salt; about a small tea-spoonful",
+      "section": null
+    },
+    {
+      "text": "Stir in gradually as much sifted flour as will make a thick batter",
+      "section": null
+    },
+    {
+      "text": "Cover the pan, and set it in a warm place to rise",
+      "section": null
+    },
+    {
+      "text": "When it is quite light, and your griddle is hot, grease and set your muffin rings on it; having first buttered them round the inside",
+      "section": null
+    },
+    {
+      "text": "Dip out a ladle full of the batter for each ring, and bake them over a quick fire",
+      "section": null
+    },
+    {
+      "text": "Send them to table hot, and split them by pulling them open with your hands",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/water-muffins.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put four table-spoonfuls of fresh strong yeast into a pint of lukewarm water\n2. Add a little salt; about a small tea-spoonful\n3. Stir in gradually as much sifted flour as will make a thick batter\n4. Cover the pan, and set it in a warm place to rise\n5. When it is quite light, and your griddle is hot, grease and set your muffin rings on it; having first buttered them round the inside\n6. Dip out a ladle full of the batter for each ring, and bake them over a quick fire\n7. Send them to table hot, and split them by pulling them open with your hands",
+    "originalIngredients": [
+      "four table-spoonfuls of fresh strong yeast",
+      "a pint of lukewarm water",
+      "a small tea-spoonful of salt",
+      "sifted flour"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

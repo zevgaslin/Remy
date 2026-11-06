@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "278d7787-4e85-5e7f-a2a4-235561ad89f5",
+  "name": "Canned Raspberries",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "sugar",
+      "originalText": "3 pounds sugar",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "1 quart water",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "To every 3 pounds sugar allow 1 quart water, and boil for 1/4 hour",
+      "section": null
+    },
+    {
+      "text": "Draw kettle to back of stove, where mixture will not boil",
+      "section": null
+    },
+    {
+      "text": "Let it remain till you have jars filled with fruit",
+      "section": null
+    },
+    {
+      "text": "After jars are filled stand on a wet cloth and fill with the hot syrup",
+      "section": null
+    },
+    {
+      "text": "Seal and put a sack or cloth in a tub",
+      "section": null
+    },
+    {
+      "text": "Put jars in and pour boiling water in until jars are covered",
+      "section": null
+    },
+    {
+      "text": "Let stand until cool",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/canned-raspberries.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. To every 3 pounds sugar allow 1 quart water, and boil for 1/4 hour\n2. Draw kettle to back of stove, where mixture will not boil\n3. Let it remain till you have jars filled with fruit\n4. After jars are filled stand on a wet cloth and fill with the hot syrup\n5. Seal and put a sack or cloth in a tub\n6. Put jars in and pour boiling water in until jars are covered\n7. Let stand until cool",
+    "originalIngredients": [
+      "3 pounds sugar",
+      "1 quart water"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

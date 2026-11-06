@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "8466e148-79d9-5eda-b2f7-5870c7001917",
+  "name": "An Omelette Soufflé",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "eight eggs",
+      "quantity": 8.0,
+      "quantityText": "eight",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarters of a pound of the finest powdered loaf-sugar",
+      "originalText": "three quarters of a pound of the finest powdered loaf-sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "orange-flower water or lemon-juice",
+      "originalText": "orange-flower water or lemon-juice",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Break eight eggs, separate the whites from the yolks, and strain them.",
+      "section": null
+    },
+    {
+      "text": "Put the whites into one pan, and the yolks into another, and beat them separately with rods till the yolks are very thick and smooth, and the whites a stiff froth that will stand alone.",
+      "section": null
+    },
+    {
+      "text": "Add gradually to the yolks three quarters of a pound of the finest powdered loaf-sugar, and orange-flower water or lemon-juice to your taste.",
+      "section": null
+    },
+    {
+      "text": "Stir the whites lightly into the yolks.",
+      "section": null
+    },
+    {
+      "text": "Butter a deep pan or dish that has been previously heated and pour the mixture rapidly into it.",
+      "section": null
+    },
+    {
+      "text": "Set it in a Dutch oven with coals under it, and on the top, and bake it five minutes.",
+      "section": null
+    },
+    {
+      "text": "Send it immediately to table, or it will fall and flatten.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/an-omelette-souffl.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Break eight eggs, separate the whites from the yolks, and strain them.\n2. Put the whites into one pan, and the yolks into another, and beat them separately with rods till the yolks are very thick and smooth, and the whites a stiff froth that will stand alone.\n3. Add gradually to the yolks three quarters of a pound of the finest powdered loaf-sugar, and orange-flower water or lemon-juice to your taste.\n4. Stir the whites lightly into the yolks.\n5. Butter a deep pan or dish that has been previously heated and pour the mixture rapidly into it.\n6. Set it in a Dutch oven with coals under it, and on the top, and bake it five minutes.\n7. Send it immediately to table, or it will fall and flatten.",
+    "originalIngredients": [
+      "eight eggs",
+      "three quarters of a pound of the finest powdered loaf-sugar",
+      "orange-flower water or lemon-juice",
+      "butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

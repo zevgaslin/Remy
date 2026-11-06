@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "1accce68-6348-5417-87f0-c083bdb18e87",
+  "name": "Fish Omelet",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "level tablespoonful flour",
+      "originalText": "one level tablespoonful flour",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "hot milk",
+      "originalText": "half a cup hot milk",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "cup",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "half-cupful shredded codfish",
+      "originalText": "half-cupful shredded codfish",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cold boiled potatoes",
+      "originalText": "two cupfuls cold boiled potatoes",
+      "quantity": 2.0,
+      "quantityText": "two",
+      "unit": "cupfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Cook together one level tablespoonful of flour and one of butter",
+      "section": null
+    },
+    {
+      "text": "add gradually half a cup of hot milk and a little pepper",
+      "section": null
+    },
+    {
+      "text": "pour boiling water on a half-cupful of shredded codfish, drain and mix with the thickened milk",
+      "section": null
+    },
+    {
+      "text": "add two cupfuls of cold boiled potatoes chopped fine",
+      "section": null
+    },
+    {
+      "text": "melt a tablespoonful of butter in a spider",
+      "section": null
+    },
+    {
+      "text": "when hot turn in fish and cook slowly until a thick crust has formed",
+      "section": null
+    },
+    {
+      "text": "fold over and serve on hot platter",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/fish-omelet-2.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Cook together one level tablespoonful of flour and one of butter\n2. add gradually half a cup of hot milk and a little pepper\n3. pour boiling water on a half-cupful of shredded codfish, drain and mix with the thickened milk\n4. add two cupfuls of cold boiled potatoes chopped fine\n5. melt a tablespoonful of butter in a spider\n6. when hot turn in fish and cook slowly until a thick crust has formed\n7. fold over and serve on hot platter",
+    "originalIngredients": [
+      "one level tablespoonful flour",
+      "one tablespoonful butter",
+      "half a cup hot milk",
+      "pepper",
+      "half-cupful shredded codfish",
+      "two cupfuls cold boiled potatoes",
+      "one tablespoonful butter"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "d7fdd5e8-b962-5e11-aff2-73ccbd0b06e9",
+  "name": "Eggs in the Nest",
+  "description": "Historical recipe from Canadian Farm Cook Book (1911). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "originalText": "6 eggs",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper and salt",
+      "originalText": "pepper and salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "butter",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "nice cream",
+      "originalText": "6 tablespoons nice cream",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Beat to a froth the whites of 6 eggs, a little pepper and salt.",
+      "section": null
+    },
+    {
+      "text": "Pour into a buttered baking tin.",
+      "section": null
+    },
+    {
+      "text": "Dip upon it 6 tablespoons nice cream, 1 only in a place.",
+      "section": null
+    },
+    {
+      "text": "Upon each spoonful of cream drop 1 of the yolks whole (being careful not to break them).",
+      "section": null
+    },
+    {
+      "text": "Place in moderately hot oven to cook, and serve hot as omelet.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/eggs-in-the-nest.md",
+    "siteName": "Open Recipe Archive",
+    "author": null,
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Beat to a froth the whites of 6 eggs, a little pepper and salt.\n2. Pour into a buttered baking tin.\n3. Dip upon it 6 tablespoons nice cream, 1 only in a place.\n4. Upon each spoonful of cream drop 1 of the yolks whole (being careful not to break them).\n5. Place in moderately hot oven to cook, and serve hot as omelet.",
+    "originalIngredients": [
+      "6 eggs",
+      "pepper and salt",
+      "butter",
+      "6 tablespoons nice cream"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Canadian Farm Cook Book (1911), https://archive.org/details/canadianfarmcook00unse. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

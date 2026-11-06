@@ -1,0 +1,22 @@
+.kitchen-page { width: min(960px, 100%); margin: 0 auto; }
+.kitchen-header { margin-bottom: 24px; }
+.kitchen-header h1 { margin: 0; color: var(--text-h); }
+.kitchen-header p { margin: 8px 0 24px; }
+.kitchen-day-nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.kitchen-day-nav h2 { margin: 0; font-size: clamp(1.1rem, 3vw, 1.5rem); text-align: center; color: var(--text-h); }
+.kitchen-day-nav button { min-width: 44px; min-height: 44px; font-size: 1.4rem; }
+.kitchen-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+.kitchen-meals { display: grid; gap: 20px; }
+.kitchen-meal, .kitchen-empty { border: 1px solid var(--border); border-radius: 12px; }
+.kitchen-empty { padding: 24px; }
+.kitchen-meal summary { display: flex; align-items: center; gap: 16px; padding: 20px; cursor: pointer; list-style: none; }
+.kitchen-meal summary::-webkit-details-marker { display: none; }
+.kitchen-meal summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 12px; }
+.kitchen-chevron { font-size: 2rem; line-height: 1; transition: transform .15s; }
+.kitchen-meal[open] > summary .kitchen-chevron { transform: rotate(90deg); }
+.kitchen-meal-label { display: block; font-size: .85rem; margin-bottom: 6px; }
+.kitchen-recipe-name { display: block; font-size: 1.2rem; font-weight: 650; color: var(--text-h); }
+.kitchen-meal-body { padding: 0 24px 24px; border-top: 1px solid var(--border); }
+.kitchen-meal-body .recipe-details { max-height: none; overflow: visible; }
+.kitchen-meal-body li { margin-bottom: 10px; line-height: 1.7; }
+@media (prefers-reduced-motion: reduce) { .kitchen-chevron { transition: none; } }

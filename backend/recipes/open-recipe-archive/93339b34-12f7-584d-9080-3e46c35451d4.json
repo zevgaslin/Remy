@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "93339b34-12f7-584d-9080-3e46c35451d4",
+  "name": "A Farmer's Rice Pudding",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "common-sized tea-cup of rice",
+      "originalText": "a common-sized tea-cup of rice",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "a quart of rich milk or cream and milk mixed",
+      "originalText": "a quart of rich milk or cream and milk mixed",
+      "quantity": null,
+      "quantityText": "a quart of rich milk or cream and milk mixed",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "quarter of a pound of brown sugar",
+      "originalText": "a quarter of a pound of brown sugar",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered cinnamon",
+      "originalText": "a table-spoonful of powdered cinnamon",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": "table-spoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash a common-sized tea-cup of rice through cold water.",
+      "section": null
+    },
+    {
+      "text": "Stir it raw into a quart of rich milk, or of cream and milk mixed; adding a quarter of a pound of brown sugar, and a table-spoonful of powdered cinnamon.",
+      "section": null
+    },
+    {
+      "text": "Put it into a deep pan, and bake it two hours or more.",
+      "section": null
+    },
+    {
+      "text": "When done, the rice will be perfectly soft, which you may ascertain by dipping a tea-spoon into the edge of the pudding and taking out a little to try.",
+      "section": null
+    },
+    {
+      "text": "Eat it cold.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/a-farmer-s-rice-pudding.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash a common-sized tea-cup of rice through cold water.\n2. Stir it raw into a quart of rich milk, or of cream and milk mixed; adding a quarter of a pound of brown sugar, and a table-spoonful of powdered cinnamon.\n3. Put it into a deep pan, and bake it two hours or more.\n4. When done, the rice will be perfectly soft, which you may ascertain by dipping a tea-spoon into the edge of the pudding and taking out a little to try.\n5. Eat it cold.",
+    "originalIngredients": [
+      "a common-sized tea-cup of rice",
+      "a quart of rich milk or cream and milk mixed",
+      "a quarter of a pound of brown sugar",
+      "a table-spoonful of powdered cinnamon"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

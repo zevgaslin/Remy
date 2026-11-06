@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "fa6a5825-f51b-5d17-9282-41053b340f4a",
+  "name": "Smothered Beefsteak",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "thin slices of steak from the upper part of the round or one large thin steak",
+      "originalText": "thin slices of steak from the upper part of the round or one large thin steak",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fine bread crumbs",
+      "originalText": "one cupful fine bread crumbs",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "cupful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "salt",
+      "originalText": "half a teaspoonful salt",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "one tablespoonful butter",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sage",
+      "originalText": "half a teaspoonful sage",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "powdered summer savory",
+      "originalText": "half a teaspoonful powdered summer savory",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "milk",
+      "originalText": "milk",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "thin slices of salt pork",
+      "originalText": "thin slices of salt pork",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "water",
+      "originalText": "half a pint water",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "onion",
+      "originalText": "onion",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Lay the meat out smoothly and wipe it dry",
+      "section": null
+    },
+    {
+      "text": "Prepare a dressing using bread crumbs, salt, pepper, butter, sage, powdered summer savory, and enough milk to moisten into a stiff mixture",
+      "section": null
+    },
+    {
+      "text": "Spread the dressing over the meat",
+      "section": null
+    },
+    {
+      "text": "Roll it up carefully and tie with a string, securing the ends well",
+      "section": null
+    },
+    {
+      "text": "Fry a few thin slices of salt pork in the bottom of a kettle or saucepan",
+      "section": null
+    },
+    {
+      "text": "Place the roll or rolls of beef into the fat and brown on all sides, turning until a rich color all over",
+      "section": null
+    },
+    {
+      "text": "Add half a pint of water",
+      "section": null
+    },
+    {
+      "text": "Stew until tender",
+      "section": null
+    },
+    {
+      "text": "If desired, chop a slice of onion fine and add to the dressing",
+      "section": null
+    },
+    {
+      "text": "When cooked sufficiently, take out the meat and thicken the gravy",
+      "section": null
+    },
+    {
+      "text": "Turn the gravy over the meat",
+      "section": null
+    },
+    {
+      "text": "Carve by cutting crosswise in slices through beef and stuffing",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/smothered-beefsteak.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Lay the meat out smoothly and wipe it dry\n2. Prepare a dressing using bread crumbs, salt, pepper, butter, sage, powdered summer savory, and enough milk to moisten into a stiff mixture\n3. Spread the dressing over the meat\n4. Roll it up carefully and tie with a string, securing the ends well\n5. Fry a few thin slices of salt pork in the bottom of a kettle or saucepan\n6. Place the roll or rolls of beef into the fat and brown on all sides, turning until a rich color all over\n7. Add half a pint of water\n8. Stew until tender\n9. If desired, chop a slice of onion fine and add to the dressing\n10. When cooked sufficiently, take out the meat and thicken the gravy\n11. Turn the gravy over the meat\n12. Carve by cutting crosswise in slices through beef and stuffing",
+    "originalIngredients": [
+      "thin slices of steak from the upper part of the round or one large thin steak",
+      "one cupful fine bread crumbs",
+      "half a teaspoonful salt",
+      "pepper",
+      "one tablespoonful butter",
+      "half a teaspoonful sage",
+      "half a teaspoonful powdered summer savory",
+      "milk",
+      "thin slices of salt pork",
+      "half a pint water",
+      "onion"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

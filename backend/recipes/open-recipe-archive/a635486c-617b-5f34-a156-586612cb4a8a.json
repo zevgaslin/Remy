@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "a635486c-617b-5f34-a156-586612cb4a8a",
+  "name": "Sassafras Beer",
+  "description": "Historical recipe from Miss Leslie's Complete Cookery (1851). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "gallons of soft water",
+      "originalText": "2 gallons of soft water",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "wheat bran",
+      "originalText": "1 quart of wheat bran",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "large handful of dried apples",
+      "originalText": "a large handful of dried apples",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "molasses",
+      "originalText": "half a pint of molasses",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "small handful of hops",
+      "originalText": "a small handful of hops",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "strong fresh yeast",
+      "originalText": "half a pint of strong fresh yeast",
+      "quantity": 0.5,
+      "quantityText": "half a",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "piece of sassafras root the size of an egg",
+      "originalText": "a piece of sassafras root the size of an egg",
+      "quantity": 1.0,
+      "quantityText": "a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Put all the ingredients (except the molasses and yeast) at once into a large kettle",
+      "section": null
+    },
+    {
+      "text": "Boil it till the apples are quite soft",
+      "section": null
+    },
+    {
+      "text": "Put the molasses into a small clean tub or a large pan",
+      "section": null
+    },
+    {
+      "text": "Set a hair sieve over the vessel, and strain the mixture through it",
+      "section": null
+    },
+    {
+      "text": "Let it stand till it becomes only milkwarm, and then stir in the yeast",
+      "section": null
+    },
+    {
+      "text": "Put the liquor immediately into the keg or jugs, and let it stand uncorked to ferment",
+      "section": null
+    },
+    {
+      "text": "Fill the jugs quite full, that the liquor in fermenting may run over",
+      "section": null
+    },
+    {
+      "text": "Set them in a large tub",
+      "section": null
+    },
+    {
+      "text": "When you see that the fermentation or working has subsided, cork it, and it will be fit for use next day",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/sassafras-beer.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Eliza Leslie",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Put all the ingredients (except the molasses and yeast) at once into a large kettle\n2. Boil it till the apples are quite soft\n3. Put the molasses into a small clean tub or a large pan\n4. Set a hair sieve over the vessel, and strain the mixture through it\n5. Let it stand till it becomes only milkwarm, and then stir in the yeast\n6. Put the liquor immediately into the keg or jugs, and let it stand uncorked to ferment\n7. Fill the jugs quite full, that the liquor in fermenting may run over\n8. Set them in a large tub\n9. When you see that the fermentation or working has subsided, cork it, and it will be fit for use next day",
+    "originalIngredients": [
+      "2 gallons of soft water",
+      "1 quart of wheat bran",
+      "a large handful of dried apples",
+      "half a pint of molasses",
+      "a small handful of hops",
+      "half a pint of strong fresh yeast",
+      "a piece of sassafras root the size of an egg"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: Miss Leslie's Complete Cookery (1851), https://www.gutenberg.org/ebooks/60025. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "aca688a2-e36e-5ce5-9aaf-2ac0aa1a15cc",
+  "name": "Prune Jelly",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "prunes",
+      "originalText": "One pint of prunes",
+      "quantity": 1.0,
+      "quantityText": "One",
+      "unit": "pint",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "box of gelatine",
+      "originalText": "Half a box of gelatine",
+      "quantity": 0.5,
+      "quantityText": "Half a",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Sugar to taste",
+      "originalText": "Sugar to taste",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pinch of salt",
+      "originalText": "A pinch of salt",
+      "quantity": 1.0,
+      "quantityText": "A",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Essence of vanilla or juice and rind of a lemon",
+      "originalText": "Essence of vanilla or juice and rind of a lemon",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Juice of two oranges",
+      "originalText": "Juice of two oranges",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash the prunes",
+      "section": null
+    },
+    {
+      "text": "Boil slowly till soft in sufficient water to cover",
+      "section": null
+    },
+    {
+      "text": "Take out the stones",
+      "section": null
+    },
+    {
+      "text": "Sweeten to taste",
+      "section": null
+    },
+    {
+      "text": "Add essence of vanilla, or if preferred the juice and rind of a lemon, and the juice of two oranges",
+      "section": null
+    },
+    {
+      "text": "Soak the gelatine till soft",
+      "section": null
+    },
+    {
+      "text": "Add the above, stir all well together",
+      "section": null
+    },
+    {
+      "text": "Pour into a mould and let stand till it is very cold",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/prune-jelly.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash the prunes\n2. Boil slowly till soft in sufficient water to cover\n3. Take out the stones\n4. Sweeten to taste\n5. Add essence of vanilla, or if preferred the juice and rind of a lemon, and the juice of two oranges\n6. Soak the gelatine till soft\n7. Add the above, stir all well together\n8. Pour into a mould and let stand till it is very cold",
+    "originalIngredients": [
+      "One pint of prunes",
+      "Half a box of gelatine",
+      "Sugar to taste",
+      "A pinch of salt",
+      "Essence of vanilla or juice and rind of a lemon",
+      "Juice of two oranges"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

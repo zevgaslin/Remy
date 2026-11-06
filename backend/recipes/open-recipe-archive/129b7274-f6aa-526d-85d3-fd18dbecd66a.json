@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "129b7274-f6aa-526d-85d3-fd18dbecd66a",
+  "name": "Chocolate Pudding No. 1",
+  "description": "Historical recipe from The Whitehouse Cookbook (1887). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "milk",
+      "originalText": "one quart of milk",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cornstarch",
+      "originalText": "three tablespoonfuls of cornstarch",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "three tablespoonfuls of sugar",
+      "quantity": 3.0,
+      "quantityText": "three",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "egg",
+      "originalText": "one egg",
+      "quantity": 1.0,
+      "quantityText": "one",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "vanilla chocolate",
+      "originalText": "four tablespoonfuls of vanilla chocolate",
+      "quantity": 4.0,
+      "quantityText": "four",
+      "unit": "tablespoonfuls",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Make cornstarch pudding with a quart of milk, three tablespoonfuls of cornstarch and three tablespoonfuls of sugar",
+      "section": null
+    },
+    {
+      "text": "When done, remove about half and flavor to taste",
+      "section": null
+    },
+    {
+      "text": "To that remaining in the kettle add an egg beaten very light, and four tablespoonfuls of vanilla chocolate grated and dissolved in a little milk",
+      "section": null
+    },
+    {
+      "text": "Put in a mold, alternately the dark and light",
+      "section": null
+    },
+    {
+      "text": "Serve with whipped cream or boiled custard",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/chocolate-pudding-no-1.md",
+    "siteName": "Open Recipe Archive",
+    "author": "F.L. Gillette",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Make cornstarch pudding with a quart of milk, three tablespoonfuls of cornstarch and three tablespoonfuls of sugar\n2. When done, remove about half and flavor to taste\n3. To that remaining in the kettle add an egg beaten very light, and four tablespoonfuls of vanilla chocolate grated and dissolved in a little milk\n4. Put in a mold, alternately the dark and light\n5. Serve with whipped cream or boiled custard",
+    "originalIngredients": [
+      "one quart of milk",
+      "three tablespoonfuls of cornstarch",
+      "three tablespoonfuls of sugar",
+      "one egg",
+      "four tablespoonfuls of vanilla chocolate"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Whitehouse Cookbook (1887), https://www.gutenberg.org/ebooks/13923. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

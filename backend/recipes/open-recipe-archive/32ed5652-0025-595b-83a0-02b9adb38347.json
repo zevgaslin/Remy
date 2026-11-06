@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "32ed5652-0025-595b-83a0-02b9adb38347",
+  "name": "Plain Puree of Green Peas",
+  "description": "Historical recipe from The Canadian Family Cook Book (1914). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "peas",
+      "originalText": "1 quart of peas",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "quart",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "1 tablespoonful of butter",
+      "quantity": 1.0,
+      "quantityText": "1",
+      "unit": "tablespoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "pepper",
+      "originalText": "pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "paprica or a dash of cayenne",
+      "originalText": "paprica or a dash of cayenne",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "sugar",
+      "originalText": "1/2 teaspoonful of sugar",
+      "quantity": 0.5,
+      "quantityText": "1/2",
+      "unit": "teaspoonful",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "mint leaves, finely minced",
+      "originalText": "3 mint leaves, finely minced",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "fried bread",
+      "originalText": "fried bread",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Boil and rub a quart of peas through a colander, or pass them through a vegetable-press.",
+      "section": null
+    },
+    {
+      "text": "Heat a tablespoonful of butter in a saucepan with pepper, paprica, or a dash of cayenne, half a teaspoonful of sugar, and three mint leaves, finely minced.",
+      "section": null
+    },
+    {
+      "text": "Stir in the pulped peas and toss and stir with a silver fork until they are very hot.",
+      "section": null
+    },
+    {
+      "text": "Pile upon a hot platter and lay triangles of fried bread about the base.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "canada",
+    "canadian-kitchen",
+    "historical"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/canadian-kitchen/recipes/plain-puree-of-green-peas.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Grace E. Denison",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Boil and rub a quart of peas through a colander, or pass them through a vegetable-press.\n2. Heat a tablespoonful of butter in a saucepan with pepper, paprica, or a dash of cayenne, half a teaspoonful of sugar, and three mint leaves, finely minced.\n3. Stir in the pulped peas and toss and stir with a silver fork until they are very hot.\n4. Pile upon a hot platter and lay triangles of fried bread about the base.",
+    "originalIngredients": [
+      "1 quart of peas",
+      "1 tablespoonful of butter",
+      "pepper",
+      "paprica or a dash of cayenne",
+      "1/2 teaspoonful of sugar",
+      "3 mint leaves, finely minced",
+      "fried bread"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Canadian Family Cook Book (1914), https://archive.org/details/canadianfamilyco00deni_0. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}

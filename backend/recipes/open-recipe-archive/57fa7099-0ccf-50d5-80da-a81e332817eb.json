@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "57fa7099-0ccf-50d5-80da-a81e332817eb",
+  "name": "Eggs Susette",
+  "description": "Historical recipe from The Boston Cooking-School Cook Book (1896). Source method; not modernized or kitchen-tested.",
+  "cuisine": null,
+  "mealType": null,
+  "difficulty": null,
+  "prepMinutes": null,
+  "cookMinutes": null,
+  "totalMinutes": null,
+  "servings": null,
+  "yieldText": null,
+  "ingredients": [
+    {
+      "name": "large potatoes",
+      "originalText": "6 large potatoes",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped ham",
+      "originalText": "6 tablespoons finely chopped ham",
+      "quantity": 6.0,
+      "quantityText": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "finely chopped parsley",
+      "originalText": "2 tablespoons finely chopped parsley",
+      "quantity": 2.0,
+      "quantityText": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "whites of 2 eggs",
+      "originalText": "whites of 2 eggs",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "butter",
+      "originalText": "3 tablespoons butter",
+      "quantity": 3.0,
+      "quantityText": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "cream",
+      "originalText": "4 tablespoons cream",
+      "quantity": 4.0,
+      "quantityText": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Salt",
+      "originalText": "Salt",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    },
+    {
+      "name": "Pepper",
+      "originalText": "Pepper",
+      "quantity": null,
+      "quantityText": null,
+      "unit": null,
+      "preparation": null,
+      "section": null,
+      "optional": false
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Wash and bake six large potatoes, cut slice from top of each, scoop out inside, and mash.",
+      "section": null
+    },
+    {
+      "text": "To three cups mashed potato add six tablespoons finely chopped ham, two tablespoons finely chopped parsley, whites of two eggs well beaten, three tablespoons butter, four tablespoons cream, and salt and pepper.",
+      "section": null
+    },
+    {
+      "text": "Line potato shells with mixture, place in each cavity a poached egg, cover with potato mixture, and bake until browned.",
+      "section": null
+    },
+    {
+      "text": "Care must be taken to have eggs delicately parched.",
+      "section": null
+    }
+  ],
+  "preferenceTags": [
+    {
+      "name": "category",
+      "value": "historical"
+    }
+  ],
+  "keywords": [
+    "american-historical",
+    "historical",
+    "ye-old-american"
+  ],
+  "nutrition": null,
+  "imageUrl": null,
+  "source": {
+    "kind": "website",
+    "url": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/collections/ye-old-american/recipes/eggs-susette.md",
+    "siteName": "Open Recipe Archive",
+    "author": "Fannie Merritt Farmer",
+    "importedAt": "2026-11-06T00:35:21.393818+00:00",
+    "originalInstructions": "1. Wash and bake six large potatoes, cut slice from top of each, scoop out inside, and mash.\n2. To three cups mashed potato add six tablespoons finely chopped ham, two tablespoons finely chopped parsley, whites of two eggs well beaten, three tablespoons butter, four tablespoons cream, and salt and pepper.\n3. Line potato shells with mixture, place in each cavity a poached egg, cover with potato mixture, and bake until browned.\n4. Care must be taken to have eggs delicately parched.",
+    "originalIngredients": [
+      "6 large potatoes",
+      "6 tablespoons finely chopped ham",
+      "2 tablespoons finely chopped parsley",
+      "whites of 2 eggs",
+      "3 tablespoons butter",
+      "4 tablespoons cream",
+      "Salt",
+      "Pepper"
+    ],
+    "license": "public-domain",
+    "licenseUrl": "https://github.com/AdamBouhmad/open-recipe-archive/blob/ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8/LICENSE.md",
+    "instructionsOrigin": "source",
+    "adaptationNotes": "Original cookbook: The Boston Cooking-School Cook Book (1896), https://www.gutenberg.org/ebooks/65061. Archive revision: ae3bd2c009a8899dfe63b9166fa98ae3fa8041a8. Directions retained verbatim from the archive; historical methods have not received individual modern cooking review. Unknown nutrition, servings and timing remain null."
+  }
+}
