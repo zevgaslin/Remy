@@ -20,3 +20,7 @@
 .kitchen-meal-body .recipe-details { max-height: none; overflow: visible; }
 .kitchen-meal-body li { margin-bottom: 10px; line-height: 1.7; }
 @media (prefers-reduced-motion: reduce) { .kitchen-chevron { transition: none; } }
+
+.kitchen-empty { text-align: center; padding: 40px 24px; }
+.kitchen-add-meals { display: inline-block; margin-top: 8px; padding: 10px 20px; border-radius: 8px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+.kitchen-add-meals:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }

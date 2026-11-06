@@ -1007,11 +1007,12 @@ const VIEWS = Object.values(VIEW_STRATEGIES);
    Context Component (CalendarPanel)
    ========================================================================== */
 
-function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null }) {
+function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selectedDate = null, onToday }) {
   const calendar = useCalendarPlan(currentUser);
   const { plannedMeals, dailyMealSlots } = calendar;
   const [view, setView] = useState('day');
-  const today = useToday();
+  const actualToday = useToday();
+  const today = selectedDate ?? actualToday;
   const timeProgress = useCurrentTimeProgress();
 
   const [activePopup, setActivePopup] = useState(null);
@@ -1121,7 +1122,7 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null }) {
               key={v.id}
               type="button"
               className={v.id === view ? 'active' : ''}
-              onClick={() => setView(v.id)}
+              onClick={() => { setView(v.id); if (v.id === 'day') onToday?.(); }}
             >
               {v.label}
             </button>

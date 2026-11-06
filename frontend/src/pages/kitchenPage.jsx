@@ -12,6 +12,15 @@ const DEFAULT_SLOTS = [
   { id: 'snack', label: 'Snack', time: '15:00' },
   { id: 'dinner', label: 'Dinner', time: '18:00' },
 ];
+const EMPTY_DAY_QUIPS = [
+  '"For example, nothing" - Kylian Mbappé',
+  "Guess it’s a DoorDash type of night.",
+  'Not enough cooks in the kitchen.',
+  'The chef has left the building.',
+  'Tonight’s special: absolutely no plans.',
+  'This kitchen is on a well-deserved break.',
+  'Your apron called. It’s taking the day off.',
+];
 const keyFor = date => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 
 function KitchenDay({ currentUser }) {
@@ -43,6 +52,7 @@ function KitchenDay({ currentUser }) {
     });
   }
   const dateKey = keyFor(day);
+  const quip = EMPTY_DAY_QUIPS[Number(dateKey.replaceAll('-', '')) % EMPTY_DAY_QUIPS.length];
   const meals = calendar?.plannedMeals || {};
   const slots = calendar?.dailyMealSlots?.[dateKey] ?? DEFAULT_SLOTS;
   const scheduled = slots.map(slot => ({ slot, recipe: meals[`${dateKey}::${slot.id}`] ?? meals[`${dateKey}-${slot.id}`] }))
@@ -63,8 +73,9 @@ function KitchenDay({ currentUser }) {
       </header>
       {error ? <div role="alert"><p>{error}</p><button type="button" onClick={refresh}>Retry</button></div>
         : !calendar ? <p role="status">Loading your kitchen…</p>
-          : scheduled.length === 0 ? <div className="kitchen-empty"><h3>No recipes planned for this day</h3>
-            <p>Add a recipe to your schedule in <Link to="/">Meal Planner</Link>, or use the arrows to choose another day.</p></div>
+          : scheduled.length === 0 ? <div className="kitchen-empty"><h3>{quip}</h3>
+            <p>No meals planned for this day.</p>
+            <Link className="kitchen-add-meals" to={`/?date=${dateKey}`}>Add meals</Link></div>
             : <div className="kitchen-meals" key={dateKey}>{scheduled.map(({ slot, recipe }) => (
               <details className="kitchen-meal" key={slot.id} open>
                 <summary><span className="kitchen-chevron" aria-hidden="true">›</span><span>

@@ -595,3 +595,11 @@ describe('CalendarPanel saved meal plan', () => {
     await waitFor(() => expect(getCalendar).toHaveBeenCalledTimes(2));
   });
 });
+
+it('opens the linked calendar date and lets Today return to the current day', () => {
+  const onToday = vi.fn();
+  render(<CalendarPanel selectedDate={new Date(2026, 10, 9, 12)} onToday={onToday} />);
+  expect(screen.getByRole('button', { name: 'Add Lunch for Mon Nov 09 2026' })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: 'Today', exact: true }));
+  expect(onToday).toHaveBeenCalledOnce();
+});
