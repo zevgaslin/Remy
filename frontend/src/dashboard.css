@@ -889,6 +889,72 @@
   transform: scale(0.98);
 }
 
+/* Grocery list (Pantry page) */
+.grocery-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.grocery-list-header select {
+  font: inherit;
+  font-size: 14px;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.grocery-item {
+  cursor: default;
+  user-select: auto;
+  -webkit-user-select: auto;
+}
+
+.grocery-item-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: var(--text-h);
+}
+
+.grocery-item-label input {
+  accent-color: var(--accent);
+}
+
+.grocery-item--checked {
+  opacity: 0.55;
+}
+
+.grocery-item--checked .grocery-item-label span {
+  text-decoration: line-through;
+}
+
+.grocery-list-error {
+  margin: 0;
+  color: var(--urgent);
+}
+
+.grocery-list-clear {
+  align-self: flex-start;
+  font: inherit;
+  font-size: 14px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.grocery-list-clear:hover {
+  border-color: var(--accent-border);
+}
+
 body.is-dragging-ingredient,
 body.is-dragging-ingredient * {
   cursor: grabbing !important;
