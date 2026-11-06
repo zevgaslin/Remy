@@ -6,6 +6,7 @@ import com.remy.backend.dto.PreferenceCriterion;
 import com.remy.backend.dto.RecipeSearchRequest;
 import com.remy.backend.model.Recipe;
 import com.remy.backend.repository.RecipePreferenceRepository;
+import com.remy.backend.security.AdminOnly;
 import com.remy.backend.service.RecipeMatchingService;
 import com.remy.backend.service.RecipePreferenceService;
 import com.remy.backend.service.SessionTokenService;
@@ -206,6 +207,8 @@ public class RecipeController {
         return ResponseEntity.ok(recipeManagementService.update(id, name, instructions));
     }
 
+    /** Recipes are a shared catalog, so only admins may remove one for everyone. */
+    @AdminOnly
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteRecipe(@PathVariable Long id) {
         recipeManagementService.delete(id);
