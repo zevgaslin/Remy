@@ -3,10 +3,17 @@ import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/re
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
 import IngredientsPanel from './IngredientsPanel';
 import { getMyIngredients, updateIngredient, createIngredient, deleteIngredient } from '../services/ingredientServices';
+import { getGroceryList } from '../services/groceryListServices';
 vi.mock('../services/ingredientServices', () => ({ getMyIngredients: vi.fn(), updateIngredient: vi.fn(), createIngredient: vi.fn(), deleteIngredient: vi.fn() }));
+vi.mock('../services/groceryListServices', () => ({ getGroceryList: vi.fn() }));
 const user = { id: 1, token: 'abc' };
 const item = { id: 10, name: 'Milk', quantity: 1000, unit: 'ml', expirationDate: '2099-01-01', calories: 0.5, protein: 0.03, carbs: 0, fat: null };
-beforeEach(() => { vi.clearAllMocks(); getMyIngredients.mockResolvedValue([item]); });
+beforeEach(() => {
+  vi.clearAllMocks();
+  getMyIngredients.mockResolvedValue([item]);
+  // The grocery list renders alongside the pantry and must not call a real API.
+  getGroceryList.mockResolvedValue({ plannedMeals: 0, items: [] });
+});
 afterEach(cleanup);
 async function edit() {
   render(<IngredientsPanel currentUser={user} />);
