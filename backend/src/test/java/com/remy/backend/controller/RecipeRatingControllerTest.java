@@ -87,9 +87,10 @@ class RecipeRatingControllerTest {
         assertThat(order.indexOf(fresh)).isLessThan(order.indexOf(panned));
         assertThat(order.get(order.size() - 1)).isEqualTo(panned);
 
-        // Another user's ratings do not reorder this user's feed.
+        // Community ratings also guide a new user's feed.
         List<Long> otherOrder = feedIds(register());
-        assertThat(otherOrder.indexOf(fresh)).isLessThan(otherOrder.indexOf(loved));
+        assertThat(otherOrder.indexOf(loved)).isLessThan(otherOrder.indexOf(fresh));
+        assertThat(otherOrder.indexOf(fresh)).isLessThan(otherOrder.indexOf(panned));
     }
 
     @Test
@@ -111,6 +112,69 @@ class RecipeRatingControllerTest {
 
         // Without a pantry to rank by, ratings alone decide the order.
         assertThat(searchIds(fan, Map.of("query", token, "limit", 10))).containsExactly(beta, alpha);
+    }
+
+    @Test
+    void communityRatingsPromoteGoodRecipesAndDemotePoorOnesInSearch() {
+        String token = "community" + UUID.randomUUID().toString().substring(0, 6);
+        long poor = createRecipe("Alpha " + token, token);
+        long neutral = createRecipe("Beta " + token, token);
+        long good = createRecipe("Zulu " + token, token);
+        HttpHeaders rater = register();
+        rate(rater, poor, 1);
+        rate(rater, good, 5);
+        Map<String, Object> request = Map.of("query", token, "ingredients", List.of(token));
+        assertThat(searchIds(new HttpHeaders(), request)).containsExactly(good, neutral, poor);
+        assertThat(searchIds(register(), request)).containsExactly(good, neutral, poor);
+        // Their own rating is applied only as a personal rating, never twice.
+        assertThat(searchIds(rater, request)).containsExactly(good, neutral, poor);
+        rate(rater, poor, 5);
+        assertThat(searchIds(new HttpHeaders(), request)).containsExactly(poor, good, neutral);
+    }
+
+    @Test
+    void savedUsagePromotesRecipesAndCountsDistinctPeopleInsteadOfSlotsOrSaves() {
+        String token = "usage" + UUID.randomUUID().toString().substring(0, 6);
+        long unused = createRecipe("Alpha " + token, token);
+        long used = createRecipe("Zulu " + token, token);
+        HttpHeaders planner = register();
+        Map<String, Object> meals = Map.of(
+                "2030-03-04::lunch", Map.of("id", used, "name", "Lunch"),
+                "2030-03-05::dinner", Map.of("id", used, "name", "Dinner"));
+        saveCalendar(planner, meals, 0);
+        saveCalendar(planner, meals, 1);
+        // The relational meal planner is counted too, without duplicating the account.
+        assertThat(http.exchange("/api/users/me/meal-plan/meals/2030-03-04/breakfast", HttpMethod.PUT,
+                new HttpEntity<>(Map.of("recipeId", used), planner),
+                Map.class).getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(http.exchange("/api/users/me/meal-logs", HttpMethod.POST,
+                new HttpEntity<>(Map.of("recipeId", used, "eatenOn", "2020-03-04", "slot", "lunch",
+                        "servings", 1, "timezone", "UTC"), planner), Map.class).getStatusCode())
+                .isEqualTo(HttpStatus.OK);
+        assertThat(http.getForEntity("/api/recipes/{id}", Map.class, used).getBody())
+                .containsEntry("usageCount", 1);
+        Map<String, Object> request = Map.of("query", token);
+        assertThat(searchIds(register(), request)).containsExactly(used, unused);
+        // The planner's own activity does not count as community popularity.
+        assertThat(searchIds(planner, request)).containsExactly(unused, used);
+        HttpHeaders second = register();
+        saveCalendar(second, meals, 0);
+        assertThat(http.getForEntity("/api/recipes/{id}", Map.class, used).getBody())
+                .containsEntry("usageCount", 2);
+        // Removing the second person's only plan removes their usage contribution.
+        saveCalendar(second, Map.of(), 1);
+        assertThat(http.getForEntity("/api/recipes/{id}", Map.class, used).getBody())
+                .containsEntry("usageCount", 1);
+        List<Long> catalog = java.util.Arrays.stream(http.getForObject("/api/recipes", Map[].class))
+                .map(recipe -> ((Number) recipe.get("id")).longValue()).toList();
+        assertThat(catalog.indexOf(used)).isLessThan(catalog.indexOf(unused));
+        assertThat(feedIds(new HttpHeaders()).indexOf(used)).isLessThan(feedIds(new HttpHeaders()).indexOf(unused));
+    }
+
+    private void saveCalendar(HttpHeaders user, Map<String, Object> meals, int revision) {
+        assertThat(http.exchange("/api/users/me/calendar", HttpMethod.PUT,
+                new HttpEntity<>(Map.of("revision", revision, "plannedMeals", meals, "dailyMealSlots", Map.of()), user),
+                Map.class).getStatusCode()).isEqualTo(HttpStatus.OK);
     }
 
     @Test

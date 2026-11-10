@@ -140,3 +140,9 @@ Product data attribution: [Open Food Facts](https://world.openfoodfacts.org), [O
 ### Editing pantry ingredients
 
 Each pantry row has an Edit button. The editor starts with the saved name, quantity, unit, expiration date, and per-unit calories/protein/carbs/fat. Save changes updates the existing ingredient through the account-scoped ingredient API, refreshes pantry totals and expiration ordering, and invalidates the pantry cache. Blank nutrition fields remain unknown; zero remains zero. Closing the dialog discards unsaved edits, and failed saves retain the draft for retry. If you change units, update the per-unit nutrition to match.
+
+### Community recipe recommendations
+
+Recipes retain each account’s 1–5 star rating. Recommendations in the feed, search, and calendar picker also consider other users’ ratings and how many distinct accounts have planned or logged each recipe as eaten. Recipe cards show the total as “Planned or cooked by …”. This is usage of saved plans and food logs, not a count of recipe views or proof that a planned meal was cooked. Guest activity is not stored.
+
+Usage is derived from persisted calendar plans, meal plans, and food logs; multiple slots, repeat saves, and planning plus logging the same recipe count once per account. Removing all of an account’s saved plans and logs for a recipe removes that account from its usage count. Individual identities and calendars are not exposed. Community ranking excludes the viewing account’s activity; personal star ratings still personalize their feed and search. Rating quality is averaged with five neutral (3-star) prior votes, so one vote has limited influence. Usage adds a bounded boost. Pantry coverage, expiring ingredients, dietary filters, and exclusions remain active; random selection stays random.

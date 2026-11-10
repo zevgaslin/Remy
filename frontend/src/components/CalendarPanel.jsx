@@ -457,11 +457,14 @@ function MealCell({
     <button
       type="button"
       className="remove-meal-cell-btn"
-      aria-label={`Remove ${slotLabel} on ${day.toDateString()}`}
-      title={`Remove ${slotLabel} for this day`}
+      aria-label={recipe
+        ? `Clear ${slotLabel} recipe on ${day.toDateString()}`
+        : `Remove ${slotLabel} on ${day.toDateString()}`}
+      title={recipe ? 'Remove the recipe but keep this meal time' : `Remove ${slotLabel} for this day`}
       onClick={(e) => {
         e.stopPropagation();
-        onRemoveSlot(day, slotId);
+        if (recipe) onClearRecipe?.(day, slotId);
+        else onRemoveSlot(day, slotId);
       }}
       style={{
         position: 'absolute',

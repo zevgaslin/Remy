@@ -70,6 +70,12 @@ public class Recipe {
     @jakarta.persistence.Transient
     private long ratingCount;
 
+    @jakarta.persistence.Transient
+    private long usageCount;
+
+    public long getUsageCount() { return usageCount; }
+    public void setUsageCount(long count) { this.usageCount = count; }
+
     public Double getRatingAverage() { return ratingAverage; }
     public long getRatingCount() { return ratingCount; }
 

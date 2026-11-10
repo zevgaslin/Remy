@@ -30,7 +30,8 @@ public class RecipeQueryRepository {
     /** userId, when given, ranks the user's higher-rated recipes above their lower-rated ones. */
     public List<Long> search(String query, Set<String> ingredients, Set<String> expiring,
             List<PreferenceCriterion> preferences, boolean requireAll, int limit, Long userId) {
-        var parameters = new MapSqlParameterSource("limit", limit);
+        var parameters = new MapSqlParameterSource("limit", limit)
+                .addValue("communityUserId", userId == null ? -1L : userId);
         var where = new StringBuilder(" WHERE true");
         String trimmed = query == null ? "" : query.trim().toLowerCase(Locale.ROOT);
         int index = 0;
@@ -80,9 +81,10 @@ public class RecipeQueryRepository {
                 ratingOrder = MY_STARS + " DESC, ";
             }
         }
-        String sql = "SELECT r.id FROM recipe r" + where + " ORDER BY "
+        rank = rank == null ? RecipeCommunitySql.SCORE : "(" + rank + " + " + RecipeCommunitySql.SCORE + ")";
+        String sql = RecipeCommunitySql.RANKING_CTES + "SELECT r.id FROM recipe r" + RecipeCommunitySql.JOINS + where + " ORDER BY "
                 + (expiringRank == null ? "" : expiringRank + " DESC, ")
-                + (rank == null ? "" : rank + " DESC, ") + ratingOrder + "r.name, r.id LIMIT :limit";
+                + ratingOrder + rank + " DESC, r.name, r.id LIMIT :limit";
         return jdbc.queryForList(sql, parameters, Long.class);
     }
 
@@ -102,17 +104,19 @@ public class RecipeQueryRepository {
 
     /**
      * Recipes the user has not favorited or disliked. Their 5- and 4-star recipes come first,
-     * then unrated and 3-star ones (newest first), and 1- and 2-star ones last.
+     * then unrated and 3-star ones, and 1- and 2-star ones last.
+     * Within each group, community ratings and distinct users lift recommended recipes.
      */
     public List<Long> feed(Long userId, int limit, int offset) {
         var parameters = new MapSqlParameterSource().addValue("limit",limit).addValue("offset",offset);
         String where = "";
-        String order = " ORDER BY r.id DESC";
+        String order = " ORDER BY " + RecipeCommunitySql.SCORE + " DESC, r.id DESC";
+        parameters.addValue("communityUserId", userId == null ? -1L : userId);
         if (userId != null) {
             where = " WHERE NOT EXISTS (SELECT 1 FROM recipe_preferences rp WHERE rp.recipe_id=r.id AND rp.user_id=:userId)";
-            order = " ORDER BY " + MY_STARS + " DESC, r.id DESC";
+            order = " ORDER BY " + MY_STARS + " DESC, " + RecipeCommunitySql.SCORE + " DESC, r.id DESC";
             parameters.addValue("userId",userId);
         }
-        return jdbc.queryForList("SELECT r.id FROM recipe r"+where+order+" LIMIT :limit OFFSET :offset", parameters, Long.class);
+        return jdbc.queryForList(RecipeCommunitySql.RANKING_CTES + "SELECT r.id FROM recipe r"+RecipeCommunitySql.JOINS+where+order+" LIMIT :limit OFFSET :offset", parameters, Long.class);
     }
 }
