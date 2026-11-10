@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 /** One row per recipe: aggregate small child rows before transferring the full JSON document. */
 @Repository
 public class RecipeReadRepository {
-    private static final String SELECT = """
+    private static final String SELECT = RecipeCommunitySql.RANKING_CTES + """
         SELECT r.*,
           COALESCE((SELECT jsonb_agg(jsonb_build_object(
             'id', i.id, 'name', i.ingredient_name, 'quantity', i.quantity, 'unit', i.unit, 'optional', i.optional)
@@ -19,17 +19,18 @@ public class RecipeReadRepository {
             'id', t.id, 'name', t.preference_name, 'value', t.preference_value)
             ORDER BY t.id) FROM recipe_preference_tags t WHERE t.recipe_id=r.id), '[]'::jsonb) AS tag_rows,
           (SELECT round(avg(rr.stars)::numeric, 1) FROM recipe_ratings rr WHERE rr.recipe_id=r.id) AS rating_average,
-          (SELECT count(*) FROM recipe_ratings rr WHERE rr.recipe_id=r.id) AS rating_count
+          (SELECT count(*) FROM recipe_ratings rr WHERE rr.recipe_id=r.id) AS rating_count,
+          (SELECT count(*) FROM recipe_users ru WHERE ru.recipe_id=r.id::text) AS usage_count
         FROM recipe r
-        """;
+        """ + RecipeCommunitySql.JOINS;
     private final NamedParameterJdbcTemplate jdbc;
     private final ObjectMapper mapper;
     public RecipeReadRepository(NamedParameterJdbcTemplate jdbc, ObjectMapper mapper) { this.jdbc=jdbc; this.mapper=mapper; }
 
-    public List<Recipe> list() { return jdbc.query(SELECT+" ORDER BY r.id DESC", Map.of(), this::map); }
+    public List<Recipe> list() { return jdbc.query(SELECT+" ORDER BY " + RecipeCommunitySql.SCORE + " DESC, r.id DESC", Map.of("communityUserId", -1L), this::map); }
     public List<Recipe> findInOrder(List<Long> ids) {
         if (ids.isEmpty()) return List.of();
-        var rows=jdbc.query(SELECT+" WHERE r.id IN (:ids)", Map.of("ids",ids), this::map);
+        var rows=jdbc.query(SELECT+" WHERE r.id IN (:ids)", Map.of("ids",ids,"communityUserId",-1L), this::map);
         var byId=new HashMap<Long,Recipe>();
         rows.forEach(recipe->byId.put(recipe.getId(),recipe));
         return ids.stream().map(byId::get).filter(Objects::nonNull).toList();
@@ -44,6 +45,7 @@ public class RecipeReadRepository {
         recipe.setPrepMinutes(row.getObject("prep_minutes",Integer.class));
         recipe.setCookMinutes(row.getObject("cook_minutes",Integer.class));
         recipe.setServings(row.getObject("servings",Integer.class));
+        recipe.setUsageCount(row.getLong("usage_count"));
         recipe.setLikes(row.getInt("likes")); recipe.setDislikes(row.getInt("dislikes"));
         java.math.BigDecimal ratingAverage=row.getBigDecimal("rating_average");
         recipe.setRatingSummary(ratingAverage==null?null:ratingAverage.doubleValue(), row.getLong("rating_count"));

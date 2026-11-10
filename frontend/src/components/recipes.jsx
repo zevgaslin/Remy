@@ -35,6 +35,11 @@ function RecipeCard({
             onRate={onRate}
           />
         )}
+        {recipe.usageCount > 0 && (
+          <p className="recipe-match-detail">
+            Planned or cooked by {recipe.usageCount} {recipe.usageCount === 1 ? 'person' : 'people'}
+          </p>
+        )}
         <details className="recipe-expand">
           <summary>View recipe</summary>
           <RecipeDetails recipe={{ ...recipe, name, instructions }} />

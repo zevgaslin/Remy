@@ -506,6 +506,36 @@ describe('CalendarPanel saved meal plan', () => {
     expect(saveCalendar).toHaveBeenCalledWith('user-token', expect.objectContaining({ plannedMeals: {}, dailyMealSlots: {} }));
   });
 
+  it.each([
+    ['Today', 'lunch', 'Lunch', '::'],
+    ['This Week', 'custom-brunch', 'Brunch', '-'],
+  ])('clears a filled slot with X, then removes the empty slot in %s', async (view, slotId, label, separator) => {
+    const slots = [{ id: slotId, label, time: '10:00', hour: 10 }];
+    getCalendar.mockResolvedValue({
+      revision: 1,
+      plannedMeals: { [`${todayKey}${separator}${slotId}`]: { id: 6, name: 'Leftover Curry' } },
+      dailyMealSlots: { [todayKey]: slots },
+    });
+    render(<CalendarPanel currentUser={user} />);
+    await screen.findByText('Leftover Curry');
+    fireEvent.click(screen.getByRole('button', { name: view, exact: true }));
+
+    fireEvent.click(screen.getByRole('button', { name: `Clear ${label} recipe on ${now.toDateString()}` }));
+    await waitFor(() => expect(saveCalendar).toHaveBeenCalledTimes(1));
+    expect(screen.queryByText('Leftover Curry')).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: `Add ${label} for ${now.toDateString()}` })).toBeInTheDocument();
+    expect(saveCalendar.mock.calls[0][1]).toMatchObject({
+      plannedMeals: {}, dailyMealSlots: { [todayKey]: slots },
+    });
+
+    fireEvent.click(screen.getByRole('button', { name: `Remove ${label} on ${now.toDateString()}` }));
+    await waitFor(() => expect(saveCalendar).toHaveBeenCalledTimes(2));
+    expect(screen.queryByRole('button', { name: `Add ${label} for ${now.toDateString()}` })).not.toBeInTheDocument();
+    expect(saveCalendar.mock.calls[1][1]).toMatchObject({
+      plannedMeals: {}, dailyMealSlots: { [todayKey]: [] },
+    });
+  });
+
   it('loads the saved plan for a logged-in user', async () => {
     getCalendar.mockResolvedValue({
       revision: 1, plannedMeals: { [`${todayKey}::custom-brunch`]: { id: 4, name: 'Saved Shakshuka' } },

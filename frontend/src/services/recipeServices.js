@@ -221,6 +221,7 @@ export async function rateRecipe(token, recipeId, stars) {
   if (!response.ok) {
     throw new Error(data.error || 'Could not save your rating.');
   }
+  invalidateRecipeCache();
   return data;
 }
 
@@ -233,6 +234,7 @@ export async function clearRecipeRating(token, recipeId) {
   if (!response.ok) {
     throw new Error(data.error || 'Could not clear your rating.');
   }
+  invalidateRecipeCache();
   return data;
 }
 
