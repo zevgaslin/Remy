@@ -1,5 +1,6 @@
 import RecipeDetails from './RecipeDetails';
 import StarRating from './StarRating';
+import RecipeIllustration from './RecipeIllustration';
 
 function RecipeCard({
   name,
@@ -19,6 +20,7 @@ function RecipeCard({
     <div
       className={`recipe-card${feedback === 'favorite' ? ' favorited' : ''}`}
     >
+      <RecipeIllustration name={name} className="recipe-card-illustration" size={88} />
       <div className="recipe-card-info">
         <div className="recipe-card-title-row">
           <h3>{name}</h3>

@@ -4,6 +4,7 @@ import { useAuth } from '../context/useAuth';
 import { getCalendar } from '../services/calendarServices';
 import { plannedMealsSubject } from '../services/plannedMealsStore';
 import RecipeDetails from '../components/RecipeDetails';
+import RecipeIllustration from '../components/RecipeIllustration';
 import './kitchenPage.css';
 
 const DEFAULT_SLOTS = [
@@ -78,7 +79,8 @@ function KitchenDay({ currentUser }) {
             <Link className="kitchen-add-meals" to={`/?date=${dateKey}`}>Add meals</Link></div>
             : <div className="kitchen-meals" key={dateKey}>{scheduled.map(({ slot, recipe }) => (
               <details className="kitchen-meal" key={slot.id} open>
-                <summary><span className="kitchen-chevron" aria-hidden="true">›</span><span>
+                <summary><span className="kitchen-chevron" aria-hidden="true">›</span>
+                  <RecipeIllustration name={recipe.name || recipe.document?.name} size={56} /><span>
                   <span className="kitchen-meal-label">{slot.label}{slot.time ? ` · ${slot.time}` : ''}</span>
                   <span className="kitchen-recipe-name">{recipe.name || recipe.document?.name}</span>
                 </span></summary>

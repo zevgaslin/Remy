@@ -5,10 +5,10 @@ import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
 import './WeeklyRecap.css';
 
 export const NUTRIENT_COLORS = {
-  calories: '#dd6a35',
-  protein: '#2563eb',
-  carbs: '#16a34a',
-  fat: '#9333ea',
+  calories: 'var(--nutrition-calories)',
+  protein: 'var(--nutrition-protein)',
+  carbs: 'var(--nutrition-carbs)',
+  fat: 'var(--nutrition-fat)',
 };
 
 const WEEKDAY_SHORT = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];

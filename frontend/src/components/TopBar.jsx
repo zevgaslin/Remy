@@ -23,7 +23,10 @@ function TopBar() {
 
   return (
     <header className="top-bar">
-      <Link to="/" className="brand">Remy</Link>
+      <Link to="/" className="brand" aria-label="Remy">
+        <span className="brand-wordmark">Remy</span>
+        <img className="brand-dark-logo" src="/branding/remy-dark-logo.png" alt="" width="58" height="64" />
+      </Link>
       <nav className="main-nav" aria-label="Main">
         {NAV_LINKS.map(({ to, label, end }) => (
           <NavLink
