@@ -2,7 +2,7 @@
   --text: #515b4a;
   --text-h: #2f382e;
   --bg: #fff9e9;
-  --page-bg: #e9a977;
+  --page-bg: #f6f0e2;
   --border: #bfb898;
   --code-bg: #f3edd8;
   --accent: #31583d;
@@ -49,13 +49,14 @@
   --peach-soft: #f2d4b8;
   --decor-blue: #c9e0eb;
   --decor-green: #d8e7bc;
-  --page-rule: #8c5b3e;
+  --page-rule: #c4bca8;
   --summary-bg: #eee4bd;
   --nutrition-track: #d6cda9;
   --illustration-bg: #f1e8c7;
-  --recap-bg: #fff9e9;
-  --recap-chart: #f3edd8;
-  --footer-bg: #df9b68;
+  --calendar-bg: #e8eddf;
+  --recap-bg: #eee5d4;
+  --recap-chart: #f7f2e7;
+  --footer-bg: #eee5d2;
   --nutrition-calories: #a35330;
   --nutrition-protein: #3e6978;
   --nutrition-carbs: #42643a;
@@ -129,7 +130,8 @@
     --summary-bg: #383327;
     --nutrition-track: #554f42;
     --illustration-bg: #eee5d1;
-    --recap-bg: #2d2a25;
+    --calendar-bg: #2b332a;
+    --recap-bg: #343027;
     --recap-chart: #25241f;
     --footer-bg: #29352a;
     --nutrition-calories: #e2ad8c;
@@ -190,7 +192,8 @@
   --summary-bg: #383327;
   --nutrition-track: #554f42;
   --illustration-bg: #eee5d1;
-  --recap-bg: #2d2a25;
+  --calendar-bg: #2b332a;
+  --recap-bg: #343027;
   --recap-chart: #25241f;
   --footer-bg: #29352a;
   --nutrition-calories: #e2ad8c;
