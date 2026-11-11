@@ -22,7 +22,7 @@
 .planner-layout .goals-list li:nth-child(2) strong { color: var(--nutrition-protein); }
 .planner-layout .goals-list li:nth-child(3) strong { color: var(--nutrition-carbs); }
 .planner-layout .goals-list li:nth-child(4) strong { color: var(--nutrition-calories); }
-.planner-layout > .calendar-panel { min-width: 0; margin: 0; padding: 0; background: transparent; border: 0; box-shadow: none; }
+.planner-layout > .calendar-panel { min-width: 0; margin: 0; padding: 16px; background: var(--calendar-bg); border: 1px solid var(--border); border-radius: 12px; box-shadow: none; }
 .planner-layout:has(.goals-form) > .goals-card { grid-column: 1 / -1; }
 .planner-layout:has(.goals-form) > .calendar-panel { grid-column: 1 / -1; }
 .calendar-header h2, .goals-card-header h2, .recap-heading h2,
