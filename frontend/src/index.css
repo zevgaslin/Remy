@@ -1,13 +1,13 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --page-bg: #f3efe9;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
+  --text: #515b4a;
+  --text-h: #2f382e;
+  --bg: #fff9e9;
+  --page-bg: #e9a977;
+  --border: #bfb898;
+  --code-bg: #f3edd8;
+  --accent: #31583d;
+  --accent-bg: rgba(49, 88, 61, 0.10);
+  --accent-border: rgba(49, 88, 61, 0.4);
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
@@ -16,12 +16,12 @@
   --urgent-bg: rgba(200, 64, 47, 0.12);
   --warning: #b3701a;
   --warning-bg: rgba(179, 112, 26, 0.14);
-  --recipe-accent: #dd6a35;
-  --recipe-accent-bg: rgba(221, 106, 53, 0.12);
-  --recipe-accent-border: rgba(221, 106, 53, 0.5);
+  --recipe-accent: #31583d;
+  --recipe-accent-bg: rgba(49, 88, 61, 0.10);
+  --recipe-accent-border: rgba(49, 88, 61, 0.4);
 
   /* Text on solid accent, urgent, and recipe-accent fills. */
-  --on-accent: #fff;
+  --on-accent: #fff9e9;
   --badge: #d95757;
   --on-badge: #fff;
   --danger: #e53e3e;
@@ -32,12 +32,37 @@
   --now-line: #ea4335;
   --backdrop: rgba(0, 0, 0, 0.4);
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'DM Sans', system-ui, 'Segoe UI', sans-serif;
+  --heading: 'Barlow Condensed', 'DM Sans', system-ui, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
+  font: 16px/150% var(--sans);
+  letter-spacing: 0;
+  --header-bg: #31583d;
+  --header-text: #fff9e9;
+  --selected-bg: #31583d;
+  --selected-text: #fff9e9;
+  --butter: #dce6bc;
+  --yellow-soft: #eee4bd;
+  --blue-soft: #dce6bc;
+  --green-soft: #dce6bc;
+  --peach-soft: #f2d4b8;
+  --decor-blue: #c9e0eb;
+  --decor-green: #d8e7bc;
+  --page-rule: #8c5b3e;
+  --summary-bg: #eee4bd;
+  --nutrition-track: #d6cda9;
+  --illustration-bg: #f1e8c7;
+  --recap-bg: #fff9e9;
+  --recap-chart: #f3edd8;
+  --footer-bg: #df9b68;
+  --nutrition-calories: #a35330;
+  --nutrition-protein: #3e6978;
+  --nutrition-carbs: #42643a;
+  --nutrition-fat: #855b7a;
+  --meal-line: #31583d;
+  --meal-line-secondary: #83965a;
+  --meal-line-tertiary: #bd7045;
   color-scheme: light;
   color: var(--text);
   background: var(--page-bg);
@@ -58,16 +83,16 @@
 */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --page-bg: #0d0e12;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
+    --text: #c9c1b1;
+    --text-h: #f7efdf;
+    --bg: #2d2a25;
+    --page-bg: #211f1c;
+    --border: #575044;
+    --code-bg: #25241f;
+    --accent: #b7cc9c;
+    --accent-bg: rgba(183, 204, 156, 0.10);
+    --accent-border: rgba(183, 204, 156, 0.4);
+    --social-bg: rgba(53, 49, 44, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
 
@@ -75,11 +100,11 @@
     --urgent-bg: rgba(255, 122, 104, 0.16);
     --warning: #e3a854;
     --warning-bg: rgba(227, 168, 84, 0.16);
-    --recipe-accent: #ff9466;
-    --recipe-accent-bg: rgba(255, 148, 102, 0.16);
-    --recipe-accent-border: rgba(255, 148, 102, 0.5);
+    --recipe-accent: #b7cc9c;
+    --recipe-accent-bg: rgba(183, 204, 156, 0.10);
+    --recipe-accent-border: rgba(183, 204, 156, 0.4);
 
-    --on-accent: #16171d;
+    --on-accent: #23291f;
     --badge: #e05d5d;
     --on-badge: #fff;
     --danger: #f56565;
@@ -89,21 +114,46 @@
     --notice-text: #f1c7c0;
     --now-line: #ff6b5e;
     --backdrop: rgba(0, 0, 0, 0.6);
+    --header-bg: #29352a;
+    --header-text: #f7efdf;
+    --selected-bg: #b7cc9c;
+    --selected-text: #23291f;
+    --butter: #32392d;
+    --yellow-soft: #383327;
+    --blue-soft: #354047;
+    --green-soft: #32392d;
+    --peach-soft: #44332c;
+    --decor-blue: #283136;
+    --decor-green: #2c3228;
+    --page-rule: #575044;
+    --summary-bg: #383327;
+    --nutrition-track: #554f42;
+    --illustration-bg: #eee5d1;
+    --recap-bg: #2d2a25;
+    --recap-chart: #25241f;
+    --footer-bg: #29352a;
+    --nutrition-calories: #e2ad8c;
+    --nutrition-protein: #aacbd8;
+    --nutrition-carbs: #bed398;
+    --nutrition-fat: #d6b6ce;
+    --meal-line: #b7cc9c;
+    --meal-line-secondary: #a6c0ca;
+    --meal-line-tertiary: #d9a585;
     color-scheme: dark;
   }
 }
 
 :root[data-theme='dark'] {
-  --text: #9ca3af;
-  --text-h: #f3f4f6;
-  --bg: #16171d;
-  --page-bg: #0d0e12;
-  --border: #2e303a;
-  --code-bg: #1f2028;
-  --accent: #c084fc;
-  --accent-bg: rgba(192, 132, 252, 0.15);
-  --accent-border: rgba(192, 132, 252, 0.5);
-  --social-bg: rgba(47, 48, 58, 0.5);
+  --text: #c9c1b1;
+  --text-h: #f7efdf;
+  --bg: #2d2a25;
+  --page-bg: #211f1c;
+  --border: #575044;
+  --code-bg: #25241f;
+  --accent: #b7cc9c;
+  --accent-bg: rgba(183, 204, 156, 0.10);
+  --accent-border: rgba(183, 204, 156, 0.4);
+  --social-bg: rgba(53, 49, 44, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
 
@@ -111,11 +161,11 @@
   --urgent-bg: rgba(255, 122, 104, 0.16);
   --warning: #e3a854;
   --warning-bg: rgba(227, 168, 84, 0.16);
-  --recipe-accent: #ff9466;
-  --recipe-accent-bg: rgba(255, 148, 102, 0.16);
-  --recipe-accent-border: rgba(255, 148, 102, 0.5);
+  --recipe-accent: #b7cc9c;
+  --recipe-accent-bg: rgba(183, 204, 156, 0.10);
+  --recipe-accent-border: rgba(183, 204, 156, 0.4);
 
-  --on-accent: #16171d;
+  --on-accent: #23291f;
   --badge: #e05d5d;
   --on-badge: #fff;
   --danger: #f56565;
@@ -125,6 +175,31 @@
   --notice-text: #f1c7c0;
   --now-line: #ff6b5e;
   --backdrop: rgba(0, 0, 0, 0.6);
+  --header-bg: #29352a;
+  --header-text: #f7efdf;
+  --selected-bg: #b7cc9c;
+  --selected-text: #23291f;
+  --butter: #32392d;
+  --yellow-soft: #383327;
+  --blue-soft: #354047;
+  --green-soft: #32392d;
+  --peach-soft: #44332c;
+  --decor-blue: #283136;
+  --decor-green: #2c3228;
+  --page-rule: #575044;
+  --summary-bg: #383327;
+  --nutrition-track: #554f42;
+  --illustration-bg: #eee5d1;
+  --recap-bg: #2d2a25;
+  --recap-chart: #25241f;
+  --footer-bg: #29352a;
+  --nutrition-calories: #e2ad8c;
+  --nutrition-protein: #aacbd8;
+  --nutrition-carbs: #bed398;
+  --nutrition-fat: #d6b6ce;
+  --meal-line: #b7cc9c;
+  --meal-line-secondary: #a6c0ca;
+  --meal-line-tertiary: #d9a585;
   color-scheme: dark;
 }
 
@@ -148,11 +223,11 @@ h2 {
 }
 
 h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
+  font-size: 34px;
+  letter-spacing: -0.6px;
+  margin: 0 0 20px;
   @media (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 30px;
     margin: 20px 0;
   }
 }

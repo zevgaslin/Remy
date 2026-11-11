@@ -18,15 +18,20 @@ function HomePage() {
 
   return (
     <MealLogProvider key={currentUser?.id ?? 'guest'} currentUser={currentUser}>
-      <NutritionGoalsCard
-        key={currentUser?.id ?? 'guest'}
-        currentUser={currentUser}
-        goals={goals}
-        loadError={error}
-        onSave={saveGoals}
-      />
-      <CalendarPanel key={`${currentUser?.token ?? 'guest'}:${searchParams.get('date') ?? ''}`} goals={goals} currentUser={currentUser} selectedDate={selectedDate} onToday={returnToToday} />
-      <WeeklyRecap goals={goals} />
+      <div className="meal-dashboard">
+        <h1 className="dashboard-title">Meal Planner</h1>
+        <div className="planner-layout">
+          <NutritionGoalsCard
+            key={currentUser?.id ?? 'guest'}
+            currentUser={currentUser}
+            goals={goals}
+            loadError={error}
+            onSave={saveGoals}
+          />
+          <CalendarPanel key={`${currentUser?.token ?? 'guest'}:${searchParams.get('date') ?? ''}`} goals={goals} currentUser={currentUser} selectedDate={selectedDate} onToday={returnToToday} />
+        </div>
+        <WeeklyRecap goals={goals} />
+      </div>
     </MealLogProvider>
   );
 }

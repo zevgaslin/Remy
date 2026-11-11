@@ -1,0 +1,53 @@
+All illustrations designed by OpenMoji – the open-source emoji and icon project.
+Source: https://github.com/hfg-gmuend/openmoji/tree/17.0.0/color/svg
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+All artwork is unmodified.
+
+Assets (filename: OpenMoji code):
+bowl.svg: 1F963
+bread.svg: 1F35E
+broccoli.svg: 1F966
+burger.svg: 1F354
+cake.svg: 1F370
+chicken.svg: 1F357
+cookie.svg: 1F36A
+croissant.svg: 1F950
+custard.svg: 1F36E
+doughnut.svg: 1F369
+dumpling.svg: 1F95F
+egg.svg: 1F373
+fish.svg: 1F41F
+ice-cream.svg: 1F368
+meat.svg: 1F969
+mushroom.svg: 1F344
+noodles.svg: 1F35C
+pancakes.svg: 1F95E
+pasta.svg: 1F35D
+pie.svg: 1F967
+pizza.svg: 1F355
+plate.svg: 1F37D
+potato.svg: 1F954
+rice.svg: 1F35A
+salad.svg: 1F957
+sandwich.svg: 1F96A
+shrimp.svg: 1F364
+soup.svg: 1F372
+sushi.svg: 1F363
+taco.svg: 1F32E
+tomato.svg: 1F345
+waffle.svg: 1F9C7
+wrap.svg: 1F32F
+coffee.svg: 2615
+tea.svg: 1F375
+wine.svg: 1F377
+juice.svg: 1F9C3
+candy.svg: 1F36C
+chocolate.svg: 1F36B
+strawberry.svg: 1F353
+apple.svg: 1F34E
+banana.svg: 1F34C
+peach.svg: 1F351
+lemon.svg: 1F34B
+cheese.svg: 1F9C0
+milk.svg: 1F95B

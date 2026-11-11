@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { MealEatenControl } from '../context/MealLogContext';
 import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
+import RecipeIllustration from './RecipeIllustration';
 import { useRecipes } from '../hooks/useRecipes';
 import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
 import { useCalendarPlan } from '../hooks/useCalendarPlan';
@@ -505,8 +506,11 @@ function MealCell({
     <div className="meal-cell filled" style={{ position: 'relative' }}>
       {deleteSlotButton}
       <div className="meal-chip" {...triggerProps}>
+        <RecipeIllustration name={recipe.name || recipe.document?.name} size={40} />
+        <div className="meal-chip-text">
         <div className="event-label">{displayLabel}</div>
         <div className="event-title">{recipe.name}</div>
+        </div>
       </div>
       {onClearRecipe && (
         <button
@@ -767,7 +771,7 @@ function DayViewStrategy({
             return (
               <div
                 key={`${row.startHour}-${row.endHour}`}
-                className={`timeline-hour-row${row.type === 'range' ? ' timeline-hour-range' : ''}`}
+                className={`timeline-hour-row${row.type === 'range' ? ' timeline-hour-range' : ''}${row.meals.length ? ' timeline-hour-row--meal' : ' timeline-hour-row--empty'}`}
                 style={{
                   position: 'relative',
                   display: 'flex',
