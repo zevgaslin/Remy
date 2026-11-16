@@ -5,7 +5,8 @@ import { useIngredients } from '../hooks/useIngredients';
 import { useDragToTrash } from '../hooks/useDragToTrash';
 import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSounds';
 import { daysUntil } from '../utils/expiration';
-import { getUnitEquivalents } from '../utils/unitConversion';
+import { getPantryRequirementForIngredient, getUnitEquivalents } from '../utils/unitConversion';
+import { plannedMealsSubject, setSharedPlannedMeals } from '../services/plannedMealsStore';
 import AddIngredientModal from './AddIngredientModal';
 import GroceryList from './GroceryList';
 import SupplementsPanel from './SupplementsPanel';
@@ -28,7 +29,7 @@ const GULP_MS = 450;
                      reloads the list from the server whenever it is notified.
    ========================================================================== */
 
-export { plannedMealsSubject, setSharedPlannedMeals } from '../services/plannedMealsStore';
+export { plannedMealsSubject, setSharedPlannedMeals };
 
 /* ==========================================================================
    Formatting
@@ -114,6 +115,7 @@ function IngredientsPanel({ currentUser }) {
   const [editingIngredient, setEditingIngredient] = useState(null);
   // Filter tab: 'all' | 'supplements' | 'favorites'
   const [activePantryTab, setActivePantryTab] = useState('all');
+  const [plannedMeals, setPlannedMeals] = useState(() => plannedMealsSubject.getPlannedMeals());
   const [toast, setToast] = useState(null);
   const [gulping, setGulping] = useState(false);
   // The ingredient waiting out its undo window: { item, timer }.
@@ -123,6 +125,14 @@ function IngredientsPanel({ currentUser }) {
   useEffect(() => {
     tokenRef.current = currentUser?.token;
   }, [currentUser]);
+
+  useEffect(() => {
+    const observer = {
+      update: (subject) => setPlannedMeals(subject.getPlannedMeals()),
+    };
+    plannedMealsSubject.addObserver(observer);
+    return () => plannedMealsSubject.removeObserver(observer);
+  }, []);
 
   const commitDelete = useCallback((item) => {
     deleteIngredient(tokenRef.current, item.id).catch(() => {
@@ -293,6 +303,7 @@ function IngredientsPanel({ currentUser }) {
               const daysLeft = daysUntil(item.expirationDate);
               const quantityLabel = pantryQuantityLabel(item);
               const equivalentTooltip = pantryEquivalentTooltip(item);
+              const plannedRequirement = getPantryRequirementForIngredient(item, plannedMeals);
               const isFav = Boolean(item.favorite);
               return (
                 <li
@@ -320,6 +331,15 @@ function IngredientsPanel({ currentUser }) {
                       >
                         {' · '}
                         {quantityLabel}
+                      </span>
+                    )}
+                    {plannedRequirement && plannedRequirement.neededQuantity > 0 && (
+                      <span
+                        className={`ingredient-planned-need${plannedRequirement.covered ? '' : ' shortage'}`}
+                        title={`Planned for: ${plannedRequirement.recipes.join(', ')}`}
+                        style={{ fontSize: '0.82rem', marginLeft: '6px', opacity: 0.85 }}
+                      >
+                        {`· Needed for meals: ${plannedRequirement.neededText}`}
                       </span>
                     )}
                   </span>

@@ -593,15 +593,211 @@ export function parseGroceryAmountParts(amountText = '') {
     .filter(Boolean);
 }
 
-// Reconciles a GroceryList response against the user's current pantry items using full unit conversion
-// so that e.g. 1 lb of Onion in the pantry automatically satisfies 50 g of Onion in the grocery list.
-export function reconcileGroceryItemsWithPantry(items = [], pantryIngredients = []) {
-  if (!Array.isArray(items) || items.length === 0) return [];
-  if (!Array.isArray(pantryIngredients) || pantryIngredients.length === 0) return items;
+export function getPlannedMealServings(meal) {
+  const parsed = Number(meal?.plannedServings);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 1;
+}
+
+// Calculates how much of a specific pantry ingredient is required across all planned meals in the calendar,
+// scaled by each meal's `plannedServings` and converted into the pantry ingredient's unit.
+export function getPantryRequirementForIngredient(pantryItem, plannedMeals = {}) {
+  if (!pantryItem?.name || !plannedMeals || typeof plannedMeals !== 'object') {
+    return null;
+  }
+
+  const targetUnit = pantryItem.unit || 'each';
+  let totalNeededInTargetUnit = 0;
+  let fallbackUnit = targetUnit;
+  const recipes = new Set();
+
+  for (const meal of Object.values(plannedMeals)) {
+    if (!meal || typeof meal !== 'object') continue;
+    const servings = getPlannedMealServings(meal);
+    const mealIngredients = Array.isArray(meal.ingredients)
+      ? meal.ingredients
+      : Array.isArray(meal.document?.ingredients)
+      ? meal.document.ingredients
+      : [];
+
+    for (const ing of mealIngredients) {
+      const ingName = ing?.name || ing?.ingredientName || '';
+      if (!ingredientNamesMatch(ingName, pantryItem.name)) continue;
+      if (meal.name) recipes.add(meal.name);
+
+      const rawQty = Number(ing?.quantity);
+      if (!Number.isFinite(rawQty) || rawQty <= 0) continue;
+      const scaledQty = rawQty * servings;
+      const ingUnit = ing?.unit || targetUnit || 'each';
+
+      const converted = convertQuantity(scaledQty, ingUnit, targetUnit, pantryItem.name || ingName);
+      if (converted != null && Number.isFinite(converted)) {
+        totalNeededInTargetUnit += converted;
+      } else {
+        totalNeededInTargetUnit += scaledQty;
+        fallbackUnit = ingUnit;
+      }
+    }
+  }
+
+  if (totalNeededInTargetUnit <= 0 && recipes.size === 0) {
+    return null;
+  }
+
+  const ownedQty = Number(pantryItem.quantity) || 0;
+  const remainingAfterPlanned = Math.max(0, ownedQty - totalNeededInTargetUnit);
+  const shortage = Math.max(0, totalNeededInTargetUnit - ownedQty);
+
+  return {
+    neededQuantity: Number(formatConvertedNumber(totalNeededInTargetUnit)),
+    neededUnit: fallbackUnit,
+    neededText: formatUnitQuantity(totalNeededInTargetUnit, fallbackUnit),
+    remainingAfterPlanned: Number(formatConvertedNumber(remainingAfterPlanned)),
+    remainingText: formatUnitQuantity(remainingAfterPlanned, fallbackUnit),
+    shortageQuantity: Number(formatConvertedNumber(shortage)),
+    shortageText: shortage > 1e-6 ? formatUnitQuantity(shortage, fallbackUnit) : '',
+    covered: shortage <= 1e-6,
+    recipes: Array.from(recipes),
+  };
+}
+
+// Reconciles a GroceryList response against the user's current pantry items and calendar `plannedMeals`
+// using full unit conversion and serving-size scaling so that:
+//   1. Increasing serving size in the Calendar scales ingredient requirements in the shopping cart
+//      (including revealing items that were previously covered at 1 serving when higher servings exceed pantry stock).
+//   2. Pantry stock in any compatible unit (e.g. 1 lb of Onion vs 50 g of Onion) is subtracted accurately.
+export function reconcileGroceryItemsWithPantry(items = [], pantryIngredients = [], plannedMeals = {}) {
+  const safeItems = Array.isArray(items) ? items : [];
+  const safePantry = Array.isArray(pantryIngredients) ? pantryIngredients : [];
+  const mealEntries = plannedMeals && typeof plannedMeals === 'object' ? Object.values(plannedMeals) : [];
+
+  // Track serving multipliers per recipe name and explicit recipe ingredient requirements from plannedMeals
+  const recipeServingsMap = new Map();
+  const explicitNeedsByKey = new Map();
+
+  for (const meal of mealEntries) {
+    if (!meal || typeof meal !== 'object' || !meal.name) continue;
+    const servings = getPlannedMealServings(meal);
+    const prev = recipeServingsMap.get(meal.name) || { occurrences: 0, totalServings: 0, hasIngredients: false };
+    const mealIngredients = Array.isArray(meal.ingredients)
+      ? meal.ingredients
+      : Array.isArray(meal.document?.ingredients)
+      ? meal.document.ingredients
+      : [];
+
+    recipeServingsMap.set(meal.name, {
+      occurrences: prev.occurrences + 1,
+      totalServings: prev.totalServings + servings,
+      hasIngredients: prev.hasIngredients || mealIngredients.length > 0,
+    });
+
+    for (const ing of mealIngredients) {
+      const ingName = (ing?.name || ing?.ingredientName || '').trim();
+      if (!ingName) continue;
+      const key = canonicalizeIngredientName(ingName);
+      if (!key) continue;
+      const rawQty = Number(ing?.quantity);
+      const scaledQty = Number.isFinite(rawQty) && rawQty > 0 ? rawQty * servings : 0;
+      const unit = ing?.unit || 'each';
+
+      let entry = explicitNeedsByKey.get(key);
+      if (!entry) {
+        entry = {
+          key,
+          name: ingName.charAt(0).toUpperCase() + ingName.slice(1),
+          parts: [],
+          recipes: new Set(),
+        };
+        explicitNeedsByKey.set(key, entry);
+      }
+      entry.recipes.add(meal.name);
+      if (scaledQty > 0) {
+        const existingPart = entry.parts.find((p) => normalizeUnit(p.unit) === normalizeUnit(unit));
+        if (existingPart) {
+          existingPart.quantity += scaledQty;
+        } else {
+          entry.parts.push({ quantity: scaledQty, unit });
+        }
+      }
+    }
+  }
+
+  // Merge server items with any client-side planned meal scaling or newly uncovered ingredients
+  const workingItems = [];
+  const seenKeys = new Set();
+
+  for (const item of safeItems) {
+    const itemKey = canonicalizeIngredientName(item.name || item.key);
+    seenKeys.add(itemKey);
+
+    const explicitNeed = explicitNeedsByKey.get(itemKey);
+    if (explicitNeed && explicitNeed.parts.length > 0) {
+      // Use the exact scaled requirement from plannedMeals so serving changes update immediately
+      workingItems.push({
+        ...item,
+        amount: explicitNeed.parts.map((p) => formatUnitQuantity(p.quantity, p.unit)).join(' + '),
+        have: '',
+        recipes: Array.from(new Set([...(item.recipes || []), ...explicitNeed.recipes])),
+      });
+      continue;
+    }
+
+    // If the planned meal in plannedMeals doesn't carry an inline `ingredients` array,
+    // check whether any recipe in `item.recipes` has a non-1 serving multiplier in `plannedMeals`.
+    const matchingStats = (item.recipes || [])
+      .map((rName) => recipeServingsMap.get(rName))
+      .filter(Boolean);
+    const multiplier =
+      matchingStats.length > 0
+        ? matchingStats.reduce((sum, s) => sum + s.totalServings, 0) /
+          matchingStats.reduce((sum, s) => sum + s.occurrences, 0)
+        : 1;
+
+    if (Math.abs(multiplier - 1) > 1e-6) {
+      const amountParts = parseGroceryAmountParts(item.amount);
+      const haveParts = parseGroceryAmountParts(item.have);
+      // Total baseline need is (remaining amount + already-subtracted have)
+      const combinedParts = [...amountParts];
+      for (const hp of haveParts) {
+        const match = combinedParts.find((cp) => normalizeUnit(cp.unit) === normalizeUnit(hp.unit));
+        if (match) {
+          match.quantity += hp.quantity;
+        } else {
+          combinedParts.push({ ...hp });
+        }
+      }
+      const scaledAmount = combinedParts
+        .map((p) => formatUnitQuantity(p.quantity * multiplier, p.unit))
+        .join(' + ');
+      workingItems.push({
+        ...item,
+        amount: scaledAmount,
+        have: '',
+      });
+    } else {
+      workingItems.push(item);
+    }
+  }
+
+  // Also include any explicit planned-meal ingredients that weren't in `safeItems`
+  // (e.g. previously covered at 1 serving, now exceeding pantry when servings increased)
+  for (const [key, explicitNeed] of explicitNeedsByKey.entries()) {
+    if (seenKeys.has(key) || explicitNeed.parts.length === 0) continue;
+    workingItems.push({
+      key: explicitNeed.key,
+      name: explicitNeed.name,
+      amount: explicitNeed.parts.map((p) => formatUnitQuantity(p.quantity, p.unit)).join(' + '),
+      have: '',
+      recipes: Array.from(explicitNeed.recipes),
+      checked: false,
+    });
+  }
+
+  if (workingItems.length === 0) return [];
+  if (safePantry.length === 0) return workingItems;
 
   const reconciled = [];
-  for (const item of items) {
-    const matchingPantry = pantryIngredients.filter((p) =>
+  for (const item of workingItems) {
+    const matchingPantry = safePantry.filter((p) =>
       ingredientNamesMatch(item.name || item.key, p?.name),
     );
     if (matchingPantry.length === 0) {
@@ -609,10 +805,6 @@ export function reconcileGroceryItemsWithPantry(items = [], pantryIngredients = 
       continue;
     }
 
-    // If the server already subtracted same-family pantry items (indicated by a non-empty `item.have`
-    // where all pantry items share the exact same unit family as the remaining amount), avoid double-subtracting
-    // items that the server already accounted for; only subtract pantry items whose units were NOT already subtracted
-    // OR recompute when `item.have` is empty / cross-family.
     const parts = parseGroceryAmountParts(item.amount);
     if (parts.length === 0) {
       const hasAny = matchingPantry.some((p) => Number(p.quantity) > 0);

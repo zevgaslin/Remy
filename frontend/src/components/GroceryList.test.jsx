@@ -128,4 +128,44 @@ describe('GroceryList', () => {
     expect(screen.queryByText('Onion')).not.toBeInTheDocument();
     expect(screen.getByText('Flour')).toBeInTheDocument();
   });
+
+  it('scales shopping cart ingredient requirements and re-checks pantry coverage when plannedServings increases on the calendar', async () => {
+    const { setSharedPlannedMeals } = await import('../services/plannedMealsStore');
+    groceryListServices.getGroceryList.mockResolvedValue({
+      from: '2030-05-01',
+      to: '2030-05-07',
+      plannedMeals: 1,
+      items: [
+        { key: 'flour', name: 'Flour', amount: '2 cup', have: '', recipes: ['Pancakes'], checked: false },
+      ],
+    });
+
+    await renderList({
+      ingredients: [{ id: 1, name: 'Onion', quantity: 1, unit: 'lb', expirationDate: '2099-01-01' }],
+    });
+    expect(within(rowFor('Flour')).getByText('2 cup')).toBeInTheDocument();
+    expect(screen.queryByText('Onion')).not.toBeInTheDocument();
+
+    // Increase Pancakes to 3 servings and French Onion Soup to 3 servings (3 * 200 g = 600 g > 1 lb / 453.59 g)
+    await act(async () => {
+      setSharedPlannedMeals({
+        '2030-05-02::breakfast': {
+          id: 1,
+          name: 'Pancakes',
+          plannedServings: 3,
+        },
+        '2030-05-02::dinner': {
+          id: 2,
+          name: 'French Onion Soup',
+          plannedServings: 3,
+          ingredients: [{ name: 'Onion', quantity: 200, unit: 'g' }],
+        },
+      });
+    });
+
+    expect(within(rowFor('Flour')).getByText('6 cup')).toBeInTheDocument();
+    expect(within(rowFor('Onion')).getByText('146.4 g')).toBeInTheDocument();
+    setSharedPlannedMeals({});
+  });
 });
+

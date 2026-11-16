@@ -347,4 +347,39 @@ describe('IngredientsPanel grocery list (Observer)', () => {
 
     expect(groceryListServices.getGroceryList).toHaveBeenCalledTimes(2);
   });
+
+  it('updates ingredient requirements in both the pantry and shopping cart when serving size increases in the calendar', async () => {
+    await renderPanel();
+
+    // Plan 1 serving of Omelet using 2 Eggs -> Pantry shows "Needed for meals: 2 pieces" and Grocery List is covered
+    await act(async () => {
+      setSharedPlannedMeals({
+        '2026-10-18::breakfast': {
+          id: 5,
+          name: 'Cheese Omelet',
+          plannedServings: 1,
+          ingredients: [{ name: 'Eggs', quantity: 2, unit: 'each' }],
+        },
+      });
+    });
+
+    expect(screen.getByText('· Needed for meals: 2 each')).toBeInTheDocument();
+    expect(screen.getByText(/Your pantry covers every planned meal/)).toBeInTheDocument();
+
+    // Increase serving size to 8 servings (16 Eggs needed, pantry has 12 -> 4 Eggs needed in shopping cart)
+    await act(async () => {
+      setSharedPlannedMeals({
+        '2026-10-18::breakfast': {
+          id: 5,
+          name: 'Cheese Omelet',
+          plannedServings: 8,
+          ingredients: [{ name: 'Eggs', quantity: 2, unit: 'each' }],
+        },
+      });
+    });
+
+    expect(screen.getByText('· Needed for meals: 16 each')).toBeInTheDocument();
+    expect(screen.getByText('4 each')).toBeInTheDocument();
+  });
 });
+
