@@ -12,6 +12,7 @@ public class CreateIngredientRequest {
     private Double protein;
     private Double carbs;
     private Double fat;
+    private Boolean favorite;
 
     public String getName() {
         return name;
@@ -75,5 +76,13 @@ public class CreateIngredientRequest {
 
     public void setFat(Double fat) {
         this.fat = fat;
+    }
+
+    public Boolean getFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(Boolean favorite) {
+        this.favorite = favorite;
     }
 }

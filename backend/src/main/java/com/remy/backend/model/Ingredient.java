@@ -24,6 +24,7 @@ public class Ingredient {
     private Double protein;
     private Double carbs;
     private Double fat;
+    private boolean favorite;
 
     @ManyToOne
     private User owner;
@@ -97,6 +98,14 @@ public class Ingredient {
 
     public void setFat(Double fat) {
         this.fat = fat;
+    }
+
+    public boolean isFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
     }
 
     public User getOwner() {

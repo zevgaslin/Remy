@@ -16,3 +16,9 @@ frontend/dist/
 
 # Python importer bytecode
 __pycache__/
+
+# Dependencies and generated files
+/node_modules/
+**/node_modules/
+coverage/
+**/coverage/

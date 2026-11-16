@@ -6,7 +6,6 @@ import com.remy.backend.repository.IngredientRepository;
 import com.remy.backend.repository.UserRepository;
 import com.remy.backend.service.NotificationService;
 import com.remy.backend.service.SessionTokenService;
-import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import org.springframework.http.HttpStatus;
@@ -72,6 +71,7 @@ public class IngredientController {
         ingredient.setQuantity(request.getQuantity() != null ? request.getQuantity() : 1);
         ingredient.setUnit(request.getUnit());
         ingredient.setExpirationDate(request.getExpirationDate());
+        ingredient.setFavorite(Boolean.TRUE.equals(request.getFavorite()));
         applyNutrition(ingredient, request);
         ingredient.setOwner(userRepository.findById(userId.get()).orElseThrow());
 
@@ -109,10 +109,38 @@ public class IngredientController {
         ingredient.setQuantity(request.getQuantity() != null ? request.getQuantity() : 1);
         ingredient.setUnit(request.getUnit());
         ingredient.setExpirationDate(request.getExpirationDate());
+        if (request.getFavorite() != null) {
+            ingredient.setFavorite(request.getFavorite());
+        }
         applyNutrition(ingredient, request);
 
         Ingredient saved = ingredientRepository.save(ingredient);
         notificationService.maybeCreateExpiryNotification(saved);
+        return ResponseEntity.ok(saved);
+    }
+
+    @PutMapping("/{id}/favorite")
+    public ResponseEntity<?> updateFavorite(
+            @RequestHeader(value = "Authorization", required = false) String authHeader,
+            @PathVariable Long id,
+            @RequestBody(required = false) Map<String, Object> request) {
+        Optional<Long> userId = tokenService.resolveUserId(authHeader);
+        if (userId.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Log in to update ingredients."));
+        }
+
+        Ingredient ingredient = ingredientRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Ingredient not found."));
+
+        if (!ingredient.getOwner().getId().equals(userId.get())) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(Map.of("error", "You can only update your own ingredients."));
+        }
+
+        Object favValue = request == null ? null : request.get("favorite");
+        boolean nextFavorite = favValue instanceof Boolean b ? b : !ingredient.isFavorite();
+        ingredient.setFavorite(nextFavorite);
+
+        Ingredient saved = ingredientRepository.save(ingredient);
         return ResponseEntity.ok(saved);
     }
 

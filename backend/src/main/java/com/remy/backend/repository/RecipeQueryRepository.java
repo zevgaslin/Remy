@@ -24,11 +24,16 @@ public class RecipeQueryRepository {
 
     public List<Long> search(String query, Set<String> ingredients, Set<String> expiring,
             List<PreferenceCriterion> preferences, boolean requireAll, int limit) {
-        return search(query, ingredients, expiring, preferences, requireAll, limit, null);
+        return search(query, ingredients, expiring, Set.of(), preferences, requireAll, limit, null);
+    }
+
+    public List<Long> search(String query, Set<String> ingredients, Set<String> expiring,
+            List<PreferenceCriterion> preferences, boolean requireAll, int limit, Long userId) {
+        return search(query, ingredients, expiring, Set.of(), preferences, requireAll, limit, userId);
     }
 
     /** userId, when given, ranks the user's higher-rated recipes above their lower-rated ones. */
-    public List<Long> search(String query, Set<String> ingredients, Set<String> expiring,
+    public List<Long> search(String query, Set<String> ingredients, Set<String> expiring, Set<String> favorites,
             List<PreferenceCriterion> preferences, boolean requireAll, int limit, Long userId) {
         var parameters = new MapSqlParameterSource("limit", limit)
                 .addValue("communityUserId", userId == null ? -1L : userId);
@@ -72,6 +77,12 @@ public class RecipeQueryRepository {
             where.append(" AND EXISTS (SELECT 1 FROM recipe_ingredients ei WHERE ei.recipe_id=r.id AND ei.normalized_name IN (:expiring))");
             expiringRank = "(SELECT count(DISTINCT xi.normalized_name) FROM recipe_ingredients xi WHERE xi.recipe_id=r.id AND xi.normalized_name IN (:expiring))";
         }
+        String favoriteRank = null;
+        if (favorites != null && !favorites.isEmpty()) {
+            parameters.addValue("favorites", favorites);
+            where.append(" AND EXISTS (SELECT 1 FROM recipe_ingredients fi WHERE fi.recipe_id=r.id AND fi.normalized_name IN (:favorites))");
+            favoriteRank = "(SELECT count(DISTINCT fxi.normalized_name) FROM recipe_ingredients fxi WHERE fxi.recipe_id=r.id AND fxi.normalized_name IN (:favorites))";
+        }
         String ratingOrder = "";
         if (userId != null) {
             parameters.addValue("userId", userId);
@@ -84,6 +95,7 @@ public class RecipeQueryRepository {
         rank = rank == null ? RecipeCommunitySql.SCORE : "(" + rank + " + " + RecipeCommunitySql.SCORE + ")";
         String sql = RecipeCommunitySql.RANKING_CTES + "SELECT r.id FROM recipe r" + RecipeCommunitySql.JOINS + where + " ORDER BY "
                 + (expiringRank == null ? "" : expiringRank + " DESC, ")
+                + (favoriteRank == null ? "" : favoriteRank + " DESC, ")
                 + ratingOrder + rank + " DESC, r.name, r.id LIMIT :limit";
         return jdbc.queryForList(sql, parameters, Long.class);
     }

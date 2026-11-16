@@ -83,6 +83,7 @@ export async function searchRecipes({
   query = '',
   ingredients = [],
   expiringIngredients = [],
+  favoriteIngredients = [],
   preferences = [],
   requireAllIngredients = false,
   limit = 20,
@@ -93,7 +94,7 @@ export async function searchRecipes({
   const response = await fetch(`${API_BASE}/recipes/search`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}) },
-    body: JSON.stringify({ query, ingredients, expiringIngredients, preferences, requireAllIngredients, limit, random }),
+    body: JSON.stringify({ query, ingredients, expiringIngredients, favoriteIngredients, preferences, requireAllIngredients, limit, random }),
   });
   const data = await response.json().catch(() => []);
   if (!response.ok) {
