@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import BarcodeScanner from './BarcodeScanner';
 import { packageQuantity } from '../utils/packageQuantity';
+import { PANTRY_UNIT_CATEGORIES, getUnitEquivalents } from '../utils/unitConversion';
 import './AddIngredientModal.css';
 import { createIngredient, updateIngredient } from '../services/ingredientServices';
 
@@ -70,6 +71,10 @@ function AddIngredientModal({ token, onClose, onAdded, ingredient = null, onSave
     }
   }
 
+  const unitEquivalents = !scannedProduct && unit && Number(quantity) > 0
+    ? getUnitEquivalents(quantity, unit, name)
+    : [];
+
   return (
     <div className="auth-modal-backdrop" onClick={() => { if (!submitting) onClose(); }}>
       <div className="auth-modal" role="dialog" aria-modal="true" aria-label={title} onClick={(event) => event.stopPropagation()}>
@@ -134,9 +139,21 @@ function AddIngredientModal({ token, onClose, onAdded, ingredient = null, onSave
               <option value="">Choose the nutrition label basis</option>
               <option value="g">g — label nutrition per 100 g</option>
               <option value="ml">ml — label nutrition per 100 ml</option>
-            </select> : <input type="text" placeholder="e.g. lb, bag, each" value={unit}
-              onChange={event => setUnit(event.target.value)} required />}
+            </select> : <>
+              <input type="text" list="pantry-unit-options" placeholder="e.g. lb, g, cup, oz, can, each" value={unit}
+                onChange={event => setUnit(event.target.value)} required />
+              <datalist id="pantry-unit-options">
+                {PANTRY_UNIT_CATEGORIES.flatMap(group => group.units).map(u => (
+                  <option key={u} value={u} />
+                ))}
+              </datalist>
+            </>}
           </label>
+          {unitEquivalents.length > 0 && (
+            <p className="unit-conversion-preview" data-testid="unit-conversion-preview" style={{ margin: 0, fontSize: '12px', color: 'var(--text)' }}>
+              Auto-converts in recipes &amp; grocery list: {unitEquivalents.slice(0, 3).map(eq => eq.text).join(' · ')}
+            </p>
+          )}
           <label>
             Expiration Date
             <input

@@ -1,6 +1,7 @@
 package com.remy.backend.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.within;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -32,6 +33,28 @@ class GroceryListRulesTest {
         assertThat(GroceryUnits.of("lbs").family()).isEqualTo("weight");
         assertThat(GroceryUnits.of("pieces")).isEqualTo(GroceryUnits.of("piece"));
         assertThat(GroceryUnits.of("pieces").family()).isNotEqualTo(GroceryUnits.of("cup").family());
+    }
+
+    @Test
+    void convertsAcrossAllMeasurementCategoriesAndBridgesCulinaryUnits() {
+        // 1 lb of onion = 453.592 g, which is > 50 g of onion
+        assertThat(GroceryUnits.convert(1.0, "lb", "g")).isCloseTo(453.592, within(0.01));
+        assertThat(GroceryUnits.convert(1.0, "lb", "g")).isGreaterThan(50.0);
+        assertThat(GroceryUnits.convert(1.0, "kg", "g")).isEqualTo(1000.0);
+        assertThat(GroceryUnits.convert(1000.0, "mg", "g")).isEqualTo(1.0);
+        assertThat(GroceryUnits.convert(1.0, "lb", "oz")).isCloseTo(16.0, within(0.01));
+
+        // Volume conversions: cup, tbsp, tsp, fl oz, pt, qt, gal, ml, l
+        assertThat(GroceryUnits.convert(1.0, "cup", "tbsp")).isCloseTo(16.0, within(0.01));
+        assertThat(GroceryUnits.convert(1.0, "cup", "fl oz")).isCloseTo(8.0, within(0.01));
+        assertThat(GroceryUnits.convert(1.0, "gal", "qt")).isCloseTo(4.0, within(0.01));
+        assertThat(GroceryUnits.convert(1.0, "l", "ml")).isCloseTo(1000.0, within(0.1));
+
+        // Count & culinary units: dozen, pair, stick, can, clove
+        assertThat(GroceryUnits.convert(1.0, "dozen", "each")).isEqualTo(12.0);
+        assertThat(GroceryUnits.convert(1.0, "stick", "g")).isCloseTo(113.4, within(0.1));
+        assertThat(GroceryUnits.convert(1.0, "can", "g")).isCloseTo(400.0, within(0.1));
+        assertThat(GroceryUnits.convert(1.0, "lb", "each")).isGreaterThan(3.0);
     }
 
     @Test

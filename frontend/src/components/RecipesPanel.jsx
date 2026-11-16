@@ -34,7 +34,7 @@ const INITIAL_RECIPE_STATE = {
 function RecipesPanel({ currentUser }) {
   const {
     recipes, feedback, ratings, loading, error, searchActive, showingFavorites,
-    favoriteFoods = [],
+    favoriteFoods = [], pantryIngredients = [],
     search, refresh, showFavorites, setRecipeFeedback, setRecipeRating, addNewRecipe,
   } = useRecipes(currentUser);
   
@@ -279,7 +279,6 @@ function RecipesPanel({ currentUser }) {
                   <label style={{ flex: 1 }}>Prep (Mins)<input type="number" name="prepMinutes" value={recipeForm.prepMinutes} onChange={handleFormChange} min="0" style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Cook (Mins)<input type="number" name="cookMinutes" value={recipeForm.cookMinutes} onChange={handleFormChange} min="0" style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Total (Mins)<input type="number" name="totalMinutes" value={recipeForm.totalMinutes} onChange={handleFormChange} min="0" style={{ width: '100%', padding: '0.5rem' }}/></label>
-                  {/* CHANGED TO step="any" */}
                   <label style={{ flex: 1 }}>Servings<input type="number" name="servings" step="any" value={recipeForm.servings} onChange={handleFormChange} min="0" style={{ width: '100%', padding: '0.5rem' }}/></label>
                 </div>
                 <label>Yield Text (e.g., "1 9-inch pie")<input type="text" name="yieldText" value={recipeForm.yieldText} onChange={handleFormChange} style={{ width: '100%', padding: '0.5rem' }}/></label>
@@ -290,7 +289,6 @@ function RecipesPanel({ currentUser }) {
                 {recipeForm.ingredients.map((ing, i) => (
                   <div key={i} className="recipe-modal-ingredient">
                     <label style={{ flex: '1 1 150px' }}>Name *<input type="text" required value={ing.name} onChange={e => handleArrayChange('ingredients', i, 'name', e.target.value)} style={{ width: '100%', padding: '0.25rem' }}/></label>
-                    {/* CHANGED TO step="any" */}
                     <label style={{ flex: '0 0 80px' }}>Qty<input type="number" step="any" value={ing.quantity} onChange={e => handleArrayChange('ingredients', i, 'quantity', e.target.value)} style={{ width: '100%', padding: '0.25rem' }}/></label>
                     <label style={{ flex: '0 0 100px' }}>Unit<input type="text" value={ing.unit} onChange={e => handleArrayChange('ingredients', i, 'unit', e.target.value)} placeholder="cup, tbsp" style={{ width: '100%', padding: '0.25rem' }}/></label>
                     <label style={{ flex: '1 1 150px' }}>Prep<input type="text" value={ing.preparation} onChange={e => handleArrayChange('ingredients', i, 'preparation', e.target.value)} placeholder="chopped, diced" style={{ width: '100%', padding: '0.25rem' }}/></label>
@@ -325,7 +323,6 @@ function RecipesPanel({ currentUser }) {
               <fieldset className="recipe-modal-section">
                 <legend style={{ fontWeight: 'bold' }}>Nutrition</legend>
                 <div className="recipe-modal-row">
-                  {/* CHANGED TO step="any" */}
                   <label style={{ flex: 1 }}>Calories<input type="number" step="any" value={recipeForm.nutrition.calories} onChange={e => handleNestedChange('nutrition', 'calories', e.target.value)} style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Protein (g)<input type="number" step="any" value={recipeForm.nutrition.protein} onChange={e => handleNestedChange('nutrition', 'protein', e.target.value)} style={{ width: '100%', padding: '0.5rem' }}/></label>
                   <label style={{ flex: 1 }}>Carbs (g)<input type="number" step="any" value={recipeForm.nutrition.carbs} onChange={e => handleNestedChange('nutrition', 'carbs', e.target.value)} style={{ width: '100%', padding: '0.5rem' }}/></label>
@@ -531,6 +528,7 @@ function RecipesPanel({ currentUser }) {
               <RecipeCard
                 key={recipe.id}
                 recipe={recipe}
+                pantryIngredients={pantryIngredients}
                 name={recipe.name}
                 instructions={recipe.instructions}
                 matchScore={recipe.matchScore}

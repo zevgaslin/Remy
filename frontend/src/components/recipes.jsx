@@ -6,6 +6,7 @@ function RecipeCard({
   name,
   instructions,
   recipe = {},
+  pantryIngredients = [],
   matchScore,
   matchedIngredients = [],
   missingIngredients = [],
@@ -45,7 +46,7 @@ function RecipeCard({
         )}
         <details className="recipe-expand">
           <summary>View recipe</summary>
-          <RecipeDetails recipe={{ ...recipe, name, instructions }} />
+          <RecipeDetails recipe={{ ...recipe, name, instructions }} pantryIngredients={pantryIngredients} />
         </details>
         {favoriteIngredients.length > 0 && (
           <p className="recipe-favorite-detail">

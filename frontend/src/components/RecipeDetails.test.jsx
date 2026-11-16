@@ -14,9 +14,16 @@ describe('Supabase recipe details', () => {
         source: { url: 'https://example.com/pasta', siteName: 'Cooking source' },
       },
     };
-    render(<RecipeCard {...recipe} recipe={recipe} />);
+    render(
+      <RecipeCard
+        {...recipe}
+        recipe={recipe}
+        pantryIngredients={[{ id: 1, name: 'Pasta', quantity: 1, unit: 'lb' }]}
+      />
+    );
     expect(screen.getByText('View recipe')).toBeInTheDocument();
-    expect(screen.getByText('8 oz Pasta')).toBeInTheDocument();
+    expect(screen.getByText(/8 oz Pasta/)).toBeInTheDocument();
+    expect(screen.getByText('(In pantry: 16 oz)')).toBeInTheDocument();
     expect(screen.getByText('to taste Pepper (optional)')).toBeInTheDocument();
     expect(screen.getByText('Boil 8 cups water over high heat.').closest('ol')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Source: Cooking source', hidden: true })).toHaveAttribute('href', 'https://example.com/pasta');

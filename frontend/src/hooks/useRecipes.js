@@ -5,6 +5,7 @@ import {
 } from '../services/recipeServices';
 import { useIngredients } from './useIngredients';
 import { EXPIRING_SOON_DAYS, expiringSoonNames } from '../utils/expiration';
+import { checkPantryCoverageForRecipeIngredient } from '../utils/unitConversion';
 
 const FEEDBACK_BY_PREFERENCE = { LIKE: 'favorite', DISLIKE: 'dislike' };
 
@@ -174,14 +175,54 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
         token,
       });
       if (version !== requestVersion.current) return;
-      setRecipes(matches.map(match => ({
-        ...(match.recipe || match),
-        matchScore: match.matchScore ?? null,
-        matchedIngredients: match.matchedIngredients || [],
-        missingIngredients: match.missingIngredients || [],
-        expiringIngredients: match.expiringIngredients || [],
-        favoriteIngredients: match.favoriteIngredients || [],
-      })));
+      const hasQuantifiedPantry = pantryIngredients.some(
+        item => item.quantity != null && Number.isFinite(Number(item.quantity)) && item.unit,
+      );
+      const reconciledMatches = matches
+        .map(match => {
+          const baseRecipe = match.recipe || match;
+          let matchedIngredients = match.matchedIngredients || [];
+          let missingIngredients = match.missingIngredients || [];
+          let matchScore = match.matchScore ?? null;
+          const recipeIngs = baseRecipe.ingredients || baseRecipe.document?.ingredients || [];
+          if (hasQuantifiedPantry && recipeIngs.length > 0) {
+            const nextMatched = [];
+            const nextMissing = [];
+            let requiredCount = 0;
+            let matchedRequiredCount = 0;
+            for (const ing of recipeIngs) {
+              const ingName = ing.name || ing.ingredientName;
+              if (!ingName) continue;
+              const coverage = checkPantryCoverageForRecipeIngredient(ing, pantryIngredients);
+              const wasMatchedByServer = matchedIngredients.includes(ingName);
+              const covered = coverage.matchingPantry.length > 0 ? coverage.covered : wasMatchedByServer;
+              if (covered) nextMatched.push(ingName);
+              if (!ing.optional) {
+                requiredCount += 1;
+                if (covered) matchedRequiredCount += 1;
+                else nextMissing.push(ingName);
+              }
+            }
+            matchedIngredients = nextMatched;
+            missingIngredients = nextMissing;
+            if (requiredCount > 0) {
+              const ingRatio = matchedRequiredCount / requiredCount;
+              matchScore = preferences.length === 0
+                ? Math.round(ingRatio * 10000) / 100
+                : Math.round((ingRatio * 0.75 + 0.25) * 10000) / 100;
+            }
+          }
+          return {
+            ...baseRecipe,
+            matchScore,
+            matchedIngredients,
+            missingIngredients,
+            expiringIngredients: match.expiringIngredients || [],
+            favoriteIngredients: match.favoriteIngredients || [],
+          };
+        })
+        .filter(recipe => !requireAllIngredients || recipe.missingIngredients.length === 0);
+      setRecipes(reconciledMatches);
       setSearchActive(true);
       setShowingFavorites(false);
     } catch (err) {
@@ -260,7 +301,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
 
   return {
     recipes, feedback, ratings, loading, error, searchActive, showingFavorites,
-    favoriteFoods,
+    favoriteFoods, pantryIngredients,
     search, refresh, showFavorites, setRecipeFeedback, setRecipeRating, addNewRecipe,
   };
 }

@@ -64,7 +64,7 @@ public class RecipeMatchingService {
         return search(request, null);
     }
 
-    /** userId, when given, lifts the user's higher-rated recipes in the ranking. */
+    /** userId, when given, lifts the user's higher-rated recipes in the ranking and checks pantry unit quantities. */
     @Transactional(readOnly = true)
     public List<RecipeMatchResponse> search(RecipeSearchRequest request, Long userId) {
         Set<String> availableIngredients = canonicalNames(request.getIngredients());
@@ -74,13 +74,15 @@ public class RecipeMatchingService {
         availableIngredients.addAll(expiringIngredients);
         availableIngredients.addAll(favoriteIngredients);
 
+        List<Ingredient> userPantry = userId == null ? List.of() : ingredientRepository.findByOwnerId(userId);
+
         List<PreferenceCriterion> requestedPreferences = request.getPreferences() == null ? List.of() : 
                 request.getPreferences().stream()
                 .filter(item -> item != null && !isBlank(item.getName()) && !isBlank(item.getValue()))
                 .toList();
 
         if (request.isRandom()) {
-            return randomMatch(availableIngredients, requestedPreferences);
+            return randomMatch(availableIngredients, requestedPreferences, userPantry);
         }
 
         int limit = request.getLimit() == null ? 20 : Math.max(1, Math.min(request.getLimit(), 100));
@@ -88,16 +90,17 @@ public class RecipeMatchingService {
         var ids = recipeQueryRepository.search(request.getQuery(), availableIngredients, expiringIngredients,
                 favoriteIngredients, requestedPreferences, request.isRequireAllIngredients(), limit, userId);
         return loadInOrder(ids).stream()
-                .map(recipe -> score(recipe, availableIngredients, expiringIngredients, favoriteIngredients, requestedPreferences))
+                .map(recipe -> score(recipe, availableIngredients, expiringIngredients, favoriteIngredients, requestedPreferences, userPantry))
+                .filter(match -> !request.isRequireAllIngredients() || match.getMissingIngredients().isEmpty())
                 .toList();
     }
 
     private List<RecipeMatchResponse> randomMatch(
-            Set<String> ingredients, List<PreferenceCriterion> preferences) {
+            Set<String> ingredients, List<PreferenceCriterion> preferences, List<Ingredient> userPantry) {
         PreferenceCriterion preference = preferences.isEmpty() ? null : preferences.get(0);
         return recipeQueryRepository.randomId(preference)
                 .map(id -> loadInOrder(List.of(id)).stream()
-                        .map(recipe -> score(recipe, ingredients, Set.of(), Set.of(), preferences))
+                        .map(recipe -> score(recipe, ingredients, Set.of(), Set.of(), preferences, userPantry))
                         .toList())
                 .orElseGet(List::of);
     }
@@ -149,7 +152,8 @@ public class RecipeMatchingService {
             Set<String> availableIngredients,
             Set<String> expiringIngredients,
             Set<String> favoriteIngredients,
-            List<PreferenceCriterion> requestedPreferences) {
+            List<PreferenceCriterion> requestedPreferences,
+            List<Ingredient> userPantry) {
         List<String> matched = new ArrayList<>();
         List<String> missing = new ArrayList<>();
         Set<String> expiringUsed = new HashSet<>();
@@ -159,7 +163,7 @@ public class RecipeMatchingService {
 
         for (RecipeIngredient ingredient : recipe.getIngredients()) {
             String canonical = IngredientNameNormalizer.canonicalize(ingredient.getIngredientName());
-            boolean available = availableIngredients.contains(canonical);
+            boolean available = isIngredientCovered(ingredient, canonical, availableIngredients, userPantry);
             if (expiringIngredients.contains(canonical)) {
                 expiringUsed.add(ingredient.getIngredientName());
             }
@@ -194,6 +198,49 @@ public class RecipeMatchingService {
                 requestedPreferences,
                 expiringUsed.stream().sorted().toList(),
                 favoriteUsed.stream().sorted().toList());
+    }
+
+    /**
+     * Checks whether the pantry covers {@code ingredient}. When the user's pantry items are
+     * available, converts each matching pantry item's unit into the recipe ingredient's unit
+     * (e.g., 1 lb of onion = 453.59 g >= 50 g of onion) so sufficient quantity in any compatible
+     * unit qualifies.
+     */
+    static boolean isIngredientCovered(
+            RecipeIngredient ingredient,
+            String canonical,
+            Set<String> availableIngredients,
+            List<Ingredient> userPantry) {
+        boolean nameMatched = availableIngredients.contains(canonical)
+                || availableIngredients.stream().anyMatch(owned -> GroceryListService.namesMatch(canonical, owned));
+        if (userPantry == null || userPantry.isEmpty()) {
+            return nameMatched;
+        }
+        List<Ingredient> matchingPantry = userPantry.stream()
+                .filter(p -> p.getName() != null
+                        && GroceryListService.namesMatch(canonical, IngredientNameNormalizer.canonicalize(p.getName())))
+                .toList();
+        if (matchingPantry.isEmpty()) {
+            return nameMatched;
+        }
+        Double neededQty = ingredient.getQuantity();
+        if (neededQty == null || !Double.isFinite(neededQty) || neededQty <= 0) {
+            return matchingPantry.stream().anyMatch(p -> p.getQuantity() > 0);
+        }
+        String recipeUnit = ingredient.getUnit();
+        boolean placeholderOnly = matchingPantry.stream()
+                .allMatch(p -> "item".equalsIgnoreCase(p.getUnit()) && p.getQuantity() == 1.0)
+                && (recipeUnit == null || "item".equalsIgnoreCase(recipeUnit));
+        if (placeholderOnly) {
+            return true;
+        }
+        double totalInRecipeUnit = 0.0;
+        for (Ingredient owned : matchingPantry) {
+            if (Double.isFinite(owned.getQuantity()) && owned.getQuantity() > 0) {
+                totalInRecipeUnit += GroceryUnits.convert(owned.getQuantity(), owned.getUnit(), recipeUnit);
+            }
+        }
+        return totalInRecipeUnit + 1e-6 >= neededQty;
     }
 
     private Set<String> canonicalNames(List<String> names) {
