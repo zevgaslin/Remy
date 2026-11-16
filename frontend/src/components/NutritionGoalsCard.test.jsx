@@ -1,10 +1,14 @@
 import '@testing-library/jest-dom';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 import NutritionGoalsCard from './NutritionGoalsCard';
 
 const user = { id: 1, username: 'jordan', token: 'abc' };
 const goals = { calories: 2000, protein: 50, carbs: 275, fat: 78 };
+
+beforeEach(() => {
+  localStorage.clear();
+});
 
 function renderCard(props = {}) {
   const onSave = props.onSave ?? vi.fn().mockResolvedValue({});
@@ -125,5 +129,34 @@ describe('NutritionGoalsCard', () => {
 
     expect(screen.getByText('Enter your weight (70–700 lb) to use a preset.')).toBeInTheDocument();
     expect(screen.getByLabelText('Calories (kcal)')).toHaveValue(2000);
+  });
+
+  it('does not offer adding supplements directly in Daily goals and displays supplements scheduled via Calendar', () => {
+    localStorage.setItem(
+      'remy-supplements:abc',
+      JSON.stringify([
+        {
+          id: 'supp-b12',
+          name: 'Vitamin B12',
+          dosage: '1000 mcg',
+          unit: 'tablet',
+          addToGoals: true,
+          addToCalendar: true,
+          effects: ['+ 490% B12', '+ 100% Folate'],
+          calories: 0,
+          protein: 0,
+          carbs: 0,
+          fat: 0,
+          takenDates: [],
+        },
+      ]),
+    );
+    renderCard();
+
+    expect(screen.queryByRole('button', { name: '+ Add Supplement' })).not.toBeInTheDocument();
+    expect(screen.getByLabelText('Daily supplement effects')).toBeInTheDocument();
+    expect(screen.getByText(/Vitamin B12 · 1000 mcg/)).toBeInTheDocument();
+    expect(screen.getByText('+ 490% B12')).toBeInTheDocument();
+    expect(screen.getByText('+ 100% Folate')).toBeInTheDocument();
   });
 });
