@@ -10,6 +10,8 @@ public class RecipeSearchRequest {
     private List<PreferenceCriterion> preferences = new ArrayList<>();
     // Pantry items close to expiring; when set, only recipes using one of them are returned, most used first.
     private List<String> expiringIngredients = new ArrayList<>();
+    // Favorite pantry items; when set, only recipes using one of them are returned, most used first.
+    private List<String> favoriteIngredients = new ArrayList<>();
     private boolean requireAllIngredients;
     private Integer limit = 20;
     
@@ -41,6 +43,14 @@ public class RecipeSearchRequest {
 
     public void setExpiringIngredients(List<String> expiringIngredients) {
         this.expiringIngredients = expiringIngredients == null ? new ArrayList<>() : expiringIngredients;
+    }
+
+    public List<String> getFavoriteIngredients() {
+        return favoriteIngredients;
+    }
+
+    public void setFavoriteIngredients(List<String> favoriteIngredients) {
+        this.favoriteIngredients = favoriteIngredients == null ? new ArrayList<>() : favoriteIngredients;
     }
 
     public boolean isRequireAllIngredients() {

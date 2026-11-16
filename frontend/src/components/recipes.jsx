@@ -10,6 +10,7 @@ function RecipeCard({
   matchedIngredients = [],
   missingIngredients = [],
   expiringIngredients = [],
+  favoriteIngredients = [],
   feedback,
   rating = null,
   onFavorite,
@@ -46,6 +47,11 @@ function RecipeCard({
           <summary>View recipe</summary>
           <RecipeDetails recipe={{ ...recipe, name, instructions }} />
         </details>
+        {favoriteIngredients.length > 0 && (
+          <p className="recipe-favorite-detail">
+            Includes favorite: {favoriteIngredients.join(', ')}
+          </p>
+        )}
         {expiringIngredients.length > 0 && (
           <p className="recipe-expiring-detail">
             Uses up: {expiringIngredients.join(', ')}

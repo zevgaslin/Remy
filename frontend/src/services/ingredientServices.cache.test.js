@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
-import { getMyIngredients, invalidateIngredientCache, createIngredient, updateIngredient, deleteIngredient } from './ingredientServices';
+import { getMyIngredients, invalidateIngredientCache, createIngredient, updateIngredient, toggleFavoriteIngredient, deleteIngredient } from './ingredientServices';
 const response = data => ({ ok: true, json: async () => data });
 beforeEach(() => { invalidateIngredientCache('a'); invalidateIngredientCache('b'); vi.stubGlobal('fetch', vi.fn()); });
 afterEach(() => { vi.restoreAllMocks(); vi.unstubAllGlobals(); });
@@ -23,12 +23,24 @@ it('isolates users and expires cached reads', async () => {
   expect(await getMyIngredients('b')).toEqual([]);
   expect(fetch).toHaveBeenCalledTimes(3);
 });
-it.each([createIngredient, updateIngredient, deleteIngredient])('invalidates after a successful mutation', async mutate => {
+it.each([createIngredient, updateIngredient, toggleFavoriteIngredient, deleteIngredient])('invalidates after a successful mutation', async mutate => {
   fetch.mockResolvedValue(response([]));
   await getMyIngredients('a');
   await mutate('a', {} , {});
   await getMyIngredients('a');
   expect(fetch).toHaveBeenCalledTimes(3);
+});
+it('sends favorite flag in toggleFavoriteIngredient and throws on failure', async () => {
+  fetch.mockResolvedValueOnce(response({ id: 5, name: 'Milk', favorite: true }));
+  const updated = await toggleFavoriteIngredient('a', 5, true);
+  expect(updated).toEqual({ id: 5, name: 'Milk', favorite: true });
+  expect(fetch).toHaveBeenCalledWith(expect.stringContaining('/ingredients/5/favorite'), expect.objectContaining({
+    method: 'PUT',
+    body: JSON.stringify({ favorite: true }),
+  }));
+
+  fetch.mockResolvedValueOnce({ ok: false, json: async () => ({ error: 'Forbidden' }) });
+  await expect(toggleFavoriteIngredient('a', 5, false)).rejects.toThrow('Forbidden');
 });
 it('retries failed reads', async () => {
   fetch.mockRejectedValueOnce(new Error('offline')).mockResolvedValueOnce(response([]));

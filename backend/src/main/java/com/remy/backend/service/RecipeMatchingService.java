@@ -69,8 +69,10 @@ public class RecipeMatchingService {
     public List<RecipeMatchResponse> search(RecipeSearchRequest request, Long userId) {
         Set<String> availableIngredients = canonicalNames(request.getIngredients());
         Set<String> expiringIngredients = canonicalNames(request.getExpiringIngredients());
-        // Expiring items are still in the pantry, so they count toward what the user has.
+        Set<String> favoriteIngredients = canonicalNames(request.getFavoriteIngredients());
+        // Expiring and favorite items are still in the pantry, so they count toward what the user has.
         availableIngredients.addAll(expiringIngredients);
+        availableIngredients.addAll(favoriteIngredients);
 
         List<PreferenceCriterion> requestedPreferences = request.getPreferences() == null ? List.of() : 
                 request.getPreferences().stream()
@@ -84,9 +86,9 @@ public class RecipeMatchingService {
         int limit = request.getLimit() == null ? 20 : Math.max(1, Math.min(request.getLimit(), 100));
 
         var ids = recipeQueryRepository.search(request.getQuery(), availableIngredients, expiringIngredients,
-                requestedPreferences, request.isRequireAllIngredients(), limit, userId);
+                favoriteIngredients, requestedPreferences, request.isRequireAllIngredients(), limit, userId);
         return loadInOrder(ids).stream()
-                .map(recipe -> score(recipe, availableIngredients, expiringIngredients, requestedPreferences))
+                .map(recipe -> score(recipe, availableIngredients, expiringIngredients, favoriteIngredients, requestedPreferences))
                 .toList();
     }
 
@@ -95,7 +97,7 @@ public class RecipeMatchingService {
         PreferenceCriterion preference = preferences.isEmpty() ? null : preferences.get(0);
         return recipeQueryRepository.randomId(preference)
                 .map(id -> loadInOrder(List.of(id)).stream()
-                        .map(recipe -> score(recipe, ingredients, Set.of(), preferences))
+                        .map(recipe -> score(recipe, ingredients, Set.of(), Set.of(), preferences))
                         .toList())
                 .orElseGet(List::of);
     }
@@ -146,10 +148,12 @@ public class RecipeMatchingService {
             Recipe recipe,
             Set<String> availableIngredients,
             Set<String> expiringIngredients,
+            Set<String> favoriteIngredients,
             List<PreferenceCriterion> requestedPreferences) {
         List<String> matched = new ArrayList<>();
         List<String> missing = new ArrayList<>();
         Set<String> expiringUsed = new HashSet<>();
+        Set<String> favoriteUsed = new HashSet<>();
         int requiredCount = 0;
         int matchedRequiredCount = 0;
 
@@ -158,6 +162,9 @@ public class RecipeMatchingService {
             boolean available = availableIngredients.contains(canonical);
             if (expiringIngredients.contains(canonical)) {
                 expiringUsed.add(ingredient.getIngredientName());
+            }
+            if (favoriteIngredients.contains(canonical)) {
+                favoriteUsed.add(ingredient.getIngredientName());
             }
             if (available) {
                 matched.add(ingredient.getIngredientName());
@@ -185,7 +192,8 @@ public class RecipeMatchingService {
                 matched.stream().sorted().toList(),
                 missing.stream().sorted().toList(),
                 requestedPreferences,
-                expiringUsed.stream().sorted().toList());
+                expiringUsed.stream().sorted().toList(),
+                favoriteUsed.stream().sorted().toList());
     }
 
     private Set<String> canonicalNames(List<String> names) {

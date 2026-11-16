@@ -27,14 +27,14 @@ export function getMyIngredients(token) {
   return entry.promise;
 }
 
-export async function createIngredient(token, { name, quantity, unit, expirationDate, calories, protein, carbs, fat }) {
+export async function createIngredient(token, { name, quantity, unit, expirationDate, calories, protein, carbs, fat, favorite = false }) {
   const response = await fetch(`${API_BASE}/ingredients`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({ name, quantity, unit, expirationDate, calories, protein, carbs, fat }),
+    body: JSON.stringify({ name, quantity, unit, expirationDate, calories, protein, carbs, fat, favorite }),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -44,18 +44,35 @@ export async function createIngredient(token, { name, quantity, unit, expiration
   return data;
 }
 
-export async function updateIngredient(token, id, { name, quantity, unit, expirationDate, calories, protein, carbs, fat }) {
+export async function updateIngredient(token, id, { name, quantity, unit, expirationDate, calories, protein, carbs, fat, favorite }) {
   const response = await fetch(`${API_BASE}/ingredients/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({ name, quantity, unit, expirationDate, calories, protein, carbs, fat }),
+    body: JSON.stringify({ name, quantity, unit, expirationDate, calories, protein, carbs, fat, ...(favorite !== undefined ? { favorite } : {}) }),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
     throw new Error(data.error || 'Could not update ingredient.');
+  }
+  invalidateIngredientCache(token);
+  return data;
+}
+
+export async function toggleFavoriteIngredient(token, id, favorite) {
+  const response = await fetch(`${API_BASE}/ingredients/${id}/favorite`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify({ favorite }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || 'Could not update favorite status.');
   }
   invalidateIngredientCache(token);
   return data;

@@ -7,7 +7,14 @@ import * as ingredientServices from '../services/ingredientServices';
 
 // Mock child components to isolate RecipesPanel testing
 vi.mock('./recipes', () => ({
-  default: ({ name }) => <div data-testid="recipe-card">{name}</div>,
+  default: ({ name, favoriteIngredients = [] }) => (
+    <div data-testid="recipe-card">
+      <span>{name}</span>
+      {favoriteIngredients.length > 0 && (
+        <span data-testid="recipe-favorite-ingredients">{favoriteIngredients.join(', ')}</span>
+      )}
+    </div>
+  ),
 }));
 
 // Mock the API services
@@ -119,7 +126,7 @@ describe('RecipesPanel', () => {
   it('passes dietary preference when a diet is selected', async () => {
     recipeServices.searchRecipes.mockResolvedValue([]);
     render(<RecipesPanel />);
-    const dietSelect = screen.getByRole('combobox');
+    const dietSelect = screen.getByLabelText('Diet');
     const submitButton = screen.getByText('Search', { selector: 'button[type="submit"]' });
 
     await waitFor(() => expect(submitButton).not.toBeDisabled());
@@ -130,6 +137,52 @@ describe('RecipesPanel', () => {
     await waitFor(() => {
       expect(recipeServices.searchRecipes).toHaveBeenCalledWith(
         expect.objectContaining({ preferences: [{ name: 'diet', value: 'vegetarian' }] })
+      );
+    });
+  });
+
+  it('searches by a selected favorite ingredient or all favorite ingredients from the pantry', async () => {
+    ingredientServices.getMyIngredients.mockResolvedValue([
+      { id: 1, name: 'Garlic', favorite: true },
+      { id: 2, name: 'Spinach', favorite: true },
+      { id: 3, name: 'Rice', favorite: false },
+    ]);
+    recipeServices.searchRecipes.mockResolvedValue([
+      { recipe: { id: 22, name: 'Garlic Spinach Pasta' }, matchScore: 90, favoriteIngredients: ['Garlic', 'Spinach'] },
+    ]);
+
+    render(<RecipesPanel currentUser={{ id: 1, token: 'tok' }} />);
+    const submitButton = screen.getByText('Search', { selector: 'button[type="submit"]' });
+    await waitFor(() => expect(submitButton).not.toBeDisabled());
+
+    // Select a specific favorite ingredient from the dropdown
+    const favSelect = await screen.findByLabelText('Favorite Ingredient');
+    fireEvent.change(favSelect, { target: { value: 'Garlic' } });
+    fireEvent.click(submitButton);
+
+    await waitFor(() => {
+      expect(recipeServices.searchRecipes).toHaveBeenCalledWith(
+        expect.objectContaining({
+          favoriteIngredients: ['Garlic'],
+          ingredients: ['Garlic', 'Spinach', 'Rice'],
+        })
+      );
+    });
+    expect(screen.getByTestId('recipe-favorite-ingredients')).toHaveTextContent('Garlic, Spinach');
+
+    // Clear specific dropdown and check "Only show recipes with my favorite ingredients"
+    fireEvent.change(favSelect, { target: { value: '' } });
+    const favCheck = screen.getByLabelText('Only show recipes with my favorite ingredients');
+    fireEvent.click(favCheck);
+    expect(favCheck).toBeChecked();
+    fireEvent.click(submitButton);
+
+    await waitFor(() => {
+      expect(recipeServices.searchRecipes).toHaveBeenCalledWith(
+        expect.objectContaining({
+          favoriteIngredients: ['Garlic', 'Spinach'],
+          ingredients: ['Garlic', 'Spinach', 'Rice'],
+        })
       );
     });
   });

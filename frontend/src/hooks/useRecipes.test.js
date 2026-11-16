@@ -9,6 +9,7 @@ vi.mock('../services/recipeServices', () => ({
   likeRecipe: vi.fn(), dislikeRecipe: vi.fn(), clearRecipePreference: vi.fn(),
   getRecipeReactions: vi.fn(), getFavoriteRecipes: vi.fn(),
   getMyRatings: vi.fn(), rateRecipe: vi.fn(), clearRecipeRating: vi.fn(),
+  createRecipe: vi.fn(),
 }));
 vi.mock('../services/ingredientServices', () => ({ getMyIngredients: vi.fn() }));
 
@@ -75,6 +76,50 @@ describe('useRecipes', () => {
     await act(async () => { await result.current.search({ useExpiringSoon: true }); });
     expect(recipes.searchRecipes).not.toHaveBeenCalled();
     expect(result.current.error).toBe('Nothing in your pantry expires in the next 3 days.');
+  });
+
+  it('searches by favorite pantry ingredients or a selected favorite ingredient', async () => {
+    getMyIngredients.mockResolvedValue([
+      { name: 'Garlic', favorite: true },
+      { name: 'Chicken Breast', favorite: true },
+      { name: 'Rice', favorite: false },
+    ]);
+    recipes.searchRecipes.mockResolvedValue([
+      { recipe: { id: 6, name: 'Garlic Chicken' }, matchScore: 100, favoriteIngredients: ['Garlic', 'Chicken Breast'] },
+    ]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    expect(result.current.favoriteFoods).toEqual(['Garlic', 'Chicken Breast']);
+
+    await act(async () => { await result.current.search({ useFavoriteIngredients: true }); });
+    expect(recipes.searchRecipes).toHaveBeenCalledWith(expect.objectContaining({
+      favoriteIngredients: ['Garlic', 'Chicken Breast'],
+      ingredients: ['Garlic', 'Chicken Breast', 'Rice'],
+    }));
+    expect(result.current.recipes[0].favoriteIngredients).toEqual(['Garlic', 'Chicken Breast']);
+
+    await act(async () => { await result.current.search({ favoriteIngredient: 'Garlic' }); });
+    expect(recipes.searchRecipes).toHaveBeenCalledWith(expect.objectContaining({
+      favoriteIngredients: ['Garlic'],
+      ingredients: ['Garlic', 'Chicken Breast', 'Rice'],
+    }));
+  });
+
+  it('explains when no favorite ingredients are marked in the pantry', async () => {
+    getMyIngredients.mockResolvedValue([{ name: 'Rice', favorite: false }]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    await act(async () => { await result.current.search({ useFavoriteIngredients: true }); });
+    expect(recipes.searchRecipes).not.toHaveBeenCalled();
+    expect(result.current.error).toBe('Mark at least one ingredient as a favorite in your pantry before using that filter.');
+  });
+
+  it('asks guests to log in before filtering by favorite ingredients', async () => {
+    const { result } = renderHook(() => useRecipes());
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    await act(async () => { await result.current.search({ useFavoriteIngredients: true }); });
+    expect(recipes.searchRecipes).not.toHaveBeenCalled();
+    expect(result.current.error).toBe('Log in to filter recipes by your current ingredients.');
   });
 
   it('saves a reaction before removing the reviewed recipe from the feed', async () => {

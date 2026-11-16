@@ -24,6 +24,7 @@ function AddIngredientModal({ token, onClose, onAdded, ingredient = null, onSave
   const [quantity, setQuantity] = useState(String(ingredient?.quantity ?? 1));
   const [unit, setUnit] = useState(ingredient?.unit ?? '');
   const [expirationDate, setExpirationDate] = useState(ingredient?.expirationDate ?? '');
+  const [favorite, setFavorite] = useState(Boolean(ingredient?.favorite));
   const [nutrition, setNutrition] = useState(() => Object.fromEntries(NUTRITION_FIELDS.map(({ key }) => [key, ingredient?.[key] == null ? '' : String(ingredient[key])])));
   const [scannedProduct, setScannedProduct] = useState(null);
   const [error, setError] = useState(null);
@@ -53,6 +54,7 @@ function AddIngredientModal({ token, onClose, onAdded, ingredient = null, onSave
         quantity: Number(quantity),
         unit,
         expirationDate,
+        favorite,
         calories: toOptionalNumber(nutrition.calories),
         protein: toOptionalNumber(nutrition.protein),
         carbs: toOptionalNumber(nutrition.carbs),
@@ -143,6 +145,14 @@ function AddIngredientModal({ token, onClose, onAdded, ingredient = null, onSave
               onChange={(event) => setExpirationDate(event.target.value)}
               required
             />
+          </label>
+          <label className="ingredient-favorite-checkbox" style={{ flexDirection: 'row', alignItems: 'center', gap: '8px' }}>
+            <input
+              type="checkbox"
+              checked={favorite}
+              onChange={(event) => setFavorite(event.target.checked)}
+            />
+            <span>Mark as favorite food</span>
           </label>
           <fieldset className="nutrition-fields">
             <legend>Nutrition per {unit || 'unit'} (optional)</legend>

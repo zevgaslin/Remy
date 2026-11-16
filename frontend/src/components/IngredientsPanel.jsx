@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { deleteIngredient } from '../services/ingredientServices';
+import { deleteIngredient, toggleFavoriteIngredient } from '../services/ingredientServices';
 import { useIngredients } from '../hooks/useIngredients';
 import { useDragToTrash } from '../hooks/useDragToTrash';
 import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSounds';
@@ -104,6 +104,7 @@ function IngredientsPanel({ currentUser }) {
   const { ingredients, setIngredients, loading, error } = useIngredients(currentUser?.token);
   const [modalOpen, setModalOpen] = useState(false);
   const [editingIngredient, setEditingIngredient] = useState(null);
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [toast, setToast] = useState(null);
   const [gulping, setGulping] = useState(false);
   // The ingredient waiting out its undo window: { item, timer }.
@@ -198,16 +199,57 @@ function IngredientsPanel({ currentUser }) {
     setToast({ message: `${saved.name} updated` });
   }
 
+  async function handleToggleFavorite(item) {
+    const nextFavorite = !item.favorite;
+    setIngredients(prev => prev.map(other => (other.id === item.id ? { ...other, favorite: nextFavorite } : other)));
+    try {
+      const updated = await toggleFavoriteIngredient(currentUser.token, item.id, nextFavorite);
+      if (updated && typeof updated === 'object' && updated.id != null) {
+        setIngredients(prev => prev.map(other => (other.id === item.id ? updated : other)));
+      }
+    } catch {
+      setIngredients(prev => prev.map(other => (other.id === item.id ? { ...other, favorite: Boolean(item.favorite) } : other)));
+      setToast({ message: `Could not update favorite status for ${item.name}.` });
+    }
+  }
+
   const sortedIngredients = [...ingredients].sort(
     (a, b) => daysUntil(a.expirationDate) - daysUntil(b.expirationDate),
   );
+  const visibleIngredients = showFavoritesOnly
+    ? sortedIngredients.filter((item) => item.favorite)
+    : sortedIngredients;
 
   const { totals, trackedCount } = pantryTotals(ingredients);
 
   return (
     <>
       <section className="ingredients-panel">
-        <h2>Ingredients</h2>
+        <div className="ingredients-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
+          <h2>Ingredients</h2>
+          {currentUser && !loading && !error && (
+            <div className="pantry-filter-tabs" role="tablist" aria-label="Pantry filter">
+              <button
+                type="button"
+                role="tab"
+                aria-selected={!showFavoritesOnly}
+                className="recipe-tab"
+                onClick={() => setShowFavoritesOnly(false)}
+              >
+                All Foods
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={showFavoritesOnly}
+                className="recipe-tab"
+                onClick={() => setShowFavoritesOnly(true)}
+              >
+                ♥ Favorite Foods
+              </button>
+            </div>
+          )}
+        </div>
         {currentUser && !loading && !error && trackedCount > 0 && (
           <div className="pantry-macros" aria-label="Pantry nutrition totals">
             <span><strong>{formatAmount(totals.calories)}</strong> kcal</span>
@@ -219,15 +261,24 @@ function IngredientsPanel({ currentUser }) {
         {!currentUser && <p>Log in to track your ingredients.</p>}
         {currentUser && loading && <p>Loading ingredients...</p>}
         {currentUser && error && <p className="error-text">{error}</p>}
+        {currentUser && !loading && !error && showFavoritesOnly && visibleIngredients.length === 0 && (
+          <p className="empty-favorites-hint">No favorite foods yet. Tap ♥ on an ingredient to mark it as a favorite.</p>
+        )}
         {currentUser && !loading && !error && (
           <ul className="ingredients-list">
-            {sortedIngredients.map((item) => {
+            {visibleIngredients.map((item) => {
               const daysLeft = daysUntil(item.expirationDate);
               const quantityLabel = pantryQuantityLabel(item);
+              const isFav = Boolean(item.favorite);
               return (
                 <li
                   key={item.id}
-                  className={['ingredient-row', urgencyClass(daysLeft), drag?.item.id === item.id && 'being-dragged']
+                  className={[
+                    'ingredient-row',
+                    urgencyClass(daysLeft),
+                    isFav && 'favorite-food',
+                    drag?.item.id === item.id && 'being-dragged',
+                  ]
                     .filter(Boolean)
                     .join(' ')}
                   tabIndex={0}
@@ -250,6 +301,19 @@ function IngredientsPanel({ currentUser }) {
                     </span>
                   )}
                   <span className="ingredient-status">{statusLabel(daysLeft)}</span>
+                  <button
+                    type="button"
+                    className={`ingredient-favorite-button${isFav ? ' active' : ''}`}
+                    aria-label={isFav ? `Unfavorite ${item.name}` : `Favorite ${item.name}`}
+                    aria-pressed={isFav}
+                    onPointerDown={(event) => event.stopPropagation()}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      handleToggleFavorite(item);
+                    }}
+                  >
+                    {isFav ? '♥' : '♡'}
+                  </button>
                   <button type="button" className="ingredient-edit-button" aria-label={`Edit ${item.name}`}
                     onPointerDown={event => event.stopPropagation()}
                     onClick={event => { event.stopPropagation(); setEditingIngredient(item); }}>Edit</button>

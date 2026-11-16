@@ -34,6 +34,7 @@ const INITIAL_RECIPE_STATE = {
 function RecipesPanel({ currentUser }) {
   const {
     recipes, feedback, ratings, loading, error, searchActive, showingFavorites,
+    favoriteFoods = [],
     search, refresh, showFavorites, setRecipeFeedback, setRecipeRating, addNewRecipe,
   } = useRecipes(currentUser);
   
@@ -41,9 +42,11 @@ function RecipesPanel({ currentUser }) {
   const [recipeQuery, setRecipeQuery] = useState('');
   const [ingredientQuery, setIngredientQuery] = useState('');
   const [diet, setDiet] = useState('');
+  const [favoriteIngredient, setFavoriteIngredient] = useState('');
   const [onlyCurrentIngredients, setOnlyCurrentIngredients] = useState(false);
   const [onlyMakeNow, setOnlyMakeNow] = useState(false);
   const [expiringSoon, setExpiringSoon] = useState(false);
+  const [onlyFavoriteIngredients, setOnlyFavoriteIngredients] = useState(false);
 
   // Modal state
   const [showAddModal, setShowAddModal] = useState(false);
@@ -53,9 +56,11 @@ function RecipesPanel({ currentUser }) {
     setRecipeQuery('');
     setIngredientQuery('');
     setDiet('');
+    setFavoriteIngredient('');
     setOnlyCurrentIngredients(false);
     setOnlyMakeNow(false);
     setExpiringSoon(false);
+    setOnlyFavoriteIngredients(false);
   }
 
   useEffect(() => { resetFilters(); }, [currentUser?.token]);
@@ -69,6 +74,8 @@ function RecipesPanel({ currentUser }) {
       requireAllIngredients: onlyMakeNow,
       useCurrentIngredients: onlyCurrentIngredients,
       useExpiringSoon: expiringSoon,
+      useFavoriteIngredients: onlyFavoriteIngredients,
+      favoriteIngredient,
     });
   }
 
@@ -405,9 +412,27 @@ function RecipesPanel({ currentUser }) {
             />
           </label>
 
+          {favoriteFoods.length > 0 && (
+            <label className="recipe-search-field recipe-favorite-field" style={{ minWidth: '160px', margin: 0 }}>
+              <span>Favorite Ingredient</span>
+              <select
+                aria-label="Favorite Ingredient"
+                value={favoriteIngredient}
+                onChange={(event) => setFavoriteIngredient(event.target.value)}
+              >
+                <option value="">Any favorite food</option>
+                {favoriteFoods.map((food) => (
+                  <option key={food} value={food}>
+                    {food}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
+
           <label className="recipe-search-field recipe-diet-field" style={{ minWidth: '150px', margin: 0 }}>
             <span>Diet</span>
-            <select value={diet} onChange={(event) => setDiet(event.target.value)}>
+            <select aria-label="Diet" value={diet} onChange={(event) => setDiet(event.target.value)}>
               {DIET_OPTIONS.map((option) => (
                 <option key={option.value || 'any'} value={option.value}>
                   {option.label}
@@ -478,6 +503,14 @@ function RecipesPanel({ currentUser }) {
             />
             <span>Use up ingredients expiring in the next {EXPIRING_SOON_DAYS} days</span>
           </label>
+          <label className="recipe-search-check">
+            <input
+              type="checkbox"
+              checked={onlyFavoriteIngredients}
+              onChange={(event) => setOnlyFavoriteIngredients(event.target.checked)}
+            />
+            <span>Only show recipes with my favorite ingredients</span>
+          </label>
         </div>
       </form>
 
@@ -504,6 +537,7 @@ function RecipesPanel({ currentUser }) {
                 matchedIngredients={recipe.matchedIngredients}
                 missingIngredients={recipe.missingIngredients}
                 expiringIngredients={recipe.expiringIngredients}
+                favoriteIngredients={recipe.favoriteIngredients}
                 feedback={feedback[recipe.id]}
                 rating={ratings[recipe.id] ?? null}
                 onFavorite={() => setRecipeFeedback(recipe.id, 'favorite')}

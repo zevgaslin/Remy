@@ -10,6 +10,9 @@ import * as groceryListServices from '../services/groceryListServices';
 vi.mock('../services/ingredientServices', () => ({
   getMyIngredients: vi.fn(),
   deleteIngredient: vi.fn(),
+  toggleFavoriteIngredient: vi.fn(),
+  createIngredient: vi.fn(),
+  updateIngredient: vi.fn(),
 }));
 
 vi.mock('../services/groceryListServices', () => ({
@@ -28,8 +31,8 @@ vi.mock('../utils/trashSounds', () => ({
 
 const user = { id: 1, username: 'jordan', token: 'abc' };
 const ingredients = [
-  { id: 10, name: 'Milk', quantity: 1, unit: 'bottle', expirationDate: '2099-01-01' },
-  { id: 11, name: 'Eggs', quantity: 12, unit: 'pieces', expirationDate: '2099-01-02' },
+  { id: 10, name: 'Milk', quantity: 1, unit: 'bottle', expirationDate: '2099-01-01', favorite: false, calories: 150, protein: 8, carbs: 12, fat: 8 },
+  { id: 11, name: 'Eggs', quantity: 12, unit: 'pieces', expirationDate: '2099-01-02', favorite: true, calories: 70, protein: 6, carbs: 1, fat: 5 },
 ];
 
 // Unmount anything rendered by the previous test
@@ -169,6 +172,109 @@ describe('IngredientsPanel pantry quantities', () => {
 
     expect(screen.getByText('· 1 bottle')).toBeInTheDocument();
     expect(screen.getByText('· 12 pieces')).toBeInTheDocument();
+  });
+});
+
+describe('IngredientsPanel favorite foods', () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+    ingredientServices.getMyIngredients.mockResolvedValue(ingredients);
+  });
+
+  it('toggles an ingredient as a favorite food and filters by Favorite Foods', async () => {
+    ingredientServices.toggleFavoriteIngredient.mockResolvedValue({
+      ...ingredients[0],
+      favorite: true,
+    });
+    await renderPanel();
+
+    const favMilkBtn = screen.getByRole('button', { name: 'Favorite Milk' });
+    expect(favMilkBtn).toHaveAttribute('aria-pressed', 'false');
+    expect(screen.getByRole('button', { name: 'Unfavorite Eggs' })).toHaveAttribute('aria-pressed', 'true');
+
+    // Filter to Favorite Foods only before toggling Milk
+    fireEvent.click(screen.getByRole('tab', { name: '♥ Favorite Foods' }));
+    expect(screen.queryByText('Milk')).not.toBeInTheDocument();
+    expect(screen.getByText('Eggs')).toBeInTheDocument();
+
+    // Switch back to All Foods and favorite Milk
+    fireEvent.click(screen.getByRole('tab', { name: 'All Foods' }));
+    await act(async () => {
+      fireEvent.click(screen.getByRole('button', { name: 'Favorite Milk' }));
+    });
+
+    expect(ingredientServices.toggleFavoriteIngredient).toHaveBeenCalledWith('abc', 10, true);
+    expect(screen.getByRole('button', { name: 'Unfavorite Milk' })).toHaveAttribute('aria-pressed', 'true');
+  });
+
+  it('reverts the favorite state and shows an error toast if toggling fails', async () => {
+    ingredientServices.toggleFavoriteIngredient.mockRejectedValue(new Error('Network error'));
+    await renderPanel();
+
+    await act(async () => {
+      fireEvent.click(screen.getByRole('button', { name: 'Favorite Milk' }));
+    });
+
+    expect(screen.getByRole('button', { name: 'Favorite Milk' })).toHaveAttribute('aria-pressed', 'false');
+    expect(screen.getByRole('status')).toHaveTextContent('Could not update favorite status for Milk.');
+  });
+
+  it('shows an empty message when filtering by Favorite Foods with none marked', async () => {
+    ingredientServices.getMyIngredients.mockResolvedValue([
+      { id: 10, name: 'Milk', quantity: 1, unit: 'bottle', expirationDate: '2099-01-01', favorite: false },
+    ]);
+    await renderPanel();
+
+    fireEvent.click(screen.getByRole('tab', { name: '♥ Favorite Foods' }));
+    expect(screen.getByText(/No favorite foods yet/)).toBeInTheDocument();
+  });
+
+  it('opens Add and Edit modals with favorite food option', async () => {
+    ingredientServices.createIngredient.mockResolvedValue({
+      id: 12,
+      name: 'Avocado',
+      quantity: 2,
+      unit: 'each',
+      expirationDate: '2099-01-05',
+      favorite: true,
+    });
+    ingredientServices.updateIngredient.mockResolvedValue({
+      ...ingredients[0],
+      name: 'Oat Milk',
+      favorite: true,
+    });
+    await renderPanel();
+
+    // Open Add Ingredient modal
+    fireEvent.click(screen.getByRole('button', { name: '+ Add Ingredient' }));
+    const favCheckbox = screen.getByLabelText('Mark as favorite food');
+    expect(favCheckbox).not.toBeChecked();
+    fireEvent.click(favCheckbox);
+    expect(favCheckbox).toBeChecked();
+    fireEvent.change(screen.getByLabelText('Name'), { target: { value: 'Avocado' } });
+    fireEvent.change(screen.getByLabelText('Unit'), { target: { value: 'each' } });
+    fireEvent.change(screen.getByLabelText('Expiration Date'), { target: { value: '2099-01-05' } });
+    await act(async () => {
+      fireEvent.click(screen.getByRole('button', { name: 'Add Ingredient' }));
+    });
+    expect(ingredientServices.createIngredient).toHaveBeenCalledWith(
+      'abc',
+      expect.objectContaining({ name: 'Avocado', favorite: true }),
+    );
+    expect(screen.getByText('Avocado')).toBeInTheDocument();
+
+    // Open Edit Ingredient modal
+    fireEvent.click(screen.getByRole('button', { name: 'Edit Milk' }));
+    const editFavCheckbox = screen.getByLabelText('Mark as favorite food');
+    fireEvent.click(editFavCheckbox);
+    await act(async () => {
+      fireEvent.click(screen.getByRole('button', { name: 'Save changes' }));
+    });
+    expect(ingredientServices.updateIngredient).toHaveBeenCalledWith(
+      'abc',
+      10,
+      expect.objectContaining({ favorite: true }),
+    );
   });
 });
 

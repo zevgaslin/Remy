@@ -850,6 +850,41 @@
   color: var(--urgent);
 }
 
+.ingredient-favorite-button {
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.ingredient-favorite-button:hover {
+  color: var(--recipe-accent);
+  transform: scale(1.1);
+}
+
+.ingredient-favorite-button.active {
+  color: var(--recipe-accent);
+}
+
+.pantry-filter-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.empty-favorites-hint {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+}
+
 .add-ingredient-button {
   align-self: flex-start;
   padding: 10px 18px;
@@ -1308,6 +1343,7 @@ body.is-dragging-ingredient * {
   overflow: hidden;
 }
 
+.recipe-card-info .recipe-favorite-detail,
 .recipe-card-info .recipe-expiring-detail,
 .recipe-card-info .recipe-match-detail,
 .recipe-card-info .recipe-missing-detail {
@@ -1316,6 +1352,11 @@ body.is-dragging-ingredient * {
   font-size: 11px;
   line-height: 1.35;
   white-space: normal;
+}
+
+.recipe-card-info .recipe-favorite-detail {
+  color: var(--recipe-accent);
+  font-weight: 600;
 }
 
 .recipe-card-info .recipe-match-detail {

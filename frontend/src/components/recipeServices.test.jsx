@@ -9,7 +9,7 @@ describe('recipeServices - searchRecipes', () => {
     fetch.mockClear();
   });
 
-  it('includes the "query" parameter in the JSON body when calling the search endpoint', async () => {
+  it('includes the "query" and "favoriteIngredients" parameters in the JSON body when calling the search endpoint', async () => {
     // Setup a fake successful response
     fetch.mockResolvedValue({
       ok: true,
@@ -19,6 +19,7 @@ describe('recipeServices - searchRecipes', () => {
     const searchParams = {
       query: 'Tacos',
       ingredients: ['beef', 'cheese'],
+      favoriteIngredients: ['cheese'],
       preferences: [],
       requireAllIngredients: false,
       limit: 10
@@ -36,9 +37,10 @@ describe('recipeServices - searchRecipes', () => {
     expect(url).toContain('/recipes/search');
     expect(options.method).toBe('POST');
     
-    // Parse the body to ensure 'query' was successfully appended
+    // Parse the body to ensure 'query' and 'favoriteIngredients' were successfully appended
     const requestBody = JSON.parse(options.body);
     expect(requestBody.query).toBe('Tacos');
     expect(requestBody.ingredients).toEqual(['beef', 'cheese']);
+    expect(requestBody.favoriteIngredients).toEqual(['cheese']);
   });
 });

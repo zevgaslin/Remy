@@ -21,6 +21,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
   const [showingFavorites, setShowingFavorites] = useState(false);
   const { ingredients: pantryIngredients } = useIngredients(token);
   const currentIngredients = pantryIngredients.map(item => item.name).filter(Boolean);
+  const favoriteFoods = pantryIngredients.filter(item => item.favorite && item.name).map(item => item.name);
   const requestVersion = useRef(0);
   const feedAbort = useRef(null);
 
@@ -113,12 +114,29 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     }
   }
 
-  async function search({ query = '', ingredients = [], preferences = [], requireAllIngredients = false, useCurrentIngredients = false, useExpiringSoon = false, random = false } = {}) {
+  async function search({
+    query = '',
+    ingredients = [],
+    preferences = [],
+    requireAllIngredients = false,
+    useCurrentIngredients = false,
+    useExpiringSoon = false,
+    useFavoriteIngredients = false,
+    favoriteIngredient = '',
+    random = false,
+  } = {}) {
+    const selectedFavorite = favoriteIngredient ? favoriteIngredient.trim() : '';
+    const usingFavorites = useFavoriteIngredients || Boolean(selectedFavorite);
     const pantrySearch = useCurrentIngredients || requireAllIngredients;
-    // Without typed ingredients, the expiring filter scores recipes against the whole pantry.
-    const available = pantrySearch || (useExpiringSoon && ingredients.length === 0) ? currentIngredients : ingredients;
+    // Without typed ingredients, the expiring or favorite filter scores recipes against the whole pantry.
+    const available = pantrySearch || ((useExpiringSoon || usingFavorites) && ingredients.length === 0) ? currentIngredients : ingredients;
     const expiringIngredients = useExpiringSoon ? expiringSoonNames(pantryIngredients) : [];
-    if ((pantrySearch || useExpiringSoon) && !token) {
+    const favoriteIngredients = selectedFavorite
+      ? [selectedFavorite]
+      : useFavoriteIngredients
+        ? favoriteFoods
+        : [];
+    if ((pantrySearch || useExpiringSoon || usingFavorites) && !token) {
       setError('Log in to filter recipes by your current ingredients.');
       return;
     }
@@ -130,8 +148,12 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
       setError(`Nothing in your pantry expires in the next ${EXPIRING_SOON_DAYS} days.`);
       return;
     }
+    if (usingFavorites && favoriteIngredients.length === 0) {
+      setError('Mark at least one ingredient as a favorite in your pantry before using that filter.');
+      return;
+    }
 
-    if (!random && available.length === 0 && expiringIngredients.length === 0 && preferences.length === 0 && !query.trim()) {
+    if (!random && available.length === 0 && expiringIngredients.length === 0 && favoriteIngredients.length === 0 && preferences.length === 0 && !query.trim()) {
       setError('Enter a search term, an ingredient, or choose a diet.');
       return;
     }
@@ -140,7 +162,17 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
     setLoading(true);
     setError(null);
     try {
-      const matches = await searchRecipes({ query: query.trim(), ingredients: available, expiringIngredients, preferences, requireAllIngredients, limit: 50, random, token });
+      const matches = await searchRecipes({
+        query: query.trim(),
+        ingredients: available,
+        expiringIngredients,
+        favoriteIngredients,
+        preferences,
+        requireAllIngredients,
+        limit: 50,
+        random,
+        token,
+      });
       if (version !== requestVersion.current) return;
       setRecipes(matches.map(match => ({
         ...(match.recipe || match),
@@ -148,6 +180,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
         matchedIngredients: match.matchedIngredients || [],
         missingIngredients: match.missingIngredients || [],
         expiringIngredients: match.expiringIngredients || [],
+        favoriteIngredients: match.favoriteIngredients || [],
       })));
       setSearchActive(true);
       setShowingFavorites(false);
@@ -227,6 +260,7 @@ export function useRecipes(currentUser, { mode = 'feed' } = {}) {
 
   return {
     recipes, feedback, ratings, loading, error, searchActive, showingFavorites,
+    favoriteFoods,
     search, refresh, showFavorites, setRecipeFeedback, setRecipeRating, addNewRecipe,
   };
 }

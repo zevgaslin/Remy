@@ -76,6 +76,25 @@ class CrudApiControllerTest {
 
         assertThat(updateResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(updateResponse.getBody()).containsEntry("name", "Green Apple");
+        assertThat(updateResponse.getBody()).containsEntry("favorite", false);
+
+        ResponseEntity<Map> favResponse = restTemplate.exchange(
+                "/api/ingredients/{id}/favorite",
+                HttpMethod.PUT,
+                new HttpEntity<>(Map.of("favorite", true), headers),
+                Map.class,
+                ingredientId);
+        assertThat(favResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(favResponse.getBody()).containsEntry("favorite", true);
+
+        ResponseEntity<Map> toggleFavResponse = restTemplate.exchange(
+                "/api/ingredients/{id}/favorite",
+                HttpMethod.PUT,
+                new HttpEntity<>(headers),
+                Map.class,
+                ingredientId);
+        assertThat(toggleFavResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(toggleFavResponse.getBody()).containsEntry("favorite", false);
 
         ResponseEntity<Map> deleteResponse = restTemplate.exchange(
                 "/api/ingredients/{id}",
