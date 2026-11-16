@@ -103,16 +103,22 @@ function dateKey(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
+export function getMealServings(recipe) {
+  const parsed = Number(recipe?.plannedServings);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 1;
+}
+
 export function getDailyNutritionTotal(date, meals, mealSlots = DEFAULT_MEAL_SLOTS, supplements = []) {
   const totals = { calories: 0, protein: 0, carbs: 0, fat: 0 };
   const dKey = dateKey(date);
   mealSlots.forEach((slot) => {
     const recipe = meals[`${dKey}::${slot.id}`] ?? meals[`${dKey}-${slot.id}`];
     if (recipe && recipe.nutrition) {
-      totals.calories += recipe.nutrition.calories || 0;
-      totals.protein += recipe.nutrition.protein || 0;
-      totals.carbs += recipe.nutrition.carbs || 0;
-      totals.fat += recipe.nutrition.fat || 0;
+      const servings = getMealServings(recipe);
+      totals.calories += (recipe.nutrition.calories || 0) * servings;
+      totals.protein += (recipe.nutrition.protein || 0) * servings;
+      totals.carbs += (recipe.nutrition.carbs || 0) * servings;
+      totals.fat += (recipe.nutrition.fat || 0) * servings;
     }
   });
   if (Array.isArray(supplements) && supplements.length > 0) {
@@ -122,6 +128,10 @@ export function getDailyNutritionTotal(date, meals, mealSlots = DEFAULT_MEAL_SLO
     totals.carbs += suppTotals.carbs;
     totals.fat += suppTotals.fat;
   }
+  totals.calories = Math.round(totals.calories * 100) / 100;
+  totals.protein = Math.round(totals.protein * 100) / 100;
+  totals.carbs = Math.round(totals.carbs * 100) / 100;
+  totals.fat = Math.round(totals.fat * 100) / 100;
   return totals;
 }
 
@@ -716,6 +726,7 @@ function MealCell({
   onAddClick,
   onRemoveSlot,
   onClearRecipe,
+  onChangeServings,
 }) {
   const { visible, coords, triggerProps } = useRecipeHover();
   const formattedTime = formatTimeString(slotTime);
@@ -793,7 +804,7 @@ function MealCell({
           Remove recipe
         </button>
       )}
-      <MealEatenControl recipe={recipe} day={day} slot={slotId} />
+      <MealEatenControl recipe={recipe} day={day} slot={slotId} onChangeServings={onChangeServings} />
       {visible && <RecipeHoverPopover recipe={recipe} coords={coords} />}
     </div>
   );
@@ -900,6 +911,7 @@ function DayViewStrategy({
   onOpenAddSupplementModal,
   onRemoveMealSlotForDay,
   onClearMealForDay,
+  onChangeMealServings,
 }) {
   const mealSlots = getDaySlots(today);
   const dKey = dateKey(today);
@@ -1124,6 +1136,7 @@ function DayViewStrategy({
                         onAddClick={onOpenPopup}
                         onRemoveSlot={onRemoveMealSlotForDay}
                         onClearRecipe={onClearMealForDay}
+                        onChangeServings={onChangeMealServings}
                       />
                     </div>
                   ))}
@@ -1166,6 +1179,7 @@ function MultiDayMealGridStrategy({
   onOpenAddMealModal,
   onRemoveMealSlotForDay,
   onClearMealForDay,
+  onChangeMealServings,
   onOpenPopup,
 }) {
   const wrapperRef = useRef(null);
@@ -1263,6 +1277,7 @@ function MultiDayMealGridStrategy({
                   onAddClick={onOpenPopup}
                   onRemoveSlot={onRemoveMealSlotForDay}
                   onClearRecipe={onClearMealForDay}
+                  onChangeServings={onChangeMealServings}
                 />
               ))}
               {daySupplements.length > 0 && (
@@ -1413,6 +1428,24 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selec
     void calendar.commit({ revision: calendar.revision, plannedMeals: meals, dailyMealSlots });
   }
 
+  function handleChangeMealServings(day, slotId, nextServings) {
+    const parsed = Number(nextServings);
+    if (!Number.isFinite(parsed) || parsed <= 0 || parsed > 100) return;
+    const key = typeof day === 'string' ? day : dateKey(day);
+    const existingKey = plannedMeals[`${key}::${slotId}`] ? `${key}::${slotId}` : `${key}-${slotId}`;
+    const existing = plannedMeals[existingKey];
+    if (!existing) return;
+    if (Number(existing.plannedServings ?? 1) === parsed) return;
+    const meals = {
+      ...plannedMeals,
+      [existingKey]: {
+        ...existing,
+        plannedServings: parsed,
+      },
+    };
+    void calendar.commit({ revision: calendar.revision, plannedMeals: meals, dailyMealSlots });
+  }
+
   function handleOpenPopup(e, day, slotId) {
     setActivePopup({
       x: e.clientX,
@@ -1427,7 +1460,10 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selec
     const day = dateKey(activePopup.day);
     const meals = { ...plannedMeals };
     delete meals[`${day}-${activePopup.slotId}`];
-    meals[`${day}::${activePopup.slotId}`] = recipe;
+    meals[`${day}::${activePopup.slotId}`] = {
+      ...recipe,
+      plannedServings: getMealServings(recipe),
+    };
     void calendar.commit({ revision: calendar.revision, plannedMeals: meals, dailyMealSlots });
     setActivePopup(null);
   }
@@ -1488,6 +1524,7 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selec
         onOpenAddSupplementModal={() => setAddSupplementModalOpen(true)}
         onRemoveMealSlotForDay={removeMealSlotForDay}
         onClearMealForDay={clearMealForDay}
+        onChangeMealServings={handleChangeMealServings}
         onOpenPopup={handleOpenPopup}
       />
 

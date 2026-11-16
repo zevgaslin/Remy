@@ -82,7 +82,12 @@ function GroceryList({ token, ingredients }) {
   }
 
   const rawItems = list?.items ?? [];
-  const items = reconcileGroceryItemsWithPantry(rawItems, ingredients);
+  const sharedPlannedMeals = plannedMealsSubject.getPlannedMeals();
+  const items = reconcileGroceryItemsWithPantry(rawItems, ingredients, sharedPlannedMeals);
+  const totalPlannedMealsCount = Math.max(
+    list?.plannedMeals ?? 0,
+    Object.keys(sharedPlannedMeals || {}).length,
+  );
   // Unchecked first, so what is left to buy stays at the top.
   const sorted = [...items].sort((a, b) => Number(a.checked) - Number(b.checked));
   const checkedCount = items.filter((item) => item.checked).length;
@@ -108,7 +113,7 @@ function GroceryList({ token, ingredients }) {
 
       {list && items.length === 0 && (
         <p>
-          {list.plannedMeals === 0
+          {totalPlannedMealsCount === 0
             ? 'Nothing to buy. Add recipes to your calendar to build a grocery list.'
             : 'Nothing to buy. Your pantry covers every planned meal.'}
         </p>

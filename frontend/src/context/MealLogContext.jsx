@@ -47,15 +47,37 @@ export function MealLogProvider({ currentUser, children }) {
     retry: () => setRevision(value => value + 1) }}>{children}</MealLogContext.Provider>;
 }
 
-export function MealEatenControl({ recipe, day, slot }) {
+export function MealEatenControl({ recipe, day, slot, onChangeServings }) {
   const context = useMealLogs();
-  const [servings, setServings] = useState('1');
+  const initialServings = recipe?.plannedServings != null && Number.isFinite(Number(recipe.plannedServings)) && Number(recipe.plannedServings) > 0
+    ? String(recipe.plannedServings)
+    : '1';
+  const [servings, setServings] = useState(initialServings);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
-  if (!context?.token) return null;
+
+  useEffect(() => {
+    if (recipe?.plannedServings != null && Number.isFinite(Number(recipe.plannedServings)) && Number(recipe.plannedServings) > 0) {
+      setServings(String(recipe.plannedServings));
+    }
+  }, [recipe?.plannedServings]);
+
+  const hasToken = !!context?.token;
+  if (!hasToken && !onChangeServings) return null;
+
   const date = localDate(day);
-  const entry = context.entries.find(m => m.eatenOn === date && m.slot === slot);
-  const future = date > context.today;
+  const entry = hasToken ? context.entries.find(m => m.eatenOn === date && m.slot === slot) : null;
+  const future = hasToken ? date > context.today : false;
+
+  function handleServingsInput(e) {
+    const nextValue = e.target.value;
+    setServings(nextValue);
+    const parsed = Number(nextValue);
+    if (Number.isFinite(parsed) && parsed > 0 && parsed <= 100) {
+      onChangeServings?.(day, slot, parsed);
+    }
+  }
+
   async function save() {
     setBusy(true); setError('');
     try {
@@ -66,10 +88,12 @@ export function MealEatenControl({ recipe, day, slot }) {
   }
   return <div className="meal-eaten-control">
     {entry ? <span className="meal-eaten-badge">✓ Eaten · {entry.servings} serving{entry.servings === 1 ? '' : 's'}</span> :
-      !future && <label>Servings<input aria-label={`Servings of ${recipe.name}`} type="number" min="0.25" max="100" step="0.25"
-        value={servings} disabled={busy} onChange={e => setServings(e.target.value)} /></label>}
-    <button type="button" disabled={busy || future || !context.ready || (!entry && (!Number.isFinite(Number(servings)) || Number(servings) <= 0 || Number(servings) > 100))}
-      onClick={save}>{busy ? 'Saving…' : entry ? 'Undo eaten' : future ? 'Planned' : 'Mark as eaten'}</button>
+      <label>Servings<input aria-label={`Servings of ${recipe.name}`} type="number" min="0.25" max="100" step="0.25"
+        value={servings} disabled={busy} onChange={handleServingsInput} /></label>}
+    {hasToken && (
+      <button type="button" disabled={busy || future || !context.ready || (!entry && (!Number.isFinite(Number(servings)) || Number(servings) <= 0 || Number(servings) > 100))}
+        onClick={save}>{busy ? 'Saving…' : entry ? 'Undo eaten' : future ? 'Planned' : 'Mark as eaten'}</button>
+    )}
     {error && <p role="alert">{error}</p>}
   </div>;
 }

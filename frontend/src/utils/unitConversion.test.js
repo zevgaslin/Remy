@@ -144,4 +144,41 @@ describe('unitConversion utility', () => {
     expect(getUnitInfo('unknown_xyz').family).toBe('custom:unknown xyz');
     expect(PANTRY_UNIT_CATEGORIES.length).toBeGreaterThanOrEqual(4);
   });
+
+  it('scales pantry requirements and grocery list items when plannedServings is increased', async () => {
+    const { getPlannedMealServings, getPantryRequirementForIngredient } = await import('./unitConversion');
+    expect(getPlannedMealServings({ plannedServings: 3 })).toBe(3);
+    expect(getPlannedMealServings({})).toBe(1);
+
+    const onionPantry = { id: 1, name: 'Onion', quantity: 1, unit: 'lb' }; // 453.592 g
+    const plannedMeals1 = {
+      '2026-10-15::dinner': {
+        id: 10,
+        name: 'Onion Tart',
+        plannedServings: 1,
+        ingredients: [{ name: 'Onion', quantity: 200, unit: 'g' }],
+      },
+    };
+    const req1 = getPantryRequirementForIngredient(onionPantry, plannedMeals1);
+    expect(req1.covered).toBe(true);
+    expect(req1.neededQuantity).toBeCloseTo(0.44, 2);
+
+    const plannedMeals3 = {
+      '2026-10-15::dinner': {
+        id: 10,
+        name: 'Onion Tart',
+        plannedServings: 3,
+        ingredients: [{ name: 'Onion', quantity: 200, unit: 'g' }],
+      },
+    };
+    const req3 = getPantryRequirementForIngredient(onionPantry, plannedMeals3);
+    expect(req3.covered).toBe(false);
+    expect(req3.neededQuantity).toBeCloseTo(1.32, 2);
+
+    const grocery = reconcileGroceryItemsWithPantry([], [onionPantry], plannedMeals3);
+    expect(grocery).toHaveLength(1);
+    expect(grocery[0].name).toBe('Onion');
+    expect(grocery[0].amount).toBe('146.4 g');
+  });
 });
+

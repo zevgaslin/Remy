@@ -29,14 +29,16 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Builds a grocery list from the recipes planned on the user's calendar:
- * every required ingredient, merged by name and unit, minus what the pantry
- * already holds. A recipe planned twice counts twice.
+ * every required ingredient, scaled by the planned servings for each slot,
+ * merged by name and unit, minus what the pantry already holds.
  */
 @Service
 public class GroceryListService {
 
     static final int MAX_RANGE_DAYS = 62;
     static final int MAX_KEY_LENGTH = 255;
+
+    private record PlannedMealEntry(long recipeId, double servings) {}
 
     private final CalendarPlanRepository calendars;
     private final RecipeReadRepository recipes;
@@ -62,24 +64,28 @@ public class GroceryListService {
             throw new IllegalArgumentException("Choose a range of at most " + MAX_RANGE_DAYS + " days.");
         }
 
-        List<Long> plannedRecipeIds = plannedRecipeIds(userId, from, to);
-        Map<Long, Recipe> recipesById = recipes.findInOrder(plannedRecipeIds.stream().distinct().toList()).stream()
+        List<PlannedMealEntry> plannedEntries = plannedMealEntries(userId, from, to);
+        List<Long> distinctIds = plannedEntries.stream().map(PlannedMealEntry::recipeId).distinct().toList();
+        Map<Long, Recipe> recipesById = recipes.findInOrder(distinctIds).stream()
                 .collect(Collectors.toMap(Recipe::getId, Function.identity()));
 
         Map<String, Need> needs = new LinkedHashMap<>();
-        for (Long recipeId : plannedRecipeIds) {
-            Recipe recipe = recipesById.get(recipeId);
+        for (PlannedMealEntry entry : plannedEntries) {
+            Recipe recipe = recipesById.get(entry.recipeId());
             if (recipe == null) {
                 continue; // deleted since it was planned
             }
+            double multiplier = entry.servings() > 0 && Double.isFinite(entry.servings()) ? entry.servings() : 1.0;
             for (RecipeIngredient ingredient : recipe.getIngredients()) {
                 String name = ingredient.getIngredientName();
                 if (ingredient.isOptional() || name == null || name.isBlank() || CookingWater.is(name)) {
                     continue;
                 }
                 String key = IngredientNameNormalizer.canonicalize(name);
+                Double rawQty = ingredient.getQuantity();
+                Double scaledQty = rawQty != null && Double.isFinite(rawQty) ? rawQty * multiplier : null;
                 needs.computeIfAbsent(key, k -> new Need(name.trim()))
-                        .add(recipe.getName(), ingredient.getQuantity(), ingredient.getUnit());
+                        .add(recipe.getName(), scaledQty, ingredient.getUnit());
             }
         }
 
@@ -98,7 +104,7 @@ public class GroceryListService {
             }
         });
         items.sort(Comparator.comparing(GroceryListResponse.Item::name, String.CASE_INSENSITIVE_ORDER));
-        return new GroceryListResponse(from.toString(), to.toString(), plannedRecipeIds.size(), items);
+        return new GroceryListResponse(from.toString(), to.toString(), plannedEntries.size(), items);
     }
 
     @Transactional
@@ -122,16 +128,29 @@ public class GroceryListService {
      * Calendar keys look like "2030-03-04::dinner" (older ones "2030-03-04-dinner").
      * Sorted by key, i.e. by date, so the earliest meal decides how a name is displayed.
      */
-    private List<Long> plannedRecipeIds(Long userId, LocalDate from, LocalDate to) {
-        Map<String, Long> idsByKey = new TreeMap<>();
+    private List<PlannedMealEntry> plannedMealEntries(Long userId, LocalDate from, LocalDate to) {
+        Map<String, PlannedMealEntry> entriesByKey = new TreeMap<>();
         calendars.findById(userId).ifPresent(plan -> plan.plannedMeals.fields().forEachRemaining(entry -> {
             LocalDate date = dateOf(entry.getKey());
-            JsonNode recipeId = entry.getValue().path("id");
+            JsonNode mealNode = entry.getValue();
+            JsonNode recipeId = mealNode.path("id");
             if (date != null && !date.isBefore(from) && !date.isAfter(to) && recipeId.isIntegralNumber()) {
-                idsByKey.put(entry.getKey(), recipeId.asLong());
+                double servings = 1.0;
+                JsonNode servingsNode = mealNode.path("plannedServings");
+                if (!servingsNode.isNumber()) {
+                    servingsNode = mealNode.path("servings");
+                }
+                // Only use `plannedServings` if explicitly set on the calendar slot, otherwise default to 1x
+                if (mealNode.has("plannedServings") && mealNode.path("plannedServings").isNumber()) {
+                    double parsed = mealNode.path("plannedServings").asDouble();
+                    if (Double.isFinite(parsed) && parsed > 0) {
+                        servings = parsed;
+                    }
+                }
+                entriesByKey.put(entry.getKey(), new PlannedMealEntry(recipeId.asLong(), servings));
             }
         }));
-        return List.copyOf(idsByKey.values());
+        return List.copyOf(entriesByKey.values());
     }
 
     private static LocalDate dateOf(String key) {

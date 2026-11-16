@@ -633,3 +633,83 @@ it('opens the linked calendar date and lets Today return to the current day', ()
   fireEvent.click(screen.getByRole('button', { name: 'Today', exact: true }));
   expect(onToday).toHaveBeenCalledOnce();
 });
+
+describe('CalendarPanel serving size updates', () => {
+  const user = { id: 1, username: 'jordan', token: 'user-token' };
+  const now = new Date();
+  const todayKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+
+  beforeEach(() => {
+    vi.clearAllMocks();
+    getCalendar.mockResolvedValue({ revision: 0, plannedMeals: {}, dailyMealSlots: {} });
+    saveCalendar.mockImplementation(async (_, plan) => ({ ...plan, revision: plan.revision + 1 }));
+  });
+
+  it('scales getDailyNutritionTotal by each meal plannedServings', () => {
+    const fixedDate = new Date('2026-10-15T12:00:00Z');
+    const mealSlots = [{ id: 'breakfast' }, { id: 'dinner' }];
+    const mockMeals = {
+      '2026-10-15::breakfast': {
+        plannedServings: 2,
+        nutrition: { calories: 300, protein: 10, carbs: 40, fat: 10 },
+      },
+      '2026-10-15::dinner': {
+        plannedServings: 1.5,
+        nutrition: { calories: 600, protein: 30, carbs: 50, fat: 20 },
+      },
+    };
+
+    const result = getDailyNutritionTotal(fixedDate, mockMeals, mealSlots);
+    expect(result).toEqual({ calories: 1500, protein: 65, carbs: 155, fat: 50 });
+  });
+
+  it('updates meal planner nutrition totals and persists plannedServings when serving size is increased', async () => {
+    getCalendar.mockResolvedValue({
+      revision: 1,
+      plannedMeals: {
+        [`${todayKey}::breakfast`]: {
+          id: 12,
+          name: 'Protein Pancakes',
+          plannedServings: 1,
+          nutrition: { calories: 400, protein: 25, carbs: 45, fat: 10 },
+          ingredients: [{ name: 'Flour', quantity: 1, unit: 'cup' }],
+        },
+      },
+      dailyMealSlots: {},
+    });
+
+    render(<CalendarPanel currentUser={user} />);
+    expect(await screen.findByText('Protein Pancakes')).toBeInTheDocument();
+    expect(screen.getByText('Cal: 400')).toBeInTheDocument();
+    expect(screen.getByText('Pro: 25g')).toBeInTheDocument();
+    expect(screen.getByText('Carb: 45g')).toBeInTheDocument();
+    expect(screen.getByText('Fat: 10g')).toBeInTheDocument();
+
+    const servingsInput = screen.getByLabelText('Servings of Protein Pancakes');
+    expect(servingsInput).toHaveValue(1);
+
+    fireEvent.change(servingsInput, { target: { value: '3' } });
+
+    await waitFor(() => {
+      expect(screen.getByText('Cal: 1200')).toBeInTheDocument();
+      expect(screen.getByText('Pro: 75g')).toBeInTheDocument();
+      expect(screen.getByText('Carb: 135g')).toBeInTheDocument();
+      expect(screen.getByText('Fat: 30g')).toBeInTheDocument();
+    });
+
+    expect(saveCalendar).toHaveBeenCalledWith(
+      'user-token',
+      expect.objectContaining({
+        plannedMeals: {
+          [`${todayKey}::breakfast`]: expect.objectContaining({
+            id: 12,
+            name: 'Protein Pancakes',
+            plannedServings: 3,
+          }),
+        },
+      }),
+    );
+    expect(plannedMealsSubject.getPlannedMeals()[`${todayKey}::breakfast`].plannedServings).toBe(3);
+  });
+});
+
