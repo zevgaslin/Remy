@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { NUTRIENTS } from '../utils/nutritionGoals';
+import { useSupplements } from '../hooks/useSupplements';
+import { collectSupplementEffects, getSupplementNutritionTotals } from '../services/supplementServices';
 import GoalPresetPicker from './GoalPresetPicker';
 
 function toForm(goals) {
@@ -17,10 +19,16 @@ function validate(form) {
 }
 
 function NutritionGoalsCard({ currentUser, goals, loadError, onSave }) {
+  const { supplements } = useSupplements(currentUser);
   const [form, setForm] = useState(null);
   const [error, setError] = useState('');
   const [saving, setSaving] = useState(false);
   const [presetNote, setPresetNote] = useState('');
+
+  const goalSupplements = supplements.filter((s) => s.addToGoals);
+  const supplementEffects = collectSupplementEffects(supplements, { onlyGoals: true });
+  const supplementMacros = getSupplementNutritionTotals(supplements);
+  const hasSupplementMacros = Object.values(supplementMacros).some((v) => v > 0);
 
   function startEditing() {
     setForm(toForm(goals));
@@ -101,17 +109,41 @@ function NutritionGoalsCard({ currentUser, goals, loadError, onSave }) {
           </div>
         </form>
       ) : (
-        <ul className="goals-list">
-          {NUTRIENTS.map(({ key, label, suffix, unit }) => (
-            <li key={key}>
-              <strong>
-                {goals[key]}
-                {suffix || ` ${unit}`}
-              </strong>{' '}
-              <span>{label.toLowerCase()}</span>
-            </li>
-          ))}
-        </ul>
+        <>
+          <ul className="goals-list">
+            {NUTRIENTS.map(({ key, label, suffix, unit }) => (
+              <li key={key}>
+                <strong>
+                  {goals[key]}
+                  {suffix || ` ${unit}`}
+                </strong>{' '}
+                <span>{label.toLowerCase()}</span>
+              </li>
+            ))}
+          </ul>
+
+          {(goalSupplements.length > 0 || supplementEffects.length > 0) && (
+            <div className="goals-supplements-summary" aria-label="Daily supplement effects">
+              <div className="goals-supplements-header">
+                <strong>Daily Supplements ({goalSupplements.map((s) => `${s.name} · ${s.dosage}`).join(', ')})</strong>
+                {hasSupplementMacros && (
+                  <span className="goals-supplements-macros">
+                    Provides +{supplementMacros.calories} kcal · +{supplementMacros.protein}g protein · +{supplementMacros.carbs}g carbs · +{supplementMacros.fat}g fat
+                  </span>
+                )}
+              </div>
+              {supplementEffects.length > 0 && (
+                <ul className="supplement-effects-list" aria-label="Supplement effect messages">
+                  {supplementEffects.map((item) => (
+                    <li key={item.id} className="supplement-effect-box">
+                      {item.text}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+        </>
       )}
     </section>
   );

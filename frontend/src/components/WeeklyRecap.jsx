@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useMealLogs } from '../context/useMealLogs';
+import { useSupplements } from '../hooks/useSupplements';
+import { collectSupplementEffects, getScheduledSupplementsForDate } from '../services/supplementServices';
 import { getWeeklyRecap, localDate, monday } from '../services/mealLogServices';
 import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
 import './WeeklyRecap.css';
@@ -211,6 +213,8 @@ export function WeeklyNutritionGraph({ recap, goals = DEFAULT_GOALS }) {
 
 export default function WeeklyRecap({ goals = DEFAULT_GOALS }) {
   const context = useMealLogs();
+  const token = context.token;
+  const { supplements } = useSupplements(token);
   const [offset, setOffset] = useState(-1);
   const [loaded, setLoaded] = useState(null);
   const [failure, setFailure] = useState(null);
@@ -219,7 +223,6 @@ export default function WeeklyRecap({ goals = DEFAULT_GOALS }) {
   const anchor = new Date(`${context.today}T12:00:00`);
   anchor.setDate(anchor.getDate() + offset * 7);
   const week = monday(anchor);
-  const token = context.token;
   const error = failure?.week === week && failure?.token === token ? failure.message : '';
   useEffect(() => {
     if (!token) return;
@@ -232,6 +235,7 @@ export default function WeeklyRecap({ goals = DEFAULT_GOALS }) {
   if (!token) return null;
   const recap = loaded?.token === token && loaded?.week === week && loaded?.revision === context.revision ? loaded.recap : null;
   const formatDate = date => new Date(`${date}T12:00:00`).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+  const weeklyEffects = collectSupplementEffects(supplements, { onlyGoals: true });
   async function undo(id) {
     setBusy(true);
     try { await context.undo(id); } catch (err) { setFailure({ token, week, message: err.message }); }
@@ -252,6 +256,18 @@ export default function WeeklyRecap({ goals = DEFAULT_GOALS }) {
       <p><strong>{recap.mealsLogged} meals eaten</strong> · {recap.daysLogged} of 7 days logged</p>
       {!recap.mealsLogged && <p>No meals logged for this week. Choose a recipe in your calendar and mark it as eaten to start your journal.</p>}
       <WeeklyNutritionGraph recap={recap} goals={goals} />
+      {weeklyEffects.length > 0 && (
+        <div className="recap-supplements-card" aria-label="Weekly supplement effects">
+          <h4>Daily supplement benefits</h4>
+          <ul className="supplement-effects-list">
+            {weeklyEffects.map((eff) => (
+              <li key={eff.id} className="supplement-effect-box">
+                {eff.text}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       <div className="recap-stats">{NUTRIENTS.map(({key,label,unit}) => {
         const known = recap.days.filter(d => d.totals[key] != null);
         const average = known.length ? Math.round(known.reduce((sum,d) => sum+d.totals[key],0)/known.length) : null;
@@ -260,15 +276,24 @@ export default function WeeklyRecap({ goals = DEFAULT_GOALS }) {
           <p>{recap.goalDays[key]} of {known.length} days hit goal</p></article>;
       })}</div>
       <p className="recap-note">Goals use the targets saved with your first eaten meal that day. Protein meets goal at or above target; calories, carbs, and fat use a ±10% range. Missing days and missing nutrition are unknown, not zero. Totals reflect only food you logged.</p>
-      <div className="recap-days">{recap.days.map(day => <details key={day.date}>
-        <summary>{formatDate(day.date)} · {day.meals.length ? `${day.meals.length} meals` : 'No food logged'}</summary>
-        {day.meals.length > 0 && <>
-          <ul>{day.meals.map(meal => <li key={meal.id}><span>{meal.recipeName} · {meal.servings} serving{meal.servings === 1 ? '' : 's'} · {meal.calories == null ? 'Calories unknown' : `${Math.round(meal.calories)} kcal`}</span>
-            <button disabled={busy} onClick={() => undo(meal.id)} aria-label={`Undo eaten ${meal.recipeName} on ${day.date}`}>Undo eaten</button></li>)}</ul>
-          <dl>{NUTRIENTS.map(({key,label,unit}) => <div key={key}><dt>{label}</dt>
-            <dd>{day.totals[key] == null ? 'Unknown nutrition' : `${Math.round(day.totals[key])} / ${day.goals[key]} ${unit}`} · {day.goalsHit[key] == null ? 'Unknown' : day.goalsHit[key] ? 'Goal hit' : 'Outside goal'}</dd></div>)}</dl>
-        </>}
-      </details>)}</div>
+      <div className="recap-days">{recap.days.map(day => {
+        const daySupps = getScheduledSupplementsForDate(supplements, day.date);
+        const dayEffects = collectSupplementEffects(supplements, { date: day.date });
+        return <details key={day.date}>
+          <summary>{formatDate(day.date)} · {day.meals.length ? `${day.meals.length} meals` : 'No food logged'}{daySupps.length > 0 ? ` · ${daySupps.length} supplement${daySupps.length === 1 ? '' : 's'}` : ''}</summary>
+          {day.meals.length > 0 && <>
+            <ul>{day.meals.map(meal => <li key={meal.id}><span>{meal.recipeName} · {meal.servings} serving{meal.servings === 1 ? '' : 's'} · {meal.calories == null ? 'Calories unknown' : `${Math.round(meal.calories)} kcal`}</span>
+              <button disabled={busy} onClick={() => undo(meal.id)} aria-label={`Undo eaten ${meal.recipeName} on ${day.date}`}>Undo eaten</button></li>)}</ul>
+            <dl>{NUTRIENTS.map(({key,label,unit}) => <div key={key}><dt>{label}</dt>
+              <dd>{day.totals[key] == null ? 'Unknown nutrition' : `${Math.round(day.totals[key])} / ${day.goals[key]} ${unit}`} · {day.goalsHit[key] == null ? 'Unknown' : day.goalsHit[key] ? 'Goal hit' : 'Outside goal'}</dd></div>)}</dl>
+          </>}
+          {dayEffects.length > 0 && (
+            <ul className="supplement-effects-list" aria-label={`Supplements on ${day.date}`}>
+              {dayEffects.map(eff => <li key={eff.id} className="supplement-effect-box">{eff.text}</li>)}
+            </ul>
+          )}
+        </details>;
+      })}</div>
     </>}
   </section>;
 }

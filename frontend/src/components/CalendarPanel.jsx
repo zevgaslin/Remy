@@ -4,6 +4,15 @@ import { useRecipeHover } from '../hooks/useRecipeHover';
 import RecipeHoverPopover from './RecipeHoverPopover';
 import RecipeIllustration from './RecipeIllustration';
 import { useRecipes } from '../hooks/useRecipes';
+import { useSupplements } from '../hooks/useSupplements';
+import {
+  SUPPLEMENT_FREQUENCIES,
+  SUPPLEMENT_TIMING_OPTIONS,
+  collectSupplementEffects,
+  getScheduledSupplementsForDate,
+  getSupplementNutritionTotals,
+  getSupplementTimeInfo,
+} from '../services/supplementServices';
 import { DEFAULT_GOALS, NUTRIENTS } from '../utils/nutritionGoals';
 import { useCalendarPlan } from '../hooks/useCalendarPlan';
 
@@ -94,7 +103,7 @@ function dateKey(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
-export function getDailyNutritionTotal(date, meals, mealSlots = DEFAULT_MEAL_SLOTS) {
+export function getDailyNutritionTotal(date, meals, mealSlots = DEFAULT_MEAL_SLOTS, supplements = []) {
   const totals = { calories: 0, protein: 0, carbs: 0, fat: 0 };
   const dKey = dateKey(date);
   mealSlots.forEach((slot) => {
@@ -106,6 +115,13 @@ export function getDailyNutritionTotal(date, meals, mealSlots = DEFAULT_MEAL_SLO
       totals.fat += recipe.nutrition.fat || 0;
     }
   });
+  if (Array.isArray(supplements) && supplements.length > 0) {
+    const suppTotals = getSupplementNutritionTotals(supplements, date);
+    totals.calories += suppTotals.calories;
+    totals.protein += suppTotals.protein;
+    totals.carbs += suppTotals.carbs;
+    totals.fat += suppTotals.fat;
+  }
   return totals;
 }
 
@@ -127,7 +143,7 @@ export function getNutritionGoalColor(totals, goals = DEFAULT_GOALS) {
   return 'green';
 }
 
-export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS }) {
+export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS, supplementEffects = [] }) {
   return (
     <div className="daily-nutrition-summary">
       <div className="daily-nutrition-title">Planned vs goal</div>
@@ -167,6 +183,19 @@ export function DailyNutritionSummary({ totals, goals = DEFAULT_GOALS }) {
           </div>
         );
       })}
+      {supplementEffects.length > 0 && (
+        <ul className="supplement-effects-list daily-supplement-effects" aria-label="Daily supplement effects">
+          {supplementEffects.map((effect, idx) => {
+            const text = typeof effect === 'string' ? effect : effect.text;
+            const key = typeof effect === 'string' ? `${idx}-${effect}` : effect.id || `${idx}-${text}`;
+            return (
+              <li key={key} className="supplement-effect-box">
+                {text}
+              </li>
+            );
+          })}
+        </ul>
+      )}
     </div>
   );
 }
@@ -440,6 +469,244 @@ function AddMealModal({ day, showApplyAllOption, onClose, onAdd }) {
   );
 }
 
+function AddCalendarSupplementModal({ supplements = [], onClose, onAdd }) {
+  const [selectedId, setSelectedId] = useState(() => supplements[0]?.id ?? '');
+  const selectedSupplement = supplements.find((s) => s.id === selectedId) ?? supplements[0] ?? null;
+  const [frequency, setFrequency] = useState(() => selectedSupplement?.frequency || 'daily');
+  const [timeOfDay, setTimeOfDay] = useState(() => getSupplementTimeInfo(selectedSupplement).time);
+  const [withFood, setWithFood] = useState(() => Boolean(selectedSupplement?.withFood));
+
+  function handleSelectChange(id) {
+    setSelectedId(id);
+    const next = supplements.find((s) => s.id === id);
+    if (next) {
+      setFrequency(next.frequency || 'daily');
+      setTimeOfDay(getSupplementTimeInfo(next).time);
+      setWithFood(Boolean(next.withFood));
+    }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (!selectedSupplement) return;
+    onAdd({
+      ...selectedSupplement,
+      frequency,
+      timeOfDay,
+      withFood,
+      addToGoals: true,
+      addToCalendar: true,
+    });
+  }
+
+  return (
+    <>
+      <div
+        style={{
+          position: 'fixed',
+          inset: 0,
+          background: 'var(--backdrop)',
+          zIndex: 999,
+        }}
+        onClick={onClose}
+      />
+      <div
+        className="add-supplement-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Add Supplement to Calendar"
+        style={{
+          position: 'fixed',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          background: 'var(--bg)',
+          color: 'var(--text-h)',
+          border: '1px solid var(--border)',
+          borderRadius: '8px',
+          padding: '16px',
+          width: '360px',
+          maxWidth: 'calc(100vw - 32px)',
+          maxHeight: '90vh',
+          overflowY: 'auto',
+          boxSizing: 'border-box',
+          zIndex: 1000,
+          boxShadow: 'var(--shadow)',
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            marginBottom: '12px',
+            fontWeight: 'bold',
+          }}
+        >
+          <span>Add Supplement to Calendar</span>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close supplement modal"
+            style={{ border: 'none', background: 'none', cursor: 'pointer', fontSize: '1rem' }}
+          >
+            ✕
+          </button>
+        </div>
+
+        {supplements.length === 0 ? (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <p style={{ margin: 0, fontSize: '0.9rem' }}>
+              No supplements in your pantry yet. Add supplements in the Pantry tab first.
+            </p>
+            <button
+              type="button"
+              onClick={onClose}
+              style={{
+                alignSelf: 'flex-end',
+                padding: '6px 12px',
+                borderRadius: '4px',
+                border: '1px solid var(--border)',
+                background: 'var(--code-bg)',
+                color: 'var(--text-h)',
+                cursor: 'pointer',
+              }}
+            >
+              Close
+            </button>
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <label style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '0.85rem' }}>
+              <span>Pantry Supplement</span>
+              <select
+                aria-label="Pantry Supplement"
+                value={selectedSupplement?.id ?? ''}
+                onChange={(e) => handleSelectChange(e.target.value)}
+                style={{ padding: '6px 8px', borderRadius: '4px', border: '1px solid var(--border)' }}
+              >
+                {supplements.map((supp) => (
+                  <option key={supp.id} value={supp.id}>
+                    {supp.name} ({supp.dosage})
+                  </option>
+                ))}
+              </select>
+            </label>
+
+            <label style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '0.85rem' }}>
+              <span>Frequency</span>
+              <select
+                aria-label="Supplement Frequency"
+                value={frequency}
+                onChange={(e) => setFrequency(e.target.value)}
+                style={{ padding: '6px 8px', borderRadius: '4px', border: '1px solid var(--border)' }}
+              >
+                {SUPPLEMENT_FREQUENCIES.map((f) => (
+                  <option key={f.value} value={f.value}>{f.label}</option>
+                ))}
+              </select>
+            </label>
+
+            <label style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '0.85rem' }}>
+              <span>Time</span>
+              <select
+                aria-label="Supplement Time"
+                value={timeOfDay}
+                onChange={(e) => setTimeOfDay(e.target.value)}
+                style={{ padding: '6px 8px', borderRadius: '4px', border: '1px solid var(--border)' }}
+              >
+                {SUPPLEMENT_TIMING_OPTIONS.map((t) => (
+                  <option key={t.value} value={t.value}>{t.label}</option>
+                ))}
+              </select>
+            </label>
+
+            <label style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.85rem' }}>
+              <input type="checkbox" checked={withFood} onChange={(e) => setWithFood(e.target.checked)} />
+              <span>Take with food</span>
+            </label>
+
+            <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '8px', marginTop: '4px' }}>
+              <button
+                type="button"
+                onClick={onClose}
+                style={{
+                  padding: '6px 12px',
+                  borderRadius: '4px',
+                  border: '1px solid var(--border)',
+                  background: 'var(--code-bg)',
+                  color: 'var(--text-h)',
+                  cursor: 'pointer',
+                }}
+              >
+                Cancel
+              </button>
+              <button
+                type="submit"
+                style={{
+                  padding: '6px 12px',
+                  borderRadius: '4px',
+                  border: 'none',
+                  background: 'var(--accent)',
+                  color: 'var(--on-accent)',
+                  cursor: 'pointer',
+                }}
+              >
+                Save Supplement
+              </button>
+            </div>
+          </form>
+        )}
+      </div>
+    </>
+  );
+}
+
+function SupplementChipList({ supplements = [], day, onToggleTaken }) {
+  if (!supplements || supplements.length === 0) return null;
+  const dKey = dateKey(day);
+  return (
+    <div className="calendar-supplement-list" aria-label={`Supplements on ${dKey}`}>
+      {supplements.map((supp) => {
+        const taken = Array.isArray(supp.takenDates) && supp.takenDates.includes(dKey);
+        const timeLabel = formatTimeString(getSupplementTimeInfo(supp).time);
+        return (
+          <div key={supp.id} className={`calendar-supplement-chip${taken ? ' taken' : ''}`}>
+            <div className="calendar-supplement-info">
+              <span className="calendar-supplement-name">
+                {timeLabel} · {supp.name} ({supp.dosage})
+              </span>
+              {supp.withFood && <span className="calendar-supplement-note">Take with food</span>}
+              {supp.effects?.length > 0 && (
+                <div className="calendar-supplement-effects">
+                  {supp.effects.map((eff, idx) => (
+                    <span key={idx} className="supplement-effect-box">
+                      {eff}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+            {onToggleTaken && (
+              <button
+                type="button"
+                className="calendar-supplement-taken-btn"
+                aria-label={taken ? `Undo taken ${supp.name} on ${dKey}` : `Mark ${supp.name} taken on ${dKey}`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onToggleTaken(supp.id, dKey);
+                }}
+              >
+                {taken ? '✓ Taken' : 'Take'}
+              </button>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 function MealCell({
   recipe,
   slotLabel,
@@ -581,6 +848,7 @@ function MonthViewStrategy({
   plannedMeals = {},
   plannedDateKeys = new Set(),
   goals = DEFAULT_GOALS,
+  supplements = [],
 }) {
   return (
     <div className="calendar-grid month">
@@ -594,7 +862,7 @@ function MonthViewStrategy({
         const hasPlannedMeals = plannedDateKeys.has(dKey);
         const goalColor = hasPlannedMeals
           ? getNutritionGoalColor(
-              getDailyNutritionTotal(day, plannedMeals, getDaySlots(day)),
+              getDailyNutritionTotal(day, plannedMeals, getDaySlots(day), supplements),
               goals
             )
           : null;
@@ -625,17 +893,22 @@ function DayViewStrategy({
   getDaySlots,
   plannedMeals,
   goals,
+  supplements = [],
+  onToggleSupplementTaken,
   onOpenPopup,
   onOpenAddMealModal,
+  onOpenAddSupplementModal,
   onRemoveMealSlotForDay,
   onClearMealForDay,
 }) {
   const mealSlots = getDaySlots(today);
   const dKey = dateKey(today);
+  const daySupplements = getScheduledSupplementsForDate(supplements, today);
+  const dayEffects = collectSupplementEffects(supplements, { date: today });
 
   // Build compressed timeline rows starting at 12 AM (hour 0) and ending at 12 AM (hour 24)
   const timelineRows = useMemo(() => {
-    const hoursWithMeals = Array.from({ length: 24 }, (_, hour) => {
+    const hoursWithEvents = Array.from({ length: 24 }, (_, hour) => {
       const mealsThisHour = mealSlots.filter((slot, index) => {
         const slotHour =
           slot.hour !== undefined
@@ -645,25 +918,31 @@ function DayViewStrategy({
             : parseHourFromTime(slot.time, Math.min(20 + index, 23));
         return slotHour === hour;
       });
-      return { hour, meals: mealsThisHour };
+      const suppsThisHour = daySupplements.filter((supp) => getSupplementTimeInfo(supp).hour === hour);
+      return { hour, meals: mealsThisHour, supplements: suppsThisHour };
     });
 
     const rows = [];
     let i = 0;
 
     while (i < 24) {
-      if (hoursWithMeals[i].meals.length > 0) {
+      if (hoursWithEvents[i].meals.length > 0 || hoursWithEvents[i].supplements.length > 0) {
         rows.push({
           type: 'single',
           startHour: i,
           endHour: i,
           label: formatHour(i, true),
-          meals: hoursWithMeals[i].meals,
+          meals: hoursWithEvents[i].meals,
+          supplements: hoursWithEvents[i].supplements,
         });
         i += 1;
       } else {
         let end = i;
-        while (end + 1 < 24 && hoursWithMeals[end + 1].meals.length === 0) {
+        while (
+          end + 1 < 24 &&
+          hoursWithEvents[end + 1].meals.length === 0 &&
+          hoursWithEvents[end + 1].supplements.length === 0
+        ) {
           end += 1;
         }
 
@@ -677,6 +956,7 @@ function DayViewStrategy({
             endHour: end,
             label: formatHourRange(i, end),
             meals: [],
+            supplements: [],
           });
         } else {
           // 1 or 2 unused hours -> keep as individual single-hour rows
@@ -690,6 +970,7 @@ function DayViewStrategy({
                   ? `${formatHour(23, true)} – ${formatHour(24, true)}`
                   : formatHour(h, true),
               meals: [],
+              supplements: [],
             });
           }
         }
@@ -698,7 +979,7 @@ function DayViewStrategy({
     }
 
     return rows;
-  }, [mealSlots]);
+  }, [mealSlots, daySupplements]);
 
   // Calculate current hour & minute from timeProgress so the indicator aligns with compressed rows
   const totalMinutesToday = (timeProgress / 100) * (24 * 60);
@@ -736,20 +1017,36 @@ function DayViewStrategy({
             {today.toLocaleDateString(undefined, { weekday: 'short' }).toUpperCase()}
           </span>
           <span className="calendar-day-number">{today.getDate()}</span>
-          <button
-            type="button"
-            className="add-meal-slot"
-            onClick={() => onOpenAddMealModal(today)}
-            style={{
-              marginLeft: 'auto',
-              fontSize: '0.85rem',
-              fontWeight: 600,
-              padding: '4px 10px',
-              cursor: 'pointer',
-            }}
-          >
-            + Add Meals
-          </button>
+          <div style={{ marginLeft: 'auto', display: 'flex', gap: '6px' }}>
+            {onOpenAddSupplementModal && (
+              <button
+                type="button"
+                className="add-meal-slot"
+                onClick={() => onOpenAddSupplementModal(today)}
+                style={{
+                  fontSize: '0.85rem',
+                  fontWeight: 600,
+                  padding: '4px 10px',
+                  cursor: 'pointer',
+                }}
+              >
+                + Add Supplement
+              </button>
+            )}
+            <button
+              type="button"
+              className="add-meal-slot"
+              onClick={() => onOpenAddMealModal(today)}
+              style={{
+                fontSize: '0.85rem',
+                fontWeight: 600,
+                padding: '4px 10px',
+                cursor: 'pointer',
+              }}
+            >
+              + Add Meals
+            </button>
+          </div>
         </div>
       </div>
 
@@ -771,7 +1068,7 @@ function DayViewStrategy({
             return (
               <div
                 key={`${row.startHour}-${row.endHour}`}
-                className={`timeline-hour-row${row.type === 'range' ? ' timeline-hour-range' : ''}${row.meals.length ? ' timeline-hour-row--meal' : ' timeline-hour-row--empty'}`}
+                className={`timeline-hour-row${row.type === 'range' ? ' timeline-hour-range' : ''}${row.meals.length || row.supplements?.length ? ' timeline-hour-row--meal' : ' timeline-hour-row--empty'}`}
                 style={{
                   position: 'relative',
                   display: 'flex',
@@ -830,6 +1127,13 @@ function DayViewStrategy({
                       />
                     </div>
                   ))}
+                  {row.supplements?.length > 0 && (
+                    <SupplementChipList
+                      supplements={row.supplements}
+                      day={today}
+                      onToggleTaken={onToggleSupplementTaken}
+                    />
+                  )}
                 </div>
               </div>
             );
@@ -842,8 +1146,9 @@ function DayViewStrategy({
         style={{ borderTop: '1px solid var(--border)', padding: '12px' }}
       >
         <DailyNutritionSummary
-          totals={getDailyNutritionTotal(today, plannedMeals, mealSlots)}
+          totals={getDailyNutritionTotal(today, plannedMeals, mealSlots, supplements)}
           goals={goals}
+          supplementEffects={dayEffects}
         />
       </div>
     </div>
@@ -856,6 +1161,8 @@ function MultiDayMealGridStrategy({
   getDaySlots,
   plannedMeals,
   goals,
+  supplements = [],
+  onToggleSupplementTaken,
   onOpenAddMealModal,
   onRemoveMealSlotForDay,
   onClearMealForDay,
@@ -927,6 +1234,9 @@ function MultiDayMealGridStrategy({
         {days.map((day) => {
           const dKey = dateKey(day);
           const daySlots = getDaySlots(day);
+          const daySupplements = [...getScheduledSupplementsForDate(supplements, day)].sort(
+            (a, b) => getSupplementTimeInfo(a).hour - getSupplementTimeInfo(b).hour,
+          );
 
           return (
             <div
@@ -955,6 +1265,13 @@ function MultiDayMealGridStrategy({
                   onClearRecipe={onClearMealForDay}
                 />
               ))}
+              {daySupplements.length > 0 && (
+                <SupplementChipList
+                  supplements={daySupplements}
+                  day={day}
+                  onToggleTaken={onToggleSupplementTaken}
+                />
+              )}
             </div>
           );
         })}
@@ -967,8 +1284,9 @@ function MultiDayMealGridStrategy({
             style={{ borderTop: '2px solid var(--border)', padding: '4px' }}
           >
             <DailyNutritionSummary
-              totals={getDailyNutritionTotal(day, plannedMeals, getDaySlots(day))}
+              totals={getDailyNutritionTotal(day, plannedMeals, getDaySlots(day), supplements)}
               goals={goals}
+              supplementEffects={collectSupplementEffects(supplements, { date: day })}
             />
           </div>
         ))}
@@ -1016,6 +1334,7 @@ const VIEWS = Object.values(VIEW_STRATEGIES);
 
 function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selectedDate = null, onToday }) {
   const calendar = useCalendarPlan(currentUser);
+  const { supplements, addOrUpdateSupplement, toggleTaken } = useSupplements(currentUser);
   const { plannedMeals, dailyMealSlots } = calendar;
   const [view, setView] = useState('day');
   const actualToday = useToday();
@@ -1024,6 +1343,7 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selec
 
   const [activePopup, setActivePopup] = useState(null);
   const [addMealModalDay, setAddMealModalDay] = useState(null);
+  const [addSupplementModalOpen, setAddSupplementModalOpen] = useState(false);
 
   // Resolve the active strategy (falls back to 'day' if an unknown key is passed)
   const activeStrategy = VIEW_STRATEGIES[view] || VIEW_STRATEGIES.day;
@@ -1112,6 +1432,11 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selec
     setActivePopup(null);
   }
 
+  function handleAddSupplementFromCalendar(suppData) {
+    addOrUpdateSupplement(suppData);
+    setAddSupplementModalOpen(false);
+  }
+
   return (
     <section
       className="calendar-panel"
@@ -1157,7 +1482,10 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selec
         plannedMeals={plannedMeals}
         plannedDateKeys={plannedDateKeys}
         goals={goals}
+        supplements={supplements}
+        onToggleSupplementTaken={toggleTaken}
         onOpenAddMealModal={(day) => setAddMealModalDay(day)}
+        onOpenAddSupplementModal={() => setAddSupplementModalOpen(true)}
         onRemoveMealSlotForDay={removeMealSlotForDay}
         onClearMealForDay={clearMealForDay}
         onOpenPopup={handleOpenPopup}
@@ -1169,6 +1497,14 @@ function CalendarPanelSession({ goals = DEFAULT_GOALS, currentUser = null, selec
           showApplyAllOption={days.length === 7}
           onClose={() => setAddMealModalDay(null)}
           onAdd={handleAddMealForDay}
+        />
+      )}
+
+      {addSupplementModalOpen && (
+        <AddCalendarSupplementModal
+          supplements={supplements}
+          onClose={() => setAddSupplementModalOpen(false)}
+          onAdd={handleAddSupplementFromCalendar}
         />
       )}
 

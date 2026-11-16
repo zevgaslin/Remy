@@ -43,6 +43,7 @@ afterEach(() => {
 // The planned meals live in a shared module-level subject,
 // so reset them before every test to keep tests independent.
 beforeEach(() => {
+  localStorage.clear();
   setSharedPlannedMeals({});
   groceryListServices.getGroceryList.mockResolvedValue(emptyGroceryList);
 });
@@ -175,27 +176,35 @@ describe('IngredientsPanel pantry quantities', () => {
   });
 });
 
-describe('IngredientsPanel favorite foods', () => {
+describe('IngredientsPanel favorite foods & Supplements toggle bar', () => {
   beforeEach(() => {
     vi.clearAllMocks();
     ingredientServices.getMyIngredients.mockResolvedValue(ingredients);
   });
 
-  it('toggles an ingredient as a favorite food and filters by Favorite Foods', async () => {
+  it('renders All Foods, Supplements, and Favorite foods in the toggle bar and switches between them', async () => {
     ingredientServices.toggleFavoriteIngredient.mockResolvedValue({
       ...ingredients[0],
       favorite: true,
     });
     await renderPanel();
 
+    const tabs = screen.getAllByRole('tab');
+    expect(tabs.map((t) => t.textContent)).toEqual(['All Foods', 'Supplements', 'Favorite foods']);
+
     const favMilkBtn = screen.getByRole('button', { name: 'Favorite Milk' });
     expect(favMilkBtn).toHaveAttribute('aria-pressed', 'false');
     expect(screen.getByRole('button', { name: 'Unfavorite Eggs' })).toHaveAttribute('aria-pressed', 'true');
 
-    // Filter to Favorite Foods only before toggling Milk
-    fireEvent.click(screen.getByRole('tab', { name: '♥ Favorite Foods' }));
+    // Filter to Favorite foods only before toggling Milk
+    fireEvent.click(screen.getByRole('tab', { name: 'Favorite foods' }));
     expect(screen.queryByText('Milk')).not.toBeInTheDocument();
     expect(screen.getByText('Eggs')).toBeInTheDocument();
+
+    // Switch to Supplements panel
+    fireEvent.click(screen.getByRole('tab', { name: 'Supplements' }));
+    expect(screen.getByTestId('supplements-panel')).toBeInTheDocument();
+    expect(screen.queryByText('Eggs')).not.toBeInTheDocument();
 
     // Switch back to All Foods and favorite Milk
     fireEvent.click(screen.getByRole('tab', { name: 'All Foods' }));
@@ -205,6 +214,47 @@ describe('IngredientsPanel favorite foods', () => {
 
     expect(ingredientServices.toggleFavoriteIngredient).toHaveBeenCalledWith('abc', 10, true);
     expect(screen.getByRole('button', { name: 'Unfavorite Milk' })).toHaveAttribute('aria-pressed', 'true');
+  });
+
+  it('adds, edits, and deletes supplements with effect text boxes and trash can inside the Supplements panel', async () => {
+    await renderPanel();
+
+    fireEvent.click(screen.getByRole('tab', { name: 'Supplements' }));
+
+    // Open Add Supplement modal (no quick presets, no Add to Nutrition Goals, no Add to Calendar Menu)
+    fireEvent.click(screen.getByRole('button', { name: '+ Add Supplement' }));
+    expect(screen.getByRole('dialog', { name: 'Add Supplement' })).toBeInTheDocument();
+    expect(screen.queryByText('Quick presets:')).not.toBeInTheDocument();
+    expect(screen.queryByLabelText('Add to Nutrition Goals')).not.toBeInTheDocument();
+    expect(screen.queryByLabelText('Add to Calendar Menu')).not.toBeInTheDocument();
+
+    // Manually fill supplement fields and effect text boxes
+    fireEvent.change(screen.getByLabelText('Supplement Name'), { target: { value: 'Vitamin B12 Complex' } });
+    fireEvent.change(screen.getByLabelText('Dosage / Serving'), { target: { value: '1000 mcg' } });
+    fireEvent.change(screen.getByLabelText('Supplement effect 1'), { target: { value: '+ 490% B12' } });
+
+    // Add another effect box and remove it
+    fireEvent.click(screen.getByRole('button', { name: '+ Add Effect Message' }));
+    expect(screen.getByLabelText('Supplement effect 2')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: 'Remove effect 2' }));
+
+    // Save the supplement
+    fireEvent.click(screen.getByRole('button', { name: 'Add Supplement' }));
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+
+    // Verify it renders in the supplements list with its effect text boxes
+    expect(screen.getByText('Vitamin B12 Complex')).toBeInTheDocument();
+    expect(screen.getByText('+ 490% B12')).toBeInTheDocument();
+
+    // Edit the supplement
+    fireEvent.click(screen.getByRole('button', { name: 'Edit Vitamin B12 Complex' }));
+    fireEvent.change(screen.getByLabelText('Supplement effect 1'), { target: { value: '+ 500% B12' } });
+    fireEvent.click(screen.getByRole('button', { name: 'Save Supplement' }));
+    expect(screen.getByText('+ 500% B12')).toBeInTheDocument();
+
+    // Delete the supplement via the trash can / Delete key
+    fireEvent.keyDown(screen.getByText('Vitamin B12 Complex').closest('li'), { key: 'Delete' });
+    expect(screen.queryByText('Vitamin B12 Complex')).not.toBeInTheDocument();
   });
 
   it('reverts the favorite state and shows an error toast if toggling fails', async () => {
@@ -219,13 +269,13 @@ describe('IngredientsPanel favorite foods', () => {
     expect(screen.getByRole('status')).toHaveTextContent('Could not update favorite status for Milk.');
   });
 
-  it('shows an empty message when filtering by Favorite Foods with none marked', async () => {
+  it('shows an empty message when filtering by Favorite foods with none marked', async () => {
     ingredientServices.getMyIngredients.mockResolvedValue([
       { id: 10, name: 'Milk', quantity: 1, unit: 'bottle', expirationDate: '2099-01-01', favorite: false },
     ]);
     await renderPanel();
 
-    fireEvent.click(screen.getByRole('tab', { name: '♥ Favorite Foods' }));
+    fireEvent.click(screen.getByRole('tab', { name: 'Favorite foods' }));
     expect(screen.getByText(/No favorite foods yet/)).toBeInTheDocument();
   });
 

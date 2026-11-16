@@ -7,6 +7,7 @@ import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSo
 import { daysUntil } from '../utils/expiration';
 import AddIngredientModal from './AddIngredientModal';
 import GroceryList from './GroceryList';
+import SupplementsPanel from './SupplementsPanel';
 import TrashCan from './TrashCan';
 import UndoToast from './UndoToast';
 
@@ -104,7 +105,8 @@ function IngredientsPanel({ currentUser }) {
   const { ingredients, setIngredients, loading, error } = useIngredients(currentUser?.token);
   const [modalOpen, setModalOpen] = useState(false);
   const [editingIngredient, setEditingIngredient] = useState(null);
-  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
+  // Filter tab: 'all' | 'supplements' | 'favorites'
+  const [activePantryTab, setActivePantryTab] = useState('all');
   const [toast, setToast] = useState(null);
   const [gulping, setGulping] = useState(false);
   // The ingredient waiting out its undo window: { item, timer }.
@@ -216,6 +218,8 @@ function IngredientsPanel({ currentUser }) {
   const sortedIngredients = [...ingredients].sort(
     (a, b) => daysUntil(a.expirationDate) - daysUntil(b.expirationDate),
   );
+  const showFavoritesOnly = activePantryTab === 'favorites';
+  const showSupplements = activePantryTab === 'supplements';
   const visibleIngredients = showFavoritesOnly
     ? sortedIngredients.filter((item) => item.favorite)
     : sortedIngredients;
@@ -226,31 +230,46 @@ function IngredientsPanel({ currentUser }) {
     <>
       <section className="ingredients-panel">
         <div className="ingredients-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
-          <h2>Ingredients</h2>
+          <h2>{showSupplements ? 'Supplements' : 'Ingredients'}</h2>
           {currentUser && !loading && !error && (
             <div className="pantry-filter-tabs" role="tablist" aria-label="Pantry filter">
               <button
                 type="button"
                 role="tab"
-                aria-selected={!showFavoritesOnly}
+                aria-selected={activePantryTab === 'all'}
                 className="recipe-tab"
-                onClick={() => setShowFavoritesOnly(false)}
+                onClick={() => setActivePantryTab('all')}
               >
                 All Foods
               </button>
               <button
                 type="button"
                 role="tab"
-                aria-selected={showFavoritesOnly}
+                aria-selected={activePantryTab === 'supplements'}
                 className="recipe-tab"
-                onClick={() => setShowFavoritesOnly(true)}
+                onClick={() => setActivePantryTab('supplements')}
               >
-                ♥ Favorite Foods
+                Supplements
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={activePantryTab === 'favorites'}
+                className="recipe-tab"
+                onClick={() => setActivePantryTab('favorites')}
+              >
+                Favorite foods
               </button>
             </div>
           )}
         </div>
-        {currentUser && !loading && !error && trackedCount > 0 && (
+        {!currentUser && <p>Log in to track your ingredients.</p>}
+        {currentUser && loading && <p>Loading ingredients...</p>}
+        {currentUser && error && <p className="error-text">{error}</p>}
+        {currentUser && !loading && !error && showSupplements && (
+          <SupplementsPanel currentUser={currentUser} />
+        )}
+        {currentUser && !loading && !error && !showSupplements && trackedCount > 0 && (
           <div className="pantry-macros" aria-label="Pantry nutrition totals">
             <span><strong>{formatAmount(totals.calories)}</strong> kcal</span>
             <span><strong>{formatAmount(totals.protein)}g</strong> protein</span>
@@ -258,13 +277,10 @@ function IngredientsPanel({ currentUser }) {
             <span><strong>{formatAmount(totals.fat)}g</strong> fat</span>
           </div>
         )}
-        {!currentUser && <p>Log in to track your ingredients.</p>}
-        {currentUser && loading && <p>Loading ingredients...</p>}
-        {currentUser && error && <p className="error-text">{error}</p>}
         {currentUser && !loading && !error && showFavoritesOnly && visibleIngredients.length === 0 && (
           <p className="empty-favorites-hint">No favorite foods yet. Tap ♥ on an ingredient to mark it as a favorite.</p>
         )}
-        {currentUser && !loading && !error && (
+        {currentUser && !loading && !error && !showSupplements && (
           <ul className="ingredients-list">
             {visibleIngredients.map((item) => {
               const daysLeft = daysUntil(item.expirationDate);
@@ -322,17 +338,19 @@ function IngredientsPanel({ currentUser }) {
             })}
           </ul>
         )}
-        <div className="ingredients-footer">
-          <button
-            type="button"
-            className="add-ingredient-button"
-            disabled={!currentUser}
-            onClick={() => setModalOpen(true)}
-          >
-            + Add Ingredient
-          </button>
-          {currentUser && <TrashCan ref={trashRef} state={trashState} />}
-        </div>
+        {!showSupplements && (
+          <div className="ingredients-footer">
+            <button
+              type="button"
+              className="add-ingredient-button"
+              disabled={!currentUser}
+              onClick={() => setModalOpen(true)}
+            >
+              + Add Ingredient
+            </button>
+            {currentUser && <TrashCan ref={trashRef} state={trashState} />}
+          </div>
+        )}
         <p id="trash-hint" className="visually-hidden">
           Drag an ingredient onto the trash can to delete it, or select it and press Delete.
         </p>
