@@ -54,11 +54,11 @@ function AddIngredientModal({ token, onClose, onAdded, ingredient = null, onSave
         quantity: Number(quantity),
         unit,
         expirationDate,
-        favorite,
         calories: toOptionalNumber(nutrition.calories),
         protein: toOptionalNumber(nutrition.protein),
         carbs: toOptionalNumber(nutrition.carbs),
         fat: toOptionalNumber(nutrition.fat),
+        ...((favorite || ingredient?.favorite != null) ? { favorite } : {}),
       };
       const saved = editing ? await updateIngredient(token, ingredient.id, values) : await createIngredient(token, values);
       if (editing) onSaved(saved);
