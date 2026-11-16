@@ -196,9 +196,45 @@ public class GroceryListService {
                 return owned.isEmpty() ? new Remaining("", "") : null;
             }
 
+            // First subtract within the exact same unit family (e.g., lb/oz/g/kg or cup/tbsp/ml/l).
+            Map<String, Double> leftoverBaseByFamily = new LinkedHashMap<>();
+            byFamily.forEach((family, need) -> {
+                double haveInFamily = haveByFamily.getOrDefault(family, 0.0);
+                double used = Math.min(need.base, haveInFamily);
+                haveByFamily.put(family, haveInFamily - used);
+                leftoverBaseByFamily.put(family, Math.max(0.0, need.base - used));
+            });
+
+            // Convert any unused pantry stock into grams so cross-family equivalents
+            // (e.g., 1 lb of onion covering 1 each onion or 1 cup chopped onion) are also subtracted.
+            final double[] unusedGrams = {0.0};
+            haveByFamily.forEach((family, leftBase) -> {
+                if (leftBase > 1e-6) {
+                    double baseToGrams = switch (family) {
+                        case "weight" -> 1.0;
+                        case "volume" -> 4.92892;
+                        case "count" -> 120.0;
+                        default -> 100.0;
+                    };
+                    unusedGrams[0] += leftBase * baseToGrams;
+                }
+            });
+
             List<String> parts = new ArrayList<>();
             byFamily.forEach((family, need) -> {
-                double left = need.base - haveByFamily.getOrDefault(family, 0.0);
+                double left = leftoverBaseByFamily.getOrDefault(family, 0.0);
+                if (left > 1e-6 && unusedGrams[0] > 1e-6) {
+                    double baseToGrams = switch (family) {
+                        case "weight" -> 1.0;
+                        case "volume" -> 4.92892;
+                        case "count" -> 120.0;
+                        default -> 100.0;
+                    };
+                    double neededGrams = left * baseToGrams;
+                    double coveredGrams = Math.min(neededGrams, unusedGrams[0]);
+                    unusedGrams[0] -= coveredGrams;
+                    left = Math.max(0.0, neededGrams - coveredGrams) / baseToGrams;
+                }
                 if (left > 1e-6) {
                     parts.add(GroceryUnits.format(left / need.factor, need.displayUnit));
                 }

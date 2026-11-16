@@ -5,6 +5,7 @@ import { useIngredients } from '../hooks/useIngredients';
 import { useDragToTrash } from '../hooks/useDragToTrash';
 import { playLidSound, playRestoreSound, playTrashSound } from '../utils/trashSounds';
 import { daysUntil } from '../utils/expiration';
+import { getUnitEquivalents } from '../utils/unitConversion';
 import AddIngredientModal from './AddIngredientModal';
 import GroceryList from './GroceryList';
 import SupplementsPanel from './SupplementsPanel';
@@ -95,6 +96,12 @@ function pantryQuantityLabel(item) {
   const quantity = Number(item.quantity);
   if (item.quantity == null || !Number.isFinite(quantity)) return '';
   return formatWithUnit(quantity, item.unit);
+}
+
+function pantryEquivalentTooltip(item) {
+  const equivalents = getUnitEquivalents(item.quantity, item.unit, item.name);
+  if (equivalents.length === 0) return '';
+  return `Equivalent to: ${equivalents.slice(0, 4).map((eq) => eq.text).join(' · ')}`;
 }
 
 /* ==========================================================================
@@ -285,6 +292,7 @@ function IngredientsPanel({ currentUser }) {
             {visibleIngredients.map((item) => {
               const daysLeft = daysUntil(item.expirationDate);
               const quantityLabel = pantryQuantityLabel(item);
+              const equivalentTooltip = pantryEquivalentTooltip(item);
               const isFav = Boolean(item.favorite);
               return (
                 <li
@@ -305,7 +313,11 @@ function IngredientsPanel({ currentUser }) {
                   <span>
                     {item.name}
                     {quantityLabel && (
-                      <span className="ingredient-quantity" style={{ opacity: 0.7 }}>
+                      <span
+                        className="ingredient-quantity"
+                        title={equivalentTooltip || undefined}
+                        style={{ opacity: 0.7 }}
+                      >
                         {' · '}
                         {quantityLabel}
                       </span>

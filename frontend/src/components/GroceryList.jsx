@@ -5,6 +5,7 @@ import {
   getGroceryList,
   setGroceryItemChecked,
 } from '../services/groceryListServices';
+import { reconcileGroceryItemsWithPantry } from '../utils/unitConversion';
 
 const RANGE_OPTIONS = [
   { days: 7, label: 'Next 7 days' },
@@ -80,7 +81,8 @@ function GroceryList({ token, ingredients }) {
     });
   }
 
-  const items = list?.items ?? [];
+  const rawItems = list?.items ?? [];
+  const items = reconcileGroceryItemsWithPantry(rawItems, ingredients);
   // Unchecked first, so what is left to buy stays at the top.
   const sorted = [...items].sort((a, b) => Number(a.checked) - Number(b.checked));
   const checkedCount = items.filter((item) => item.checked).length;

@@ -111,4 +111,21 @@ describe('GroceryList', () => {
     await renderList();
     expect(screen.getByRole('alert')).toHaveTextContent('Could not load your grocery list.');
   });
+
+  it('automatically converts pantry units so 1 lb of onion covers 50 g of onion and is removed from the grocery list', async () => {
+    groceryListServices.getGroceryList.mockResolvedValue({
+      from: '2030-05-01',
+      to: '2030-05-07',
+      plannedMeals: 2,
+      items: [
+        { key: 'onion', name: 'Onion', amount: '50 g', have: '', recipes: ['French Onion Soup'], checked: false },
+        { key: 'flour', name: 'Flour', amount: '4 cup', have: '', recipes: ['Pancakes'], checked: false },
+      ],
+    });
+    await renderList({
+      ingredients: [{ id: 1, name: 'Onion', quantity: 1, unit: 'lb', expirationDate: '2099-01-01' }],
+    });
+    expect(screen.queryByText('Onion')).not.toBeInTheDocument();
+    expect(screen.getByText('Flour')).toBeInTheDocument();
+  });
 });

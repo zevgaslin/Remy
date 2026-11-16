@@ -46,6 +46,32 @@ describe('useRecipes', () => {
     expect(result.current.searchActive).toBe(true);
   });
 
+  it('converts pantry units when matching recipes so 1 lb of onion qualifies for 50 g of onion', async () => {
+    getMyIngredients.mockResolvedValue([{ id: 1, name: 'Onion', quantity: 1, unit: 'lb' }]);
+    recipes.searchRecipes.mockResolvedValue([
+      {
+        recipe: {
+          id: 99,
+          name: 'Caramelized Onion Tart',
+          ingredients: [{ name: 'Onion', quantity: 50, unit: 'g', optional: false }],
+        },
+        matchScore: 100,
+        matchedIngredients: ['Onion'],
+        missingIngredients: [],
+      },
+    ]);
+    const { result } = renderHook(() => useRecipes({ token: 'user-token' }));
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    await act(async () => { await result.current.search({ requireAllIngredients: true }); });
+    expect(result.current.recipes).toHaveLength(1);
+    expect(result.current.recipes[0]).toMatchObject({
+      name: 'Caramelized Onion Tart',
+      matchScore: 100,
+      matchedIngredients: ['Onion'],
+      missingIngredients: [],
+    });
+  });
+
   it('sends only pantry items expiring within three days for the expiring soon filter', async () => {
     const inDays = (days) => {
       const date = new Date();
